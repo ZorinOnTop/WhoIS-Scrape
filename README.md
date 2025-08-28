@@ -1,3 +1,1 @@
-<p align="center">
-  <h1>WhoIS Scrape</h1>
-</p>
+<h1 align="center">WhoIS Scrape</h1>
