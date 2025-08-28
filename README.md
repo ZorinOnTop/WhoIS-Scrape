@@ -1,1 +1,1 @@
-<h1 align="center">WhoIS Scrape</h1><p align="center">An awesome README template to jumpstart your projects!</p>
+<h1 align="center">WhoIS Scrape</h1><p align="center">List of all Autonomous System Numbers for educational purposes.</p>
