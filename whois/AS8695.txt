@@ -1,0 +1,245 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8695'
+
+% Abuse contact for 'AS8695' is 'abuse@status.ks.ua'
+
+aut-num:        AS8695
+as-name:        KS-IX-AS
+descr:          Kherson Traffic Exchange
+remarks:        Kherson Traffic Exchange
+remarks:        http://ix.ks.ua/
+remarks:        ---------------------------------------------| STATUS
+import:         from AS25482 action pref=100; accept AS25482:AS-CUSTOMERS
+export:         to AS25482 announce AS-KS-IX
+mp-import:      afi ipv6.unicast from AS25482 accept AS-STATUS-V6
+mp-export:      afi ipv6.unicast to AS25482 announce AS-KS-IX-V6
+remarks:        ---------------------------------------------| UKRCOM
+import:         from AS21151 action pref=100; accept AS21151:AS-CUSTOMERS
+export:         to AS21151 announce AS-KS-IX
+mp-import:      afi ipv6.unicast from AS21151 accept AS21151:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS21151 announce AS-KS-IX-V6
+remarks:        ---------------------------------------------| NORMA-4
+import:         from AS56404 action pref=100; accept AS56404
+export:         to AS56404 announce AS-KS-IX
+remarks:        ---------------------------------------------| TLC
+import:         from AS15458 action pref=100; accept AS15458
+export:         to AS15458 announce AS-KS-IX
+remarks:        ---------------------------------------------| KahovkaNet
+import:         from AS35213 action pref=100; accept AS-PCN
+export:         to AS35213 announce AS-KS-IX
+mp-import:      afi ipv6.unicast from AS35213 accept AS-PCN-V6
+mp-export:      afi ipv6.unicast to AS35213 announce AS-KS-IX-V6
+remarks:        ---------------------------------------------| Server.UA DC
+import:         from AS41018 action pref=100; accept AS-OMNILANCE
+export:         to AS41018 announce AS-KS-IX
+mp-import:      afi ipv6.unicast from AS41018 accept AS-OMNILANCE-V6
+mp-export:      afi ipv6.unicast to AS41018 announce AS-KS-IX-V6
+remarks:        ---------------------------------------------| OstrovNet
+import:         from AS56446 action pref=100; accept AS56446
+export:         to AS56446 announce AS-KS-IX
+remarks:        ---------------------------------------------| SkyNet
+import:         from AS47598 action pref=100; accept AS-KHERSONTELECOM
+export:         to AS47598 announce AS-KS-IX
+remarks:        ---------------------------------------------| SMART-M SOLUTIONS LLC
+import:         from AS57498 action pref=100; accept AS57498
+export:         to AS57498 announce AS-KS-IX
+remarks:        ---------------------------------------------| Brok-X
+import:         from AS49168 action pref=100; accept AS49168
+export:         to AS49168 announce AS-KS-IX
+remarks:        ---------------------------------------------| Next
+import:         from AS44737 action pref=100; accept AS44737
+export:         to AS44737 announce AS-KS-IX
+remarks:        ---------------------------------------------| LineVPS
+import:         from AS59500 action pref=100; accept AS59500
+export:         to AS59500 announce AS-KS-IX
+remarks:        ---------------------------------------------| Stream-Kherson
+import:         from AS42782 action pref=100; accept AS42782
+export:         to AS42782 announce AS-KS-IX
+remarks:        ---------------------------------------------| Online-Net
+import:         from AS39667 action pref=100; accept AS39667
+export:         to AS39667 announce AS-KS-IX
+remarks:        ---------------------------------------------| MEDIANA
+import:         from AS56347 action pref=100; accept AS-MEDIANA
+export:         to AS56347 announce AS-KS-IX
+remarks:        ---------------------------------------------| RUBIN
+import:         from AS49465 action pref=100; accept AS49465
+export:         to AS49465 announce AS-KS-IX
+remarks:        ---------------------------------------------| SK-NET
+import:         from AS204485 action pref=100; accept AS204485
+export:         to AS204485 announce AS-KS-IX
+remarks:        ---------------------------------------------| M-NET
+import:         from AS25256 action pref=100; accept AS25256
+export:         to AS25256 announce AS-KS-IX
+remarks:        ---------------------------------------------| WINTELECOM
+import:         from AS207416 action pref=100; accept AS-WINTELECOM
+export:         to AS207416 announce AS-KS-IX
+remarks:        ---------------------------------------------| VINER
+import:         from AS25082 action pref=100; accept AS-VINER
+export:         to AS25082 announce AS-KS-IX
+remarks:        ---------------------------------------------| DIGICOM
+import:         from AS39862 action pref=100; accept AS-DIGIUA
+export:         to AS39862 announce AS-KS-IX
+mp-import:      afi ipv6.unicast from AS39862 accept AS-DIGIUA-V6
+mp-export:      afi ipv6.unicast to AS39862 announce AS-KS-IX-V6
+remarks:        ---------------------------------------------| Kahovka
+import:         from AS205239 action pref=100; accept AS205239
+export:         to AS205239 announce AS-KS-IX
+remarks:        ---------------------------------------------| KN
+import:         from AS57615 action pref=100; accept AS57615
+export:         to AS57615 announce AS-KS-IX
+remarks:        ---------------------------------------------|
+remarks:        ====================================================================
+remarks:        Communities accepted
+remarks:        ====================================================================
+remarks:        8695:1nnnt, where nnn - number of customer, t - action.
+remarks:        Customers:
+remarks:        000 - All customers
+remarks:        001 - AS25482 STATUS
+remarks:        002 - AS21151 UKRCOM
+remarks:        003 - AS56404 NORMA-4
+remarks:        004 - AS15458 TLC
+remarks:        005 - AS35213 KahovkaNet
+remarks:        006 - AS41018 ServerUA
+remarks:        007 - AS56446 OstrovNet
+remarks:        008 - AS47598 SkyNet
+remarks:        009 - AS57498 SMART-M
+remarks:        010 - AS49168 Brok-X
+remarks:        011 - AS44737 Next
+remarks:        012 - AS59500 LineVPS
+remarks:        013 - AS42782 Stream-Kherson
+remarks:        014 - AS39667 Online-Net
+remarks:        015 - AS56347 MEDIANA
+remarks:        016 - AS49465 Rubin
+remarks:        017 - AS204485 SK-NET
+remarks:        018 - AS25256 M-NET
+remarks:        019 - AS207416 WINTELECOM
+remarks:        020 - AS25082 VINER
+remarks:        021 - AS39862 DIGICOM
+remarks:        022 - AS205239 Kahovka
+remarks:        023 - AS57615 KN
+remarks:        Action:
+remarks:        0 - do not announce to customer
+remarks:        1 - prepend once
+remarks:        2 - prepend twice
+remarks:        3 - prepend 3x
+remarks:        --------------------------------------------------------------------
+remarks:        8695:20xxx - set local preference xxx to prefix (0/50/100/150)
+remarks:        --------------------------------------------------------------------
+remarks:        8695:666 - blackhole
+remarks:        --------------------------------------------------------------------
+remarks:        ====================================================================
+remarks:        Please contact noc@ix.ks.ua with any questions
+remarks:        ====================================================================
+remarks:        ====================================================================
+remarks:        RFC1918 and other reserved networks and subnets are
+remarks:        not permitted.
+remarks:        --------------------------------------------------------------------
+remarks:        Advertisements with reserved ASes in the path
+remarks:        (ie 64512 - 65535) are not permitted.
+remarks:        ====================================================================
+org:            ORG-PEF2-RIPE
+admin-c:        BUM87-RIPE
+tech-c:         BUM87-RIPE
+tech-c:         SBR90-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         STATUS-MNT
+mnt-by:         KS-IX-MNT
+created:        2015-10-12T14:10:55Z
+last-modified:  2022-06-27T20:47:42Z
+source:         RIPE
+sponsoring-org: ORG-UL88-RIPE
+
+organisation:   ORG-PEF2-RIPE
+org-name:       Private Enterprise "Law Firm "Status"
+country:        UA
+remarks:        ISP STATUS
+org-type:       other
+address:        73000, Ukraine, Kherson, Soborna str. 2, apt. 3
+abuse-c:        ADST-RIPE
+admin-c:        BUM87-RIPE
+admin-c:        MLK66-RIPE
+phone:          +38 0552 70-83-43
+phone:          +38 050 973-21-26
+phone:          +38 096 731-61-01
+geoloc:         50.449536361577174 30.525348059307767
+mnt-ref:        STATUS-MNT
+mnt-by:         STATUS-MNT
+created:        2014-04-24T16:45:37Z
+last-modified:  2025-08-22T11:03:15Z
+source:         RIPE # Filtered
+
+person:         Alex Kovalenko
+address:        Kherson, Soborna str. 2
+phone:          +38 067 553-08-34
+nic-hdl:        BUM87-RIPE
+mnt-by:         STATUS-MNT
+created:        2014-04-24T14:02:04Z
+last-modified:  2021-12-22T16:08:50Z
+source:         RIPE # Filtered
+
+person:         Igor Gavrilov
+address:        Kherson, Voroshilova str. 25
+phone:          +38 0552 70-83-43
+nic-hdl:        SBR90-RIPE
+mnt-by:         STATUS-MNT
+mnt-by:         KS-IX-MNT
+created:        2015-10-14T14:15:34Z
+last-modified:  2021-12-22T16:08:18Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          185.1.39.0/24
+descr:          Kherson Traffic Exchange Network
+origin:         AS8695
+mnt-by:         STATUS-MNT
+created:        2015-10-13T14:46:12Z
+last-modified:  2015-10-13T14:46:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:7f8:80::/48
+origin:         AS8695
+mnt-by:         STATUS-MNT
+mnt-by:         KS-IX-MNT
+created:        2016-11-30T12:22:38Z
+last-modified:  2016-11-30T12:22:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

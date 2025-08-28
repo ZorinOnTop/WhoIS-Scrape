@@ -1,0 +1,418 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8821'
+
+% Abuse contact for 'AS8821' is 'abuse@wwztelekom.ch'
+
+aut-num:        AS8821
+as-name:        TELEZUG
+descr:          WWZ Telekom AG (TELEZUG)
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          http://www.wwz.ch
+remarks:        ----------------------------------------------------------------------
+remarks:        For peering requests or queries please contact
+remarks:        peering@wwz.ch
+remarks:        Please find our peering details at
+remarks:        http://www.wwz.ch/peering
+remarks:        ----------------------------------------------------------------------
+remarks:
+export:         to AS8821:AS-TRANSIT announce AS8821:AS-WWZ
+export:         to AS8821:AS-CUSTOMERS announce ANY
+export:         to AS8821:AS-PEERS announce AS8821:AS-WWZ
+remarks:
+import:         from AS8821:AS-TRANSIT accept ANY
+import:         from AS8821:AS-CUSTOMERS accept AS8821:AS-CUSTOMERS:PeerAS
+import:         from AS8821:AS-PEERS accept AS8821:AS-PEERS:PeerAS
+remarks:
+remarks:        ----------------------------------------------------------------------
+remarks:
+mp-export:      afi ipv6.unicast to AS8821:AS-TRANSIT announce AS8821:AS-WWZ
+mp-export:      afi ipv6.unicast to AS8821:AS-CUSTOMERS announce ANY
+mp-export:      afi ipv6.unicast to AS8821:AS-PEERS announce AS8821:AS-WWZ
+remarks:
+mp-import:      afi ipv6.unicast from AS8821:AS-TRANSIT accept ANY
+mp-import:      afi ipv6.unicast from  AS8821:AS-CUSTOMERS accept AS8821:AS-CUSTOMERS:PeerAS
+mp-import:      afi ipv6.unicast from  AS8821:AS-PEERS accept AS8821:AS-PEERS:PeerAS
+remarks:
+remarks:        ----------------------------------------------------------------------
+remarks:        IX route server filtering
+remarks:
+export-via:     AS6777 to AS-ANY announce AS8821:AS-WWZ
+import-via:     AS6777 from AS-ANY accept ANY
+remarks:
+remarks:        ----------------------------------------------------------------------
+org:            ORG-TA3-RIPE
+admin-c:        TZE1-RIPE
+tech-c:         TZN1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8821-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2019-04-04T12:35:12Z
+source:         RIPE
+
+organisation:   ORG-TA3-RIPE
+org-name:       WWZ Telekom AG
+country:        CH
+org-type:       LIR
+address:        Chollerstrasse 24
+address:        CH-6301
+address:        Zug
+address:        SWITZERLAND
+phone:          +41417484545
+fax-no:         +41417484747
+admin-c:        TZE1-RIPE
+mnt-ref:        AS8821-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8821-MNT
+abuse-c:        TZN1-RIPE
+created:        2004-04-17T11:03:24Z
+last-modified:  2020-12-16T12:30:56Z
+source:         RIPE # Filtered
+
+role:           Telezug Network Engineering
+address:        WWZ Telekom AG
+address:        Chollerstrasse 24
+address:        CH-6301 Zug
+address:        Switzerland
+phone:          +41 41 748 49 30
+fax-no:         +41 41 748 47 47
+remarks:        ****************************************************
+abuse-mailbox:  abuse@wwztelekom.ch
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        For Security related tasks, use security@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+mnt-by:         AS8821-MNT
+admin-c:        STW14-RIPE
+tech-c:         BHEG1-RIPE
+tech-c:         MSA257-RIPE
+nic-hdl:        TZE1-RIPE
+created:        2003-06-19T13:42:43Z
+last-modified:  2020-02-11T10:22:32Z
+source:         RIPE # Filtered
+
+role:           Telezug Network Operations Center
+address:        WWZ Telekom AG
+address:        Chollerstrasse 24
+address:        CH-6301 Zug
+address:        Switzerland
+phone:          +41 41 748 49 30
+fax-no:         +41 41 748 47 47
+remarks:        ****************************************************
+abuse-mailbox:  abuse@wwztelekom.ch
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        For Security related tasks, use security@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+mnt-by:         AS8821-MNT
+admin-c:        TZE1-RIPE
+tech-c:         TZE1-RIPE
+nic-hdl:        TZN1-RIPE
+created:        2003-06-19T13:39:02Z
+last-modified:  2013-08-28T15:56:59Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          62.171.0.0/17
+descr:          WWZ Telekom AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2018-05-24T15:16:06Z
+last-modified:  2024-06-24T10:40:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.245.176.0/20
+descr:          WWZ Telekom AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2024-06-18T07:23:00Z
+last-modified:  2024-06-24T10:41:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.136.64.0/18
+descr:          Telezug AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2003-06-30T11:37:41Z
+last-modified:  2024-06-24T10:41:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          151.248.128.0/17
+descr:          WWZ Telekom AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2014-04-03T12:05:12Z
+last-modified:  2024-06-24T10:36:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.181.96.0/19
+descr:          WWZ Telekom AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2011-11-14T13:21:12Z
+last-modified:  2024-06-24T10:38:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.42.244.0/22
+descr:          WWZ Telekom AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2013-12-17T09:10:36Z
+last-modified:  2024-06-24T10:39:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.244.112.0/22
+descr:          WWZ Telekom AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2024-06-18T07:24:17Z
+last-modified:  2024-06-24T10:39:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.4.64.0/19
+descr:          Telezug AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-06-24T10:40:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.194.48.0/20
+descr:          WWZ Telekom AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2024-09-23T10:26:37Z
+last-modified:  2024-09-23T10:28:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:760::/29
+descr:          WWZ Telekom AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2024-06-19T04:28:30Z
+last-modified:  2024-06-24T10:42:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:8b80::/29
+descr:          WWZ Telekom AG
+descr:          Chollerstrasse 24
+descr:          CH-6301 Zug
+descr:          Switzerland
+remarks:        ****************************************************
+remarks:        For Spam/Abuse, please contact ONLY abuse@wwztelekom.ch
+remarks:        E-mails to other addresses will be IGNORED
+remarks:        ****************************************************
+member-of:      RS-TELEZUG
+origin:         AS8821
+mnt-by:         AS8821-MNT
+created:        2019-04-11T09:22:52Z
+last-modified:  2024-06-24T10:42:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:62a0:4101::/48
+origin:         AS8821
+mnt-by:         Landis-RIPE
+created:        2024-08-22T12:09:29Z
+last-modified:  2024-08-22T12:09:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

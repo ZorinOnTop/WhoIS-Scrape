@@ -1,0 +1,4340 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5385'
+
+% Abuse contact for 'AS5385' is 'abuse@tele.net'
+
+aut-num:        AS5385
+as-name:        RUSSMEDIA-IT
+org:            ORG-TCSG1-RIPE
+remarks:        ============================================================
+remarks:        IPV4 Upstreams
+remarks:        ============================================================
+remarks:        upstream: TELEKOM-AT
+import:         from AS8447 action pref=100; accept ANY
+export:         to AS8447 announce AS-TELEPORT
+remarks:        upstream: Arelion, f/k/a Telia Carrier, TWELVE99
+import:         from AS1299 action pref=100; accept ANY
+export:         to AS1299 announce AS-TELEPORT
+remarks:        upstream: SWISSIX-AS
+import:         from AS42476 action pref=100; accept ANY
+export:         to AS42476 announce AS-TELEPORT
+remarks:        ============================================================
+remarks:        IPV6 Upstreams
+remarks:        ============================================================
+remarks:        upstream: TELEKOM-AT
+mp-import:      afi ipv6.unicast from AS8447 action pref=100; accept ANY;
+mp-export:      afi ipv6.unicast to AS8447 announce AS-TELEPORT6;
+remarks:        upstream: Arelion, f/k/a Telia Carrier, TWELVE99
+mp-import:      afi ipv6.unicast from AS1299 action pref=100; accept ANY;
+mp-export:      afi ipv6.unicast to AS1299 announce AS-TELEPORT6;
+remarks:        upstream: SWISSIX-AS
+mp-import:      afi ipv6.unicast from AS42476 action pref=100; accept ANY;
+mp-export:      afi ipv6.unicast to AS42476 announce AS-TELEPORT6;
+remarks:        ============================================================
+remarks:        Customers
+remarks:        ============================================================
+remarks:        Vorarlberger Telekommunikations-GmbH
+import:         from AS12762 action pref=100; accept AS12762
+export:         to AS12762 announce ANY
+remarks:        Gebrueder Weiss GmbH
+import:         from AS24824 action pref=100; accept AS24824
+export:         to AS24824 announce ANY
+remarks:        EWB Cable Network
+import:         from AS41549 action pref=100; accept AS41549
+export:         to AS41549 announce ANY
+remarks:        Zuers.net
+import:         from AS197082 action pref=100; accept AS197082
+export:         to AS197082 announce ANY
+remarks:        Schwarzach Packaging GmbH
+import:         from AS197198 action pref=100; accept AS197198
+export:         to AS197198 announce ANY
+remarks:        Cable Lampert
+import:         from AS59890 action pref=100; accept AS59890
+export:         to AS59890 announce ANY
+remarks:        Gantner Electronics
+import:         from AS208082 action pref=100; accept AS208082
+export:         to AS208082 announce ANY
+remarks:        Elektrizitaetswerke Frastanz GmbH
+import:         from AS197917 action pref=100; accept AS197917
+export:         to AS197917 announce ANY
+remarks:        Russmedia IT
+import:         from AS20882 action pref=100; accept AS20882
+export:         to AS20882 announce ANY
+remarks:        Neotel
+import:         from AS39394 action pref=100; accept AS39394
+export:         to AS39394 announce AS-TELEPORT
+remarks:        Heron Innovations Factory GmbH
+import:         from AS214335 action pref=100; accept AS214335
+export:         to AS214335 announce AS-TELEPORT
+remarks:        ============================================================
+remarks:        SwissIX Peers -> https://www.swissix.ch
+remarks:        ============================================================
+import:         from AS21232 action pref=300; accept AS-GGAMAUR
+export:         to AS21232 announce AS-TELEPORT
+import:         from AS16509 action pref=300; accept AS-AMAZON
+export:         to AS16509 announce AS-TELEPORT
+import:         from AS1764 action pref=300; accept AS-NEXTLAYER
+export:         to AS1764 announce AS-TELEPORT
+import:         from AS49544 action pref=300; accept AS-INTERACTIVE3D
+export:         to AS49544 announce AS-TELEPORT
+import:         from AS13030 action pref=300; accept AS-INIT7
+export:         to AS13030 announce AS-TELEPORT
+import:         from AS202032 action pref=300; accept AS-GOLINE
+export:         to AS202032 announce AS-TELEPORT
+import:         from AS42 action pref=300; accept AS-PCH
+export:         to AS42 announce AS-TELEPORT
+import:         from AS3856 action pref=300; accept AS-PCH
+export:         to AS3856 announce AS-TELEPORT
+import:         from AS12350 action pref=300; accept AS-VTX
+export:         to AS12350 announce AS-TELEPORT
+import:         from AS13335 action pref=300; accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-TELEPORT
+import:         from AS8075 action pref=300; accept AS-MICROSOFT
+export:         to AS8075 announce AS-TELEPORT
+import:         from AS20940 action pref=300; accept AS-AKAMAI
+export:         to AS20940 announce AS-TELEPORT
+import:         from AS15169 action pref=300; accept AS-GOOGLE
+export:         to AS15169 announce AS-TELEPORT
+remarks:        ============================================================
+remarks:        Rheintal-IX Peers -> https://www.rheintal-ix.net/
+remarks:        ============================================================
+import:         from AS12387 action pref=300; accept AS-TON
+export:         to AS12387 announce AS-TELEPORT
+import:         from AS48362 action pref=300; accept AS-TKSWF
+export:         to AS48362 announce AS-TELEPORT
+import:         from AS198288 action pref=300; accept AS-NEWSNETAG
+export:         to AS198288 announce AS-TELEPORT
+import:         from AS29545 action pref=300; accept AS-IPLACE
+export:         to AS29545 announce AS-TELEPORT
+import:         from AS20634 action pref=300; accept AS-TELECOM
+export:         to AS20634 announce AS-TELEPORT
+import:         from AS34347 action pref=300; accept AS-CNHAT
+export:         to AS34347 announce AS-TELEPORT
+import:         from AS49432 action pref=300; accept AS-SCHALLERT
+export:         to AS49432 announce AS-TELEPORT
+import:         from AS47251 action pref=300; accept AS-VLBGIT
+export:         to AS47251 announce AS-TELEPORT
+import:         from AS13030 action pref=300; accept AS-INIT7
+export:         to AS13030 announce AS-TELEPORT
+remarks:        ============================================================
+admin-c:        TC2115-RIPE
+tech-c:         TC2115-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ============================================================
+remarks:        for any abuse request abuse@TELE.NET
+remarks:        for any dns request domain-admin@TELE.NET
+remarks:        for any technical request support@TELE.NET
+remarks:        for any routing request noc@TELE.NET
+remarks:        for any other request info@TELE.NET
+remarks:        E-mails to the persons below will be IGNORED!!
+remarks:        ============================================================
+remarks:        Peering requests - noc@tele.net
+remarks:        ============================================================
+remarks:        Applied Route Flap Damping Policy conformant to RIPE-580
+remarks:        <<<<< https://www.ripe.net/publications/docs/ripe-580/ >>>>>
+remarks:        ============================================================
+mnt-by:         TELEPORT-MNT
+created:        2002-04-11T22:25:34Z
+last-modified:  2024-11-18T16:21:16Z
+source:         RIPE
+
+organisation:   ORG-TCSG1-RIPE
+org-name:       Russmedia IT GmbH
+country:        AT
+org-type:       LIR
+address:        Gutenbergstrasse 1
+address:        A-6858
+address:        Schwarzach
+address:        AUSTRIA
+phone:          +435572501747
+fax-no:         +435572501730
+abuse-c:        AR14109-RIPE
+admin-c:        TRC1-RIPE
+mnt-ref:        TELEPORT-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TELEPORT-MNT
+created:        2004-04-17T10:59:35Z
+last-modified:  2025-08-18T11:33:06Z
+source:         RIPE # Filtered
+
+role:           Russmedia IT Crew
+address:        Gutenbergstrasse 1
+admin-c:        MB55754-RIPE
+tech-c:         MB55754-RIPE
+nic-hdl:        TC2115-RIPE
+mnt-by:         TELEPORT-MNT
+created:        2008-08-22T11:47:04Z
+last-modified:  2024-08-28T07:53:54Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          194.183.128.0/19
+descr:          AT-TELEPORT-950907
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.128.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:08:40Z
+last-modified:  2021-05-28T12:08:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.129.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:08:40Z
+last-modified:  2021-05-28T12:08:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.130.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.131.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.132.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.133.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.134.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.135.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.136.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.137.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.138.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.139.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.140.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.141.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.142.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.143.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.144.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:54Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.145.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2016-04-06T18:50:04Z
+last-modified:  2021-05-28T12:10:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.146.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.147.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.148.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.149.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.150.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.151.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.152.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.153.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.154.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.155.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.156.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.157.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.158.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.183.159.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:10:55Z
+last-modified:  2021-05-28T12:10:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.0.0/17
+descr:          AT-TELEPORT-170523
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2017-05-23T13:41:30Z
+last-modified:  2017-05-23T13:41:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.0.0/23
+descr:          AT-TELEPORT
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:34Z
+last-modified:  2009-11-09T10:13:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.0.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:14:47Z
+last-modified:  2021-05-28T12:14:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.1.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2016-04-05T08:22:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.2.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.3.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.4.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.5.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.6.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.7.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:34Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.8.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.9.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.10.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.11.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.12.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.13.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.14.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.15.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:34Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.16.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.17.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:35Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.18.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:34Z
+last-modified:  2021-05-28T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.19.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.20.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.21.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.22.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.23.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.24.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.25.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.26.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.27.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.28.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.29.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.30.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.31.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.32.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.33.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.34.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.35.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.36.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.37.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:36Z
+last-modified:  2021-05-28T12:59:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.38.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.39.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.40.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:34Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.41.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.42.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.43.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:34Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.44.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.45.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.46.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2010-12-22T15:14:24Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.47.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.48.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.49.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T09:37:38Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.50.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.51.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:33Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.52.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:33Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.53.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T09:55:05Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.54.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T09:56:48Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.55.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:01:20Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.56.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2017-02-01T11:44:27Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.57.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:37Z
+last-modified:  2021-05-28T12:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.58.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:38Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.59.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:01:20Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.60.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:39Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.61.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:39Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.62.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:40Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.63.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:40Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.64.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:40Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.65.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:38Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.66.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:40Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.67.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:38Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.68.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:33Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.69.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:40Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.70.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:38Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.71.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:40Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.72.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:41Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.73.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:38Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.74.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2017-01-17T13:25:18Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.75.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:38Z
+last-modified:  2021-05-28T12:59:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.76.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.77.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:34Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.78.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:35Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.79.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:35Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.80.0/22
+descr:          AT-TELEPORT
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2012-02-14T14:33:36Z
+last-modified:  2012-02-14T14:33:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.80.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.81.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.82.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.83.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.84.0/22
+descr:          AT-TELEPORT
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2012-02-14T14:33:36Z
+last-modified:  2012-02-14T14:33:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.84.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.85.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.86.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.87.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.88.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.89.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2010-12-22T15:14:24Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.90.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.91.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.92.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2010-12-22T15:14:24Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.93.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2012-02-14T14:33:36Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.94.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.95.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:39Z
+last-modified:  2021-05-28T12:59:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.96.0/23
+descr:          AT-TELEPORT
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:35Z
+last-modified:  2009-11-09T10:13:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.96.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:40Z
+last-modified:  2021-05-28T12:59:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.97.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:40Z
+last-modified:  2021-05-28T12:59:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.98.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:40Z
+last-modified:  2021-05-28T12:59:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.99.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:40Z
+last-modified:  2021-05-28T12:59:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.100.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:59:40Z
+last-modified:  2021-05-28T12:59:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.101.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:45Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.102.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:45Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.103.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:45Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.104.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:45Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.105.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:41Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.106.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:41Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.107.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2017-11-24T08:18:57Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.108.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:41Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.109.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:45Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.110.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:45Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.111.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:45Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.112.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:45Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.113.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:45Z
+last-modified:  2021-05-28T12:11:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.114.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.115.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.116.0/22
+descr:          AT-TELEPORT
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2012-02-14T14:33:36Z
+last-modified:  2012-02-14T14:33:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.116.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.117.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.118.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.119.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.120.0/23
+descr:          AT-TELEPORT
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2012-02-14T14:33:36Z
+last-modified:  2012-02-14T14:33:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.120.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.121.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.122.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2012-02-14T14:33:36Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.123.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2012-02-14T14:33:36Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.124.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.125.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.126.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.127.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T12:11:46Z
+last-modified:  2021-05-28T12:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.160.0/20
+descr:          AT-TELEPORT-170523
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2017-05-23T13:38:41Z
+last-modified:  2017-05-23T13:38:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.160.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.161.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.162.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.163.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.164.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.165.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.166.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.167.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.168.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.169.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.170.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.171.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.172.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.173.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.174.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.175.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:23Z
+last-modified:  2021-05-28T13:00:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.184.0/21
+descr:          AT-TELEPORT-170523
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2017-05-23T13:37:24Z
+last-modified:  2017-05-23T13:37:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.184.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:46Z
+last-modified:  2021-05-28T13:00:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.185.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:46Z
+last-modified:  2021-05-28T13:00:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.186.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:46Z
+last-modified:  2021-05-28T13:00:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.187.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:46Z
+last-modified:  2021-05-28T13:00:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.188.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:05:41Z
+last-modified:  2021-05-28T13:00:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.189.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:46Z
+last-modified:  2021-05-28T13:00:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.190.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:46Z
+last-modified:  2021-05-28T13:00:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.191.0/24
+descr:          AT-TELEPORT-20210528
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-05-28T13:00:46Z
+last-modified:  2021-05-28T13:00:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.192.0/18
+descr:          AT-TELEPORT-170523
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2017-05-23T13:36:05Z
+last-modified:  2017-05-23T13:36:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.192.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.193.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.194.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.195.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.196.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.197.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.198.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.199.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.200.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.201.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.202.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.203.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.204.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.205.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.206.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.207.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:53Z
+last-modified:  2021-06-01T08:05:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.209.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.210.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.211.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.212.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.213.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.214.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.215.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.216.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.217.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.218.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.219.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.220.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.221.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.222.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.223.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.224.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.225.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.226.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.227.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.228.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.229.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.230.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.231.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:54Z
+last-modified:  2021-06-01T08:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.232.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.233.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.234.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.235.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.236.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.237.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.238.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.239.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.240.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.241.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.242.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.243.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.244.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.245.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2009-11-09T10:13:35Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.246.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.247.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.248.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.249.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.250.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.251.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.252.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.253.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.254.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:55Z
+last-modified:  2021-06-01T08:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.208.255.0/24
+descr:          AT-TELEPORT-20210601
+origin:         AS5385
+mnt-by:         TELEPORT-MNT
+created:        2021-06-01T08:05:56Z
+last-modified:  2021-06-01T08:05:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:af8::/32
+descr:          AT-TELEPORT-20030207
+descr:          Teleport Consulting
+origin:         AS5385
+notify:         noc@tele.net
+mnt-by:         TELEPORT-MNT
+created:        2005-03-16T20:52:57Z
+last-modified:  2005-03-16T20:52:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

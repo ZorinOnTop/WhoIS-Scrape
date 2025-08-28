@@ -1,0 +1,261 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8890'
+
+% Abuse contact for 'AS8890' is 'abuse@uw.edu.pl'
+
+aut-num:        AS8890
+as-name:        UW-AS
+remarks:        Warsaw, Poland
+org:            ORG-IA45-RIPE
+admin-c:        UWPL
+tech-c:         UWPL
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         UW-PL
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-05-13T09:59:58Z
+source:         RIPE # Filtered
+remarks:
+remarks:        +-----------------------------------------------------------------------+
+remarks:        | |
+remarks:        | BGP contact: net@adm.uw.edu.pl |
+remarks:        | |
+remarks:        +-----------------------------------------------------------------------+
+remarks:
+remarks:        +-----------------------------------------------------------------------+
+remarks:        | |
+remarks:        | UW upstreams |
+remarks:        | |
+remarks:        +-----------------------------------------------------------------------+
+remarks:
+remarks:        ___ ORANGE
+import:         from AS29535 action pref=100; accept ANY
+export:         to AS29535 announce AS8890:AS-IXP
+remarks:
+remarks:        ___ TELNAP
+import:         from AS43372 action pref=100; accept ANY
+export:         to AS43372 announce AS8890:AS-IXP
+remarks:
+remarks:        +-------------------------------------------------------------------------+
+remarks:        | |
+remarks:        | TPIX (policy: open peering ; source: 195.149.232.123 & 195.149.232.181) |
+remarks:        | |
+remarks:        +-------------------------------------------------------------------------+
+remarks:
+remarks:        ___ TPIX RS
+import:         from AS29535 action pref=100; accept ANY
+export:         to AS29535 announce AS8890:AS-IXP
+remarks:
+remarks:        +-----------------------------------------------------------------------+
+remarks:        | |
+remarks:        | Equinix Warsaw (policy: open peering ; source: 195.182.218.53) |
+remarks:        | |
+remarks:        +-----------------------------------------------------------------------+
+remarks:
+remarks:        ___ Equinix RS
+import:         from AS24115 action pref=100; accept ANY
+export:         to AS24115 announce AS8890:AS-IXP
+remarks:
+remarks:        +-----------------------------------------------------------------------+
+remarks:        | |
+remarks:        | Direct peers |
+remarks:        | |
+remarks:        +-----------------------------------------------------------------------+
+remarks:
+remarks:        ___ ICM
+import:         from AS8664 action pref=150; accept AS8664:AS-ICM-1011
+export:         to AS8664 announce AS8890:AS-IXP
+
+organisation:   ORG-IA45-RIPE
+org-name:       University of Warsaw
+country:        PL
+org-type:       LIR
+address:        Krakowskie Przedmiescie 26/28
+address:        00-927
+address:        Warsaw
+address:        POLAND
+phone:          +48225520527
+fax-no:         +48225520837
+admin-c:        UWPL
+tech-c:         UWPL
+abuse-c:        UWPL
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        UW-PL
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         UW-PL
+created:        2004-04-17T11:47:16Z
+last-modified:  2020-12-16T13:11:53Z
+source:         RIPE # Filtered
+
+role:           University of Warsaw Network Department
+address:        Dzial Sieci Komputerowych
+address:        Uniwersytet Warszawski
+address:        Krakowskie Przedmiescie 26/28
+address:        00-927 Warszawa
+address:        Poland
+phone:          +48 22 5520527
+fax-no:         +48 22 8284195
+abuse-mailbox:  abuse@uw.edu.pl
+admin-c:        PMIC1-RIPE
+tech-c:         PMIC1-RIPE
+tech-c:         DAVE5-RIPE
+tech-c:         PZOL1-RIPE
+nic-hdl:        UWPL
+mnt-by:         UW-PL
+created:        2011-09-13T15:09:39Z
+last-modified:  2021-06-30T14:30:21Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          193.0.64.0/18
+descr:          University of Warsaw Network
+descr:          Warsaw, Poland
+origin:         AS8890
+mnt-by:         UW-PL
+mnt-by:         ICM-PL
+created:        2004-12-29T08:06:04Z
+last-modified:  2011-11-23T15:10:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.0.64.0/19
+origin:         AS8890
+mnt-by:         UW-PL
+created:        2019-09-16T09:20:46Z
+last-modified:  2019-09-16T09:20:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.0.96.0/19
+origin:         AS8890
+mnt-by:         UW-PL
+created:        2019-09-16T09:21:19Z
+last-modified:  2019-09-16T09:21:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.87.0.0/20
+descr:          University of Warsaw Network
+descr:          Warsaw, Poland
+origin:         AS8890
+notify:         net@adm.uw.edu.pl
+mnt-by:         UW-PL
+mnt-by:         ICM-PL
+created:        2012-05-30T08:34:44Z
+last-modified:  2012-05-30T08:34:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.87.0.0/21
+origin:         AS8890
+mnt-by:         UW-PL
+created:        2019-09-16T09:21:39Z
+last-modified:  2019-09-16T09:21:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.87.8.0/21
+origin:         AS8890
+mnt-by:         UW-PL
+created:        2019-09-16T09:21:54Z
+last-modified:  2019-09-16T09:21:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.135.63.0/24
+descr:          University of Warsaw
+descr:          Warsaw, Poland
+origin:         AS8890
+mnt-by:         ICM-PL
+created:        2010-08-09T12:25:31Z
+last-modified:  2010-08-09T12:25:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:6a0:4000::/34
+descr:          PL-ICM-UW
+origin:         AS8890
+mnt-by:         ICM-PL
+created:        2009-10-19T15:16:25Z
+last-modified:  2009-10-19T15:16:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

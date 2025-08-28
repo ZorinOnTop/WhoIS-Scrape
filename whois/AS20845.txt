@@ -1,0 +1,2141 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20845'
+
+% Abuse contact for 'AS20845' is 'abuse@digi.hu'
+
+aut-num:        AS20845
+as-name:        DIGICABLE
+org:            ORG-EMKL1-RIPE
+remarks:
+remarks:        *** IPv4 Uplinks ***
+import:         from AS1299 action pref=100; accept ANY
+export:         to AS1299 announce AS-DIGICABLE
+import:         from AS9002 action pref=100; accept ANY
+export:         to AS9002 announce AS-DIGICABLE
+remarks:
+remarks:        *** IPv6 Uplinks ***
+mp-import:      afi ipv6.unicast from AS1299 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS9002 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-DIGICABLE
+remarks:
+remarks:        *** IPv4 CLIENTS ***
+import:         from AS44945 action pref=110; accept AS44945
+export:         to AS44945 announce ANY
+import:         from AS57657 action pref=110; accept AS57657
+export:         to AS57657 announce ANY
+import:         from AS204168 action pref=110; accept AS204168
+export:         to AS204168 announce ANY
+import:         from AS209061 action pref=110; accept AS209061
+export:         to AS209061 announce ANY
+remarks:
+remarks:        *** IPv4 PEERS ***
+import:         from AS1955 action pref=100; accept AS-HBONE
+export:         to AS1955 announce AS-DIGICABLE
+import:         from AS2635 action pref=100; accept AS-AUTOMATTIC
+export:         to AS2635 announce AS-DIGICABLE
+import:         from AS3303 action pref=100; accept AS-SWCMGLOBAL
+export:         to AS3303 announce AS-DIGICABLE
+import:         from AS5483 action pref=100; accept AS-MAGYARTELEKOM
+export:         to AS5483 announce AS-DIGICABLE
+import:         from AS5507 action pref=100; accept AS-BIX
+export:         to AS5507 announce AS-DIGICABLE
+import:         from AS6507 action pref=100; accept AS-RIOT
+export:         to AS6507 announce AS-DIGICABLE
+import:         from AS8075 action pref=100; accept AS-MICROSOFT
+export:         to AS8075 announce AS-DIGICABLE
+import:         from AS8220 action pref=100; accept AS-COLT
+export:         to AS8220 announce AS-DIGICABLE
+import:         from AS8448 action pref=100; accept AS-CETINHU
+export:         to AS8448 announce AS-DIGICABLE
+import:         from AS8990 action pref=100; accept AS-AH
+export:         to AS8990 announce AS-DIGICABLE
+import:         from AS12301 action pref=100; accept AS12301:AS-ROUTES
+export:         to AS12301 announce AS-DIGICABLE
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-DIGICABLE
+import:         from AS15169 action pref=100; accept AS-GOOGLE
+export:         to AS15169 announce AS-DIGICABLE
+import:         from AS16509 action pref=100; accept AS-AMAZON
+export:         to AS16509 announce AS-DIGICABLE
+import:         from AS21334 action pref=100; accept AS-VODAFONE-HU
+export:         to AS21334 announce AS-DIGICABLE
+import:         from AS29278 action pref=100; accept AS-DENINET
+export:         to AS29278 announce AS-DIGICABLE
+import:         from AS49544 action pref=100; accept AS-INTERACTIVE3D
+export:         to AS49544 announce AS-DIGICABLE
+remarks:
+remarks:        *** IPv6 PEERS ***
+mp-import:      afi ipv6.unicast from AS1955 accept AS-HBONE
+mp-export:      afi ipv6.unicast to AS1955 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS2635 accept AS-AUTOMATTIC
+mp-export:      afi ipv6.unicast to AS2635 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS3303 accept AS-SWCMGLOBAL
+mp-export:      afi ipv6.unicast to AS3303 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS5483 accept AS-MAGYARTELEKOM6
+mp-export:      afi ipv6.unicast to AS5483 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS5507 accept AS-BIX-V6
+mp-export:      afi ipv6.unicast to AS5507 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS6507 accept AS-RIOT
+mp-export:      afi ipv6.unicast to AS6507 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS8075 accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS8220 accept AS-COLT
+mp-export:      afi ipv6.unicast to AS8220 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS8448 accept AS-CETINHU6
+mp-export:      afi ipv6.unicast to AS8448 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS8990 accept AS-AH
+mp-export:      afi ipv6.unicast to AS8990 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS12301 accept AS12301:AS-ROUTES
+mp-export:      afi ipv6.unicast to AS12301 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS13335 accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS16509 accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS21334 accept AS-VODAFONE-HU
+mp-export:      afi ipv6.unicast to AS21334 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS29278 accept AS-DENINET6
+mp-export:      afi ipv6.unicast to AS29278 announce AS-DIGICABLE
+mp-import:      afi ipv6.unicast from AS49544 accept AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to AS49544 announce AS-DIGICABLE
+remarks:
+remarks:        ------------------------------------------------
+remarks:        DIGI filters out inbound prefixes longer than /24
+remarks:
+remarks:        Community definitions
+remarks:        ------------------------------------------------
+remarks:        20845:80 Set local preference to 80 inside DIGI
+remarks:        20845:120 Set local preference to 120 inside DIGI
+remarks:        20845:1000 Advertise the prefix
+remarks:        20845:1001 Prepend 1*20845 when advertising
+remarks:        20845:1002 Prepend 2*20845 when advertising
+remarks:        20845:1003 Prepend 3*20845 when advertising
+remarks:
+remarks:        20845:2001 Prepend 1*20845 when announcing to domestic peers
+remarks:        20845:2002 Prepend 2*20845 when announcing to domestic peers
+remarks:        20845:2003 Prepend 3*20845 when announcing to domestic peers
+remarks:
+remarks:
+remarks:        Default local preference
+remarks:        --------------------------------------------------------
+remarks:        Customer 110
+remarks:        Peers 100
+remarks:        Backup 80
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        NOC (24x7): noc@digi.hu
+remarks:        Peering issues: peering@digi.hu
+remarks:        --------------------------------------------------------
+admin-c:        HTS51-RIPE
+tech-c:         HTS51-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         HDSNET-MNT
+created:        2002-01-09T09:09:24Z
+last-modified:  2025-08-08T07:53:20Z
+source:         RIPE
+
+organisation:   ORG-EMKL1-RIPE
+org-name:       DIGI Tavkozlesi es Szolgaltato Kft.
+country:        HU
+org-type:       LIR
+address:        Krisztina krt. 39
+address:        1013
+address:        BUDAPEST
+address:        HUNGARY
+phone:          +3617070707
+fax-no:         +3617070009
+admin-c:        SMOK-RIPE
+abuse-c:        HTS51-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        HDSNET-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         HDSNET-MNT
+created:        2007-05-14T10:11:03Z
+last-modified:  2023-11-06T09:23:54Z
+source:         RIPE # Filtered
+
+role:           HDSNET Technical Staff
+address:        Krisztina krt. 39
+address:        H-1013 Budapest
+address:        Hungary
+phone:          +36 1 7070707
+fax-no:         +36 1 7070009
+remarks:        ***********************************************
+remarks:        * spam or security notify to: abuse@digi.hu *
+remarks:        ***********************************************
+abuse-mailbox:  abuse@digi.hu
+admin-c:        SMOK-RIPE
+admin-c:        IOS2-RIPE
+tech-c:         SMOK-RIPE
+tech-c:         IOS2-RIPE
+nic-hdl:        HTS51-RIPE
+mnt-by:         HDSNET-MNT
+created:        2007-05-14T11:47:02Z
+last-modified:  2023-10-30T11:26:24Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          62.77.196.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-02-01T11:02:59Z
+last-modified:  2021-04-15T14:55:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.77.240.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:53Z
+last-modified:  2021-04-15T14:53:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.77.248.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:53Z
+last-modified:  2021-04-15T14:52:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.165.192.0/18
+descr:          DIGI-09
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-06-05T11:04:28Z
+last-modified:  2014-07-28T08:48:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.234.64.0/19
+descr:          DIGI-14
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-06-05T11:05:12Z
+last-modified:  2014-07-28T08:50:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.131.0.0/17
+descr:          DIGI-1
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2007-05-16T14:22:32Z
+last-modified:  2007-05-16T14:22:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.120.160.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:04Z
+last-modified:  2021-04-15T14:50:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.120.170.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:04Z
+last-modified:  2021-04-15T14:49:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.120.172.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:04Z
+last-modified:  2021-04-15T14:48:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.120.248.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:04Z
+last-modified:  2021-04-15T14:47:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.120.252.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:04Z
+last-modified:  2021-04-15T14:46:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.95.64.0/19
+descr:          DIGI-08
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-09-04T05:52:26Z
+last-modified:  2014-07-28T08:47:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.0.82.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:53Z
+last-modified:  2021-04-15T14:44:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.0.84.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:53Z
+last-modified:  2021-04-15T14:42:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.0.90.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:53Z
+last-modified:  2021-04-15T14:41:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.0.92.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:54Z
+last-modified:  2021-04-15T14:40:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.0.98.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:54Z
+last-modified:  2021-04-15T14:38:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.0.108.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:54Z
+last-modified:  2021-04-15T14:36:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.0.122.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:54Z
+last-modified:  2021-04-15T14:35:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.0.126.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:48:54Z
+last-modified:  2021-04-15T14:34:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.17.176.0/20
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:47:57Z
+last-modified:  2021-04-15T14:16:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.131.128.0/19
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:11Z
+last-modified:  2021-04-15T14:15:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.131.182.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:11Z
+last-modified:  2021-04-15T14:13:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.131.184.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:11Z
+last-modified:  2021-04-15T14:12:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.131.196.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:11Z
+last-modified:  2021-04-15T14:11:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.131.198.0/24
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:12Z
+last-modified:  2021-04-15T14:10:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.131.200.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:12Z
+last-modified:  2021-04-15T14:09:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.131.216.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:12Z
+last-modified:  2021-04-15T14:08:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.131.224.0/19
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:12Z
+last-modified:  2021-04-15T13:29:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.144.164.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:05Z
+last-modified:  2021-04-15T13:28:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.144.172.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:05Z
+last-modified:  2021-04-15T13:27:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.144.176.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:05Z
+last-modified:  2021-04-15T13:26:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.144.188.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:05Z
+last-modified:  2021-04-15T13:25:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.236.0.0/17
+descr:          DIGI-10
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-06-05T11:04:39Z
+last-modified:  2014-07-28T08:48:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.66.0.0/15
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:47:57Z
+last-modified:  2021-04-15T13:23:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.238.64.0/19
+descr:          DIGI-12
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-06-05T11:05:02Z
+last-modified:  2014-07-28T08:49:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.97.0.0/18
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-11T11:34:37Z
+last-modified:  2021-04-15T13:22:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.97.80.0/20
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-11T11:34:37Z
+last-modified:  2021-04-15T13:21:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.97.96.0/19
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-11T11:34:38Z
+last-modified:  2021-04-15T13:19:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.107.248.0/24
+descr:          HU-HDSNET-KISPEST
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2009-02-03T13:58:38Z
+last-modified:  2009-02-03T13:58:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.147.64.0/20
+descr:          Aktiv1-Rubicom
+origin:         AS20845
+mnt-by:         hdsnet-mnt
+mnt-by:         RUBICOM-HU-MNT
+created:        2016-01-27T10:52:42Z
+last-modified:  2016-01-27T10:52:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.147.96.0/22
+descr:          DIGI
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2022-04-27T11:38:25Z
+last-modified:  2022-04-27T11:38:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.147.112.0/21
+descr:          Jaszsag
+origin:         AS20845
+mnt-by:         hdsnet-mnt
+created:        2017-07-26T10:02:31Z
+last-modified:  2017-07-26T10:02:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.148.64.0/18
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:47:57Z
+last-modified:  2021-04-15T13:17:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.186.96.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:36Z
+last-modified:  2021-04-15T13:16:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.186.102.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:36Z
+last-modified:  2021-04-15T09:51:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.186.106.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:36Z
+last-modified:  2021-04-15T09:50:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.186.108.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:36Z
+last-modified:  2021-04-15T09:49:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.186.112.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:37Z
+last-modified:  2021-04-15T09:48:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.186.118.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:37Z
+last-modified:  2021-04-15T09:47:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.186.120.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:54:37Z
+last-modified:  2021-04-15T09:41:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.0.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:06Z
+last-modified:  2021-04-14T16:08:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.24.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:06Z
+last-modified:  2021-04-14T16:07:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.32.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:06Z
+last-modified:  2021-04-14T16:06:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.56.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:06Z
+last-modified:  2021-04-14T16:04:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.60.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:06Z
+last-modified:  2021-04-14T16:03:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.64.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:07Z
+last-modified:  2021-04-14T16:02:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.82.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:07Z
+last-modified:  2021-04-14T16:00:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.130.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:07Z
+last-modified:  2021-04-14T15:59:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.132.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:07Z
+last-modified:  2021-04-14T15:58:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.136.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:07Z
+last-modified:  2021-04-14T15:57:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.82.144.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:07Z
+last-modified:  2021-04-14T15:56:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.160.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:08Z
+last-modified:  2021-04-14T15:54:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.82.168.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:08Z
+last-modified:  2021-04-14T15:53:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.172.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:08Z
+last-modified:  2021-04-14T15:52:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.176.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:08Z
+last-modified:  2021-04-14T15:50:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.188.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:08Z
+last-modified:  2021-04-14T15:48:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.210.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:08Z
+last-modified:  2021-04-14T15:47:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.212.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:09Z
+last-modified:  2021-04-14T15:46:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.228.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:09Z
+last-modified:  2021-04-14T15:44:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.232.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:09Z
+last-modified:  2021-04-14T15:43:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.240.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:09Z
+last-modified:  2021-04-14T15:41:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.82.250.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T11:53:09Z
+last-modified:  2021-04-14T15:40:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.0.0/19
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:12Z
+last-modified:  2021-04-14T13:34:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.32.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:12Z
+last-modified:  2021-04-14T13:32:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.52.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:12Z
+last-modified:  2021-04-14T13:30:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.94.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:12Z
+last-modified:  2021-04-14T13:29:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.102.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:13Z
+last-modified:  2021-04-14T13:28:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.110.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:13Z
+last-modified:  2021-04-14T13:26:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.120.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:13Z
+last-modified:  2021-04-14T13:26:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.136.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:13Z
+last-modified:  2021-04-14T13:24:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.144.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:13Z
+last-modified:  2021-04-14T13:23:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.154.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:13Z
+last-modified:  2021-04-14T13:22:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.180.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:14Z
+last-modified:  2021-04-14T13:21:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.184.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:14Z
+last-modified:  2021-04-14T13:20:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.192.0/20
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:14Z
+last-modified:  2021-04-14T13:19:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.83.252.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:14Z
+last-modified:  2021-04-14T13:15:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.135.112.0/20
+descr:          HU-HDSNET-LEGNET
+origin:         AS20845
+mnt-by:         MNT-ZOLTANSZILAGYI
+mnt-by:         HDSNET-MNT
+created:        2017-03-23T11:22:12Z
+last-modified:  2017-03-23T11:22:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.52.224.0/19
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-02-12T20:06:38Z
+last-modified:  2021-04-12T21:35:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.245.64.0/19
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-02-19T09:19:26Z
+last-modified:  2021-04-12T21:34:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.249.128.0/17
+descr:          HU-HDSNET-20071115
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2008-02-13T16:08:21Z
+last-modified:  2008-02-13T16:08:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.21.0.0/16
+descr:          HU-HDSNET-20080708
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+mnt-routes:     HDSNET-MNT
+created:        2008-07-08T10:25:23Z
+last-modified:  2012-01-06T07:56:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.247.88.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:47:57Z
+last-modified:  2021-04-12T21:32:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.241.0.0/18
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:47:58Z
+last-modified:  2021-04-12T21:30:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.164.128.0/17
+descr:          DIGI-1
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2010-02-16T11:24:35Z
+last-modified:  2010-02-16T11:24:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.29.80.0/22
+descr:          DIGI-1
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2013-06-25T08:49:19Z
+last-modified:  2013-06-25T08:49:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.62.128.0/22
+descr:          Aktiv1-last22
+origin:         AS20845
+mnt-by:         hdsnet-mnt
+created:        2016-01-27T10:53:32Z
+last-modified:  2016-09-19T09:39:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.79.92.0/23
+descr:          DIGI-HU-01
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2014-12-03T05:52:09Z
+last-modified:  2014-12-03T05:52:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.79.94.0/23
+descr:          DIGI-HU-02
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2014-12-03T05:53:03Z
+last-modified:  2014-12-03T05:53:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.142.128.0/19
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T09:47:58Z
+last-modified:  2021-04-12T21:28:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.143.0.0/17
+descr:          DIGI-1
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2011-01-07T12:20:37Z
+last-modified:  2011-01-07T12:20:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.110.56.0/21
+descr:          DIGI-1
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2001-12-29T02:45:23Z
+last-modified:  2008-10-20T08:47:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.192.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:27Z
+last-modified:  2021-04-12T21:26:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.212.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:28Z
+last-modified:  2021-04-12T21:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.226.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:28Z
+last-modified:  2021-04-12T21:23:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.232.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:28Z
+last-modified:  2021-04-12T21:21:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.238.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:28Z
+last-modified:  2021-04-12T21:19:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.240.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:28Z
+last-modified:  2021-04-12T21:17:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.244.0/22
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:28Z
+last-modified:  2021-04-12T21:14:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.248.0/23
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:29Z
+last-modified:  2021-04-12T21:13:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.38.96.0/19
+descr:          DIGI-13
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-06-05T11:03:51Z
+last-modified:  2014-07-28T08:45:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.40.70.0/23
+descr:          DIGI-1
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2022-07-08T09:44:46Z
+last-modified:  2022-07-08T09:44:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.40.72.0/21
+descr:          DIGI-1
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2022-07-08T09:45:37Z
+last-modified:  2022-07-08T09:45:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.40.80.0/20
+descr:          DIGI-1
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2014-12-04T12:53:40Z
+last-modified:  2014-12-04T12:53:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.197.72.0/21
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:41Z
+last-modified:  2021-04-12T21:11:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.197.80.0/20
+descr:          DIGI - INVITEL pool
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2019-04-15T15:18:42Z
+last-modified:  2021-04-12T21:08:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.197.176.0/20
+descr:          DIGI-11
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-06-05T11:04:51Z
+last-modified:  2014-07-28T08:49:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:368::/29
+descr:          DIGI IPV6
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-09-18T09:09:31Z
+last-modified:  2012-09-18T09:09:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:368::/30
+descr:          DIGI IPV6
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-09-18T09:10:11Z
+last-modified:  2012-09-18T09:10:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:368::/32
+descr:          DIGI IPV6
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2007-05-18T07:31:27Z
+last-modified:  2007-05-18T07:31:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:36c::/30
+descr:          DIGI IPV6
+origin:         AS20845
+mnt-by:         HDSNET-MNT
+created:        2012-09-18T09:10:33Z
+last-modified:  2012-09-18T09:10:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

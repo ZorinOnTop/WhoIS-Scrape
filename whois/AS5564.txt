@@ -1,0 +1,150 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5537 - AS5631'
+
+as-block:       AS5537 - AS5631
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5564'
+
+% Abuse contact for 'AS5564' is 'ipadmin@brightsolid.com'
+
+aut-num:        AS5564
+as-name:        SOL-AS
+descr:          Commercial internet service provider
+descr:          Dundee, Scotland, UK
+org:            ORG-SOL1-RIPE
+import:         from AS2529 action pref=100; accept ANY
+import:         from AS3356 action pref=100; accept ANY
+import:         from AS5564:AS-SOL-Manap-peers action pref=130; accept ANY AND NOT ({0.0.0.0/0} OR {10.0.0.0/8} OR {172.16.0.0/12} OR {192.168.0.0/16} OR {155.136.0.0/16 } OR {148.176.0.0/16} OR {193.131.127.0/24} OR {193.114.248.0/24} OR {194.129.32.0/23} OR {148.176.248.0/24} OR {194.247.64.0/19} OR {213.128.224.0/19} OR {194.247.85.0/24} )
+import:         from AS1239 action pref=100; accept ANY
+import:         from AS5564:AS-SOL-LINX-PEERS action pref=130; accept ANY AND NOT ({0.0.0.0/0} OR {10.0.0.0/8} OR {172.16.0.0/12} OR {192.168.0.0/16} OR {155.136.0.0/16 } OR {148.176.0.0/16} OR {193.131.127.0/24} OR {193.114.248.0/24} OR {194.129.32.0/23} OR {148.176.248.0/24} OR {194.247.64.0/19} OR {213.128.224.0/19} OR {194.247.85.0/24} )
+export:         to AS2529 announce AS5564
+export:         to AS3356 announce AS5564
+export:         to AS5564:AS-SOL-Manap-peers announce AS5564
+export:         to AS1239 announce AS5564
+export:         to AS5564:AS-SOL-LINX-PEERS announce AS5564
+export:         to AS56595 announce AS-BRIGHTSOLID
+export:         to AS3356 announce AS-BRIGHTSOLID
+export:         to AS174 announce AS-BRIGHTSOLID
+admin-c:        IPA2-RIPE
+tech-c:         IPA2-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS5564-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2019-09-03T13:49:24Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SOL1-RIPE
+org-name:       Brightsolid Online Technology Ltd
+country:        GB
+org-type:       LIR
+address:        Gateway House, Luna Place Technology Park,
+address:        DD2 1TP
+address:        Dundee
+address:        UNITED KINGDOM
+phone:          +441382429000
+fax-no:         +441382429001
+abuse-c:        AR17908-RIPE
+admin-c:        IPA2-RIPE
+mnt-ref:        AS5564-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS5564-MNT
+created:        2004-04-17T12:21:44Z
+last-modified:  2023-03-15T12:14:18Z
+source:         RIPE # Filtered
+
+role:           brightsolid
+address:        brightsolid
+address:        Gateway House
+address:        Luna Place
+address:        Technology Park
+address:        Dundee
+address:        DD2 1TP
+phone:          +44 1382 429000
+fax-no:         +44 1382 429015
+remarks:        trouble: E-mail abuse@brightsolid.com
+nic-hdl:        IPA2-RIPE
+mnt-by:         AS5564-MNT
+created:        2002-07-29T16:05:16Z
+last-modified:  2023-03-15T12:28:02Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@brightsolid.com
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          194.247.64.0/19
+descr:          UK-SOL
+origin:         AS5564
+mnt-by:         AS5564-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.128.224.0/19
+descr:          UK-SOL
+origin:         AS5564
+mnt-by:         AS5564-MNT
+created:        2002-07-05T15:14:00Z
+last-modified:  2002-07-05T15:14:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:470:1ab::/48
+origin:         AS5564
+descr:          NET-2001-470-1ab---48-AS5564
+admin-c:        ZH17-ARIN
+tech-c:         ZH17-ARIN
+mnt-by:         MNT-HURC
+source:         ARIN
+created:        2023-09-14T01:45:17Z
+last-modified:  2023-09-14T01:45:17Z
+rpki-ov-state:  valid
+
+route6:         2a00:5580::/29
+origin:         AS5564
+mnt-by:         AS5564-MNT
+created:        2018-04-18T09:53:42Z
+last-modified:  2018-04-18T09:53:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

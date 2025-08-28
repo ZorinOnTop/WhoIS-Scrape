@@ -1,0 +1,1483 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8280'
+
+% Abuse contact for 'AS8280' is 'abuse@synapsecom.gr'
+
+aut-num:        AS8280
+as-name:        SYNAPSECOM-AS
+descr:          SYNAPSECOM TELECOMS S.A.
+org:            ORG-SS77-RIPE
+remarks:        *******************************************
+remarks:        * General Enquiries:  info@synapsecom.gr  *
+remarks:        * Abuse & Spam:       abuse@synapsecom.gr *
+remarks:        * Peerings Enquiries: noc@synapsecom.gr   *
+remarks:        *******************************************
+remarks:
+remarks:        The following BGP policy is applied to all customers:
+remarks:
+remarks:        - Private networks are not accepted
+remarks:
+remarks:        - IPv4 Prefixes longer than a /24 are not accepted.
+remarks:
+remarks:        - IPv6 Prefixes longer than a /48 are not accepted.
+remarks:
+remarks:        - Prefixes not matching import policy are rejected
+remarks:
+remarks:        - RPKI mechanism is enabled
+remarks:
+remarks:        - Prefixes with RPKI state INVALID are dropped
+remarks:
+remarks:        - Customers must always have a valid route object
+remarks:
+remarks:        - We accept Route Objects from any IRR (ie RIPE, etc)
+remarks:
+remarks:        - Prefix limit is placed upon the number of prefixes
+remarks:        received including a percentage amount for future growth
+remarks:
+remarks:        - Advertisements tagged with communities other than
+remarks:        those outlined below are reset by default at ingress
+remarks:
+remarks:        - We do NOT honor the MED BGP attribute
+remarks:
+remarks:        - We honor well known communities: no-export & no-advertise
+remarks:
+remarks:        +=============================================================+
+remarks:
+remarks:        +=============================================================+
+remarks:        | SYNAPSECOM ROUTE TAGGING:                                   |
+remarks:        +=============================================================+
+remarks:        Default Local Preference for Customers: 450
+remarks:        8280:80 - set Local Preference to 80
+remarks:        8280:500 - set Local Preference to 500
+remarks:        ==============================================================
+remarks:        Blackhole Community:
+remarks:        8280:999 - set Blackhole tag
+remarks:        ==============================================================
+remarks:
+remarks:        UPSTREAM COMMUNITIES APPLIED AT INGRESS
+remarks:        ===============================================================
+remarks:        Community Upstream
+remarks:        --------- -----------------------------------------------------
+remarks:        8280:3000 LUMEN
+remarks:        8280:3001 COGENT
+remarks:        8280:3002 SEABONE
+remarks:        8280:3003 GRIX-ATH
+remarks:        8280:3004 GRIX-SKG
+remarks:        8280:3005 BIX
+remarks:        8280:3010 ALL-IX ROUTES
+remarks:        ===============================================================
+remarks:
+remarks:        CUSTOMER COMMUNITIES APPLIED AT INGRESS
+remarks:        ===============================================================
+remarks:        Community Data Center
+remarks:        --------- -----------------------------------------------------
+remarks:        8280:2900 SNC1 THESSALONIKI
+remarks:        8280:2901 SNC2 ATHENS
+remarks:        8280:2902 TISPARKLE ATHENS
+remarks:        8280:2903 TELEPOINT SOFIA
+remarks:        ===============================================================
+remarks:
+remarks:        INTERNATIONAL TRAFFIC
+remarks:        IX ADVERTISEMENTS NOT AFFECTED
+remarks:
+remarks:        8280:2008 - announce to SEABONE only
+remarks:        8280:2010 - announce to LUMEN only
+remarks:        8280:2011 - announce to COGENT only
+remarks:
+remarks:        ===============================================================
+remarks:
+remarks:        8280:3356 - Don't announce to LUMEN
+remarks:        8280:11 - Prepend x1 to LUMEN
+remarks:        8280:12 - Prepend x2 to LUMEN
+remarks:        8280:13 - Prepend x3 to LUMEN
+remarks:        8280:111 - set no-export to LUMEN
+remarks:        8280:112 - set no-advertise to LUMEN
+remarks:
+remarks:        8280:174 - Don't announce to COGENT
+remarks:        8280:211 - Prepend x1 to COGENT
+remarks:        8280:212 - Prepend x2 to COGENT
+remarks:        8280:213 - Prepend x3 to COGENT
+remarks:        8280:221 - set no-export to COGENT
+remarks:        8280:222 - set no-advertise to COGENT
+remarks:
+remarks:        8280:6762 - Don't announce to SEABONE
+remarks:        8280:61 - Prepend x1 to SEABONE
+remarks:        8280:62 - Prepend x2 to SEABONE
+remarks:        8280:63 - Prepend x3 to SEABONE
+remarks:        8280:64 - set no-export to SEABONE
+remarks:        8280:65 - set no-advertise to SEABONE
+remarks:
+remarks:        8280:15169 - Don't announce to GOOGLE
+remarks:        8280:223 - Prepend x1 to GOOGLE
+remarks:        8280:224 - Prepend x2 to GOOGLE
+remarks:        8280:225 - Prepend x3 to GOOGLE
+remarks:        8280:226 - set no-export to GOOGLE
+remarks:        8280:227 - set no-advertise to GOOGLE
+remarks:
+remarks:        8280:1566 - Don't announce to BIX
+remarks:        8280:41 - Prepend x1 to BIX
+remarks:        8280:42 - Prepend x2 to BIX
+remarks:        8280:43 - Prepend x3 to BIX
+remarks:        8280:141 - set no-export to BIX
+remarks:        8280:142 - set no-advertise to BIX
+remarks:
+remarks:        8280:5407 - Don't announce to GRIX-ATH
+remarks:        8280:401 - Prepend x1 to GRIX-ATH
+remarks:        8280:402 - Prepend x2 to GRIX-ATH
+remarks:        8280:403 - Prepend x3 to GRIX-ATH
+remarks:        8280:404 - set no-export to GRIX-ATH
+remarks:        8280:405 - set no-advertise to GRIX-ATH
+remarks:
+remarks:        8280:5406 - Don't announce to GRIX-SKG
+remarks:        8280:411 - Prepend x1 to GRIX-SKG
+remarks:        8280:412 - Prepend x2 to GRIX-SKG
+remarks:        8280:413 - Prepend x3 to GRIX-SKG
+remarks:        8280:414 - set no-export to GRIX-SKG
+remarks:        8280:415 - set no-advertise to GRIX-SKG
+remarks:
+remarks:        +=========================================================+
+remarks:        | ROUTING POLICY for SYNAPSECOM AS8280                    |
+remarks:        +=========================================================+
+remarks:        +=========================================================+
+remarks:        | SYNAPSECOM UPSTREAMS                                    |
+remarks:        +=========================================================+
+remarks:
+remarks:        === LUMEN ====
+import:         from AS3356 action pref=130; accept ANY
+export:         to AS3356 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS3356 action pref=130; accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-SYNAPSECOM
+remarks:
+remarks:        === COGENT ===
+import:         from AS174 action pref=130; accept ANY
+export:         to AS174 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS174 action pref=130; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-SYNAPSECOM
+remarks:
+remarks:        === SEABONE ===
+import:         from AS6762 action pref=120; accept ANY
+export:         to AS6762 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS6762 action pref=130; accept ANY
+mp-export:      afi ipv6.unicast to AS6762 announce AS-SYNAPSECOM
+remarks:
+remarks:        +=========================================================+
+remarks:        | GOOGLE PNI                                              |
+remarks:        +=========================================================+
+remarks:
+remarks:        === GOOGLE ===
+remarks:        from AS15169 action pref=140; accept AS15169
+remarks:        to AS15169 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS15169 action pref=140; accept AS15169
+mp-export:      afi ipv6.unicast to AS15169 announce AS-SYNAPSECOM
+remarks:
+remarks:        +=========================================================+
+remarks:        | BIX PEERINGS SOFIA                                      |
+remarks:        +=========================================================+
+remarks:
+remarks:        === BIX ===
+remarks:        from AS15669 action pref=140; accept ANY
+remarks:        to AS15669 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS15669 action pref=140; accept ANY
+mp-export:      afi ipv6.unicast to AS15669 announce AS-SYNAPSECOM
+remarks:
+remarks:        === AMAZON ===
+remarks:        from AS16509 action pref=160; accept AS16509
+remarks:        to AS16509 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS16509 action pref=160; accept AS16509
+mp-export:      afi ipv6.unicast to AS16509 announce AS-SYNAPSECOM
+remarks:
+remarks:        === FACEBOOK ===
+remarks:        from AS32934 action pref=160; accept AS32934
+remarks:        to AS32934 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS32934 action pref=160; accept AS32934
+mp-export:      afi ipv6.unicast to AS32934 announce AS-SYNAPSECOM
+remarks:
+remarks:        === HURRICANE ELECTRIC ===
+import:         from AS6939 action pref=160; accept ANY
+export:         to AS6939 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS6939 action pref=160; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-SYNAPSECOM
+remarks:
+remarks:        === YAHOO ===
+remarks:        from AS10310 action pref=160; accept AS10310
+remarks:        to AS10310 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS10310 action pref=160; accept AS10310
+mp-export:      afi ipv6.unicast to AS10310 announce AS-SYNAPSECOM
+remarks:
+remarks:        === EDGECAST ===
+remarks:        from AS15133 action pref=160; accept AS15133
+remarks:        to AS15133 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS15133 action pref=160; accept AS15133
+mp-export:      afi ipv6.unicast to AS15133 announce AS-SYNAPSECOM
+remarks:
+remarks:        === GCORE ===
+remarks:        from AS199524 action pref=160; accept AS199524
+remarks:        to AS199524 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS199524 action pref=160; accept AS199524
+mp-export:      afi ipv6.unicast to AS199524 announce AS-SYNAPSECOM
+remarks:
+remarks:        === PATH NETWORK ===
+remarks:        from AS396998 action pref=160; accept AS396998
+remarks:        to AS396998 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS396998 action pref=160; accept AS396998
+mp-export:      afi ipv6.unicast to AS396998 announce AS-SYNAPSECOM
+remarks:
+remarks:        +=========================================================+
+remarks:        | GR-IX PEERINGS (GREEK INTERNET EXCHANGE - SKG)          |
+remarks:        +=========================================================+
+remarks:
+remarks:        === GR-IX ===
+import:         from AS50745 action pref=140; accept ANY
+export:         to AS50745 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS50745 action pref=140; accept ANY
+mp-export:      afi ipv6.unicast to AS50745 announce AS-SYNAPSECOM
+remarks:
+remarks:        === CLOUDFLARE ===
+import:         from AS13335 action pref=160; accept AS13335
+export:         to AS13335 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS13335 action pref=160; accept AS13335
+mp-export:      afi ipv6.unicast to AS13335 announce AS-SYNAPSECOM
+remarks:
+remarks:        === S3 COMPANY ===
+import:         from AS44901 action pref=160; accept AS44901
+export:         to AS44901 announce AS-SYNAPSECOM
+remarks:
+remarks:        +=========================================================+
+remarks:        | GR-IX PEERINGS (GREEK INTERNET EXCHANGE - ATH)          |
+remarks:        +=========================================================+
+remarks:
+remarks:        === GR-IX ===
+import:         from AS50745 action pref=150; accept ANY
+export:         to AS50745 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS50745 action pref=150; accept ANY
+mp-export:      afi ipv6.unicast to AS50745 announce AS-SYNAPSECOM
+remarks:
+remarks:        === OTENET ATH02 ===
+import:         from AS6799 action pref=150; accept AS6799
+export:         to AS6799 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS6799 action pref=150; accept AS-OTENET
+mp-export:      afi ipv6.unicast to AS6799 announce AS-SYNAPSECOM
+remarks:
+remarks:        === OTENET ATH03 ===
+import:         from AS6799 action pref=140; accept AS6799
+export:         to AS6799 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS6799 action pref=140; accept AS-OTENET
+mp-export:      afi ipv6.unicast to AS6799 announce AS-SYNAPSECOM
+remarks:
+remarks:        === AMAZON ===
+remarks:        from AS16509 action pref=150; accept AS16509
+remarks:        to AS16509 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS16509 action pref=150; accept AS16509
+mp-export:      afi ipv6.unicast to AS16509 announce AS-SYNAPSECOM
+remarks:
+remarks:        === MICROSOFT ===
+import:         from AS8075 action pref=150; accept AS8075
+export:         to AS8075 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS8075 action pref=150; accept AS8075
+mp-export:      afi ipv6.unicast to AS8075 announce AS-SYNAPSECOM
+remarks:
+remarks:        === CLOUDFLARE ===
+import:         from AS13335 action pref=150; accept AS13335
+export:         to AS13335 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS13335 action pref=150; accept AS13335
+mp-export:      afi ipv6.unicast to AS13335 announce AS-SYNAPSECOM
+remarks:
+remarks:        === HURRICANE ELECTRIC ===
+import:         from AS6939 action pref=150; accept ANY
+export:         to AS6939 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS6939 action pref=150; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-SYNAPSECOM
+remarks:
+remarks:        === LAMDA HELIX ===
+import:         from AS56910 action pref=150; accept AS56910
+export:         to AS56910 announce AS-SYNAPSECOM
+remarks:
+remarks:        === O3B NETWORKS ===
+import:         from AS60725 action pref=150; accept AS60725
+export:         to AS60725 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS60725 action pref=150; accept AS-O3B-GR
+mp-export:      afi ipv6.unicast to AS60725 announce AS-SYNAPSECOM
+remarks:
+remarks:        === MODULUS ===
+import:         from AS201494 action pref=150; accept AS201494
+export:         to AS201494 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS201494 action pref=150; accept AS201494
+mp-export:      afi ipv6.unicast to AS201494 announce AS-SYNAPSECOM
+remarks:
+remarks:        === EDGOO ===
+import:         from AS47787 action pref=150; accept AS47787
+export:         to AS47787 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS47787 action pref=150; accept AS47787
+mp-export:      afi ipv6.unicast to AS47787 announce AS-SYNAPSECOM
+remarks:
+remarks:        === RIOT GAMES INC ===
+import:         from AS6507 action pref=150; accept AS-RIOT
+export:         to AS6507 announce AS-SYNAPSECOM
+remarks:
+remarks:        === HOSTMEIN ===
+import:         from AS50520 action pref=150; accept AS50520
+export:         to AS50520 announce AS-SYNAPSECOM
+remarks:
+remarks:        === HCN ===
+import:         from AS57794 action pref=150; accept AS-HCN
+export:         to AS57794 announce AS-SYNAPSECOM
+remarks:
+remarks:        === VERISIGN ===
+import:         from AS26415 action pref=150; accept AS26415
+export:         to AS26415 announce AS-SYNAPSECOM
+remarks:
+remarks:        === TOPHOST ===
+import:         from AS199246 action pref=150; accept AS199246
+export:         to AS199246 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS199246 action pref=150; accept AS-TOPHOST
+mp-export:      afi ipv6.unicast to AS199246 announce AS-SYNAPSECOM
+remarks:
+remarks:        === INALAN ===
+remarks:        from AS200736 action pref=150; accept AS199246
+remarks:        to AS200736 announce AS-SYNAPSECOM
+remarks:
+remarks:        === PCH ===
+import:         from AS42 action pref=150; accept AS42
+export:         to AS42 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS42 action pref=150; accept AS42
+mp-export:      afi ipv6.unicast to AS42 announce AS-SYNAPSECOM
+remarks:
+remarks:        === SUPERVOICE ===
+import:         from AS210477 action pref=150; accept AS210477
+export:         to AS210477 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS210477 action pref=150; accept AS210477
+mp-export:      afi ipv6.unicast to AS210477 announce AS-SYNAPSECOM
+remarks:
+remarks:        === DEH ===
+import:         from AS51505 action pref=150; accept AS51505
+export:         to AS51505 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS51505 action pref=150; accept AS51505
+mp-export:      afi ipv6.unicast to AS51505 announce AS-SYNAPSECOM
+remarks:
+remarks:        +=========================================================+
+remarks:        | CUSTOMER PEERINGS                                       |
+remarks:        +=========================================================+
+remarks:
+remarks:        === NETERRA ===
+import:         from AS34224 action pref=450; accept AS34224
+export:         to AS34224 announce ANY
+remarks:
+remarks:        === MICROBASE-AS ===
+import:         from AS196945 action pref=450; accept AS196945
+export:         to AS196945 announce ANY
+mp-import:      afi ipv6.unicast from AS196945 action pref=450; accept AS196945
+mp-export:      afi ipv6.unicast to AS196945 announce ANY
+remarks:
+remarks:        === FTN ===
+import:         from AS208785 action pref=450; accept AS208785
+export:         to AS208785 announce ANY
+remarks:
+remarks:        === INTERTELECOM-GR ===
+import:         from AS48172 action pref=450; accept AS48172
+export:         to AS48172 announce ANY
+remarks:
+remarks:        === GREEKSTREAM NETWORKS ===
+import:         from AS206652 action pref=450; accept AS206652
+export:         to AS206652 announce ANY
+mp-import:      afi ipv6.unicast from AS206652 action pref=450; accept AS206652
+mp-export:      afi ipv6.unicast to AS206652 announce ANY
+remarks:
+remarks:        === ESTNOC ===
+import:         from AS206804 action pref=450; accept AS206804
+export:         to AS206804 announce ANY
+mp-import:      afi ipv6.unicast from AS206804 action pref=450; accept AS206804
+mp-export:      afi ipv6.unicast to AS206804 announce ANY
+remarks:
+remarks:        === MVPS ===
+import:         from AS202448 action pref=450; accept AS202448
+export:         to AS202448 announce ANY
+remarks:
+remarks:        === SKYLINK ===
+import:         from AS212326 action pref=450; accept AS212326
+export:         to AS212326 announce ANY
+remarks:
+remarks:        === SMARTSUPPORT ===
+import:         from AS212485 action pref=450; accept AS212485
+export:         to AS212485 announce ANY
+remarks:
+remarks:        === GRNET365 ===
+import:         from AS212043 action pref=450; accept AS212043
+export:         to AS212043 announce ANY
+remarks:
+remarks:        === LAMDAHELIX ===
+import:         from AS56910 action pref=450; accept AS56910
+export:         to AS56910 announce ANY
+mp-import:      afi ipv6.unicast from AS56910  action pref=450; accept AS56910
+mp-export:      afi ipv6.unicast to AS56910 announce ANY
+remarks:
+remarks:        === MASSIVE GRID ===
+import:         from AS49683 action pref=450; accept AS49683
+export:         to AS49683 announce ANY
+remarks:
+remarks:        === TELEHOUSE ===
+import:         from AS57344 action pref=450; accept AS57344
+export:         to AS57344 announce ANY
+mp-import:      afi ipv6.unicast from AS57344 action pref=450; accept AS57344
+mp-export:      afi ipv6.unicast to AS57344 announce ANY
+remarks:
+remarks:        === ONEPROVIDER-AS ===
+import:         from AS136258 action pref=450; accept AS136258
+export:         to AS136258 announce ANY
+mp-import:      afi ipv6.unicast from AS136258 action pref=450; accept AS136258
+mp-export:      afi ipv6.unicast to AS136258 announce ANY
+remarks:
+remarks:        === HQSERV_NETWORKS ===
+import:         from AS35758 action pref=450; accept AS35758
+export:         to AS35758 announce ANY
+mp-import:      afi ipv6.unicast from AS35758 action pref=450; accept AS35758
+mp-export:      afi ipv6.unicast to AS35758 announce ANY
+remarks:
+remarks:        === TRIGONON DATA SERVICES LTD ===
+import:         from AS201210 action pref=450; accept AS201210
+export:         to AS201210 announce ANY
+mp-import:      afi ipv6.unicast from AS201210 action pref=450; accept AS201210
+mp-export:      afi ipv6.unicast to AS201210 announce ANY
+remarks:
+remarks:        === MYIP ===
+import:         from AS216285 action pref=450; accept AS216285
+export:         to AS216285 announce ANY
+mp-import:      afi ipv6.unicast from AS216285 action pref=450; accept AS216285
+mp-export:      afi ipv6.unicast to AS216285 announce ANY
+remarks:
+remarks:        === EUROPLANET ===
+import:         from AS203079 action pref=450; accept AS203079
+export:         to AS203079 announce ANY
+remarks:
+remarks:        === WICON ===
+import:         from AS207492 action pref=450; accept AS207492
+export:         to AS207492 announce ANY
+remarks:
+remarks:        === GREEN FLOID LLC ===
+import:         from AS8254 action pref=450; accept AS8254
+export:         to AS8254 announce ANY
+mp-import:      afi ipv6.unicast from AS8254 action pref=450; accept AS8254
+mp-export:      afi ipv6.unicast to AS8254 announce ANY
+remarks:
+admin-c:        SA31393-RIPE
+tech-c:         SA31393-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-SYNAPSECOM
+created:        2007-06-18T11:49:04Z
+last-modified:  2025-07-02T16:06:32Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SS77-RIPE
+org-name:       SYNAPSECOM S.A. Provider of Telecommunications and Internet Services
+country:        GR
+org-type:       LIR
+address:        14th VIO.PA. str, No3
+address:        13341
+address:        Ano Liosia
+address:        GREECE
+phone:          +302108100112
+fax-no:         +302106136278
+abuse-c:        SAB188-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-SYNAPSECOM
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-SYNAPSECOM
+created:        2007-05-30T11:04:37Z
+last-modified:  2020-12-16T12:32:56Z
+source:         RIPE # Filtered
+
+role:           Synapsecom Administration
+address:        14th VIO.PA. str, No3
+address:        13341, Ano Liosia
+address:        Athens, Greece
+admin-c:        IG2474-RIPE
+tech-c:         JG2246-RIPE
+nic-hdl:        SA31393-RIPE
+mnt-by:         MNT-SYNAPSECOM
+created:        2013-10-31T10:13:17Z
+last-modified:  2017-09-22T15:32:16Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          46.227.56.0/21
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2011-01-27T13:53:16Z
+last-modified:  2011-01-27T13:53:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.227.56.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+mnt-by:         MNT-SYNAPSECOM
+created:        2022-06-21T10:33:39Z
+last-modified:  2022-06-21T10:33:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.227.57.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2017-05-03T12:22:41Z
+last-modified:  2017-05-03T12:22:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.227.58.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2017-05-03T12:23:20Z
+last-modified:  2017-05-03T12:23:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.227.59.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2017-05-03T12:23:49Z
+last-modified:  2017-05-03T12:23:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.227.60.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2017-05-03T12:24:33Z
+last-modified:  2017-05-03T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.227.61.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2017-05-03T12:24:58Z
+last-modified:  2017-05-03T12:24:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.227.62.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2023-11-15T16:36:01Z
+last-modified:  2023-11-15T16:36:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.227.63.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2017-05-03T12:25:49Z
+last-modified:  2017-05-03T12:25:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.32.0/20
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:39:00Z
+last-modified:  2008-10-09T21:39:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.32.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:39:50Z
+last-modified:  2008-10-09T21:39:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.33.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:40:10Z
+last-modified:  2008-10-09T21:40:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.34.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:40:30Z
+last-modified:  2008-10-09T21:40:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.35.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:40:48Z
+last-modified:  2008-10-09T21:40:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.36.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:41:07Z
+last-modified:  2008-10-09T21:41:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.37.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:41:25Z
+last-modified:  2008-10-09T21:41:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.38.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:41:46Z
+last-modified:  2008-10-09T21:41:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.39.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:42:43Z
+last-modified:  2008-10-09T21:42:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.40.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:43:04Z
+last-modified:  2008-10-09T21:43:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.41.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:43:28Z
+last-modified:  2008-10-09T21:43:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.42.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:43:49Z
+last-modified:  2008-10-09T21:43:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.43.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:44:09Z
+last-modified:  2008-10-09T21:44:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.44.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:45:59Z
+last-modified:  2008-10-09T21:45:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.45.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:46:21Z
+last-modified:  2008-10-09T21:46:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.46.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:46:44Z
+last-modified:  2008-10-09T21:46:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.108.47.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2008-10-09T21:47:04Z
+last-modified:  2008-10-09T21:47:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          151.236.29.0/24
+origin:         AS8280
+mnt-by:         EDIS-MNT
+created:        2023-05-22T09:54:58Z
+last-modified:  2023-05-22T09:54:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          160.79.252.0/23
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.51.132.0/22
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2014-03-24T09:48:02Z
+last-modified:  2014-03-24T09:48:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.51.132.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2022-06-21T10:34:18Z
+last-modified:  2022-06-21T10:34:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.51.133.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2014-03-28T15:44:48Z
+last-modified:  2014-03-28T15:44:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.51.135.0/24
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2014-03-28T15:45:42Z
+last-modified:  2014-03-28T15:45:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.82.36.0/22
+descr:          TRIGONON DATA SERVICES LTD
+origin:         AS8280
+mnt-by:         MNT-TRIGONON
+created:        2022-09-16T09:33:08Z
+last-modified:  2022-09-16T09:33:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.82.37.0/24
+descr:          TRIGONON DATA SERVICES LTD
+origin:         AS8280
+mnt-by:         MNT-TRIGONON
+mnt-by:         MNT-TRIGONON
+created:        2022-05-19T10:58:21Z
+last-modified:  2022-05-19T10:58:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.71.166.0/24
+origin:         AS8280
+mnt-by:         EDIS-MNT
+created:        2019-09-30T06:52:09Z
+last-modified:  2019-09-30T06:52:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.133.72.0/22
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.26.96.0/19
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          198.69.26.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          204.17.128.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          204.137.192.0/22
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          205.160.216.0/22
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          205.167.92.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          205.167.93.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          205.234.13.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          208.206.248.0/21
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.45.246.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.45.247.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.45.248.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.45.249.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.123.64.0/19
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.123.72.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.123.73.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.123.75.0/24
+descr:          PNAP-NYC
+                Net Acces
+origin:         AS8280
+mnt-by:         MAINT-AS1828
+changed:        coonrad@internap.com 19990202
+source:         RADB
+last-modified:  2023-11-13T16:13:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.52.16.0/24
+origin:         AS8280
+mnt-by:         EDIS-MNT
+created:        2025-01-07T13:45:28Z
+last-modified:  2025-01-07T13:45:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548::/29
+descr:          SYNAPSECOM S.A.
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2018-06-05T14:16:25Z
+last-modified:  2018-06-05T14:16:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7000::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:11:11Z
+last-modified:  2021-07-16T11:11:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7001::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:11:38Z
+last-modified:  2021-07-16T11:11:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7002::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:11:56Z
+last-modified:  2021-07-16T11:11:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7003::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:12:10Z
+last-modified:  2021-07-16T11:12:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7004::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:12:42Z
+last-modified:  2021-07-16T11:12:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7005::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:12:55Z
+last-modified:  2021-07-16T11:12:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7006::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:13:12Z
+last-modified:  2021-07-16T11:13:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7007::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:13:30Z
+last-modified:  2021-07-16T11:13:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7008::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:13:45Z
+last-modified:  2021-07-16T11:13:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7009::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:14:29Z
+last-modified:  2021-07-16T11:14:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7010::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:14:41Z
+last-modified:  2021-07-16T11:14:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1548:7011::/48
+origin:         AS8280
+mnt-by:         MNT-SYNAPSECOM
+created:        2021-07-16T11:14:55Z
+last-modified:  2021-07-16T11:14:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:f80:30::/48
+origin:         AS8280
+mnt-by:         EDIS-MNT
+created:        2019-09-30T06:49:50Z
+last-modified:  2019-09-30T06:49:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,1242 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16215 - AS16283'
+
+as-block:       AS16215 - AS16283
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16243'
+
+% Abuse contact for 'AS16243' is 'smc@equinix.com'
+
+aut-num:        AS16243
+as-name:        VIRTU-AS
+descr:          Enschede, The Netherlands
+descr:          http://www.as16243.net/
+import:         from AS16243:AS-CUSTOMERS action pref=20; accept PeerAS
+export:         to AS16243:AS-CUSTOMERS announce ANY
+import:         from AS16243:AS-PEERS-AMSIX action pref=30; accept ANY
+export:         to AS16243:AS-PEERS-AMSIX announce AS-VIRTU
+import:         from AS16243:AS-PEERS-NDIX action pref=30; accept ANY
+export:         to AS16243:AS-PEERS-NDIX announce AS-VIRTU
+import:         from AS16243:AS-PROVIDERS action pref=50; accept ANY
+export:         to AS16243:AS-PROVIDERS announce AS-VIRTU
+import:         from as6777 accept ANY AND NOT <^[AS39704 AS34305]>
+export:         to as6777 action community .= { 6777:6777, 6777:39704, 6777:34305 }; announce AS-VIRTU
+admin-c:        VSW3-RIPE
+tech-c:         VSW3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+org:            ORG-VSS1-RIPE
+remarks:        ---------------------------------------------------------
+remarks:        We also filter the following bogus networks:
+remarks:        10.0.0.0/8
+remarks:        172.16.0.0/12
+remarks:        192.168.0.0/16
+remarks:        169.254.0.0/16
+remarks:        224.0.0.0/4
+remarks:        240.0.0.0/4
+remarks:        ---------------------------------------------------------
+remarks:        In case of technical issues, please contact peering@as16243.net
+remarks:        In case of abuse, please contact abuse@virtu.nl
+remarks:        ---------------------------------------------------------
+mnt-by:         VIRTU-MNT
+created:        2002-08-14T08:51:46Z
+last-modified:  2018-09-04T09:50:12Z
+source:         RIPE
+
+organisation:   ORG-VSS1-RIPE
+org-name:       Virtu Secure Webservices B.V.
+country:        NL
+org-type:       LIR
+address:        Auke Vleerstraat 1
+address:        NL-7521 PE
+address:        Enschede
+address:        NETHERLANDS
+phone:          +31 53 4340570
+admin-c:        JKW8-RIPE
+admin-c:        JJ2486-RIPE
+admin-c:        FV2573-RIPE
+admin-c:        ER5199-RIPE
+admin-c:        FW702-RIPE
+admin-c:        JW7206-RIPE
+admin-c:        JK4429-RIPE
+mnt-ref:        VIRTU-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         VIRTU-MNT
+abuse-c:        EAM62-RIPE
+created:        2004-04-17T11:43:57Z
+last-modified:  2024-04-29T14:37:28Z
+source:         RIPE # Filtered
+
+role:           Equinix EMEA Admin
+nic-hdl:        VSW3-RIPE
+mnt-by:         VIRTU-MNT
+abuse-mailbox:  smc@equinix.com
+address:        NL
+org:            ORG-VSS1-RIPE
+created:        2002-06-25T12:11:00Z
+last-modified:  2024-04-29T14:07:05Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          77.222.64.0/19
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+org:            ORG-VSS1-RIPE
+mnt-by:         VIRTU-MNT
+created:        2007-04-10T14:57:25Z
+last-modified:  2007-04-10T14:57:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.64.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:29Z
+last-modified:  2018-03-29T13:51:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.65.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:30Z
+last-modified:  2018-03-29T13:51:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.66.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:31Z
+last-modified:  2018-03-29T13:51:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.67.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:32Z
+last-modified:  2018-03-29T13:51:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.68.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:34Z
+last-modified:  2018-03-29T13:51:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.69.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:35Z
+last-modified:  2018-03-29T13:51:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.70.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:36Z
+last-modified:  2018-03-29T13:51:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.71.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:37Z
+last-modified:  2018-03-29T13:51:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.72.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:38Z
+last-modified:  2018-03-29T13:51:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.73.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:39Z
+last-modified:  2018-03-29T13:51:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.74.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:40Z
+last-modified:  2018-03-29T13:51:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.75.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:42Z
+last-modified:  2018-03-29T13:51:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.76.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:43Z
+last-modified:  2018-03-29T13:51:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.77.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:44Z
+last-modified:  2018-03-29T13:51:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.78.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:45Z
+last-modified:  2018-03-29T13:51:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.79.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:46Z
+last-modified:  2018-03-29T13:51:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.80.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:48Z
+last-modified:  2018-03-29T13:51:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.81.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:49Z
+last-modified:  2018-03-29T13:51:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.82.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:50Z
+last-modified:  2018-03-29T13:51:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.83.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:51Z
+last-modified:  2018-03-29T13:51:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.84.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:52Z
+last-modified:  2018-03-29T13:51:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.85.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:53Z
+last-modified:  2018-03-29T13:51:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.86.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:55Z
+last-modified:  2018-03-29T13:51:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.87.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:56Z
+last-modified:  2018-03-29T13:51:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.88.0/24
+descr:          NL-VIRTU-TEST
+origin:         AS16243
+org:            ORG-VSS1-RIPE
+mnt-by:         VIRTU-MNT
+created:        2012-12-28T10:04:36Z
+last-modified:  2012-12-28T10:04:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.89.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:57Z
+last-modified:  2018-03-29T13:51:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.90.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:58Z
+last-modified:  2018-03-29T13:51:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.91.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:51:59Z
+last-modified:  2018-03-29T13:51:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.92.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:52:00Z
+last-modified:  2018-03-29T13:52:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.93.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:52:02Z
+last-modified:  2018-03-29T13:52:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.94.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:52:03Z
+last-modified:  2018-03-29T13:52:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.222.95.0/24
+descr:          NL-VIRTU-20070410
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+mnt-by:         VIRTU-MNT
+created:        2018-03-29T13:52:04Z
+last-modified:  2018-03-29T13:52:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.249.96.0/19
+descr:          NL-VIRTU-20050829
+origin:         AS16243
+remarks:        Virtu B.V.
+remarks:        Enschede, The Netherlands
+org:            ORG-VSS1-RIPE
+mnt-by:         VIRTU-MNT
+created:        2005-08-29T13:12:46Z
+last-modified:  2005-08-31T12:56:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.103.17.0/24
+descr:          EQUINIX-NL-MGT-1
+origin:         AS16243
+mnt-by:         HRW-NOC
+mnt-by:         VIRTU-MNT
+created:        2011-04-05T11:27:11Z
+last-modified:  2011-04-05T11:27:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.240.0/21
+descr:          EASI2014 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2014-01-24T09:02:22Z
+last-modified:  2021-09-20T10:25:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.240.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-11T19:55:29Z
+last-modified:  2021-09-20T13:08:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.241.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-11T19:56:00Z
+last-modified:  2021-09-20T13:09:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.242.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-11T19:56:16Z
+last-modified:  2021-09-20T13:09:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.243.0/24
+descr:          EASI2014 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-07T19:38:05Z
+last-modified:  2021-09-20T13:10:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.244.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-11T19:56:36Z
+last-modified:  2021-09-20T13:10:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.245.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-11T19:56:55Z
+last-modified:  2021-09-20T13:10:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.246.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-11T19:57:14Z
+last-modified:  2021-09-20T13:11:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.247.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-11T19:57:43Z
+last-modified:  2021-09-20T13:11:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.252.0/22
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2013-07-03T10:39:29Z
+last-modified:  2021-09-20T13:08:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.252.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-10T18:37:32Z
+last-modified:  2021-09-20T13:12:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.253.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-10T18:38:04Z
+last-modified:  2021-09-20T13:12:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.254.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-10T18:38:21Z
+last-modified:  2021-09-20T13:12:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          144.43.255.0/24
+descr:          EASI2010 Managed Services
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+mnt-by:         LOGIUS
+created:        2018-03-10T18:38:42Z
+last-modified:  2021-09-20T13:12:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.76.16.0/24
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2018-03-28T07:01:56Z
+last-modified:  2018-03-28T07:01:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.76.17.0/24
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2018-03-28T07:01:57Z
+last-modified:  2018-03-28T07:01:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.76.18.0/24
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2018-03-09T14:50:36Z
+last-modified:  2018-03-09T14:50:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.76.19.0/24
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2018-03-28T07:01:58Z
+last-modified:  2018-03-28T07:01:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.142.215.0/24
+descr:          Citus internetdiensten via AS16243
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2010-04-08T07:50:25Z
+last-modified:  2010-04-08T07:50:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.176.5.0/24
+descr:          EQX-VIRTU-TPI-2
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2020-07-08T19:01:31Z
+last-modified:  2020-07-08T19:01:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.248.238.0/23
+descr:          DigitasLBi
+origin:         AS16243
+mnt-by:         HRW-NOC
+created:        2017-07-10T08:22:39Z
+last-modified:  2017-07-10T08:22:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.114.96.0/20
+descr:          NL-VIRTU-20010125
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+org:            ORG-VSS1-RIPE
+notify:         noc@virtu.nl
+mnt-by:         VIRTU-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2004-04-22T16:17:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:2e4::/48
+descr:          TUI Nederland N.V.
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2010-09-28T07:18:03Z
+last-modified:  2010-09-28T07:18:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:22e4::/48
+descr:          TIO Teach via AS16243
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2011-06-30T12:05:34Z
+last-modified:  2011-06-30T12:05:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:1540::/32
+descr:          Virtu IPV6 network
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2008-05-24T18:51:29Z
+last-modified:  2008-05-24T18:51:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1541:4110::/44
+origin:         AS16243
+descr:          TPI-EN1
+mnt-by:         VIRTU-MNT
+created:        2022-03-08T16:23:14Z
+last-modified:  2022-03-08T16:23:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1541:4120::/44
+origin:         AS16243
+descr:          TPI-ZW1
+mnt-by:         VIRTU-MNT
+created:        2022-03-08T16:25:23Z
+last-modified:  2022-03-08T16:25:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1541:4130::/44
+origin:         AS16243
+descr:          TPI-AM1/2
+mnt-by:         VIRTU-MNT
+created:        2023-07-03T10:52:46Z
+last-modified:  2023-07-03T10:52:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1541:4140::/44
+origin:         AS16243
+descr:          TPI-AM3/4
+mnt-by:         VIRTU-MNT
+created:        2023-07-03T10:53:06Z
+last-modified:  2023-07-03T10:53:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:fd40:4::/48
+descr:          Weserve-NET IPV6 network
+origin:         AS16243
+mnt-by:         VIRTU-MNT
+created:        2015-12-03T09:15:13Z
+last-modified:  2015-12-03T09:15:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a07:80::/29
+descr:          NL-I-REAL-20160606
+origin:         AS16243
+remarks:        Virtu Secure Webservices B.V.
+remarks:        Enschede, The Netherlands
+org:            ORG-VSS1-RIPE
+mnt-by:         VIRTU-MNT
+created:        2016-06-20T07:20:53Z
+last-modified:  2016-06-20T07:20:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

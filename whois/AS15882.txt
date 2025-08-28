@@ -1,0 +1,129 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15835 - AS15963'
+
+as-block:       AS15835 - AS15963
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15882'
+
+% Abuse contact for 'AS15882' is 'abuse@ip.ro'
+
+aut-num:        AS15882
+as-name:        ASMMC
+descr:          Piata Unirii, nr. 3
+descr:          Ploiesti, Prahova, Romania
+org:            ORG-MCS9-RIPE
+import:         from AS5606
+                action pref=100;
+                accept ANY
+import:         from AS5606
+                action pref=100;
+                accept ANY
+import:         from AS8708
+                action pref=100;
+                accept ANY
+export:         to AS8919
+                announce AS15882
+export:         to AS5606
+                announce AS15882
+export:         to AS8708
+                announce AS15882
+default:        to AS5606
+                action pref=100;
+                networks ANY
+default:        to AS8919
+                action pref=150;
+                networks ANY
+default:        to AS8708
+                action pref=150;
+                networks ANY
+admin-c:        ST464-RIPE
+tech-c:         ST464-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ASMMC-MNT
+created:        2002-07-05T09:03:41Z
+last-modified:  2021-11-23T10:13:52Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-IRMS1-RIPE
+
+organisation:   ORG-MCS9-RIPE
+org-name:       M&M Computers SRL
+country:        RO
+org-type:       OTHER
+address:        Piata Victoriei nr 3 Bl Unirea Sc B
+address:        Ap 18 Ploiesti Prahova Romania
+phone:          +40.244516166
+fax-no:         +40.244516166
+abuse-c:        AR26713-RIPE
+admin-c:        ST6457-RIPE
+tech-c:         ST6457-RIPE
+mnt-by:         ASMMC-MNT
+mnt-ref:        ASMMC-MNT
+created:        2011-08-18T22:52:57Z
+last-modified:  2022-12-01T16:36:49Z
+source:         RIPE # Filtered
+
+person:         Stefan Trandafirescu
+address:        Str. Romana nr. 50
+phone:          +40-244-191408
+fax-no:         +40-244-191408
+nic-hdl:        ST464-RIPE
+mnt-by:         AS3233-MNT
+created:        2002-04-09T11:11:55Z
+last-modified:  2003-11-29T09:55:48Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          194.102.200.0/24
+descr:          MMCnet
+origin:         AS15882
+notify:         tehnic@mmc.ro
+mnt-by:         ASMMC-MNT
+created:        2002-07-05T09:07:55Z
+last-modified:  2002-07-05T09:07:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.190.159.0/24
+descr:          M&M Computers
+origin:         AS15882
+mnt-by:         ASMMC-MNT
+mnt-lower:      AS3233-MNT
+mnt-routes:     ASMMC-MNT
+created:        2002-11-27T10:25:37Z
+last-modified:  2002-11-27T10:25:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

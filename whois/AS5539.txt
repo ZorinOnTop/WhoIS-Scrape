@@ -1,0 +1,977 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5537 - AS5631'
+
+as-block:       AS5537 - AS5631
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5539'
+
+% Abuse contact for 'AS5539' is 'abuse@space.net'
+
+aut-num:        AS5539
+as-name:        SPACENET
+status:         ASSIGNED
+descr:          SpaceNET AG
+descr:          Internet provider in southern germany
+descr:          Joseph-Dollinger-Bogen 14, D-80807 Muenchen
+descr:          Germany
+org:            ORG-SA17-RIPE
+remarks:        -----------------------------------
+remarks:        ## upstream/transit ##
+remarks:        -----------------------------------
+import:         from AS1299  accept ANY  # Telia-Upstream
+export:         to   AS1299  announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS1299  accept   ANY
+mp-export:      afi ipv6.unicast   to   AS1299  announce AS-SPACENET-V6
+import:         from AS2914  accept ANY  # NTT-Upstream
+export:         to   AS2914  announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS2914  accept   ANY
+mp-export:      afi ipv6.unicast   to   AS2914  announce AS-SPACENET-V6
+import:         from AS5405 accept   ANY  # Inter.Link-Upstream
+export:         to   AS5405 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS5405 accept   ANY
+mp-export:      afi ipv6.unicast   to   AS5405 announce AS-SPACENET-V6
+import:         from AS21385 accept   ANY  # TNIB-Upstream
+export:         to   AS21385 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS21385 accept   AS21385
+mp-export:      afi ipv6.unicast   to   AS21385 announce AS-SPACENET-V6
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS21385
+import:         from AS33891 accept   ANY  # CoreBB-Upstream
+export:         to   AS33891 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS33891 accept   ANY
+mp-export:      afi ipv6.unicast   to   AS33891 announce AS-SPACENET-V6
+remarks:        -----------------------------------
+remarks:        ## peering ##
+remarks:        -----------------------------------
+import:         from AS6695   # DECIX Route Server
+                action pref=100; accept AS-DECIX
+export:         to AS6695 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS286   accept   AS-KPNV6
+mp-export:      afi ipv6.unicast   to   AS286   announce AS-SPACENET-V6
+import:         from AS553   accept AS-BELWUE  # BelWue
+export:         to   AS553   announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS553   accept   AS553
+mp-export:      afi ipv6.unicast   to   AS553   announce AS-SPACENET-V6
+import:         from AS680   accept AS-DFNTOWINISP # DFN
+export:         to   AS680   announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS680   accept   AS680 AS553
+mp-export:      afi ipv6.unicast   to   AS680   announce AS-SPACENET-V6
+import:         from AS702    # UU/MCI DE
+                action pref=100; accept AS702:RS-DE AS702:RS-DE-CUSTOMER
+export:         to AS702 announce AS-SPACENET
+import:         from AS1901
+                action pref=100; accept AS-EUNETAT
+export:         to   AS1901 announce AS-SPACENET
+import:         from AS2647
+                action pref=100; accept AS-EQUANT
+export:         to   AS2647 announce AS-SPACENET
+import:         from AS2649
+                action pref=100; accept AS2649:AS-COGC-EUR
+export:         to   AS2649 announce AS-SPACENET
+import:         from AS2686
+                action pref=100; accept AS-IGNEMEA
+export:         to   AS2686 announce AS-SPACENET
+import:         from AS2818
+                action pref=100; accept AS-BBC
+export:         to   AS2818 announce AS-SPACENET
+import:         from AS3209
+                action pref=100; accept AS-ARCORGLOBAL
+export:         to   AS3209 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS3257  accept   ANY # Tiscali/Upst.
+mp-export:      afi ipv6.unicast   to   AS3257  announce AS-SPACENET-V6
+import:         from AS3292
+                action pref=100; accept AS-TDCNET
+export:         to   AS3292 announce AS-SPACENET
+import:         from AS3303
+                action pref=100; accept AS-SWCMGLOBAL
+export:         to   AS3303 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS3303  accept   AS3303 AS15600
+mp-export:      afi ipv6.unicast   to   AS3303  announce AS-SPACENET-V6
+import:         from AS3320
+                action pref=100; accept AS-DTAG
+export:         to   AS3320 announce AS-SPACENET
+import:         from AS3491
+                action pref=100; accept AS3491 # no RIPE aut-num :(
+export:         to   AS3491 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS3344  accept   AS-KEWLIO-V6
+mp-export:      afi ipv6.unicast   to   AS3344  announce ANY
+import:         from AS4513
+                action pref=100; accept AS-GLOBIX
+export:         to   AS4513 announce AS-SPACENET
+import:         from AS4589
+                action pref=100; accept AS-EASYNET
+export:         to   AS4589 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS4589  accept   AS4589 AS2497 AS8767 AS7521
+mp-export:      afi ipv6.unicast   to   AS4589  announce AS-SPACENET-V6
+import:         from AS4766    # kornet/KT
+                action pref=100; accept AS-KORNET  # whois.ra.net
+export:         to   AS4766 announce AS-SPACENET
+import:         from AS5089
+                action pref=100; accept AS-NTLI
+export:         to   AS5089 announce AS-SPACENET
+remarks:        # T-Online France
+mp-import:      afi ipv6.unicast   from AS5410  accept   AS5410
+mp-export:      afi ipv6.unicast   to   AS5410  announce AS-SPACENET-V6
+import:         from AS5430
+                action pref=100; accept AS-FREENETDE
+export:         to   AS5430 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS5430  accept   AS-FREENETDE6
+mp-export:      afi ipv6.unicast   to   AS5430  announce AS-SPACENET-V6
+import:         from AS5462
+                action pref=100; accept AS-CABLEINET
+export:         to   AS5462 announce AS-SPACENET
+import:         from AS5466
+                action pref=100; accept AS-EIRCOM
+export:         to   AS5466 announce AS-SPACENET
+import:         from AS5577    # Fiducia/GRK
+                action pref=100; accept AS5577
+export:         to   AS5577 announce AS-SPACENET
+import:         from AS5605
+                action pref=100; accept AS-NETUSE
+export:         to   AS5605 announce AS-SPACENET
+import:         from AS5669
+                action pref=100; accept AS-PSIVIA
+export:         to   AS5669 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS5669  accept   AS-VIA-V6
+mp-export:      afi ipv6.unicast   to   AS5669  announce ANY
+import:         from AS6461    # Above/MFNX
+                action pref=100; accept AS-MFNX
+export:         to   AS6461 announce AS-SPACENET
+import:         from AS6661 accept   AS-PTLU
+export:         to   AS6661 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS6661  accept   AS6661
+mp-export:      afi ipv6.unicast   to   AS6661  announce AS-SPACENET-V6
+remarks:        Elisa Oyj
+import:         from AS6667 accept   AS-EUNETIP RS-EUNETIP AS-ELISA
+export:         to   AS6667 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS6667  accept   AS6667 AS16150 AS8954 AS29422 AS3327 AS8728
+mp-export:      afi ipv6.unicast   to   AS6667  announce AS-SPACENET-V6
+import:         from AS6728
+                action pref=100; accept AS-NILDRAM
+export:         to   AS6728 announce AS-SPACENET
+import:         from AS6730    # SUNRISE
+                action pref=100; accept AS-GLOBAL
+export:         to   AS6730 announce AS-SPACENET
+import:         from AS6735
+                action pref=100; accept AS-SDTDECIX AND NOT AS8820
+export:         to   AS6735 announce AS-SPACENET
+import:         from AS6751    # Arcor Online
+                action pref=100; accept AS-GERMANYNET
+export:         to   AS6751 announce AS-SPACENET
+import:         from AS6774
+                action pref=100; accept AS-BELBONETOPEERS
+export:         to   AS6774 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS6774 accept AS6774
+mp-export:      afi ipv6.unicast   to   AS6774 announce AS-SPACENET-V6
+import:         from AS6805
+                action pref=100; accept AS-TDDE
+export:         to   AS6805 announce AS-SPACENET
+import:         from AS6830    # Chello BRB/Aorta
+                action pref=100; accept AS-AORTA
+export:         to   AS6830 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS6830  accept   AS6830
+mp-export:      afi ipv6.unicast   to   AS6830  announce AS-SPACENET-V6
+import:         from AS8196
+                action pref=100; accept AS-ESIB
+export:         to   AS8196 announce AS-SPACENET
+import:         from AS8210
+                action pref=100; accept AS-TELENOR
+export:         to   AS8210 announce AS-SPACENET
+import:         from AS8220
+                action pref=100; accept AS-COLT
+export:         to   AS8220 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS8220  accept   AS8220
+mp-export:      afi ipv6.unicast   to   AS8220  announce AS-SPACENET-V6
+import:         from AS8222
+                action pref=100; accept AS-NETPLACE
+export:         to   AS8222 announce AS-SPACENET
+import:         from AS8297
+                action pref=100; accept AS-GLOBEINTERNET
+export:         to   AS8297 announce AS-SPACENET
+import:         from AS8319 accept   AS-IXREGIO
+export:         to   AS8319 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS8319  accept   AS8319
+mp-export:      afi ipv6.unicast   to   AS8319  announce AS-SPACENET-V6
+import:         from AS8365 accept   AS-MANDA
+export:         to   AS8365 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS8365  accept   AS8365
+mp-export:      afi ipv6.unicast   to   AS8365  announce AS-SPACENET-V6
+import:         from AS8437
+                action pref=100; accept AS-UTA
+export:         to   AS8437 announce AS-SPACENET
+import:         from AS8447    # Telekom Austria
+                action pref=100; accept AS-PTA
+export:         to   AS8447 announce AS-SPACENET
+import:         from AS8469 accept   AS-PIRONETNDH # PiroNet/NDH
+export:         to   AS8469 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS8469  accept   AS8469
+mp-export:      afi ipv6.unicast   to   AS8469  announce AS-SPACENET-V6
+import:         from AS8560 accept   AS-1AND1 AS8560:RS-V4
+export:         to   AS8560 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS8560  accept   AS8560
+mp-export:      afi ipv6.unicast   to   AS8560  announce AS-SPACENET-V6
+import:         from AS8586
+                action pref=100; accept AS-REDNET
+export:         to   AS8586 announce AS-SPACENET
+import:         from AS8657 accept AS-CPRM
+export:         to   AS8657 announce AS-SPACENET
+import:         from AS8741
+                action pref=100; accept AS-ECORE
+export:         to AS8741 announce AS-SPACENET
+import:         from AS8767
+                action pref=100; accept AS-MNETDE
+export:         to   AS8767 announce AS-SPACENET
+import:         from AS8804
+                action pref=100; accept AS-IX-REGIONET
+export:         to   AS8804 announce AS-SPACENET
+import:         from AS8879
+                action pref=100; accept AS-DTS
+export:         to   AS8879 announce AS-SPACENET
+import:         from AS8881
+                action pref=100; accept AS-KOMTEL
+export:         to   AS8881 announce AS-SPACENET
+import:         from AS8938
+                action pref=100; accept AS-ENERGISDE AS-ENERIGSAT AS-ENERGISCH
+export:         to   AS8938 announce AS-SPACENET
+import:         from AS8966
+                action pref=100; accept AS-EMIX
+export:         to AS8966 announce AS-SPACENET
+import:         from AS9063
+                action pref=100; accept AS-SAARGATE
+export:         to   AS9063 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS9063 accept   AS-SAARGATE-V6
+mp-export:      afi ipv6.unicast   to   AS9063 announce AS-SPACENET-V6
+import:         from AS9132
+                action pref=100; accept AS-MEDIASCAPE
+export:         to   AS9132 announce AS-SPACENET
+import:         from AS9145
+                action pref=100; accept AS-EWETEL
+export:         to   AS9145 announce AS-SPACENET
+import:         from AS9193
+                action pref=100; accept AS-CONXIONEU
+export:         to   AS9193 announce AS-SPACENET
+import:         from AS9211
+                action pref=100; accept AS-WORK
+export:         to   AS9211 announce AS-SPACENET
+import:         from AS9505
+                action pref=100; accept AS-TWIG
+export:         to   AS505 announce AS-SPACENET
+import:         from AS10310
+                action pref=100; accept AS-YAHOO
+export:         to   AS10310 announce AS-SPACENET
+import:         from AS12306
+                action pref=100; accept AS-PLUSLINE
+export:         to   AS12306 announce AS-SPACENET
+import:         from AS12337 accept   AS-NORIS
+export:         to   AS12337 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS12337 accept   AS12337
+mp-export:      afi ipv6.unicast   to   AS12337 announce AS-SPACENET-V6
+import:         from AS12355 accept   AS-HELINET-V4
+export:         to   AS12355 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS12355 accept   AS-HELINET-V6
+mp-export:      afi ipv6.unicast   to   AS12355 announce ANY
+mp-import:      afi ipv6.unicast   from AS12371 accept   AS12371 # Uni-X
+mp-export:      afi ipv6.unicast   to   AS12371 announce ANY
+import:         from AS12611 accept   AS-RKOM  # R-Kom
+export:         to   AS12611 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS12611 accept   AS12611
+mp-export:      afi ipv6.unicast   to   AS12611 announce AS-SPACENET-V6
+mp-import:      afi ipv6.unicast   from AS12638 accept   AS12638
+mp-export:      afi ipv6.unicast   to   AS12638 announce ANY
+import:         from AS12731 accept   AS-IPHH  # IPHH
+export:         to   AS12731 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS12731 accept   AS12731
+mp-export:      afi ipv6.unicast   to   AS12731 announce AS-SPACENET-V6
+import:         from AS12859 accept AS-BIT     # and AS-BIT6 for IPv6
+export:         to   AS12859 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS12859 accept   AS-BIT6
+mp-export:      afi ipv6.unicast   to   AS12859 announce AS-SPACENET-V6
+import:         from AS12956     # Telefonica Data
+                action pref=100; accept AS-TDATANET
+export:         to   AS12956 announce AS-SPACENET
+import:         from AS12989
+                action pref=100; accept AS-EWEKA
+export:         to   AS12989 announce AS-SPACENET
+import:         from AS13132
+                action pref=100; accept AS-CYBERWAYS
+export:         to AS13132 announce AS-SPACENET
+import:         from AS13184
+                action pref=100; accept AS-HANSENET
+export:         to AS13184 announce AS-SPACENET
+import:         from AS13246
+                action pref=100; accept AS-INETWIRE
+export:         to AS13246 announce AS-SPACENET
+import:         from AS13301
+                action pref=100; accept AS-UNITEDCOLO
+export:         to   AS13301 announce AS-SPACENET
+import:         from AS15434
+                action pref=100; accept AS-BARTELS
+export:         to   AS15434 announce AS-SPACENET
+import:         from AS15600 accept   AS-LAN  # LAN Serv. CH
+export:         to   AS15600 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS15600 accept   AS15600
+mp-export:      afi ipv6.unicast   to   AS15600 announce AS-SPACENET-V6
+import:         from AS15703 accept   AS-TRUESERVER
+export:         to   AS15703 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS15703 accept   AS15703
+mp-export:      afi ipv6.unicast   to   AS15703 announce AS-SPACENET-V6
+import:         from AS15933
+                action pref=100; accept AS-ITH
+export:         to   AS15933 announce AS-SPACENET
+import:         from AS15960
+                action pref=100; accept AS-GLOBALACCESS
+export:         to   AS15960 announce AS-SPACENET
+import:         from AS16265
+                action pref=100; accept AS-LEASEWEB-DEX
+export:         to   AS16265 announce AS-SPACENET
+import:         from AS19151
+                action pref=100; accept AS19151  # no RIPE AS macro
+export:         to   AS19151 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS19151 accept   AS19151
+mp-export:      afi ipv6.unicast   to   AS19151 announce AS-SPACENET-V6
+import:         from AS20495
+                action pref=100; accept AS-WEDARE
+export:         to   AS20495 announce AS-SPACENET
+import:         from AS20640 accept   AS-TITANNET
+export:         to   AS20640 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS20640 accept   AS-TITANNET
+mp-export:      afi ipv6.unicast   to   AS20640 announce AS-SPACENET-V6
+import:         from AS20646 accept   AS-CELOX
+export:         to   AS20646 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS20646 accept   AS-CELOX-V6
+mp-export:      afi ipv6.unicast   to   AS20646 announce AS-SPACENET-V6
+import:         from AS20676 accept   AS-QSC
+export:         to   AS20676 announce AS-SPACENET
+import:         from AS20847 accept   AS-INTROWEB
+export:         to   AS20847 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS20847 accept   AS20847
+mp-export:      afi ipv6.unicast   to   AS20847 announce AS-SPACENET-V6
+import:         from AS20940
+                action pref=100; accept AS20940
+export:         to   AS20940 announce AS-SPACENET
+import:         from AS21263
+                action pref=100; accept AS-TELEDATA
+mp-import:      afi ipv6.unicast   from AS21263 accept AS-TELEDATA
+mp-export:      afi ipv6.unicast   to   AS21263 announce AS-SPACENET-V6
+export:         to   AS21263 announce AS-SPACENET
+import:         from AS24679 accept   AS-SSERV
+export:         to   AS24679 announce AS-SPACENET
+import:         from AS25291
+                action pref=100; accept AS-SYSELEVEN
+export:         to   AS25291 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS25291 accept AS-SYSELEVEN
+mp-export:      afi ipv6.unicast   to   AS25291 announce AS-SPACENET-V6
+remarks:        # RH-Tec
+mp-import:      afi ipv6.unicast   from AS25560 accept   AS25560
+mp-export:      afi ipv6.unicast   to   AS25560 announce AS-SPACENET-V6
+import:         from AS29488 accept   AS-CCN
+export:         to   AS29488 announce AS-SPACENET
+import:         from AS29562 accept   AS-KABELBW
+export:         to   AS29562 announce AS-SPACENET
+remarks:        # Probe Networks
+import:         from AS29686 accept   AS-PROBENETWORKS
+export:         to   AS29686 announce AS-SPACENET
+remarks:        # Kabel Deutschland
+import:         from AS31334 accept   AS31334
+export:         to   AS31334 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS33843 accept   AS-INTERSCHOLZ
+mp-export:      afi ipv6.unicast   to   AS33843 announce AS-SPACENET-V6
+import:         from AS34011
+                action pref=100; accept AS-DOMAINFACTORY
+export:         to   AS34011 announce AS-SPACENET
+import:         from AS35244 accept   AS-KMS
+export:         to   AS35244 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS35244 accept   AS-KMS
+mp-export:      afi ipv6.unicast   to   AS35244 announce AS-SPACENET-V6
+mp-import:      afi ipv6.unicast   from AS41692 accept   AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast   to   AS41692 announce AS-SPACENET-V6
+import:         from AS57537 accept   AS-NETDSIGN
+export:         to   AS57537 announce AS-SPACENET
+mp-import:      afi ipv6.unicast   from AS57537  accept   AS57537
+mp-export:      afi ipv6.unicast   to   AS57537  announce AS-SPACENET-V6
+remarks:        -----------------------------------
+remarks:        ### customer ASes ###
+remarks:        -----------------------------------
+mp-import:      afi ipv6.unicast   from AS5438  accept   AS5438 # ATI.TN
+mp-export:      afi ipv6.unicast   to   AS5438  announce ANY
+import:         from AS8481           # TransNet
+                action pref=500; accept AS8481
+export:         to   AS8481 announce ANY      # TransNet
+mp-import:      afi ipv6.unicast   from AS8481  accept   AS8481 # TransNet
+mp-export:      afi ipv6.unicast   to   AS8481  announce ANY
+mp-import:      afi ipv6.unicast   from AS8591  accept   AS-AMIS # Amis.Net
+mp-export:      afi ipv6.unicast   to   AS8591  announce ANY
+import:         from AS8763   # DENIC
+                action pref=500; accept AS-DENIC
+export:         to   AS8763 announce ANY  # DENIC
+mp-import:      afi ipv6.unicast   from AS8763  accept   AS-DENIC
+mp-export:      afi ipv6.unicast   to   AS8763  announce ANY
+import:         from AS8874   # Bartels F+E
+                action pref=500; accept AS8874
+export:         to   AS8874 announce ANY # Bartels F+E
+mp-import:      afi ipv6.unicast   from AS9188  accept   AS-INFOSERVE-V6 # eurodata
+mp-export:      afi ipv6.unicast   to   AS9188  announce ANY
+import:         from AS34906   # Avianet
+                action pref=500; accept AS34906
+export:         to   AS34906 announce ANY
+import:         from AS204110   # Acision
+                action pref=500; accept AS204110
+export:         to   AS204110 announce ANY
+import:         from AS205973   # Neos
+                action pref=500; accept AS205973
+export:         to   AS205973 announce ANY
+admin-c:        SVB
+tech-c:         GD9-RIPE
+tech-c:         SPCN-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SPACENET-N
+remarks:
+remarks:        we do not accept IPv4 routes more specific than /24
+remarks:
+remarks:        *********************************************
+                for peering issues, contact peering@space.net
+                *********************************************
+                for Network scans, SPAM and other ugly things
+                coming from us, please contact abuse@space.net
+                *********************************************
+remarks:
+remarks:        Native IPv6 peerings available at INXS/Munich and
+                DECIX/Frankfurt, tunnels to other places on request.
+remarks:
+remarks:        For BGP communities in use and our BGP filtering policy,
+                please see:
+                http://www.space.net/static/as5539.html
+                http://www.space.net/static/bgp_communities.html
+remarks:
+created:        2002-07-16T13:55:23Z
+last-modified:  2025-04-14T13:30:57Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SA17-RIPE
+org-name:       SpaceNet AG
+country:        DE
+org-type:       LIR
+address:        Joseph-Dollinger-Bogen 14
+address:        D-80807
+address:        Muenchen
+address:        GERMANY
+phone:          +498932356444
+fax-no:         +498932356299
+admin-c:        SVB
+admin-c:        GD9-RIPE
+mnt-ref:        SPACENET-N
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SPACENET-N
+abuse-c:        SPCA-RIPE
+created:        2004-04-17T11:12:12Z
+last-modified:  2020-12-16T12:39:52Z
+source:         RIPE # Filtered
+
+role:           SpaceNet Netmaster
+address:        SpaceNet AG
+                Joseph-Dollinger-Bogen 14
+                D-80807 Munich
+phone:          +49 89 32356 222
+fax-no:         +49 89 32356 234
+remarks:        trouble:      noc@space.net
+admin-c:        SVB
+admin-c:        GD9-RIPE
+tech-c:         GD9-RIPE
+tech-c:         MP12568-RIPE
+nic-hdl:        SPCN-RIPE
+remarks:        please send complaints about all network abuse to
+remarks:        >>> abuse@space.net <<<
+mnt-by:         SPACENET-N
+created:        2002-06-11T09:04:16Z
+last-modified:  2019-04-14T13:46:53Z
+source:         RIPE # Filtered
+
+person:         Gert Doering
+address:        Joseph-Dollinger-Bogen 14
+address:        D-80807 Muenchen
+address:        Germany
+phone:          +49 89 32356-0
+fax-no:         +49 89 32356-234
+nic-hdl:        GD9-RIPE
+mnt-by:         SPACENET-P
+created:        2002-02-22T09:35:27Z
+last-modified:  2017-10-30T21:44:44Z
+source:         RIPE # Filtered
+
+person:         Sebastian v. Bomhard
+address:        Spacenet AG
+address:        Joseph-Dollinger-Bogen 14
+address:        D-80807 Muenchen
+address:        Germany
+phone:          +49 89 323 56 0
+fax-no:         +49 89 323 56 299
+nic-hdl:        SVB
+mnt-by:         SPACENET-P
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-10-30T21:45:20Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          5.182.154.0/23
+origin:         AS5539
+mnt-by:         mnt-de-hoffmann-1
+created:        2021-10-07T13:22:56Z
+last-modified:  2021-10-07T13:22:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.182.155.0/24
+origin:         AS5539
+mnt-by:         mnt-de-hoffmann-1
+created:        2019-05-24T08:18:08Z
+last-modified:  2019-05-24T08:18:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.214.222.0/23
+descr:          DE-CHECK24-20110506
+origin:         AS5539
+mnt-by:         de-check24-1-mnt
+mnt-by:         SPACENET-N
+created:        2018-01-17T16:12:31Z
+last-modified:  2018-01-17T16:12:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.15.240.0/24
+descr:          DE-CHECK24-20190513
+origin:         AS5539
+mnt-by:         SPACENET-N
+created:        2021-06-24T14:05:33Z
+last-modified:  2021-06-24T14:05:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.118.32.0/19
+descr:          TRANSNET-82-SPACE
+origin:         AS5539
+mnt-by:         SPACENET-N
+created:        2014-01-30T15:07:34Z
+last-modified:  2014-01-30T15:07:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.35.174.0/23
+descr:          C24 GmbH via SpaceNET AG
+origin:         AS5539
+mnt-by:         MEGASPACE-MNT
+mnt-by:         SPACENET-N
+created:        2019-06-18T08:38:34Z
+last-modified:  2019-06-18T08:38:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.230.244.0/23
+origin:         AS5539
+mnt-by:         de-check24-1-mnt
+mnt-by:         SPACENET-N
+created:        2017-03-09T07:50:41Z
+last-modified:  2017-03-09T07:50:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          149.62.56.0/21
+descr:          Crystal GmbH / Neos Ventures via Spacenet route object
+origin:         AS5539
+mnt-by:         DE-CRYSTAL-MNT
+mnt-by:         SPACENET-N
+created:        2011-11-01T13:12:26Z
+last-modified:  2011-11-01T13:12:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.5.184.0/23
+descr:          DE-FGN-SF-DE01
+descr:          Sebastian Fohler, Far-Galaxy Networks
+descr:          routed via SpaceNet AG, Munich
+origin:         AS5539
+mnt-by:         SPACENET-N
+mnt-by:         SF30689-MNT
+created:        2012-11-18T12:56:22Z
+last-modified:  2012-11-18T12:56:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.54.120.0/22
+descr:          DE-TRANS-185-54-120
+descr:          SpaceNET AG, Munich
+origin:         AS5539
+mnt-by:         SPACENET-N
+created:        2014-04-17T17:06:20Z
+last-modified:  2014-04-17T17:06:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.54.188.0/22
+descr:          DE-SPACE-185-54-188
+descr:          SpaceNET AG, Munich
+origin:         AS5539
+mnt-by:         SPACENET-N
+created:        2014-04-22T14:43:15Z
+last-modified:  2014-04-22T14:43:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.143.68.0/23
+descr:          DE-C24-185-143-68-23
+descr:          CHECK24 GmbH
+origin:         AS5539
+notify:         guardian@space.net
+mnt-by:         SPACENET-N
+created:        2016-04-29T16:01:22Z
+last-modified:  2016-04-29T16:01:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.97.129.0/24
+descr:          Software Factory, Munich
+origin:         AS5539
+notify:         noc@space.net
+mnt-by:         SPACENET-N
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.149.32.0/19
+descr:          DE-SPACE-193-149-32
+descr:          SpaceNET AG, Munich
+origin:         AS5539
+notify:         noc@space.net
+mnt-by:         SPACENET-N
+created:        2002-02-12T14:16:59Z
+last-modified:  2002-02-12T14:16:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.163.206.0/24
+descr:          bnerd via SpaceNet Munich
+origin:         AS5539
+mnt-by:         SPACENET-N
+created:        2021-12-03T15:06:24Z
+last-modified:  2021-12-03T15:06:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.39.121.0/24
+descr:          LINKN
+descr:          Linksytem Muenchen GmbH
+descr:          Germany
+origin:         AS5539
+mnt-by:         SPACENET-P
+created:        2013-10-11T12:24:01Z
+last-modified:  2013-10-11T12:24:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.97.64.0/19
+descr:          customers of SpaceNet Munich
+origin:         AS5539
+notify:         noc@space.net
+mnt-by:         SPACENET-N
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.97.128.0/19
+descr:          customers of SpaceNet Munich
+origin:         AS5539
+notify:         noc@space.net
+mnt-by:         SPACENET-N
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.24.96.0/19
+descr:          TRANSNET-195-SPACE
+origin:         AS5539
+mnt-by:         SPACENET-N
+created:        2014-01-30T15:07:34Z
+last-modified:  2014-01-30T15:10:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.30.0.0/16
+descr:          DE-SPACE-195-30
+descr:          SpaceNET AG, Munich
+origin:         AS5539
+notify:         noc@space.net
+mnt-by:         SPACENET-N
+pingable:       195.30.70.33
+created:        2002-02-12T14:17:17Z
+last-modified:  2014-03-16T12:19:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.230.114.0/24
+descr:          eFonds AG, via SpaceNet AG
+origin:         AS5539
+mnt-by:         SPACENET-N
+mnt-by:         EFONDS-MNT
+created:        2021-03-08T08:07:53Z
+last-modified:  2021-03-08T08:07:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:608::/32
+descr:          DE-SPACE-2001-0608
+descr:          SpaceNET AG, Munich
+origin:         AS5539
+notify:         noc@space.net
+mnt-by:         SPACENET-N
+pingable:       2001:608:3:337::1
+created:        2004-12-30T14:56:30Z
+last-modified:  2014-03-16T12:19:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:158c::/48
+descr:          DE-SPACE-067c-158c
+descr:          SpaceNET AG, Munich
+origin:         AS5539
+notify:         noc@space.net
+mnt-by:         SPACENET-N
+created:        2013-04-10T13:23:41Z
+last-modified:  2013-04-10T13:23:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:4150::/32
+descr:          TRANSNET-v6-SPACE
+origin:         AS5539
+mnt-by:         SPACENET-N
+created:        2014-02-03T13:36:40Z
+last-modified:  2014-02-03T13:36:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:7c40::/33
+descr:          DE-FGN-SF-DE01
+descr:          Sebastian Fohler, Far-Galaxy Networks
+descr:          routed via SpaceNet AG, Munich
+origin:         AS5539
+mnt-by:         SPACENET-N
+mnt-by:         SF30689-MNT
+created:        2012-11-18T12:56:22Z
+last-modified:  2012-11-18T12:56:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a07:3340::/48
+descr:          DE-C24-2a07-3340
+descr:          CHECK24 GmbH
+origin:         AS5539
+notify:         guardian@space.net
+mnt-by:         SPACENET-N
+created:        2016-05-24T14:43:14Z
+last-modified:  2016-05-24T14:43:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

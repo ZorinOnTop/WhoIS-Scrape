@@ -1,0 +1,226 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21153 - AS21241'
+
+as-block:       AS21153 - AS21241
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS21208'
+
+% Abuse contact for 'AS21208' is 'RIPE-abuse@cmtww.com'
+
+aut-num:        AS21208
+as-name:        YOUNG-AND-RUBICAM
+org:            ORG-YARS1-RIPE
+import:         from AS5400 action pref=100; accept ANY
+import:         from AS8220 action pref=100; accept ANY
+import:         from AS702 action pref=100; accept ANY
+import:         from AS2686 accept ANY
+import:         from AS12670 accept ANY
+export:         to AS5400 announce AS21208
+export:         to AS8220 announce AS21208
+export:         to AS702 announce AS21208
+export:         to AS2686 announce AS21208
+export:         to AS12670 announce AS21208
+default:        to AS5400 action pref=100; networks ANY
+remarks:        Multi-homed Network
+admin-c:        RM8284-RIPE
+admin-c:        GH5601-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         WPPGTS-MNT
+tech-c:         RM8284-RIPE
+tech-c:         GH5601-RIPE
+mnt-by:         YOUNG-RUBICAM-MNT
+created:        2002-08-16T17:24:11Z
+last-modified:  2025-08-21T12:30:14Z
+source:         RIPE
+sponsoring-org: ORG-WGTS1-RIPE
+
+organisation:   ORG-YARS1-RIPE
+org-name:       VML YOUNG & RUBICAM SL
+country:        ES
+org-type:       Other
+address:        MADRID, SPAIN
+abuse-c:        AR18891-RIPE
+mnt-ref:        WPPGTS-MNT
+mnt-by:         WPPGTS-MNT
+created:        2012-02-09T06:33:35Z
+last-modified:  2023-04-26T08:46:02Z
+source:         RIPE # Filtered
+
+person:         Gavin Herbert
+address:        2 Southwark Bridge Road
+phone:          +447970314010
+nic-hdl:        GH5601-RIPE
+mnt-by:         WPPGTS-MNT
+mnt-by:         MEC-MNT
+created:        2022-12-21T08:15:34Z
+last-modified:  2022-12-21T08:15:34Z
+source:         RIPE
+
+person:         Ross McCormick
+address:        121-141 Westbourne Terrace
+address:        London W26JR
+address:        United Kingdom
+phone:          +44 20 7479 0400
+fax-no:         +44 20 7479
+nic-hdl:        RM8284-RIPE
+mnt-by:         MNT-CMTWW
+created:        2007-10-04T08:28:33Z
+last-modified:  2008-03-25T19:03:01Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          91.228.188.0/24
+descr:          Vmly&r France SAS
+origin:         AS21208
+mnt-by:         COLT-FR-MNT
+mnt-by:         COMPLETEL-MNT
+created:        2022-10-04T15:06:48Z
+last-modified:  2022-10-04T15:06:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.109.116.0/24
+descr:          Y&R GLH
+origin:         AS21208
+remarks:        Multihomed AS with AS5571 and AS5400
+notify:         craig_allen@uk.yr.com
+notify:         global_ops@nyc.yr.com
+mnt-by:         YOUNG-RUBICAM-MNT
+created:        2001-10-03T16:20:22Z
+last-modified:  2001-10-03T16:20:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.111.84.0/24
+descr:          Y&R GLH
+origin:         AS21208
+remarks:        Multihomed AS with AS702 and AS8220
+mnt-by:         MNT-CMTWW
+created:        2008-05-19T16:01:01Z
+last-modified:  2008-05-19T16:01:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.111.84.0/24
+descr:          Proxy-registered route object
+origin:         AS21208
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20020807
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.47.209.0/24
+descr:          BM_Madrid_Subnet
+origin:         AS21208
+remarks:        BM-Madrid
+notify:         global_ops@nyc.yr.com
+mnt-by:         YOUNG-RUBICAM-MNT
+mnt-by:         MNT-CMTWW
+created:        2003-06-10T15:07:46Z
+last-modified:  2008-03-25T18:06:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.75.241.0/24
+descr:          AT&T IP Range used for Young and Rubicam
+descr:          For routing issues: noc@intl.att.com
+descr:          For addressing issues: euabsipa@intl.att.com
+origin:         AS21208
+mnt-by:         MAINT-AS2686
+mnt-by:         YOUNG-RUBICAM-MNT
+created:        2004-02-11T16:44:18Z
+last-modified:  2020-09-25T14:07:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.157.202.0/24
+descr:          YR/WUNDERMAN-PARIS-NET1
+descr:          YR/WUNDERMAN
+origin:         AS21208
+remarks:        *************************************
+remarks:        For all spamming or hacking problems
+remarks:        please send your requests directly to
+remarks:        abuse@fr.uu.net
+remarks:        *************************************
+notify:         ip@se.uu.net
+mnt-by:         YOUNG-RUBICAM-MNT
+created:        2004-08-26T13:11:37Z
+last-modified:  2004-08-26T13:21:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

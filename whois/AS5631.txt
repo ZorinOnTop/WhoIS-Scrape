@@ -1,0 +1,1115 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5537 - AS5631'
+
+as-block:       AS5537 - AS5631
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5631'
+
+% Abuse contact for 'AS5631' is 'abuse@elevate.uk'
+
+aut-num:        AS5631
+as-name:        LUMINET
+org:            ORG-TNL21-RIPE
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        IPv6 Routing Policy
+remarks:        ---------------------------------------------------------------
+remarks:
+mp-import:      afi ipv6.unicast from AS174 action pref=80; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-LUMINET
+mp-import:      afi ipv6.unicast from AS3356 action pref=80; accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-LUMINET
+mp-import:      afi ipv6.unicast from AS8714 action pref=90; accept ANY
+mp-export:      afi ipv6.unicast to AS8714 announce AS-LUMINET
+mp-import:      afi ipv6.unicast from AS34309 action pref=90; accept AS-LINK11
+mp-export:      afi ipv6.unicast to AS34309 announce AS-LUMINET
+mp-import:      afi ipv6.unicast from AS43157 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS43157 announce ANY
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        IPv4 Routing Policy
+remarks:        ---------------------------------------------------------------
+remarks:
+import:         from AS174 action pref=80; accept ANY
+export:         to AS174 announce AS-LUMINET
+import:         from AS3356 action pref=80; accept ANY
+export:         to AS3356 announce AS-LUMINET
+import:         from AS786 action pref=100; accept AS-JANETPLUS AND NOT {0.0.0.0/0}
+import:         from AS2529 action pref=100; accept AS-DEMON AND NOT {0.0.0.0/0}
+import:         from AS2686 action pref=100; accept AS-IGNEMEA AND NOT {0.0.0.0/0}
+import:         from AS2818 action pref=100; accept AS-BBC AND NOT {0.0.0.0/0}
+import:         from AS2856 action pref=100; accept AS-BTTOLINX AND NOT {0.0.0.0/0}
+import:         from AS3209 action pref=100; accept AS-ARCORGLOBAL AND NOT {0.0.0.0/0}
+import:         from AS3246 action pref=100; accept AS3246 AND NOT {0.0.0.0/0}
+import:         from AS3257 action pref=100; accept AS-NACAMAR AND NOT {0.0.0.0/0}
+import:         from AS3292 action pref=100; accept AS-TELEDK AND NOT {0.0.0.0/0}
+import:         from AS3303 action pref=100; accept AS-SWCMGLOBAL AND NOT {0.0.0.0/0}
+import:         from AS3328 action pref=100; accept AS-NETKONECT AND NOT {0.0.0.0/0}
+import:         from AS4513 action pref=100; accept AS-GLOBIX AND NOT {0.0.0.0/0}
+import:         from AS4589 action pref=100; accept AS-EASYNET AND NOT {0.0.0.0/0}
+import:         from AS4637 action pref=100; accept AS4637 AND NOT {0.0.0.0/0}
+import:         from AS5503 action pref=100; accept AS-RMIFL AND NOT {0.0.0.0/0}
+import:         from AS5089 action pref=100; accept AS-NTLI AND NOT {0.0.0.0/0}
+import:         from AS5388 action pref=100; accept AS-POL AND NOT {0.0.0.0/0}
+import:         from AS5390 action pref=100; accept AS-EURONET AND NOT {0.0.0.0/0}
+import:         from AS5427 action pref=100; accept AS-CONTRIBNET AND NOT {0.0.0.0/0}
+import:         from AS5430 action pref=100; accept AS-FREENETDE AND NOT {0.0.0.0/0}
+import:         from AS5432 action pref=100; accept AS-SKYNETBE AND NOT {0.0.0.0/0}
+import:         from AS5462 action pref=100; accept AS-CABLEINET AND NOT {0.0.0.0/0}
+import:         from AS5466 action pref=100; accept AS-EIRCOM AND NOT {0.0.0.0/0}
+import:         from AS5496 action pref=100; accept AS-WIREHUB AND NOT {0.0.0.0/0}
+import:         from AS5552 action pref=100; accept AS-DIALNET AND NOT {0.0.0.0/0}
+import:         from AS5557 action pref=100; accept AS-ZOO AND NOT {0.0.0.0/0}
+import:         from AS5571 action pref=100; accept AS-NETCOMUK AND NOT {0.0.0.0/0}
+import:         from AS5587 action pref=100; accept AS5587 AND NOT {0.0.0.0/0}
+import:         from AS5604 action pref=100; accept AS-ASFREEDOMTOSURF AND NOT {0.0.0.0/0}
+import:         from AS5605 action pref=100; accept AS-NETUSE AND NOT {0.0.0.0/0}
+import:         from AS5611 action pref=100; accept AS-FTECH AND NOT {0.0.0.0/0}
+import:         from AS5669 action pref=100; accept AS-VIA AND NOT {0.0.0.0/0}
+import:         from AS6067 action pref=100; accept AS-ONYX AND NOT {0.0.0.0/0}
+import:         from AS6553 action pref=100; accept AS-DIGISLE AND NOT {0.0.0.0/0}
+import:         from AS6667 action pref=100; accept AS-JIPPII AND NOT {0.0.0.0/0}
+import:         from AS6728 action pref=100; accept AS-NILDRAM AND NOT {0.0.0.0/0}
+import:         from AS6730 action pref=100; accept AS-GLOBAL AND NOT {0.0.0.0/0}
+import:         from AS6763 action pref=100; accept AS-PAVILION AND NOT {0.0.0.0/0}
+import:         from AS6774 action pref=100; accept AS-BELBONETOPEERS AND NOT {0.0.0.0/0}
+import:         from AS6779 action pref=100; accept AS-ICLNET AND NOT {0.0.0.0/0}
+import:         from AS6805 action pref=100; accept AS-MWAYS AND NOT {0.0.0.0/0}
+import:         from AS6830 action pref=100; accept AS-CHELLOBRB AND NOT {0.0.0.0/0}
+import:         from AS6871 action pref=100; accept AS6871 AND NOT {0.0.0.0/0}
+import:         from AS8001 action pref=100; accept AS8001 AND NOT {0.0.0.0/0}
+import:         from AS8068 action pref=100; accept AS-MICROSOFTEU AND NOT {0.0.0.0/0}
+import:         from AS8210 action pref=100; accept AS-TELENOR AND NOT {0.0.0.0/0}
+import:         from AS8220 action pref=100; accept AS-COLT AND NOT {0.0.0.0/0}
+import:         from AS8272 action pref=100; accept AS-DIRCON AND NOT {0.0.0.0/0}
+import:         from AS8406 action pref=100; accept AS-TELENORUK-LINXUK AND NOT {0.0.0.0/0}
+import:         from AS8426 action pref=100; accept AS-CLARANET AND NOT {0.0.0.0/0}
+import:         from AS8543 action pref=100; accept AS8543 AND NOT {0.0.0.0/0}
+import:         from AS8546 action pref=100; accept AS-YOURCOMMS AND NOT {0.0.0.0/0}
+import:         from AS8553 action pref=100; accept AS-AVENSYS AND NOT {0.0.0.0/0}
+import:         from AS8560 action pref=100; accept AS-SCHLUND AND NOT {0.0.0.0/0}
+import:         from AS8582 action pref=100; accept AS-SUPPORT AND NOT {0.0.0.0/0}
+import:         from AS8586 action pref=100; accept AS-REDNET AND NOT {0.0.0.0/0}
+import:         from AS8657 action pref=100; accept AS-CPRM AND NOT {0.0.0.0/0}
+import:         from AS8709 action pref=100; accept AS-EXODUS-EU AND NOT {0.0.0.0/0}
+import:         from AS8743 action pref=100; accept AS-HIGHWAYONE AND NOT {0.0.0.0/0}
+import:         from AS8785 action pref=100; accept AS8785 AND NOT {0.0.0.0/0}
+import:         from AS8815 action pref=100; accept AS-CUBECOM AND NOT {0.0.0.0/0}
+import:         from AS8851 action pref=100; accept AS-INWEB AND NOT {0.0.0.0/0}
+import:         from AS8897 action pref=100; accept AS-MISTRAL AND NOT {0.0.0.0/0}
+import:         from AS8912 action pref=100; accept AS-NETBENEFIT AND NOT {0.0.0.0/0}
+import:         from AS8928 action pref=100; accept AS-INTEROUTE AND NOT {0.0.0.0/0}
+import:         from AS8952 action pref=100; accept AS8952 AND NOT {0.0.0.0/0}
+import:         from AS9044 action pref=100; accept AS-SOLNET AND NOT {0.0.0.0/0}
+import:         from AS9057 action pref=100; accept AS-LEVELTHREEEU AND NOT {0.0.0.0/0}
+import:         from AS9109 action pref=100; accept AS-MADGE AND NOT {0.0.0.0/0}
+import:         from AS9189 action pref=100; accept AS-ACCOM AND NOT {0.0.0.0/0}
+import:         from AS9191 action pref=100; accept AS-NEWNET AND NOT {0.0.0.0/0}
+import:         from AS9193 action pref=100; accept AS-VERSATEL AND NOT {0.0.0.0/0}
+import:         from AS12390 action pref=100; accept AS-KINGSTONUK AND NOT {0.0.0.0/0}
+import:         from AS12513 action pref=100; accept AS-ECLIPSE AND NOT {0.0.0.0/0}
+import:         from AS12621 action pref=100; accept AS-ONEANET AND NOT {0.0.0.0/0}
+import:         from AS12781 action pref=100; accept AS-IPULSYSGLOBAL AND NOT {0.0.0.0/0}
+import:         from AS12868 action pref=100; accept AS-IAXIS AND NOT {0.0.0.0/0}
+import:         from AS12932 action pref=100; accept AS12932 AND NOT {0.0.0.0/0}
+import:         from AS13127 action pref=100; accept AS-VERSATEL AND NOT {0.0.0.0/0}
+import:         from AS13129 action pref=100; accept AS-GAT AND NOT {0.0.0.0/0}
+import:         from AS13213 action pref=100; accept AS13213 AND NOT {0.0.0.0/0}
+import:         from AS13237 action pref=100; accept AS-LNCDECIX AND NOT {0.0.0.0/0}
+import:         from AS13285 action pref=100; accept AS-OPAL AND NOT {0.0.0.0/0}
+import:         from AS13646 action pref=100; accept AS-CIGNAL AND NOT {0.0.0.0/0}
+import:         from AS9019 action pref=100; accept AS9019 AND NOT {0.0.0.0/0}
+import:         from AS12956 action pref=100; accept AS-TDATANETEU AND NOT {0.0.0.0/0}
+import:         from AS15412 action pref=100; accept AS15412 AND NOT {0.0.0.0/0}
+import:         from AS15444 action pref=100; accept AS-NETSERVICES AND NOT {0.0.0.0/0}
+import:         from AS15635 action pref=100; accept AS15635 AND NOT {0.0.0.0/0}
+import:         from AS15758 action pref=100; accept AS-FNS AND NOT {0.0.0.0/0}
+import:         from AS15915 action pref=100; accept AS-IBERCOM AND NOT {0.0.0.0/0}
+import:         from AS15988 action pref=100; accept AS-AKHTERNET AND NOT {0.0.0.0/0}
+import:         from AS16334 action pref=100; accept AS-I-NAP AND NOT {0.0.0.0/0}
+import:         from AS20500 action pref=100; accept AS-GRIFFIN AND NOT {0.0.0.0/0}
+import:         from AS20718 action pref=100; accept AS-ARSYSINTERNET AND NOT {0.0.0.0/0}
+import:         from AS20738 action pref=100; accept AS20738 AND NOT {0.0.0.0/0}
+import:         from AS21099 action pref=100; accept AS21099 AND NOT {0.0.0.0/0}
+import:         from AS24842 action pref=100; accept AS-DHMS AND NOT {0.0.0.0/0}
+import:         from AS25460 action pref=100; accept AS25460 AND NOT {0.0.0.0/0}
+import:         from AS16353 action pref=100; accept AS-MERULA AND NOT {0.0.0.0/0}
+import:         from AS8419 action pref=100; accept AS-HOTCHILLI AND NOT {0.0.0.0/0}
+import:         from AS16034 action pref=100; accept AS-KEME AND NOT {0.0.0.0/0}
+import:         from AS41909 action pref=100; accept AS41909 AND NOT {0.0.0.0/0}
+import:         from AS51047 action pref=100; accept AS51047 AND NOT {0.0.0.0/0}
+import:         from AS198756 action pref=100; accept AS198756 AND NOT {0.0.0.0/0}
+export:         to AS51047 announce AS-LUMINET
+export:         to AS198756 announce AS-LUMINET
+export:         to AS786 announce AS-LUMINET
+export:         to AS2529 announce AS-LUMINET
+export:         to AS2686 announce AS-LUMINET
+export:         to AS2818 announce AS-LUMINET
+export:         to AS2856 announce AS-LUMINET
+export:         to AS2863 announce AS-LUMINET
+export:         to AS2871 announce AS-LUMINET
+export:         to AS3209 announce AS-LUMINET
+export:         to AS3257 announce AS-LUMINET
+export:         to AS3246 announce AS-LUMINET
+export:         to AS3292 announce AS-LUMINET
+export:         to AS3303 announce AS-LUMINET
+export:         to AS3328 announce AS-LUMINET
+export:         to AS4513 announce AS-LUMINET
+export:         to AS4589 announce AS-LUMINET
+export:         to AS5388 announce AS-LUMINET
+export:         to AS5089 announce AS-LUMINET
+export:         to AS5390 announce AS-LUMINET
+export:         to AS5427 announce AS-LUMINET
+export:         to AS5430 announce AS-LUMINET
+export:         to AS5432 announce AS-LUMINET
+export:         to AS5462 announce AS-LUMINET
+export:         to AS5466 announce AS-LUMINET
+export:         to AS5496 announce AS-LUMINET
+export:         to AS5503 announce AS-LUMINET
+export:         to AS5552 announce AS-LUMINET
+export:         to AS5557 announce AS-LUMINET
+export:         to AS5571 announce AS-LUMINET
+export:         to AS5587 announce AS-LUMINET
+export:         to AS5604 announce AS-LUMINET
+export:         to AS5611 announce AS-LUMINET
+export:         to AS5669 announce AS-LUMINET
+export:         to AS6067 announce AS-LUMINET
+export:         to AS6553 announce AS-LUMINET
+export:         to AS6667 announce AS-LUMINET
+export:         to AS6728 announce AS-LUMINET
+export:         to AS6730 announce AS-LUMINET
+export:         to AS6774 announce AS-LUMINET
+export:         to AS6779 announce AS-LUMINET
+export:         to AS6805 announce AS-LUMINET
+export:         to AS6830 announce AS-LUMINET
+export:         to AS6871 announce AS-LUMINET
+export:         to AS7473 announce AS-LUMINET
+export:         to AS8001 announce AS-LUMINET
+export:         to AS8068 announce AS-LUMINET
+export:         to AS8210 announce AS-LUMINET
+export:         to AS8220 announce AS-LUMINET
+export:         to AS8272 announce AS-LUMINET
+export:         to AS8406 announce AS-LUMINET
+export:         to AS8426 announce AS-LUMINET
+export:         to AS8543 announce AS-LUMINET
+export:         to AS8546 announce AS-LUMINET
+export:         to AS8553 announce AS-LUMINET
+export:         to AS8560 announce AS-LUMINET
+export:         to AS8582 announce AS-LUMINET
+export:         to AS8586 announce AS-LUMINET
+export:         to AS8657 announce AS-LUMINET
+export:         to AS8709 announce AS-LUMINET
+export:         to AS8743 announce AS-LUMINET
+export:         to AS8785 announce AS-LUMINET
+export:         to AS8815 announce AS-LUMINET
+export:         to AS8851 announce AS-LUMINET
+export:         to AS8897 announce AS-LUMINET
+export:         to AS8928 announce AS-LUMINET
+export:         to AS8952 announce AS-LUMINET
+export:         to AS9019 announce AS-LUMINET
+export:         to AS9044 announce AS-LUMINET
+export:         to AS9057 announce AS-LUMINET
+export:         to AS9191 announce AS-LUMINET
+export:         to AS12359 announce AS-LUMINET
+export:         to AS12390 announce AS-LUMINET
+export:         to AS12513 announce AS-LUMINET
+export:         to AS12621 announce AS-LUMINET
+export:         to AS12868 announce AS-LUMINET
+export:         to AS12956 announce AS-LUMINET
+export:         to AS13127 announce AS-LUMINET
+export:         to AS13129 announce AS-LUMINET
+export:         to AS13213 announce AS-LUMINET
+export:         to AS13237 announce AS-LUMINET
+export:         to AS13285 announce AS-LUMINET
+export:         to AS13646 announce AS-LUMINET
+export:         to AS15412 announce AS-LUMINET
+export:         to AS15444 announce AS-LUMINET
+export:         to AS15635 announce AS-LUMINET
+export:         to AS15758 announce AS-LUMINET
+export:         to AS15915 announce AS-LUMINET
+export:         to AS15988 announce AS-LUMINET
+export:         to AS16334 announce AS-LUMINET
+export:         to AS20500 announce AS-LUMINET
+export:         to AS20718 announce AS-LUMINET
+export:         to AS20738 announce AS-LUMINET
+export:         to AS21099 announce AS-LUMINET
+export:         to AS24842 announce AS-LUMINET
+export:         to AS25460 announce AS-LUMINET
+export:         to AS16353 announce AS-LUMINET
+export:         to AS8419 announce AS-LUMINET
+export:         to AS16034 announce AS-LUMINET
+export:         to AS41909 announce AS-LUMINET
+admin-c:        ELEV8-RIPE
+tech-c:         ELEV8-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ELEVATE-MNT
+created:        2002-06-20T09:03:00Z
+last-modified:  2025-01-31T16:46:12Z
+source:         RIPE
+
+organisation:   ORG-TNL21-RIPE
+org-name:       Telcom Networks Limited
+country:        GB
+org-type:       LIR
+address:        Northstar 135-141 Oldham Street
+address:        M4 1LN
+address:        Manchester
+address:        UNITED KINGDOM
+phone:          +443301222970
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ELEVATE-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ELEVATE-MNT
+abuse-c:        TAT33-RIPE
+tech-c:         ELEV8-RIPE
+created:        2015-04-29T09:18:07Z
+last-modified:  2025-01-31T16:46:14Z
+source:         RIPE # Filtered
+
+role:           Elevate UK
+address:        NorthStar, 135-141 Oldham St, Manchester M4 1LN
+tech-c:         BIW-RIPE
+tech-c:         TS36276-RIPE
+tech-c:         AN32744-RIPE
+tech-c:         PC329
+tech-c:         VZ2012-RIPE
+nic-hdl:        ELEV8-RIPE
+mnt-by:         TELCOM-MNT
+mnt-by:         ELEVATE-MNT
+mnt-by:         AS5631-MNT
+created:        2025-01-30T13:27:13Z
+last-modified:  2025-01-31T16:14:43Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          45.150.140.0/22
+descr:          Telcom Networks Limited
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:03Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.99.88.0/22
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:03Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.128.0/18
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-23T18:32:49Z
+last-modified:  2016-09-23T18:32:49Z
+source:         RIPE
+descr:          LUMINET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.128.0/19
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2015-07-17T12:25:00Z
+last-modified:  2015-07-17T12:25:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.128.0/20
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-07-13T09:19:29Z
+last-modified:  2016-07-13T09:19:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.128.0/21
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-28T15:31:19Z
+last-modified:  2016-09-28T15:31:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.136.0/21
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-28T15:31:52Z
+last-modified:  2016-09-28T15:31:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.144.0/21
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-28T15:32:31Z
+last-modified:  2016-09-28T15:32:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.152.0/21
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-28T15:33:04Z
+last-modified:  2016-09-28T15:33:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.160.0/19
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2015-07-17T12:28:50Z
+last-modified:  2015-07-17T12:28:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.160.0/21
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-28T15:33:48Z
+last-modified:  2016-09-28T15:33:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.168.0/21
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-28T15:34:16Z
+last-modified:  2016-09-28T15:34:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.176.0/21
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-28T15:34:45Z
+last-modified:  2016-09-28T15:34:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.173.184.0/21
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-28T15:35:11Z
+last-modified:  2016-09-28T15:35:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.120.0/22
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:03Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.97.32.0/22
+origin:         AS5631
+mnt-by:         mnt-uk-bruntwood1-1
+created:        2025-05-19T19:32:33Z
+last-modified:  2025-05-19T19:32:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.97.32.0/23
+origin:         AS5631
+mnt-by:         mnt-uk-bruntwood1-1
+created:        2025-05-19T19:32:33Z
+last-modified:  2025-05-19T19:32:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.97.32.0/24
+origin:         AS5631
+mnt-by:         mnt-uk-bruntwood1-1
+created:        2025-05-19T19:32:33Z
+last-modified:  2025-05-19T19:32:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.97.33.0/24
+origin:         AS5631
+mnt-by:         mnt-uk-bruntwood1-1
+created:        2025-05-19T19:32:33Z
+last-modified:  2025-05-19T19:32:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.97.34.0/23
+origin:         AS5631
+mnt-by:         mnt-uk-bruntwood1-1
+created:        2025-05-19T19:32:33Z
+last-modified:  2025-05-19T19:32:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.97.34.0/24
+origin:         AS5631
+mnt-by:         mnt-uk-bruntwood1-1
+created:        2025-05-19T19:32:33Z
+last-modified:  2025-05-19T19:32:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.97.35.0/24
+origin:         AS5631
+mnt-by:         mnt-uk-bruntwood1-1
+created:        2025-05-19T19:32:33Z
+last-modified:  2025-05-19T19:32:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.143.224.0/21
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-09-23T18:35:38Z
+last-modified:  2016-09-23T18:35:38Z
+source:         RIPE
+descr:          LUMINET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.143.224.0/22
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2015-07-17T12:36:36Z
+last-modified:  2015-07-17T12:36:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.143.228.0/22
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2015-07-17T12:37:01Z
+last-modified:  2015-07-17T12:37:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.159.112.0/24
+origin:         AS5631
+mnt-by:         mnt-uk-bruntwood1-1
+created:        2025-05-19T19:32:33Z
+last-modified:  2025-05-19T19:32:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          103.110.208.0/22
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:03Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.224.248.0/21
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:03Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          162.255.208.0/21
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-08-13T19:13:23Z
+last-modified:  2025-08-13T19:13:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.108.168.0/22
+descr:          Telcom Networks Limited
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:03Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.205.172.0/22
+descr:          Telcom Networks Limited
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.178.54.0/23
+descr:          Telcom Networks Limited
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.178.112.0/23
+descr:          Telcom Networks Limited
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.149.69.0/24
+descr:          W & J Linney across LUMINET SOLUTIONS LTD
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2021-11-25T18:15:03Z
+last-modified:  2021-11-25T18:15:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.167.128.0/20
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-05-17T15:19:36Z
+last-modified:  2016-05-17T15:19:36Z
+source:         RIPE
+descr:          LUMINET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.128.0/21
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-05-18T09:19:04Z
+last-modified:  2016-05-18T09:19:04Z
+source:         RIPE
+descr:          LUMINET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.136.0/21
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-05-18T09:19:32Z
+last-modified:  2016-05-18T09:19:32Z
+source:         RIPE
+descr:          LUMINET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.138.0/24
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.176.0/20
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-05-17T15:25:20Z
+last-modified:  2016-05-17T15:25:20Z
+source:         RIPE
+descr:          LUMINET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.176.0/21
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-05-18T09:20:26Z
+last-modified:  2016-05-18T09:20:26Z
+source:         RIPE
+descr:          LUMINET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.181.0/24
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.182.0/24
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.184.0/21
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-05-18T09:21:21Z
+last-modified:  2016-05-18T09:21:21Z
+source:         RIPE
+descr:          LUMINET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.184.0/24
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.186.0/24
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-07-31T15:54:09Z
+last-modified:  2025-07-31T15:54:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.187.0/24
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.189.0/24
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-07-31T15:54:25Z
+last-modified:  2025-07-31T15:54:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          209.42.4.0/22
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          209.42.8.0/21
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-04-28T12:19:04Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:5840::/32
+descr:          LUMINET
+origin:         AS5631
+mnt-lower:      AS5631-MNT
+mnt-routes:     AS5631-MNT
+mnt-by:         AS5631-MNT
+created:        2016-02-17T14:24:06Z
+last-modified:  2016-02-17T14:24:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:890::/32
+descr:          LUMINET
+origin:         AS5631
+mnt-by:         AS5631-MNT
+created:        2016-02-17T14:25:54Z
+last-modified:  2016-02-17T14:25:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a06:e40::/29
+descr:          Telcom Networks Limited
+origin:         AS5631
+mnt-by:         ELEVATE-MNT
+created:        2025-05-08T12:29:15Z
+last-modified:  2025-05-08T12:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

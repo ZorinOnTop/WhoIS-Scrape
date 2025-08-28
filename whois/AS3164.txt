@@ -1,0 +1,582 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS3154 - AS3207'
+
+as-block:       AS3154 - AS3207
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:19Z
+last-modified:  2018-11-22T15:27:19Z
+source:         RIPE
+
+% Information related to 'AS3164'
+
+% Abuse contact for 'AS3164' is 'abuse@vds-server.ro'
+
+aut-num:        AS3164
+as-name:        ASTIMP-IT
+org:            ORG-AISS9-RIPE
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        --- IPv4 upstream peers ---
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+import:         from AS3223 accept ANY
+import:         from AS9009 accept ANY
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+export:         to AS3223 announce AS-ASTIMP
+export:         to AS9009 announce AS-ASTIMP
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        --- IPv6 upstream peers ---
+remarks:        --------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS3223 accept ANY
+mp-import:      afi ipv6.unicast from AS9009 accept ANY
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+mp-export:      afi ipv6.unicast to AS3223 announce AS-ASTIMP
+mp-export:      afi ipv6.unicast to AS9009 announce AS-ASTIMP
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        ---- IPv4 IX ----
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+import:         from AS13335 accept AS-CLOUDFLARE AND NOT {0.0.0.0/0}
+import:         from AS20530 accept AS-ROMANIA AND NOT {0.0.0.0/0}
+import:         from AS39107 accept AS-INTERLANRO AND NOT {0.0.0.0/0}
+import:         from AS6939 accept ANY AND NOT {0.0.0.0/0}
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+export:         to AS13335 announce AS-ASTIMP
+export:         to AS20530 announce AS-ASTIMP
+export:         to AS39107 announce AS-ASTIMP
+export:         to AS6939 announce AS-ASTIMP
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        ---- IPv6 IX ----
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS13335 accept AS-CLOUDFLARE
+mp-import:      afi ipv6.unicast from AS20530 accept AS-ROMANIA
+mp-import:      afi ipv6.unicast from AS39107 accept AS-INTERLANRO
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+mp-export:      afi ipv6.unicast to AS13335 announce AS-ASTIMP
+mp-export:      afi ipv6.unicast to AS20530 announce AS-ASTIMP
+mp-export:      afi ipv6.unicast to AS39107 announce AS-ASTIMP
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ASTIMP
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        ---- IPv4 peers ----
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+import:         from AS47915 accept AS-NIXWAY
+import:         from AS61030 accept AS61030
+import:         from AS44043 accept AS44043
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+export:         to AS47915 announce AS-ASTIMP
+export:         to AS61030 announce AS-ASTIMP
+export:         to AS44043 announce AS-ASTIMP
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        ---- IPv4 Customers ----
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+import:         from AS61030 accept AS61030
+import:         from AS44043 accept AS44043
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+export:         to AS61030 announce AS-ASTIMP
+export:         to AS44043 announce AS-ASTIMP
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        ---- IPv6 peers ----
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS47915 accept AS-NIXWAY
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+mp-export:      afi ipv6.unicast to AS47915 announce AS-ASTIMP
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        ---- IPv6 customers ----
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS47915 accept AS-NIXWAY
+mp-import:      afi ipv6.unicast from AS61030 accept AS61030
+mp-import:      afi ipv6.unicast from AS44043 accept AS44043
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+mp-export:      afi ipv6.unicast to AS47915 announce AS-ASTIMP
+mp-export:      afi ipv6.unicast to AS44043 announce AS-ASTIMP
+mp-export:      afi ipv6.unicast to AS61030 announce AS-ASTIMP
+remarks:        --------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+admin-c:        SAR155-RIPE
+admin-c:        TS38713-RIPE
+tech-c:         SAR155-RIPE
+tech-c:         TS38713-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SAS
+created:        2012-04-25T12:43:05Z
+last-modified:  2021-05-26T12:41:16Z
+source:         RIPE
+
+organisation:   ORG-AISS9-RIPE
+org-name:       Astimp IT Solution SRL
+country:        RO
+org-type:       LIR
+address:        Aleea RETEZAT 5 Sc: 1 Et: 2 Ap:6 camera 1
+address:        400535
+address:        Cluj-Napoca
+address:        ROMANIA
+phone:          +40747778902
+admin-c:        SAR155-RIPE
+admin-c:        TS38713-RIPE
+tech-c:         SAR155-RIPE
+tech-c:         TS38713-RIPE
+abuse-c:        AR45156-RIPE
+mnt-ref:        SAS
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SAS
+created:        2018-02-13T14:20:01Z
+last-modified:  2024-09-05T13:59:24Z
+source:         RIPE # Filtered
+
+person:         Andrei Suditu
+address:        Petre D Ionescu, Bl 7, Sc 4, Et 8, Ap 242
+address:        Bucuresti, Romania
+phone:          +40.786247371
+nic-hdl:        SAR155-RIPE
+mnt-by:         SAS
+created:        2016-02-13T22:24:21Z
+last-modified:  2019-01-06T07:06:02Z
+source:         RIPE
+
+person:         Toma-Alexander Stuhlmuller
+address:        Strada Ovidiu Nr. 15, Block LC5, Scara 1, Ap. 1, camera 4
+address:        800084
+address:        Galati
+address:        ROMANIA
+phone:          +40747778902
+nic-hdl:        TS38713-RIPE
+mnt-by:         ro-astimp-1-mnt
+created:        2018-02-13T14:20:00Z
+last-modified:  2018-02-13T14:20:00Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          5.83.43.0/24
+descr:          Org:FIDELITY WORKS S.R.L.
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-09-07T12:06:22Z
+last-modified:  2020-09-07T12:06:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.156.67.0/24
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:27:14Z
+last-modified:  2019-01-06T15:47:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.156.225.0/24
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:26:17Z
+last-modified:  2019-01-06T15:51:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.247.54.0/24
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:25:59Z
+last-modified:  2019-01-06T15:47:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.105.195.0/24
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:24:54Z
+last-modified:  2019-01-07T05:58:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.39.189.0/24
+origin:         AS3164
+mnt-by:         SAS
+created:        2024-04-30T14:52:49Z
+last-modified:  2024-04-30T14:52:49Z
+source:         RIPE
+descr:          Dobrin Catalina Isabela PFA
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.44.109.0/24
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:24:36Z
+last-modified:  2019-01-07T06:00:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.176.2.0/24
+descr:          Astimp-AS
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:22:15Z
+last-modified:  2019-01-07T06:01:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.88.28.0/24
+descr:          Astimp-AS
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:21:51Z
+last-modified:  2019-01-07T06:02:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.88.29.0/24
+descr:          Astimp-AS
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:21:26Z
+last-modified:  2019-01-07T06:03:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.88.30.0/24
+descr:          Astimp-AS
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:20:30Z
+last-modified:  2019-01-07T06:02:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.88.31.0/24
+descr:          Astimp-AS
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:19:27Z
+last-modified:  2019-01-07T06:04:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.241.194.0/24
+descr:          Astimp-AS
+origin:         AS3164
+mnt-by:         SAS
+created:        2016-08-18T11:19:00Z
+last-modified:  2019-01-07T06:08:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a05:c5c0::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-11T07:17:49Z
+last-modified:  2020-05-11T07:17:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a05:c5c0:1::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-11T09:33:19Z
+last-modified:  2020-05-11T09:33:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a05:c5c0:2::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-11T09:35:57Z
+last-modified:  2020-05-11T09:35:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:3::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-11T09:47:23Z
+last-modified:  2020-05-11T09:47:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:4::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-11T09:48:42Z
+last-modified:  2020-05-11T09:48:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:5::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-11T09:49:26Z
+last-modified:  2020-05-11T09:49:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:6::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-11T09:49:37Z
+last-modified:  2020-05-11T09:49:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:7::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-11T09:49:51Z
+last-modified:  2020-05-11T09:49:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:8::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-12T01:41:33Z
+last-modified:  2020-05-12T01:41:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:9::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-12T01:41:55Z
+last-modified:  2020-05-12T01:41:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:a::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-12T01:43:33Z
+last-modified:  2020-05-12T01:43:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:b::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-12T01:44:05Z
+last-modified:  2020-05-12T01:44:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a05:c5c0:c::/48
+origin:         AS3164
+mnt-by:         SAS
+created:        2020-05-12T01:44:19Z
+last-modified:  2020-05-12T01:44:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

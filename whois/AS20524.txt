@@ -1,0 +1,112 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20524'
+
+% Abuse contact for 'AS20524' is 'valentin.hoza@xchangenet.ro'
+
+aut-num:        AS20524
+as-name:        INEXESS-ASN
+org:            ORG-SITA9-RIPE
+import:         from AS8708
+                action pref=100;
+                accept ANY
+import:         from AS3233
+                action pref=200;
+                accept ANY
+export:         to AS8708
+                announce AS20524
+export:         to AS3233
+                announce AS20524
+default:        to AS8708
+                action pref=50;
+                networks ANY
+default:        to AS3233
+                action pref=100;
+                networks ANY
+admin-c:        HVM19-RIPE
+tech-c:         HVM19-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         LEVELNET-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-09-04T09:49:47Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-LNS8-RIPE
+
+organisation:   ORG-SITA9-RIPE
+org-name:       SC Inexess Team Agency SRL
+country:        RO
+org-type:       OTHER
+address:        Aleea Dealul Macinului 1, Sector 6, Bucharest
+abuse-c:        AR29478-RIPE
+mnt-ref:        LEVELNET-MNT
+mnt-by:         LEVELNET-MNT
+created:        2014-05-15T15:44:17Z
+last-modified:  2022-12-01T17:25:55Z
+source:         RIPE # Filtered
+
+person:         Hoza Valentin Marius
+address:        Level Network SRL
+address:        Poenaru Vasile, 54
+address:        Bucharest , Romania
+phone:          +40-76-8454545
+nic-hdl:        HVM19-RIPE
+mnt-by:         LEVELNET-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2015-05-19T23:36:48Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          185.102.158.0/24
+descr:          INEXESS Network
+origin:         AS20524
+mnt-by:         LEVELNET-MNT
+created:        2024-07-15T08:51:44Z
+last-modified:  2024-07-15T08:51:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.102.159.0/24
+descr:          INEXESS Network
+origin:         AS20524
+mnt-by:         LEVELNET-MNT
+created:        2024-07-15T08:52:00Z
+last-modified:  2024-07-15T08:52:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

@@ -1,0 +1,947 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16316 - AS16383'
+
+as-block:       AS16316 - AS16383
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-01-25T16:07:47Z
+last-modified:  2021-01-25T16:07:47Z
+source:         RIPE
+
+% Information related to 'AS16371'
+
+% Abuse contact for 'AS16371' is 'abuse@acens.net'
+
+aut-num:        AS16371
+as-name:        acens_AS
+descr:          (Spain) Hosting, housing and VPN services
+descr:          http://www.acens.com
+remarks:        --------TRANSITS----------------------------------------------------------
+import:         from AS6453 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:         from AS3352 action pref=300; accept ANY AND NOT {0.0.0.0/0}
+remarks:        -------------------PEERINGS-------------------------------------------------
+import:         from AS2686 action pref=70; accept AS-IGNEMEA
+import:         from AS766 action pref=70; accept AS-REDIRIS
+import:         from AS3262 action pref=70; accept AS-SARENET
+import:         from AS3324 action pref=70; accept AS3324
+import:         from AS3352 action pref=70; accept AS-TDEBCN
+import:         from AS4589 action pref=70; accept AS-EASYNET
+import:         from AS5400 action pref=70; accept AS-BT-EU
+import:         from AS6739 action pref=70; accept AS-ONO-UPS
+import:         from AS6853 action pref=70; accept AS6853
+import:         from AS6895 action pref=70; accept AS-ESPANIX
+import:         from AS8220 action pref=70; accept AS-COLT
+import:         from AS16338 action pref=70; accept AS-AUNANET
+import:         from AS8782 action pref=70; accept AS8782
+import:         from AS9165 action pref=70; accept AS9165
+import:         from AS12338 action pref=70; accept AS-EKTEL
+import:         from AS12357 action pref=70; accept AS-COMUNITEL
+import:         from AS12359 action pref=100; accept AS-INTELIDEAS
+import:         from AS12386 action pref=70; accept AS-ALPICUSTOM
+import:         from AS12430 action pref=70; accept AS12430
+import:         from AS12457 action pref=70; accept AS-TELIBERIA
+import:         from AS12479 action pref=70; accept AS12479
+import:         from AS12715 action pref=70; accept AS-JAZZTRANS
+import:         from AS13041 action pref=70; accept AS13041
+import:         from AS15699 action pref=70; accept AS15699
+import:         from AS15915 action pref=70; accept AS-IBERCOM
+import:         from AS16030 action pref=70; accept AS-ALTECOM
+import:         from AS20718 action pref=70; accept AS-ARSYSINTERNET
+import:         from AS20838 action pref=70; accept AS20838
+import:         from AS24592 action pref=70; accept AS24592
+import:         from AS24983 action pref=70; accept AS24983
+import:         from AS25329 action pref=70; accept AS25329
+import:         from AS25572 action pref=70; accept AS25572
+import:         from AS30892 action pref=70; accept AS-TSE
+import:         from AS31479 action pref=70; accept AS-IPORIUM
+import:         from AS33072 action pref=70; accept AS33072
+import:         from AS16168 action pref=70; accept AS-GENETSISES
+import:         from AS15704 action pref=70; accept AS-MUNDI
+remarks:        -------CLIENTS-----------------------------------
+import:         from AS41705 action pref=100; accept AS41705
+import:         from AS51718 action pref=100; accept AS51718
+import:         from AS56732 action pref=100; accept AS56732
+import:         from AS48958 action pref=100; accept AS48958
+import:         from AS199171 action pref=100; accept AS199171
+import:         from AS55393 action pref=100; accept AS55393
+import:         from AS208248 action pref=100; accept AS208248
+remarks:        ----------TRANSITS-----------------------------
+export:         to AS6453 announce AS-ACENS
+export:         to AS3352 announce AS-ACENS
+remarks:        ---------PEERINGS------------------------------
+export:         to AS766 announce AS-ACENS
+export:         to AS2686 announce AS-ACENS
+export:         to AS3262 announce AS-ACENS
+export:         to AS3324 announce AS-ACENS
+export:         to AS4589 announce AS-ACENS
+export:         to AS5400 announce AS-ACENS
+export:         to AS3352 announce AS-ACENS
+export:         to AS6739 announce AS-ACENS
+export:         to AS6853 announce AS-ACENS
+export:         to AS6895 announce AS-ACENS
+export:         to AS8220 announce AS-ACENS
+export:         to AS8782 announce AS-ACENS
+export:         to AS9165 announce AS-ACENS
+export:         to AS12338 announce AS-ACENS
+export:         to AS12357 announce AS-ACENS
+export:         to AS12359 announce AS-ACENS
+export:         to AS12386 announce AS-ACENS
+export:         to AS12430 announce AS-ACENS
+export:         to AS12457 announce AS-ACENS
+export:         to AS12479 announce AS-ACENS
+export:         to AS12715 announce AS-ACENS
+export:         to AS13041 announce AS-ACENS
+export:         to AS15699 announce AS-ACENS
+export:         to AS15915 announce AS-ACENS
+export:         to AS16030 announce AS-ACENS
+export:         to AS16338 announce AS-ACENS
+export:         to AS20718 announce AS-ACENS
+export:         to AS20838 announce AS-ACENS
+export:         to AS24592 announce AS-ACENS
+export:         to AS24983 announce AS-ACENS
+export:         to AS25329 announce AS-ACENS
+export:         to AS25572 announce AS-ACENS
+export:         to AS30892 announce AS-ACENS
+export:         to AS31479 announce AS-ACENS
+export:         to AS33072 announce AS-ACENS
+export:         to AS16168 announce AS-ACENS
+export:         to AS15704 announce AS-ACENS
+remarks:        ---------CLIENTS---------------------------------
+export:         to AS41705 announce ANY
+export:         to AS51718 announce ANY
+export:         to AS56732 announce ANY
+export:         to AS48958 announce ANY
+export:         to AS199171 announce ANY
+export:         to AS55393 announce ANY
+export:         to AS208248 announce ANY
+remarks:        -------------------------------------------------
+org:            ORG-RE1-RIPE
+admin-c:        ACE2-RIPE
+tech-c:         ACE5-RIPE
+remarks:        ======================================
+remarks:        For peering requests or queries please
+remarks:        contact peering@acens.com
+remarks:        ======================================
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ACENS-MNT
+created:        2002-08-22T09:13:10Z
+last-modified:  2025-05-21T13:29:39Z
+source:         RIPE
+
+organisation:   ORG-RE1-RIPE
+org-name:       acens Technologies, S.L.
+country:        ES
+org-type:       LIR
+address:        C/ San Rafael, 14
+address:        28108
+address:        Alcobendas (Madrid)
+address:        SPAIN
+phone:          +34911418500
+fax-no:         +34911418501
+mnt-ref:        ACENS-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ACENS-MNT
+admin-c:        AF26-RIPE
+admin-c:        OPE3-RIPE
+admin-c:        IM795-RIPE
+admin-c:        JMP34-RIPE
+admin-c:        AO1949-RIPE
+abuse-c:        ACE2-RIPE
+created:        2004-04-17T11:18:04Z
+last-modified:  2020-12-16T12:42:18Z
+source:         RIPE # Filtered
+
+role:           ADMIN ACENS ES
+address:        San Rafael 14
+address:        28108 Alcobendas - Madrid
+address:        Spain
+abuse-mailbox:  abuse@acens.net
+admin-c:        AF26-RIPE
+tech-c:         ACE5-RIPE
+nic-hdl:        ACE2-RIPE
+mnt-by:         ACENS-MNT
+created:        2009-07-14T10:29:17Z
+last-modified:  2017-06-01T14:17:31Z
+source:         RIPE # Filtered
+
+role:           NOC ACENS ES
+address:        San Rafael 14
+address:        28108 Alcobendas - Madrid
+address:        Spain
+abuse-mailbox:  abuse@acens.net
+admin-c:        ACE2-RIPE
+tech-c:         AF26-RIPE
+tech-c:         JSR19-RIPE
+nic-hdl:        ACE5-RIPE
+mnt-by:         ACENS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-06-01T14:17:55Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          45.6.48.0/22
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2022-02-22T09:31:00Z
+last-modified:  2022-02-22T09:31:00Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.6.48.0/23
+origin:         AS16371
+mnt-by:         ACENS-MNT
+mnt-by:         ACENS-MNT
+created:        2022-03-30T08:23:41Z
+last-modified:  2022-03-30T08:23:41Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.6.50.0/23
+origin:         AS16371
+mnt-by:         ACENS-MNT
+mnt-by:         ACENS-MNT
+created:        2022-03-30T08:25:16Z
+last-modified:  2022-03-30T08:25:16Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.240.112.0/20
+descr:          acens
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2007-01-29T12:31:56Z
+last-modified:  2007-01-29T12:31:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.240.124.0/23
+descr:          acens Barcelona
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2007-01-29T12:34:20Z
+last-modified:  2007-01-29T12:42:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.139.120.0/21
+descr:          Acens Technologies
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2020-03-03T18:08:03Z
+last-modified:  2020-03-03T18:08:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.46.192.0/20
+descr:          Acens Technologies
+origin:         AS16371
+mnt-by:         MAINT-AS3352
+created:        2015-03-20T12:14:58Z
+last-modified:  2015-03-20T12:14:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.46.208.0/21
+descr:          Acens Technologies
+origin:         AS16371
+mnt-by:         MAINT-AS3352
+created:        2015-03-20T12:14:18Z
+last-modified:  2015-03-20T12:14:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.46.216.0/21
+descr:          Acens Technologies
+origin:         AS16371
+mnt-by:         MAINT-AS3352
+created:        2016-09-19T08:45:50Z
+last-modified:  2016-09-19T08:45:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.46.224.0/20
+descr:          Acens Technologies
+origin:         AS16371
+mnt-by:         MAINT-AS3352
+created:        2016-09-19T08:45:51Z
+last-modified:  2016-09-19T08:45:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.46.240.0/21
+descr:          Acens Technologies
+origin:         AS16371
+mnt-by:         MAINT-AS3352
+created:        2016-09-19T08:45:51Z
+last-modified:  2016-09-19T08:45:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.194.64.0/19
+descr:          Hostalia Network
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2008-02-20T23:45:21Z
+last-modified:  2008-02-20T23:45:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.187.56.0/22
+descr:          Acens Network
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2018-05-24T12:01:04Z
+last-modified:  2018-05-24T12:01:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.109.96.0/19
+descr:          DATAHOUSE INTERNET
+origin:         AS16371
+mnt-by:         ACENS-MNT
+notify:         noc@acens.com
+created:        2011-06-15T07:19:56Z
+last-modified:  2012-03-06T15:21:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.109.99.0/24
+descr:          ACENS-MOVISTAR
+origin:         AS16371
+mnt-by:         ACENS-MNT
+notify:         noc@acens.com
+created:        2011-06-15T07:19:56Z
+last-modified:  2014-04-02T07:22:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.109.102.0/24
+descr:          DATAHOUSE INTERNET
+origin:         AS16371
+mnt-by:         ACENS-MNT
+notify:         noc@acens.com
+created:        2011-06-15T07:19:56Z
+last-modified:  2012-03-06T15:21:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.238.88.0/21
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2022-03-28T15:28:48Z
+last-modified:  2022-03-28T15:28:48Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.238.88.0/22
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2022-03-30T08:47:19Z
+last-modified:  2022-03-30T08:47:19Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.238.92.0/22
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2022-03-30T08:47:56Z
+last-modified:  2022-03-30T08:47:56Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.17.192.0/19
+descr:          Veloxia Network
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2009-01-27T17:46:00Z
+last-modified:  2009-01-27T17:46:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          89.17.192.0/20
+descr:          veloxia network 1
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2009-03-18T03:08:42Z
+last-modified:  2009-03-18T03:08:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.17.208.0/20
+descr:          veloxia network 2
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2009-03-18T03:09:13Z
+last-modified:  2009-03-18T03:09:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.37.224.0/23
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2021-12-10T12:24:05Z
+last-modified:  2021-12-10T12:24:05Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.90.16.0/20
+descr:          acens Technologies, S.A
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2008-04-21T14:39:38Z
+last-modified:  2008-04-21T14:39:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.70.32.0/21
+descr:          acens (Spain)
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2010-04-27T14:29:12Z
+last-modified:  2010-04-27T14:29:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.28.96.0/19
+descr:          Acens Network
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2011-05-23T16:32:08Z
+last-modified:  2011-05-23T16:32:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.2.68.0/22
+descr:          Acens Network
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2012-09-18T07:06:00Z
+last-modified:  2012-09-18T07:06:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.13.60.0/23
+origin:         AS16371
+mnt-by:         aure-mnt
+mnt-by:         ACENS-MNT
+created:        2025-02-22T21:04:18Z
+last-modified:  2025-02-22T21:12:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.25.112.0/24
+descr:          IT ENCORE NETWORK MAD1
+origin:         AS16371
+mnt-by:         IT-ENCORE-MNT
+created:        2014-01-08T16:32:08Z
+last-modified:  2021-01-18T19:12:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.78.24.0/22
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2022-03-17T15:26:10Z
+last-modified:  2022-03-17T15:26:10Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.78.24.0/23
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2022-03-30T08:43:31Z
+last-modified:  2022-03-30T08:43:31Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.78.26.0/23
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2022-03-30T08:45:15Z
+last-modified:  2022-03-30T08:45:15Z
+source:         RIPE
+descr:          acens
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.118.56.0/22
+descr:          BlackSlot
+origin:         AS16371
+mnt-by:         es-blackslot-1-mnt
+mnt-by:         ACENS-MNT
+created:        2016-08-09T12:20:34Z
+last-modified:  2016-08-09T12:20:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.226.225.0/24
+descr:          WFG
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2019-03-01T12:26:45Z
+last-modified:  2019-03-01T12:26:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.3.48.0/24
+origin:         AS16371
+mnt-by:         lir-es-csronline-1-MNT
+created:        2021-07-19T20:05:26Z
+last-modified:  2021-07-19T20:05:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.116.184.0/23
+descr:          DATAHOUSE INTERNET
+origin:         AS16371
+mnt-by:         ACENS-MNT
+notify:         noc@acens.com
+created:        2011-06-15T07:19:56Z
+last-modified:  2012-03-06T15:17:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.116.184.0/24
+origin:         AS16371
+mnt-by:         ACENS-MNT
+mnt-by:         ACENS-MNT
+created:        2022-03-31T07:52:11Z
+last-modified:  2022-03-31T07:52:11Z
+source:         RIPE
+descr:          DATAHOUSE INTERNET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.116.185.0/24
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2022-03-31T07:52:59Z
+last-modified:  2022-03-31T07:52:59Z
+source:         RIPE
+descr:          DATAHOUSE INTERNET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.55.104.0/22
+descr:          Acens Technologies
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2014-02-14T11:53:29Z
+last-modified:  2014-02-14T12:06:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.149.224.0/19
+descr:          Veloxia Network
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2009-01-27T17:45:29Z
+last-modified:  2009-01-27T17:45:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.149.224.0/20
+descr:          veloxia network 3
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2009-03-18T03:10:10Z
+last-modified:  2009-03-18T03:10:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.149.240.0/20
+descr:          veloxia network 4
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2009-03-18T03:10:38Z
+last-modified:  2009-03-18T03:10:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.116.0.0/19
+descr:          acens (Spain)
+origin:         AS16371
+remarks:        removed cross-mnt:    ACENS-MNT
+notify:         noc@acens.com
+mnt-by:         ACENS-MNT
+created:        2003-05-26T07:38:04Z
+last-modified:  2004-01-30T16:41:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.116.0.0/20
+descr:          acens (Spain)
+descr:          acens Madrid CPD
+origin:         AS16371
+remarks:        removed cross-mnt:    ACENS-MNT
+notify:         noc@acens.com
+mnt-by:         ACENS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2004-01-30T16:41:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.116.16.0/20
+descr:          acens (Spain)
+descr:          acens Barcelona CPD
+origin:         AS16371
+remarks:        removed cross-mnt:    ACENS-MNT
+notify:         noc@acens.com
+mnt-by:         ACENS-MNT
+created:        2003-05-26T07:38:02Z
+last-modified:  2004-01-30T16:41:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:3b8::/32
+descr:          Acens IPv6
+origin:         AS16371
+mnt-by:         ACENS-MNT
+created:        2014-02-17T12:17:04Z
+last-modified:  2014-02-17T12:17:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

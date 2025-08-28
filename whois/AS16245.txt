@@ -1,0 +1,576 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16215 - AS16283'
+
+as-block:       AS16215 - AS16283
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16245'
+
+% Abuse contact for 'AS16245' is 'abuse@sentia.dk'
+
+aut-num:        AS16245
+as-name:        NGDC
+org:            ORG-JA1-RIPE
+remarks:        Netgroup A/S
+remarks:
+remarks:        == Policy =====================================================
+remarks:        -- Transit ----------------------------------------------------
+remarks:        - Cogent Communications - - - - - - - - - - - - - - - - - - - -
+import:         from AS174 accept   ANY
+export:         to   AS174 announce AS-NGDC
+mp-import:      afi ipv6.unicast from AS174 accept   ANY
+mp-export:      afi ipv6.unicast to   AS174 announce AS-NGDC
+remarks:
+remarks:        - Telia Carrier - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS1299 accept   ANY
+export:         to   AS1299 announce AS-NGDC
+mp-import:      afi ipv6.unicast from AS1299 accept   ANY
+mp-export:      afi ipv6.unicast to   AS1299 announce AS-NGDC
+remarks:
+remarks:        - TDC - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS3292 accept   ANY
+export:         to   AS3292 announce AS-NGDC
+mp-import:      afi ipv6.unicast from AS3292 accept   ANY
+mp-export:      afi ipv6.unicast to   AS3292 announce AS-NGDC
+remarks:
+remarks:        - Advania - - - - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS30818 accept   AS-ADVANIA
+export:         to   AS30818 announce AS-NGDC
+mp-import:      afi ipv6.unicast from AS30818 accept   AS-ADVANIA
+mp-export:      afi ipv6.unicast to   AS30818 announce AS-NGDC
+remarks:
+remarks:        -- Customers --------------------------------------------------
+remarks:        - Solido Hosting A/S  - - - - - - - - - - - - - - - - - - - - -
+import:         from AS12617 accept   AS-SOLIDO
+export:         to   AS12617 announce ANY
+mp-import:      afi ipv6.unicast from AS12617 accept   AS-SOLIDO
+mp-export:      afi ipv6.unicast to   AS12617 announce ANY
+remarks:
+remarks:        - DUPONT NUTRITION BIOSCIENCES ApS  - - - - - - - - - - - - - -
+import:         from AS15411 accept   AS15411
+export:         to   AS15411 announce ANY
+mp-import:      afi ipv6.unicast from AS15411 accept   AS15411
+mp-export:      afi ipv6.unicast to   AS15411 announce ANY
+remarks:
+remarks:        - Rackhosting.com ApS - - - - - - - - - - - - - - - - - - - - -
+import:         from AS31590 accept   AS-RACKHOSTING
+export:         to   AS31590 announce ANY
+mp-import:      afi ipv6.unicast from AS31590 accept   AS-RACKHOSTING
+mp-export:      afi ipv6.unicast to   AS31590 announce ANY
+remarks:
+remarks:        - Cortex Consult A/S  - - - - - - - - - - - - - - - - - - - - -
+import:         from AS31709 accept   AS31709
+export:         to   AS31709 announce ANY
+mp-import:      afi ipv6.unicast from AS31709 accept   AS31709
+mp-export:      afi ipv6.unicast to   AS31709 announce ANY
+remarks:
+remarks:        - Rockwool Ltd  - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS39579 accept   AS39579
+export:         to   AS39579 announce ANY
+mp-import:      afi ipv6.unicast from AS39579 accept   AS39579
+mp-export:      afi ipv6.unicast to   AS39579 announce ANY
+remarks:
+remarks:        - Unwire ApS  - - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS57915 accept   AS57915
+export:         to   AS57915 announce ANY
+mp-import:      afi ipv6.unicast from AS57915 accept   AS57915
+mp-export:      afi ipv6.unicast to   AS57915 announce ANY
+remarks:
+remarks:        - Conscia A/S - - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS59626 accept   AS59626
+export:         to   AS59626 announce ANY
+mp-import:      afi ipv6.unicast from AS59626 accept   AS59626
+mp-export:      afi ipv6.unicast to   AS59626 announce ANY
+remarks:
+remarks:        - Kracon ApS  - - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS62113 accept   AS62113
+export:         to   AS62113 announce ANY
+mp-import:      afi ipv6.unicast from AS62113 accept   AS62113
+mp-export:      afi ipv6.unicast to   AS62113 announce ANY
+remarks:
+remarks:        - DANMAGI ApS - - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS198141 accept   AS198141
+export:         to   AS198141 announce ANY
+mp-import:      afi ipv6.unicast from AS198141 accept   AS198141
+mp-export:      afi ipv6.unicast to   AS198141 announce ANY
+remarks:
+remarks:        - Rockwool International A/S  - - - - - - - - - - - - - - - - -
+import:         from AS198206 accept   AS198206
+export:         to   AS198206 announce ANY
+mp-import:      afi ipv6.unicast from AS198206 accept   AS198206
+mp-export:      afi ipv6.unicast to   AS198206 announce ANY
+remarks:
+remarks:        - Region Hovedstaden  - - - - - - - - - - - - - - - - - - - - -
+import:         from AS198631 accept   AS198631
+export:         to   AS198631 announce ANY
+mp-import:      afi ipv6.unicast from AS198631 accept   AS198631
+mp-export:      afi ipv6.unicast to   AS198631 announce ANY
+remarks:
+remarks:        - Roskilde Kulturservice A/S  - - - - - - - - - - - - - - - - -
+import:         from AS198903 accept   AS198903
+export:         to   AS198903 announce ANY
+mp-import:      afi ipv6.unicast from AS198903 accept   AS198903
+mp-export:      afi ipv6.unicast to   AS198903 announce ANY
+remarks:
+remarks:        - any.cloud a/s - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS201455 accept   AS201455
+export:         to   AS201455 announce ANY
+mp-import:      afi ipv6.unicast from AS201455 accept   AS201455
+mp-export:      afi ipv6.unicast to   AS201455 announce ANY
+remarks:
+remarks:        - Gorrissen Federspiel  - - - - - - - - - - - - - - - - - - - -
+import:         from AS201960 accept   AS201960
+export:         to   AS201960 announce ANY
+mp-import:      afi ipv6.unicast from AS201960 accept   AS201960
+mp-export:      afi ipv6.unicast to   AS201960 announce ANY
+remarks:
+remarks:        - SYSTEMHOSTING A/S - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS203686 accept   AS203686
+export:         to   AS203686 announce ANY
+mp-import:      afi ipv6.unicast from AS203686 accept   AS203686
+mp-export:      afi ipv6.unicast to   AS203686 announce ANY
+remarks:
+remarks:        - Netsite A/S - - - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS205206 accept   AS-NETSITE
+export:         to   AS205206 announce ANY
+mp-import:      afi ipv6.unicast from AS205206 accept   AS-NETSITE
+mp-export:      afi ipv6.unicast to   AS205206 announce ANY
+remarks:
+remarks:        - Scalepoint Technologies Ltd.  - - - - - - - - - - - - - - - -
+import:         from AS206749 accept   AS206749
+export:         to   AS206749 announce ANY
+mp-import:      afi ipv6.unicast from AS206749 accept   AS206749
+mp-export:      afi ipv6.unicast to   AS206749 announce ANY
+remarks:
+remarks:        - Zentura IT a/s  - - - - - - - - - - - - - - - - - - - - - - -
+import:         from AS207247 accept   AS207247
+export:         to   AS207247 announce ANY
+mp-import:      afi ipv6.unicast from AS207247 accept   AS207247
+mp-export:      afi ipv6.unicast to   AS207247 announce ANY
+remarks:
+import:         from AS34165 accept   AS34165
+export:         to   AS34165 announce ANY
+mp-import:      afi ipv6.unicast from AS34165 accept   AS34165
+mp-export:      afi ipv6.unicast to   AS34165 announce ANY
+remarks:
+remarks:        == Locations ==================================================
+remarks:        Powercom/Telia Telehousing, Sydvestvej 100, DK-2600 Glostrup
+remarks:        GlobalConnect, Hoerskaetten 3, DK-2630 Taastrup
+remarks:        Interxion, Industriparken 20, DK-2750 Ballerup
+remarks:
+remarks:        == Peering policy =============================================
+remarks:        We peer with most anyone and do not require a formal agreement.
+remarks:        Please send peering requests to peering@netgroup.dk.
+remarks:
+admin-c:        NN72-RIPE
+tech-c:         NN72-RIPE
+admin-c:        JN500-RIPE
+tech-c:         JN500-RIPE
+status:         ASSIGNED
+mnt-by:         NETGROUP-NETADMIN
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         JAYNET
+created:        2002-09-03T14:04:55Z
+last-modified:  2020-08-25T10:14:49Z
+source:         RIPE
+
+organisation:   ORG-JA1-RIPE
+org-name:       Sentia Denmark A/S
+country:        DK
+org-type:       LIR
+address:        Industriparken 32
+address:        2750
+address:        Ballerup
+address:        DENMARK
+phone:          +45 33 36 63 00
+fax-no:         +45 33 36 63 01
+admin-c:        JN500-RIPE
+mnt-ref:        JAYNET
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         JAYNET
+abuse-c:        JN500-RIPE
+created:        2004-04-17T11:14:24Z
+last-modified:  2025-04-02T08:18:59Z
+source:         RIPE # Filtered
+
+role:           Jaynet Network Operation Center
+address:        Smedeland 32
+address:        2600 Glostrup
+address:        Denmark
+phone:          +45 33 36 63 00
+fax-no:         +45 33 36 63 01
+abuse-mailbox:  abuse@sentia.dk
+admin-c:        YOYO-RIPE
+admin-c:        BE1547-RIPE
+admin-c:        CAPN2-RIPE
+admin-c:        MA19472-RIPE
+tech-c:         YOYO-RIPE
+tech-c:         BE1547-RIPE
+tech-c:         CAPN2-RIPE
+tech-c:         MA19472-RIPE
+nic-hdl:        JN500-RIPE
+mnt-by:         JAYNET
+created:        2005-08-09T12:40:35Z
+last-modified:  2021-02-22T08:21:52Z
+source:         RIPE # Filtered
+
+role:           Netgroup Netadmin
+address:        Netgroup A/S
+address:        St. Kongensgade 40H, 2.th.
+address:        1264 Koebenhavn K
+address:        Denmark
+phone:          +45 7025 2686
+fax-no:         +45 7025 2687
+org:            ORG-NA12-RIPE
+remarks:        trouble: support@netgroup.dk
+abuse-mailbox:  abuse@netgroup.dk
+admin-c:        MA19472-RIPE
+admin-c:        SA32532-RIPE
+admin-c:        CL65-RIPE
+tech-c:         MA19472-RIPE
+tech-c:         SA32532-RIPE
+tech-c:         CL65-RIPE
+mnt-by:         NETGROUP-NETADMIN
+nic-hdl:        NN72-RIPE
+created:        2002-01-30T10:32:39Z
+last-modified:  2020-03-03T09:26:33Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          46.183.136.0/21
+descr:          Gigahost ApS
+origin:         AS16245
+notify:         ripe@ngdc.net
+mnt-by:         NETGROUP-NETADMIN
+created:        2011-03-02T07:47:16Z
+last-modified:  2011-03-02T07:47:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          77.66.40.0/24
+descr:          Netgroup A/S
+origin:         AS16245
+remarks:        +-----------------------------------------------+
+remarks:        | Network security issues: security@netgroup.dk |
+remarks:        +-----------------------------------------------+
+mnt-by:         NETGROUP-NETADMIN
+created:        2016-06-15T10:48:17Z
+last-modified:  2017-11-02T08:56:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          77.66.62.0/24
+descr:          Netgroup A/S
+origin:         AS16245
+remarks:        +-----------------------------------------------+
+remarks:        | Network security issues: security@netgroup.dk |
+remarks:        +-----------------------------------------------+
+mnt-by:         NETGROUP-NETADMIN
+created:        2017-11-02T08:56:34Z
+last-modified:  2017-11-02T08:56:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          77.66.76.0/22
+descr:          Netgroup A/S
+origin:         AS16245
+notify:         ripe@ngdc.net
+remarks:        +-----------------------------------------------+
+remarks:        | Network security issues: security@netgroup.dk |
+remarks:        +-----------------------------------------------+
+mnt-by:         NETGROUP-NETADMIN
+created:        2017-04-26T07:53:06Z
+last-modified:  2017-04-26T07:53:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.23.128.0/20
+descr:          Connect-Me ApS
+origin:         AS16245
+mnt-by:         NETGROUP-NETADMIN
+created:        2011-06-28T13:31:27Z
+last-modified:  2011-06-28T13:38:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          89.186.176.0/20
+origin:         AS16245
+created:        2022-03-14T13:52:28Z
+last-modified:  2022-03-14T13:52:28Z
+source:         RIPE
+mnt-by:         NETGROUP-NETADMIN
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.188.235.0/24
+origin:         AS16245
+created:        2022-10-25T10:27:11Z
+last-modified:  2022-10-25T10:27:11Z
+source:         RIPE
+mnt-by:         DUALOG-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.188.237.0/24
+origin:         AS16245
+mnt-by:         DUALOG-MNT
+created:        2023-02-24T11:30:40Z
+last-modified:  2023-02-24T11:30:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.188.239.0/24
+origin:         AS16245
+mnt-by:         DUALOG-MNT
+created:        2023-02-24T11:31:41Z
+last-modified:  2023-02-24T11:31:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.130.189.0/24
+origin:         AS16245
+mnt-by:         dk-aviator-1-mnt
+mnt-by:         dk-ssoit-1-mnt
+created:        2023-03-10T10:57:26Z
+last-modified:  2023-03-10T10:58:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.17.206.0/24
+descr:          Deltek Business Solutions A/S
+origin:         AS16245
+mnt-by:         NETGROUP-NETADMIN
+created:        2013-02-28T14:07:18Z
+last-modified:  2013-02-28T14:07:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.190.153.0/24
+descr:          NetGroup A/S
+origin:         AS16245
+notify:         ripe@ngdc.net
+remarks:        +--------------------------------------------+
+remarks:        | Network security issues: security@ngdc.net |
+remarks:        +--------------------------------------------+
+mnt-by:         NETGROUP-NETADMIN
+created:        2002-11-14T14:40:02Z
+last-modified:  2007-10-02T14:09:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.191.108.0/23
+descr:          Rockwool International A/S
+origin:         AS16245
+notify:         ripe@ngdc.net
+mnt-by:         NETGROUP-NETADMIN
+created:        2010-01-28T13:57:42Z
+last-modified:  2012-03-07T09:06:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.191.108.0/24
+descr:          Rockwool International A/S
+origin:         AS16245
+notify:         ripe@ngdc.net
+mnt-by:         NETGROUP-NETADMIN
+created:        2010-06-07T07:43:35Z
+last-modified:  2010-06-07T07:43:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.116.224.0/20
+origin:         AS16245
+created:        2022-03-14T13:26:47Z
+last-modified:  2022-03-14T13:26:47Z
+source:         RIPE
+mnt-by:         NETGROUP-NETADMIN
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:b50::/32
+descr:          Connect-Me ApS
+origin:         AS16245
+mnt-by:         NETGROUP-NETADMIN
+created:        2011-06-28T13:38:36Z
+last-modified:  2011-06-28T13:38:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:1448::/32
+descr:          Netgroup A/S
+origin:         AS16245
+remarks:        +--------------------------------------------+
+remarks:        | Network security issues: security@ngdc.net |
+remarks:        +--------------------------------------------+
+mnt-by:         NETGROUP-NETADMIN
+created:        2008-04-14T11:03:27Z
+last-modified:  2021-01-19T08:37:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:2180::/32
+descr:          LogiqIT ApS
+origin:         AS16245
+mnt-by:         NETGROUP-NETADMIN
+created:        2011-02-24T11:58:38Z
+last-modified:  2011-02-24T11:58:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a0d:4b80::/29
+descr:          Greenwave
+origin:         AS16245
+mnt-by:         NETGROUP-NETADMIN
+created:        2018-02-20T09:38:09Z
+last-modified:  2018-02-20T09:38:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

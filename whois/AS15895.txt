@@ -1,0 +1,1060 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15835 - AS15963'
+
+as-block:       AS15835 - AS15963
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15895'
+
+% Abuse contact for 'AS15895' is 'abuse@kyivstar.net'
+
+aut-num:        AS15895
+as-name:        KSNET-AS
+org:            ORG-KG8-RIPE
+remarks:        Kyivstar JSC
+remarks:
+remarks:        Uplinks (IPv4)
+remarks:
+import:         from AS174 action pref=150; accept ANY
+import:         from AS1299 action pref=150; accept ANY
+export:         to AS174 announce AS15895:AS-ALL
+export:         to AS1299 announce AS15895:AS-ALL
+remarks:
+remarks:        Uplinks (IPv6)
+remarks:
+mp-import:      afi ipv6.unicast from AS174 action pref=150; accept ANY
+mp-import:      afi ipv6.unicast from AS1299 action pref=150; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS1299 announce AS15895:AS-ALL-IPV6
+remarks:
+remarks:        DE-CIX (IPv4)
+remarks:
+import:         from AS714 action pref=120; accept AS-APPLE
+import:         from AS6507 action pref=120; accept AS-RIOT
+import:         from AS6695 action pref=130; accept AS-DECIX
+import:         from AS8075 action pref=130; accept AS-MICROSOFT
+import:         from AS13335 action pref=130; accept AS-CLOUDFLARE
+import:         from AS14061 action pref=130; accept AS-14061
+import:         from AS15133 action pref=130; accept AS-EDGECAST
+import:         from AS16509 action pref=130; accept AS-AMAZON
+import:         from AS32934 action pref=130; accept AS-FACEBOOK
+import:         from AS45102 action pref=130; accept AS45102
+import:         from AS46489 action pref=130; accept AS46489
+import:         from AS57976 action pref=130; accept AS-BLIZZARD
+import:         from AS199524 action pref=130; accept AS-GCORE
+export:         to AS714 announce AS15895:AS-ALL
+export:         to AS6507 announce AS15895:AS-ALL
+export:         to AS6695 announce AS15895:AS-ALL
+export:         to AS8075 announce AS15895:AS-ALL
+export:         to AS13335 announce AS15895:AS-ALL
+export:         to AS14061 announce AS15895:AS-ALL
+export:         to AS15133 announce AS15895:AS-ALL
+export:         to AS16509 announce AS15895:AS-ALL
+export:         to AS32934 announce AS15895:AS-ALL
+export:         to AS45102 announce AS15895:AS-ALL
+export:         to AS46489 announce AS15895:AS-ALL
+export:         to AS57976 announce AS15895:AS-ALL
+export:         to AS199524 announce AS15895:AS-ALL
+remarks:
+remarks:        DE-CIX (IPv6)
+remarks:
+mp-import:      afi ipv6.unicast from AS714 action pref=130; accept AS-APPLE
+mp-import:      afi ipv6.unicast from AS6695 action pref=130; accept AS-DECIX-V6
+mp-import:      afi ipv6.unicast from AS8075 action pref=130; accept AS-MICROSOFT
+mp-import:      afi ipv6.unicast from AS13335 action pref=130; accept AS-CLOUDFLARE
+mp-import:      afi ipv6.unicast from AS14061 action pref=130; accept AS-14061
+mp-import:      afi ipv6.unicast from AS15133 action pref=130; accept AS-EDGECAST
+mp-import:      afi ipv6.unicast from AS16509 action pref=130; accept AS-AMAZON
+mp-import:      afi ipv6.unicast from AS32934 action pref=130; accept AS-FACEBOOK
+mp-import:      afi ipv6.unicast from AS46489 action pref=130; accept AS-46489
+mp-import:      afi ipv6.unicast from AS57976 action pref=130; accept AS-BLIZZARD
+mp-import:      afi ipv6.unicast from AS199524 action pref=130; accept AS-GCORE
+mp-export:      afi ipv6.unicast to AS714 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS6695 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS8075 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS13335 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS14061 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS15133 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS16509 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS32934 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS46489 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS57976 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS199524 announce AS15895:AS-ALL-IPV6
+remarks:
+remarks:        DTEL-IX (IPv4)
+remarks:
+import:         from AS3303 action pref=120; accept AS-SWCMGLOBAL
+import:         from AS6939 action pref=120; accept AS-HURRICANE
+import:         from AS8075 action pref=130; accept AS-MICROSOFT
+import:         from AS31210 action pref=120; accept AS-DTEL-IX
+import:         from AS35297 action pref=120; accept AS-DL-WORLD
+import:         from AS49544 action pref=120; accept AS49544
+import:         from AS50581 action pref=120; accept AS-UTG-UA
+export:         to AS3303 announce AS15895:AS-ALL
+export:         to AS6939 announce AS15895:AS-ALL
+export:         to AS8075 announce AS15895:AS-ALL
+export:         to AS31210 announce AS15895:AS-DTEL-IX
+export:         to AS35297 announce AS15895:AS-ALL
+export:         to AS49544 announce AS15895:AS-ALL
+export:         to AS50581 announce AS15895:AS-ALL
+remarks:
+remarks:        DTEL-IX (IPv6)
+remarks:
+mp-import:      afi ipv6.unicast from AS3303 action pref=120; accept AS-SWCMGLOBAL
+mp-import:      afi ipv6.unicast from AS6939 action pref=120; accept AS-HURRICANEv6
+mp-import:      afi ipv6.unicast from AS8075 action pref=130; accept AS-MICROSOFT
+mp-import:      afi ipv6.unicast from AS31210 action pref=120; accept AS-DTEL-IX-V6
+mp-import:      afi ipv6.unicast from AS49544 action pref=120; accept AS49544
+mp-import:      afi ipv6.unicast from AS50581 action pref=120; accept AS-UTG-v6
+mp-export:      afi ipv6.unicast to AS3303 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS6939 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS8075 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS31210 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS49544 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS50581 announce AS15895:AS-ALL-IPV6
+remarks:
+remarks:        UA-IX (IPv4)
+remarks:
+import:         from AS15645 action pref=120; accept AS-UAIX
+import:         from AS49544 action pref=120; accept AS49544
+export:         to AS15645 announce AS15895:AS-ALL AS15895:AS-UAIX
+export:         to AS49544 announce AS15895:AS-ALL
+remarks:
+remarks:        UA-IX (IPv6)
+remarks:
+mp-import:      afi ipv6.unicast from AS15645 action pref=120; accept AS-UAIX-v6
+mp-import:      afi ipv6.unicast from AS49544 action pref=120; accept AS49544
+mp-export:      afi ipv6.unicast to AS15645 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS49544 announce AS15895:AS-ALL-IPV6
+remarks:
+remarks:        Private peerings (IPv4)
+remarks:
+import:         from AS3202 action pref=110; accept AS3202
+import:         from AS3326 action pref=110; accept AS3326:AS-EXT
+import:         from AS6849 action pref=110; accept AS-UKRTELBT
+import:         from AS13188 action pref=110; accept AS13188 AS-BAZIS
+import:         from AS13335 action pref=120; accept AS-CLOUDFLARE
+import:         from AS15169 action pref=110; accept AS-GOOGLE
+import:         from AS21219 action pref=110; accept AS-NEWLINE
+import:         from AS25229 action pref=110; accept AS25229:AS-CUST
+import:         from AS29242 action pref=110; accept AS29242
+import:         from AS31148 action pref=110; accept AS-FNT
+import:         from AS32934 action pref=110; accept AS-FACEBOOK
+import:         from AS35320 action pref=110; accept AS-ETT
+import:         from AS39608 action pref=110; accept AS-LANETUA
+import:         from AS39928 action pref=110; accept AS-1PLUS1
+import:         from AS44600 action pref=110; accept AS-GGT
+import:         from AS59492 action pref=110; accept AS-MEGOGO-UA
+import:         from AS60068 action pref=110; accept AS-CDN77
+import:         from AS199524 action pref=110; accept AS-GCORE
+export:         to AS3202 announce AS15895:AS-ALL
+export:         to AS3326 announce AS15895:AS-ALL
+export:         to AS6849 announce AS15895:AS-ALL
+export:         to AS13188 announce AS15895:AS-ALL
+export:         to AS13335 announce AS15895:AS-ALL
+export:         to AS15169 announce AS15895:AS-ALL
+export:         to AS21219 announce AS15895:AS-ALL
+export:         to AS25229 announce AS15895:AS-ALL
+export:         to AS29242 announce AS15895:AS-ALL
+export:         to AS31148 announce AS15895:AS-ALL
+export:         to AS32934 announce AS15895:AS-ALL
+export:         to AS35320 announce AS15895:AS-ALL
+export:         to AS39608 announce AS15895:AS-ALL
+export:         to AS39928 announce AS15895:AS-ALL
+export:         to AS44600 announce AS15895:AS-ALL
+export:         to AS59492 announce AS15895:AS-ALL
+export:         to AS60068 announce AS15895:AS-ALL
+export:         to AS199524 announce AS15895:AS-ALL
+remarks:
+remarks:        Private peerings (IPv6)
+remarks:
+mp-import:      afi ipv6.unicast from AS3326 action pref=110; accept AS3326:AS-EXT
+mp-import:      afi ipv6.unicast from AS13335 action pref=110; accept AS-CLOUDFLARE
+mp-import:      afi ipv6.unicast from AS15169 action pref=110; accept AS-GOOGLE
+mp-import:      afi ipv6.unicast from AS32934 action pref=110; accept AS-FACEBOOK
+mp-import:      afi ipv6.unicast from AS35320 action pref=110; accept AS-ETT
+mp-import:      afi ipv6.unicast from AS39608 action pref=110; accept AS-LANETUA-v6
+mp-import:      afi ipv6.unicast from AS60068 action pref=110; accept AS-CDN77
+mp-import:      afi ipv6.unicast from AS199524 action pref=110; accept AS-GCORE
+mp-export:      afi ipv6.unicast to AS3326 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS13335 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS15169 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS32934 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS35320 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS39608 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS60068 announce AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to AS199524 announce AS15895:AS-ALL-IPV6
+remarks:
+remarks:        Customers (IPv4)
+remarks:
+import:         from AS1786 action pref=100; accept AS1786
+import:         from AS5531 action pref=100; accept AS5531
+import:         from AS6846 action pref=100; accept AS-KRINFOCOM AS6846
+import:         from AS6849 action pref=100; accept AS6849
+import:         from AS6886 action pref=100; accept AS-INTS
+import:         from AS12530 action pref=100; accept AS-SVITONLINE
+import:         from AS13281 action pref=100; accept AS13281
+import:         from AS15742 action pref=100; accept AS15742
+import:         from AS24812 action pref=100; accept AS-HOME-NET
+import:         from AS25000 action pref=100; accept AS25000
+import:         from AS25210 action pref=100; accept AS25210
+import:         from AS25165 action pref=100; accept AS25165
+import:         from AS25502 action pref=100; accept AS25502:AS-EKM
+import:         from AS29107 action pref=100; accept AS29107
+import:         from AS29116 action pref=100; accept AS29116
+import:         from AS29215 action pref=100; accept AS29215
+import:         from AS29275 action pref=100; accept AS29275
+import:         from AS31305 action pref=100; accept AS-ALBA
+import:         from AS34068 action pref=100; accept AS34068
+import:         from AS34094 action pref=100; accept AS34094
+import:         from AS34280 action pref=100; accept AS34280
+import:         from AS34321 action pref=100; accept AS34321
+import:         from AS34668 action pref=100; accept AS34668
+import:         from AS34743 action pref=100; accept AS-NASHNET
+import:         from AS34877 action pref=100; accept AS34877
+import:         from AS35341 action pref=100; accept AS35341
+import:         from AS35588 action pref=100; accept AS35588
+import:         from AS39096 action pref=100; accept AS39096
+import:         from AS39147 action pref=100; accept AS39147
+import:         from AS39222 action pref=100; accept AS-KABELPLUS
+import:         from AS39329 action pref=100; accept AS39329
+import:         from AS39399 action pref=100; accept AS-FENIXVT
+import:         from AS39644 action pref=100; accept AS39644
+import:         from AS39928 action pref=100; accept AS-1PLUS1
+import:         from AS41305 action pref=100; accept AS-FASTIV
+import:         from AS41510 action pref=100; accept AS41510
+import:         from AS41656 action pref=100; accept AS41656
+import:         from AS41834 action pref=100; accept AS-MTI
+import:         from AS41987 action pref=100; accept AS41987
+import:         from AS42054 action pref=100; accept AS42054
+import:         from AS42057 action pref=100; accept AS42057
+import:         from AS42134 action pref=100; accept AS42134
+import:         from AS42533 action pref=100; accept AS42533
+import:         from AS42723 action pref=100; accept AS42723
+import:         from AS43124 action pref=100; accept AS43124
+import:         from AS43139 action pref=100; accept AS-MAXIMUM
+import:         from AS43175 action pref=100; accept AS43175
+import:         from AS43223 action pref=100; accept AS43223
+import:         from AS43543 action pref=100; accept AS43543
+import:         from AS43753 action pref=100; accept AS43753
+import:         from AS43864 action pref=100; accept AS-INTEGRA-MEDIA
+import:         from AS43981 action pref=100; accept AS43981
+import:         from AS44010 action pref=100; accept AS44010
+import:         from AS44456 action pref=100; accept AS44456
+import:         from AS44616 action pref=100; accept AS44616
+import:         from AS44673 action pref=100; accept AS44673:AS-GALAKTIKA
+import:         from AS44996 action pref=100; accept AS44996
+import:         from AS47513 action pref=100; accept AS-SKYLINE-KH
+import:         from AS47673 action pref=100; accept AS47673
+import:         from AS47772 action pref=100; accept AS47772
+import:         from AS47838 action pref=100; accept AS47838
+import:         from AS47898 action pref=100; accept AS47898
+import:         from AS47919 action pref=100; accept AS-UGB
+import:         from AS47985 action pref=100; accept AS47985
+import:         from AS48411 action pref=100; accept AS48411
+import:         from AS48589 action pref=100; accept AS-SOWA
+import:         from AS48693 action pref=100; accept AS48693
+import:         from AS48882 action pref=100; accept AS48882
+import:         from AS49087 action pref=100; accept AS49087
+import:         from AS49089 action pref=100; accept AS-UADC
+import:         from AS49213 action pref=100; accept AS49213
+import:         from AS49332 action pref=100; accept AS49332
+import:         from AS49465 action pref=100; accept AS49465
+import:         from AS49561 action pref=100; accept AS49561
+import:         from AS50027 action pref=100; accept AS50027
+import:         from AS50127 action pref=100; accept AS50127
+import:         from AS50321 action pref=100; accept AS50321
+import:         from AS50401 action pref=100; accept AS50401
+import:         from AS50643 action pref=100; accept AS50643
+import:         from AS50742 action pref=100; accept AS50742
+import:         from AS50751 action pref=100; accept AS50751
+import:         from AS50927 action pref=100; accept AS50927
+import:         from AS51794 action pref=100; accept AS51794
+import:         from AS51950 action pref=100; accept AS51950
+import:         from AS52032 action pref=100; accept AS52032
+import:         from AS52119 action pref=100; accept AS52119
+import:         from AS52151 action pref=100; accept AS52151
+import:         from AS56347 action pref=100; accept AS-MEDIANA
+import:         from AS56439 action pref=100; accept AS56439
+import:         from AS56492 action pref=100; accept AS56492
+import:         from AS56524 action pref=100; accept AS56524
+import:         from AS56756 action pref=100; accept AS56756
+import:         from AS57100 action pref=100; accept AS57100
+import:         from AS57460 action pref=100; accept AS57460
+import:         from AS57519 action pref=100; accept AS57519
+import:         from AS57774 action pref=100; accept AS57774
+import:         from AS57787 action pref=100; accept AS57787
+import:         from AS57830 action pref=100; accept AS57830
+import:         from AS57894 action pref=100; accept AS57894
+import:         from AS57944 action pref=100; accept AS-IPC
+import:         from AS57960 action pref=100; accept AS-BITNETUA
+import:         from AS58162 action pref=100; accept AS58162
+import:         from AS59497 action pref=100; accept AS-BUKNET
+import:         from AS59781 action pref=100; accept AS59781
+import:         from AS60419 action pref=100; accept AS60419
+import:         from AS60455 action pref=100; accept AS60455
+import:         from AS60746 action pref=100; accept AS60746
+import:         from AS60754 action pref=100; accept AS60754
+import:         from AS61354 action pref=100; accept AS61354
+import:         from AS61986 action pref=100; accept AS61986
+import:         from AS62017 action pref=100; accept AS62017
+import:         from AS62028 action pref=100; accept AS-VNH
+import:         from AS62096 action pref=100; accept AS62096
+import:         from AS62181 action pref=100; accept AS62181
+import:         from AS62427 action pref=100; accept AS62427
+import:         from AS64410 action pref=100; accept AS64410
+import:         from AS136907 action pref=100; accept AS136907
+import:         from AS197035 action pref=100; accept AS-TVININET
+import:         from AS197221 action pref=100; accept AS-BEETEC-TELECOM
+import:         from AS197253 action pref=100; accept AS197253
+import:         from AS197477 action pref=100; accept AS197477
+import:         from AS197610 action pref=100; accept AS197610
+import:         from AS197781 action pref=100; accept AS197781
+import:         from AS198215 action pref=100; accept AS198215
+import:         from AS198665 action pref=100; accept AS198665
+import:         from AS199440 action pref=100; accept AS199440
+import:         from AS199500 action pref=100; accept AS199500
+import:         from AS200337 action pref=100; accept AS200337
+import:         from AS200381 action pref=100; accept AS200381
+import:         from AS202026 action pref=100; accept AS202026
+import:         from AS202362 action pref=100; accept AS202362
+import:         from AS203008 action pref=100; accept AS203008
+import:         from AS203477 action pref=100; accept AS203477
+import:         from AS204256 action pref=100; accept AS-SET-AS204256
+import:         from AS204240 action pref=100; accept AS204240
+import:         from AS204370 action pref=100; accept AS204370
+import:         from AS204552 action pref=100; accept AS204552
+import:         from AS204584 action pref=100; accept AS204584
+import:         from AS205028 action pref=100; accept AS205028
+import:         from AS205097 action pref=100; accept AS205097
+import:         from AS205228 action pref=100; accept AS205228
+import:         from AS206823 action pref=100; accept AS206823
+import:         from AS208038 action pref=100; accept AS208038
+import:         from AS209155 action pref=100; accept AS209155
+import:         from AS209818 action pref=100; accept AS209818
+import:         from AS210353 action pref=100; accept AS-UAPOWER
+import:         from AS211994 action pref=100; accept AS211994
+import:         from AS212372 action pref=100; accept AS212372:AS-COOLNET
+import:         from AS212821 action pref=100; accept AS212821
+import:         from AS214096 action pref=100; accept AS214096
+import:         from AS215483 action pref=100; accept AS215483
+export:         to AS1786 announce {0.0.0.0/0}
+export:         to AS5531 announce {0.0.0.0/0} ANY
+export:         to AS6846 announce AS-UAIX
+export:         to AS6849 announce ANY
+export:         to AS6886 announce {0.0.0.0/0} ANY
+export:         to AS12530 announce ANY
+export:         to AS13281 announce ANY
+export:         to AS15742 announce ANY
+export:         to AS24812 announce ANY
+export:         to AS25000 announce {0.0.0.0/0} ANY
+export:         to AS25210 announce ANY
+export:         to AS25165 announce {0.0.0.0/0} AS-UAIX
+export:         to AS25502 announce {0.0.0.0/0}
+export:         to AS29107 announce {0.0.0.0/0}
+export:         to AS29116 announce {0.0.0.0/0}
+export:         to AS29215 announce {0.0.0.0/0} AS-UAIX
+export:         to AS29275 announce {0.0.0.0/0} ANY
+export:         to AS31305 announce {0.0.0.0/0}
+export:         to AS34068 announce {0.0.0.0/0}
+export:         to AS34094 announce {0.0.0.0/0} AS-UAIX
+export:         to AS34280 announce {0.0.0.0/0} AS-UAIX
+export:         to AS34321 announce ANY
+export:         to AS34668 announce ANY
+export:         to AS34743 announce {0.0.0.0/0} ANY
+export:         to AS34877 announce {0.0.0.0/0} ANY
+export:         to AS35341 announce {0.0.0.0/0}
+export:         to AS35588 announce {0.0.0.0/0} ANY
+export:         to AS39096 announce {0.0.0.0/0}
+export:         to AS39147 announce {0.0.0.0/0} ANY
+export:         to AS39222 announce {0.0.0.0/0}
+export:         to AS39329 announce {0.0.0.0/0}
+export:         to AS39399 announce {0.0.0.0/0}
+export:         to AS39644 announce {0.0.0.0/0}
+export:         to AS39928 announce {0.0.0.0/0} ANY
+export:         to AS41305 announce {0.0.0.0/0}
+export:         to AS41510 announce {0.0.0.0/0} ANY
+export:         to AS41656 announce {0.0.0.0/0} ANY
+export:         to AS41834 announce {0.0.0.0/0}
+export:         to AS41987 announce {0.0.0.0/0} ANY
+export:         to AS42054 announce {0.0.0.0/0}
+export:         to AS42057 announce ANY
+export:         to AS42134 announce {0.0.0.0/0} ANY
+export:         to AS42533 announce {0.0.0.0/0}
+export:         to AS42723 announce ANY
+export:         to AS43124 announce ANY
+export:         to AS43139 announce {0.0.0.0/0}
+export:         to AS43175 announce ANY
+export:         to AS43223 announce {0.0.0.0/0}
+export:         to AS43543 announce ANY
+export:         to AS43753 announce ANY
+export:         to AS43864 announce ANY
+export:         to AS43981 announce ANY
+export:         to AS44010 announce {0.0.0.0/0}
+export:         to AS44456 announce {0.0.0.0/0}
+export:         to AS44616 announce {0.0.0.0/0} ANY
+export:         to AS44673 announce {0.0.0.0/0}
+export:         to AS44996 announce ANY
+export:         to AS47513 announce {0.0.0.0/0} ANY
+export:         to AS47673 announce {0.0.0.0/0}
+export:         to AS47772 announce {0.0.0.0/0} ANY
+export:         to AS47838 announce ANY
+export:         to AS47898 announce {0.0.0.0/0}
+export:         to AS47919 announce ANY
+export:         to AS47985 announce {0.0.0.0/0}
+export:         to AS48411 announce {0.0.0.0/0} AS-UAIX
+export:         to AS48589 announce ANY
+export:         to AS48693 announce {0.0.0.0/0}
+export:         to AS48882 announce {0.0.0.0/0} AS-UAIX
+export:         to AS49087 announce ANY
+export:         to AS49089 announce {0.0.0.0/0}
+export:         to AS49213 announce ANY
+export:         to AS49332 announce {0.0.0.0/0}
+export:         to AS49465 announce {0.0.0.0/0}
+export:         to AS49561 announce {0.0.0.0/0}
+export:         to AS50027 announce {0.0.0.0/0}
+export:         to AS50127 announce {0.0.0.0/0} ANY
+export:         to AS50321 announce {0.0.0.0/0}
+export:         to AS50401 announce ANY
+export:         to AS50643 announce {0.0.0.0/0}
+export:         to AS50742 announce ANY
+export:         to AS50751 announce ANY
+export:         to AS50927 announce {0.0.0.0/0} ANY
+export:         to AS51794 announce {0.0.0.0/0}
+export:         to AS51950 announce ANY
+export:         to AS52032 announce {0.0.0.0/0} AS-UAIX
+export:         to AS52119 announce ANY
+export:         to AS52151 announce ANY
+export:         to AS56347 announce ANY
+export:         to AS56439 announce {0.0.0.0/0}
+export:         to AS56492 announce ANY
+export:         to AS56524 announce {0.0.0.0/0} ANY
+export:         to AS56756 announce {0.0.0.0/0}
+export:         to AS57100 announce ANY
+export:         to AS57460 announce {0.0.0.0/0}
+export:         to AS57519 announce ANY
+export:         to AS57774 announce {0.0.0.0/0}
+export:         to AS57787 announce {0.0.0.0/0}
+export:         to AS57830 announce ANY
+export:         to AS57894 announce {0.0.0.0/0}
+export:         to AS57944 announce {0.0.0.0/0} ANY
+export:         to AS57960 announce {0.0.0.0/0}
+export:         to AS58162 announce {0.0.0.0/0}
+export:         to AS59497 announce ANY
+export:         to AS59781 announce ANY
+export:         to AS60419 announce {0.0.0.0/0}
+export:         to AS60455 announce {0.0.0.0/0} ANY
+export:         to AS60746 announce ANY
+export:         to AS60754 announce {0.0.0.0/0} ANY
+export:         to AS61354 announce ANY
+export:         to AS61986 announce ANY
+export:         to AS62017 announce {0.0.0.0/0} AS-UAIX
+export:         to AS62028 announce {0.0.0.0/0}
+export:         to AS62096 announce {0.0.0.0/0} ANY
+export:         to AS62181 announce {0.0.0.0/0}
+export:         to AS62427 announce {0.0.0.0/0} ANY
+export:         to AS64410 announce {0.0.0.0/0}
+export:         to AS136907 announce {0.0.0.0/0} ANY
+export:         to AS197035 announce ANY
+export:         to AS197221 announce ANY
+export:         to AS197253 announce ANY
+export:         to AS197477 announce {0.0.0.0/0}
+export:         to AS197610 announce ANY
+export:         to AS197781 announce {0.0.0.0/0}
+export:         to AS198215 announce {0.0.0.0/0} ANY
+export:         to AS198665 announce {0.0.0.0/0} ANY
+export:         to AS199440 announce ANY
+export:         to AS199500 announce ANY
+export:         to AS200337 announce {0.0.0.0/0} ANY
+export:         to AS200381 announce ANY
+export:         to AS202026 announce {0.0.0.0/0}
+export:         to AS202362 announce {0.0.0.0/0} ANY
+export:         to AS203008 announce ANY
+export:         to AS203477 announce ANY
+export:         to AS204240 announce ANY
+export:         to AS204256 announce {0.0.0.0/0}
+export:         to AS204370 announce ANY
+export:         to AS204552 announce {0.0.0.0/0}
+export:         to AS204584 announce {0.0.0.0/0}
+export:         to AS205028 announce ANY
+export:         to AS205097 announce {0.0.0.0/0}
+export:         to AS205228 announce {0.0.0.0/0} AS-UAIX
+export:         to AS206823 announce {0.0.0.0/0} ANY
+export:         to AS208038 announce ANY
+export:         to AS209155 announce {0.0.0.0/0}
+export:         to AS209818 announce ANY
+export:         to AS210353 announce ANY
+export:         to AS211994 announce {0.0.0.0/0}
+export:         to AS212372 announce ANY
+export:         to AS212821 announce ANY
+export:         to AS214096 announce {0.0.0.0/0} ANY
+export:         to AS215483 announce {0.0.0.0/0}
+remarks:
+remarks:        Customers (IPv6)
+remarks:
+mp-import:      afi ipv6.unicast from AS15742 action pref=100; accept AS15742
+mp-import:      afi ipv6.unicast from AS48693 action pref=100; accept AS48693
+mp-import:      afi ipv6.unicast from AS56439 action pref=100; accept AS56439
+mp-import:      afi ipv6.unicast from AS57944 action pref=100; accept AS-IPC
+mp-import:      afi ipv6.unicast from AS61149 action pref=100; accept AS61149
+mp-import:      afi ipv6.unicast from AS136907 action pref=100; accept AS136907
+mp-import:      afi ipv6.unicast from AS205028 action pref=100; accept AS205028
+mp-import:      afi ipv6.unicast from AS208038 action pref=100; accept AS208038
+mp-import:      afi ipv6.unicast from AS212372 action pref=100; accept AS212372:AS-COOLNET
+mp-export:      afi ipv6.unicast to AS15742 announce ANY
+mp-export:      afi ipv6.unicast to AS48693 announce ANY
+mp-export:      afi ipv6.unicast to AS56439 announce ANY
+mp-export:      afi ipv6.unicast to AS57944 announce {0.0.0.0/0} ANY
+mp-export:      afi ipv6.unicast to AS61149 announce ANY
+mp-export:      afi ipv6.unicast to AS136907 announce ANY
+mp-export:      afi ipv6.unicast to AS205028 announce ANY
+mp-export:      afi ipv6.unicast to AS208038 announce {0.0.0.0/0} ANY
+mp-export:      afi ipv6.unicast to AS212372 announce ANY
+remarks:
+admin-c:        KSUA-RIPE
+tech-c:         KSUA-RIPE
+status:         ASSIGNED
+mnt-by:         KYIVSTAR-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-07-09T12:30:52Z
+last-modified:  2025-08-22T06:36:11Z
+source:         RIPE
+
+organisation:   ORG-KG8-RIPE
+org-name:       "Kyivstar" PJSC
+country:        UA
+org-type:       LIR
+address:        Degtyarevskaya 53
+address:        03113
+address:        Kiev
+address:        UKRAINE
+phone:          +380 67 2090070
+fax-no:         +380 67 2219251
+abuse-c:        AR17437-RIPE
+admin-c:        AEL17-RIPE
+admin-c:        EB14332-RIPE
+admin-c:        KSUA-RIPE
+admin-c:        NP1533-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         KYIVSTAR-MNT
+mnt-ref:        KYIVSTAR-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2006-01-19T11:31:37Z
+last-modified:  2023-02-23T14:03:21Z
+source:         RIPE # Filtered
+
+role:           Kyivstar PJSC
+address:        Degtyarevskaya, 53
+address:        Kiev, Ukraine
+admin-c:        AEL17-RIPE
+admin-c:        EB14332-RIPE
+tech-c:         NP1533-RIPE
+tech-c:         EB14332-RIPE
+tech-c:         AEL17-RIPE
+nic-hdl:        KSUA-RIPE
+remarks:        Please send all abuse reports here:
+abuse-mailbox:  abuse@kyivstar.net
+mnt-by:         KYIVSTAR-MNT
+created:        2003-05-19T14:48:31Z
+last-modified:  2023-02-23T14:09:33Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          5.248.0.0/16
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2012-09-12T13:13:30Z
+last-modified:  2012-09-12T13:13:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.115.0.0/16
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2012-02-10T11:24:48Z
+last-modified:  2012-02-10T11:24:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.229.0.0/16
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2012-04-10T12:39:48Z
+last-modified:  2012-04-10T12:39:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.118.0.0/15
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         GTUA-MNT
+created:        2013-12-30T12:27:57Z
+last-modified:  2013-12-30T12:27:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.185.0.0/17
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2010-11-10T07:05:53Z
+last-modified:  2010-11-10T07:40:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.211.0.0/16
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2010-12-17T12:29:04Z
+last-modified:  2010-12-17T12:29:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.64.64.0/18
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-07-04T16:13:25Z
+last-modified:  2022-07-04T16:13:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.247.216.0/21
+descr:          Kyivstar PJSC
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-11-25T10:47:28Z
+last-modified:  2022-11-25T10:47:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.23.16.0/20
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2006-02-03T07:52:52Z
+last-modified:  2006-02-03T07:52:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.23.16.0/24
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2021-07-05T11:33:39Z
+last-modified:  2021-07-05T11:33:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.170.192.0/18
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-07-04T16:18:34Z
+last-modified:  2022-07-04T16:18:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.223.128.0/17
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-07-04T16:24:57Z
+last-modified:  2022-07-04T16:24:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.162.128.0/17
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-07-04T16:29:24Z
+last-modified:  2022-07-04T16:29:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.27.0.0/17
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-07-04T16:33:16Z
+last-modified:  2022-07-04T16:33:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.153.0.0/16
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2008-07-31T14:47:34Z
+last-modified:  2008-07-31T14:52:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.153.164.0/22
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2021-07-05T11:33:39Z
+last-modified:  2021-07-05T11:33:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.162.0.0/17
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2009-09-18T12:22:35Z
+last-modified:  2009-09-18T12:22:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          134.249.0.0/16
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2011-11-07T11:07:26Z
+last-modified:  2011-11-07T11:07:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.8.0.0/16
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2011-05-13T14:33:37Z
+last-modified:  2011-05-13T14:33:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.137.0.0/16
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2010-03-29T10:19:12Z
+last-modified:  2010-03-29T10:19:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.163.0.0/16
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-07-04T16:36:57Z
+last-modified:  2022-07-04T16:36:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.163.0.0/17
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2014-02-11T08:21:10Z
+last-modified:  2014-02-11T08:21:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.41.60.0/22
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+holes:          193.41.63.0/24
+mnt-by:         KYIVSTAR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-02-03T07:52:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.41.60.0/23
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2021-07-05T11:33:39Z
+last-modified:  2021-07-05T11:33:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.41.62.0/23
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2021-07-05T11:33:39Z
+last-modified:  2021-07-05T11:33:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.239.128.0/23
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-11-25T11:40:54Z
+last-modified:  2022-11-25T11:40:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.82.192.0/19
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-07-04T16:10:20Z
+last-modified:  2022-07-04T16:10:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.109.32.0/19
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-07-04T16:05:11Z
+last-modified:  2022-07-04T16:05:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:8a8::/32
+descr:          Kyivstar PJSC, Kyiv, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2022-07-04T16:41:21Z
+last-modified:  2022-07-04T16:41:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2378::/32
+descr:          Kyivstar GSM, Kiev, Ukraine
+origin:         AS15895
+mnt-by:         KYIVSTAR-MNT
+created:        2010-09-06T08:00:33Z
+last-modified:  2010-09-06T08:00:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,180 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15719 - AS15803'
+
+as-block:       AS15719 - AS15803
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2024-02-13T15:18:50Z
+last-modified:  2024-02-13T15:18:50Z
+source:         RIPE
+
+% Information related to 'AS15738'
+
+% Abuse contact for 'AS15738' is 'abuse@express.net.ua'
+
+aut-num:        AS15738
+as-name:        UAEXPRESS
+org:            ORG-ERN1-RIPE
+descr:          Ukraine
+remarks:        ==== Upstream ==============================================
+import:         from AS56347 action pref=100; accept ANY
+export:         to AS56347 announce AS-EXPRESSUA
+import:         from AS35297 action pref=100; accept ANY
+export:         to AS35297 announce AS-EXPRESSUA
+import:         from AS12883 action pref=100; accept ANY
+import:         from AS3255 action pref=100; accept ANY
+export:         to AS12883 announce AS-EXPRESSUA
+export:         to AS3255 announce AS-EXPRESSUA
+remarks:        ==== UA-IX =================================================
+import:         from AS15645 action pref=200; accept AS-UAIX
+export:         to AS15645 announce AS-EXPRESSUA
+remarks:        ==== Giganet ===============================================
+import:         from AS59613 action pref=200; accept AS-UBNIX
+export:         to AS59613 announce AS-EXPRESSUA
+remarks:        ==== DTEL-IX ===============================================
+export:         to AS31210 announce AS-EXPRESSUA
+import:         from AS31210 accept AS-DTEL-IX
+mp-export:      afi ipv6.unicast to AS31210 announce AS-EXPRESSUA
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+remarks:        ==== ZP-IX =================================================
+import:         from AS30777 action pref=200; accept AS-ZPIX2
+export:         to AS30777 announce AS-EXPRESSUA
+remarks:        ==== Clients ===============================================
+import:         from AS34579 action pref=300; accept AS34579
+export:         to AS34579 announce ANY
+import:         from AS25071 action pref=300; accept AS-RADIOCOM
+export:         to AS25071 announce AS-UAIX
+import:         from AS44695 action pref=300; accept AS44695
+export:         to AS44695 announce ANY
+import:         from AS51528 action pref=300; accept AS51528
+export:         to AS51528 announce ANY
+import:         from AS48045 action pref=300; accept AS-FLAGMAN
+export:         to AS48045 announce ANY
+remarks:        ===========================================================
+remarks:        Abuse reports: abuse@express.net.ua
+remarks:        Network Operation Center: noc@express.net.ua
+remarks:        ===========================================================
+admin-c:        ELN31-RIPE
+tech-c:         ELN31-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         EXPRESS-UA-MNT
+created:        2002-01-12T13:30:01Z
+last-modified:  2025-01-10T07:22:34Z
+source:         RIPE
+
+organisation:   ORG-ERN1-RIPE
+org-name:       TOV BF Express Ltd
+country:        UA
+org-type:       LIR
+address:        Peremohy 55
+address:        69035
+address:        Zaporizhzhya
+address:        UKRAINE
+phone:          +380612802626
+fax-no:         +380612802628
+mnt-ref:        EXPRESS-UA-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         EXPRESS-UA-MNT
+tech-c:         ELN31-RIPE
+admin-c:        ELN31-RIPE
+abuse-c:        ELN31-RIPE
+created:        2004-04-17T12:09:02Z
+last-modified:  2024-04-23T09:37:18Z
+source:         RIPE # Filtered
+
+role:           Express Ltd NOC
+address:        Peremohy 55
+address:        69036 Zaporizhzhya
+address:        Ukraine
+remarks:        http://www.express.net.ua/
+remarks:        in case of abuse please contact:        abuse@express.net.ua
+remarks:        for operational issues please contact:  noc@express.net.ua
+abuse-mailbox:  abuse@express.net.ua
+phone:          +380507652626
+phone:          +380967872626
+nic-hdl:        ELN31-RIPE
+mnt-by:         EXPRESS-UA-MNT
+created:        2023-10-20T14:59:51Z
+last-modified:  2023-10-20T15:24:57Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          80.84.176.0/20
+descr:          Express Radio Networks
+origin:         AS15738
+mnt-by:         EXPRESS-UA-MNT
+created:        2005-04-25T13:24:31Z
+last-modified:  2005-04-25T13:24:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.254.0.0/20
+descr:          Express Radio Networks
+origin:         AS15738
+mnt-by:         EXPRESS-UA-MNT
+created:        2001-12-28T11:33:57Z
+last-modified:  2001-12-28T11:33:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.21.88.0/22
+origin:         AS15738
+descr:          TOV BF Express Ltd
+mnt-by:         EXPRESS-UA-MNT
+created:        2018-05-16T09:46:40Z
+last-modified:  2018-05-16T09:46:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a06:ff40::/29
+descr:          Express Ltd ipv6
+origin:         AS15738
+mnt-by:         EXPRESS-UA-MNT
+created:        2016-02-02T13:48:52Z
+last-modified:  2016-02-02T13:48:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

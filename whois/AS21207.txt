@@ -1,0 +1,520 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21153 - AS21241'
+
+as-block:       AS21153 - AS21241
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS21207'
+
+% Abuse contact for 'AS21207' is 'hostmaster@innogy.com'
+
+aut-num:        AS21207
+as-name:        RWE
+org:            ORG-RIG6-RIPE
+descr:          Essen, Germany
+import:         from AS13237 action pref=100; accept any
+import:         from AS3320 action pref=100; accept any
+import:         from AS702 action pref=100; accept any
+export:         to AS13237 announce AS21207
+export:         to AS3320 announce AS21207
+export:         to AS702 announce AS21207
+mp-import:      afi ipv6.unicast from AS3320 accept ANY
+mp-import:      afi ipv6.unicast from AS13237 accept ANY
+mp-import:      afi ipv6.unicast from AS702 accept ANY
+mp-export:      afi ipv6.unicast to AS3320 announce AS21207
+mp-export:      afi ipv6.unicast to AS13237 announce AS21207
+mp-export:      afi ipv6.unicast to AS702 announce AS21207
+admin-c:        RWE5-RIPE
+tech-c:         RWE5-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2002-07-30T09:41:44Z
+last-modified:  2019-04-03T06:13:40Z
+source:         RIPE
+
+organisation:   ORG-RIG6-RIPE
+org-name:       E.ON Verwaltungs GmbH
+country:        DE
+org-type:       LIR
+address:        Brusseler Platz 1
+address:        45131
+address:        Essen
+address:        GERMANY
+phone:          +492011226524
+fax-no:         +49201121226524
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        INNOGY-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         INNOGY-MNT
+admin-c:        MS6399-RIPE
+tech-c:         RWE5-RIPE
+abuse-c:        RWE5-RIPE
+created:        2012-04-03T15:26:03Z
+last-modified:  2023-11-22T08:39:30Z
+source:         RIPE # Filtered
+
+role:           Hostmaster innogy SE
+address:        innogy SE
+address:        Karolinger Straße 94
+address:        D-45141 Essen
+address:        Germany
+phone:          +49 201 12 26523
+admin-c:        MS6399-RIPE
+tech-c:         MS6399-RIPE
+nic-hdl:        RWE5-RIPE
+remarks:        role account for Hostmaster at RWE IT GmbH
+abuse-mailbox:  hostmaster@innogy.com
+mnt-by:         RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2012-08-09T11:40:45Z
+last-modified:  2019-04-03T06:50:53Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          153.100.0.0/16
+descr:          innogy-net1
+origin:         AS21207
+notify:         hostmaster@rwesystems.com
+mnt-by:         RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2001-11-29T06:39:03Z
+last-modified:  2019-06-13T09:07:10Z
+source:         RIPE
+holes:          153.100.160.0/19
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.0.0/18
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+origin:         AS21207
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:02:26Z
+last-modified:  2020-06-12T06:02:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.0.0/23
+descr:          Migration Net
+mnt-routes:     RWE-MNT
+mnt-routes:     INNOGY-MNT
+origin:         AS21207
+mnt-by:         RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2011-05-06T07:47:14Z
+last-modified:  2020-04-23T09:57:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.0.0/24
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:47:00Z
+last-modified:  2020-06-12T06:47:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.1.0/24
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:48:21Z
+last-modified:  2020-06-12T06:48:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.64.0/18
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:03:17Z
+last-modified:  2020-06-12T06:03:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.128.0/22
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:31:22Z
+last-modified:  2020-06-12T06:31:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.132.0/24
+origin:         AS21207
+mnt-by:         INNOGY-MNT
+created:        2022-12-06T14:48:06Z
+last-modified:  2022-12-06T14:48:43Z
+source:         RIPE
+descr:          Emergency VPN
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.133.0/24
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:32:15Z
+last-modified:  2020-06-12T06:32:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.134.0/24
+origin:         AS21207
+descr:          Essen, Germany
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:33:01Z
+last-modified:  2022-11-21T09:12:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.135.0/24
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:34:17Z
+last-modified:  2020-06-12T06:34:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.136.0/22
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:35:07Z
+last-modified:  2020-06-12T06:35:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.140.0/22
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:36:08Z
+last-modified:  2020-06-12T06:36:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.144.0/22
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:37:20Z
+last-modified:  2020-06-12T06:37:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.148.0/22
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:38:04Z
+last-modified:  2020-06-12T06:38:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.152.0/22
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:38:58Z
+last-modified:  2020-06-12T06:38:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.156.0/22
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:40:00Z
+last-modified:  2020-06-12T06:40:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.176.0/21
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:42:32Z
+last-modified:  2020-06-12T06:42:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.184.0/21
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:43:29Z
+last-modified:  2020-06-12T06:43:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.192.0/19
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:44:23Z
+last-modified:  2020-06-12T06:44:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          153.100.224.0/19
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:45:35Z
+last-modified:  2020-06-12T06:45:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.25.64.0/19
+descr:          RWE-NET2
+origin:         AS21207
+notify:         hostmaster@innogy.com
+mnt-by:         RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2001-11-29T06:39:20Z
+last-modified:  2020-04-23T09:58:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.25.64.0/20
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-routes:     RWE-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:55:07Z
+last-modified:  2020-06-12T06:55:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.25.80.0/20
+origin:         AS21207
+mnt-routes:     INNOGY-MNT
+mnt-by:         INNOGY-MNT
+created:        2020-06-12T06:55:57Z
+last-modified:  2021-03-01T07:26:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:ad40::/29
+descr:          RWE IT GmbH
+origin:         AS21207
+mnt-by:         RWE-MNT
+created:        2012-08-10T08:39:46Z
+last-modified:  2012-08-10T08:39:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

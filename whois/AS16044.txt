@@ -1,0 +1,310 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15965 - AS16057'
+
+as-block:       AS15965 - AS16057
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16044'
+
+% Abuse contact for 'AS16044' is 'admin@iport.net.ua'
+
+aut-num:        AS16044
+as-name:        IPORT
+descr:          IPORT UNITED LLC
+org:            ORG-IUL13-RIPE
+remarks:        ------------------------------------------------------------------------
+remarks:        -- UPLINKS
+remarks:        ------------------------------------------------------------------------
+remarks:
+remarks:        # AS48648 - KYIVLINK
+import:         from AS48648 action pref=175; accept {0.0.0.0/0}
+export:         to AS48648 announce AS-IPORT
+remarks:
+remarks:        # AS12883 - UCOMLINE
+import:         from AS12883 action pref=145; accept {0.0.0.0/0}
+export:         to AS12883 announce AS-IPORT
+remarks:
+remarks:        # AS199995 - Omega Telecom LLC
+import:         from AS199995 action pref=140; accept {0.0.0.0/0}
+export:         to AS199995 announce AS-IPORT
+remarks:
+remarks:        # AS48648 - KYIVLINK
+import:         from AS48648 action pref=145; accept NOT ANY
+export:         to AS48648 announce AS-IPORT
+remarks:
+remarks:        ------------------------------------------------------------------------
+remarks:        -- INTERNET EXCHANGE POINTS
+remarks:        ------------------------------------------------------------------------
+remarks:
+remarks:        # AS59613 - Giganet.UA Internet Exchange Network
+import:         from AS59613 action pref=135; accept AS-UBNIX
+export:         to AS59613 announce AS-IPORT
+remarks:
+remarks:        ------------------------------------------------------------------------
+remarks:        -- PEERS
+remarks:        ------------------------------------------------------------------------
+remarks:
+remarks:        # AS15169 - Google LLC
+import:         from AS15169 action pref=125; accept AS-GOOGLE
+export:         to AS15169 announce AS-IPORT
+remarks:
+remarks:        # AS204384 - LLC "OTT UKRAINE"
+import:         from AS204384 action pref=125; accept AS204384
+export:         to AS204384 announce AS-IPORT
+remarks:
+remarks:        ------------------------------------------------------------------------
+remarks:        -- CUSTOMERS
+remarks:        ------------------------------------------------------------------------
+remarks:
+remarks:        # AS208433 - FASTLAN TECHNOLOGY LLC
+import:         from AS208433 action pref=105; accept AS208433
+export:         to AS208433 announce {0.0.0.0/0}
+remarks:
+remarks:        # AS212438 - FOP Polischuk Svitlana Illivna
+import:         from AS212438 action pref=105; accept AS212438
+export:         to AS212438 announce {0.0.0.0/0}
+remarks:
+sponsoring-org: ORG-KL211-RIPE
+admin-c:        KYRP-RIPE
+tech-c:         DAVD-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SNK-MNT
+created:        2011-05-04T08:26:55Z
+last-modified:  2025-02-03T13:34:49Z
+source:         RIPE
+
+organisation:   ORG-IUL13-RIPE
+org-name:       IPORT UNITED LLC
+country:        UA
+org-type:       OTHER
+address:        Boryspil city, Bezhivka st., building 31b, app. 110
+address:        Boryspil district, Kyiv region
+address:        08301
+abuse-c:        AR21581-RIPE
+mnt-ref:        SNK-MNT
+mnt-ref:        K-Link-MNT
+mnt-by:         K-Link-MNT
+mnt-by:         SNK-MNT
+created:        2025-01-21T09:39:46Z
+last-modified:  2025-02-03T14:22:48Z
+source:         RIPE # Filtered
+
+person:         Oleh Davydenko
+address:        Boryspil city, Haharina Yuriia st., building 1
+address:        Boryspil district, Kyiv region
+address:        UKRAINE
+address:        08304
+phone:          +380976060680
+nic-hdl:        DAVD-RIPE
+mnt-by:         SNK-MNT
+created:        2019-10-03T07:38:17Z
+last-modified:  2025-02-03T14:37:23Z
+source:         RIPE # Filtered
+
+person:         Oleh Kyrpenko
+address:        Boryspil city, Bezhivka st., building 31b, app. 110
+address:        Boryspil district, Kyiv region
+address:        UKRAINE
+address:        08301
+phone:          +380677031006
+nic-hdl:        KYRP-RIPE
+mnt-by:         SNK-MNT
+created:        2013-09-14T22:55:02Z
+last-modified:  2025-02-03T14:32:59Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          91.226.252.0/22
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2011-05-04T09:19:49Z
+last-modified:  2025-02-03T13:44:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.226.252.0/24
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2012-06-11T13:50:10Z
+last-modified:  2025-02-03T13:45:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.226.253.0/24
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2012-06-11T13:50:37Z
+last-modified:  2025-02-03T13:45:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.226.254.0/24
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2012-06-11T13:50:52Z
+last-modified:  2025-02-03T13:45:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.226.255.0/24
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2012-06-11T13:51:05Z
+last-modified:  2025-02-03T13:45:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.34.60.0/22
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2023-01-06T09:56:29Z
+last-modified:  2025-02-03T13:42:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.34.60.0/24
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2023-01-06T09:57:31Z
+last-modified:  2025-02-03T13:42:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.34.61.0/24
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2023-01-06T09:58:20Z
+last-modified:  2025-02-03T13:43:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.34.62.0/24
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2023-01-06T09:59:05Z
+last-modified:  2025-02-03T13:44:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.34.63.0/24
+descr:          IPORT UNITED LLC Route
+origin:         AS16044
+mnt-by:         SNK-MNT
+created:        2023-01-06T09:59:47Z
+last-modified:  2025-02-03T13:44:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0a:2c0:10::/48
+descr:          IPORT IPv6 NETWORK
+origin:         AS16044
+mnt-by:         K-Link-MNT
+created:        2021-06-14T11:42:52Z
+last-modified:  2021-06-14T11:42:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

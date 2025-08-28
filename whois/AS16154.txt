@@ -1,0 +1,612 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16059 - AS16213'
+
+as-block:       AS16059 - AS16213
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16154'
+
+% Abuse contact for 'AS16154' is 'abuse@telecoms.bg'
+
+aut-num:        AS16154
+org:            ORG-TL1-RIPE
+as-name:        TELECOMS-AS
+descr:          ISP
+descr:          Bulgaria
+admin-c:        TIR7
+admin-c:        RDS100
+tech-c:         RDS100
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:
+remarks:        International Transits
+import:         from AS6939 action pref=100; accept ANY
+import:         from AS34224 action pref=100; accept ANY
+import:         from AS41059 action pref=100; ACCEPT ANY
+import:         from AS59900 action pref=100; ACCEPT ANY
+import:         from AS41313 action pref=100; accept ANY
+import:         from AS57344 action pref=100; accept ANY
+remarks:        remarks: BG Transits
+import:         from AS34224 action pref=50; accept AS-BG
+import:         from AS41313 action pref=50; accept AS-BG
+import:         from AS57344 action pref=50; accept AS-BG
+remarks:        remarks: Local Peers
+import:         from AS20665 action pref=40; accept AS-VARNAPEERS
+import:         from AS29687 action pref=40; accept AS-VARNAPEERS
+remarks:        remarks: Customers
+import:         from AS20956 action pref=30; accept AS20956
+import:         from AS34674 action pref=30; accept AS34674
+import:         from AS57237 action pref=30; accept AS57237
+import:         from AS61437 action pref=30; accept AS61437
+remarks:        remarks: Transits
+export:         to AS6939 announce AS-TELECOMS
+export:         to AS34224 announce AS-TELECOMS
+export:         to AS59900 announce AS-TELECOMS
+export:         to AS41313 announce AS-TELECOMS
+export:         to AS57344 announce AS-TELECOMS
+remarks:
+remarks:        Customers
+export:         to AS34674 announce ANY
+export:         to AS57237 announce ANY
+remarks:
+remarks:        Local Peers
+export:         to AS20665 announce AS-VARNAPEERS
+export:         to AS29687 announce AS-VARNAPEERS
+remarks:
+remarks:        Last Resort
+default:        to AS60349 action pref=200; networks ANY
+default:        to AS41313 action pref=200 ; networks ANY
+remarks:        ========================================================
+remarks:
+remarks:        For contacts: noc@telecoms.bg
+remarks:        trouble: please send abuse reports to abuse@telecoms.bg
+remarks:
+remarks:        ========================================================
+mnt-by:         TELECOMS-NOC-MNT
+created:        2002-09-05T10:51:36Z
+last-modified:  2025-06-30T17:04:07Z
+source:         RIPE
+
+organisation:   ORG-TL1-RIPE
+org-name:       Telecoms-Net Ltd.
+country:        BG
+org-type:       LIR
+address:        7 Druzhba str. entr. A office 1
+address:        9010
+address:        Varna
+address:        BULGARIA
+phone:          +359 52 300990
+fax-no:         +359 52 307990
+admin-c:        RDS100
+admin-c:        TIR7
+mnt-ref:        TELECOMS-NOC-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TELECOMS-NOC-MNT
+abuse-c:        TAD20-RIPE
+created:        2004-04-17T11:01:23Z
+last-modified:  2020-12-16T12:28:28Z
+source:         RIPE # Filtered
+
+person:         Rumen D. Svobodnikov
+address:        7A Druzhba Str., Office 1
+address:        9010 Varna
+address:        Bulgaria
+phone:          +359 52 303218
+fax-no:         +359 52 307990
+nic-hdl:        RDS100
+mnt-by:         TELECOMS-NOC-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-10-30T21:45:21Z
+source:         RIPE # Filtered
+
+person:         Trifon I. Ruskov
+address:        Telecoms Ltd.
+address:        7 Druzhba str, Entry A, office 1
+address:        9010, Varna
+address:        Bulgaria
+phone:          +359 52 300990
+fax-no:         +359 52 307990
+nic-hdl:        TIR7
+mnt-by:         TELECOMS-NOC-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2008-08-22T09:45:31Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          80.95.29.0/24
+descr:          Telecoms-Net deaggregate announce
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2005-08-08T15:12:36Z
+last-modified:  2005-08-08T15:12:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.95.30.0/24
+descr:          Telecoms-Net deaggregate announce
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2005-08-08T15:12:37Z
+last-modified:  2005-08-08T15:12:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.213.195.0/24
+descr:          Telecoms-Net deaggregate announce
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2006-01-12T13:50:46Z
+last-modified:  2006-01-12T13:50:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.213.204.0/22
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2023-02-26T10:32:21Z
+last-modified:  2023-02-26T10:32:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.213.204.0/23
+descr:          telecoms.bg customers
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2015-12-14T07:46:50Z
+last-modified:  2015-12-14T07:46:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.213.204.0/24
+descr:          Telecoms-Net deaggregate announce
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2006-01-12T13:50:48Z
+last-modified:  2006-01-12T13:50:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.213.205.0/24
+descr:          Telecoms-Net deaggregate announce
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2006-01-12T13:50:48Z
+last-modified:  2006-01-12T13:50:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.213.206.0/23
+descr:          telecoms.bg customers
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2015-12-14T07:46:50Z
+last-modified:  2015-12-14T07:46:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.213.206.0/24
+descr:          Telecoms-Net deaggregate announce
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2006-01-12T13:50:48Z
+last-modified:  2006-01-12T13:50:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.213.207.0/24
+descr:          Telecoms-Net deaggregate announce
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2006-01-12T13:50:49Z
+last-modified:  2006-01-12T13:50:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.64.0/22
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2024-09-19T04:32:15Z
+last-modified:  2024-09-19T04:32:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.64.0/24
+descr:          Telecoms-Net
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2002-06-19T10:10:21Z
+last-modified:  2002-06-19T10:10:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.65.0/24
+descr:          Telecoms-Net
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2002-06-19T10:14:33Z
+last-modified:  2002-06-19T10:14:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.66.0/24
+descr:          Telecoms-Net
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2002-06-19T10:14:34Z
+last-modified:  2002-06-19T10:14:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.67.0/24
+descr:          Telecoms-Net
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2002-06-19T10:17:04Z
+last-modified:  2002-06-19T10:17:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.72.0/24
+descr:          Telecoms-Net
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2002-06-19T10:17:10Z
+last-modified:  2002-06-19T10:17:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.77.0/24
+descr:          Telecoms-Net
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2002-06-19T10:17:15Z
+last-modified:  2002-06-19T10:17:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.78.0/23
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2025-08-26T14:25:43Z
+last-modified:  2025-08-26T14:25:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.78.0/24
+descr:          Telecoms-Net
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2002-06-19T10:17:16Z
+last-modified:  2002-06-19T10:17:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.79.0/24
+descr:          Telecoms-Net
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2002-06-19T10:17:18Z
+last-modified:  2002-06-19T10:17:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.83.0/24
+descr:          Telecoms internal & customer
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2003-01-21T11:11:03Z
+last-modified:  2003-01-21T11:11:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.86.0/23
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2025-08-27T16:00:33Z
+last-modified:  2025-08-27T16:00:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.86.0/24
+descr:          Telecoms internal & customer
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2003-01-21T11:11:07Z
+last-modified:  2003-01-21T11:11:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.87.0/24
+descr:          Telecoms internal & customer
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2003-01-21T11:11:09Z
+last-modified:  2003-01-21T11:11:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.88.0/24
+descr:          Telecoms internal & customer
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2003-01-21T11:11:11Z
+last-modified:  2003-01-21T11:11:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.90.0/24
+descr:          Telecoms internal & customer
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2003-01-21T11:11:14Z
+last-modified:  2003-01-21T11:11:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.92.0/24
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2019-06-11T10:26:58Z
+last-modified:  2019-06-11T10:26:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.79.95.0/24
+descr:          Telecoms internal & customer
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+created:        2003-01-21T11:11:22Z
+last-modified:  2003-01-21T11:11:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:7900::/32
+descr:          Telecoms Net aggregate
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+pingable:       2a02:7900::1
+ping-hdl:       DUMY-RIPE
+created:        2011-03-22T12:43:19Z
+last-modified:  2011-03-23T05:29:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:7900:100::/48
+descr:          Telecoms test prefix
+origin:         AS16154
+mnt-by:         TELECOMS-NOC-MNT
+pingable:       2a02:7900:100::1
+ping-hdl:       DUMY-RIPE
+created:        2015-09-12T12:43:40Z
+last-modified:  2015-09-12T12:43:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

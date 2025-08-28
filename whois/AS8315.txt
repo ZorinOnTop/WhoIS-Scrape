@@ -1,0 +1,1998 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8315'
+
+% Abuse contact for 'AS8315' is 'abuse@as8315.net'
+
+aut-num:        AS8315
+as-name:        ACNBB
+remarks:        Accenture Backbone
+remarks:        https://www.accenture.com
+remarks:        ==============================================================
+remarks:        Please find our peering details at
+remarks:        http://as8315.peeringdb.com/
+remarks:        ==============================================================
+remarks:        We have an open peering policy and would like to peer with
+remarks:        you. Please send requests to noc@cie.ac.
+remarks:        ==============================================================
+remarks:        NOC: noc@cie.ac
+remarks:        Abuse: dnsadmin@accenture.com
+remarks:        ==============================================================
+remarks:        We share the view that for many networks ( including ours:-) )
+remarks:        only some abstraction of the actual routing policy should/can
+remarks:        be published in the IRR.
+remarks:        Right now we are abstracting to a very essential minimum.
+remarks:        the most important and helpful use of the IRR is
+remarks:        to publish what a network will announce to peers and upstream
+remarks:        we are providing that by means of the AS-set AS8315:AS-SENTIA
+remarks:        which we have been keeping up to date all the time
+remarks:        we encourage all our neighbors to define and maintain an
+remarks:        AS-set to describe their announcements, and to register
+remarks:        all the routes (and have their customers do so as well)
+import:         from AS-ANY accept ANY # heavy abstraction hits! well, we are ... neither peering promiscuously nor accepting all junk routes offered...
+remarks:        we maintain a list of what our neighbors have told us
+remarks:        about their announcements towards AS8315 - in terms of
+remarks:        AS-set (preferred), AS number, route-set
+remarks:        (and the IRR database used to publish)
+remarks:        in fact we apply route filters based on this
+remarks:        for all neighbors - as far as feasible
+remarks:        for data published through the RIPE routing registry
+remarks:        we generate filters automatically
+remarks:        we consider the integration of RIR and routing registry data
+remarks:        and the application of RPSS authorization a great feature
+remarks:        of the RIPE routing registry
+remarks:        unfortunately this benefit is not available with any
+remarks:        other IRR database that we know of...
+remarks:        and some of the IRR databases allow essentially any garbage
+remarks:        to be registered without any control - making those databases
+remarks:        quite useless...
+export:         to AS8315:AS-ACNBB announce ANY # but don't publish that list; in general - if they ask for less, we can do
+export:         to AS-ANY announce AS8315:AS-ACNBB # New AS SET
+remarks:        customers are strongly encouraged to define and maintain
+remarks:        an AS-set that we will include in the definition
+remarks:        of AS8315:AS-ACNBB (if we are told the name)
+remarks:        this will be sufficient to have our peers accept the routes
+remarks:        in any case peers - and any network in the Internet -
+remarks:        is free to apply some selective policy (e.g. prefix
+remarks:        length based)
+remarks:        but we do not think that any such selective policy
+remarks:        will be based on details of our routing policy omitted
+remarks:        from this aut-num: object
+remarks:        unfortunately some customers do not provide usable IRR data;
+remarks:        we will NOT add to the uncontrolled garbage in the IRR by
+remarks:        proxy registering in some database that requires no
+remarks:        authorization
+remarks:        we advise customers that routes without IRR registration
+remarks:        and not covered by AS8315:AS-ACNBB may receive less than
+remarks:        full support by some of our peer networks and other
+remarks:        parts of the Internet
+remarks:        ==============================================================
+remarks:        IPv6 we do/publish essentially the same like for IPv4
+mp-import:      afi ipv6.unicast from AS-ANY accept ANY # heavy abstraction... neither peering promiscuously nor accepting all junk routes offered...
+mp-export:      afi ipv6.unicast to AS8315:AS-ACNBB announce ANY # but don't publish that list; in general - if they ask for less, we can do
+mp-export:      afi ipv6.unicast to AS-ANY announce AS8315:AS-ACNBB # for peers and others...
+remarks:        ==============================================================
+org:            ORG-ABV1-RIPE
+admin-c:        ACN1337-RIPE
+tech-c:         ACN1337-RIPE
+abuse-c:        ABAR3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ACNBB-MNT
+created:        2006-01-05T09:59:28Z
+last-modified:  2023-05-31T11:10:32Z
+source:         RIPE
+
+organisation:   ORG-ABV1-RIPE
+org-name:       Accenture B. V.
+country:        NL
+org-type:       LIR
+address:        201 East 4th Street, Suite1600
+address:        45202
+address:        Cincinnati, OH
+address:        UNITED STATES
+phone:          +15134551287
+fax-no:         +13126527255
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ACN-RIPE-IPV6-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ACN-RIPE-IPV6-MNT
+admin-c:        CEH5-RIPE
+admin-c:        KP3355-RIPE
+admin-c:        SJW12-RIPE
+abuse-c:        AA26757-RIPE
+created:        2012-09-28T14:18:53Z
+last-modified:  2023-03-21T16:27:33Z
+source:         RIPE # Filtered
+
+role:           Accenture Backbone Role
+address:        Gustav Mahlerplein 90
+address:        1082MA Amsterdam
+abuse-mailbox:  abuse@cie.ac
+tech-c:         PL13771-RIPE
+tech-c:         SK3127-RIPE
+tech-c:         OvdL5-RIPE
+nic-hdl:        ACN1337-RIPE
+created:        2023-04-19T14:25:58Z
+last-modified:  2023-05-31T12:46:49Z
+source:         RIPE # Filtered
+mnt-by:         ACNBB-MNT
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          2.56.171.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-10-12T11:50:21Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.100.224.0/21
+descr:          AMSIO
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2012-07-05T15:38:55Z
+last-modified:  2023-04-25T08:48:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.157.174.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2025-04-08T12:56:46Z
+last-modified:  2025-04-08T12:56:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.99.184.0/21
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:00:11Z
+last-modified:  2023-04-25T08:48:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.98.128.0/18
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:11:54Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.98.192.0/21
+origin:         AS8315
+created:        2022-03-18T12:41:15Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.98.200.0/22
+origin:         AS8315
+created:        2022-03-18T12:42:39Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.98.208.0/20
+origin:         AS8315
+created:        2022-03-18T12:43:08Z
+last-modified:  2022-03-18T12:43:08Z
+source:         RIPE
+mnt-by:         JAYNET
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.92.128.0/19
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:13:30Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.92.128.0/20
+origin:         AS8315
+created:        2022-03-21T08:38:58Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.92.144.0/22
+origin:         AS8315
+created:        2022-03-21T08:39:26Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.92.152.0/21
+origin:         AS8315
+created:        2022-03-21T08:39:55Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.158.160.0/21
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:28:21Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.158.160.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:35:18Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.158.164.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:35:45Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.222.192.0/21
+descr:          SENTIA
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2015-08-20T12:13:38Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.237.99.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:14:01Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.160.0/19
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:17:27Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          89.18.160.0/22
+origin:         AS8315
+created:        2022-03-21T08:52:31Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.168.0/21
+origin:         AS8315
+created:        2022-03-21T08:52:56Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.180.0/22
+origin:         AS8315
+created:        2022-03-21T08:53:20Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.188.0/22
+origin:         AS8315
+created:        2022-03-21T08:53:43Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          89.30.128.0/18
+origin:         AS8315
+created:        2022-03-21T09:14:05Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.30.169.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:18:36Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.30.174.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:19:15Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.30.192.0/19
+origin:         AS8315
+created:        2022-03-21T09:14:37Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.30.193.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:19:45Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.30.208.0/20
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-11-03T11:23:54Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.30.224.0/21
+origin:         AS8315
+created:        2022-03-21T09:15:05Z
+last-modified:  2023-04-21T10:06:03Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.30.240.0/21
+origin:         AS8315
+created:        2022-03-21T09:15:36Z
+last-modified:  2023-04-21T10:06:04Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.200.48.0/23
+descr:          Argeweb
+origin:         AS8315
+mnt-by:         AMSIO-MNT
+created:        2007-11-20T16:02:17Z
+last-modified:  2013-05-22T13:09:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.200.51.0/24
+descr:          ARGEWEB BV
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2012-01-11T13:59:08Z
+last-modified:  2023-04-25T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.216.113.0/24
+descr:          Prioserve
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2014-03-12T10:55:19Z
+last-modified:  2023-04-25T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.216.141.0/24
+descr:          AMSIO B.V. Route
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2013-05-15T09:52:36Z
+last-modified:  2023-04-25T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.223.124.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-10-30T10:58:28Z
+last-modified:  2023-04-25T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.230.170.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-03-16T22:31:58Z
+last-modified:  2023-04-25T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.230.176.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-03-16T22:33:58Z
+last-modified:  2023-04-25T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.230.178.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-03-23T11:30:10Z
+last-modified:  2023-04-25T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.175.176.0/20
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:24:05Z
+last-modified:  2023-04-21T10:06:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          94.198.24.0/21
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:27:56Z
+last-modified:  2023-04-21T10:06:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.198.24.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:36:30Z
+last-modified:  2023-04-21T10:06:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.198.26.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:36:53Z
+last-modified:  2023-04-21T10:06:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.198.28.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:37:16Z
+last-modified:  2023-04-21T10:06:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          134.0.88.0/21
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:01:31Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          134.0.92.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:07:54Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          134.0.92.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:33:43Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          134.0.93.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:09:01Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          145.131.0.0/20
+descr:          Argeweb
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+mnt-by:         PCEXTREME-MNT
+created:        2014-11-10T15:01:40Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          145.131.16.0/20
+descr:          Argeweb
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+mnt-by:         PCEXTREME-MNT
+created:        2016-06-22T11:23:27Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          145.131.32.0/20
+descr:          Argeweb
+origin:         AS8315
+mnt-by:         PCEXTREME-MNT
+mnt-by:         ACNBB-MNT
+created:        2017-11-01T10:02:37Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          162.248.196.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:11:22Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          162.248.199.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:12:11Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          162.251.32.0/21
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:13:32Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.62.192.0/21
+descr:          Accenture
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2011-10-25T11:57:16Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.251.192.0/21
+descr:          Argeweb
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2010-07-02T08:06:28Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.12.132.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:22:52Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.30.236.0/22
+descr:          AMSIO B.V. Route
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2013-07-17T14:48:13Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.38.156.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:23:21Z
+last-modified:  2023-04-21T10:06:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.74.76.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-08-21T16:23:09Z
+last-modified:  2023-04-21T10:06:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.74.77.0/24
+descr:          Accenture Backbone
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2015-11-03T14:19:06Z
+last-modified:  2023-04-21T10:06:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.77.120.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:24:47Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.52.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-21T12:50:48Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.52.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-21T12:51:14Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.53.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-11-04T11:13:02Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.196.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-21T12:50:01Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.224.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-06-25T08:35:28Z
+last-modified:  2023-04-21T10:05:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.224.0/24
+descr:          AMSIO
+origin:         AS8315
+mnt-by:         NLAMSIO-MNT
+created:        2015-12-10T15:27:21Z
+last-modified:  2015-12-10T15:27:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.227.0/24
+descr:          AMSIO BV USA
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2017-06-08T06:44:29Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.116.72.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-03-08T14:52:41Z
+last-modified:  2023-04-21T10:06:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.194.84.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-03-23T11:31:16Z
+last-modified:  2023-04-25T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.34.150.0/23
+descr:          Argeweb Network
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2006-10-23T13:32:23Z
+last-modified:  2023-04-25T08:48:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.176.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:24:37Z
+last-modified:  2023-04-21T10:06:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.105.128.0/23
+descr:          Argeweb B.V.
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2006-01-05T16:52:00Z
+last-modified:  2023-04-25T08:48:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.165.34.0/24
+descr:          Argeweb
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2006-01-05T16:52:30Z
+last-modified:  2023-04-25T08:48:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.213.114.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-03-23T11:34:17Z
+last-modified:  2023-04-25T08:48:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.234.173.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:26:01Z
+last-modified:  2023-04-21T10:06:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.171.128.0/19
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:25:59Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.171.128.0/20
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:30:45Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.171.144.0/20
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:31:07Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.189.0.0/21
+origin:         AS8315
+created:        2022-03-10T12:01:43Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.189.8.0/22
+origin:         AS8315
+created:        2022-03-10T12:02:17Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.189.16.0/20
+origin:         AS8315
+created:        2022-03-10T12:02:57Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+mnt-by:         ACNBB-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.96.0/19
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:26:34Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.96.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:38:22Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.98.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:38:52Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.100.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:39:18Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.101.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:31:31Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.102.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:39:42Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.103.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:31:58Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.104.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:40:05Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.106.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:40:27Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.107.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:32:21Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.108.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:40:57Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.110.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:41:21Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.112.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:32:51Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.114.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:33:16Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.116.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:33:42Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.118.0/23
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:41:44Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.120.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:34:08Z
+last-modified:  2023-04-21T10:06:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.124.0/22
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:34:43Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.247.32.0/19
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:26:58Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.247.37.0/24
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-08-25T08:27:35Z
+last-modified:  2023-04-21T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.195.112.0/20
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:21:25Z
+last-modified:  2023-04-25T08:48:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:678:76c::/48
+origin:         AS8315
+descr:          Argeweb BV
+mnt-by:         PCEXTREME-MNT
+created:        2018-07-06T07:52:31Z
+last-modified:  2021-11-05T08:45:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:261c::/48
+descr:          Accenture
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2014-08-15T14:01:40Z
+last-modified:  2023-04-25T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:16f8::/32
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-09-07T08:50:12Z
+last-modified:  2023-04-21T10:06:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:4198::/32
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-09-07T08:50:43Z
+last-modified:  2023-04-21T10:06:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:1bd8::/32
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:30:15Z
+last-modified:  2023-04-21T10:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:40e0::/32
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:25:26Z
+last-modified:  2023-04-25T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:20b0::/32
+descr:          Accenture IPv6
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2010-07-19T07:43:58Z
+last-modified:  2023-04-21T10:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:20b0:32::/48
+descr:          Accenture BV
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2017-09-19T12:32:22Z
+last-modified:  2023-04-25T08:48:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:20b1::/32
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-12-21T11:45:34Z
+last-modified:  2023-04-21T10:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2858::/29
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:28:50Z
+last-modified:  2023-04-21T10:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2858::/40
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:42:07Z
+last-modified:  2023-04-21T10:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2858:200::/40
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:42:35Z
+last-modified:  2023-04-21T10:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2858:300::/40
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:42:58Z
+last-modified:  2023-04-21T10:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2858:400::/40
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2020-07-17T10:43:20Z
+last-modified:  2023-04-21T10:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2858:500::/40
+origin:         AS8315
+descr:          Accenture Infra
+mnt-by:         ACNBB-MNT
+created:        2019-09-11T09:53:53Z
+last-modified:  2023-04-21T10:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:5500::/31
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2019-09-30T13:26:24Z
+last-modified:  2023-04-25T08:48:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0d:5040::/29
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-03-08T14:20:18Z
+last-modified:  2023-04-25T08:48:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0d:5040::/32
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-03-30T21:43:47Z
+last-modified:  2023-04-25T08:48:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0d:5041::/32
+origin:         AS8315
+mnt-by:         ACNBB-MNT
+created:        2021-03-30T21:43:29Z
+last-modified:  2023-04-25T08:48:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

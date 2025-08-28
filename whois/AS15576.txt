@@ -1,0 +1,1266 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15576'
+
+% Abuse contact for 'AS15576' is 'abuse@nts.ch'
+
+aut-num:        AS15576
+as-name:        NTS
+org:            ORG-aG1-RIPE
+remarks:        https://nts.ch
+remarks:        -------------
+remarks:        T R A N S I T
+remarks:        -------------
+import:         from AS15576:AS-TRANSIT accept ANY
+export:         to AS15576:AS-TRANSIT announce AS15576:AS-NTS
+mp-import:      afi ipv6.unicast from AS15576:AS-TRANSIT accept ANY
+mp-export:      afi ipv6.unicast to AS15576:AS-TRANSIT announce AS15576:AS-NTS
+remarks:        -----------------
+remarks:        C U S T O M E R S
+remarks:        -----------------
+import:         from AS15576:AS-CUSTOMER accept AS15576:AS-CUSTOMER:PeerAS
+export:         to AS15576:AS-CUSTOMER announce ANY
+mp-import:      afi ipv6.unicast from AS15576:AS-CUSTOMER accept AS15576:AS-CUSTOMER:PeerAS
+mp-export:      afi ipv6.unicast to AS15576:AS-CUSTOMER announce ANY
+remarks:        -------------
+remarks:        P E E R I N G
+remarks:        -------------
+remarks:        Peering Point Presence:
+remarks:        - SwissIX, 91.206.52.22, 2001:7f8:24::16
+remarks:        - CIXP, 192.65.185.134, 2001:7F8:1C:24A:3CD8::1
+remarks:        - AMS-IX, 80.249.213.197, 2001:7f8:1::a501:5576:1
+remarks:        - VIX, 193.203.0.61, 2001:7f8:30:0:2:1:1:5576
+remarks:        - BIX, 193.188.137.52, 2001:7F8:35::1:5576:1
+remarks:        - RomandIX, 185.1.93.17, 2001:7f8:b5::11
+remarks:
+import:         from AS15576:AS-PEERING accept AS15576:AS-PEERING:PeerAS
+export:         to AS15576:AS-PEERING announce AS15576:AS-NTS
+mp-import:      afi ipv6.unicast from AS15576:AS-PEERING accept AS15576:AS-PEERING:PeerAS
+mp-export:      afi ipv6.unicast to AS15576:AS-PEERING announce AS15576:AS-NTS
+import-via:     AS6777 from AS-AMS-IX-RS accept AS-AMS-IX-RS-SETS
+export-via:     AS6777 to AS-AMS-IX-RS announce AS15576:AS-NTS
+admin-c:        NN1149-RIPE
+tech-c:         NN1149-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NTS-CORE-MNT
+created:        2004-02-24T15:32:48Z
+last-modified:  2020-06-19T14:57:12Z
+source:         RIPE
+
+organisation:   ORG-aG1-RIPE
+org-name:       NTS workspace AG
+country:        CH
+org-type:       LIR
+address:        Woelflistrasse 1d
+address:        3006
+address:        Bern
+address:        SWITZERLAND
+phone:          +41 31 517 77 00
+admin-c:        NUH1-RIPE
+admin-c:        MH15228-RIPE
+admin-c:        RBU-RIPE
+admin-c:        SG13743-RIPE
+admin-c:        AK19106-RIPE
+admin-c:        SR14325-RIPE
+abuse-c:        NN1149-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        NTS-CORE-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NTS-CORE-MNT
+created:        2004-04-17T11:01:40Z
+last-modified:  2024-07-11T06:08:30Z
+source:         RIPE # Filtered
+
+role:           NTS NOC
+address:        NTS Workspace AG
+address:        Woelflistrasse 1d
+address:        CH-3006 Bern
+phone:          +41 31 517 77 77
+abuse-mailbox:  abuse@nts.ch
+admin-c:        RBU-RIPE
+tech-c:         RBU-RIPE
+tech-c:         NUH1-RIPE
+tech-c:         SG13743-RIPE
+tech-c:         AK19106-RIPE
+tech-c:         SR14325-RIPE
+tech-c:         LL9708-RIPE
+tech-c:         JS24223-RIPE
+tech-c:         LP14031-RIPE
+tech-c:         FW2469-RIPE
+tech-c:         JG11732-RIPE
+tech-c:         GB25798-RIPE
+tech-c:         MP40083-RIPE
+nic-hdl:        NN1149-RIPE
+mnt-by:         NTS-CORE-MNT
+created:        2010-10-29T12:49:58Z
+last-modified:  2025-04-04T08:45:10Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          31.132.8.0/22
+origin:         AS15576
+mnt-by:         ch-luware-1-mnt
+created:        2018-06-25T12:20:38Z
+last-modified:  2018-06-25T12:20:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.95.120.0/21
+descr:          NTS Workspace AG, Bern, Switzerland
+descr:          Network routed via NTS Workspace AG, Switzerland
+origin:         AS15576
+notify:         noc@nts.ch
+mnt-by:         NTS-CORE-MNT
+created:        2017-05-06T22:13:15Z
+last-modified:  2017-05-06T22:13:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.118.216.0/21
+descr:          NTS Workspace AG, Bern, Switzerland
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2025-04-03T13:29:53Z
+last-modified:  2025-04-04T07:51:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.237.172.0/22
+descr:          TcNet Gmbh routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2022-01-03T17:00:09Z
+last-modified:  2022-01-03T17:00:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.214.4.0/22
+descr:          Cirrax GmbH routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         CIRRAX-MNT
+mnt-by:         NTS-CORE-MNT
+created:        2018-11-20T09:20:12Z
+last-modified:  2018-11-20T09:20:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.198.79.0/24
+descr:          Bucher & Suter Worblaufen routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2007-08-31T11:04:21Z
+last-modified:  2007-08-31T11:04:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.198.229.0/24
+descr:          Labor NTS
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2022-09-05T06:12:35Z
+last-modified:  2022-09-05T06:12:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.199.198.0/24
+descr:          Gyselroth GmbH
+origin:         AS15576
+mnt-by:         MNT-GYSELROTH
+created:        2010-12-27T08:39:52Z
+last-modified:  2010-12-27T08:39:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.233.126.0/24
+descr:          OrtCloud GmbH, Switzerland
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2015-01-05T18:58:44Z
+last-modified:  2015-01-05T18:58:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          94.126.248.0/21
+descr:          TcNet GmbH, CH-TCNET-200081002
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2008-10-03T09:01:17Z
+last-modified:  2008-10-03T09:01:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.176.192.0/23
+origin:         AS15576
+mnt-by:         BS-ISD-MNT
+created:        2020-07-21T09:34:49Z
+last-modified:  2020-07-21T09:34:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.62.104.0/22
+origin:         AS15576
+mnt-by:         lir-ch-4gvision-1-MNT
+created:        2024-03-18T14:58:03Z
+last-modified:  2024-03-18T14:58:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.63.148.0/24
+origin:         AS15576
+mnt-by:         lir-ch-natrontech-1-MNT
+created:        2025-05-08T13:35:03Z
+last-modified:  2025-05-08T13:35:03Z
+source:         RIPE
+mnt-routes:     NTS-CUSTOMER-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.63.149.0/24
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2025-05-06T09:03:24Z
+last-modified:  2025-05-06T09:03:24Z
+source:         RIPE
+descr:          NTS Workspace AG, Bern, Switzerland
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.63.150.0/23
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2025-05-06T09:31:25Z
+last-modified:  2025-05-06T09:31:25Z
+source:         RIPE
+descr:          NTS Workspace AG, Bern, Switzerland
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.75.153.0/24
+descr:          first frame networkers ag routed by nts workspace ag
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+mnt-by:         FFN-MNT
+created:        2019-01-18T12:06:21Z
+last-modified:  2019-01-18T12:06:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.79.200.0/23
+descr:          Livesystems AG
+descr:          routed via NTS Workspace AG. Switzerland
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+mnt-by:         LIVESYSTEMS-MNT
+mnt-by:         lir-ch-livesystemsgroup-1-MNT
+created:        2021-07-23T13:58:37Z
+last-modified:  2021-11-30T16:12:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.79.200.0/24
+origin:         AS15576
+mnt-by:         lir-ch-livesystemsgroup-1-MNT
+created:        2022-06-07T11:35:36Z
+last-modified:  2022-06-07T11:35:57Z
+source:         RIPE
+descr:          Livesystems AG
+descr:          Routed via NTS
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.79.202.0/23
+descr:          Nau Media AG
+descr:          routed via NTS Workspace AG. Switzerland
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2021-07-23T13:58:37Z
+last-modified:  2021-07-23T14:07:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.98.152.0/22
+descr:          Newday routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2015-07-13T10:01:22Z
+last-modified:  2015-07-13T10:01:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.187.120.0/23
+descr:          Xovis AG routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2024-07-17T13:13:27Z
+last-modified:  2024-07-17T13:13:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.218.240.0/22
+descr:          SmartIT Services AG routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2017-08-29T12:16:48Z
+last-modified:  2017-08-29T12:16:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.253.192.0/22
+origin:         AS15576
+mnt-by:         ch-furrerfrey-1-mnt
+created:        2018-04-11T14:10:32Z
+last-modified:  2018-04-11T14:10:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.254.76.0/22
+origin:         AS15576
+mnt-by:         MNT-DREAMLAB-NOC
+created:        2018-12-03T10:30:29Z
+last-modified:  2018-12-03T10:30:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.92.224.0/21
+origin:         AS15576
+mnt-by:         MNT-DREAMLAB-NOC
+mnt-by:         EBDL-MNT
+created:        2021-04-20T15:02:13Z
+last-modified:  2021-04-20T15:02:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.8.77.0/24
+origin:         AS15576
+mnt-by:         ch-xelonhosting-1-mnt
+created:        2023-05-10T05:07:54Z
+last-modified:  2023-05-10T05:07:54Z
+source:         RIPE
+mnt-routes:     NTS-CUSTOMER-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.8.248.0/24
+mnt-routes:     NTS-CUSTOMER-MNT
+descr:          Studer AG
+origin:         AS15576
+created:        2021-08-24T08:06:52Z
+last-modified:  2021-08-24T08:06:52Z
+source:         RIPE
+mnt-by:         tcnet-mnt
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.17.76.0/24
+descr:          Mittelschul und Berufsbildungsamt
+origin:         AS15576
+mnt-by:         MNT-KZU
+created:        2010-12-27T08:38:43Z
+last-modified:  2010-12-27T08:38:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.43.27.0/24
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2022-10-19T10:04:41Z
+last-modified:  2022-10-19T10:05:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.43.183.0/24
+descr:          WKS KV Bildung AG Bern
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2005-07-21T09:28:05Z
+last-modified:  2020-06-05T07:07:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.47.103.0/24
+descr:          YOUHEY Communication AG Switzerland
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2005-07-19T10:17:15Z
+last-modified:  2018-08-22T20:25:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.47.190.0/24
+descr:          Milprog AG, Netro GmbH routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2005-08-03T19:10:11Z
+last-modified:  2005-08-03T19:10:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.104.116.0/24
+descr:          first frame networkers ag
+descr:          Switzerland
+origin:         AS15576
+mnt-by:         FFN-MNT
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2024-01-31T10:38:02Z
+last-modified:  2024-01-31T10:40:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.138.212.0/22
+descr:          WINFORMA Witschi, Switzerland
+descr:          network routed via NTS Workspace AG, Switzerland
+origin:         AS15576
+notify:         noc@nts.ch
+mnt-by:         NTS-CUSTOMER-MNT
+mnt-routes:     NTS-CUSTOMER-MNT
+created:        2005-02-25T09:10:14Z
+last-modified:  2016-03-01T08:24:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.200.157.0/24
+descr:          Salvationarmy Switzerland Austria Hungary
+descr:          Switzerland
+origin:         AS15576
+mnt-by:         SALVATIONARMY-SWISS-MNT
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2023-09-28T13:08:22Z
+last-modified:  2023-11-22T08:03:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.222.138.0/24
+descr:          Internetgalerie Thun routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2005-08-25T15:56:35Z
+last-modified:  2005-08-25T15:56:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.247.163.0/24
+origin:         AS15576
+created:        2022-11-05T09:53:14Z
+last-modified:  2022-11-05T09:53:14Z
+source:         RIPE
+mnt-by:         BNC_CH-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.11.160.0/24
+descr:          BLS routed by NTS
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2014-04-24T14:19:12Z
+last-modified:  2014-04-24T14:19:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.153.94.0/24
+descr:          reisen.ch AG routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2005-08-22T21:32:08Z
+last-modified:  2012-10-29T15:19:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.176.116.0/24
+descr:          KMU Onlinepartner GmbH routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+notify:         noc@nts.ch
+created:        2006-08-07T19:48:08Z
+last-modified:  2006-08-07T19:48:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.137.172.0/24
+descr:          Centinated GmbH routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2005-09-21T06:32:06Z
+last-modified:  2005-09-21T06:32:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.189.252.0/23
+descr:          Gigashop Networks AG routed by NTS Workspace
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2006-06-16T11:16:32Z
+last-modified:  2006-06-16T11:16:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.216.227.0/24
+descr:          Haus der Kantone, routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2008-05-24T12:03:13Z
+last-modified:  2008-05-24T12:03:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.248.92.0/24
+descr:          itsystems AG routed by NTS Workspace
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2006-07-05T15:41:08Z
+last-modified:  2006-07-05T15:41:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          203.56.114.0/23
+descr:          CH-THREEMA-L2-4-1
+origin:         AS15576
+mnt-by:         lir-ch-threema-1-MNT
+created:        2024-06-18T13:10:40Z
+last-modified:  2024-06-24T08:24:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.103.64.0/19
+descr:          NTS Workspace AG, Bern, Switzerland
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2004-11-25T12:40:42Z
+last-modified:  2010-11-10T13:07:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.11.208.0/20
+descr:          NTS Workspace AG, Bern, Switzerland
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2009-01-20T14:36:20Z
+last-modified:  2010-11-10T13:18:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.68.224.0/20
+descr:          POPNET, CH-3700 Spiez
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2006-01-27T13:13:09Z
+last-modified:  2006-01-27T13:13:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.146.160.0/20
+descr:          NTS Workspace AG, Bern, Switzerland
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2009-05-13T11:54:32Z
+last-modified:  2009-05-13T11:54:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.197.128.0/21
+descr:          Cirrax GmbH routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2011-09-09T09:14:13Z
+last-modified:  2011-09-09T09:14:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:168::/48
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2022-10-19T10:01:17Z
+last-modified:  2022-10-19T10:02:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:66c::/48
+descr:          WKS KV Bildung AG Bern
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2014-07-24T07:39:08Z
+last-modified:  2020-06-05T07:07:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:18c4::/48
+descr:          WINFORMA Witschi, Switzerland
+descr:          Network routed via NTS Workspace AG, Switzerland
+origin:         AS15576
+notify:         noc@nts.ch
+mnt-by:         NTS-CUSTOMER-MNT
+mnt-routes:     NTS-CUSTOMER-MNT
+created:        2016-04-06T12:51:05Z
+last-modified:  2016-04-06T12:51:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:c38::/32
+descr:          NTS Workspace AG, Bern, Switzerland
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2009-03-20T09:24:31Z
+last-modified:  2010-11-10T15:31:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:9320::/32
+descr:          POPNET, CH-3700 Spiez
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2015-09-14T12:12:08Z
+last-modified:  2015-09-14T12:12:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:a480::/32
+descr:          Newday IPv6 routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2015-08-03T09:28:02Z
+last-modified:  2015-08-03T09:28:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:ce40::/32
+origin:         AS15576
+mnt-by:         lir-ch-natrontech-1-MNT
+created:        2025-05-06T12:18:22Z
+last-modified:  2025-05-06T12:18:22Z
+source:         RIPE
+mnt-routes:     NTS-CUSTOMER-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:580::/32
+descr:          Cirrax GmbH routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CORE-MNT
+created:        2011-09-09T09:14:13Z
+last-modified:  2011-09-09T09:14:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a04:4c00::/29
+origin:         AS15576
+mnt-by:         ch-furrerfrey-1-mnt
+created:        2018-06-26T07:37:23Z
+last-modified:  2018-06-26T07:37:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a06:5100::/29
+descr:          CENTINATED GmbH
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2015-07-30T13:28:07Z
+last-modified:  2015-07-30T13:28:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a06:6400::/29
+origin:         AS15576
+mnt-by:         ch-luware-1-mnt
+created:        2018-06-27T06:53:05Z
+last-modified:  2018-06-27T06:53:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a09:900::/29
+origin:         AS15576
+mnt-by:         ch-informaticon-1-mnt
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2018-11-13T16:17:51Z
+last-modified:  2018-11-13T16:17:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a09:900::/47
+origin:         AS15576
+mnt-by:         ch-informaticon-1-mnt
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2020-07-03T08:29:18Z
+last-modified:  2020-07-03T08:29:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a09:900:2::/47
+origin:         AS15576
+mnt-by:         ch-informaticon-1-mnt
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2020-07-03T08:29:18Z
+last-modified:  2020-07-03T08:29:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a09:900:100::/40
+origin:         AS15576
+mnt-by:         ch-informaticon-1-mnt
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2020-07-03T08:29:18Z
+last-modified:  2020-07-03T08:29:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a09:900:200::/40
+origin:         AS15576
+mnt-by:         ch-informaticon-1-mnt
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2020-07-03T08:29:18Z
+last-modified:  2020-07-03T08:29:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0a:2680::/29
+descr:          Keystone AG
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2016-11-16T14:02:41Z
+last-modified:  2016-11-16T14:02:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a0b:9e80::/36
+descr:          Xovis AG routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2024-07-17T08:53:18Z
+last-modified:  2024-07-17T08:53:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0b:dec0::/29
+descr:          SmartIT Services AG routed by NTS Workspace AG
+origin:         AS15576
+mnt-by:         NTS-CUSTOMER-MNT
+created:        2017-08-29T12:15:49Z
+last-modified:  2017-08-29T12:15:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a13:7440::/29
+origin:         AS15576
+mnt-by:         lir-ch-4gvision-1-MNT
+created:        2024-03-18T14:59:47Z
+last-modified:  2024-03-18T14:59:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a14:3e44::/32
+origin:         AS15576
+mnt-by:         lir-ch-threema-1-MNT
+created:        2024-06-18T13:10:12Z
+last-modified:  2024-06-18T13:10:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

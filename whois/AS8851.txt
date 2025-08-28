@@ -1,0 +1,4199 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8851'
+
+% Abuse contact for 'AS8851' is 'abuse@gcicom.net'
+
+aut-num:        AS8851
+org:            ORG-GNSL2-RIPE
+as-name:        EDGE
+descr:          t/a GCI Com
+remarks:        -------
+remarks:        Transit
+remarks:        -------
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-GCICOM
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-GCICOM
+import:         from AS43531 accept ANY
+export:         to AS43531 announce AS-GCICOM
+remarks:        -------------------------
+remarks:        Internet Exchange Peering
+remarks:        -------------------------
+import:         from AS42 195.66.225.238 at 195.66.224.93 accept AS-PCH AND NOT { 0.0.0.0/0 }
+export:         to AS42 195.66.225.238 at 195.66.224.93 announce AS-GCICOM
+import:         from AS1267 195.66.225.65 at 195.66.224.93 accept AS1267 AND NOT { 0.0.0.0/0 }
+export:         to AS1267 195.66.225.65 at 195.66.224.93 announce AS-GCICOM
+import:         from AS1290 195.66.224.14 at 195.66.224.93 from AS1290 195.66.226.14 at 195.66.226.93 accept AS-PSINETUK AND NOT { 0.0.0.0/0 }
+export:         to AS1290 195.66.224.14 at 195.66.224.93 to AS1290 195.66.226.14 at 195.66.226.93 announce AS-GCICOM
+import:         from AS2110 195.66.224.65 at 195.66.224.93 from AS2110 195.66.226.65 at 195.66.226.93 accept AS-IEUNET AND NOT { 0.0.0.0/0 }
+export:         to AS2110 195.66.224.65 at 195.66.224.93 to AS2110 195.66.226.65 at 195.66.226.93 announce AS-GCICOM
+import:         from AS2119 195.66.225.107 at 195.66.224.93 from AS2119 195.66.227.107 at 195.66.226.93 accept AS-TELENOR AND NOT { 0.0.0.0/0 }
+export:         to AS2119 195.66.225.107 at 195.66.224.93 to AS2119 195.66.227.107 at 195.66.226.93 announce AS-GCICOM
+import:         from AS2529 195.66.224.12 at 195.66.224.93 from AS2529 195.66.226.13 at 195.66.226.93 accept AS-DEMON AND NOT { 0.0.0.0/0 }
+export:         to AS2529 195.66.224.12 at 195.66.224.93 to AS2529 195.66.226.13 at 195.66.226.93 announce AS-GCICOM
+import:         from AS2603 195.66.225.24 at 195.66.224.93 accept AS2603 AND NOT { 0.0.0.0/0 }
+export:         to AS2603 195.66.225.24 at 195.66.224.93 announce AS-GCICOM
+import:         from AS2611 195.66.224.161 at 195.66.224.93 accept AS2611 AND NOT { 0.0.0.0/0 }
+export:         to AS2611 195.66.224.161 at 195.66.224.93 announce AS-GCICOM
+import:         from AS2818 195.66.224.103 at 195.66.224.93 from AS2818 195.66.226.103 at 195.66.226.93 accept AS-BBC AND NOT { 0.0.0.0/0 }
+export:         to AS2818 195.66.224.103 at 195.66.224.93 to AS2818 195.66.226.103 at 195.66.226.93 announce AS-GCICOM
+import:         from AS3209 195.66.224.209 at 195.66.224.93 accept AS-ARCORGLOBAL AND NOT { 0.0.0.0/0 }
+export:         to AS3209 195.66.224.209 at 195.66.224.93 announce AS-GCICOM
+import:         from AS3213 195.66.224.228 at 195.66.224.93 from AS3213 195.66.226.228 at 195.66.226.93 accept AS-BOGONS AND NOT { 0.0.0.0/0 }
+export:         to AS3213 195.66.224.228 at 195.66.224.93 to AS3213 195.66.226.228 at 195.66.226.93 announce AS-GCICOM
+import:         from AS3292 195.66.224.64 at 195.66.224.93 from AS3292 195.66.226.64 at 195.66.226.93 accept AS-TDCNET AND NOT { 0.0.0.0/0 }
+export:         to AS3292 195.66.224.64 at 195.66.224.93 to AS3292 195.66.226.64 at 195.66.226.93 announce AS-GCICOM
+import:         from AS3491 195.66.224.167 at 195.66.224.93 from AS3491 195.66.226.167 at 195.66.226.93 accept AS3491 AND NOT { 0.0.0.0/0 }
+export:         to AS3491 195.66.224.167 at 195.66.224.93 to AS3491 195.66.226.167 at 195.66.226.93 announce AS-GCICOM
+import:         from AS3741 195.66.224.198 at 195.66.224.93 from AS3741 195.66.226.198 at 195.66.226.93 accept AS3741 AND NOT { 0.0.0.0/0 }
+export:         to AS3741 195.66.224.198 at 195.66.224.93 to AS3741 195.66.226.198 at 195.66.226.93 announce AS-GCICOM
+import:         from AS3856 195.66.225.239 at 195.66.224.93 accept AS-PCH AND NOT { 0.0.0.0/0 }
+export:         to AS3856 195.66.225.239 at 195.66.224.93 announce AS-GCICOM
+import:         from AS4589 195.66.224.43 at 195.66.224.93 from AS4589 195.66.226.43 at 195.66.226.93 accept AS4589 AND NOT { 0.0.0.0/0 }
+export:         to AS4589 195.66.224.43 at 195.66.224.93 to AS4589 195.66.226.43 at 195.66.226.93 announce AS-GCICOM
+import:         from AS4788 195.66.224.47 at 195.66.224.93 accept AS4788 AND NOT { 0.0.0.0/0 }
+export:         to AS4788 195.66.224.47 at 195.66.224.93 announce AS-GCICOM
+import:         from AS5089 195.66.224.22 at 195.66.224.93 from AS5089 195.66.226.22 at 195.66.226.93 accept AS-NTLI AND NOT { 0.0.0.0/0 }
+export:         to AS5089 195.66.224.22 at 195.66.224.93 to AS5089 195.66.226.22 at 195.66.226.93 announce AS-GCICOM
+import:         from AS5410 195.66.224.184 at 195.66.224.93 accept AS-T-ONLINEFRANCE AND NOT { 0.0.0.0/0 }
+export:         to AS5410 195.66.224.184 at 195.66.224.93 announce AS-GCICOM
+import:         from AS5413 195.66.224.29 at 195.66.224.93 from AS5413 195.66.226.29 at 195.66.226.93 accept AS5413:AS-PIPEX AND NOT { 0.0.0.0/0 }
+export:         to AS5413 195.66.224.29 at 195.66.224.93 to AS5413 195.66.226.29 at 195.66.226.93 announce AS-GCICOM
+import:         from AS5459 195.66.224.254 at 195.66.224.93 from AS5459 195.66.226.254 at 195.66.226.93 accept AS-LINX AND NOT { 0.0.0.0/0 }
+export:         to AS5459 195.66.224.254 at 195.66.224.93 to AS5459 195.66.226.254 at 195.66.226.93 announce AS-GCICOM
+import:         from AS5466 195.66.224.79 at 195.66.224.93 from AS5466 195.66.226.79 at 195.66.226.93 accept AS-EIRCOM AND NOT { 0.0.0.0/0 }
+export:         to AS5466 195.66.224.79 at 195.66.224.93 to AS5466 195.66.226.79 at 195.66.226.93 announce AS-GCICOM
+import:         from AS5503 195.66.224.101 at 195.66.224.93 from AS5503 195.66.226.101 at 195.66.226.93 accept AS-RMIFL AND NOT { 0.0.0.0/0 }
+export:         to AS5503 195.66.224.101 at 195.66.224.93 to AS5503 195.66.226.101 at 195.66.226.93 announce AS-GCICOM
+import:         from AS5552 195.66.224.78 at 195.66.224.93 from AS5552 195.66.226.78 at 195.66.226.93 accept AS5552 AND NOT { 0.0.0.0/0 }
+export:         to AS5552 195.66.224.78 at 195.66.224.93 to AS5552 195.66.226.78 at 195.66.226.93 announce AS-GCICOM
+import:         from AS5580 195.66.225.111 at 195.66.224.93 from AS5580 195.66.227.111 at 195.66.226.93 accept AS-ATRATO AND NOT { 0.0.0.0/0 }
+export:         to AS5580 195.66.225.111 at 195.66.224.93 to AS5580 195.66.227.111 at 195.66.226.93 announce AS-GCICOM
+import:         from AS5588 195.66.224.58 at 195.66.224.93 accept AS-AS-GTS-CE AND NOT { 0.0.0.0/0 }
+export:         to AS5588 195.66.224.58 at 195.66.224.93 announce AS-GCICOM
+import:         from AS5631 195.66.224.120 at 195.66.224.93 from AS5631 195.66.226.120 at 195.66.226.93 accept AS-VITAL-GROUP AND NOT { 0.0.0.0/0 }
+export:         to AS5631 195.66.224.120 at 195.66.224.93 to AS5631 195.66.226.120 at 195.66.226.93 announce AS-GCICOM
+import:         from AS6327 195.66.224.213 at 195.66.224.93 accept AS6327 AND NOT { 0.0.0.0/0 }
+export:         to AS6327 195.66.224.213 at 195.66.224.93 announce AS-GCICOM
+import:         from AS10310 195.66.224.129 at 195.66.224.93 from AS10310 195.66.226.129 at 195.66.226.93 accept AS10310 AND NOT { 0.0.0.0/0 }
+export:         to AS10310 195.66.224.129 at 195.66.224.93 to AS10310 195.66.226.129 at 195.66.226.93 announce AS-GCICOM
+import:         from AS11666 195.66.225.128 at 195.66.224.93 accept AS11666 AND NOT { 0.0.0.0/0 }
+export:         to AS11666 195.66.225.128 at 195.66.224.93 announce AS-GCICOM
+import:         from AS12390 195.66.224.119 at 195.66.224.93 from AS12390 195.66.226.119 at 195.66.226.93 accept AS-KINGSTONUK AND NOT { 0.0.0.0/0 }
+export:         to AS12390 195.66.224.119 at 195.66.224.93 to AS12390 195.66.226.119 at 195.66.226.93 announce AS-GCICOM
+import:         from AS12399 195.66.224.230 at 195.66.224.93 accept AS12399 AND NOT { 0.0.0.0/0 }
+export:         to AS12399 195.66.224.230 at 195.66.224.93 announce AS-GCICOM
+import:         from AS12552 195.66.224.142 at 195.66.224.93 accept AS-IPO AND NOT { 0.0.0.0/0 }
+export:         to AS12552 195.66.224.142 at 195.66.224.93 announce AS-GCICOM
+import:         from AS12654 195.66.225.241 at 195.66.224.93 accept AS12654 AND NOT { 0.0.0.0/0 }
+export:         to AS12654 195.66.225.241 at 195.66.224.93 announce AS-GCICOM
+import:         from AS12703 195.66.224.84 at 195.66.224.93 from AS12703 195.66.226.84 at 195.66.226.93 accept AS12703 AND NOT { 0.0.0.0/0 }
+export:         to AS12703 195.66.224.84 at 195.66.224.93 to AS12703 195.66.226.84 at 195.66.226.93 announce AS-GCICOM
+import:         from AS12713 195.66.224.190 at 195.66.224.93 accept AS12713 AND NOT { 0.0.0.0/0 }
+export:         to AS12713 195.66.224.190 at 195.66.224.93 announce AS-GCICOM
+import:         from AS12715 195.66.224.173 at 195.66.224.93 accept AS-JAZZTRANS AND NOT { 0.0.0.0/0 }
+export:         to AS12715 195.66.224.173 at 195.66.224.93 announce AS-GCICOM
+import:         from AS12859 195.66.225.51 at 195.66.224.93 from AS12859 195.66.227.51 at 195.66.226.93 accept AS-BIT AND NOT { 0.0.0.0/0 }
+export:         to AS12859 195.66.225.51 at 195.66.224.93 to AS12859 195.66.227.51 at 195.66.226.93 announce AS-GCICOM
+import:         from AS13005 195.66.224.154 at 195.66.224.93 from AS13005 195.66.226.154 at 195.66.226.93 accept AS-C2INTERNET AND NOT { 0.0.0.0/0 }
+export:         to AS13005 195.66.224.154 at 195.66.224.93 to AS13005 195.66.226.154 at 195.66.226.93 announce AS-GCICOM
+import:         from AS13030 195.66.224.175 at 195.66.224.93 from AS13030 195.66.226.175 at 195.66.226.93 accept AS13030 AND NOT { 0.0.0.0/0 }
+export:         to AS13030 195.66.224.175 at 195.66.224.93 to AS13030 195.66.226.175 at 195.66.226.93 announce AS-GCICOM
+import:         from AS13037 195.66.224.158 at 195.66.224.93 from AS13037 195.66.226.158 at 195.66.226.93 accept AS-ZEN AND NOT { 0.0.0.0/0 }
+export:         to AS13037 195.66.224.158 at 195.66.224.93 to AS13037 195.66.226.158 at 195.66.226.93 announce AS-GCICOM
+import:         from AS13122 195.66.227.3 at 195.66.226.93 accept AS13122 AND NOT { 0.0.0.0/0 }
+export:         to AS13122 195.66.227.3 at 195.66.226.93 announce AS-GCICOM
+import:         from AS13193 195.66.224.216 at 195.66.224.93 accept AS13193 AND NOT { 0.0.0.0/0 }
+export:         to AS13193 195.66.224.216 at 195.66.224.93 announce AS-GCICOM
+import:         from AS13213 195.66.224.19 at 195.66.224.93 accept AS-UK2NET AND NOT { 0.0.0.0/0 }
+export:         to AS13213 195.66.224.19 at 195.66.224.93 announce AS-GCICOM
+import:         from AS13276 195.66.224.144 at 195.66.224.93 from AS13276 195.66.226.144 at 195.66.226.93 accept AS-MAGENTA AND NOT { 0.0.0.0/0 }
+export:         to AS13276 195.66.224.144 at 195.66.224.93 to AS13276 195.66.226.144 at 195.66.226.93 announce AS-GCICOM
+import:         from AS13285 195.66.225.17 at 195.66.224.93 from AS13285 195.66.227.17 at 195.66.226.93 accept AS-OPAL AND NOT { 0.0.0.0/0 }
+export:         to AS13285 195.66.225.17 at 195.66.224.93 to AS13285 195.66.227.17 at 195.66.226.93 announce AS-GCICOM
+import:         from AS13445 195.66.225.110 at 195.66.224.93 from AS13445 195.66.227.110 at 195.66.226.93 accept AS13445 AND NOT { 0.0.0.0/0 }
+export:         to AS13445 195.66.225.110 at 195.66.224.93 to AS13445 195.66.227.110 at 195.66.226.93 announce AS-GCICOM
+import:         from AS13680 195.66.224.194 at 195.66.224.93 accept AS13680 AND NOT { 0.0.0.0/0 }
+export:         to AS13680 195.66.224.194 at 195.66.224.93 announce AS-GCICOM
+import:         from AS13768 195.66.224.156 at 195.66.224.93 from AS13768 195.66.226.156 at 195.66.226.93 accept AS-PEERONECUST AND NOT { 0.0.0.0/0 }
+export:         to AS13768 195.66.224.156 at 195.66.224.93 to AS13768 195.66.226.156 at 195.66.226.93 announce AS-GCICOM
+import:         from AS14492 195.66.225.1 at 195.66.224.93 from AS14492 195.66.227.1 at 195.66.226.93 accept AS14492 AND NOT { 0.0.0.0/0 }
+export:         to AS14492 195.66.225.1 at 195.66.224.93 to AS14492 195.66.227.1 at 195.66.226.93 announce AS-GCICOM
+import:         from AS14537 195.66.224.118 at 195.66.224.93 accept AS-MOHAWK-TRANSIT AND NOT { 0.0.0.0/0 }
+export:         to AS14537 195.66.224.118 at 195.66.224.93 announce AS-GCICOM
+import:         from AS15169 195.66.224.125 at 195.66.224.93 from AS15169 195.66.226.125 at 195.66.226.93 accept AS15169 AND NOT { 0.0.0.0/0 }
+export:         to AS15169 195.66.224.125 at 195.66.224.93 to AS15169 195.66.226.125 at 195.66.226.93 announce AS-GCICOM
+import:         from AS15412 195.66.224.146 at 195.66.224.93 from AS15412 195.66.226.146 at 195.66.226.93 accept AS-FLAGP AND NOT { 0.0.0.0/0 }
+export:         to AS15412 195.66.224.146 at 195.66.224.93 to AS15412 195.66.226.146 at 195.66.226.93 announce AS-GCICOM
+import:         from AS15533 195.66.224.145 at 195.66.224.93 accept AS15533 AND NOT { 0.0.0.0/0 }
+export:         to AS15533 195.66.224.145 at 195.66.224.93 announce AS-GCICOM
+import:         from AS15557 195.66.224.214 at 195.66.224.93 accept AS15557 AND NOT { 0.0.0.0/0 }
+export:         to AS15557 195.66.224.214 at 195.66.224.93 announce AS-GCICOM
+import:         from AS15773 195.66.225.27 at 195.66.224.93 from AS15773 195.66.227.27 at 195.66.226.93 accept AS-INCLARITY AND NOT { 0.0.0.0/0 }
+export:         to AS15773 195.66.225.27 at 195.66.224.93 to AS15773 195.66.227.27 at 195.66.226.93 announce AS-GCICOM
+import:         from AS15805 195.66.225.75 at 195.66.224.93 from AS15805 195.66.227.75 at 195.66.226.93 accept AS15805 AND NOT { 0.0.0.0/0 }
+export:         to AS15805 195.66.225.75 at 195.66.224.93 to AS15805 195.66.227.75 at 195.66.226.93 announce AS-GCICOM
+import:         from AS15830 195.66.224.82 at 195.66.224.93 from AS15830 195.66.226.82 at 195.66.226.93 accept AS15830 AND NOT { 0.0.0.0/0 }
+export:         to AS15830 195.66.224.82 at 195.66.224.93 to AS15830 195.66.226.82 at 195.66.226.93 announce AS-GCICOM
+import:         from AS15988 195.66.224.157 at 195.66.224.93 from AS15988 195.66.226.157 at 195.66.226.93 accept AS-AKHTERNET AND NOT { 0.0.0.0/0 }
+export:         to AS15988 195.66.224.157 at 195.66.224.93 to AS15988 195.66.226.157 at 195.66.226.93 announce AS-GCICOM
+import:         from AS16082 195.66.224.199 at 195.66.224.93 from AS16082 195.66.226.199 at 195.66.226.93 accept AS-SPITFIRE AND NOT { 0.0.0.0/0 }
+export:         to AS16082 195.66.224.199 at 195.66.224.93 to AS16082 195.66.226.199 at 195.66.226.93 announce AS-GCICOM
+import:         from AS16276 195.66.224.220 at 195.66.224.93 accept AS16276 AND NOT { 0.0.0.0/0 }
+export:         to AS16276 195.66.224.220 at 195.66.224.93 announce AS-GCICOM
+import:         from AS16353 195.66.224.143 at 195.66.224.93 from AS16353 195.66.226.143 at 195.66.226.93 accept AS-MERULA AND NOT { 0.0.0.0/0 }
+export:         to AS16353 195.66.224.143 at 195.66.224.93 to AS16353 195.66.226.143 at 195.66.226.93 announce AS-GCICOM
+import:         from AS17451 195.66.225.52 at 195.66.224.93 accept AS17451 AND NOT { 0.0.0.0/0 }
+export:         to AS17451 195.66.225.52 at 195.66.224.93 announce AS-GCICOM
+import:         from AS19151 195.66.224.233 at 195.66.224.93 accept AS19151 AND NOT { 0.0.0.0/0 }
+export:         to AS19151 195.66.224.233 at 195.66.224.93 announce AS-GCICOM
+import:         from AS20485 195.66.224.212 at 195.66.224.93 accept AS-TTK AND NOT { 0.0.0.0/0 }
+export:         to AS20485 195.66.224.212 at 195.66.224.93 announce AS-GCICOM
+import:         from AS20500 195.66.224.38 at 195.66.224.93 from AS20500 195.66.226.38 at 195.66.226.93 accept AS-GRIFFIN AND NOT { 0.0.0.0/0 }
+export:         to AS20500 195.66.224.38 at 195.66.224.93 to AS20500 195.66.226.38 at 195.66.226.93 announce AS-GCICOM
+import:         from AS20547 195.66.224.72 at 195.66.224.93 from AS20547 195.66.226.72 at 195.66.226.93 accept AS-UKS AND NOT { 0.0.0.0/0 }
+export:         to AS20547 195.66.224.72 at 195.66.224.93 to AS20547 195.66.226.72 at 195.66.226.93 announce AS-GCICOM
+import:         from AS20712 195.66.225.47 at 195.66.224.93 accept AS-AA AND NOT { 0.0.0.0/0 }
+export:         to AS20712 195.66.225.47 at 195.66.224.93 announce AS-GCICOM
+import:         from AS20718 195.66.224.165 at 195.66.224.93 accept AS-ARSYSINTERNET AND NOT { 0.0.0.0/0 }
+export:         to AS20718 195.66.224.165 at 195.66.224.93 announce AS-GCICOM
+import:         from AS20799 195.66.224.41 at 195.66.224.93 from AS20799 195.66.226.41 at 195.66.226.93 accept AS-DATANETUK AND NOT { 0.0.0.0/0 }
+export:         to AS20799 195.66.224.41 at 195.66.224.93 to AS20799 195.66.226.41 at 195.66.226.93 announce AS-GCICOM
+import:         from AS20860 195.66.224.207 at 195.66.224.93 accept AS20860 AND NOT { 0.0.0.0/0 }
+export:         to AS20860 195.66.224.207 at 195.66.224.93 announce AS-GCICOM
+import:         from AS20923 195.66.224.155 at 195.66.224.93 from AS20923 195.66.226.155 at 195.66.226.93 accept AS-SKYMARKET AND NOT { 0.0.0.0/0 }
+export:         to AS20923 195.66.224.155 at 195.66.224.93 to AS20923 195.66.226.155 at 195.66.226.93 announce AS-GCICOM
+import:         from AS20940 195.66.224.168 at 195.66.224.93 from AS20940 195.66.226.168 at 195.66.226.93 accept AS20940 AND NOT { 0.0.0.0/0 }
+export:         to AS20940 195.66.224.168 at 195.66.224.93 to AS20940 195.66.226.168 at 195.66.226.93 announce AS-GCICOM
+import:         from AS20976 195.66.224.52 at 195.66.224.93 accept AS-HOTLINKS-LIPEX AND NOT { 0.0.0.0/0 }
+export:         to AS20976 195.66.224.52 at 195.66.224.93 announce AS-GCICOM
+import:         from AS21099 195.66.224.162 at 195.66.224.93 from AS21099 195.66.226.162 at 195.66.226.93 accept AS-BARRYSWORLD-LIPEX AND NOT { 0.0.0.0/0 }
+export:         to AS21099 195.66.224.162 at 195.66.224.93 to AS21099 195.66.226.162 at 195.66.226.93 announce AS-GCICOM
+import:         from AS21321 195.66.225.157 at 195.66.224.93 accept AS21321 AND NOT { 0.0.0.0/0 }
+export:         to AS21321 195.66.225.157 at 195.66.224.93 announce AS-GCICOM
+import:         from AS21345 195.66.225.41 at 195.66.224.93 from AS21345 195.66.227.41 at 195.66.226.93 accept AS21345 AND NOT { 0.0.0.0/0 }
+export:         to AS21345 195.66.225.41 at 195.66.224.93 to AS21345 195.66.227.41 at 195.66.226.93 announce AS-GCICOM
+import:         from AS21371 195.66.224.187 at 195.66.224.93 from AS21371 195.66.226.187 at 195.66.226.93 accept AS-IXEUROPE AND NOT { 0.0.0.0/0 }
+export:         to AS21371 195.66.224.187 at 195.66.224.93 to AS21371 195.66.226.187 at 195.66.226.93 announce AS-GCICOM
+import:         from AS21396 195.66.224.240 at 195.66.224.93 from AS21396 195.66.226.240 at 195.66.226.93 accept AS-NETCONNEX AND NOT { 0.0.0.0/0 }
+export:         to AS21396 195.66.224.240 at 195.66.224.93 to AS21396 195.66.226.240 at 195.66.226.93 announce AS-GCICOM
+import:         from AS22822 195.66.224.133 at 195.66.224.93 from AS22822 195.66.226.133 at 195.66.226.93 accept AS-LLNW AND NOT { 0.0.0.0/0 }
+export:         to AS22822 195.66.224.133 at 195.66.224.93 to AS22822 195.66.226.133 at 195.66.226.93 announce AS-GCICOM
+import:         from AS23148 195.66.225.91 at 195.66.224.93 accept AS-TWW AND NOT { 0.0.0.0/0 }
+export:         to AS23148 195.66.225.91 at 195.66.224.93 announce AS-GCICOM
+import:         from AS24594 195.66.225.108 at 195.66.224.93 from AS24594 195.66.227.83 at 195.66.226.93 accept AS24594 AND NOT { 0.0.0.0/0 }
+export:         to AS24594 195.66.225.108 at 195.66.224.93 to AS24594 195.66.227.83 at 195.66.226.93 announce AS-GCICOM
+import:         from AS24724 195.66.224.131 at 195.66.224.93 accept AS-FOREIGN AND NOT { 0.0.0.0/0 }
+export:         to AS24724 195.66.224.131 at 195.66.224.93 announce AS-GCICOM
+import:         from AS24851 195.66.224.178 at 195.66.224.93 from AS24851 195.66.226.178 at 195.66.226.93 accept AS-NETCETERA AND NOT { 0.0.0.0/0 }
+export:         to AS24851 195.66.224.178 at 195.66.224.93 to AS24851 195.66.226.178 at 195.66.226.93 announce AS-GCICOM
+import:         from AS24916 195.66.225.93 at 195.66.224.93 from AS24916 195.66.227.93 at 195.66.226.93 accept AS-ORBITAL AND NOT { 0.0.0.0/0 }
+export:         to AS24916 195.66.225.93 at 195.66.224.93 to AS24916 195.66.227.93 at 195.66.226.93 announce AS-GCICOM
+import:         from AS24931 195.66.224.59 at 195.66.224.93 from AS24931 195.66.226.59 at 195.66.226.93 accept AS-DEDIPOWER AND NOT { 0.0.0.0/0 }
+export:         to AS24931 195.66.224.59 at 195.66.224.93 to AS24931 195.66.226.59 at 195.66.226.93 announce AS-GCICOM
+import:         from AS25180 195.66.224.186 at 195.66.224.93 from AS25180 195.66.226.186 at 195.66.226.93 accept AS-EXPONENTIAL-E AND NOT { 0.0.0.0/0 }
+export:         to AS25180 195.66.224.186 at 195.66.224.93 to AS25180 195.66.226.186 at 195.66.226.93 announce AS-GCICOM
+import:         from AS25286 195.66.224.179 at 195.66.224.93 from AS25286 195.66.226.179 at 195.66.226.93 accept AS-IPERCAST AND NOT { 0.0.0.0/0 }
+export:         to AS25286 195.66.224.179 at 195.66.224.93 to AS25286 195.66.226.179 at 195.66.226.93 announce AS-GCICOM
+import:         from AS25310 195.66.224.204 at 195.66.224.93 from AS25310 195.66.226.204 at 195.66.226.93 accept AS25310 AND NOT { 0.0.0.0/0 }
+export:         to AS25310 195.66.224.204 at 195.66.224.93 to AS25310 195.66.226.204 at 195.66.226.93 announce AS-GCICOM
+import:         from AS25369 195.66.225.123 at 195.66.224.93 accept AS-FOUR-U AND NOT { 0.0.0.0/0 }
+export:         to AS25369 195.66.225.123 at 195.66.224.93 announce AS-GCICOM
+import:         from AS25562 195.66.224.88 at 195.66.224.93 from AS25562 195.66.226.88 at 195.66.226.93 accept AS-SCEE AND NOT { 0.0.0.0/0 }
+export:         to AS25562 195.66.224.88 at 195.66.224.93 to AS25562 195.66.226.88 at 195.66.226.93 announce AS-GCICOM
+import:         from AS25577 195.66.224.201 at 195.66.224.93 from AS25577 195.66.226.201 at 195.66.226.93 accept AS-C4L AND NOT { 0.0.0.0/0 }
+export:         to AS25577 195.66.224.201 at 195.66.224.93 to AS25577 195.66.226.201 at 195.66.226.93 announce AS-GCICOM
+import:         from AS27822 195.66.225.45 at 195.66.224.93 from AS27822 195.66.227.45 at 195.66.226.93 accept AS27822 AND NOT { 0.0.0.0/0 }
+export:         to AS27822 195.66.225.45 at 195.66.224.93 to AS27822 195.66.227.45 at 195.66.226.93 announce AS-GCICOM
+import:         from AS28929 195.66.225.99 at 195.66.224.93 accept AS28929 AND NOT { 0.0.0.0/0 }
+export:         to AS28929 195.66.225.99 at 195.66.224.93 announce AS-GCICOM
+import:         from AS28968 195.66.224.102 at 195.66.224.93 accept AS-EUT AND NOT { 0.0.0.0/0 }
+export:         to AS28968 195.66.224.102 at 195.66.224.93 announce AS-GCICOM
+import:         from AS29009 195.66.225.40 at 195.66.224.93 accept AS-UKBB AND NOT { 0.0.0.0/0 }
+export:         to AS29009 195.66.225.40 at 195.66.224.93 announce AS-GCICOM
+import:         from AS29017 195.66.224.141 at 195.66.224.93 from AS29017 195.66.226.141 at 195.66.226.93 accept AS-GYRON AND NOT { 0.0.0.0/0 }
+export:         to AS29017 195.66.224.141 at 195.66.224.93 to AS29017 195.66.226.141 at 195.66.226.93 announce AS-GCICOM
+import:         from AS29169 195.66.225.20 at 195.66.224.93 accept AS-GANDI AND NOT { 0.0.0.0/0 }
+export:         to AS29169 195.66.225.20 at 195.66.224.93 announce AS-GCICOM
+import:         from AS29208 195.66.225.77 at 195.66.224.93 accept AS-DIALTELECOM AND NOT { 0.0.0.0/0 }
+export:         to AS29208 195.66.225.77 at 195.66.224.93 announce AS-GCICOM
+import:         from AS29328 195.66.224.234 at 195.66.224.93 from AS29328 195.66.226.171 at 195.66.226.93 accept AS29328 AND NOT { 0.0.0.0/0 }
+export:         to AS29328 195.66.224.234 at 195.66.224.93 to AS29328 195.66.226.171 at 195.66.226.93 announce AS-GCICOM
+import:         from AS29452 195.66.225.5 at 195.66.224.93 from AS29452 195.66.227.5 at 195.66.226.93 accept AS29452 AND NOT { 0.0.0.0/0 }
+export:         to AS29452 195.66.225.5 at 195.66.224.93 to AS29452 195.66.227.5 at 195.66.226.93 announce AS-GCICOM
+import:         from AS29527 195.66.224.244 at 195.66.224.93 from AS29527 195.66.226.244 at 195.66.226.93 accept AS-OTHELLOTECH AND NOT { 0.0.0.0/0 }
+export:         to AS29527 195.66.224.244 at 195.66.224.93 to AS29527 195.66.226.244 at 195.66.226.93 announce AS-GCICOM
+import:         from AS29550 195.66.224.223 at 195.66.224.93 from AS29550 195.66.226.223 at 195.66.226.93 accept AS-POUNDHOST AND NOT { 0.0.0.0/0 }
+export:         to AS29550 195.66.224.223 at 195.66.224.93 to AS29550 195.66.226.223 at 195.66.226.93 announce AS-GCICOM
+import:         from AS29611 195.66.225.78 at 195.66.224.93 from AS29611 195.66.227.78 at 195.66.226.93 accept AS-ELITE AND NOT { 0.0.0.0/0 }
+export:         to AS29611 195.66.225.78 at 195.66.224.93 to AS29611 195.66.227.78 at 195.66.226.93 announce AS-GCICOM
+import:         from AS29636 195.66.224.132 at 195.66.224.93 from AS29636 195.66.226.132 at 195.66.226.93 accept AS-CATALYST2 AND NOT { 0.0.0.0/0 }
+export:         to AS29636 195.66.224.132 at 195.66.224.93 to AS29636 195.66.226.132 at 195.66.226.93 announce AS-GCICOM
+import:         from AS29668 195.66.224.105 at 195.66.224.93 from AS29668 195.66.226.105 at 195.66.226.93 accept AS-QUBE AND NOT { 0.0.0.0/0 }
+export:         to AS29668 195.66.224.105 at 195.66.224.93 to AS29668 195.66.226.105 at 195.66.226.93 announce AS-GCICOM
+import:         from AS30081 195.66.225.29 at 195.66.224.93 accept AS30081 AND NOT { 0.0.0.0/0 }
+export:         to AS30081 195.66.225.29 at 195.66.224.93 announce AS-GCICOM
+import:         from AS30740 195.66.224.235 at 195.66.224.93 accept AS-EXA AND NOT { 0.0.0.0/0 }
+export:         to AS30740 195.66.224.235 at 195.66.224.93 announce AS-GCICOM
+import:         from AS30827 195.66.224.241 at 195.66.224.93 from AS30827 195.66.226.241 at 195.66.226.93 accept AS-XTRAORDINARY AND NOT { 0.0.0.0/0 }
+export:         to AS30827 195.66.224.241 at 195.66.224.93 to AS30827 195.66.226.241 at 195.66.226.93 announce AS-GCICOM
+import:         from AS30844 195.66.224.68 at 195.66.224.93 from AS30844 195.66.226.68 at 195.66.226.93 accept AS-ECS AND NOT { 0.0.0.0/0 }
+export:         to AS30844 195.66.224.68 at 195.66.224.93 to AS30844 195.66.226.68 at 195.66.226.93 announce AS-GCICOM
+import:         from AS30890 195.66.225.101 at 195.66.224.93 accept AS30890 AND NOT { 0.0.0.0/0 }
+export:         to AS30890 195.66.225.101 at 195.66.224.93 announce AS-GCICOM
+import:         from AS30914 195.66.224.63 at 195.66.224.93 from AS30914 195.66.226.63 at 195.66.226.93 accept AS30914 AND NOT { 0.0.0.0/0 }
+export:         to AS30914 195.66.224.63 at 195.66.224.93 to AS30914 195.66.226.63 at 195.66.226.93 announce AS-GCICOM
+import:         from AS31084 195.66.225.11 at 195.66.224.93 from AS31084 195.66.227.11 at 195.66.226.93 accept AS31084 AND NOT { 0.0.0.0/0 }
+export:         to AS31084 195.66.225.11 at 195.66.224.93 to AS31084 195.66.227.11 at 195.66.226.93 announce AS-GCICOM
+import:         from AS31122 195.66.225.149 at 195.66.224.93 accept AS31122 AND NOT { 0.0.0.0/0 }
+export:         to AS31122 195.66.225.149 at 195.66.224.93 announce AS-GCICOM
+import:         from AS31458 195.66.224.229 at 195.66.224.93 accept AS31458 AND NOT { 0.0.0.0/0 }
+export:         to AS31458 195.66.224.229 at 195.66.224.93 announce AS-GCICOM
+import:         from AS31500 195.66.224.215 at 195.66.224.93 accept AS31500 AND NOT { 0.0.0.0/0 }
+export:         to AS31500 195.66.224.215 at 195.66.224.93 announce AS-GCICOM
+import:         from AS31708 195.66.225.58 at 195.66.224.93 from AS31708 195.66.227.58 at 195.66.226.93 accept AS31708 AND NOT { 0.0.0.0/0 }
+export:         to AS31708 195.66.225.58 at 195.66.224.93 to AS31708 195.66.227.58 at 195.66.226.93 announce AS-GCICOM
+import:         from AS31715 195.66.225.18 at 195.66.224.93 accept AS31715 AND NOT { 0.0.0.0/0 }
+export:         to AS31715 195.66.225.18 at 195.66.224.93 announce AS-GCICOM
+import:         from AS31727 195.66.224.135 at 195.66.224.93 accept AS-NODE4 AND NOT { 0.0.0.0/0 }
+export:         to AS31727 195.66.224.135 at 195.66.224.93 announce AS-GCICOM
+import:         from AS32787 195.66.224.31 at 195.66.224.93 accept AS-PROLE AND NOT { 0.0.0.0/0 }
+export:         to AS32787 195.66.224.31 at 195.66.224.93 announce AS-GCICOM
+import:         from AS32934 195.66.225.121 at 195.66.224.93 from AS32934 195.66.227.121 at 195.66.226.93 accept AS32934 AND NOT { 0.0.0.0/0 }
+export:         to AS32934 195.66.225.121 at 195.66.224.93 to AS32934 195.66.227.121 at 195.66.226.93 announce AS-GCICOM
+import:         from AS33920 195.66.225.115 at 195.66.224.93 accept AS33920 AND NOT { 0.0.0.0/0 }
+export:         to AS33920 195.66.225.115 at 195.66.224.93 announce AS-GCICOM
+import:         from AS33968 195.66.225.23 at 195.66.224.93 from AS33968 195.66.227.23 at 195.66.226.93 accept AS33968 AND NOT { 0.0.0.0/0 }
+export:         to AS33968 195.66.225.23 at 195.66.224.93 to AS33968 195.66.227.23 at 195.66.226.93 announce AS-GCICOM
+import:         from AS34245 195.66.224.208 at 195.66.224.93 from AS34245 195.66.226.208 at 195.66.226.93 accept AS34245 AND NOT { 0.0.0.0/0 }
+export:         to AS34245 195.66.224.208 at 195.66.224.93 to AS34245 195.66.226.208 at 195.66.226.93 announce AS-GCICOM
+import:         from AS34270 195.66.225.36 at 195.66.224.93 accept AS34270 AND NOT { 0.0.0.0/0 }
+export:         to AS34270 195.66.225.36 at 195.66.224.93 announce AS-GCICOM
+import:         from AS34305 195.66.224.249 at 195.66.224.93 accept AS34305 AND NOT { 0.0.0.0/0 }
+export:         to AS34305 195.66.224.249 at 195.66.224.93 announce AS-GCICOM
+import:         from AS34442 195.66.225.135 at 195.66.224.93 from AS34442 195.66.227.135 at 195.66.226.93 accept AS34442 AND NOT { 0.0.0.0/0 }
+export:         to AS34442 195.66.225.135 at 195.66.224.93 to AS34442 195.66.227.135 at 195.66.226.93 announce AS-GCICOM
+import:         from AS34655 195.66.224.210 at 195.66.224.93 accept AS34655 AND NOT { 0.0.0.0/0 }
+export:         to AS34655 195.66.224.210 at 195.66.224.93 announce AS-GCICOM
+import:         from AS34746 195.66.224.222 at 195.66.224.93 from AS34746 195.66.226.222 at 195.66.226.93 accept AS34746 AND NOT { 0.0.0.0/0 }
+export:         to AS34746 195.66.224.222 at 195.66.224.93 to AS34746 195.66.226.222 at 195.66.226.93 announce AS-GCICOM
+import:         from AS34790 195.66.225.7 at 195.66.224.93 from AS34790 195.66.227.7 at 195.66.226.93 accept AS34790 AND NOT { 0.0.0.0/0 }
+export:         to AS34790 195.66.225.7 at 195.66.224.93 to AS34790 195.66.227.7 at 195.66.226.93 announce AS-GCICOM
+import:         from AS35028 195.66.224.224 at 195.66.224.93 from AS35028 195.66.226.224 at 195.66.226.93 accept AS35028 AND NOT { 0.0.0.0/0 }
+export:         to AS35028 195.66.224.224 at 195.66.224.93 to AS35028 195.66.226.224 at 195.66.226.93 announce AS-GCICOM
+import:         from AS35228 195.66.224.232 at 195.66.224.93 from AS35228 195.66.226.232 at 195.66.226.93 accept AS35228 AND NOT { 0.0.0.0/0 }
+export:         to AS35228 195.66.224.232 at 195.66.224.93 to AS35228 195.66.226.232 at 195.66.226.93 announce AS-GCICOM
+import:         from AS35432 195.66.225.136 at 195.66.224.93 accept AS35432 AND NOT { 0.0.0.0/0 }
+export:         to AS35432 195.66.225.136 at 195.66.224.93 announce AS-GCICOM
+import:         from AS35456 195.66.225.33 at 195.66.224.93 from AS35456 195.66.227.33 at 195.66.226.93 accept AS35456 AND NOT { 0.0.0.0/0 }
+export:         to AS35456 195.66.225.33 at 195.66.224.93 to AS35456 195.66.227.33 at 195.66.226.93 announce AS-GCICOM
+import:         from AS35591 195.66.225.21 at 195.66.224.93 from AS35591 195.66.227.21 at 195.66.226.93 accept AS35591 AND NOT { 0.0.0.0/0 }
+export:         to AS35591 195.66.225.21 at 195.66.224.93 to AS35591 195.66.227.21 at 195.66.226.93 announce AS-GCICOM
+import:         from AS36167 195.66.225.82 at 195.66.224.93 accept AS36167 AND NOT { 0.0.0.0/0 }
+export:         to AS36167 195.66.225.82 at 195.66.224.93 announce AS-GCICOM
+import:         from AS36408 195.66.225.79 at 195.66.224.93 accept AS36408 AND NOT { 0.0.0.0/0 }
+export:         to AS36408 195.66.225.79 at 195.66.224.93 announce AS-GCICOM
+import:         from AS36944 195.66.225.31 at 195.66.224.93 accept AS36944 AND NOT { 0.0.0.0/0 }
+export:         to AS36944 195.66.225.31 at 195.66.224.93 announce AS-GCICOM
+import:         from AS39202 195.66.225.2 at 195.66.224.93 accept AS39202 AND NOT { 0.0.0.0/0 }
+export:         to AS39202 195.66.225.2 at 195.66.224.93 announce AS-GCICOM
+import:         from AS39326 195.66.224.226 at 195.66.224.93 from AS39326 195.66.226.226 at 195.66.226.93 accept AS39326 AND NOT { 0.0.0.0/0 }
+export:         to AS39326 195.66.224.226 at 195.66.224.93 to AS39326 195.66.226.226 at 195.66.226.93 announce AS-GCICOM
+import:         from AS39757 195.66.224.196 at 195.66.224.93 from AS39757 195.66.226.196 at 195.66.226.93 accept AS39757 AND NOT { 0.0.0.0/0 }
+export:         to AS39757 195.66.224.196 at 195.66.224.93 to AS39757 195.66.226.196 at 195.66.226.93 announce AS-GCICOM
+import:         from AS39792 195.66.224.50 at 195.66.224.93 from AS39792 195.66.226.50 at 195.66.226.93 accept AS-ANDERS AND NOT { 0.0.0.0/0 }
+export:         to AS39792 195.66.224.50 at 195.66.224.93 to AS39792 195.66.226.50 at 195.66.226.93 announce AS-GCICOM
+import:         from AS40009 195.66.225.38 at 195.66.224.93 accept AS40009 AND NOT { 0.0.0.0/0 }
+export:         to AS40009 195.66.225.38 at 195.66.224.93 announce AS-GCICOM
+import:         from AS41012 195.66.225.16 at 195.66.224.93 from AS41012 195.66.227.16 at 195.66.226.93 accept AS-THECLOUD AND NOT { 0.0.0.0/0 }
+export:         to AS41012 195.66.225.16 at 195.66.224.93 to AS41012 195.66.227.16 at 195.66.226.93 announce AS-GCICOM
+import:         from AS41095 195.66.225.64 at 195.66.224.93 from AS41095 195.66.227.64 at 195.66.226.93 accept AS-IPTP AND NOT { 0.0.0.0/0 }
+export:         to AS41095 195.66.225.64 at 195.66.224.93 to AS41095 195.66.227.64 at 195.66.226.93 announce AS-GCICOM
+import:         from AS41230 195.66.224.104 at 195.66.224.93 accept AS-ASK4 AND NOT { 0.0.0.0/0 }
+export:         to AS41230 195.66.224.104 at 195.66.224.93 announce AS-GCICOM
+import:         from AS41690 195.66.224.17 at 195.66.224.93 accept AS-DAILYMOTION AND NOT { 0.0.0.0/0 }
+export:         to AS41690 195.66.224.17 at 195.66.224.93 announce AS-GCICOM
+import:         from AS41853 195.66.224.238 at 195.66.224.93 accept AS-NTCOM AND NOT { 0.0.0.0/0 }
+export:         to AS41853 195.66.224.238 at 195.66.224.93 announce AS-GCICOM
+import:         from AS42455 195.66.224.28 at 195.66.224.93 from AS42455 195.66.226.28 at 195.66.226.93 accept AS-WIMANX AND NOT { 0.0.0.0/0 }
+export:         to AS42455 195.66.224.28 at 195.66.224.93 to AS42455 195.66.226.28 at 195.66.226.93 announce AS-GCICOM
+import:         from AS42579 195.66.225.131 at 195.66.224.93 from AS42579 195.66.227.131 at 195.66.226.93 accept AS42579 AND NOT { 0.0.0.0/0 }
+export:         to AS42579 195.66.225.131 at 195.66.224.93 to AS42579 195.66.227.131 at 195.66.226.93 announce AS-GCICOM
+import:         from AS42689 195.66.224.20 at 195.66.224.93 from AS42689 195.66.226.20 at 195.66.226.93 accept AS42689 AND NOT { 0.0.0.0/0 }
+export:         to AS42689 195.66.224.20 at 195.66.224.93 to AS42689 195.66.226.20 at 195.66.226.93 announce AS-GCICOM
+import:         from AS43013 195.66.225.139 at 195.66.224.93 from AS43013 195.66.227.139 at 195.66.226.93 accept AS-YDS AND NOT { 0.0.0.0/0 }
+export:         to AS43013 195.66.225.139 at 195.66.224.93 to AS43013 195.66.227.139 at 195.66.226.93 announce AS-GCICOM
+import:         from AS44042 195.66.225.90 at 195.66.224.93 accept AS-ROOT AND NOT { 0.0.0.0/0 }
+export:         to AS44042 195.66.225.90 at 195.66.224.93 announce AS-GCICOM
+import:         from AS44444 195.66.226.170 at 195.66.226.93 accept AS-WHS-EU AND NOT { 0.0.0.0/0 }
+export:         to AS44444 195.66.226.170 at 195.66.226.93 announce AS-GCICOM
+import:         from AS47999 195.66.225.102 at 195.66.224.93 from AS47999 195.66.227.102 at 195.66.226.93 accept AS47999 AND NOT { 0.0.0.0/0 }
+export:         to AS47999 195.66.225.102 at 195.66.224.93 to AS47999 195.66.227.102 at 195.66.226.93 announce AS-GCICOM
+import:         from AS49375 195.66.224.36 at 195.66.224.93 accept AS49375 AND NOT { 0.0.0.0/0 }
+export:         to AS49375 195.66.224.36 at 195.66.224.93 announce AS-GCICOM
+import:         from AS49572 195.66.225.140 at 195.66.224.93 from AS49572 195.66.227.140 at 195.66.226.93 accept AS-FCN AND NOT { 0.0.0.0/0 }
+export:         to AS49572 195.66.225.140 at 195.66.224.93 to AS49572 195.66.227.140 at 195.66.226.93 announce AS-GCICOM
+import:         from AS49629 195.66.225.25 at 195.66.224.93 accept AS49629 AND NOT { 0.0.0.0/0 }
+export:         to AS49629 195.66.225.25 at 195.66.224.93 announce AS-GCICOM
+import:         from AS50292 195.66.225.130 at 195.66.224.93 accept AS50292 AND NOT { 0.0.0.0/0 }
+export:         to AS50292 195.66.225.130 at 195.66.224.93 announce AS-GCICOM
+remarks:        -----------------
+remarks:        Transit customers
+remarks:        -----------------
+remarks:        Group companies
+remarks:        ---------------
+remarks:        IP Infrastructures
+remarks:        Invomo (Ex-BandX)
+remarks:        Invomo (Ex-PNC/TelecomOne)
+import:         from AS16341 accept { 217.145.64.0/20 }
+export:         to AS16341 announce ANY
+remarks:        NetServices
+admin-c:        GCI1-RIPE
+tech-c:         GCI1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-GCICOM
+created:        2002-01-16T16:50:46Z
+last-modified:  2024-05-08T15:13:45Z
+source:         RIPE
+
+organisation:   ORG-GNSL2-RIPE
+org-name:       GCI Network Solutions Limited
+country:        GB
+org-type:       LIR
+address:        19-25 Nuffield Road
+address:        BH17 0RU
+address:        Poole
+address:        UNITED KINGDOM
+phone:          +44 844 4434 433
+admin-c:        GCI1-RIPE
+tech-c:         GCI1-RIPE
+abuse-c:        GCI1-RIPE
+mnt-ref:        MNT-GCICOM
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-GCICOM
+created:        2017-02-22T10:07:58Z
+last-modified:  2022-03-29T07:16:44Z
+source:         RIPE # Filtered
+
+role:           GCI Service Desk
+address:        Global House
+address:        2A Crofton Close
+address:        Lincoln
+address:        LN3 4NT
+admin-c:        SM32329-RIPE
+admin-c:        JB5840-RIPE
+tech-c:         SM32329-RIPE
+tech-c:         JB5840-RIPE
+abuse-mailbox:  abuse@gcicom.net
+phone:          +44 844 443 3538
+nic-hdl:        GCI1-RIPE
+mnt-by:         MNT-GCICOM
+created:        2013-04-30T11:01:01Z
+last-modified:  2019-10-15T11:46:18Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          37.98.144.0/21
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2020-01-09T11:39:59Z
+last-modified:  2020-01-09T11:39:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.252.24.0/21
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2019-10-11T15:19:14Z
+last-modified:  2019-10-11T15:19:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.131.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:39:56Z
+last-modified:  2024-02-16T09:39:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.132.0/22
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:40:11Z
+last-modified:  2024-02-16T09:40:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.136.0/22
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:40:28Z
+last-modified:  2024-02-16T09:40:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.140.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:40:40Z
+last-modified:  2024-02-16T09:40:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.145.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-12-02T12:20:28Z
+last-modified:  2024-12-02T12:20:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.146.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-12-02T12:20:55Z
+last-modified:  2024-12-02T12:20:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.152.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:41:30Z
+last-modified:  2024-02-16T09:41:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.168.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:41:40Z
+last-modified:  2024-02-16T09:41:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.169.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:41:49Z
+last-modified:  2024-02-16T09:41:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.171.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:42:00Z
+last-modified:  2024-02-16T09:42:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.176.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:42:10Z
+last-modified:  2024-02-16T09:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.178.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:42:18Z
+last-modified:  2024-02-16T09:42:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.179.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:42:34Z
+last-modified:  2024-02-16T09:42:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.180.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:42:47Z
+last-modified:  2024-02-16T09:42:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.183.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:43:01Z
+last-modified:  2024-02-16T09:43:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.184.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:43:10Z
+last-modified:  2024-02-16T09:43:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.186.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:43:22Z
+last-modified:  2024-02-16T09:43:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.187.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:43:38Z
+last-modified:  2024-02-16T09:43:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.188.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:43:47Z
+last-modified:  2024-02-16T09:43:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.189.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:43:57Z
+last-modified:  2024-02-16T09:43:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.190.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:44:06Z
+last-modified:  2024-02-16T09:44:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.191.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:44:19Z
+last-modified:  2024-02-16T09:44:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.196.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:44:29Z
+last-modified:  2024-02-16T09:44:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.164.199.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:44:45Z
+last-modified:  2024-02-16T09:44:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.169.150.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+mnt-by:         NETSERVICES-MNT
+mnt-by:         ECLINET-NMC
+mnt-by:         E-KNOW-MNT
+created:        2023-11-10T13:24:53Z
+last-modified:  2023-11-10T13:24:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.169.154.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:46:50Z
+last-modified:  2024-01-24T09:46:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.107.64.0/18
+descr:          Edge Telecom Ltd
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2008-08-16T16:32:08Z
+last-modified:  2010-08-05T06:27:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.99.72.0/21
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2019-10-11T15:18:01Z
+last-modified:  2019-10-11T15:18:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.99.144.0/21
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+mnt-by:         E-KNOW-MNT
+created:        2023-08-02T13:54:06Z
+last-modified:  2023-08-02T13:54:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.240.80.0/20
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2018-09-19T10:03:45Z
+last-modified:  2018-09-19T10:03:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.5.128.0/18
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+mnt-by:         E-KNOW-MNT
+created:        2023-08-11T13:15:04Z
+last-modified:  2023-08-11T13:15:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.168.0.0/17
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:37:13Z
+last-modified:  2023-08-21T10:37:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.152.0.0/15
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:37:13Z
+last-modified:  2023-08-21T10:37:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.163.0.0/19
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2018-09-19T10:04:10Z
+last-modified:  2018-09-19T10:04:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.159.128.0/21
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2018-09-19T09:57:11Z
+last-modified:  2018-09-19T09:57:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.6.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:49:57Z
+last-modified:  2024-02-16T09:49:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.7.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:50:07Z
+last-modified:  2024-02-16T09:50:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.10.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:50:19Z
+last-modified:  2024-02-16T09:50:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.27.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:50:28Z
+last-modified:  2024-02-16T09:50:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.43.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:50:38Z
+last-modified:  2024-02-16T09:50:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.44.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:50:51Z
+last-modified:  2024-02-16T09:50:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.45.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:51:02Z
+last-modified:  2024-02-16T09:51:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.80.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:51:16Z
+last-modified:  2024-02-16T09:51:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.87.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:51:29Z
+last-modified:  2024-02-16T09:51:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.96.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:51:42Z
+last-modified:  2024-02-16T09:51:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.97.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:51:58Z
+last-modified:  2024-02-16T09:51:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.98.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:52:09Z
+last-modified:  2024-02-16T09:52:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.100.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:52:23Z
+last-modified:  2024-02-16T09:52:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.102.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:52:38Z
+last-modified:  2024-02-16T09:52:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.103.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:52:50Z
+last-modified:  2024-02-16T09:52:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.104.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:53:01Z
+last-modified:  2024-02-16T09:53:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.106.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:53:13Z
+last-modified:  2024-02-16T09:53:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.108.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:53:24Z
+last-modified:  2024-02-16T09:53:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.109.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:53:36Z
+last-modified:  2024-02-16T09:53:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.111.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:54:47Z
+last-modified:  2024-02-16T09:54:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.112.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:55:00Z
+last-modified:  2024-02-16T09:55:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.113.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:55:12Z
+last-modified:  2024-02-16T09:55:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.114.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:55:24Z
+last-modified:  2024-02-16T09:55:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.115.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:55:41Z
+last-modified:  2024-02-16T09:55:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.116.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:55:56Z
+last-modified:  2024-02-16T09:55:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.117.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:56:09Z
+last-modified:  2024-02-16T09:56:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.118.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:56:19Z
+last-modified:  2024-02-16T09:56:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.119.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:56:35Z
+last-modified:  2024-02-16T09:56:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.120.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:56:48Z
+last-modified:  2024-02-16T09:56:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.121.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:56:58Z
+last-modified:  2024-02-16T09:56:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.122.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:57:17Z
+last-modified:  2024-02-16T09:57:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.124.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:59:26Z
+last-modified:  2024-02-16T09:59:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.127.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:59:44Z
+last-modified:  2024-02-16T09:59:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.128.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:03:03Z
+last-modified:  2024-02-16T10:03:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.129.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:03:13Z
+last-modified:  2024-02-16T10:03:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.130.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:03:23Z
+last-modified:  2024-02-16T10:03:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.131.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:03:36Z
+last-modified:  2024-02-16T10:03:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.134.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:03:57Z
+last-modified:  2024-02-16T10:03:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.142.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:04:26Z
+last-modified:  2024-02-16T10:04:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.143.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:04:38Z
+last-modified:  2024-02-16T10:04:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.148.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:04:50Z
+last-modified:  2024-02-16T10:04:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.149.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:05:00Z
+last-modified:  2024-02-16T10:05:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.150.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:05:09Z
+last-modified:  2024-02-16T10:05:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.161.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:05:21Z
+last-modified:  2024-02-16T10:05:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.162.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:05:32Z
+last-modified:  2024-02-16T10:05:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.164.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:05:42Z
+last-modified:  2024-02-16T10:05:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.173.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:05:57Z
+last-modified:  2024-02-16T10:05:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.174.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:06:08Z
+last-modified:  2024-02-16T10:06:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.177.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:06:21Z
+last-modified:  2024-02-16T10:06:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.178.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:06:34Z
+last-modified:  2024-02-16T10:06:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.180.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:06:51Z
+last-modified:  2024-02-16T10:06:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.183.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:07:05Z
+last-modified:  2024-02-16T10:07:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.185.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:07:19Z
+last-modified:  2024-02-16T10:07:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.200.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:07:35Z
+last-modified:  2024-02-16T10:07:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.210.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:07:55Z
+last-modified:  2024-02-16T10:07:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.212.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:08:12Z
+last-modified:  2024-02-16T10:08:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.224.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:08:25Z
+last-modified:  2024-02-16T10:08:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.230.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-20T10:31:25Z
+last-modified:  2024-02-20T10:31:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.234.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:08:43Z
+last-modified:  2024-02-16T10:08:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.54.248.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:08:56Z
+last-modified:  2024-02-16T10:08:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.31.232.0/21
+descr:          OUTSOURCERY-UK-NET
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2020-03-02T12:37:09Z
+last-modified:  2020-03-02T12:37:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.213.48.0/20
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2018-09-19T10:04:50Z
+last-modified:  2018-09-19T10:04:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.213.64.0/18
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2018-09-19T10:05:14Z
+last-modified:  2018-09-19T10:05:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.213.192.0/18
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-06-16T16:10:14Z
+last-modified:  2023-06-16T16:10:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.84.0.0/18
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2024-01-10T16:18:21Z
+last-modified:  2024-01-10T16:18:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.84.128.0/17
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2024-01-10T16:19:02Z
+last-modified:  2024-01-10T16:19:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.85.32.0/19
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-09-27T01:54:32Z
+last-modified:  2024-09-27T01:54:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.85.64.0/18
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-09-27T01:54:57Z
+last-modified:  2024-09-27T01:54:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.85.128.0/19
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2024-01-15T11:33:05Z
+last-modified:  2024-01-15T11:33:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.85.192.0/18
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2024-01-15T11:33:21Z
+last-modified:  2024-01-15T11:33:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.130.96.0/21
+origin:         AS8851
+created:        2024-08-28T19:38:12Z
+last-modified:  2024-08-28T19:45:34Z
+source:         RIPE
+mnt-by:         MNT-MODRUS-TECH
+mnt-by:         MNT-GCICOM
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.176.0.0/16
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:42:28Z
+last-modified:  2023-08-21T10:42:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.255.8.0/21
+origin:         AS8851
+created:        2024-08-28T19:39:21Z
+last-modified:  2024-08-28T19:44:40Z
+source:         RIPE
+mnt-by:         MNT-MODRUS-TECH
+mnt-by:         MNT-GCICOM
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          159.15.0.0/16
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:45:59Z
+last-modified:  2023-08-21T10:45:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          163.119.4.0/24
+descr:          LBS-GCICOM
+origin:         AS8851
+descr:          London Business School
+descr:          Sussex Place
+descr:          Regent's Park
+descr:          London
+descr:          NW1 4SA
+descr:          UNITED KINGDOM
+mnt-by:         JIPS-NOSC
+mnt-by:         MNT-GCICOM
+created:        2022-06-16T13:28:12Z
+last-modified:  2022-06-16T13:28:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.20.32.0/22
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2020-02-20T14:44:44Z
+last-modified:  2020-02-20T14:44:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.24.84.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-11-28T10:51:42Z
+last-modified:  2024-11-28T10:51:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.24.86.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-11-28T10:51:57Z
+last-modified:  2024-11-28T10:51:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.101.44.0/22
+origin:         AS8851
+created:        2024-08-28T19:40:10Z
+last-modified:  2024-08-28T19:43:06Z
+source:         RIPE
+mnt-by:         MNT-MODRUS-TECH
+mnt-by:         MNT-GCICOM
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.156.16.0/22
+origin:         AS8851
+mnt-by:         uk-gossinteractive-1-mnt
+created:        2022-05-12T14:29:35Z
+last-modified:  2022-05-12T14:29:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.108.169.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:52:50Z
+last-modified:  2024-01-24T09:52:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.36.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:45:38Z
+last-modified:  2024-02-16T09:45:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.37.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:45:51Z
+last-modified:  2024-02-16T09:45:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.39.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:46:05Z
+last-modified:  2024-02-16T09:46:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.40.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:46:16Z
+last-modified:  2024-02-16T09:46:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.41.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:47:08Z
+last-modified:  2024-02-16T09:47:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.43.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:47:21Z
+last-modified:  2024-02-16T09:47:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.44.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:47:35Z
+last-modified:  2024-02-16T09:47:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.45.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:47:52Z
+last-modified:  2024-02-16T09:47:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.46.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:48:03Z
+last-modified:  2024-02-16T09:48:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.48.0/21
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:48:46Z
+last-modified:  2024-02-16T09:48:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.56.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:49:00Z
+last-modified:  2024-02-16T09:49:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.61.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:49:14Z
+last-modified:  2024-02-16T09:49:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.64.0/22
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:16:35Z
+last-modified:  2024-02-16T10:16:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.68.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:16:48Z
+last-modified:  2024-02-16T10:16:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.72.0/22
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:17:03Z
+last-modified:  2024-02-16T10:17:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.76.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:17:18Z
+last-modified:  2024-02-16T10:17:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.78.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:17:31Z
+last-modified:  2024-02-16T10:17:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.80.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:17:42Z
+last-modified:  2024-02-16T10:17:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.81.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:17:57Z
+last-modified:  2024-02-16T10:17:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.46.82.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T10:18:10Z
+last-modified:  2024-02-16T10:18:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.105.64.0/19
+descr:          GCI Network Solutions
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2017-11-03T12:22:44Z
+last-modified:  2017-11-03T12:22:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.2.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         ECLINET-NMC
+mnt-by:         KINGSTON-MNT
+mnt-by:         AS3328-MNT
+created:        2023-12-13T12:48:35Z
+last-modified:  2023-12-13T12:48:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.12.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:09:20Z
+last-modified:  2023-12-11T16:09:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.38.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         KINGSTON-MNT
+mnt-by:         AS3328-MNT
+mnt-by:         NK-CORE-MNT
+created:        2023-12-13T12:50:45Z
+last-modified:  2023-12-13T12:50:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.80.0/22
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:18:42Z
+last-modified:  2023-12-11T16:18:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.85.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:18:24Z
+last-modified:  2023-12-11T16:18:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.86.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:18:06Z
+last-modified:  2023-12-11T16:18:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.97.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         KINGSTON-MNT
+mnt-by:         AS3328-MNT
+mnt-by:         NK-CORE-MNT
+created:        2023-12-13T12:51:14Z
+last-modified:  2023-12-13T12:51:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.100.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         KINGSTON-MNT
+mnt-by:         AS3328-MNT
+mnt-by:         NK-CORE-MNT
+created:        2023-12-13T12:51:33Z
+last-modified:  2023-12-13T12:51:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.104.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         KINGSTON-MNT
+mnt-by:         AS3328-MNT
+mnt-by:         NK-CORE-MNT
+created:        2023-12-13T12:52:02Z
+last-modified:  2023-12-13T12:52:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.106.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T17:03:39Z
+last-modified:  2023-12-11T17:03:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.114.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         KINGSTON-MNT
+mnt-by:         AS3328-MNT
+mnt-by:         NK-CORE-MNT
+created:        2023-12-13T12:52:27Z
+last-modified:  2023-12-13T12:52:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.140.0/22
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:15:22Z
+last-modified:  2023-12-11T16:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.144.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:14:55Z
+last-modified:  2023-12-11T16:14:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.181.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:14:27Z
+last-modified:  2023-12-11T16:14:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.223.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:14:07Z
+last-modified:  2023-12-11T16:14:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.231.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:13:34Z
+last-modified:  2023-12-11T16:13:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.232.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:12:58Z
+last-modified:  2023-12-11T16:12:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.238.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         ECLINET-NMC
+mnt-by:         KINGSTON-MNT
+mnt-by:         AS3328-MNT
+mnt-by:         NK-CORE-MNT
+created:        2023-12-13T14:34:13Z
+last-modified:  2023-12-13T14:34:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.241.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:12:09Z
+last-modified:  2023-12-11T16:12:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.242.0/23
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:11:30Z
+last-modified:  2023-12-11T16:11:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.164.247.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:11:13Z
+last-modified:  2023-12-11T16:11:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.207.0.0/19
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-09-20T10:35:33Z
+last-modified:  2023-09-20T10:35:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.2.131.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:42:29Z
+last-modified:  2023-08-21T10:42:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.132.0/22
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:42:29Z
+last-modified:  2023-08-21T10:42:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.136.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:42:29Z
+last-modified:  2023-08-21T10:42:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.138.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:42:29Z
+last-modified:  2023-08-21T10:42:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.140.0/22
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:42:29Z
+last-modified:  2023-08-21T10:42:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.144.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:42:29Z
+last-modified:  2023-08-21T10:42:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.26.228.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:19:45Z
+last-modified:  2024-02-13T11:19:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.26.236.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:20:13Z
+last-modified:  2024-02-13T11:20:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.128.138.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2020-08-18T08:29:07Z
+last-modified:  2020-08-18T08:29:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.184.228.0/23
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         ECLINET-NMC
+mnt-by:         KINGSTON-MNT
+created:        2023-12-11T16:02:14Z
+last-modified:  2023-12-11T16:02:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.184.236.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         ECLINET-NMC
+mnt-by:         KINGSTON-MNT
+created:        2023-12-11T16:02:42Z
+last-modified:  2023-12-11T16:02:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.184.245.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+mnt-by:         ECLINET-NMC
+mnt-by:         KINGSTON-MNT
+created:        2023-12-11T16:03:01Z
+last-modified:  2023-12-11T16:03:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.200.22.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:22:04Z
+last-modified:  2024-02-13T11:22:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.200.27.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:22:24Z
+last-modified:  2024-02-13T11:22:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.32.28.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:54:03Z
+last-modified:  2024-01-24T09:54:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.32.42.0/24
+origin:         AS8851
+created:        2024-02-01T17:14:36Z
+last-modified:  2024-02-01T17:14:36Z
+source:         RIPE
+mnt-by:         MISTRALNOC
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.32.44.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:53:41Z
+last-modified:  2024-01-24T09:53:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.32.55.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:53:29Z
+last-modified:  2024-01-24T09:53:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.32.66.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:53:13Z
+last-modified:  2024-01-24T09:53:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.38.64.0/19
+descr:          Edge Telecom Ltd
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-08-05T06:27:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.47.80.0/23
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:07:06Z
+last-modified:  2023-12-11T16:07:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.47.84.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:08:21Z
+last-modified:  2023-12-11T16:08:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.56.57.0/24
+origin:         AS8851
+mnt-by:         MISTRALNOC
+created:        2023-12-11T16:20:56Z
+last-modified:  2023-12-11T16:20:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.129.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:47:16Z
+last-modified:  2024-01-24T09:47:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.130.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:47:38Z
+last-modified:  2024-01-24T09:47:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.132.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:48:00Z
+last-modified:  2024-01-24T09:48:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.136.0/24
+origin:         AS8851
+mnt-by:         ECLINET-NMC
+mnt-by:         MNT-GCICOM
+created:        2024-01-29T09:30:56Z
+last-modified:  2024-01-29T09:30:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.143.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:48:23Z
+last-modified:  2024-01-24T09:48:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.149.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:51:38Z
+last-modified:  2024-01-24T09:51:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.150.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:49:05Z
+last-modified:  2024-01-24T09:49:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.152.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:49:30Z
+last-modified:  2024-01-24T09:49:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.155.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:49:56Z
+last-modified:  2024-01-24T09:49:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.156.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:50:16Z
+last-modified:  2024-01-24T09:50:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.104.159.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:50:39Z
+last-modified:  2024-01-24T09:50:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.108.80.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:45:12Z
+last-modified:  2024-02-16T09:45:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.108.84.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-16T09:45:25Z
+last-modified:  2024-02-16T09:45:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.108.88.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:54:47Z
+last-modified:  2024-01-24T09:54:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.130.128.0/19
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2018-09-19T10:06:02Z
+last-modified:  2018-09-19T10:06:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.152.32.0/19
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-21T10:42:30Z
+last-modified:  2023-08-21T10:42:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.210.0.0/18
+descr:          Edge Telecom Ltd
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-08-05T06:27:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.218.208.0/20
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2018-09-19T10:06:22Z
+last-modified:  2018-09-19T10:06:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.218.224.0/19
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2018-09-19T10:06:51Z
+last-modified:  2018-09-19T10:06:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.254.171.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:54:14Z
+last-modified:  2024-01-24T09:54:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.254.178.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:54:24Z
+last-modified:  2024-01-24T09:54:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.254.185.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-01-24T09:54:34Z
+last-modified:  2024-01-24T09:54:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.144.144.0/20
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2019-10-11T15:11:27Z
+last-modified:  2019-10-11T15:11:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.145.64.0/20
+descr:          GCI Com City Road
+origin:         AS8851
+notify:         ripe@gcicom.net
+mnt-by:         MNT-GCICOM
+created:        2010-11-28T10:21:15Z
+last-modified:  2010-11-28T10:21:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.12.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:23:04Z
+last-modified:  2024-02-13T11:23:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.25.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:23:24Z
+last-modified:  2024-02-13T11:23:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.28.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:23:39Z
+last-modified:  2024-02-13T11:23:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.30.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:23:56Z
+last-modified:  2024-02-13T11:23:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.31.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:33:40Z
+last-modified:  2024-02-13T11:33:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.39.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:35:16Z
+last-modified:  2024-02-13T11:35:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.46.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:35:39Z
+last-modified:  2024-02-13T11:35:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.49.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:38:13Z
+last-modified:  2024-02-13T11:38:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.72.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:38:41Z
+last-modified:  2024-02-13T11:38:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.90.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:38:57Z
+last-modified:  2024-02-13T11:38:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.96.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:39:21Z
+last-modified:  2024-02-13T11:39:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.103.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:40:04Z
+last-modified:  2024-02-13T11:40:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.104.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:40:22Z
+last-modified:  2024-02-13T11:40:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.109.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:40:38Z
+last-modified:  2024-02-13T11:40:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.110.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:41:13Z
+last-modified:  2024-02-13T11:41:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.122.0/23
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:41:28Z
+last-modified:  2024-02-13T11:41:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.127.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:41:47Z
+last-modified:  2024-02-13T11:41:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.131.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-20T07:31:05Z
+last-modified:  2024-02-20T07:31:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.132.0/22
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:42:42Z
+last-modified:  2024-02-13T11:42:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.137.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:43:01Z
+last-modified:  2024-02-13T11:43:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.138.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:43:13Z
+last-modified:  2024-02-13T11:43:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.141.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:43:33Z
+last-modified:  2024-02-13T11:43:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.151.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:43:44Z
+last-modified:  2024-02-13T11:43:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.157.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:43:55Z
+last-modified:  2024-02-13T11:43:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.158.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:44:06Z
+last-modified:  2024-02-13T11:44:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.176.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:44:19Z
+last-modified:  2024-02-13T11:44:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.187.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:44:32Z
+last-modified:  2024-02-13T11:44:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.209.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:44:58Z
+last-modified:  2024-02-13T11:44:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.219.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:45:15Z
+last-modified:  2024-02-13T11:45:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.221.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:45:28Z
+last-modified:  2024-02-13T11:45:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.230.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:45:40Z
+last-modified:  2024-02-13T11:45:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.236.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-20T09:38:34Z
+last-modified:  2024-02-20T09:38:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.154.246.0/24
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2024-02-13T11:45:52Z
+last-modified:  2024-02-13T11:45:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:470:136::/48
+origin:         AS8851
+descr:          NET-2001-470-136---48-AS8851
+admin-c:        ZH17-ARIN
+tech-c:         ZH17-ARIN
+mnt-by:         MNT-HURC
+source:         ARIN
+created:        2024-03-14T01:45:15Z
+last-modified:  2024-03-14T01:45:15Z
+rpki-ov-state:  valid
+
+route6:         2001:470:161::/48
+origin:         AS8851
+descr:          NET-2001-470-161---48-AS8851
+admin-c:        ZH17-ARIN
+tech-c:         ZH17-ARIN
+mnt-by:         MNT-HURC
+source:         ARIN
+created:        2023-07-18T01:45:14Z
+last-modified:  2023-07-18T01:45:14Z
+rpki-ov-state:  valid
+
+route6:         2001:1a90::/32
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2018-10-08T10:11:16Z
+last-modified:  2018-10-08T10:11:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:c60::/32
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-06-07T10:48:09Z
+last-modified:  2023-06-07T10:48:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1c40::/29
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+mnt-by:         E-KNOW-MNT
+created:        2023-08-02T13:57:44Z
+last-modified:  2023-08-02T13:57:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:4901::/32
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2023-08-22T14:21:04Z
+last-modified:  2023-08-22T14:21:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:21f8::/32
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+created:        2019-10-11T15:22:04Z
+last-modified:  2019-10-11T15:22:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:6f80::/29
+origin:         AS8851
+mnt-by:         MNT-GCICOM
+mnt-by:         E-KNOW-MNT
+created:        2023-08-02T13:58:31Z
+last-modified:  2023-08-02T13:58:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

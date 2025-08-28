@@ -1,0 +1,169 @@
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to 'AS9249 - AS10239'
+
+as-block:       AS9249 - AS10239
+descr:          APNIC ASN block
+remarks:        These AS numbers are further assigned by APNIC
+remarks:        to APNIC members and end-users in the APNIC region
+admin-c:        HM20-AP
+tech-c:         HM20-AP
+mnt-by:         APNIC-HM
+mnt-lower:      APNIC-HM
+last-modified:  2022-09-22T22:36:45Z
+source:         APNIC
+
+role:           APNIC Hostmaster
+address:        6 Cordelia Street
+address:        South Brisbane
+address:        QLD 4101
+country:        AU
+phone:          +61 7 3858 3100
+fax-no:         +61 7 3858 3199
+e-mail:         helpdesk@apnic.net
+admin-c:        AMS11-AP
+tech-c:         AH256-AP
+nic-hdl:        HM20-AP
+remarks:        Administrator for APNIC
+notify:         hostmaster@apnic.net
+mnt-by:         MAINT-APNIC-AP
+last-modified:  2013-10-23T04:06:51Z
+source:         APNIC
+
+% Information related to 'AS9748'
+
+% Abuse contact for 'AS9748' is 'abuse@de-cix.net'
+
+aut-num:        AS9748
+as-name:        DECIX-JKT-AS
+descr:          DE-CIX Jakarte Route Servers
+country:        ID
+org:            ORG-DSPL11-AP
+admin-c:        DSPL11-AP
+tech-c:         DSPL11-AP
+abuse-c:        AD1023-AP
+mnt-by:         APNIC-HM
+mnt-lower:      MAINT-DECIX-SG
+mnt-routes:     MAINT-DECIX-SG
+mnt-irt:        IRT-DECIX-SG
+notify:         notify@de-cix.net
+remarks:
+remarks:        You may use BGP (Extended) Communities to control
+remarks:        route advertisement via the Route Servers:
+remarks:
+remarks:        (9748:9748): Redistribute to all Route Server peers
+remarks:        (9748:$PEER-AS), (rt:9748:$PEER-AS): Redistribute to $PEER-AS
+remarks:        (0:$PEER-AS), (rt:0:$PEER-AS): Redistribute to all peers except $PEER-AS
+remarks:        (0:9748): Do not redistribute
+remarks:
+remarks:        If $PEER-AS uses a 2B ASN, you may use Standard or Extended Communities
+remarks:        If $PEER-AS uses a 4B ASN, you have to use Extended Communities
+remarks:
+remarks:        There are additional communities for controlling announcements:
+remarks:
+remarks:        65535:0 set community GRACEFUL_SHUTDOWN
+remarks:        65535:666 set community BLACKHOLE
+remarks:        9748:65281 set community NO-EXPORT
+remarks:        9748:65282 set community NO-ADVERTISE
+remarks:
+remarks:        For more information on Route Server control and Blackholing, please see:
+remarks:        https://www.de-cix.net/en/locations/singapore/singapore/routeserver-guide
+remarks:        https://www.de-cix.net/en/resources/de-cix-blackholing-guide
+last-modified:  2024-09-26T01:13:31Z
+source:         APNIC
+
+irt:            IRT-DECIX-SG
+address:        10 Anson Road # 35-11 International Plaza, Singapore Singapore 079903
+e-mail:         peeringservices-team@de-cix.net
+abuse-mailbox:  abuse@de-cix.net
+admin-c:        DSPL11-AP
+tech-c:         DSPL11-AP
+auth:           # Filtered
+remarks:        peeringservices-team@de-cix.net was validated on 2025-04-11
+remarks:        abuse@de-cix.net was validated on 2025-04-14
+mnt-by:         MAINT-DECIX-SG
+last-modified:  2025-04-14T09:11:38Z
+source:         APNIC
+
+organisation:   ORG-DSPL11-AP
+org-name:       DE-CIX Singapore PTE LTD
+org-type:       LIR
+country:        SG
+address:        10 Anson Road # 35-11 International Plaza
+phone:          +6531586792
+e-mail:         info@de-cix.net
+mnt-ref:        APNIC-HM
+mnt-by:         APNIC-HM
+last-modified:  2023-09-05T02:18:23Z
+source:         APNIC
+
+role:           ABUSE DECIXSG
+country:        ZZ
+address:        10 Anson Road # 35-11 International Plaza, Singapore Singapore 079903
+phone:          +000000000
+e-mail:         peeringservices-team@de-cix.net
+admin-c:        DSPL11-AP
+tech-c:         DSPL11-AP
+nic-hdl:        AD1023-AP
+remarks:        Generated from irt object IRT-DECIX-SG
+remarks:        peeringservices-team@de-cix.net was validated on 2025-04-11
+remarks:        abuse@de-cix.net was validated on 2025-04-14
+abuse-mailbox:  abuse@de-cix.net
+mnt-by:         APNIC-ABUSE
+last-modified:  2025-04-14T09:12:15Z
+source:         APNIC
+
+role:           DE-CIX Singapore PTE LTD administrator
+address:        10 Anson Road #35-11 International Plaza, Singapore Singapore 079903
+country:        SG
+phone:          +496917309020
+e-mail:         abuse@de-cix.net
+admin-c:        DSPL11-AP
+tech-c:         DSPL11-AP
+nic-hdl:        DSPL11-AP
+mnt-by:         MAINT-DECIX-SG
+last-modified:  2021-02-04T15:23:55Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.34 (WHOIS-UK2)
+
+
+
+route:          202.151.33.0/24
+descr:          Proxy-registered route object
+origin:         AS9748
+remarks:        This is a HGC customer route-object
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found.
+remarks:
+remarks:        Please contact radb@hutchcity.com if you have any
+remarks:        questions regarding this object.
+notify:         radb@hutchcity.com
+mnt-by:         MAINT-AS9304
+changed:        radb@hutchcity.com 20050127
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          202.151.33.0/24
+descr:          HGC
+origin:         AS9748
+notify:         radb@hutchcity.com
+mnt-by:         MAINT-AS9304
+changed:        radb@hutchcity.com 20050127
+source:         RADB
+last-modified:  2023-11-13T15:40:40Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          204.253.254.0/23
+descr:          PNAP-HKG001 kbcfphkl-1
+origin:         AS9748
+mnt-by:         MAINT-AS1828
+changed:        ahara@internap.com 20090114
+source:         RADB
+last-modified:  2023-11-13T16:14:15Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

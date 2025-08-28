@@ -1,0 +1,191 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15835 - AS15963'
+
+as-block:       AS15835 - AS15963
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15955'
+
+% Abuse contact for 'AS15955' is 'abuse@supra.net'
+
+aut-num:        AS15955
+as-name:        SUPRANET
+org:            ORG-SA40-RIPE
+remarks:        ==========>BEGIN<-----transit UPstream<====================
+remarks:        ----------UPC
+import:         from AS6830 action pref=80; accept any
+export:         to AS6830 announce AS-SUPRANET
+remarks:
+remarks:        ----------SWF
+import:         from AS48362 action pref=80; accept any
+export:         to AS48362 announce AS-SUPRANET
+remarks:
+remarks:        ----------Init7
+import:         from AS13030 action pref=80; accept any
+export:         to AS13030 announce AS-SUPRANET
+remarks:
+remarks:        ----------ip-max
+import:         from AS25091 action pref=80; accept any
+export:         to AS25091 announce AS-SUPRANET
+remarks:
+remarks:        ----------GAS+COM
+import:         from AS47176 action pref=80; accept any
+export:         to AS47176 announce AS-SUPRANET
+remarks:
+remarks:        ----------OpenFactory
+import:         from AS58299 action pref=80; accept any
+export:         to AS58299 announce AS-SUPRANET
+remarks:
+remarks:        ==========>END<-----transit UPstream<======================
+remarks:
+remarks:        ==========>BEGIN<-----customer transit<====================
+remarks:        ----Cryptoshell
+import:         from AS13190 accept AS13190
+export:         to AS13190 announce any
+remarks:
+remarks:        ----li-life
+import:         from AS206478 accept AS206478
+export:         to AS206478 announce any
+remarks:
+remarks:        ----Kyberna
+import:         from AS39145 accept AS39145
+export:         to AS39145 announce any
+remarks:        ==========>END<-----customer transit<=====================
+remarks:
+remarks:        ==========>BEGIN<-----local PEERings<=====================
+remarks:        ----Supranet
+import:         from AS42162 action pref=100; accept AS42162
+export:         to AS42162 announce AS15955
+remarks:
+remarks:        ----Liecht.Landesbank
+import:         from AS202405 action pref=100; accept AS202405
+export:         to AS202405 announce AS15955
+remarks:        ==========>END<-----local PEERings<=======================
+remarks:
+remarks:        ==========>BEGIN<-----Rheintal IX PEERings<===============
+remarks:        ----TON
+import:         from AS12387 action pref=100; accept AS12387
+export:         to AS12387 announce AS15955
+remarks:
+remarks:        ----TLI
+import:         from AS20634 action pref=100; accept AS20634
+export:         to AS20634 announce AS15955
+remarks:
+remarks:        ----SW Hall i.T
+import:         from AS34347 action pref=100; accept AS34347
+export:         to AS34347 announce AS15955
+remarks:
+remarks:        ----Newsnet
+import:         from AS198288 action pref=100; accept AS198288
+export:         to AS198288 announce AS15955
+remarks:
+remarks:        ----SCHALLERT
+import:         from AS49432 action pref=100; accept AS49432
+export:         to AS49432 announce AS15955
+remarks:        ==========>END<-----Rheintal IX PEERings<====================
+remarks:
+admin-c:        DM4297-RIPE
+tech-c:         FB657-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SUPRANET-MNT
+created:        2007-05-29T13:58:23Z
+last-modified:  2025-02-09T08:59:06Z
+source:         RIPE
+
+organisation:   ORG-SA40-RIPE
+org-name:       SupraNet AG
+country:        LI
+org-type:       LIR
+address:        Im alten Riet 121
+address:        LI-9494
+address:        Schaan
+address:        LIECHTENSTEIN
+phone:          +423 377 44 43
+fax-no:         +423 377 44 33
+admin-c:        FB657-RIPE
+admin-c:        DM4297-RIPE
+tech-c:         MB56296-RIPE
+abuse-c:        STS99-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SUPRANET-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SUPRANET-MNT
+created:        2004-04-17T11:37:06Z
+last-modified:  2024-06-24T12:21:43Z
+source:         RIPE # Filtered
+
+person:         Dominik Mueller
+address:        Im Alten Riet 121
+address:        9494 Schaan
+address:        Fuerstentum Liechtenstein
+phone:          +423 377 4443
+fax-no:         +423 373 5686
+nic-hdl:        DM4297-RIPE
+mnt-by:         SUPRA-DOM-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-01-14T10:35:55Z
+source:         RIPE # Filtered
+
+person:         Franz Brosi
+address:        QualityNet AG
+address:        Foehrenweg 5
+address:        LI 9490 Vaduz
+phone:          +423 792 6833
+fax-no:         +423 373 5636
+nic-hdl:        FB657-RIPE
+mnt-by:         MNT-QNET-LI
+created:        2002-03-12T14:55:08Z
+last-modified:  2014-09-20T13:01:22Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          185.101.48.0/22
+descr:          LI_SUPRANET
+origin:         AS15955
+mnt-by:         SUPRANET-MNT
+created:        2015-05-21T08:00:01Z
+last-modified:  2015-05-21T08:00:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.77.32.0/19
+descr:          network routed by SupraNet
+origin:         AS15955
+mnt-by:         SUPRA-DOM-MNT
+created:        2007-12-18T21:04:01Z
+last-modified:  2007-12-18T21:21:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

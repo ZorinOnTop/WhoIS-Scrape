@@ -1,0 +1,1877 @@
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.
+#
+
+
+ASNumber:       1930
+ASName:         RIPE-ASNBLOCK-1930
+ASHandle:       AS1930
+RegDate:        2002-10-15
+Updated:        2003-04-25
+Comment:        These addresses have been further assigned to users in
+Comment:        the RIPE NCC region. Contact information can be found in
+Comment:        the RIPE database at http://www.ripe.net/whois    
+Ref:            https://rdap.arin.net/registry/autnum/1930
+
+ResourceLink:  https://apps.db.ripe.net/db-web-ui/query
+ResourceLink:  whois.ripe.net
+
+
+OrgName:        RIPE Network Coordination Centre
+OrgId:          RIPE
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:      
+PostalCode:     1001EB
+Country:        NL
+RegDate:        
+Updated:        2013-07-29
+Ref:            https://rdap.arin.net/registry/entity/RIPE
+
+ReferralServer:  whois.ripe.net
+ResourceLink:  https://apps.db.ripe.net/db-web-ui/query
+
+OrgAbuseHandle: ABUSE3850-ARIN
+OrgAbuseName:   Abuse Contact
+OrgAbusePhone:  +31205354444 
+OrgAbuseEmail:  abuse@ripe.net
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE3850-ARIN
+
+OrgTechHandle: RNO29-ARIN
+OrgTechName:   RIPE NCC Operations
+OrgTechPhone:  +31 20 535 4444 
+OrgTechEmail:  hostmaster@ripe.net
+OrgTechRef:    https://rdap.arin.net/registry/entity/RNO29-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.
+#
+
+
+
+Found a referral to whois.ripe.net.
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS1930 - AS1930'
+
+as-block:       AS1930 - AS1930
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:14Z
+last-modified:  2018-11-22T15:27:14Z
+source:         RIPE
+
+% Information related to 'AS1930'
+
+% Abuse contact for 'AS1930' is 'report@csirt.fct.pt'
+
+aut-num:        AS1930
+as-name:        RCCN
+descr:          --------------------------------------------------------
+descr:          Fundacao para a Ciencia e a Tecnologia, I.P.
+descr:          --------------------------------------------------------
+descr:          Rede Ciencia Tecnologia e Sociedade (RCTS)
+descr:          Former "Rede da Comunidade Cientifica Nacional" (RCCN)
+descr:          Portuguese Research & Education Network
+descr:          Portugal, Europe
+org:            ORG-FpaC1-RIPE
+remarks:        --------------------------------------------------------
+remarks:        URL: http://www.fccn.pt
+remarks:        FCCN - Foundation for National Scientific Computing
+remarks:        FCCN manages the:
+remarks:        * Portuguese R&E Network - RCTS;
+remarks:        * Portuguese Internet Exchange (GigaPix);
+remarks:        FCCN is a FCT,I.P. Unit, as of 2013-10-01
+remarks:        --------------------------------------------------------
+remarks:        We have an Open Peering Policy
+remarks:        We peer over IPv4 & IPv6
+remarks:        Contact: noc@fccn.pt
+remarks:        --------------------------------------------------------
+remarks:        TRANSIT PROVIDERS
+remarks:        --------------------------------------------------------
+remarks:        # GEANT
+import:         from AS20965 action pref=100; accept ANY
+mp-import:      afi ipv6.unicast from AS20965 action pref=100; accept ANY
+mp-import:      afi ipv4.multicast from AS20965 action pref=100; accept ANY
+mp-import:      afi ipv6.multicast from AS20965 action pref=100; accept ANY
+export:         to AS20965 announce AS-RCCN
+mp-export:      afi ipv6.unicast to AS20965 announce AS-RCCN
+mp-export:      afi ipv4.multicast to AS20965 announce AS-RCCN
+mp-export:      afi ipv6.multicast to AS20965 announce AS-RCCN
+remarks:        # GEANT IAS
+import:         from AS21320 action pref=100; accept ANY
+mp-import:      afi ipv6.unicast from AS21320 action pref=100; accept ANY
+mp-import:      afi ipv4.multicast from AS21320 action pref=100; accept ANY
+mp-import:      afi ipv6.multicast from AS21320 action pref=100; accept ANY
+export:         to AS21320 announce AS-RCCN
+mp-export:      afi ipv6.unicast to AS21320 announce AS-RCCN
+mp-export:      afi ipv4.multicast to AS21320 announce AS-RCCN
+mp-export:      afi ipv6.multicast to AS21320 announce AS-RCCN
+remarks:        # COGENT
+import:         from AS174 action pref=100; accept ANY
+mp-import:      afi ipv6.unicast from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-RCCN
+mp-export:      afi ipv6.unicast to AS174 announce AS-RCCN
+remarks:        --------------------------------------------------------
+remarks:        MEMBERS
+remarks:        --------------------------------------------------------
+remarks:        # INESC
+import:         from AS5516 action pref=100; accept AS5516
+export:         to AS5516 announce ANY
+remarks:        # GIGAPIX
+import:         from AS12833 action pref=100; accept AS12833
+export:         to AS12833 announce ANY
+remarks:        # INESCTEC
+import:         from AS35038 action pref=100; accept AS35038
+export:         to AS35038 announce ANY
+remarks:        # EMSA
+import:         from AS57350 action pref=100; accept AS57350
+export:         to AS57350 announce ANY
+remarks:        # RAE
+import:         from AS199155 action pref=100; accept AS199155
+export:         to AS199155 announce ANY
+remarks:        # ADNS
+import:         from AS199993 action pref=100; accept AS199993
+export:         to AS199993 announce ANY
+remarks:        # POINTS
+import:         from AS207969 action pref=100; accept AS207969
+export:         to AS207969 announce ANY
+remarks:        --------------------------------------------------------
+remarks:        DIRECT PEERINGS
+remarks:        --------------------------------------------------------
+remarks:        # REDIRIS
+import:         from AS766 action pref=100; accept AS-REDIRIS
+mp-import:      afi ipv6.unicast from AS766 action pref=100; accept AS-REDIRIS
+export:         to AS766 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS766 announce AS-RCCN-GIGAPIX
+remarks:        --------------------------------------------------------
+remarks:        GIGAPIX LISBON
+remarks:        --------------------------------------------------------
+remarks:        # GIGAPIX
+import:         from AS12833 action pref=100; accept AS12833
+export:         to AS12833 announce ANY
+remarks:        # GOOGLE (Gigapix)
+import:         from AS15169 action pref=100; accept AS-GOOGLE
+mp-import:      afi ipv6.unicast from AS15169 action pref=100; accept AS-GOOGLE
+export:         to AS15169 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS15169 announce AS-RCCN-GIGAPIX
+remarks:        # CPRM-MEO (Gigapix)
+import:         from AS8657 action pref=100; accept AS-CPRM
+mp-import:      afi ipv6.unicast from AS8657 action pref=100; accept AS-CPRM
+export:         to AS8657 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS8657 announce AS-RCCN-GIGAPIX
+remarks:        # NOS (Gigapix)
+import:         from AS2860 action pref=100; accept AS-NOVIS
+mp-import:      afi ipv6.unicast from AS2860 action pref=100; accept AS-NOVIS
+export:         to AS2860 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS2860 announce AS-RCCN-GIGAPIX
+remarks:        # CLARANET (Gigapix)
+import:         from AS8426 action pref=100; accept AS-CLARANET
+mp-import:      afi ipv6.unicast from AS8426 action pref=100; accept AS-CLARANET
+export:         to AS8426 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS8426 announce AS-RCCN-GIGAPIX
+remarks:        # MICROSOFT (Gigapix)
+import:         from AS8075 action pref=100; accept AS8075
+mp-import:      afi ipv6.unicast from AS8426 action pref=100; accept AS8075
+export:         to AS8075 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS8075 announce AS-RCCN-GIGAPIX
+remarks:        # AKAMAI (Gigapix)
+import:         from AS20940 action pref=100; accept AS20940
+mp-import:      afi ipv6.unicast from AS20940 action pref=100; accept AS20940
+export:         to AS20940 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS20940 announce AS-RCCN-GIGAPIX
+remarks:        # PARATUS (Gigapix)
+import:         from AS33763 action pref=100; accept AS33763
+export:         to AS33763 announce AS-RCCN-GIGAPIX
+remarks:        # DOTSI (Gigapix)
+import:         from AS49349 action pref=100; accept AS49349
+mp-import:      afi ipv6.unicast from AS49349 action pref=100; accept AS49349
+export:         to AS49349 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS49349 announce AS-RCCN-GIGAPIX
+remarks:        # IPTELECOM (Gigapix)
+import:         from AS29003 action pref=100; accept AS29003
+mp-import:      afi ipv6.unicast from AS29003 action pref=100; accept AS29003
+export:         to AS29003 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS29003 announce AS-RCCN-GIGAPIX
+remarks:        # COLT (Gigapix)
+import:         from AS8220 action pref=100; accept AS-COLT
+export:         to AS8220 announce AS-RCCN-GIGAPIX
+remarks:        # MAKEITSIMPLE (Gigapix)
+import:         from AS201782 action pref=100; accept AS201782
+mp-import:      afi ipv6.unicast from AS201782 action pref=100; accept AS201782
+export:         to AS201782 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS201782 announce AS-RCCN-GIGAPIX
+remarks:        # VERIZONBUSINESS-PT (Gigapix)
+import:         from AS702 action pref=100; accept AS702
+mp-import:      afi ipv6.unicast from AS702 action pref=100; accept AS702
+export:         to AS702 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS702 announce AS-RCCN-GIGAPIX
+remarks:        # ANGOLA CABLES (Gigapix)
+import:         from AS37468 action pref=100; accept AS37468
+mp-import:      afi ipv6.unicast from AS37468 action pref=100; accept AS37468
+export:         to AS37468 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS37468 announce AS-RCCN-GIGAPIX
+remarks:        # G9TELECOM (Gigapix)
+import:         from AS12305 action pref=100; accept AS12305
+export:         to AS12305 announce AS-RCCN-GIGAPIX
+remarks:        # ONI TELECOM (Gigapix)
+import:         from AS9186 action pref=100; accept AS-ONI
+mp-import:      afi ipv6.unicast from AS9186 action pref=100; accept AS-ONI
+export:         to AS9186 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS9186 announce AS-RCCN-GIGAPIX
+remarks:        # VODAFONE (Gigapix)
+import:         from AS12353 action pref=100; accept AS-VODAFONE-PT
+mp-import:      afi ipv6.unicast from AS12353 action pref=100; accept AS-VODAFONE-PT
+export:         to AS12353 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS12353 announce AS-RCCN-GIGAPIX
+remarks:        # ARTELECOM (Gigapix)
+import:         from AS12926 action pref=100; accept AS12926
+export:         to AS12926 announce AS-RCCN-GIGAPIX
+remarks:        # CLOUDFLARE (Gigapix)
+import:         from AS13335 action pref=100; accept AS13335
+mp-import:      afi ipv6.unicast from AS13335 action pref=100; accept AS13335
+export:         to AS13335 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS13335 announce AS-RCCN-GIGAPIX
+remarks:        # O3BNETWORKS (Gigapix)
+import:         from AS60725 action pref=100; accept AS60725
+export:         to AS60725 announce AS-RCCN-GIGAPIX
+remarks:        # ISC/F-ROOT (Gigapix)
+import:         from AS30129 action pref=100; accept AS3557 AND { 192.5.5.0/24 }
+mp-import:      afi ipv6.unicast from AS30129 action pref=100; accept AS3557
+export:         to AS30129 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS30129 announce AS-RCCN-GIGAPIX
+remarks:        # VERISIGN/J-ROOT (Gigapix)
+import:         from AS26415 action pref=100; accept AS26415
+export:         to AS26415 announce AS-RCCN-GIGAPIX
+remarks:        # PTISP (Gigapix)
+import:         from AS24768 action pref=100; accept AS24768
+mp-import:      afi ipv6.unicast from AS24768 action pref=100; accept AS24768
+export:         to AS24768 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS24768 announce AS-RCCN-GIGAPIX
+remarks:        # HURRICANE ELECTRIC (Gigapix)
+import:         from AS6939 action pref=100; accept AS6939
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept AS6939
+export:         to AS6939 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS6939 announce AS-RCCN-GIGAPIX
+remarks:        # AFR-IX (Gigapix)
+import:         from AS60171 action pref=100; accept AS60171
+mp-import:      afi ipv6.unicast from AS60171 action pref=100; accept AS60171
+export:         to AS60171 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS60171 announce AS-RCCN-GIGAPIX
+remarks:        # ANACOM (Gigapix)
+import:         from AS205558 action pref=100; accept AS205558
+mp-import:      afi ipv6.unicast from AS205558 action pref=100; accept AS205558
+export:         to AS205558 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS205558 announce AS-RCCN-GIGAPIX
+remarks:        # INTERFIBER (Gigapix), AS205996 and AS50293
+import:         from AS205996 action pref=100; accept AS205996
+mp-import:      afi ipv6.unicast from AS205996 action pref=100; accept AS205996
+export:         to AS205996 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS205996 announce AS-RCCN-GIGAPIX
+import:         from AS50293 action pref=100; accept AS50293
+mp-import:      afi ipv6.unicast from AS50293 action pref=100; accept AS50293
+export:         to AS50293 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS50293 announce AS-RCCN-GIGAPIX
+remarks:        # GROUP VIVENDI AFRICA (Gigapix)
+import:         from AS36924 action pref=100; accept AS36924
+mp-import:      afi ipv6.unicast from AS36924 action pref=100; accept AS36924
+export:         to AS36924 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS36924 announce AS-RCCN-GIGAPIX
+remarks:        # PTSERVIDOR (Gigapix)
+import:         from AS62416 action pref=100; accept AS62416
+mp-import:      afi ipv6.unicast from AS62416 action pref=100; accept AS62416
+export:         to AS62416 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS62416 announce AS-RCCN-GIGAPIX
+remarks:        # XERVERS (Gigapix)
+import:         from AS206316 action pref=100; accept AS206316
+mp-import:      afi ipv6.unicast from AS206316 action pref=100; accept AS206316
+export:         to AS206316 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS206316 announce AS-RCCN-GIGAPIX
+remarks:        # WEBTUGA (Gigapix)
+import:         from AS39384 action pref=100; accept AS39384
+mp-import:      afi ipv6.unicast from AS39384 action pref=100; accept AS39384
+export:         to AS39384 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS39384 announce AS-RCCN-GIGAPIX
+remarks:        # OATH/YAHOO (Gigapix)
+import:         from AS10310 action pref=100; accept AS10310
+mp-import:      afi ipv6.unicast from AS10310 action pref=100; accept AS10310
+export:         to AS10310 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS10310 announce AS-RCCN-GIGAPIX
+remarks:        # FACEBOOK (Gigapix)
+import:         from AS32934 action pref=100; accept AS32934
+mp-import:      afi ipv6.unicast from AS32934 action pref=100; accept AS32934
+export:         to AS32934 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS32934 announce AS-RCCN-GIGAPIX
+remarks:        # HUAWEI CLOUDS (Gigapix)
+import:         from AS136907 action pref=100; accept AS136907
+mp-import:      afi ipv6.unicast from AS136907 action pref=100; accept AS136907
+export:         to AS136907 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS136907 announce AS-RCCN-GIGAPIX
+remarks:        # EUROTUX (Gigapix)
+import:         from AS49941 action pref=100; accept AS49941
+mp-import:      afi ipv6.unicast from AS49941 action pref=100; accept AS49941
+export:         to AS49941 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS49941 announce AS-RCCN-GIGAPIX
+remarks:        # INNOV4WEB (Gigapix)
+import:         from AS204094 action pref=100; accept AS204094
+mp-import:      afi ipv6.unicast from AS204094 action pref=100; accept AS204094
+export:         to AS204094 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS204094 announce AS-RCCN-GIGAPIX
+remarks:        # SUBSPACE (Gigapix)
+import:         from AS32261 action pref=100; accept AS32261
+mp-import:      afi ipv6.unicast from AS32261 action pref=100; accept AS32261
+export:         to AS32261 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS32261 announce AS-RCCN-GIGAPIX
+remarks:        # EDGOO (Gigapix)
+import:         from AS47787 action pref=100; accept AS47787
+mp-import:      afi ipv6.unicast from AS47787 action pref=100; accept AS47787
+export:         to AS47787 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS47787 announce AS-RCCN-GIGAPIX
+remarks:        # ACORUS (Gigapix)
+import:         from AS35280 action pref=100; accept AS35280
+mp-import:      afi ipv6.unicast from AS35280 action pref=100; accept AS35280
+export:         to AS35280 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS35280 announce AS-RCCN-GIGAPIX
+remarks:        # VTS-BF (Gigapix)
+import:         from AS37721 action pref=100; accept AS37721
+mp-import:      afi ipv6.unicast from AS37721 action pref=100; accept AS37721
+export:         to AS37721 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS37721 announce AS-RCCN-GIGAPIX
+remarks:        # UNITEL (Gigapix)
+import:         from AS37119 action pref=100; accept AS37119
+mp-import:      afi ipv6.unicast from AS37119 action pref=100; accept AS37119
+export:         to AS37119 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS37119 announce AS-RCCN-GIGAPIX
+remarks:        # CLOUD TELECOM (Gigapix)
+import:         from AS208457 action pref=100; accept AS208457
+mp-import:      afi ipv6.unicast from AS208457 action pref=100; accept AS208457
+export:         to AS208457 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS208457 announce AS-RCCN-GIGAPIX
+remarks:        # PCH (Gigapix), AS42 and AS3856
+import:         from AS42 action pref=100; accept AS42
+mp-import:      afi ipv6.unicast from AS42 action pref=100; accept AS42
+export:         to AS42 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS42 announce AS-RCCN-GIGAPIX
+import:         from AS3856 action pref=100; accept AS3856
+mp-import:      afi ipv6.unicast from AS3856 action pref=100; accept AS3856
+export:         to AS3856 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS3856 announce AS-RCCN-GIGAPIX
+remarks:        # DIGI (Gigapix)
+import:         from AS8708 action pref=100; accept AS8708
+mp-import:      afi ipv6.unicast from AS8708 action pref=100; accept AS8708
+export:         to AS8708 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS8708 announce AS-RCCN-GIGAPIX
+remarks:        # JOTELULU (Gigapix)
+import:         from AS212087 action pref=100; accept AS212087
+export:         to AS212087 announce AS-RCCN-GIGAPIX
+remarks:        # START CAMPUS (Gigapix)
+import:         from AS214213 action pref=100; accept AS214213
+mp-import:      afi ipv6.unicast from AS214213 action pref=100; accept AS214213
+export:         to AS214213 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS214213 announce AS-RCCN-GIGAPIX
+remarks:        --------------------------------------------------------
+remarks:        GIGAPIX OPORTO
+remarks:        --------------------------------------------------------
+remarks:        # ICANN/L-ROOT (Gigapix Porto)
+import:         from AS20144 action pref=100; accept AS20144
+mp-import:      afi ipv6.unicast from AS20144 action pref=100; accept AS20144
+export:         to AS20144 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS20144 announce AS-RCCN-GIGAPIX
+remarks:        # ASSOCIACAO PORTO DIGITAL (Gigapix Porto)
+import:         from AS29615 action pref=100; accept AS29615
+mp-import:      afi ipv6.unicast from AS29615 action pref=100; accept AS29615
+export:         to AS29615 announce AS-RCCN-GIGAPIX
+mp-export:      afi ipv6.unicast to AS29615 announce AS-RCCN-GIGAPIX
+remarks:        --------------------------------------------------------
+remarks:        CONTACTS
+remarks:        --------------------------------------------------------
+admin-c:        IF575-RIPE
+tech-c:         IF575-RIPE
+status:         LEGACY
+mnt-by:         RIPE-NCC-LEGACY-MNT
+mnt-by:         AS1930-MNT
+created:        2002-09-18T10:54:44Z
+last-modified:  2025-07-03T14:17:26Z
+source:         RIPE
+
+organisation:   ORG-FpaC1-RIPE
+org-name:       Fundacao para a Ciencia e a Tecnologia, I.P.
+country:        PT
+org-type:       LIR
+address:        Avenida do Brasil, 101
+address:        1700-066
+address:        Lisboa
+address:        PORTUGAL
+phone:          +351 218440100
+admin-c:        JNF1-RIPE
+admin-c:        CMF8-RIPE
+admin-c:        EM15201-RIPE
+abuse-c:        FST8-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS1930-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS1930-MNT
+created:        2004-04-17T11:49:22Z
+last-modified:  2025-06-04T10:39:17Z
+source:         RIPE # Filtered
+
+role:           IPADM FCCN
+address:        Fundacao para a Ciencia e a Tecnologia, I.P.
+address:        FCCN - Servicos Digitais FCT
+address:        Av. do Brasil, 101
+address:        1700-066 Lisboa
+address:        Portugal
+admin-c:        JNF1-RIPE
+tech-c:         CMF8-RIPE
+tech-c:         EM15201-RIPE
+tech-c:         JS25323-RIPE
+nic-hdl:        IF575-RIPE
+remarks:        IP Address Administration
+mnt-by:         AS1930-MNT
+created:        2002-08-14T10:13:11Z
+last-modified:  2025-06-26T16:38:31Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          139.83.0.0/16
+descr:          RCCN-B-class
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        1970-01-01T00:00:00Z
+last-modified:  2004-09-09T22:48:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.162.0.0/19
+descr:          UCP-LISBOA-slash19
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2021-07-13T17:17:21Z
+last-modified:  2021-07-13T17:17:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.162.64.0/19
+descr:          UCP-LISBOA-2
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2004-09-09T22:01:16Z
+last-modified:  2004-09-09T22:01:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.162.96.0/20
+descr:          UCP-LISBOA-3
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2004-09-09T22:01:45Z
+last-modified:  2004-09-09T22:01:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.162.112.0/21
+descr:          UCP-LISBOA-4
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2004-09-10T06:23:53Z
+last-modified:  2004-09-10T06:23:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.162.128.0/18
+descr:          UCP-LISBOA-2
+origin:         AS1930
+notify:         ipadm@fccn.pt
+mnt-by:         AS1930-MNT
+mnt-lower:      AS1930-MNT
+created:        2004-10-19T11:05:03Z
+last-modified:  2004-10-19T11:05:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.175.184.0/22
+descr:          RCCN-NET-LAST-IPv4-ALLOCATION
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2016-11-03T07:14:17Z
+last-modified:  2016-11-03T07:14:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.26.231.0/24
+descr:          ULISBOA-RCCN-PT
+descr:          Universidade de Lisboa
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-11-10T20:07:37Z
+last-modified:  2015-11-10T20:07:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.26.236.0/24
+descr:          LNEC, Portugal
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-07-17T13:07:54Z
+last-modified:  2015-07-17T13:07:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.26.239.0/24
+descr:          Universidade do Porto
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2022-01-14T14:03:01Z
+last-modified:  2022-01-14T14:03:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.67.76.0/24
+descr:          PTUNET-DI-FCUL
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-05-02T00:17:56Z
+last-modified:  2015-05-02T00:17:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.68.186.0/24
+descr:          LNEC, Portugal
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-07-17T13:07:54Z
+last-modified:  2015-07-17T13:07:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.68.209.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-29T23:15:46Z
+last-modified:  2016-01-29T23:15:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.68.216.0/24
+descr:          PTUNET-FCTUNL-2
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2020-02-07T07:32:52Z
+last-modified:  2020-02-07T07:32:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.68.221.0/24
+descr:          IPLNet-PI-2
+origin:         AS1930
+notify:         netadmin@net.ipl.pt
+mnt-by:         IPLNET-MNT
+mnt-by:         AS1930-MNT
+created:        2012-02-21T13:48:09Z
+last-modified:  2012-02-21T13:48:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.68.224.0/24
+descr:          PT-IST
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2016-10-20T23:13:54Z
+last-modified:  2016-10-20T23:13:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.76.242.0/24
+descr:          PTNET-LIP
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2014-04-03T22:15:39Z
+last-modified:  2014-04-03T22:15:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.80.20.0/24
+descr:          ULISBOA-IFM-RCCN-PT
+descr:          Universidade de Lisboa
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-11-10T20:07:37Z
+last-modified:  2015-11-10T20:07:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.80.21.0/24
+descr:          PTUNET-UA
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2017-01-02T16:28:47Z
+last-modified:  2017-01-02T16:28:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.82.127.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-29T23:15:46Z
+last-modified:  2016-01-29T23:15:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.82.214.0/24
+descr:          Universidade do Porto
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2022-01-14T14:03:01Z
+last-modified:  2022-01-14T14:03:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.84.13.0/24
+descr:          University of Coimbra
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-11-02T18:24:05Z
+last-modified:  2015-11-02T18:24:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.84.15.0/24
+descr:          University of Coimbra
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-11-02T18:24:05Z
+last-modified:  2015-11-02T18:24:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.86.138.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-29T23:15:46Z
+last-modified:  2016-01-29T23:15:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.88.17.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-29T23:15:46Z
+last-modified:  2016-01-29T23:15:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.88.250.0/23
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-30T00:43:35Z
+last-modified:  2016-01-30T00:43:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.88.250.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-30T00:41:53Z
+last-modified:  2016-01-30T00:41:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.88.251.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-30T00:41:53Z
+last-modified:  2016-01-30T00:41:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.88.252.0/23
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-30T00:43:36Z
+last-modified:  2016-01-30T00:43:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.88.252.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-30T00:41:53Z
+last-modified:  2016-01-30T00:41:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.88.253.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-30T00:41:53Z
+last-modified:  2016-01-30T00:41:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.88.254.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-30T00:41:53Z
+last-modified:  2016-01-30T00:41:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.133.0/24
+descr:          AVIERO-INESC
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2017-01-02T16:28:47Z
+last-modified:  2017-01-02T16:28:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.135.0/24
+descr:          Universidade do Porto
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2022-01-14T14:03:01Z
+last-modified:  2022-01-14T14:03:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.142.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-29T23:15:46Z
+last-modified:  2016-01-29T23:15:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.144.0/24
+descr:          INESCC - Univ.Coimbra
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2015-04-21T08:45:54Z
+last-modified:  2015-04-21T08:45:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.145.0/24
+descr:          INEGI
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-05-02T00:17:56Z
+last-modified:  2015-05-02T00:17:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.92.146.0/24
+descr:          ISCTE
+descr:          Instituto Superior de Ciencias do Trabalho e da Empresa
+descr:          Instituto Universitario de Lisboa
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-11-25T22:54:36Z
+last-modified:  2015-11-25T22:54:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.147.0/24
+descr:          PT-IST-ICTM
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2016-10-20T23:13:54Z
+last-modified:  2016-10-20T23:13:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.148.0/24
+descr:          PT-IST-INTERG
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2016-10-20T23:13:54Z
+last-modified:  2016-10-20T23:13:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.149.0/24
+descr:          PTNET-LIP02
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2014-04-03T22:15:39Z
+last-modified:  2014-04-03T22:24:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.152.0/24
+descr:          University of Evora
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-07-24T13:30:12Z
+last-modified:  2015-07-24T13:30:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.92.153.0/24
+descr:          IBET
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-06-12T19:45:20Z
+last-modified:  2015-06-12T19:45:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.94.24.0/24
+descr:          Universidade do Porto
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2022-01-14T14:03:01Z
+last-modified:  2022-01-14T14:03:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.104.48.0/24
+descr:          IPLNet-PI-1
+origin:         AS1930
+notify:         netadmin@net.ipl.pt
+mnt-by:         IPLNET-MNT
+mnt-by:         AS1930-MNT
+created:        2012-02-21T13:48:09Z
+last-modified:  2012-02-21T13:48:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.107.122.0/24
+descr:          ULISBOA-IFM-RCCN-PT1
+descr:          Universidade de Lisboa
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-11-10T20:07:37Z
+last-modified:  2015-11-10T20:07:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.122.238.0/23
+descr:          RCCN-C5-1
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2015-04-17T19:20:30Z
+last-modified:  2015-04-17T19:20:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.122.240.0/23
+descr:          RCCN-C5-2
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2015-04-17T19:20:30Z
+last-modified:  2015-04-17T19:20:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.122.242.0/24
+descr:          RCCN-C5-3
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2015-04-17T19:20:31Z
+last-modified:  2015-04-17T19:20:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.132.53.0/24
+descr:          PT-IST-PTUNET-CEMUL
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2016-10-20T23:13:54Z
+last-modified:  2016-10-20T23:13:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.132.55.0/24
+descr:          UMADEIRA, Portugal
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-06-12T19:45:20Z
+last-modified:  2015-07-17T13:07:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.133.108.0/24
+descr:          Universidade do Porto
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2022-01-14T14:03:02Z
+last-modified:  2022-01-14T14:03:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.135.187.0/24
+descr:          Universidade do Minho
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2016-01-29T23:15:46Z
+last-modified:  2016-01-29T23:15:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.135.219.0/24
+descr:          CTQB
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-06-12T19:45:21Z
+last-modified:  2015-06-12T19:45:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.136.52.0/24
+descr:          UNIV-AVEIRO
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2017-01-02T16:28:47Z
+last-modified:  2017-01-02T16:28:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.138.86.0/24
+descr:          LNEC, Portugal
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-07-17T13:07:54Z
+last-modified:  2015-07-17T13:07:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.138.204.0/24
+descr:          University of Coimbra
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-11-02T18:24:05Z
+last-modified:  2015-11-02T18:24:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.147.155.0/24
+descr:          Universidade do Porto
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2022-01-14T14:03:02Z
+last-modified:  2022-01-14T14:03:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.153.13.0/24
+descr:          Universidade do Porto
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2022-01-14T14:03:01Z
+last-modified:  2022-01-14T14:03:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.190.174.0/24
+descr:          PT-IST-LEIC
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2016-10-20T23:13:54Z
+last-modified:  2016-10-20T23:13:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.195.195.0/24
+descr:          LNEC, Portugal
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-07-17T13:07:55Z
+last-modified:  2015-07-17T13:07:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.207.196.0/24
+descr:          Universidade do Porto
+origin:         AS1930
+mnt-by:         AS1930-MNT
+notify:         ipadm@fccn.pt
+created:        2022-01-14T14:03:01Z
+last-modified:  2022-01-14T14:03:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.136.0.0/15
+descr:          RCCN-AGGREGATED-NET
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.0.0/20
+descr:          RCTS-193.236.0.0-193.236.15.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:37:43Z
+last-modified:  2022-10-27T13:37:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.97.0/24
+descr:          RCTS-193.236.97.0-193.236.97.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:37:43Z
+last-modified:  2022-10-27T13:37:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.98.0/23
+descr:          RCTS-193.236.98.0-193.236.99.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:37:43Z
+last-modified:  2022-10-27T13:37:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.102.0/23
+descr:          RCTS-193.236.102.0-193.236.103.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:37:43Z
+last-modified:  2022-10-27T13:37:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.104.0/21
+descr:          RCTS-193.236.104.0-193.236.111.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:37:43Z
+last-modified:  2022-10-27T13:37:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.112.0/21
+descr:          RCTS-193.236.112.0-193.236.119.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:37:43Z
+last-modified:  2022-10-27T13:37:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.124.0/22
+descr:          RCTS-193.236.124.0-193.236.127.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2023-12-05T15:15:07Z
+last-modified:  2023-12-05T15:15:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.154.0/23
+descr:          RCTS-193.236.154.0-193.236.155.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:54:10Z
+last-modified:  2022-10-27T13:54:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.157.0/24
+descr:          RCTS-193.236.157.0-193.236.157.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:54:10Z
+last-modified:  2022-10-27T13:54:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.158.0/23
+descr:          RCTS-193.236.158.0-193.236.159.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:54:10Z
+last-modified:  2022-10-27T13:54:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.160.0/20
+descr:          Instituto Politecnico de Lisboa
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2020-04-14T09:30:29Z
+last-modified:  2020-04-14T09:30:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.178.0/23
+descr:          RCTS-193.236.178.0-193.236.179.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:54:10Z
+last-modified:  2022-10-27T13:54:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.180.0/22
+descr:          RCTS-193.236.180.0-193.236.183.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:54:10Z
+last-modified:  2022-10-27T13:54:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.184.0/21
+descr:          RCTS-193.236.184.0-193.236.191.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2022-10-27T13:54:10Z
+last-modified:  2022-10-27T13:54:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.236.192.0/18
+descr:          RCTS-193.236.192.0-193.236.255.255
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2023-12-05T15:15:07Z
+last-modified:  2023-12-05T15:15:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.117.0.0/20
+descr:          NET-UL-BLOCK-1
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-07-27T15:55:10Z
+last-modified:  2015-07-27T15:55:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.117.16.0/21
+descr:          NET-UL-BLOCK-2
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2015-07-27T15:55:10Z
+last-modified:  2015-07-27T15:55:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.117.40.0/21
+descr:          NET-UL-BLOCK-40-47
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2006-02-22T15:33:53Z
+last-modified:  2006-02-22T15:33:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.117.48.0/23
+descr:          NET-UL-BLOCK-5
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        2006-02-17T16:05:07Z
+last-modified:  2006-02-17T16:05:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.210.0.0/16
+descr:          RCCN-NET-BLOCK-3
+origin:         AS1930
+mnt-by:         AS1930-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:690::/29
+descr:          Fundacao para a Ciencia e a Tecnologia, I.P.
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-lower:      AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2013-11-22T08:25:53Z
+last-modified:  2015-05-28T07:31:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:690::/32
+descr:          The Portuguese National Research & Education Network
+origin:         AS1930
+mnt-by:         AS1930-MNT
+mnt-lower:      AS1930-MNT
+mnt-routes:     AS1930-MNT
+created:        2005-04-06T14:05:57Z
+last-modified:  2015-05-28T07:31:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

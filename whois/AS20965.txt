@@ -1,0 +1,391 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20929 - AS21002'
+
+as-block:       AS20929 - AS21002
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20965'
+
+% Abuse contact for 'AS20965' is 'cert@geant.org'
+
+aut-num:        AS20965
+as-name:        GEANT
+org:            ORG-DLCU1-RIPE
+descr:          The GEANT IP Service
+descr:          The GEANT Network Connects the European National Regional Education Networks (NRENs) together
+remarks:        GEANT Research and Education Network
+remarks:
+remarks:        === BEGIN === INFORMATION ==========================================================
+remarks:        NREN routes are marked with an informational community based on ASN.
+remarks:
+remarks:        20965:<ASN> For 2-byte ASNs
+remarks:        origin:<ASN>:20965 For 4-byte ASNs
+remarks:
+remarks:        NRENs can block advertisements to other NRENs using a specific block community.
+remarks:
+remarks:        64512:<ASN> For 2-byte destination ASNs
+remarks:        origin:<ASN>:64512 For 4-byte destination ASNs
+remarks:
+remarks:        NRENs are welcome to use specific communities to define how routes are advertised to R&E peers
+remarks:        R&E Peers participate in the exchange of R&E traffic but are not part of the GEANT consortium
+remarks:        Prepending is additive, combine communities to increase prepending.
+remarks:
+remarks:        20965:0000 - Don't announce the routes to all R&E Peers
+remarks:        20965:0010 - Prepend GEANT AS one time towards all R&E Peers
+remarks:        20965:0020 - Prepend GEANT AS two times towards all R&E Peers
+remarks:        20965:0030 - Prepend GEANT AS three times towards all R&E Peers
+remarks:        20965:0060 - Prepend GEANT AS six times towards all R&E Peers
+remarks:
+remarks:        Routes can be manipulated using per-peer communities
+remarks:        Penultimate digit is used to govern route action
+remarks:        20965:...0. - Block advertisement to R&E Peer
+remarks:        20965:...1. - Prepend GEANT AS one time towards to R&E Peer
+remarks:        20965:...2. - Prepend GEANT AS two times towards to R&E Peer
+remarks:        20965:...3. - Prepend GEANT AS three times towards to R&E Peer
+remarks:        20965:...6. - Prepend GEANT AS six times towards to R&E Peer
+remarks:
+remarks:        20965:15.0 - TWAREN
+remarks:        20965:20.0 - SINET
+remarks:        20965:30.0 - CANARIE
+remarks:        20965:45.0 - UbuntuNet
+remarks:        20965:50.0 - Internet2
+remarks:        20965:60.0 - ESnet
+remarks:        20965:80.0 - RedCLARA
+remarks:        20965:85.0 - NISN
+remarks:        20965:90.0 - TEIN
+remarks:        20965:120.0 - SARInet/KAUST
+remarks:        20965:150.0 - ASREN
+remarks:        20965:160.0 - KREONET
+remarks:        20965:170.0 - NKN
+remarks:        20965:180.0 - IRANET
+remarks:        20965:190.0 - OMREN
+remarks:        20965:200.0 - KIAE
+remarks:        20965:210.0 - SingAREN
+remarks:        20965:220.0 - WACREN
+remarks:        20965:230.0 - HBKU
+remarks:        20965:240.0 - Maaen
+remarks:        20965:250.0 - ANKABUT
+remarks:        20965:260.0 - TENET
+remarks:        20965:270.0 - NIKS
+remarks:        20965:280.0 - UTIC
+remarks:        20965:290.0 - T-SYSTEMS
+remarks:        20965:300.0 - CSTNET
+remarks:        20965:310.0 - CAREN
+remarks:        20965:320.0 - AARNet
+remarks:        20965:330.0 - ESTINET
+remarks:        20965:340.0 - MARWAN
+remarks:        20965:350.0 - HARNET
+remarks:        20965:360.0 - ARN
+remarks:
+remarks:        20965:0008 - RTBH service, /32 and /128 prefixes only
+remarks:        20965:0001 - Routes heard with suspected commercial ASNs in the path.
+remarks:        20965:0002 - Anycast Routing
+remarks:        Anycast routes are identified by a prefix list and community filter and the local preference raised on backup links.
+remarks:        NRENs who add this community will see no effect unless they also instruct us to add the route to our prefix-list.
+remarks:
+remarks:        ===============
+remarks:        R&E Peer Traffic Engineering
+remarks:        ===============
+remarks:        Peers eligible for backup transit arrangements can announce prefixes to other R&E peers like so:
+remarks:        64700:<ASN> For 2-byte ASNs
+remarks:        origin:<ASN>:64700 For 4-byte ASNs
+remarks:
+remarks:        === END === INFORMATION ==========================================================
+remarks:
+remarks:        ===============
+remarks:        GEANT R&E
+remarks:        ===============
+remarks:        Internal internal prefixes are given community 20965:155
+remarks:
+remarks:        GEANT NRENs - National Regional Educational Networks
+remarks:        NREN prefixes are given a LOCAL-PREF of 150 and community 20965:155
+remarks:
+import:         from AS137 accept AS-GARRTOGEANT and AS31638
+import:         from AS378 accept AS-MACHBA
+import:         from AS513 accept AS-CERNEXT and AS-SWITCH and AS50837
+import:         from AS559 accept AS-SWITCH and AS-CERNEXT and AS50837
+import:         from AS680 accept AS-DFNTOWINISP
+import:         from AS766 accept AS-REDIRIS
+import:         from AS786 accept AS-JANETEURO
+import:         from AS1103 accept AS1103:AS-SURF
+import:         from AS1213 accept AS-HEANET
+import:         from AS1853 accept AS-ACONET and AS-ACOSERV and AS-ACONET-STH
+import:         from AS1930 accept AS-RCCN
+import:         from AS1955 accept AS-HBONE
+import:         from AS2107 accept AS-ARNES
+import:         from AS2108 accept AS-CARNet
+remarks:        AS7500 (DNS root name-server) is behind RENATER
+import:         from AS2200 accept AS-RENATER
+import:         from AS2602 accept AS-RESTENA
+import:         from AS2603 accept AS-NORDUNET-RE
+import:         from AS2607 accept AS-SANET
+import:         from AS2611 accept AS-BELNET
+import:         from AS2614 accept AS-ROEDUNET
+import:         from AS2847 accept AS-LITNET
+import:         from AS2852 accept AS2852:AS-CESNET
+import:         from AS3221 accept AS-EENET
+import:         from AS3268 accept AS-CYNET
+import:         from AS5408 accept AS5408:AS-TO-GEANT and AS5408:RS-ROUTES
+import:         from AS5538 accept AS-SigmaNet-Geant
+import:         from AS6802 accept AS-ISTF
+import:         from AS8501 accept AS-PLNET
+import:         from AS8517 accept AS-ULAKNET
+import:         from AS9199 accept AS-RENAM
+import:         from AS12046 accept AS-RICERKANET
+import:         from AS12687 accept AS-URAN-GEANT
+import:         from AS13092 accept AS13092:AS-TO-GEANT
+import:         from AS20545 accept as-GRENA-GEANT
+import:         from AS21274 accept AS-BASNET
+import:         from AS40981 accept AS40981
+import:         from AS44224 accept AS-MARNET
+import:         from AS47623 accept AS47623:AS-SET
+import:         from AS57961 accept AS57961
+import:         from AS202993 accept AS-AzScience-Geant
+remarks:
+export:         to AS137 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS378 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS513 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS559 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS680 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS766 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS786 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS1103 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS1213 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS1853 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS1930 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS1955 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2107 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2108 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2200 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2602 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2603 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2607 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2611 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2614 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2847 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS2852 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS3221 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS3268 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS5408 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS5538 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS6802 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS8501 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS8517 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS9199 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS12687 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS12046 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS13092 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS20545 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS21274 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS40981 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS44224 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS47623 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS57961 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+export:         to AS202993 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+remarks:
+remarks:        GEANT PEERS - non-NRENs who receive NREN routes:
+remarks:        All Peers are accepted with a LOCAL-PREF of 100
+import:         from AS293 accept AS293:AS-ESNET
+import:         from AS297 accept AS297:AS-CONE
+import:         from AS2018 accept AS-TERTIARY
+import:         from AS3267 accept as3267:as-cust:as-gov
+import:         from AS2907 accept as2907:as-sinet
+import:         from AS3208 accept AS3208
+import:         from AS5089 accept AS-NTLI
+import:         from AS6509 accept AS6509:AS-CANARIE
+import:         from AS6879 accept AS6879 AS2561
+import:         from AS11537 accept AS20965:AS-FROM-Internet2-TO-GEANT
+import:         from AS20545 accept as-bgp_peers
+import:         from AS23911 accept AS23911
+import:         from AS9264 accept AS9264
+import:         from AS24490 accept AS20965:AS-FROM-TEIN-TO-GEANT
+import:         from AS27750 accept AS20965:AS-FROM-REDCLARA-TO-GEANT
+import:         from AS36944 accept AS-UBUNTUNET
+import:         from AS46786 accept AS46786
+import:         from AS47623 accept AS47623 and AS51090:AS-ALL
+import:         from AS136968 accept AS136968
+import:         from AS8670 accept AS8670:AS-UTIC
+import:         from AS37288 accept AS-SET-WACREN
+import:         from AS7539 accept AS7539:AS-TWAREN
+import:         from AS9885 accept AS20965:AS-FROM-NKN-TO-GEANT
+import:         from AS30983 accept AS30983
+import:         from AS8895 accept AS8895:AS-KACST
+import:         from AS1237 accept AS1237:AS-KREONET
+import:         from AS50999 accept AS50999
+import:         from AS6736 accept AS-iranet-IPM
+import:         from AS34945 accept AS34945
+import:         from AS7497 accept AS7497:AS-CSTNET
+import:         from AS199354 accept AS199354:AS-ASREN-GEANT-EXPORT
+import:         from AS7575 accept AS7575:AS-CUSTOMER
+import:         from AS137207 accept AS137207:AS-HARNET-RE
+remarks:
+remarks:        The following ASs are our non-NREN peers who receive NREN routes. All peers get all routes from AS-GEANTNRN and a subset of AS-GEANTNRENPEERS based on the agreed transit policy as highlighted by the communities below.
+export:         to AS293 announce AS-GEANTNRN and AS20965:AS-FROM-NKN-TO-GEANT and AS2561 and AS30983 and AS3208 and AS6879 and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS297 announce AS-GEANTNRN and AS20965:AS-FROM-NKN-TO-GEANT and AS2561 and AS30983 and AS3208 and AS6879 and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS2018 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS3267 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS2907 announce AS-GEANTNRN and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS2561 and AS30983 and AS3208 and AS6879 and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS3208 announce AS-GEANTNRN and AS20965:AS-FROM-Internet2-TO-GEANT and AS20965:AS-FROM-NKN-TO-GEANT and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS20965:AS-FROM-TEIN-TO-GEANT and AS2561 and AS293:AS-ESNET and AS297:AS-CONE and AS30983 and AS6509:AS-CANARIE and AS6879 and AS7497:AS-CSTNET and AS7575:AS-CUSTOMER and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS9264 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS199354 announce AS-GEANTNRN and AS20965:AS-FROM-Internet2-TO-GEANT and AS20965:AS-FROM-NKN-TO-GEANT and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS20965:AS-FROM-TEIN-TO-GEANT and AS2561 and AS293:AS-ESNET and AS297:AS-CONE and AS30983 and AS3208 and AS6509:AS-CANARIE and AS6879 and AS7497:AS-CSTNET and AS7575:AS-CUSTOMER and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS6509 announce AS-GEANTNRN and AS20965:AS-FROM-NKN-TO-GEANT and AS2561 and AS30983 and AS3208 and AS6879 and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS37944 announce AS-GEANTNRN and AS2561 and AS30983 and AS3208 and AS6879 and AS7497:AS-CSTNET and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS6879 announce AS-GEANTNRN and AS20965:AS-FROM-Internet2-TO-GEANT and AS20965:AS-FROM-NKN-TO-GEANT and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS20965:AS-FROM-TEIN-TO-GEANT and AS293:AS-ESNET and AS297:AS-CONE and AS30983 and AS3208 and AS6509:AS-CANARIE and AS7497:AS-CSTNET and AS7575:AS-CUSTOMER and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS137207 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS34945 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS11537 announce AS-GEANTNRN and AS20965:AS-FROM-NKN-TO-GEANT and AS2561 and AS30983 and AS3208 and AS6879 and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS6736 announce AS-GEANTNRN and AS20965:AS-FROM-Internet2-TO-GEANT and AS20965:AS-FROM-NKN-TO-GEANT and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS20965:AS-FROM-TEIN-TO-GEANT and AS2561 and AS293:AS-ESNET and AS297:AS-CONE and AS30983 and AS3208 and AS6509:AS-CANARIE and AS6879 and AS7497:AS-CSTNET and AS7575:AS-CUSTOMER and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS50999 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS59624 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS17579 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS8895 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS30983 announce AS-GEANTNRN and AS20965:AS-FROM-Internet2-TO-GEANT and AS20965:AS-FROM-NKN-TO-GEANT and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS20965:AS-FROM-TEIN-TO-GEANT and AS2561 and AS293:AS-ESNET and AS297:AS-CONE and AS3208 and AS6509:AS-CANARIE and AS6879 and AS7497:AS-CSTNET and AS7575:AS-CUSTOMER and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS9885 announce AS-GEANTNRN and AS20965:AS-FROM-Internet2-TO-GEANT and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS2561 and AS293:AS-ESNET and AS297:AS-CONE and AS30983 and AS3208 and AS6509:AS-CANARIE and AS6879 and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS206350 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS27750 announce AS-GEANTNRN and AS-UBUNTUNET and AS199354:AS-ASREN-GEANT-EXPORT and AS6879 and AS2561 and AS3208 and AS-iranet-IPM and AS-SET-WACREN and AS20965:AS-FROM-NKN-TO-GEANT and AS8670:AS-UTIC
+export:         to AS23855 announce AS-GEANTNRN and AS2561 and AS30983 and AS3208 and AS6879 and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS24490 announce AS-GEANTNRN and AS2561 and AS30983 and AS3208 and AS6879 and AS8670:AS-UTIC and AS-SET-WACREN and AS-UBUNTUNET
+export:         to AS7539 announce AS-GEANTNRN and AS8670:AS-UTIC
+export:         to AS36944 announce AS-GEANTNRN and AS20965:AS-FROM-Internet2-TO-GEANT and AS20965:AS-FROM-NKN-TO-GEANT and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS20965:AS-FROM-TEIN-TO-GEANT and AS2561 and AS293:AS-ESNET and AS297:AS-CONE and AS30983 and AS3208 and AS6509:AS-CANARIE and AS6879 and AS7497:AS-CSTNET and AS7575:AS-CUSTOMER and AS8670:AS-UTIC and AS-SET-WACREN
+export:         to AS8670 announce AS-GEANTNRN and AS1237:AS-KREONET and AS20965:AS-FROM-Internet2-TO-GEANT and AS20965:AS-FROM-NKN-TO-GEANT and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS20965:AS-FROM-TEIN-TO-GEANT and AS2561 and AS293:AS-ESNET and AS297:AS-CONE and AS30983 and AS3208 and as3267:as-cust:as-gov and AS34945 and AS50999 and AS6509:AS-CANARIE and AS6879 and AS7497:AS-CSTNET and AS7539:AS-TWAREN and AS7575:AS-CUSTOMER and AS8895:AS-KACST and AS9264 and AS-KIAE-GRID and AS-SET-WACREN and AS-TERTIARY and AS-UBUNTUNET
+export:         to AS37288 announce AS-GEANTNRN and AS20965:AS-FROM-Internet2-TO-GEANT and AS20965:AS-FROM-NKN-TO-GEANT and AS20965:AS-FROM-REDCLARA-TO-GEANT and AS20965:AS-FROM-TEIN-TO-GEANT and AS2561 and AS293:AS-ESNET and AS297:AS-CONE and AS30983 and AS3208 and AS6509:AS-CANARIE and AS6879 and AS7497:AS-CSTNET and AS7575:AS-CUSTOMER and AS8670:AS-UTIC and AS-UBUNTUNET
+admin-c:        EJA2-RIPE
+tech-c:         DANT-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DANTE-MNT
+created:        2002-09-25T09:03:02Z
+last-modified:  2025-08-07T09:15:37Z
+source:         RIPE
+
+organisation:   ORG-DLCU1-RIPE
+org-name:       GEANT Vereniging
+country:        NL
+org-type:       LIR
+address:        Hoekenrode 3
+address:        1102 BR
+address:        Amsterdam
+address:        NETHERLANDS
+phone:          +441223371300
+phone:          +31 (0)20 5304488
+fax-no:         +441223371371
+admin-c:        RGH15-RIPE
+admin-c:        TR88-RIPE
+admin-c:        TB5303-RIPE
+admin-c:        EJA2-RIPE
+admin-c:        NGD-RIPE
+admin-c:        DANT-RIPE
+abuse-c:        DCRT1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DANTE-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DANTE-MNT
+created:        2004-04-17T11:18:52Z
+last-modified:  2025-05-09T14:30:17Z
+source:         RIPE # Filtered
+
+role:           GEANT Operations
+address:        City House, 126-130 Hills Road
+address:        Cambridge CB2 1PQ, UK
+phone:          +44 1223 371300
+fax-no:         +44 1223 371371
+abuse-mailbox:  cert@oc.geant.net
+remarks:        operations@ is read UK office hours only; not for outage reports.
+remarks:        Regarding security related problems contact:
+remarks:        cert@oc.geant.net
+remarks:        Regarding electronic mail abuse contact:
+remarks:        cert@oc.geant.net
+remarks:        ----------------------------------------------------
+admin-c:        EJA2-RIPE
+admin-c:        TB5303-RIPE
+admin-c:        NGD-RIPE
+tech-c:         RGH15-RIPE
+tech-c:         NGD-RIPE
+tech-c:         EJA2-RIPE
+tech-c:         TR88-RIPE
+nic-hdl:        DANT-RIPE
+mnt-by:         DANTE-MNT
+created:        2002-09-02T10:52:00Z
+last-modified:  2018-03-22T11:31:41Z
+source:         RIPE # Filtered
+
+person:         Emma Apted
+address:        DANTE
+address:        City House
+address:        126-130 Hills Road
+address:        Cambridge CB2 1PQ
+address:        United Kingdom
+phone:          +44 1223 371300
+fax-no:         +44 1223 371371
+nic-hdl:        EJA2-RIPE
+mnt-by:         DANTE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2013-03-27T18:26:25Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          62.40.96.0/19
+descr:          GEANT European Backbone
+origin:         AS20965
+mnt-by:         DANTE-MNT
+created:        2005-07-14T14:05:45Z
+last-modified:  2005-07-14T14:05:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.97.92.0/22
+origin:         AS20965
+mnt-by:         DANTE-MNT
+created:        2023-09-06T08:14:59Z
+last-modified:  2023-09-06T08:14:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:798::/32
+descr:          GEANT European Backbone
+origin:         AS20965
+mnt-by:         DANTE-MNT
+mnt-routes:     DANTE-MNT
+created:        2005-01-10T16:30:51Z
+last-modified:  2017-01-16T17:30:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

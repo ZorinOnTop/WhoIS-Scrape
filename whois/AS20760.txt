@@ -1,0 +1,202 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20760'
+
+% Abuse contact for 'AS20760' is 'soc@gruposantander.com'
+
+aut-num:        AS20760
+as-name:        EUROCIBER-AS
+descr:          http://www.eurociber.es
+org:            ORG-GES2-RIPE
+import:         from AS2134 action pref=40; accept AS2134
+import:         from AS3257 action pref=100; accept ANY
+import:         from AS3352 action pref=100; accept ANY
+import:         from AS8782 action pref=80; accept AS8782
+import:         from AS12359 action pref=100; accept ANY
+import:         from AS8928 action pref=100; accept ANY
+import:         from AS16168 action pref=80; accept AS-GENETSISES
+import:         from AS42325 action pref=100; accept AS42325
+import:         from AS20815 action pref=100; accept AS-GRN
+export:         to AS2134 announce ANY
+export:         to AS3257 announce AS-EUROCIBER
+export:         to AS3352 announce AS-EUROCIBER
+export:         to AS8782 announce AS-EUROCIBER
+export:         to AS12359 announce AS-EUROCIBER
+export:         to AS8928 announce AS-EUROCIBER
+export:         to AS16168 announce AS-EUROCIBER
+export:         to AS42325 announce ANY
+export:         to AS20815 announce ANY
+admin-c:        DCA34-RIPE
+tech-c:         SE626-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ***************************************************
+remarks:        We do private peerings in:
+remarks:
+remarks:        CPD   - Mesena, 80 - Madrid  (Our primary building)
+remarks:        CPD2 - Mesena, 80 - Madrid  (Our backup building)
+remarks:
+remarks:        E-mail contacts:
+remarks:
+remarks:        Abuse   ---> abuse@eurociber.es
+remarks:        Noc       ---> noc@eurociber.es
+remarks:        Peering ---> peering@eurociber.es
+remarks:
+remarks:        ***************************************************
+mnt-by:         EUROCIBER-MNT
+created:        2002-05-14T10:18:48Z
+last-modified:  2017-11-15T09:17:29Z
+source:         RIPE
+
+organisation:   ORG-GES2-RIPE
+org-name:       Santander Global Technology, S.L.U
+country:        ES
+org-type:       LIR
+address:        Avda. Cantabria, S/N. Edif. Dehesa. Planta Baja
+address:        28660
+address:        Boadilla del Monte, Madrid
+address:        SPAIN
+phone:          +34912891000
+fax-no:         +34911831100
+admin-c:        GIA47-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-PRODUBAN
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-PRODUBAN
+tech-c:         GVS47-RIPE
+abuse-c:        PSOC-RIPE
+created:        2004-04-17T11:16:48Z
+last-modified:  2025-04-22T12:17:13Z
+source:         RIPE # Filtered
+
+role:           Soporte Eurociber
+address:        Mesena, 80
+address:        Banesto
+address:        Madrid
+address:        Spain
+phone:          +34 91 183 02 00
+remarks:        ---------------------------------------------
+remarks:        Abuse:            abuse@eurociber.es
+remarks:        Network issues:   noc@eurociber.es
+remarks:        Peering:          peering@eurociber.es
+remarks:        ---------------------------------------------
+admin-c:        DCA34-RIPE
+tech-c:         LAH4-RIPE
+nic-hdl:        SE626-RIPE
+mnt-by:         EUROCIBER-MNT
+created:        2003-11-25T12:05:45Z
+last-modified:  2006-02-27T18:49:58Z
+source:         RIPE # Filtered
+
+person:         David Chaos Arias
+address:        C/ Mesena 80
+address:        Madrid, Spain
+phone:          +34 91 183 02 00
+nic-hdl:        DCA34-RIPE
+mnt-by:         EUROCIBER-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-02-27T18:50:02Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          193.127.0.0/16
+descr:          Eurociber
+origin:         AS20760
+mnt-by:         EUROCIBER-MNT
+mnt-by:         MNT-PRODUBAN
+created:        2003-02-12T17:42:17Z
+last-modified:  2016-05-18T09:23:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.127.50.0/24
+descr:          Eurociber temp., formerly KPNQwest-Spain
+origin:         AS20760
+mnt-by:         MAINT-AS3257
+changed:        netguard@gtt.net 20180323
+source:         RADB
+last-modified:  2023-11-13T15:53:22Z
+rpki-ov-state:  valid
+
+route:          193.127.102.0/24
+descr:          Eurociber temp., formerly KPNQwest-Spain
+origin:         AS20760
+mnt-by:         MAINT-AS3257
+changed:        netguard@gtt.net 20180323
+source:         RADB
+last-modified:  2023-11-13T15:53:22Z
+rpki-ov-state:  valid
+
+route:          193.127.103.0/24
+descr:          Eurociber temp., formerly KPNQwest-Spain
+origin:         AS20760
+mnt-by:         MAINT-AS3257
+changed:        netguard@gtt.net 20180323
+source:         RADB
+last-modified:  2023-11-13T15:53:22Z
+rpki-ov-state:  valid
+
+route:          193.201.108.0/24
+descr:          Eurociber Autonomous System
+notify:         Housing@notes.banesto.es
+origin:         AS20760
+mnt-lower:      EUROCIBER-MNT
+mnt-routes:     EUROCIBER-MNT
+mnt-by:         EUROCIBER-MNT
+created:        2002-10-02T11:33:07Z
+last-modified:  2002-10-07T10:47:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.149.213.0/24
+descr:          AS-SCH
+origin:         AS20760
+mnt-by:         SCH-MNT
+mnt-lower:      EUROCIBER-MNT
+created:        2004-09-07T06:11:48Z
+last-modified:  2004-09-07T06:23:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

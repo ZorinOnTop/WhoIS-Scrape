@@ -1,0 +1,236 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21453 - AS21503'
+
+as-block:       AS21453 - AS21503
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21493'
+
+% Abuse contact for 'AS21493' is 'abuse@gtt.net'
+
+aut-num:        AS21493
+as-name:        PKXGEU
+org:            ORG-PL6-RIPE
+admin-c:        PKXG1-RIPE
+tech-c:         PKXG1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:
+remarks:        PacketExchange eXpress Route-server Community Definitions
+remarks:        ----------------------------------------------------------
+remarks:        Community Descriptions
+remarks:
+remarks:        Each received prefix is tagged with two BGP communities based
+remarks:        on the peer's point of ingress to the PacketExchange network
+remarks:        for the eXpress connection originating the prefix.
+remarks:
+remarks:        These two communities denote
+remarks:
+remarks:        21493:1xxxx Region and Country
+remarks:        21493:2xxxx City and POP Site
+remarks:
+remarks:        Region & Country Description
+remarks:
+remarks:        21493:[x][yy][zz]
+remarks:        x = 1 (designates this as a region and country community
+remarks:        yy = REGION
+remarks:        zz = COUNTRY/ZONE
+remarks:
+remarks:        City & POP Site Description
+remarks:
+remarks:        21493:[a][bb][cc]
+remarks:        a = 2 (designates this as a city and POP community)
+remarks:        bb = CITY/METRO
+remarks:        cc = POP SITE
+remarks:
+remarks:        ----------------------------------------------------------
+remarks:        Region and Country Communities Applied at Ingress
+remarks:
+remarks:        Community - REGION
+remarks:        21493:101xx Europe (EU)
+remarks:        21493:102xx North America (NA)
+remarks:        21493:103xx Asia (AS)
+remarks:
+remarks:        Community - COUNTRY/ZONE
+remarks:        21493:10101 UK
+remarks:        21493:10102 Ireland
+remarks:        21493:10103 Netherlands
+remarks:        21493:10104 Germany
+remarks:        21493:10105 France
+remarks:        21493:10106 Belgium
+remarks:        21493:10107 Sweden
+remarks:        21493:10108 Denmark
+remarks:        21493:10201 US Zone 1*
+remarks:        21493:10202 US Zone 2*
+remarks:        21493:10301 Hong Kong
+remarks:
+remarks:        *US sites are split into 2 zones as follows:
+remarks:        Zone 1: NYC; Washington DC/Ashburn; Seacaucus; Chicago; Miami
+remarks:        Zone 2: Los Angeles; San Francisco; San Jose; Seattle; Dallas
+remarks:
+remarks:        ----------------------------------------------------------
+remarks:        City/Metro and POP Site Communities Applied at Ingress
+remarks:
+remarks:        Community - CITY/METRO
+remarks:        21493:232xx London
+remarks:        21493:252xx Manchester
+remarks:        21493:242xx Dublin
+remarks:        21493:233xx Amsterdam
+remarks:        21493:234xx Frankfurt
+remarks:        21493:235xx Paris
+remarks:        21493:251xx Brussels
+remarks:        21493:202xx Stockholm
+remarks:        21493:204xx Copenhagen
+remarks:        21493:248xx Hong Kong
+remarks:        21493:237xx Ashburn
+remarks:        21493:236xx New York
+remarks:        21493:206xx Seacaucus
+remarks:        21493:244xx Chicago
+remarks:        21493:246xx Miami
+remarks:        21493:243xx Dallas
+remarks:        21493:238xx Los Angeles
+remarks:        21493:241xx San Francisco
+remarks:        21493:239xx San Jose
+remarks:        21493:240xx Seattle
+remarks:
+remarks:        Community - POP SITE
+remarks:        21493:23201 Telehouse North
+remarks:        21493:23202 InterXion
+remarks:        21493:23203 Redbus Harbour Exchange
+remarks:        21493:23204 Redbus Meridian Gate
+remarks:        21493:23205 Telehouse East
+remarks:        21493:23206 Global Switch 1
+remarks:        21493:23207 Redbus Soverign House
+remarks:        21493:23209 City Lifeline
+remarks:        21493:23218 IX Europe Park Royal
+remarks:        21493:23219 IX Europe Heathrow
+remarks:        21493:25201 Telecity 2
+remarks:        21493:24201 EireComm
+remarks:        21493:24202 Data Electronics
+remarks:        21493:24203 InterXion
+remarks:        21493:24204 Telecity
+remarks:        21493:23301 Sara
+remarks:        21493:23302 Redbus
+remarks:        21493:23303 Nikhef
+remarks:        21493:23304 InterXion (Building 3)
+remarks:        21493:23305 Telecity 2
+remarks:        21493:23401 InterXion 2
+remarks:        21493:23402 Redbus
+remarks:        21493:23403 IX Europe
+remarks:        21493:23404 InterXion 4
+remarks:        21493:23405 InterXion 1
+remarks:        21493:23501 InterXion
+remarks:        21493:25101 InterXion
+remarks:        21493:20201 Telecity
+remarks:        21493:20401 Global Connect
+remarks:        21493:24801 iAdvantage
+remarks:        21493:23701 Equinix
+remarks:        21493:23601 111th 8th Avenue
+remarks:        21493:20601 Seacaucus AT&T
+remarks:        21493:24401 Equinix
+remarks:        21493:24601 NAP of Americas
+remarks:        21493:24301 Equinix Dallas
+remarks:        21493:23801 One Wilshire
+remarks:        21493:24101 356 Main
+remarks:        21493:23901 Market Post Tower
+remarks:        21493:23902 Equinix Great Oaks
+remarks:        21493:23903 Switch & Data Palo Alto
+remarks:        21493:24001 Westin Building
+remarks:
+remarks:        ----------------------------------------------------------
+remarks:        Examples
+remarks:
+remarks:        EU Customer
+remarks:        21493:10101 = EU, UK
+remarks:        21493:23201 = London, Telehouse North
+remarks:
+remarks:        North American Customer
+remarks:        21493:10201 = North America, US Zone 1
+remarks:        21493:23701 = Ashburn, Equinix
+remarks:
+remarks:        ----------------------------------------------------------
+remarks:        Traffic Engineering Communities
+remarks:
+remarks:        eXpress Global
+remarks:        Community ---- Action ----------------- Precedence
+remarks:        0:X ---------- Deny to peer ASNX ------ 1
+remarks:        64600:X ------ Permit to peer ASNX ---- 2
+remarks:        64666:10100 -- Deny to EU peers ------- 3
+remarks:        64666:10200 -- Deny to NA peers ------- 3
+remarks:        64666:10201 -- Deny to US Z1 peers ---- 3
+remarks:        64666:10202 -- Deny to US Z2 peers ---- 3
+remarks:        64666:10300 -- Deny to AS peers ------- 3
+remarks:        64666:23200 -- Deny to London peers --- 3
+remarks:        64777:10100 -- Permit to EU peers ----- 4
+remarks:        64777:10200 -- Permit to NA peers ----- 4
+remarks:        64777:10201 -- Permit to US Z1 peers -- 4
+remarks:        64777:10202 -- Permit to US Z2 peers -- 4
+remarks:        64777:10300 -- Permit to AS peers ----- 4
+remarks:        64777:23200 -- Permit to London peers - 4
+remarks:        0:21493 ------ Deny to all peers ------ 5
+remarks:
+mnt-by:         PKXG-MNT
+created:        2002-01-02T10:48:21Z
+last-modified:  2017-11-15T09:19:02Z
+source:         RIPE
+
+organisation:   ORG-PL6-RIPE
+org-name:       GTT - EMEA Ltd.
+country:        GB
+org-type:       LIR
+address:        3rd Floor New Castle House,Castle Boulevard
+address:        NG7 1FT
+address:        Nottingham
+address:        UNITED KINGDOM
+phone:          +442074897200
+fax-no:         +442074897200
+admin-c:        TK333-RIPE
+admin-c:        DS15504-RIPE
+tech-c:         NN3489-RIPE
+tech-c:         AV13497-RIPE
+abuse-c:        AR17852-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        PKXG-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PKXG-MNT
+created:        2004-04-17T12:20:16Z
+last-modified:  2024-03-11T11:58:01Z
+source:         RIPE # Filtered
+
+role:           PacketExchange Hostmaster
+address:        11a Curtain Road
+address:        London
+address:        EC2A 3LT
+address:        UK
+phone:          +44 20 7377 4130
+fax-no:         +44 20 7377 4131
+abuse-mailbox:  abuse@packetexchange.net
+admin-c:        MS6071-RIPE
+tech-c:         MS6071-RIPE
+nic-hdl:        PKXG1-RIPE
+remarks:        PacketExchange Hostmaster role object
+mnt-by:         PKXG-MNT
+created:        2003-08-28T09:43:02Z
+last-modified:  2011-02-16T08:37:40Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+%  No entries found for the selected source(s).
+
+

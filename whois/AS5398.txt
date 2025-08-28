@@ -1,0 +1,431 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5398'
+
+% Abuse contact for 'AS5398' is 'abuse@internetone.it'
+
+aut-num:        AS5398
+as-name:        InternetONE
+remarks:        InternetONE Worldwide Backbone
+org:            ORG-IOS9-RIPE
+remarks:        ---------------------------------------------
+remarks:        Transit providers
+remarks:        ---------------------------------------------
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-5398
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-5398
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-5398
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-5398
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS-5398
+mp-import:      afi ipv6.unicast from AS9002 accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-5398
+remarks:        --------------------------------------------
+remarks:        Import generic
+remarks:        ---------------------------------------------
+import:         from AS-ANY accept ANY
+mp-import:      afi ipv6.unicast from AS-ANY accept ANY
+remarks:        ---------------------------------------------
+remarks:        Export to Customers
+remarks:        ---------------------------------------------
+export:         to AS-5398 announce ANY
+mp-export:      afi ipv6.unicast to AS-5398 announce ANY
+remarks:        ---------------------------------------------
+remarks:        Export to Peerings and PNI
+remarks:        ---------------------------------------------
+export:         to AS-ANY announce AS-5398
+mp-export:      afi ipv6.unicast to AS-ANY announce AS-5398
+remarks:        ---------------------------------------------
+remarks:        AMS-IX RS Detail
+remarks:        ---------------------------------------------
+import-via:     AS6777 from AS-ANY EXCEPT AS5398:AS-AMS-IX-FILTER accept ANY
+export-via:     AS6777 to AS-ANY EXCEPT AS5398:AS-AMS-IX-FILTER announce AS-5398
+import-via:     afi ipv6.unicast AS6777 from AS-ANY EXCEPT AS5398:AS-AMS-IX-FILTER accept ANY
+export-via:     afi ipv6.unicast AS6777 to AS-ANY EXCEPT AS5398:AS-AMS-IX-FILTER announce AS-5398
+remarks:        ---------------------------------------------
+remarks:        Route flap damping policy is applied
+remarks:        ---------------------------------------------
+remarks:        AS5398 is matching RPKI validation state and reject
+remarks:        invalid prefixes from peers and customers
+remarks:        ---------------------------------------------
+remarks:        Peering police is selective, other technical details on
+remarks:        https://www.peeringdb.com/asn/5398
+remarks:        ---------------------------------------------
+admin-c:        IN2120-RIPE
+tech-c:         IN2120-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         lir-it-internetone-1-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-03-31T18:31:53Z
+source:         RIPE
+
+organisation:   ORG-IOS9-RIPE
+org-name:       Internet one SRL
+country:        IT
+org-type:       LIR
+address:        Via Piemonte 95
+address:        21100
+address:        Varese
+address:        ITALY
+phone:          +39 0332 226092
+admin-c:        IN2120-RIPE
+tech-c:         IN2120-RIPE
+abuse-c:        AR77979-RIPE
+mnt-ref:        lir-it-internetone-1-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         lir-it-internetone-1-MNT
+created:        2025-03-26T08:50:53Z
+last-modified:  2025-03-26T08:50:53Z
+source:         RIPE # Filtered
+
+role:           InternetONE NOC
+address:        ITALY
+address:        Varese
+address:        21100
+address:        Via Piemonte 95
+phone:          +39 0332 226092
+nic-hdl:        IN2120-RIPE
+mnt-by:         lir-it-internetone-1-MNT
+created:        2025-03-26T08:50:52Z
+last-modified:  2025-03-26T08:50:53Z
+source:         RIPE # Filtered
+
+% Information related to 'ORG-AS976-RIPE'
+
+organisation:   ORG-AS976-RIPE
+org-name:       AS5398 SA in liquidazione
+country:        CH
+org-type:       LIR
+address:        Via G.B. Pioda 12
+address:        6900
+address:        Lugano
+address:        SWITZERLAND
+phone:          +41580582319
+admin-c:        AAD128-RIPE
+tech-c:         AN32937-RIPE
+abuse-c:        AR68488-RIPE
+mnt-ref:        lir-ch-as5398-1-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-06-09T12:31:36Z
+last-modified:  2025-04-22T07:17:01Z
+source:         RIPE # Filtered
+
+role:           AS5398 Admin Dept
+address:        SWITZERLAND
+address:        Lugano
+address:        6900
+address:        Via G.B. Pioda 12
+phone:          +41580582319
+nic-hdl:        AAD128-RIPE
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-06-09T12:31:35Z
+last-modified:  2022-06-09T12:31:36Z
+source:         RIPE # Filtered
+
+role:           AS5398 NOC
+address:        SWITZERLAND
+address:        Lugano
+address:        6900
+address:        Via G.B. Pioda 12
+phone:          +41580582319
+nic-hdl:        AN32937-RIPE
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-06-09T12:31:35Z
+last-modified:  2022-06-09T12:31:36Z
+source:         RIPE # Filtered
+
+% Information related to 'AAD128-RIPE'
+
+role:           AS5398 Admin Dept
+address:        SWITZERLAND
+address:        Lugano
+address:        6900
+address:        Via G.B. Pioda 12
+phone:          +41580582319
+nic-hdl:        AAD128-RIPE
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-06-09T12:31:35Z
+last-modified:  2022-06-09T12:31:36Z
+source:         RIPE # Filtered
+
+% Information related to 'AN32937-RIPE'
+
+role:           AS5398 NOC
+address:        SWITZERLAND
+address:        Lugano
+address:        6900
+address:        Via G.B. Pioda 12
+phone:          +41580582319
+nic-hdl:        AN32937-RIPE
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-06-09T12:31:35Z
+last-modified:  2022-06-09T12:31:36Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          31.44.32.0/20
+origin:         AS5398
+mnt-by:         lir-it-internetone-1-MNT
+created:        2025-06-30T09:20:53Z
+last-modified:  2025-06-30T09:20:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.44.44.0/23
+origin:         AS5398
+mnt-by:         lir-it-internetone-1-MNT
+created:        2025-06-30T09:21:07Z
+last-modified:  2025-06-30T09:21:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.44.46.0/23
+origin:         AS5398
+mnt-by:         lir-it-internetone-1-MNT
+created:        2025-06-30T09:21:22Z
+last-modified:  2025-06-30T09:21:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.91.228.0/24
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2024-06-11T08:01:43Z
+last-modified:  2024-06-11T08:01:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.91.229.0/24
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2024-06-11T08:02:02Z
+last-modified:  2024-06-11T08:02:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          45.143.158.0/23
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2025-01-13T14:58:42Z
+last-modified:  2025-01-13T14:58:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.143.159.0/24
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2025-01-13T14:58:58Z
+last-modified:  2025-01-13T14:58:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.21.29.0/24
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-10-23T13:28:48Z
+last-modified:  2022-10-23T13:28:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          77.220.64.0/19
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-10-23T13:20:51Z
+last-modified:  2022-10-23T13:20:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.155.176.0/22
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2025-05-01T11:09:32Z
+last-modified:  2025-05-01T11:09:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.155.184.0/23
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-10-23T13:27:17Z
+last-modified:  2022-10-23T13:27:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.221.216.0/23
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-10-23T13:23:02Z
+last-modified:  2022-10-23T13:23:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.222.104.0/23
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2024-08-12T20:28:51Z
+last-modified:  2024-08-12T20:28:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.222.105.0/24
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2025-01-11T10:07:07Z
+last-modified:  2025-01-11T10:07:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.18.0.0/20
+origin:         AS5398
+mnt-by:         AS15807-MNT
+created:        2024-07-31T08:29:30Z
+last-modified:  2024-07-31T08:29:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0f:e880::/29
+origin:         AS5398
+mnt-by:         lir-ch-as5398-1-MNT
+created:        2022-10-23T13:24:53Z
+last-modified:  2022-10-23T13:24:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,1738 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20562'
+
+% Abuse contact for 'AS20562' is 'ripe@openpeering.nl'
+
+aut-num:        AS20562
+org:            ORG-OPB1-RIPE
+as-name:        OPEN-PEERING-AS
+remarks:        ========================================================
+descr:          Open Peering Initiative, Amsterdam, The Netherlands
+remarks:        ========================================================
+member-of:      AS-OPENPEERING
+remarks:        ========================================================
+remarks:        Private Network Interconnects
+remarks:        ========================================================
+remarks:        Vodafone Globalnet
+import:         from AS1273 action pref=100; accept AS1273:AS-CWW
+export:         to AS1273 announce AS-OPENPEERING
+mp-import:      afi ipv6.unicast from AS1273 accept AS1273:AS-CWW-V6
+mp-export:      afi ipv6.unicast to AS1273 announce AS-OPENPEERING
+remarks:        Opentransit
+import:         from AS5511 action pref=100; accept AS-OPENTRANSIT
+export:         to AS5511 announce AS-OPENPEERING
+mp-import:      afi ipv6.unicast from AS5511 accept AS-OPENTRANSIT
+mp-export:      afi ipv6.unicast to AS5511 announce AS-OPENPEERING
+remarks:        Liberty Global
+import:         from AS6830 action pref=100; accept AS-AORTA
+export:         to AS6830 announce AS-OPENPEERING
+mp-import:      afi ipv6.unicast from AS6830 accept AS-AORTA
+mp-export:      afi ipv6.unicast to AS6830 announce AS-OPENPEERING
+remarks:        Telxius
+import:         from AS12956 action pref=100; accept AS-TDATANET
+export:         to AS12956 announce AS-OPENPEERING
+mp-import:      afi ipv6.unicast from AS12956 accept AS-TDATANET
+mp-export:      afi ipv6.unicast to AS12956 announce AS-OPENPEERING
+remarks:        Amazon
+import:         from AS16509 action pref=100; accept AS-AMAZON
+export:         to AS16509 announce AS-OPENPEERING
+mp-import:      afi ipv6.unicast from AS16509 accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 announce AS-OPENPEERING
+remarks:        Jointtransit
+import:         from AS24785 action pref=100; accept AS-JOINTTRANSIT
+export:         to AS24785 announce AS-OPENPEERING
+mp-import:      afi ipv6.unicast from AS24785 accept AS-JOINTTRANSIT
+mp-export:      afi ipv6.unicast to AS24785 announce AS-OPENPEERING
+remarks:        ========================================================
+import:         from AS42 action pref=100; accept AS42
+import:         from AS205025 action pref=100; accept AS205025
+import:         from AS72 action pref=100; accept AS72
+import:         from AS112 action pref=100; accept AS112
+import:         from AS286 action pref=100; accept AS-KPN
+import:         from AS50629 action pref=100; accept AS-LWL
+import:         from AS714 action pref=100; accept AS-APPLE
+import:         from AS1103 action pref=100; accept AS-SURFNET
+import:         from AS1150 action pref=100; accept AS1150
+import:         from AS1126 action pref=100; accept AS-SARA
+import:         from AS1136 action pref=100; accept AS-KPN
+import:         from AS1140 action pref=100; accept AS1140
+import:         from AS13266 action pref=100; accept AS13266
+import:         from AS1200 action pref=100; accept AS1200
+import:         from AS1267 action pref=100; accept AS-INFOSTRADA
+import:         from AS1764 action pref=100; accept AS-NEXTLAYER
+import:         from AS47872 action pref=100; accept AS-SOFIA-CONNECT
+import:         from AS1836 action pref=100; accept AS-TICCH
+import:         from AS2119 action pref=100; accept AS-TELENOR
+import:         from AS2603 action pref=100; accept AS-NORDUNET
+import:         from AS2686 action pref=100; accept AS2686
+import:         from AS205668 action pref=100; accept AS-GREENMINI
+import:         from AS211588 action pref=100; accept AS-XYPHEN
+import:         from AS2818 action pref=100; accept AS2818
+import:         from AS2914 action pref=100; accept AS2914
+import:         from AS3185 action pref=100; accept AS3185
+import:         from AS3209 action pref=100; accept AS-ARCORGLOBAL
+import:         from AS3216 action pref=100; accept AS-SOVAM
+import:         from AS49033 action pref=100; accept AS-CRITICALCORE
+import:         from AS3262 action pref=100; accept AS-SARENET
+import:         from AS3265 action pref=100; accept AS-ACCESSFORALL
+import:         from AS3267 action pref=100; accept AS-RUNNET
+import:         from AS3303 action pref=100; accept AS3303
+import:         from AS60167 action pref=100; accept AS60167
+import:         from AS3327 action pref=100; accept AS-LINXTELECOM-AMSIX
+import:         from AS3333 action pref=100; accept AS3333
+import:         from AS3856 action pref=100; accept AS3856
+import:         from AS4589 action pref=100; accept AS4589
+import:         from AS205915 action pref=100; accept AS205915
+import:         from AS5089 action pref=100; accept AS5089
+import:         from AS30785 action pref=100; accept AS30785
+import:         from AS12615 action pref=100; accept AS-GCN-OUT
+import:         from AS212027 action pref=100; accept AS-PEBBLEHOST
+import:         from AS42541 action pref=100; accept AS-FIBERBY
+import:         from AS5410 action pref=100; accept AS-T-ONLINEFRANCE
+import:         from AS5418 action pref=100; accept AS5418
+import:         from AS5419 action pref=100; accept AS-CUCI
+import:         from AS33921 action pref=100; accept AS33921
+import:         from AS5430 action pref=100; accept AS-FREENETDE
+import:         from AS5462 action pref=100; accept AS5462
+import:         from AS5466 action pref=100; accept AS5466
+import:         from AS5503 action pref=100; accept AS-RMIFL
+import:         from AS5568 action pref=100; accept AS-RBNET
+import:         from AS5583 action pref=100; accept AS-GIPNL
+import:         from AS16218 action pref=100; accept AS-IACD
+import:         from AS5588 action pref=100; accept AS-GTS-CE
+import:         from AS5607 action pref=100; accept AS-BSKYB-BROADBAND
+import:         from AS5612 action pref=100; accept AS-HW8TRANSIT
+import:         from AS5615 action pref=100; accept AS5615
+import:         from AS6327 action pref=100; accept AS6327
+import:         from AS6412 action pref=100; accept AS-GNET-KW
+import:         from AS6461 action pref=100; accept AS6461
+import:         from AS6507 action pref=100; accept AS6507
+import:         from AS6661 action pref=100; accept AS-PTLU
+import:         from AS212610 action pref=100; accept AS212610
+import:         from AS12392 action pref=100; accept AS-BRUTELE
+import:         from AS6667 action pref=100; accept AS-EUNETIP
+import:         from AS6677 action pref=100; accept AS-ICENET
+import:         from AS6695 action pref=100; accept ANY
+import:         from AS6724 action pref=100; accept AS-STRATORZ
+import:         from AS6728 action pref=100; accept AS6728
+import:         from AS209871 action pref=100; accept AS209871
+import:         from AS6730 action pref=100; accept AS-GLOBAL
+import:         from AS209549 action pref=100; accept AS209549
+import:         from AS42739 action pref=100; accept AS-HAWE-ALL
+import:         from AS6735 action pref=100; accept AS-SDTAMSIX
+import:         from AS6774 action pref=100; accept AS6774
+import:         from AS6777 action pref=100; accept ANY
+import:         from AS6805 action pref=100; accept AS-TDDE
+import:         from AS205394 action pref=100; accept AS-CSLDUAL
+import:         from AS6819 action pref=100; accept AS6819
+import:         from AS6871 action pref=100; accept AS-PLUSNETUK
+import:         from AS6939 action pref=100; accept AS-HURRICANE AS-HURRICANEv6
+import:         from AS7500 action pref=100; accept AS7500
+import:         from AS8068 action pref=100; accept AS-MICROSOFT
+import:         from AS8190 action pref=100; accept AS-VIATEL
+import:         from AS203111 action pref=100; accept AS203111
+import:         from AS50083 action pref=100; accept AS-ALPHA11
+import:         from AS8210 action pref=100; accept AS-TELENOR
+import:         from AS8283 action pref=100; accept AS-COLOCLUE
+import:         from AS197729 action pref=100; accept AS197729
+import:         from AS15703 action pref=100; accept AS-TRUE
+import:         from AS42156 action pref=100; accept AS-GNX
+import:         from AS8312 action pref=100; accept AS-ZYLON
+import:         from AS209377 action pref=100; accept AS209377
+import:         from AS8315 action pref=100; accept AS8315
+import:         from AS8328 action pref=100; accept AS8328
+import:         from AS29311 action pref=100; accept AS29311
+import:         from AS209573 action pref=100; accept AS209573
+import:         from AS8342 action pref=100; accept AS8342:AS-RTCOMM-AMSIX-EXP
+import:         from AS8365 action pref=100; accept AS-MANDA
+import:         from AS57344 action pref=100; accept AS-57344
+import:         from AS8368 action pref=100; accept AS-BENESOL
+import:         from AS1140 action pref=100; accept AS-SIDN
+import:         from AS8399 action pref=100; accept AS-ORNIS
+import:         from AS8422 action pref=100; accept AS-NETCOLOGNE
+import:         from AS200373 action pref=100; accept AS200373
+import:         from AS8426 action pref=100; accept AS-CLARANET
+import:         from AS8447 action pref=100; accept AS-PTA
+import:         from AS200318 action pref=100; accept AS200318
+import:         from AS35709 action pref=100; accept AS-TRIX
+import:         from AS8455 action pref=100; accept AS-ATOM86
+import:         from AS8468 action pref=100; accept AS8468
+import:         from AS203234 action pref=100; accept AS203234
+import:         from AS213899 action pref=100; accept AS213899
+import:         from AS48925 action pref=100; accept AS48925
+import:         from AS8487 action pref=100; accept AS-PHIBEE-TELECOM
+import:         from AS8550 action pref=100; accept ANY
+import:         from AS8553 action pref=100; accept AS-AVENSYS
+import:         from AS8560 action pref=100; accept AS8560
+import:         from AS197727 action pref=100; accept AS197727
+import:         from AS8587 action pref=100; accept AS-INFRACOMNL
+import:         from AS8608 action pref=100; accept AS-QINIP
+import:         from AS8613 action pref=100; accept AS-NETSERVUK
+import:         from AS8657 action pref=100; accept AS8657
+import:         from AS8708 action pref=100; accept AS-RDSNET
+import:         from AS8714 action pref=100; accept ANY
+import:         from AS8737 action pref=100; accept AS8737
+import:         from AS206516 action pref=100; accept AS206516
+import:         from AS8763 action pref=100; accept AS-DENIC
+import:         from AS8781 action pref=100; accept AS-QTEL-SET
+import:         from AS8816 action pref=100; accept AS8816
+import:         from AS8897 action pref=100; accept AS-KCOMSPN
+import:         from AS8916 action pref=100; accept AS-PORTFAST
+import:         from AS44854 action pref=100; accept AS-ERITAP
+import:         from AS8918 action pref=100; accept AS-CARRIERONE
+import:         from AS8935 action pref=100; accept AS-INTOUCH-CS
+import:         from AS200249 action pref=100; accept AS200249
+import:         from AS8954 action pref=100; accept AS8954
+import:         from AS209495 action pref=100; accept AS209495
+import:         from AS212922 action pref=100; accept AS212922
+import:         from AS8966 action pref=100; accept AS-EMIX
+import:         from AS9002 action pref=100; accept AS-RETN
+import:         from AS9009 action pref=100; accept AS-GBXS
+import:         from AS9033 action pref=100; accept ANY
+import:         from AS9036 action pref=100; accept AS-NEURONNEXION
+import:         from AS9143 action pref=100; accept AS-BENELUXS
+import:         from AS9145 action pref=100; accept AS-EWETEL
+import:         from AS9150 action pref=100; accept AS9150
+import:         from AS9191 action pref=100; accept AS-NEWNET
+import:         from AS9498 action pref=100; accept AS9498:AS-BHARTI-IN
+import:         from AS9505 action pref=100; accept AS-TWIG
+import:         from AS10026 action pref=100; accept AS-PACNET
+import:         from AS49627 action pref=100; accept AS49627
+import:         from AS10310 action pref=100; accept AS-YAHOOEU
+import:         from AS11588 action pref=100; accept AS-HIGHWINDS
+import:         from AS12306 action pref=100; accept AS-PLUSLINE
+import:         from AS12322 action pref=100; accept AS-PROXAD
+import:         from AS12323 action pref=100; accept AS12323
+import:         from AS12327 action pref=100; accept AS-IDEAR4BUSINESS
+import:         from AS12329 action pref=100; accept AS-TMR
+import:         from AS12337 action pref=100; accept AS12337
+import:         from AS12399 action pref=100; accept AS-SPXS
+import:         from AS26667 action pref=100; accept AS-RUBICONPROJECT
+import:         from AS12414 action pref=100; accept AS-SOLCON
+import:         from AS12496 action pref=100; accept AS12496
+import:         from AS12519 action pref=100; accept AS-FASTNET
+import:         from AS216066 action pref=100; accept AS216066
+import:         from AS12552 action pref=100; accept AS-IPO
+import:         from AS12561 action pref=100; accept AS12561
+import:         from AS12573 action pref=100; accept AS-WIDEXS
+import:         from AS12654 action pref=100; accept AS12654
+import:         from AS206894 action pref=100; accept AS206894
+import:         from AS12676 action pref=100; accept AS-NCORE
+import:         from AS12713 action pref=100; accept AS-OTEGLOBE
+import:         from AS12731 action pref=100; accept AS-IPHH
+import:         from AS12759 action pref=100; accept AS-SOCO
+import:         from AS196997 action pref=100; accept AS196997
+import:         from AS12779 action pref=100; accept AS12779:AS-CUSTOMERS AS12779:AS-CUSTOMERS-V6
+import:         from AS12854 action pref=100; accept AS-PINE
+import:         from AS12859 action pref=100; accept AS-BIT
+import:         from AS12868 action pref=100; accept AS12868
+import:         from AS12871 action pref=100; accept AS-ELASTIC-INTERCONNECT
+import:         from AS12902 action pref=100; accept AS-LUNA
+import:         from AS12945 action pref=100; accept AS-GP
+import:         from AS12989 action pref=100; accept AS12989
+import:         from AS13030 action pref=100; accept AS-INIT7
+import:         from AS13049 action pref=100; accept AS-FRONTIER
+import:         from AS13101 action pref=100; accept AS-TNG
+import:         from AS13122 action pref=100; accept AS-MANX
+import:         from AS13132 action pref=100; accept AS13132
+import:         from AS13127 action pref=100; accept AS-VERSATEL
+import:         from AS209784 action pref=100; accept AS-WIFISAX
+import:         from AS13169 action pref=100; accept AS13169
+import:         from AS13184 action pref=100; accept AS-HANSENET
+import:         from AS13193 action pref=100; accept AS-NERIM
+import:         from AS13237 action pref=100; accept AS-LNCAMSIX
+import:         from AS13285 action pref=100; accept AS-OPAL
+import:         from AS13445 action pref=100; accept AS-WEBEX
+import:         from AS58076 action pref=100; accept AS-X2COM
+import:         from AS13646 action pref=100; accept AS13646
+import:         from AS13684 action pref=100; accept AS13684
+import:         from AS13768 action pref=100; accept AS13768
+import:         from AS14492 action pref=100; accept AS-DATAPIPE
+import:         from AS15412 action pref=100; accept AS-FLAGP
+import:         from AS15426 action pref=100; accept AS-XENOSITE
+import:         from AS15435 action pref=100; accept AS-KABELFOON
+import:         from AS15447 action pref=100; accept AS-CM
+import:         from AS35332 action pref=100; accept AS-DATAWEB
+import:         from AS15509 action pref=100; accept AS15509
+import:         from AS15516 action pref=100; accept AS-DK-DANSKKABELTV
+import:         from AS15542 action pref=100; accept AS15542
+import:         from AS15557 action pref=100; accept AS15557
+import:         from AS15598 action pref=100; accept AS-IPX
+import:         from AS15600 action pref=100; accept AS-LAN
+import:         from AS15623 action pref=100; accept AS-CYBERLINK
+import:         from AS15670 action pref=100; accept AS15670
+import:         from AS15693 action pref=100; accept AS-BUSINESSCONNECT
+import:         from AS15695 action pref=100; accept AS15695
+import:         from AS15703 action pref=100; accept AS-TRUESERVER
+import:         from AS15763 action pref=100; accept AS-DOKOM21
+import:         from AS15772 action pref=100; accept AS-WNET
+import:         from AS15830 action pref=100; accept AS-TELECITYLON
+import:         from AS15879 action pref=100; accept AS-IS
+import:         from AS15935 action pref=100; accept AS-HA-VEL-AMSIX
+import:         from AS16003 action pref=100; accept AS16003
+import:         from AS213065 action pref=100; accept AS213065
+import:         from AS203320 action pref=100; accept AS203320
+import:         from AS16097 action pref=100; accept AS-HLKOMM
+import:         from AS16131 action pref=100; accept AS-GRAFIX-TRANSIT
+import:         from AS16150 action pref=100; accept AS-16150:AS-CUSTOMERS
+import:         from AS16218 action pref=100; accept AS-IACD
+import:         from AS48635 action pref=100; accept AS-ASTRALUS
+import:         from AS16237 action pref=100; accept AS16237
+import:         from AS16243 action pref=100; accept AS-VIRTU
+import:         from AS16265 action pref=100; accept AS-LEASEWEB
+import:         from AS16276 action pref=100; accept AS-OVH
+import:         from AS16298 action pref=100; accept AS-INTERBOX
+import:         from AS16318 action pref=100; accept AS-DEKOOI
+import:         from AS16350 action pref=100; accept AS16350
+import:         from AS16637 action pref=100; accept AS-MTNNS
+import:         from AS18106 action pref=100; accept AS18106
+import:         from AS62167 action pref=100; accept AS-TISMI
+import:         from AS19151 action pref=100; accept AS19151
+import:         from AS20495 action pref=100; accept AS-WEDARE
+import:         from AS20504 action pref=100; accept AS20504
+import:         from AS20507 action pref=100; accept AS-INTERNLNET
+import:         from AS20559 action pref=100; accept AS-FUNDAMENTS
+import:         from AS205583 action pref=100; accept AS205583
+import:         from AS20634 action pref=100; accept AS-LIECOMTEL
+import:         from AS20640 action pref=100; accept AS20640
+import:         from AS20735 action pref=100; accept AS20735
+import:         from AS205007 action pref=100; accept AS205007
+import:         from AS20764 action pref=100; accept AS-RASCOM
+import:         from AS20773 action pref=100; accept AS20773:AS-HOSTEUROPE
+import:         from AS20847 action pref=100; accept AS-PREVIDER
+import:         from AS208332 action pref=100; accept AS208332
+import:         from AS20853 action pref=100; accept AS-ETOP
+import:         from AS20857 action pref=100; accept AS-TRANSIP
+import:         from AS20867 action pref=100; accept AS20867
+import:         from AS20886 action pref=100; accept AS-BLATZ AS-BLATZ-V6
+import:         from AS20915 action pref=100; accept AS-100PERCENT
+import:         from AS20932 action pref=100; accept AS-IP-MAN
+import:         from AS20940 action pref=100; accept AS-AKAMAI
+import:         from AS20953 action pref=100; accept AS-INFO
+import:         from AS20969 action pref=100; accept AS-NOB
+import:         from AS20976 action pref=100; accept AS20976
+import:         from AS21073 action pref=100; accept AS-ZORANET
+import:         from AS21155 action pref=100; accept AS-PROSERVE
+import:         from AS21159 action pref=100; accept AS-IAF
+import:         from AS21221 action pref=100; accept AS21221
+import:         from AS21286 action pref=100; accept AS21286
+import:         from AS212818 action pref=100; accept AS212818
+import:         from AS21315 action pref=100; accept AS21315
+import:         from AS21321 action pref=100; accept AS-ALENTUSUK
+import:         from AS21371 action pref=100; accept AS-EQUINIX-EU
+import:         from AS21392 action pref=100; accept AS-MUNTINTERNET
+import:         from AS21396 action pref=100; accept AS-NETCONNEX
+import:         from AS21409 action pref=100; accept AS-IKOULA
+import:         from AS21478 action pref=100; accept AS21478
+import:         from AS30999 action pref=100; accept AS-30999
+import:         from AS22212 action pref=100; accept AS22212
+import:         from AS22822 action pref=100; accept AS22822
+import:         from AS212380 action pref=100; accept AS212380
+import:         from AS23148 action pref=100; accept AS-TWW
+import:         from AS23393 action pref=100; accept AS-ISPRIME
+import:         from AS24167 action pref=100; accept AS-ASNET
+import:         from AS24586 action pref=100; accept AS-INTERMAX
+import:         from AS24587 action pref=100; accept AS24587
+import:         from AS24642 action pref=100; accept AS-CAVEO
+import:         from AS24724 action pref=100; accept AS24724:AS-FOREIGN
+import:         from AS24730 action pref=100; accept AS-NETHOLDING
+import:         from AS24753 action pref=100; accept AS-GCE
+import:         from AS24793 action pref=100; accept AS24793
+import:         from AS24875 action pref=100; accept AS-ISPSERVICES
+import:         from AS24904 action pref=100; accept AS-KWAOO
+import:         from AS24953 action pref=100; accept AS-CARRIER66
+import:         from AS24957 action pref=100; accept AS24957
+import:         from AS24963 action pref=100; accept AS-YACAST
+import:         from AS24973 action pref=100; accept AS-KOMPLEX
+import:         from AS24974 action pref=100; accept AS-TACHYON-EU
+import:         from AS24989 action pref=100; accept AS-EQUINIX-EU
+import:         from AS24990 action pref=100; accept AS-EQUINIX-FR
+import:         from AS25074 action pref=100; accept AS-INETBONE
+import:         from AS25091 action pref=100; accept AS-IP-MAX
+import:         from AS25151 action pref=100; accept AS-CYSONET
+import:         from AS25152 action pref=100; accept AS25152
+import:         from AS25182 action pref=100; accept AS-PUBLIEKEOMROEP
+import:         from AS25286 action pref=100; accept AS-IPERCAST
+import:         from AS25369 action pref=100; accept AS-BANDWIDTH
+import:         from AS25433 action pref=100; accept AS-HENZ
+import:         from AS25459 action pref=100; accept AS-NEDZONE
+import:         from AS25466 action pref=100; accept AS-LIDERONET
+import:         from AS25542 action pref=100; accept AS-DENIT
+import:         from AS25577 action pref=100; accept AS-C4L
+import:         from AS27381 action pref=100; accept AS27381
+import:         from AS28685 action pref=100; accept AS-ROUTIT
+import:         from AS28717 action pref=100; accept AS-ZENSYSTEMS
+import:         from AS28747 action pref=100; accept AS28747
+import:         from AS28788 action pref=100; accept AS-UNILOGICNET
+import:         from AS28809 action pref=100; accept AS-NAUKANET
+import:         from AS28836 action pref=100; accept AS-ICSNL
+import:         from AS28870 action pref=100; accept AS-PLUS
+import:         from AS28876 action pref=100; accept AS-SUEC-DACOR
+import:         from AS28878 action pref=100; accept AS-SIGNET
+import:         from AS28917 action pref=100; accept AS-FIORD
+import:         from AS28929 action pref=100; accept AS-ASDASD
+import:         from AS28956 action pref=100; accept AS-TSN
+import:         from AS29001 action pref=100; accept AS29001
+import:         from AS29014 action pref=100; accept AS-INTERNET4YOU AS-INTERNET4YOU-V6
+import:         from AS29017 action pref=100; accept AS-GYRON
+import:         from AS29028 action pref=100; accept AS29028
+import:         from AS29073 action pref=100; accept AS-ECATEL
+import:         from AS29075 action pref=100; accept AS-IELO
+import:         from AS29126 action pref=100; accept AS29126
+import:         from AS29131 action pref=100; accept AS-RAPIDSWITCH
+import:         from AS29208 action pref=100; accept AS-DIALTELECOM
+import:         from AS29263 action pref=100; accept AS-HAAGNET
+import:         from AS29279 action pref=100; accept AS-NETVICTORY
+import:         from AS29290 action pref=100; accept AS-ALPHAMEGA
+import:         from AS29311 action pref=100; accept AS29311
+import:         from AS29314 action pref=100; accept AS-VECTRANET
+import:         from AS29396 action pref=100; accept AS-UNET
+import:         from AS29438 action pref=100; accept AS29438
+import:         from AS29462 action pref=100; accept AS29462
+import:         from AS29467 action pref=100; accept AS-LUXNETWORK
+import:         from AS29550 action pref=100; accept AS-AS29550 AS-AS29550-V6
+import:         from AS29587 action pref=100; accept AS-SCHEDOM
+import:         from AS29590 action pref=100; accept AS-DIGITALUS
+import:         from AS29640 action pref=100; accept AS-COMNED
+import:         from AS29644 action pref=100; accept AS-AIRSPEED
+import:         from AS29659 action pref=100; accept AS-STAYCLOSE
+import:         from AS30094 action pref=100; accept AS30094
+import:         from AS30132 action pref=100; accept AS30132
+import:         from AS30740 action pref=100; accept AS-EXA
+import:         from AS30776 action pref=100; accept AS-CASEMAISP
+import:         from AS30785 action pref=100; accept AS30785
+import:         from AS30806 action pref=100; accept AS30806
+import:         from AS30890 action pref=100; accept AS-EVOLVA
+import:         from AS30913 action pref=100; accept AS-INTERXS
+import:         from AS30925 action pref=100; accept AS30925
+import:         from AS30961 action pref=100; accept AS-OPENMINDS
+import:         from AS31019 action pref=100; accept AS-MEANIE
+import:         from AS31207 action pref=100; accept AS31027
+import:         from AS31216 action pref=100; accept AS-BSOCOM
+import:         from AS31251 action pref=100; accept AS-NETGUARD
+import:         from AS31334 action pref=100; accept AS-KDG
+import:         from AS31383 action pref=100; accept AS-COMPUTEL
+import:         from AS31472 action pref=100; accept AS-VOICEHOST
+import:         from AS31477 action pref=100; accept AS-DUOCAST
+import:         from AS31500 action pref=100; accept AS-ETELECOM-2
+import:         from AS31529 action pref=100; accept AS31529
+import:         from AS31533 action pref=100; accept AS31533
+import:         from AS31584 action pref=100; accept AS31584
+import:         from AS31595 action pref=100; accept as-awell
+import:         from AS31615 action pref=100; accept AS31615
+import:         from AS31661 action pref=100; accept AS-COMX
+import:         from AS207866 action pref=100; accept AS207866
+import:         from AS31673 action pref=100; accept AS31673
+import:         from AS31680 action pref=100; accept AS-SITEBYTES
+import:         from AS31708 action pref=100; accept AS-COREIX
+import:         from AS31712 action pref=100; accept AS31712
+import:         from AS31731 action pref=100; accept AS31731
+import:         from AS31800 action pref=100; accept AS31800
+import:         from AS32787 action pref=100; accept AS-PROLE
+import:         from AS32934 action pref=100; accept AS-FACEBOOK
+import:         from AS33915 action pref=100; accept AS-TNF
+import:         from AS33941 action pref=100; accept AS-GCONNECT
+import:         from AS34019 action pref=100; accept AS-HIVANE
+import:         from AS34106 action pref=100; accept AS-TELEGRAAF
+import:         from AS34109 action pref=100; accept AS-CB3ROB
+import:         from AS34141 action pref=100; accept AS-IN2IP
+import:         from AS34177 action pref=100; accept AS-CELESTE
+import:         from AS34210 action pref=100; accept AS34210
+import:         from AS34215 action pref=100; accept AS-ATINET
+import:         from AS34233 action pref=100; accept AS34233
+import:         from AS34288 action pref=100; accept AS34288:AS-IX:AS-OPENPEERING
+import:         from AS34305 action pref=100; accept AS-EUROACCESS
+import:         from AS34343 action pref=100; accept AS34343
+import:         from AS34427 action pref=100; accept AS34427
+import:         from AS48345 action pref=100; accept AS-ABAVIA
+import:         from AS34555 action pref=100; accept AS-CCSLEEDS
+import:         from AS34655 action pref=100; accept AS-DDITS
+import:         from AS34695 action pref=100; accept AS34695
+import:         from AS34763 action pref=100; accept AS-VIRGINRADIO
+import:         from AS34863 action pref=100; accept AS-HEXANET
+import:         from AS34942 action pref=100; accept AS34942
+import:         from AS34953 action pref=100; accept AS34953
+import:         from AS34968 action pref=100; accept AS-IUNXI
+import:         from AS35027 action pref=100; accept AS35027
+import:         from AS35028 action pref=100; accept AS-MULTIPLAY
+import:         from AS35176 action pref=100; accept AS35176
+import:         from AS35220 action pref=100; accept AS35220
+import:         from AS35224 action pref=100; accept AS35224
+import:         from AS35260 action pref=100; accept AS35260
+import:         from AS199670 action pref=100; accept AS199670
+import:         from AS35329 action pref=100; accept AS-MAINLAB-AMS
+import:         from AS35332 action pref=100; accept AS35332
+import:         from AS35366 action pref=100; accept AS-ISPPRO
+import:         from AS35383 action pref=100; accept AS35383
+import:         from AS35432 action pref=100; accept AS-WAVESPEED
+import:         from AS35470 action pref=100; accept AS-XLIS
+import:         from AS35579 action pref=100; accept AS-PERRIT
+import:         from AS35625 action pref=100; accept AS-ATE AS-ATE-CUST
+import:         from AS35705 action pref=100; accept AS35705
+import:         from AS35829 action pref=100; accept AS-QCC
+import:         from AS36351 action pref=100; accept AS-SOFTLAYER
+import:         from AS36623 action pref=100; accept AS-GTLD
+import:         from AS36692 action pref=100; accept AS-OPENDNS
+import:         from AS36944 action pref=100; accept AS-TERTIARY
+import:         from AS38915 action pref=100; accept AS-HEERLEN
+import:         from AS39030 action pref=100; accept AS39030
+import:         from AS39059 action pref=100; accept AS39059
+import:         from AS39136 action pref=100; accept AS39136
+import:         from AS39234 action pref=100; accept AS39234
+import:         from AS39244 action pref=100; accept AS39244
+import:         from AS39292 action pref=100; accept AS-DUOCASTBACKUP
+import:         from AS39309 action pref=100; accept AS39309
+import:         from AS39318 action pref=100; accept AS-NUCLEUS
+import:         from AS39556 action pref=100; accept AS39556
+import:         from AS39591 action pref=100; accept AS39591
+import:         from AS39598 action pref=100; accept AS-TIERA
+import:         from AS39647 action pref=100; accept AS39647
+import:         from AS39923 action pref=100; accept AS-UNIXSOLUTIONS
+import:         from AS40069 action pref=100; accept AS40069
+import:         from AS41008 action pref=100; accept AS41008
+import:         from AS41037 action pref=100; accept AS41037
+import:         from AS41038 action pref=100; accept AS-MEDIACASTER
+import:         from AS41095 action pref=100; accept AS-IPTP
+import:         from AS41103 action pref=100; accept AS-CLEARIP
+import:         from AS41153 action pref=100; accept AS41153
+import:         from AS41155 action pref=100; accept AS41155
+import:         from AS41230 action pref=100; accept AS-ASK4
+import:         from AS41480 action pref=100; accept AS-SYSTEMEC
+import:         from AS203466 action pref=100; accept AS203466
+import:         from AS41552 action pref=100; accept AS41552
+import:         from AS41659 action pref=100; accept AS-SYNERGYWORKS
+import:         from AS41692 action pref=100; accept AS-OPENCARRIER AS-OPENCARRIER6
+import:         from AS41880 action pref=100; accept AS-BOSE
+import:         from AS41887 action pref=100; accept AS-PROLOCATION
+import:         from AS42010 action pref=100; accept AS-ITPS
+import:         from AS42093 action pref=100; accept AS42093
+import:         from AS42158 action pref=100; accept AS42158
+import:         from AS42161 action pref=100; accept AS42161
+import:         from AS42315 action pref=100; accept AS42315
+import:         from AS42320 action pref=100; accept AS42320
+import:         from AS42456 action pref=100; accept AS42456
+import:         from AS42492 action pref=100; accept AS42492
+import:         from AS42517 action pref=100; accept AS42517
+import:         from AS42585 action pref=100; accept AS-NETWORKING4ALL
+import:         from AS42707 action pref=100; accept AS42707
+import:         from AS42755 action pref=100; accept AS-RIJNDATABV
+import:         from AS42884 action pref=100; accept AS-LOCALPHONE
+import:         from AS42949 action pref=100; accept AS42949
+import:         from AS42973 action pref=100; accept AS-METRONETUK
+import:         from AS43142 action pref=100; accept AS-ADELINOVIUS
+import:         from AS43190 action pref=100; accept AS43190
+import:         from AS43293 action pref=100; accept AS43293
+import:         from AS43350 action pref=100; accept AS-NFORCE
+import:         from AS43366 action pref=100; accept AS-OSSO
+import:         from AS43409 action pref=100; accept AS43409
+import:         from AS43437 action pref=100; accept AS43437
+import:         from AS43440 action pref=100; accept AS43440
+import:         from AS43531 action pref=100; accept AS-IXREACH
+import:         from AS43545 action pref=100; accept AS-TELEDATAUK
+import:         from AS43821 action pref=100; accept AS-WIKIMEDIA
+import:         from AS43995 action pref=100; accept AS43995
+import:         from AS43996 action pref=100; accept AS-BOOKING
+import:         from AS44053 action pref=100; accept AS-UNILINK
+import:         from AS44060 action pref=100; accept AS44060
+import:         from AS44253 action pref=100; accept AS44253
+import:         from AS44259 action pref=100; accept AS-TRANSQUALITY
+import:         from AS44314 action pref=100; accept AS-ITSYNERGY
+import:         from AS44530 action pref=100; accept AS44530
+import:         from AS44532 action pref=100; accept AS44532
+import:         from AS44608 action pref=100; accept AS44608
+import:         from AS44684 action pref=100; accept AS-MYTHIC
+import:         from AS44858 action pref=100; accept AS44858
+import:         from AS44953 action pref=100; accept AS-ISICONNEXION
+import:         from AS46489 action pref=100; accept AS46489
+import:         from AS47112 action pref=100; accept AS47112
+import:         from AS47121 action pref=100; accept AS47121
+import:         from AS47172 action pref=100; accept AS47172
+import:         from AS47207 action pref=100; accept AS47207
+import:         from AS47407 action pref=100; accept AS-EVERTJENETWORKS
+import:         from AS47463 action pref=100; accept AS47463
+import:         from AS47537 action pref=100; accept AS47573
+import:         from AS61329 action pref=100; accept AS61329
+import:         from AS47541 action pref=100; accept AS-VKONTAKTE
+import:         from AS47622 action pref=100; accept AS-DATATECHUK
+import:         from AS47764 action pref=100; accept AS-MAILRU
+import:         from AS47836 action pref=100; accept AS-ACWEBCONNECTING
+import:         from AS48056 action pref=100; accept AS48056
+import:         from AS48166 action pref=100; accept AS-FORTEX AS-FORTEX6
+import:         from AS48200 action pref=100; accept AS-OPTEAMAX
+import:         from AS196752 action pref=100; accept AS-TILAA
+import:         from AS48526 action pref=100; accept AS-TANGO
+import:         from AS48596 action pref=100; accept AS48596
+import:         from AS48635 action pref=100; accept AS-PCEXTREME
+import:         from AS48886 action pref=100; accept AS48886
+import:         from AS49206 action pref=100; accept AS49206
+import:         from AS49250 action pref=100; accept AS49250
+import:         from AS49405 action pref=100; accept AS49405
+import:         from AS49548 action pref=100; accept AS49548
+import:         from AS49562 action pref=100; accept AS49562
+import:         from AS49625 action pref=100; accept AS49625
+import:         from AS49713 action pref=100; accept AS49713
+import:         from AS49784 action pref=100; accept AS49784
+import:         from AS49820 action pref=100; accept AS-PICTURA
+import:         from AS49964 action pref=100; accept AS-VERIXI
+import:         from AS50072 action pref=100; accept AS50072
+import:         from AS50103 action pref=100; accept AS50103
+import:         from AS50245 action pref=100; accept AS-SERVEREL
+import:         from AS50266 action pref=100; accept AS50266
+import:         from AS50295 action pref=100; accept AS-3IT
+import:         from AS50384 action pref=100; accept AS-W-IX
+import:         from AS50399 action pref=100; accept AS50399
+import:         from AS50522 action pref=100; accept AS50522
+import:         from AS50570 action pref=100; accept AS50570
+import:         from AS50622 action pref=100; accept AS50622
+import:         from AS50673 action pref=100; accept AS-SERVERIUS
+import:         from AS50684 action pref=100; accept AS50684
+import:         from AS50763 action pref=100; accept AS-MCKAY
+import:         from AS50805 action pref=100; accept AS50805
+import:         from AS50901 action pref=100; accept AS50901
+import:         from AS50930 action pref=100; accept AS50930
+import:         from AS50968 action pref=100; accept AS50968
+import:         from AS51030 action pref=100; accept AS51030
+import:         from AS51050 action pref=100; accept AS51050
+import:         from AS51062 action pref=100; accept AS51062
+import:         from AS51088 action pref=100; accept AS-A2B
+import:         from AS51313 action pref=100; accept AS-KEENONDOTS
+import:         from AS51331 action pref=100; accept AS51331
+import:         from AS51344 action pref=100; accept AS-SINEW
+import:         from AS51406 action pref=100; accept AS-2CONNECTUK
+import:         from AS51514 action pref=100; accept AS-SPOTLER
+import:         from AS51571 action pref=100; accept AS51571
+import:         from AS51646 action pref=100; accept AS51646
+import:         from AS51758 action pref=100; accept AS51758
+import:         from AS51918 action pref=100; accept AS-CERBERUSNETWORKS
+import:         from AS51920 action pref=100; accept AS51920
+import:         from AS51945 action pref=100; accept AS-CONNETU
+import:         from AS51949 action pref=100; accept AS51949
+import:         from AS52144 action pref=100; accept AS52144
+import:         from AS52186 action pref=100; accept AS52186
+import:         from AS56453 action pref=100; accept AS56453
+import:         from AS56595 action pref=100; accept AS-FLUENCY
+import:         from AS56654 action pref=100; accept AS-INFINITYTELECOM
+import:         from AS56657 action pref=100; accept AS56657
+import:         from AS56953 action pref=100; accept AS56953
+import:         from AS57029 action pref=100; accept AS57029
+import:         from AS57099 action pref=100; accept AS-BOUNDLESSCOMMS
+import:         from AS57124 action pref=100; accept AS57124
+import:         from AS57146 action pref=100; accept AS57146
+import:         from AS57172 action pref=100; accept AS57172
+import:         from AS57626 action pref=100; accept AS57626
+import:         from AS57638 action pref=100; accept AS57638
+import:         from AS57685 action pref=100; accept AS57685
+import:         from AS57717 action pref=100; accept AS57717
+import:         from AS57795 action pref=100; accept AS-NGNETWORKS
+import:         from AS57928 action pref=100; accept AS57928
+import:         from AS58073 action pref=100; accept AS58073
+import:         from AS58075 action pref=100; accept AS58075
+import:         from AS58138 action pref=100; accept AS58138
+import:         from AS58141 action pref=100; accept AS58141
+import:         from AS44949 action pref=100; accept AS44949
+import:         from AS44949 action pref=100; accept AS-GIGACODES
+import:         from AS58291 action pref=100; accept AS58291
+import:         from AS59426 action pref=100; accept AS59426
+import:         from AS59524 action pref=100; accept AS59524
+import:         from AS59545 action pref=100; accept AS-VXBITS
+import:         from AS59554 action pref=100; accept AS-DCG
+import:         from AS59560 action pref=100; accept AS-WORLDICT
+import:         from AS59605 action pref=100; accept AS-ZAINGP
+import:         from AS59685 action pref=100; accept AS59685
+import:         from AS59701 action pref=100; accept AS-LYTZENIT
+import:         from AS59832 action pref=100; accept AS59832
+import:         from AS59865 action pref=100; accept AS59865
+import:         from AS59985 action pref=100; accept AS59985
+import:         from AS60222 action pref=100; accept AS60222
+import:         from AS60332 action pref=100; accept AS60332
+import:         from AS60341 action pref=100; accept AS-DATACOMFORT
+import:         from AS9119 action pref=100; accept AS-SOFTNET
+import:         from AS60671 action pref=100; accept AS60671
+import:         from AS61013 action pref=100; accept AS61013
+import:         from AS61200 action pref=100; accept AS-MEDIAMONKS
+import:         from AS61329 action pref=100; accept AS61329
+import:         from AS61404 action pref=100; accept AS61404
+import:         from AS61955 action pref=100; accept AS61955:AS-COLOCATIONIX
+import:         from AS62097 action pref=100; accept AS62097
+import:         from AS62105 action pref=100; accept AS62105
+import:         from AS62182 action pref=100; accept AS62182
+import:         from AS62285 action pref=100; accept AS62285
+import:         from AS62383 action pref=100; accept AS62383
+import:         from AS62710 action pref=100; accept AS62710
+import:         from AS133229 action pref=100; accept AS-HOSTPALACE
+import:         from AS196752 action pref=100; accept AS-TILAA
+import:         from AS196760 action pref=100; accept AS196760
+import:         from AS196771 action pref=100; accept AS196771
+import:         from AS197016 action pref=100; accept AS197016
+import:         from AS197038 action pref=100; accept AS197038
+import:         from AS197156 action pref=100; accept AS197156
+import:         from AS197395 action pref=100; accept AS197395
+import:         from AS197676 action pref=100; accept AS197676
+import:         from AS197731 action pref=100; accept AS-TUXIS
+import:         from AS197902 action pref=100; accept AS197902
+import:         from AS198011 action pref=100; accept AS198011
+import:         from AS198089 action pref=100; accept AS198089
+import:         from AS198203 action pref=100; accept AS198203
+import:         from AS198334 action pref=100; accept AS198334
+import:         from AS198692 action pref=100; accept AS198692
+import:         from AS198792 action pref=100; accept AS-DSTORAGE
+import:         from AS199095 action pref=100; accept AS199095
+import:         from AS199139 action pref=100; accept AS199139
+import:         from AS199408 action pref=100; accept AS-BOLCOM
+import:         from AS199523 action pref=100; accept AS199523
+import:         from AS199636 action pref=100; accept AS199636
+import:         from AS199743 action pref=100; accept AS199743
+import:         from AS199863 action pref=100; accept AS199863
+import:         from AS200052 action pref=100; accept AS200052
+import:         from AS200130 action pref=100; accept AS200130
+import:         from AS205019 action pref=100; accept AS205019
+import:         from AS200191 action pref=100; accept AS200191
+import:         from AS200428 action pref=100; accept AS200428
+import:         from AS200586 action pref=100; accept AS200586
+import:         from AS200596 action pref=100; accept AS200596
+import:         from AS200756 action pref=100; accept AS200756
+import:         from AS200758 action pref=100; accept AS200758
+import:         from AS201330 action pref=100; accept AS201330
+import:         from AS201372 action pref=100; accept AS201372
+import:         from AS34756 action pref=100; accept AS-GVRH
+import:         from AS30736 action pref=100; accept AS-ASERGO
+import:         from AS201401 action pref=100; accept AS201401
+import:         from AS201650 action pref=100; accept AS201650
+import:         from AS201690 action pref=100; accept AS201690
+import:         from AS201866 action pref=100; accept AS201866
+import:         from AS35349 action pref=100; accept AS35349
+import:         from AS201968 action pref=100; accept AS201968
+import:         from AS202072 action pref=100; accept AS202072
+import:         from AS207283 action pref=100; accept AS207283
+import:         from AS202189 action pref=100; accept AS202189
+import:         from AS202796 action pref=100; accept AS202796
+import:         from AS202914 action pref=100; accept AS-ADEODC
+import:         from AS203040 action pref=100; accept AS203040
+import:         from AS203126 action pref=100; accept AS203126
+import:         from AS203952 action pref=100; accept AS203952
+import:         from AS204171 action pref=100; accept AS204171
+import:         from AS206073 action pref=100; accept AS206073
+import:         from AS206121 action pref=100; accept AS206121
+import:         from AS206281 action pref=100; accept AS206281
+import:         from AS206264 action pref=100; accept AS-KODDOS
+import:         from AS206389 action pref=100; accept AS206389
+import:         from AS30736 action pref=100; accept AS30736
+import:         from AS206730 action pref=100; accept AS206730
+import:         from AS206836 action pref=100; accept AS206836
+import:         from AS206971 action pref=100; accept AS206971
+import:         from AS206982 action pref=100; accept AS206982
+import:         from AS207119 action pref=100; accept AS207119
+import:         from AS201269 action pref=100; accept AS201269
+import:         from AS207982 action pref=100; accept AS207982
+import:         from AS209048 action pref=100; accept AS209048
+remarks:        ========================================================
+export:         to AS42 announce AS-OPENPEERING
+export:         to AS72 announce AS-OPENPEERINGPEERS
+export:         to AS112 announce AS-OPENPEERINGPEERS
+export:         to AS286 announce AS-OPENPEERING
+export:         to AS26667 announce AS-OPENPEERING
+export:         to AS42156 announce AS-OPENPEERING
+export:         to AS1103 announce AS-OPENPEERING
+export:         to AS1150 announce AS-OPENPEERING
+export:         to AS15703 announce AS-OPENPEERING
+export:         to AS1126 announce AS-OPENPEERING
+export:         to AS1136 announce AS-OPENPEERINGPEERS
+export:         to AS1140 announce AS-OPENPEERING
+export:         to AS48635 announce AS-OPENPEERING
+export:         to AS1200 announce AS-OPENPEERING
+export:         to AS1267 announce AS-OPENPEERING
+export:         to AS1764 announce AS-OPENPEERING
+export:         to AS1836 announce AS-OPENPEERING
+export:         to AS9119 announce AS-OPENPEERING
+export:         to AS2119 announce AS-OPENPEERING
+export:         to AS2603 announce AS-OPENPEERING
+export:         to AS2686 announce AS-OPENPEERING
+export:         to AS2818 announce AS-OPENPEERING
+export:         to AS2914 announce AS-OPENPEERING
+export:         to AS3185 announce AS-OPENPEERINGPEERS
+export:         to AS3209 announce AS-OPENPEERING
+export:         to AS3216 announce AS-OPENPEERING
+export:         to AS3262 announce AS-OPENPEERING
+export:         to AS3265 announce AS-OPENPEERING
+export:         to AS3267 announce AS-OPENPEERING
+export:         to AS3303 announce AS-OPENPEERING
+export:         to AS3327 announce AS-OPENPEERINGMEMBERS
+export:         to AS3333 announce AS-OPENPEERING
+export:         to AS3856 announce AS-OPENPEERING
+export:         to AS4589 announce AS-OPENPEERING
+export:         to AS5089 announce AS-OPENPEERING
+export:         to AS205915 announce AS-OPENPEERING
+export:         to AS5410 announce AS-OPENPEERING
+export:         to AS5418 announce AS-OPENPEERINGPEERS
+export:         to AS5419 announce AS-OPENPEERINGPEERS
+export:         to AS5430 announce AS-OPENPEERING-EU
+export:         to AS5462 announce AS-OPENPEERING
+export:         to AS48596 announce AS-OPENPEERING
+export:         to AS5466 announce AS-OPENPEERING
+export:         to AS5503 announce AS-OPENPEERING-EU
+export:         to AS5568 announce AS-OPENPEERINGMEMBERS
+export:         to AS5583 announce AS-OPENPEERING
+export:         to AS30999 announce AS-OPENPEERING
+export:         to AS5588 announce AS-OPENPEERING
+export:         to AS5607 announce AS-OPENPEERING-EU
+export:         to AS203466 announce AS-OPENPEERINGPEERS
+export:         to AS5612 announce AS-OPENPEERINGPEERS
+export:         to AS5615 announce AS-OPENPEERINGPEERS
+export:         to AS6327 announce AS-OPENPEERING
+export:         to AS6412 announce AS-OPENPEERING
+export:         to AS6461 announce AS-OPENPEERING
+export:         to AS6507 announce AS-OPENPEERING
+export:         to AS6661 announce AS-OPENPEERING
+export:         to AS201269 announce AS-OPENPEERING
+export:         to AS6667 announce AS-OPENPEERING
+export:         to AS206264 announce AS-OPENPEERING
+export:         to AS6677 announce AS-OPENPEERINGMEMBERS
+export:         to AS6695 action community .= { 6695:6695 }; announce AS-OPENPEERING-EU
+export:         to AS6724 announce AS-OPENPEERING
+export:         to AS205025 announce AS-OPENPEERING
+export:         to AS6728 announce AS-OPENPEERING
+export:         to AS6730 announce AS-OPENPEERING
+export:         to AS6735 announce AS-OPENPEERING
+export:         to AS6774 announce AS-OPENPEERING
+export:         to AS209784 announce AS-OPENPEERING
+export:         to AS6777 action community .= { 6777:6777 }; announce AS-OPENPEERING
+export:         to AS6805 announce AS-OPENPEERING
+export:         to AS6819 announce AS-OPENPEERINGPEERS
+export:         to AS57344 announce AS-OPENPEERINGPEERS
+export:         to AS6871 announce AS-OPENPEERING-EU
+export:         to AS6939 announce AS-OPENPEERING
+export:         to AS62167 announce AS-OPENPEERING
+export:         to AS203234 announce AS-OPENPEERING
+export:         to AS7500 announce AS-OPENPEERINGPEERS
+export:         to AS209573 announce AS-OPENPEERINGPEERS
+export:         to AS8190 announce AS-OPENPEERING
+export:         to AS207982 announce AS-OPENPEERING
+export:         to AS44854 announce AS-OPENPEERING
+export:         to AS8195 announce AS-OPENPEERING
+export:         to AS8210 announce AS-OPENPEERING
+export:         to AS212922 announce AS-OPENPEERING
+export:         to AS8283 announce AS-OPENPEERING
+export:         to AS212818 announce AS-OPENPEERING
+export:         to AS8312 announce AS-OPENPEERINGMEMBERS
+export:         to AS8315 announce AS-OPENPEERINGPEERS
+export:         to AS8328 announce AS-OPENPEERINGPEERS
+export:         to AS8342 announce AS-OPENPEERING
+export:         to AS8365 announce AS-OPENPEERING
+export:         to AS49033 announce AS-OPENPEERING
+export:         to AS212380 announce AS-OPENPEERING
+export:         to AS211588 announce AS-OPENPEERINGPEERS
+export:         to AS8368 announce AS-OPENPEERINGPEERS
+export:         to AS8399 announce AS-OPENPEERING
+export:         to AS61329 announce AS-OPENPEERING
+export:         to AS8422 announce AS-OPENPEERING
+export:         to AS8426 announce AS-OPENPEERING
+export:         to AS8447 announce AS-OPENPEERING
+export:         to AS8455 announce AS-OPENPEERINGPEERS
+export:         to AS8468 announce AS-OPENPEERING
+export:         to AS8487 announce AS-OPENPEERINGMEMBERS
+export:         to AS8550 action community .= { 8550:8550 }; announce AS-OPENPEERING-EU
+export:         to AS8553 announce AS-OPENPEERING-EU
+export:         to AS8560 announce AS-OPENPEERINGMEMBERS
+export:         to AS8608 announce AS-OPENPEERINGMEMBERS
+export:         to AS8613 announce AS-OPENPEERING-EU
+export:         to AS8657 announce AS-OPENPEERING
+export:         to AS8708 announce AS-OPENPEERING
+export:         to AS8714 action community .= { 8714:8714 }; announce AS-OPENPEERING-EU
+export:         to AS8737 announce AS-OPENPEERINGPEERS
+export:         to AS8763 announce AS-OPENPEERINGPEERS
+export:         to AS196997 announce AS-OPENPEERINGPEERS
+export:         to AS35349 announce AS-OPENPEERING
+export:         to AS8781 announce AS-OPENPEERING
+export:         to AS8816 announce AS-OPENPEERING
+export:         to AS200249 announce AS-OPENPEERING
+export:         to AS8897 announce AS-OPENPEERING
+export:         to AS209495 announce AS-OPENPEERING
+export:         to AS8916 announce AS-OPENPEERING-EU
+export:         to AS213065 announce AS-OPENPEERING-EU
+export:         to AS8918 announce AS-OPENPEERINGPEERS
+export:         to AS8935 announce AS-OPENPEERINGPEERS
+export:         to AS8954 announce AS-OPENPEERINGPEERS
+export:         to AS8966 announce AS-OPENPEERING
+export:         to AS9002 announce AS-OPENPEERING
+export:         to AS207283 announce AS-OPENPEERING
+export:         to AS9009 announce AS-OPENPEERING
+export:         to AS9033 announce AS-OPENPEERING-EU
+export:         to AS9036 announce AS-OPENPEERING
+export:         to AS9143 announce AS-OPENPEERINGMEMBERS
+export:         to AS9145 announce AS-OPENPEERING
+export:         to AS9150 announce AS-OPENPEERING
+export:         to AS9191 announce AS-OPENPEERING
+export:         to AS9264 announce AS-OPENPEERING
+export:         to AS49627 announce AS-OPENPEERING
+export:         to AS13266 announce AS-OPENPEERING
+export:         to AS9498 announce AS-OPENPEERING
+export:         to AS9505 announce AS-OPENPEERING
+export:         to AS16350 announce AS-OPENPEERING
+export:         to AS48925 announce AS-OPENPEERING
+export:         to AS10026 announce AS-OPENPEERING-EU
+export:         to AS12392 announce AS-OPENPEERING-EU
+export:         to AS10310 announce AS-OPENPEERING
+export:         to AS11588 announce AS-OPENPEERING
+export:         to AS12306 announce AS-OPENPEERING
+export:         to AS12322 announce AS-OPENPEERING
+export:         to AS12323 announce AS-OPENPEERINGPEERS
+export:         to AS200373 announce AS-OPENPEERINGPEERS
+export:         to AS12327 announce AS-OPENPEERING
+export:         to AS208332 announce AS208332
+export:         to AS12329 announce AS-OPENPEERING
+export:         to AS12337 announce AS-OPENPEERING-EU
+export:         to AS47872 announce AS-OPENPEERING-EU
+export:         to AS212610 announce AS-OPENPEERING
+export:         to AS12399 announce AS-OPENPEERING
+export:         to AS58076 announce AS-OPENPEERING
+export:         to AS12414 announce AS-OPENPEERING
+export:         to AS12496 announce AS-OPENPEERING
+export:         to AS12519 announce AS-OPENPEERING-EU
+export:         to AS212027 announce AS-OPENPEERING-EU
+export:         to AS12552 announce AS-OPENPEERING
+export:         to AS12561 announce AS-OPENPEERINGPEERS
+export:         to AS12573 announce AS-OPENPEERINGMEMBERS
+export:         to AS12654 announce AS-OPENPEERINGPEERS
+export:         to AS12676 announce AS-OPENPEERING-EU
+export:         to AS197729 announce AS-OPENPEERING-EU
+export:         to AS12713 announce AS-OPENPEERING
+export:         to AS12731 announce AS-OPENPEERING
+export:         to AS12759 announce AS-OPENPEERING
+export:         to AS12779 announce AS-OPENPEERING
+export:         to AS12854 announce AS-OPENPEERINGMEMBERS
+export:         to AS12859 announce AS-OPENPEERINGMEMBERS
+export:         to AS12868 announce AS-OPENPEERING
+export:         to AS12871 announce AS-OPENPEERINGPEERS
+export:         to AS35709 announce AS-OPENPEERING
+export:         to AS12902 announce AS-OPENPEERINGMEMBERS
+export:         to AS12945 announce AS-OPENPEERINGPEERS
+export:         to AS12989 announce AS-OPENPEERINGPEERS
+export:         to AS13030 announce AS-OPENPEERINGMEMBERS
+export:         to AS13049 announce AS-OPENPEERINGMEMBERS
+export:         to AS13101 announce AS-OPENPEERING
+export:         to AS13122 announce AS-OPENPEERING
+export:         to AS200318 announce AS-OPENPEERING
+export:         to AS29311 announce AS-OPENPEERING
+export:         to AS13127 announce AS-OPENPEERING
+export:         to AS13169 announce AS-OPENPEERINGPEERS
+export:         to AS13184 announce AS-OPENPEERING-EU
+export:         to AS13193 announce AS-OPENPEERING
+export:         to AS13237 announce AS-OPENPEERING
+export:         to AS209871 announce AS-OPENPEERING-EU
+export:         to AS13285 announce AS-OPENPEERING
+export:         to AS13445 announce AS-OPENPEERING
+export:         to AS13646 announce AS-OPENPEERING
+export:         to AS13684 announce AS-OPENPEERINGPEERS
+export:         to AS13768 announce AS-OPENPEERING
+export:         to AS14492 announce AS-OPENPEERING-EU
+export:         to AS14635 announce AS-OPENPEERING
+export:         to AS15412 announce AS-OPENPEERING
+export:         to AS15426 announce AS-OPENPEERINGPEERS
+export:         to AS30736 announce AS-OPENPEERINGPEERS
+export:         to AS15435 announce AS-OPENPEERINGMEMBERS
+export:         to AS15447 announce AS-OPENPEERINGPEERS
+export:         to AS15509 announce AS-OPENPEERING
+export:         to AS15516 announce AS-OPENPEERING-EU
+export:         to AS15542 announce AS-OPENPEERINGMEMBERS
+export:         to AS15557 announce AS-OPENPEERING
+export:         to AS15598 announce AS-OPENPEERING
+export:         to AS15600 announce AS-OPENPEERING
+export:         to AS15623 announce AS-OPENPEERING
+export:         to AS15670 announce AS-OPENPEERING
+export:         to AS15693 announce AS-OPENPEERINGPEERS
+export:         to AS15695 announce AS-OPENPEERINGPEERS
+export:         to AS15703 announce AS-OPENPEERINGMEMBERS
+export:         to AS15763 announce AS-OPENPEERING-EU
+export:         to AS15772 announce AS-OPENPEERING
+export:         to AS15830 announce AS-OPENPEERING
+export:         to AS15879 announce AS-OPENPEERINGMEMBERS
+export:         to AS15935 announce AS-OPENPEERING
+export:         to AS16003 announce AS-OPENPEERING
+export:         to AS16097 announce AS-OPENPEERING
+export:         to AS16131 announce AS-OPENPEERINGPEERS
+export:         to AS16150 announce AS-OPENPEERINGMEMBERS
+export:         to AS16218 announce AS-OPENPEERING-EU
+export:         to AS42739 announce AS-OPENPEERING-EU
+export:         to AS199670 announce AS-OPENPEERING-EU
+export:         to AS16237 announce AS-OPENPEERINGPEERS
+export:         to AS16243 announce AS-OPENPEERING
+export:         to AS16265 announce AS-OPENPEERINGMEMBERS
+export:         to AS16276 announce AS-OPENPEERING
+export:         to AS16298 announce AS-OPENPEERINGPEERS
+export:         to AS16318 announce AS-OPENPEERINGPEERS
+export:         to AS16637 announce AS-OPENPEERING
+export:         to AS207866 announce AS-OPENPEERING
+export:         to AS18106 announce AS-OPENPEERING-EU
+export:         to AS19151 announce AS-OPENPEERINGMEMBERS
+export:         to AS209377 announce AS-OPENPEERINGPEERS
+export:         to AS20495 announce AS-OPENPEERING
+export:         to AS20504 announce AS-OPENPEERINGPEERS
+export:         to AS20507 announce AS-OPENPEERING
+export:         to AS20559 announce AS-OPENPEERINGPEERS
+export:         to AS20634 announce AS-OPENPEERING
+export:         to AS20640 announce AS-OPENPEERING
+export:         to AS20735 announce AS-OPENPEERING
+export:         to AS20764 announce AS-OPENPEERING
+export:         to AS20773 announce AS-OPENPEERING
+export:         to AS203111 announce AS-OPENPEERING
+export:         to AS20847 announce AS-OPENPEERINGPEERS
+export:         to AS20853 announce AS-OPENPEERING
+export:         to AS20857 announce AS-OPENPEERINGPEERS
+export:         to AS20867 announce AS-OPENPEERINGMEMBERS
+export:         to AS213899 announce AS-OPENPEERING
+export:         to AS20886 announce AS-OPENPEERING
+export:         to AS20915 announce AS-OPENPEERING-EU
+export:         to AS20932 announce AS-OPENPEERING
+export:         to AS20940 announce AS-OPENPEERINGPEERS
+export:         to AS20953 announce AS-OPENPEERINGPEERS
+export:         to AS1140 announce AS-OPENPEERINGPEERS
+export:         to AS20969 announce AS-OPENPEERINGPEERS
+export:         to AS20976 announce AS-OPENPEERING
+export:         to AS21073 announce AS-OPENPEERINGPEERS
+export:         to AS21155 announce AS-OPENPEERING
+export:         to AS21159 announce AS-OPENPEERINGPEERS
+export:         to AS21221 announce AS-OPENPEERING
+export:         to AS21286 announce AS-OPENPEERINGPEERS
+export:         to AS21315 announce AS-OPENPEERINGPEERS
+export:         to AS21321 announce AS-OPENPEERING-EU
+export:         to AS21371 announce AS-OPENPEERING-EU
+export:         to AS35332 announce AS-OPENPEERING
+export:         to AS21392 announce AS-OPENPEERINGPEERS
+export:         to AS21396 announce AS-OPENPEERING-EU
+export:         to AS21409 announce AS-OPENPEERING-EU
+export:         to AS21478 announce AS-OPENPEERING
+export:         to AS22212 announce AS-OPENPEERING
+export:         to AS22822 announce AS-OPENPEERING
+export:         to AS23148 announce AS-OPENPEERING
+export:         to AS23393 announce AS-OPENPEERING
+export:         to AS24586 announce AS-OPENPEERING
+export:         to AS24587 announce AS-OPENPEERINGPEERS
+export:         to AS24642 announce AS-OPENPEERINGMEMBERS
+export:         to AS24724 announce AS-OPENPEERING
+export:         to AS24730 announce AS-OPENPEERINGMEMBERS
+export:         to AS24753 announce AS-OPENPEERINGPEERS
+export:         to AS24793 announce AS-OPENPEERINGMEMBERS
+export:         to AS24875 announce AS-OPENPEERINGMEMBERS
+export:         to AS24904 announce AS-OPENPEERING
+export:         to AS24953 announce AS-OPENPEERING
+export:         to AS24957 announce AS-OPENPEERINGPEERS
+export:         to AS24963 announce AS-OPENPEERING
+export:         to AS24973 announce AS-OPENPEERING-EU
+export:         to AS24974 announce AS-OPENPEERING
+export:         to AS24989 announce AS-OPENPEERING-EU
+export:         to AS24990 announce AS-OPENPEERING-EU
+export:         to AS25074 announce AS-OPENPEERING
+export:         to AS25091 announce AS-OPENPEERING
+export:         to AS25151 announce AS-OPENPEERINGPEERS
+export:         to AS25152 announce AS-OPENPEERINGPEERS
+export:         to AS25182 announce AS-OPENPEERINGPEERS
+export:         to AS25286 announce AS-OPENPEERING
+export:         to AS209549 announce AS-OPENPEERING
+export:         to AS25369 announce AS-OPENPEERING-EU
+export:         to AS25433 announce AS-OPENPEERINGPEERS
+export:         to AS25459 announce AS-OPENPEERINGPEERS
+export:         to AS25466 announce AS-OPENPEERINGMEMBERS
+export:         to AS25542 announce AS-OPENPEERINGPEERS
+export:         to AS25577 announce AS-OPENPEERING-EU
+export:         to AS27381 announce AS-OPENPEERINGPEERS
+export:         to AS28685 announce AS-OPENPEERINGPEERS
+export:         to AS28717 announce AS-OPENPEERING
+export:         to AS28747 announce AS-OPENPEERINGMEMBERS
+export:         to AS28788 announce AS-OPENPEERINGMEMBERS
+export:         to AS28809 announce AS-OPENPEERING
+export:         to AS28836 announce AS-OPENPEERINGMEMBERS
+export:         to AS28870 announce AS-OPENPEERING
+export:         to AS28876 announce AS-OPENPEERING-EU
+export:         to AS28878 announce AS-OPENPEERING
+export:         to AS28917 announce AS-OPENPEERING
+export:         to AS28929 announce AS-OPENPEERING
+export:         to AS28956 announce AS-OPENPEERING
+export:         to AS29001 announce AS-OPENPEERINGPEERS
+export:         to AS29014 announce AS-OPENPEERING
+export:         to AS29017 announce AS-OPENPEERINGMEMBERS
+export:         to AS29028 announce AS-OPENPEERINGPEERS
+export:         to AS29073 announce AS-OPENPEERINGPEERS
+export:         to AS29075 announce AS-OPENPEERINGMEMBERS
+export:         to AS29126 announce AS-OPENPEERINGPEERS
+export:         to AS29131 announce AS-OPENPEERING
+export:         to AS29208 announce AS-OPENPEERING
+export:         to AS206894 announce AS-OPENPEERING
+export:         to AS33921 announce AS-OPENPEERING
+export:         to AS29263 announce AS-OPENPEERINGMEMBERS
+export:         to AS29279 announce AS-OPENPEERINGMEMBERS
+export:         to AS29290 announce AS-OPENPEERINGPEERS
+export:         to AS29311 announce AS-OPENPEERINGPEERS
+export:         to AS29314 announce AS-OPENPEERING
+export:         to AS29396 announce AS-OPENPEERINGMEMBERS
+export:         to AS29462 announce AS-OPENPEERINGMEMBERS
+export:         to AS29467 announce AS-OPENPEERING-EU
+export:         to AS29550 announce AS-OPENPEERING-EU
+export:         to AS29587 announce AS-OPENPEERINGPEERS-EU
+export:         to AS29590 announce AS-OPENPEERINGPEERS
+export:         to AS29640 announce AS-OPENPEERINGMEMBERS
+export:         to AS29644 announce AS-OPENPEERING
+export:         to AS29659 announce AS-OPENPEERINGPEERS
+export:         to AS30094 announce AS-OPENPEERING
+export:         to AS30132 announce AS-OPENPEERINGPEERS
+export:         to AS42541 announce AS-OPENPEERINGPEERS
+export:         to AS30740 announce AS-OPENPEERING
+export:         to AS30776 announce AS-OPENPEERING
+export:         to AS30785 announce AS-OPENPEERINGPEERS
+export:         to AS30806 announce AS-OPENPEERINGPEERS
+export:         to AS30890 announce AS-OPENPEERING
+export:         to AS30913 announce AS-OPENPEERING
+export:         to AS30925 announce AS-OPENPEERINGPEERS
+export:         to AS30961 announce AS-OPENPEERINGPEERS
+export:         to AS31019 announce AS-OPENPEERINGMEMBERS
+export:         to AS31027 announce AS-OPENPEERING
+export:         to AS31216 announce AS-OPENPEERING
+export:         to AS31251 announce AS-OPENPEERING
+export:         to AS31334 announce AS-OPENPEERING
+export:         to AS205019 announce AS-OPENPEERING
+export:         to AS31383 announce AS-OPENPEERINGPEERS
+export:         to AS31472 announce AS-OPENPEERING-EU
+export:         to AS31477 announce AS-OPENPEERINGPEERS
+export:         to AS31500 announce AS-OPENPEERINGMEMBERS
+export:         to AS31529 announce AS-OPENPEERING
+export:         to AS60167 announce AS-OPENPEERING
+export:         to AS31533 announce AS-OPENPEERINGPEERS
+export:         to AS31584 announce AS-OPENPEERINGPEERS
+export:         to AS205668 announce AS-OPENPEERINGPEERS
+export:         to AS31595 announce AS-OPENPEERING-EU
+export:         to AS31615 announce AS-OPENPEERINGPEERS
+export:         to AS31661 announce AS-OPENPEERING
+export:         to AS31673 announce AS-OPENPEERINGPEERS
+export:         to AS31680 announce AS-OPENPEERINGPEERS
+export:         to AS31708 announce AS-OPENPEERING-EU
+export:         to AS31712 announce AS-OPENPEERING-EU
+export:         to AS31731 announce AS-OPENPEERING
+export:         to AS31800 announce AS-OPENPEERINGMEMBERS
+export:         to AS32787 announce AS-OPENPEERING-EU
+export:         to AS32934 announce AS-OPENPEERING
+export:         to AS33915 announce AS-OPENPEERING
+export:         to AS33941 announce AS-OPENPEERING-EU
+export:         to AS34019 announce AS-OPENPEERING
+export:         to AS34106 announce AS-OPENPEERINGMEMBERS
+export:         to AS34109 announce AS-OPENPEERINGMEMBERS
+export:         to AS34141 announce AS-OPENPEERINGPEERS
+export:         to AS34177 announce AS-OPENPEERING
+export:         to AS34210 announce AS-OPENPEERINGPEERS
+export:         to AS34215 announce AS-OPENPEERING
+export:         to AS34233 announce AS-OPENPEERINGPEERS
+export:         to AS34288 announce AS-OPENPEERINGMEMBERS
+export:         to AS34305 announce AS-OPENPEERINGPEERS
+export:         to AS34343 announce AS-OPENPEERINGPEERS
+export:         to AS34419 announce AS-OPENPEERING
+export:         to AS34427 announce AS-OPENPEERINGPEERS
+export:         to AS34555 announce AS-OPENPEERING-EU
+export:         to AS34655 announce AS-OPENPEERINGPEERS
+export:         to AS34695 announce AS-OPENPEERING
+export:         to AS34763 announce AS-OPENPEERING
+export:         to AS34863 announce AS-OPENPEERING
+export:         to AS34942 announce AS-OPENPEERING
+export:         to AS34953 announce AS-OPENPEERING
+export:         to AS34968 announce AS-OPENPEERING
+export:         to AS35027 announce AS-OPENPEERINGPEERS
+export:         to AS35028 announce AS-OPENPEERING
+export:         to AS35176 announce AS-OPENPEERINGPEERS
+export:         to AS35220 announce AS-OPENPEERINGPEERS-EU
+export:         to AS35224 announce AS-OPENPEERINGPEERS
+export:         to AS35260 announce AS-OPENPEERING
+export:         to AS35329 announce AS-OPENPEERINGMEMBERS
+export:         to AS35332 announce AS-OPENPEERINGPEERS
+export:         to AS35366 announce AS-OPENPEERING
+export:         to AS216066 announce AS-OPENPEERING
+export:         to AS35383 announce AS-OPENPEERINGPEERS
+export:         to AS35432 announce AS-OPENPEERING
+export:         to AS35470 announce AS-OPENPEERINGPEERS
+export:         to AS35579 announce AS-OPENPEERINGMEMBERS
+export:         to AS35625 announce AS-OPENPEERING
+export:         to AS35705 announce AS-OPENPEERINGPEERS
+export:         to AS35829 announce AS-OPENPEERINGMEMBERS
+export:         to AS36351 announce AS-OPENPEERING
+export:         to AS36623 announce AS-OPENPEERING
+export:         to AS36692 announce AS-OPENPEERING
+export:         to AS36944 announce AS-OPENPEERING
+export:         to AS38915 announce AS-OPENPEERINGPEERS
+export:         to AS39030 announce AS-OPENPEERINGPEERS
+export:         to AS39059 announce AS-OPENPEERINGPEERS
+export:         to AS39136 announce AS-OPENPEERINGPEERS
+export:         to AS39234 announce AS-OPENPEERINGPEERS
+export:         to AS39244 announce AS-OPENPEERINGPEERS
+export:         to AS39292 announce AS-OPENPEERINGPEERS
+export:         to AS39309 announce AS-OPENPEERING
+export:         to AS39318 announce AS-OPENPEERINGPEERS
+export:         to AS39556 announce AS-OPENPEERINGMEMBERS
+export:         to AS39591 announce AS-OPENPEERINGPEERS
+export:         to AS39598 announce AS-OPENPEERING
+export:         to AS39637 announce AS-OPENPEERINGPEERS
+export:         to AS39647 announce AS-OPENPEERINGPEERS
+export:         to AS39923 announce AS-OPENPEERING
+export:         to AS40069 announce AS-OPENPEERINGPEERS
+export:         to AS41008 announce AS-OPENPEERINGPEERS
+export:         to AS41037 announce AS-OPENPEERINGMEMBERS
+export:         to AS41038 announce AS-OPENPEERINGPEERS
+export:         to AS41095 announce AS-OPENPEERING
+export:         to AS41103 announce AS-OPENPEERING-EU
+export:         to AS41153 announce AS-OPENPEERINGPEERS
+export:         to AS41155 announce AS-OPENPEERINGPEERS
+export:         to AS41230 announce AS-OPENPEERING-EU
+export:         to AS41480 announce AS-OPENPEERINGPEERS
+export:         to AS41552 announce AS-OPENPEERINGPEERS
+export:         to AS41659 announce AS-OPENPEERING-EU
+export:         to AS41692 announce AS-OPENPEERING
+export:         to AS41880 announce AS-OPENPEERINGPEERS
+export:         to AS41887 announce AS-OPENPEERINGPEERS-EU
+export:         to AS42010 announce AS-OPENPEERING-EU
+export:         to AS42093 announce AS-OPENPEERINGPEERS
+export:         to AS42158 announce AS-OPENPEERINGPEERS
+export:         to AS42161 announce AS-OPENPEERINGPEERS
+export:         to AS42315 announce AS-OPENPEERINGPEERS
+export:         to AS42320 announce AS-OPENPEERINGPEERS
+export:         to AS42492 announce AS-OPENPEERING-EU
+export:         to AS42492 announce AS-OPENPEERINGPEERS
+export:         to AS42517 announce AS-OPENPEERINGPEERS
+export:         to AS42585 announce AS-OPENPEERINGPEERS
+export:         to AS42707 announce AS-OPENPEERINGPEERS
+export:         to AS42755 announce AS-OPENPEERINGPEERS-EU
+export:         to AS42884 announce AS-OPENPEERINGMEMBERS
+export:         to AS42949 announce AS-OPENPEERINGPEERS
+export:         to AS42973 announce AS-OPENPEERING-EU
+export:         to AS43142 announce AS-OPENPEERING
+export:         to AS43190 announce AS-OPENPEERINGPEERS
+export:         to AS43293 announce AS-OPENPEERINGMEMBERS
+export:         to AS43350 announce AS-OPENPEERINGPEERS
+export:         to AS43366 announce AS-OPENPEERINGPEERS
+export:         to AS43409 announce AS-OPENPEERINGPEERS
+export:         to AS43437 announce AS-OPENPEERINGMEMBERS
+export:         to AS43440 announce AS-OPENPEERINGPEERS
+export:         to AS43531 announce AS-OPENPEERING
+export:         to AS43545 announce AS-OPENPEERING-EU
+export:         to AS43821 announce AS-OPENPEERING
+export:         to AS43995 announce AS-OPENPEERINGPEERS
+export:         to AS43996 announce AS-OPENPEERING
+export:         to AS44053 announce AS-OPENPEERING-EU
+export:         to AS44060 announce AS-OPENPEERINGPEERS
+export:         to AS44253 announce AS-OPENPEERINGPEERS
+export:         to AS44259 announce AS-OPENPEERING
+export:         to AS44314 announce AS-OPENPEERING-EU
+export:         to AS44530 announce AS-OPENPEERINGPEERS
+export:         to AS44532 announce AS-OPENPEERINGPEERS
+export:         to AS44608 announce AS-OPENPEERINGPEERS
+export:         to AS44684 announce AS-OPENPEERING-EU
+export:         to AS44858 announce AS-OPENPEERINGPEERS
+export:         to AS44953 announce AS-OPENPEERINGPEERS
+export:         to AS46489 announce AS-OPENPEERING
+export:         to AS47112 announce AS-OPENPEERINGPEERS
+export:         to AS47121 announce AS-OPENPEERINGPEERS
+export:         to AS47172 announce AS-OPENPEERINGPEERS
+export:         to AS47207 announce AS-OPENPEERINGPEERS
+export:         to AS47407 announce AS-OPENPEERINGMEMBERS
+export:         to AS47463 announce AS-OPENPEERINGPEERS
+export:         to AS47537 announce AS-OPENPEERING
+export:         to AS47541 announce AS-OPENPEERING
+export:         to AS47622 announce AS-OPENPEERING
+export:         to AS47764 announce AS-OPENPEERING
+export:         to AS47836 announce AS-OPENPEERINGPEERS
+export:         to AS48056 announce AS-OPENPEERINGPEERS-EU
+export:         to AS48166 announce AS-OPENPEERING
+export:         to AS48200 announce AS-OPENPEERING
+export:         to AS48345 announce AS-OPENPEERING
+export:         to AS48526 announce AS-OPENPEERING
+export:         to AS48635 announce AS-OPENPEERINGPEERS-EU
+export:         to AS48886 announce AS-OPENPEERINGPEERS
+export:         to AS49206 announce AS-OPENPEERINGPEERS
+export:         to AS49250 announce AS-OPENPEERINGPEERS
+export:         to AS49405 announce AS-OPENPEERINGPEERS
+export:         to AS49544 announce AS-OPENPEERINGPEERS
+export:         to AS49548 announce AS-OPENPEERINGPEERS
+export:         to AS49625 announce AS-OPENPEERINGPEERS
+export:         to AS49713 announce AS-OPENPEERINGPEERS
+export:         to AS49784 announce AS-OPENPEERINGPEERS
+export:         to AS49820 announce AS-OPENPEERING
+export:         to AS49964 announce AS-OPENPEERINGPEERS
+export:         to AS50072 announce AS-OPENPEERINGPEERS
+export:         to AS50103 announce AS-OPENPEERINGPEERS
+export:         to AS50245 announce AS-OPENPEERING
+export:         to AS50266 announce AS-OPENPEERINGPEERS
+export:         to AS50295 announce AS-OPENPEERINGPEERS
+export:         to AS50384 announce AS-OPENPEERINGPEERS
+export:         to AS50522 announce AS-OPENPEERINGPEERS
+export:         to AS50570 announce AS-OPENPEERINGPEERS
+export:         to AS50622 announce AS-OPENPEERINGPEERS
+export:         to AS50673 announce AS-OPENPEERINGPEERS
+export:         to AS50684 announce AS-OPENPEERINGPEERS
+export:         to AS50763 announce AS-OPENPEERING
+export:         to AS50805 announce AS-OPENPEERINGPEERS
+export:         to AS50901 announce AS-OPENPEERINGPEERS
+export:         to AS50930 announce AS-OPENPEERINGMEMBERS
+export:         to AS50968 announce AS-OPENPEERINGPEERS
+export:         to AS51030 announce AS-OPENPEERINGPEERS
+export:         to AS51050 announce AS-OPENPEERINGPEERS
+export:         to AS51062 announce AS-OPENPEERINGPEERS
+export:         to AS51088 announce AS-OPENPEERINGPEERS
+export:         to AS51313 announce AS-OPENPEERINGPEERS
+export:         to AS51331 announce AS-OPENPEERINGPEERS
+export:         to AS51344 announce AS-OPENPEERINGPEERS
+export:         to AS51406 announce AS-OPENPEERING-EU
+export:         to AS51514 announce AS-OPENPEERINGPEERS
+export:         to AS51571 announce AS-OPENPEERINGPEERS
+export:         to AS51646 announce AS-OPENPEERINGPEERS
+export:         to AS51758 announce AS-OPENPEERINGPEERS
+export:         to AS51918 announce AS-OPENPEERING-EU
+export:         to AS51920 announce AS-OPENPEERINGPEERS
+export:         to AS51945 announce AS-OPENPEERING-EU
+export:         to AS51949 announce AS-OPENPEERINGPEERS
+export:         to AS52144 announce AS-OPENPEERINGPEERS
+export:         to AS52186 announce AS-OPENPEERINGPEERS
+export:         to AS56453 announce AS-OPENPEERINGPEERS
+export:         to AS56595 announce AS-OPENPEERING-EU
+export:         to AS56654 announce AS-OPENPEERINGPEERS
+export:         to AS56657 announce AS-OPENPEERINGPEERS
+export:         to AS56953 announce AS-OPENPEERINGPEERS
+export:         to AS57029 announce AS-OPENPEERINGPEERS
+export:         to AS57099 announce AS-OPENPEERING-EU
+export:         to AS57124 announce AS-OPENPEERINGPEERS-EU
+export:         to AS57146 announce AS-OPENPEERINGPEERS
+export:         to AS57172 announce AS-OPENPEERINGPEERS
+export:         to AS57626 announce AS-OPENPEERINGPEERS
+export:         to AS57638 announce AS-OPENPEERINGPEERS
+export:         to AS57685 announce AS-OPENPEERINGPEERS
+export:         to AS57717 announce AS-OPENPEERINGPEERS
+export:         to AS57795 announce AS-OPENPEERINGPEERS
+export:         to AS57928 announce AS-OPENPEERING
+export:         to AS58073 announce AS-OPENPEERINGPEERS
+export:         to AS58075 announce AS-OPENPEERINGPEERS
+export:         to AS58138 announce AS-OPENPEERINGPEERS
+export:         to AS58141 announce AS-OPENPEERINGPEERS
+export:         to AS58291 announce AS-OPENPEERINGPEERS
+export:         to AS59426 announce AS-OPENPEERINGPEERS
+export:         to AS59524 announce AS-OPENPEERINGPEERS
+export:         to AS59545 announce AS-OPENPEERINGPEERS
+export:         to AS59554 announce AS-OPENPEERINGPEERS
+export:         to AS59560 announce AS-OPENPEERINGPEERS
+export:         to AS59605 announce AS-OPENPEERING
+export:         to AS59685 announce AS-OPENPEERINGPEERS
+export:         to AS59701 announce AS-OPENPEERINGPEERS-EU
+export:         to AS59832 announce AS-OPENPEERINGPEERS
+export:         to AS59865 announce AS-OPENPEERINGPEERS
+export:         to AS59985 announce AS-OPENPEERINGPEERS
+export:         to AS60222 announce AS-OPENPEERINGPEERS
+export:         to AS60332 announce AS-OPENPEERINGPEERS
+export:         to AS60341 announce AS-OPENPEERINGPEERS
+export:         to AS60671 announce AS-OPENPEERINGPEERS
+export:         to AS44949 announce AS-OPENPEERINGPEERS
+export:         to AS61013 announce AS-OPENPEERINGPEERS
+export:         to AS61029 announce AS-OPENPEERINGPEERS
+export:         to AS61329 announce AS-OPENPEERINGPEERS
+export:         to AS61200 announce AS-OPENPEERINGPEERS
+export:         to AS61404 announce AS-OPENPEERINGPEERS-EU
+export:         to AS61955 announce AS-OPENPEERING
+export:         to AS62097 announce AS-OPENPEERINGPEERS
+export:         to AS62105 announce AS-OPENPEERINGPEERS
+export:         to AS62182 announce AS-OPENPEERINGPEERS
+export:         to AS62285 announce AS-OPENPEERINGPEERS
+export:         to AS62383 announce AS-OPENPEERINGPEERS
+export:         to AS62710 announce AS-OPENPEERINGPEERS
+export:         to AS133229 announce AS-OPENPEERINGPEERS-EU
+export:         to AS34756 announce AS-OPENPEERINGPEERS-EU
+export:         to AS196760 announce AS-OPENPEERINGPEERS
+export:         to AS196771 announce AS-OPENPEERINGPEERS
+export:         to AS197016 announce AS-OPENPEERINGPEERS
+export:         to AS197038 announce AS-OPENPEERINGPEERS
+export:         to AS197156 announce AS-OPENPEERINGPEERS
+export:         to AS197676 announce AS-OPENPEERINGPEERS
+export:         to AS197731 announce AS-OPENPEERINGPEERS
+export:         to AS197902 announce AS-OPENPEERINGPEERS
+export:         to AS198011 announce AS-OPENPEERINGPEERS-EU
+export:         to AS198089 announce AS-OPENPEERINGPEERS
+export:         to AS198203 announce AS-OPENPEERINGPEERS
+export:         to AS198334 announce AS-OPENPEERINGPEERS
+export:         to AS198550 announce AS-OPENPEERINGPEERS
+export:         to AS198692 announce AS-OPENPEERINGPEERS
+export:         to AS198792 announce AS-OPENPEERING
+export:         to AS199095 announce AS-OPENPEERINGPEERS
+export:         to AS199139 announce AS-OPENPEERINGPEERS
+export:         to AS199408 announce AS-OPENPEERINGPEERS
+export:         to AS199523 announce AS-OPENPEERINGPEERS
+export:         to AS199636 announce AS-OPENPEERINGPEERS-EU
+export:         to AS199743 announce AS-OPENPEERINGPEERS
+export:         to AS199863 announce AS-OPENPEERINGPEERS
+export:         to AS200052 announce AS-OPENPEERINGPEERS-EU
+export:         to AS200130 announce AS-OPENPEERINGMEMBERS
+export:         to AS200191 announce AS-OPENPEERINGPEERS
+export:         to AS200428 announce AS-OPENPEERINGPEERS
+export:         to AS200586 announce AS-OPENPEERINGPEERS
+export:         to AS200596 announce AS-OPENPEERINGPEERS
+export:         to AS200756 announce AS-OPENPEERINGPEERS
+export:         to AS50629 announce AS-OPENPEERINGPEERS-EU
+export:         to AS12615 announce AS-OPENPEERINGPEERS-EU
+export:         to AS200758 announce AS-OPENPEERINGPEERS
+export:         to AS201330 announce AS-OPENPEERINGPEERS
+export:         to AS201372 announce AS-OPENPEERINGPEERS
+export:         to AS203320 announce AS-OPENPEERINGPEERS
+export:         to AS201401 announce AS-OPENPEERINGPEERS
+export:         to AS201650 announce AS-OPENPEERINGPEERS-EU
+export:         to AS201690 announce AS-OPENPEERINGPEERS
+export:         to AS201866 announce AS-OPENPEERINGPEERS
+export:         to AS201968 announce AS-OPENPEERINGPEERS
+export:         to AS202072 announce AS-OPENPEERINGPEERS
+export:         to AS202189 announce AS-OPENPEERINGPEERS
+export:         to AS202796 announce AS-OPENPEERINGPEERS
+export:         to AS202914 announce AS-OPENPEERINGPEERS
+export:         to AS203040 announce AS-OPENPEERINGPEERS
+export:         to AS203126 announce AS-OPENPEERINGPEERS
+export:         to AS203952 announce AS-OPENPEERINGPEERS
+export:         to AS204171 announce AS-OPENPEERINGPEERS
+export:         to AS206121 announce AS-OPENPEERINGPEERS
+export:         to AS206281 announce AS-OPENPEERINGPEERS
+export:         to AS206389 announce AS-OPENPEERINGPEERS
+export:         to AS206730 announce AS-OPENPEERINGPEERS
+export:         to AS206836 announce AS-OPENPEERINGPEERS
+export:         to AS206971 announce AS-OPENPEERINGPEERS
+export:         to AS206982 announce AS-OPENPEERINGPEERS
+export:         to AS207119 announce AS-OPENPEERINGPEERS
+export:         to AS196752 announce AS-OPENPEERINGPEERS
+export:         to AS209048 announce AS-OPENPEERINGPEERS
+remarks:        ========================================================
+remarks:        For peering requests contact peering@openpeering.nl
+remarks:        In case of problems contact noc@openpeering.nl
+remarks:        In case of abuse contact abuse@openpeering.nl
+remarks:        ========================================================
+admin-c:        OR1278-RIPE
+tech-c:         OR1278-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         OPENPEERING-MNT
+remarks:        ========================================================
+remarks:        ========================================================
+created:        2002-04-17T16:28:45Z
+last-modified:  2025-06-10T14:09:53Z
+source:         RIPE
+
+organisation:   ORG-OPB1-RIPE
+org-name:       Broadband Hosting B.V.
+country:        NL
+org-type:       LIR
+descr:          Open Peering
+address:        Wilhelminakade 123
+address:        3072AP
+address:        Rotterdam
+address:        NETHERLANDS
+phone:          +31 (0)70 312 0710
+fax-no:         +31703922216
+admin-c:        EVER1-RIPE
+admin-c:        GA1234-RIPE
+admin-c:        MK10320-RIPE
+admin-c:        OR1278-RIPE
+admin-c:        JCH11
+admin-c:        AG214
+admin-c:        VMR3-RIPE
+abuse-c:        AR16250-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        OPENPEERING-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2004-04-17T11:42:46Z
+last-modified:  2025-04-23T11:38:01Z
+source:         RIPE # Filtered
+
+role:           OpenPeering RIPE
+address:        Rontgenlaan 75
+address:        2719 DX Zoetermeer
+address:        The Netherlands
+phone:          +31 70 3120710
+nic-hdl:        OR1278-RIPE
+admin-c:        MK10320-RIPE
+mnt-by:         OPENPEERING-MNT
+created:        2011-12-07T08:06:27Z
+last-modified:  2024-04-23T14:28:05Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          82.150.133.0/24
+origin:         AS20562
+mnt-by:         OPENPEERING-MNT
+created:        2022-03-17T11:06:49Z
+last-modified:  2022-03-17T11:06:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          82.150.150.0/24
+descr:          Open Peering
+origin:         AS20562
+org:            ORG-OPB2-RIPE
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2019-01-21T14:51:03Z
+last-modified:  2019-01-21T14:51:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.150.151.0/24
+descr:          Open Peering
+origin:         AS20562
+org:            ORG-OPB2-RIPE
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2018-02-19T16:07:49Z
+last-modified:  2018-02-19T16:07:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.150.153.0/24
+descr:          Open Peering
+origin:         AS20562
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2004-06-16T16:28:21Z
+last-modified:  2004-06-16T16:28:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.150.154.0/24
+descr:          Open Peering
+origin:         AS20562
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2006-04-27T12:16:48Z
+last-modified:  2006-04-27T12:16:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.150.155.0/24
+descr:          Open Peering
+origin:         AS20562
+org:            ORG-OPB2-RIPE
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2018-02-19T16:03:28Z
+last-modified:  2018-02-19T16:03:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.150.156.0/24
+descr:          Open Peering
+origin:         AS20562
+org:            ORG-OPB2-RIPE
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2018-02-19T16:06:48Z
+last-modified:  2018-02-19T16:06:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.150.157.0/24
+descr:          Open Peering
+origin:         AS20562
+org:            ORG-OPB2-RIPE
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2018-02-19T16:07:11Z
+last-modified:  2018-02-19T16:07:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.150.158.0/24
+descr:          Open Peering
+origin:         AS20562
+org:            ORG-OPB2-RIPE
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2018-02-19T16:07:30Z
+last-modified:  2018-02-19T16:07:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.150.159.0/24
+descr:          Open Peering Infrastructure block
+origin:         AS20562
+mnt-by:         OPENPEERING-MNT
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+created:        2013-10-11T12:13:24Z
+last-modified:  2013-10-11T12:13:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.92.16.0/23
+origin:         AS20562
+mnt-by:         OPENPEERING-MNT
+created:        2019-02-26T16:30:51Z
+last-modified:  2019-02-26T16:30:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.92.18.0/23
+origin:         AS20562
+mnt-by:         OPENPEERING-MNT
+created:        2019-02-26T16:31:35Z
+last-modified:  2019-02-26T16:31:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.207.5.0/24
+descr:          Open Peering
+origin:         AS20562
+mnt-by:         OPENPEERING-MNT
+created:        2009-05-11T08:48:55Z
+last-modified:  2009-05-11T08:48:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.207.6.0/24
+descr:          Open Peering
+origin:         AS20562
+mnt-by:         OPENPEERING-MNT
+created:        2009-05-11T08:48:56Z
+last-modified:  2009-05-11T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.207.20.0/24
+descr:          Open Peering
+origin:         AS20562
+org:            ORG-OPB2-RIPE
+mnt-lower:      OPENPEERING-MNT
+mnt-routes:     OPENPEERING-MNT
+mnt-by:         OPENPEERING-MNT
+created:        2021-10-07T08:14:27Z
+last-modified:  2021-10-07T08:14:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

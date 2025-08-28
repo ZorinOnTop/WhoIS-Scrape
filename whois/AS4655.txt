@@ -1,0 +1,222 @@
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to 'AS4608 - AS4865'
+
+as-block:       AS4608 - AS4865
+descr:          APNIC ASN block
+remarks:        These AS numbers are further assigned by APNIC
+remarks:        to APNIC members and end-users in the APNIC region
+admin-c:        HM20-AP
+tech-c:         HM20-AP
+mnt-by:         APNIC-HM
+mnt-lower:      APNIC-HM
+last-modified:  2019-05-20T03:52:26Z
+source:         APNIC
+
+role:           APNIC Hostmaster
+address:        6 Cordelia Street
+address:        South Brisbane
+address:        QLD 4101
+country:        AU
+phone:          +61 7 3858 3100
+fax-no:         +61 7 3858 3199
+e-mail:         helpdesk@apnic.net
+admin-c:        AMS11-AP
+tech-c:         AH256-AP
+nic-hdl:        HM20-AP
+remarks:        Administrator for APNIC
+notify:         hostmaster@apnic.net
+mnt-by:         MAINT-APNIC-AP
+last-modified:  2013-10-23T04:06:51Z
+source:         APNIC
+
+% Information related to 'AS4655'
+
+% No abuse contact registered for AS4655
+
+aut-num:        AS4655
+as-name:        UNSPECIFIED
+descr:          Sing Tao Electronic Daily
+descr:          Sing Tao Limited
+country:        HK
+import:         from AS3661
+                action pref=1;
+                accept AS3661
+import:         from AS4631
+                action pref=43;
+                accept AS4631
+import:         from AS2687
+                action pref=100;
+                accept AS2687
+export:         to AS3661
+                announce ANY
+export:         to AS4631
+                announce ANY
+export:         to AS2687
+                announce ANY
+default:        to AS3661
+                action pref=1;
+                networks ANY
+admin-c:        sy660-AP
+tech-c:         sy660-AP
+notify:         helpdesk@apnic.net
+mnt-by:         APNIC-HM
+remarks:        stepheny@hkstar.com 960109
+remarks:        hm-changed@apnic.net 20041221
+last-modified:  2012-02-16T23:21:18Z
+source:         APNIC
+
+person:         stephen yip
+address:        1/f , 10 Tui Min Hoi New Village
+address:        LOT 996, DD215
+country:        HK
+address:        Sai Kung
+phone:          +852 90516154
+fax-no:         +852 27950338
+e-mail:         stepheny@hkstar.com
+e-mail:         stephen@singtao.com
+nic-hdl:        sy660-AP
+notify:         dbmon@apnic.net
+mnt-by:         MAINT-SINGTAO
+last-modified:  2012-02-01T06:00:43Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.34 (WHOIS-UK2)
+
+
+
+route:          202.66.86.0/24
+descr:          HGC (customer route)
+origin:         AS4655
+notify:         radb@hutchcity.com
+mnt-by:         MAINT-AS9304
+changed:        radb@hutchcity.com 20060104
+source:         RADB
+last-modified:  2023-11-13T15:40:37Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          202.66.86.0/24
+descr:          REACH (Customer Route)
+tech-c:         RRNOC1-REACH
+origin:         AS4655
+notify:         irr@team.telstra.com
+mnt-by:         MAINT-REACH-NOC
+changed:        irr@team.telstra.com 20040512
+source:         REACH
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          202.66.86.0/24
+descr:          Proxy-registered route object
+origin:         AS4655
+remarks:        This is a HGC customer route-object
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found.
+remarks:
+remarks:        Please contact radb@hutchcity.com if you have any
+remarks:        questions regarding this object.
+notify:         radb@hutchcity.com
+mnt-by:         MAINT-AS9304
+changed:        radb@hutchcity.com 20140320
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.80.0.0/22
+descr:          PACNET (proxy-registered route object)
+origin:         AS4655
+remarks:        This route object is for a PACNET customer route which is
+                being exported under this origin AS.
+	               +
+	               This route object was created because no existing route
+                object with the same origin was found, and since some
+                PACNET peers filter based on these objects this route
+                may be rejected if this object is not created.
+                +
+                Please contact abuse@pacnet.net if you have any
+                Concerns regarding Spam/Abuses related to this object
+	               +
+                Please contact ip-noc@pacnet.net if you have any other
+                Questions regarding this object.
+notify:         ip-noc@pacnet.net
+mnt-by:         MAINT-AS4637
+changed:        ip-noc@pacnet.net 20100201
+source:         RADB
+last-modified:  2023-11-13T15:58:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.80.0.0/22
+descr:          SINGTAO-HK
+origin:         AS4655
+notify:         hostinfo@cpcnet-hk.com
+mnt-by:         MAINT-HK-PSINET
+changed:        hostinfo@cpcnet-hk.com 20030417
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.80.0.0/22
+descr:          REACH (Customer Route)
+tech-c:         RRNOC1-REACH
+origin:         AS4655
+notify:         irr@team.telstra.com
+mnt-by:         MAINT-REACH-NOC
+changed:        irr@team.telstra.com 20040512
+source:         REACH
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.80.0.0/23
+descr:          SINGTAO-HK
+origin:         AS4655
+notify:         hostinfo@cpcnet-hk.com
+mnt-by:         MAINT-HK-PSINET
+changed:        hostinfo@cpcnet-hk.com 20030417
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.80.0.0/24
+descr:          SINGTAO-HK
+origin:         AS4655
+notify:         hostinfo@cpcnet-hk.com
+mnt-by:         MAINT-HK-PSINET
+changed:        hostinfo@cpcnet-hk.com 20030417
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.80.1.0/24
+descr:          SINGTAO-HK
+origin:         AS4655
+notify:         hostinfo@cpcnet-hk.com
+mnt-by:         MAINT-HK-PSINET
+changed:        hostinfo@cpcnet-hk.com 20030417
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.80.2.0/23
+descr:          SINGTAO-HK
+origin:         AS4655
+notify:         hostinfo@cpcnet-hk.com
+mnt-by:         MAINT-HK-PSINET
+changed:        hostinfo@cpcnet-hk.com 20030417
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.80.2.0/24
+descr:          SINGTAO-HK
+origin:         AS4655
+notify:         hostinfo@cpcnet-hk.com
+mnt-by:         MAINT-HK-PSINET
+changed:        hostinfo@cpcnet-hk.com 20030417
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.80.3.0/24
+descr:          SINGTAO-HK
+origin:         AS4655
+notify:         hostinfo@cpcnet-hk.com
+mnt-by:         MAINT-HK-PSINET
+changed:        hostinfo@cpcnet-hk.com 20030417
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

@@ -1,0 +1,924 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6656 - AS6684'
+
+as-block:       AS6656 - AS6684
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2025-08-20T13:58:23Z
+last-modified:  2025-08-20T13:58:23Z
+source:         RIPE
+
+% Information related to 'AS6659'
+
+% Abuse contact for 'AS6659' is 'abuse@plusserver.com'
+
+aut-num:        AS6659
+as-name:        NEXINTO-DE
+remarks:        Transits:
+member-of:      AS3320:AS-AUTH-BLACKHOLE-FROM-AS61157
+remarks:        ---------
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-NEXINTO
+import:         from AS8220 accept ANY
+export:         to AS8220 announce AS-NEXINTO
+import:         from AS4589 accept ANY
+export:         to AS4589 announce AS-NEXINTO
+import:         from AS61157 accept ANY
+export:         to AS61157 announce AS-NEXINTO
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-NEXINTO6
+mp-import:      afi ipv6.unicast from AS8220 accept ANY
+mp-export:      afi ipv6.unicast to AS8220 announce AS-NEXINTO6
+mp-import:      afi ipv6.unicast from AS4589 accept ANY
+mp-export:      afi ipv6.unicast to AS4589 announce AS-NEXINTO6
+mp-import:      afi ipv6.unicast from AS61157 accept ANY
+mp-export:      afi ipv6.unicast to AS61157 announce AS-NEXINTO6
+remarks:        Peerings:
+remarks:        ---------
+import:         from AS6695 accept AS-DECIX
+export:         to AS6695 announce AS-NEXINTO
+import:         from AS6805 accept AS-TDDE
+export:         to AS6805 announce AS-NEXINTO
+import:         from AS13184 accept AS-HANSENET
+export:         to AS13184 announce AS-NEXINTO
+import:         from AS34031 accept AS34031
+export:         to AS34031 announce ANY
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-NEXINTO6
+mp-import:      afi ipv6.unicast from AS6805 accept AS-TDDE
+mp-export:      afi ipv6.unicast to AS6805 announce AS-NEXINTO6
+mp-import:      afi ipv6.unicast from AS13184 accept AS-HANSENET
+mp-export:      afi ipv6.unicast to AS13184 announce AS-NEXINTO6
+mp-import:      afi ipv6.unicast from AS34031 accept AS34031
+mp-export:      afi ipv6.unicast to AS34031 announce ANY
+org:            ORG-OG2-RIPE
+admin-c:        PNO7-RIPE
+tech-c:         PNO7-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-PlusServer
+created:        2001-09-23T18:14:31Z
+last-modified:  2020-09-02T12:18:32Z
+source:         RIPE # Filtered
+
+organisation:   ORG-OG2-RIPE
+org-name:       PlusServer GmbH
+country:        DE
+org-type:       LIR
+address:        Welserstr. 14
+address:        51149
+address:        Köln
+address:        GERMANY
+phone:          +49 2203 1045 3000
+fax-no:         +49 2203 1045 1045
+admin-c:        ADPS-RIPE
+admin-c:        CA4524-RIPE
+abuse-c:        PNO7-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-PlusServer
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-PlusServer
+created:        2004-04-17T11:11:03Z
+last-modified:  2025-03-26T12:32:48Z
+source:         RIPE # Filtered
+
+role:           PlusServer Network Operations
+address:        PlusServer GmbH
+address:        Welserstr. 14
+address:        51149 Koeln
+phone:          +49 2203 1045 3600
+abuse-mailbox:  abuse@plusserver.com
+remarks:
+remarks:        **************************************************
+remarks:        * Auskunftsersuchen gemaess TKG werden nur unter
+remarks:        * Fax: +49 2203 1045 1045
+remarks:        * Mail: behoerdenanfragen@plusserver.com
+remarks:        * bearbeitet!
+remarks:        **************************************************
+remarks:
+admin-c:        ADPS-RIPE
+admin-c:        RHPS-RIPE
+admin-c:        CA4524-RIPE
+tech-c:         ADPS-RIPE
+tech-c:         RHPS-RIPE
+tech-c:         CA4524-RIPE
+nic-hdl:        PNO7-RIPE
+mnt-by:         MNT-PlusServer
+created:        2016-06-02T09:51:40Z
+last-modified:  2025-03-25T11:13:36Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          45.151.20.0/24
+descr:          INPOSIA Solutions GmbH
+origin:         AS6659
+mnt-by:         mnt-de-inposia-1
+created:        2020-06-16T12:38:12Z
+last-modified:  2020-06-16T12:38:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          45.151.21.0/24
+origin:         AS6659
+mnt-by:         mnt-de-inposia-1
+created:        2020-06-16T12:38:41Z
+last-modified:  2020-06-16T12:38:41Z
+source:         RIPE
+descr:          INPOSIA Solutions GmbH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          79.171.204.0/22
+descr:          freenet digital
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-10-09T11:21:39Z
+last-modified:  2014-10-09T11:21:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.0.0/19
+descr:          NEXINTO-NET
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-07-02T13:16:26Z
+last-modified:  2014-07-02T13:16:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.16.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:08Z
+last-modified:  2019-10-23T08:58:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.17.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:09Z
+last-modified:  2019-10-23T08:58:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.18.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:09Z
+last-modified:  2019-10-23T08:58:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.19.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:09Z
+last-modified:  2019-10-23T08:58:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.20.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:10Z
+last-modified:  2019-10-23T08:58:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.21.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:10Z
+last-modified:  2019-10-23T08:58:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.22.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:10Z
+last-modified:  2019-10-23T08:58:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.23.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:10Z
+last-modified:  2019-10-23T08:58:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.24.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:11Z
+last-modified:  2019-10-23T08:58:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.25.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:11Z
+last-modified:  2019-10-23T08:58:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.26.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:11Z
+last-modified:  2019-10-23T08:58:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.27.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:11Z
+last-modified:  2019-10-23T08:58:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.28.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:12Z
+last-modified:  2019-10-23T08:58:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.29.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:12Z
+last-modified:  2019-10-23T08:58:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.30.0/24
+descr:          PlusServer GmbH
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2019-10-23T08:58:12Z
+last-modified:  2019-10-23T08:58:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.64.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2021-09-21T09:32:55Z
+last-modified:  2021-09-21T09:32:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.80.0/21
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2021-09-21T09:32:55Z
+last-modified:  2021-09-21T09:32:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.120.0/21
+descr:          NEXINTO-NET
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-07-02T13:16:27Z
+last-modified:  2014-07-02T13:16:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.128.0/22
+descr:          NEXINTO-NET
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-07-02T13:16:27Z
+last-modified:  2014-07-02T13:16:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.64.192.0/18
+descr:          NEXINTO-NET
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-07-02T13:16:27Z
+last-modified:  2014-07-02T13:16:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.163.16.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2020-07-06T13:13:04Z
+last-modified:  2020-07-06T13:13:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.163.240.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PlusServer
+created:        2021-06-01T06:41:05Z
+last-modified:  2021-06-01T06:41:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.195.0.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PlusServer
+created:        2021-06-01T09:30:52Z
+last-modified:  2021-06-01T09:30:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.195.64.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2020-07-06T13:13:04Z
+last-modified:  2020-07-06T13:13:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.195.100.0/24
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2022-03-17T14:31:03Z
+last-modified:  2022-03-17T14:31:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.195.224.0/21
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2022-01-06T14:00:44Z
+last-modified:  2022-01-06T14:00:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.233.48.0/24
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2022-04-12T09:47:42Z
+last-modified:  2022-04-12T09:47:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.233.112.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2020-07-06T13:13:05Z
+last-modified:  2020-07-06T13:13:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.233.128.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PlusServer
+created:        2021-06-22T06:36:54Z
+last-modified:  2021-06-22T06:36:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.233.192.0/19
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PlusServer
+created:        2021-06-01T07:29:24Z
+last-modified:  2021-06-01T07:29:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.179.0.0/19
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2021-06-16T06:32:48Z
+last-modified:  2021-06-16T06:32:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.179.48.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2021-06-16T06:32:48Z
+last-modified:  2021-06-16T06:32:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.179.64.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2021-06-16T06:32:48Z
+last-modified:  2021-06-16T06:32:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.179.112.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2021-06-16T06:32:48Z
+last-modified:  2021-06-16T06:32:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.179.128.0/18
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2020-07-06T13:13:05Z
+last-modified:  2020-07-06T13:13:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.179.208.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2020-07-06T13:13:05Z
+last-modified:  2020-07-06T13:13:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.180.8.0/22
+descr:          NEXINTO-NET
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-07-02T13:27:51Z
+last-modified:  2014-07-02T13:27:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.180.12.0/23
+descr:          NEXINTO-NET
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-07-02T13:27:51Z
+last-modified:  2014-07-02T13:27:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.180.40.0/21
+descr:          NEXINTO-NET
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-07-02T13:27:51Z
+last-modified:  2014-07-02T13:27:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.180.208.0/20
+descr:          PS-NX-NET
+origin:         AS6659
+mnt-by:         MNT-PlusServer
+created:        2021-08-02T10:23:01Z
+last-modified:  2021-08-02T10:23:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.180.240.0/20
+descr:          PS-NX-NET
+origin:         AS6659
+mnt-by:         MNT-PlusServer
+created:        2021-08-02T10:23:01Z
+last-modified:  2021-08-02T10:23:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.206.128.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2021-09-21T09:32:55Z
+last-modified:  2021-09-21T09:32:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.116.0.0/19
+descr:          NEXINTO-NET
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-07-01T07:40:21Z
+last-modified:  2014-07-01T07:40:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.224.28.0/24
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PlusServer
+created:        2022-04-06T13:26:38Z
+last-modified:  2022-04-06T13:26:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.224.32.0/20
+descr:          PS-HAM-NET
+origin:         AS6659
+mnt-by:         MNT-PLUSSERVER
+created:        2021-09-21T09:32:55Z
+last-modified:  2021-09-21T09:32:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:74c0::/32
+descr:          Nexinto-20140508
+origin:         AS6659
+mnt-by:         NEXINTO-MNT
+created:        2014-05-08T09:02:22Z
+last-modified:  2014-05-08T09:02:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

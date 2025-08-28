@@ -1,0 +1,130 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6858'
+
+% Abuse contact for 'AS6858' is 'abuse@severen.net'
+
+aut-num:        AS6858
+as-name:        SEVEREN_COMLINK-AS
+descr:          St.Petersburg, Russia
+org:            ORG-SL18-RIPE
+remarks:        -----------====================-----------
+remarks:        ----------- IPv4 UPSTREAMS -----------
+remarks:        -----------====================-----------
+remarks:        SEVEREN-TRANSIT
+import:         from AS35000 accept ANY
+export:         to AS6858 announce AS-COMLINK
+remarks:        -----------====================-----------
+remarks:        ----------- CUSTOMERS -----------
+remarks:        -----------====================-----------
+import:         from AS48558 action pref=700; accept AS48558
+export:         to AS48558 announce ANY
+remarks:        -----------====================-----------
+remarks:        ----------- IPv4 private (localpref=700) -----------
+remarks:        -----------====================-----------
+remarks:        RASCO (GOiCHS) main
+import:         from AS15848 action pref=700; accept AS15848
+export:         to AS15848 announce AS6858
+remarks:        -----------====================-----------
+admin-c:        STKM1-RIPE
+tech-c:         STKM1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SEVEREN-MNT
+created:        2002-03-28T15:42:57Z
+last-modified:  2022-06-27T09:09:31Z
+source:         RIPE
+
+organisation:   ORG-SL18-RIPE
+org-name:       JSC "Severen-Telecom"
+country:        RU
+org-type:       LIR
+address:        Respublikanskaya str., h.28, Lit. A
+address:        195112
+address:        Saint-Petersburg
+address:        RUSSIAN FEDERATION
+phone:          +7 812 740-7070
+fax-no:         +7 812 740-7071
+admin-c:        STKM1-RIPE
+tech-c:         STKM1-RIPE
+mnt-ref:        SEVEREN-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SEVEREN-MNT
+abuse-c:        STKM1-RIPE
+created:        2004-04-17T11:58:16Z
+last-modified:  2024-12-17T10:01:10Z
+source:         RIPE # Filtered
+
+role:           Severen-Telecom NOC
+remarks:        Network operation center staff
+org:            ORG-SL18-RIPE
+address:        Severen-Telecom
+address:        Respublikanskaya str., h. 28, Lit. A
+address:        195112, Saint-Petersburg, Russia
+phone:          +7 812 740-7070
+fax-no:         +7 812 740-7071
+abuse-mailbox:  abuse@severen.net
+admin-c:        SPEC1-RIPE
+admin-c:        MNB29-RIPE
+tech-c:         SPEC1-RIPE
+tech-c:         MNB29-RIPE
+nic-hdl:        STKM1-RIPE
+mnt-by:         SEVEREN-MNT
+created:        2006-09-18T06:24:53Z
+last-modified:  2024-02-16T09:45:00Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          185.247.80.0/22
+origin:         AS6858
+mnt-by:         SEVEREN-MNT
+created:        2022-12-15T10:41:43Z
+last-modified:  2022-12-15T10:41:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.182.128.0/19
+descr:          Comlink ISP
+origin:         AS6858
+mnt-by:         COMLINK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2011-09-30T11:40:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

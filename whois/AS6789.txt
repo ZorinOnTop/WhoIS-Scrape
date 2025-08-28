@@ -1,0 +1,1591 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6789'
+
+% Abuse contact for 'AS6789' is 'abuse@crelcom.ru'
+
+aut-num:        AS6789
+as-name:        CRELCOM-NET
+org:            ORG-CJ2-RIPE
+remarks:        -=-= TRANSIT OPERATORS =-=-
+import:         from AS12389 action pref=100; accept ANY
+export:         to AS12389 announce AS-CRELCOM
+import:         from AS201776 action pref=100; accept ANY
+export:         to AS201776 announce AS-CRELCOM
+import:         from AS28917 action pref=100; accept ANY
+export:         to AS28917 announce AS-CRELCOM
+import:         from AS48084 action pref=100; accept ANY
+export:         to AS48084 announce AS-CRELCOM
+import:         from AS31133 accept ANY
+export:         to AS31133 announce AS-CRELCOM
+import:         from AS8359 accept ANY
+export:         to AS8359 announce AS-CRELCOM
+mp-import:      afi ipv6.unicast from AS8359 accept ANY
+mp-export:      afi ipv6.unicast to AS8359 announce AS-CRELCOM-V6
+remarks:        -=-= IXs =-=-
+import:         from AS39751 accept AS-M-IX
+export:         to AS39751 announce AS-CRELCOM
+import:         from AS8631 accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-CRELCOM
+import:         from AS59428 accept AS-KRD-RS
+export:         to AS59428 announce AS-CRELCOM
+import:         from AS48216 accept AS-RNDROUTESERVER
+export:         to AS48216 announce AS-CRELCOM
+import:         from AS50384 accept AS-W-IX
+export:         to AS50384 announce AS-CRELCOM
+import:         from AS49869 accept AS-PITER-IX-MSK
+export:         to AS49869 announce AS-CRELCOM
+import:         from AS31500 accept ANY
+export:         to AS31500 announce AS-CRELCOM
+remarks:        -=-= IPv6 IXs =-=-
+mp-import:      afi ipv6.unicast from AS8631 action pref=120; accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS8631 announce AS-CRELCOM-V6
+mp-import:      afi ipv6.unicast from AS50384 action pref=120; accept AS-W-IX-IPVSIX
+mp-export:      afi ipv6.unicast to AS50384 announce AS-CRELCOM-V6
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS-CRELCOM-V6
+mp-import:      afi ipv6.unicast from AS207979 accept AS207979
+mp-export:      afi ipv6.unicast to AS207979 announce ANY
+mp-import:      afi ipv6.unicast from AS31133 accept ANY
+mp-export:      afi ipv6.unicast to AS31133 announce AS-CRELCOM-V6
+remarks:        -=-= PEERS =-=-
+import:         from AS205515 accept AS205515
+export:         to AS205515 announce AS-CRELCOM
+import:         from AS35816 accept AS-LANCOM
+export:         to AS35816 announce AS-CRELCOM
+import:         from AS47764 accept AS-MAILRU
+export:         to AS47764 announce AS-CRELCOM
+import:         from AS13238 accept AS-YANDEX
+export:         to AS13238 announce AS-CRELCOM
+import:         from AS200976 accept AS-LIFESTREAM
+export:         to AS200976 announce AS-CRELCOM
+import:         from AS50775 accept AS50775
+export:         to AS50775 announce AS-CRELCOM
+import:         from AS41161 accept AS-REALWEB
+export:         to AS41161 announce AS-CRELCOM
+import:         from AS198293 accept AS198293
+export:         to AS198293 announce AS-CRELCOM
+import:         from AS44387 accept AS-REEDLAN
+export:         to AS44387 announce AS-CRELCOM
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-CRELCOM
+import:         from AS42632 accept AS-MNOGOBYTE
+export:         to AS42632 announce AS-CRELCOM
+import:         from AS48158 accept AS-DIGITALONE
+export:         to AS48158 announce AS-CRELCOM
+import:         from AS204720 accept AS204720
+export:         to AS204720 announce AS-CRELCOM
+import:         from AS210756 accept AS-EDGECENTER
+export:         to AS210756 announce AS-CRELCOM
+import:         from AS57629 accept AS57629
+export:         to AS57629 announce AS-CRELCOM
+mp-import:      afi ipv6.unicast from AS57629 accept AS57629
+mp-export:      afi ipv6.unicast to AS57629 announce AS-CRELCOM-V6
+import:         from AS28709 accept AS-VKONTAKTE
+export:         to AS28709 announce AS-CRELCOM
+mp-import:      afi ipv6.unicast from AS28709 accept AS-VKONTAKTE
+mp-export:      afi ipv6.unicast to AS28709 announce AS-CRELCOM-V6
+import:         from AS45102 accept AS45102
+export:         to AS45102 announce AS-CRELCOM
+remarks:        -=-= CUSTOMERS =-=-
+import:         from AS25118 action pref=20; accept AS25118
+import:         from AS31583 action pref=20; accept AS31583
+import:         from AS48330 action pref=20; accept AS48330
+import:         from AS196705 action pref=20; accept AS-ARDINVEST
+import:         from AS12403 action pref=20; accept AS-FEONET
+import:         from AS47801 action pref=20; accept AS47801
+import:         from AS51522 action pref=20; accept AS51522
+import:         from AS51518 action pref=20; accept AS-KAFA
+import:         from AS35816 action pref=20; accept AS35816
+import:         from AS197335 action pref=20; accept AS197335
+import:         from AS197628 action pref=20; accept AS197628
+import:         from AS51214 action pref=20; accept AS51214
+import:         from AS198338 action pref=20; accept AS198338
+import:         from AS57903 action pref=20; accept AS57903
+import:         from AS51391 action pref=20; accept AS51391
+import:         from AS197175 action pref=20; accept AS197175
+import:         from AS51917 action pref=20; accept AS-ICENET-UA
+import:         from AS52052 action pref=20; accept AS52052
+import:         from AS48317 action pref=20; accept AS48317
+import:         from AS8654 action pref=20; accept AS8654
+import:         from AS39248 action pref=20; accept AS-SIVASH
+import:         from AS43936 action pref=20; accept AS-EVPANET
+import:         from AS197175 action pref=20; accept AS197175
+import:         from AS47898 action pref=20; accept AS47898
+import:         from AS201069 action pref=20; accept AS-SET-APEX
+import:         from AS47203 action pref=20; accept AS47203
+import:         from AS204161 action pref=20; accept AS-TRITEL
+import:         from AS204144 action pref=20; accept AS204144
+import:         from AS197152 action pref=20; accept AS197152
+import:         from AS204029 action pref=20; accept AS204029
+import:         from AS203451 action pref=20; accept AS203451
+import:         from AS41430 action pref=20; accept AS41430
+import:         from AS198899 action pref=20; accept AS198899
+import:         from AS203561 action pref=20; accept AS203561
+import:         from AS59823 action pref=20; accept AS59823
+import:         from AS57847 action pref=20; accept AS57847
+import:         from AS57093 action pref=20; accept AS57093
+import:         from AS51211 action pref=20; accept AS51211
+import:         from AS48004 action pref=20; accept AS-KCTNET
+import:         from AS200702 action pref=20; accept AS200702
+import:         from AS205236 action pref=20; accept AS205236
+import:         from AS204791 action pref=20; accept AS204791
+import:         from AS50042 action pref=20; accept AS50042
+import:         from AS209789 action pref=20; accept AS209789
+import:         from AS57679 action pref=20; accept AS57679
+import:         from AS210078 action pref=20; accept AS210078
+import:         from AS207909 action pref=20; accept AS207909
+import:         from AS59833 action pref=20; accept AS59833
+import:         from AS208397 action pref=20; accept AS208397
+import:         from AS44139 action pref=20; accept AS44139
+import:         from AS213278 action pref=20; accept AS213278
+import:         from AS44533 action pref=20; accept AS44533
+import:         from AS211867 action pref=20; accept AS211867
+import:         from AS211245 action pref=20; accept AS211245
+import:         from AS208701 action pref=20; accept AS208701
+import:         from AS210451 action pref=20; accept AS210451
+import:         from AS207979 action pref=20; accept AS207979
+import:         from AS198669 action pref=20; accept AS198669
+import:         from AS50140 action pref=20; accept AS50140
+import:         from AS199970 action pref=20; accept AS199970
+import:         from AS41269 action pref=20; accept AS41269
+import:         from AS57363 action pref=20; accept AS57363
+import:         from AS198293 action pref=20; accept AS198293
+import:         from AS43400 action pref=20; accept AS43400
+import:         from AS41914 action pref=20; accept AS41914
+import:         from AS35533 action pref=20; accept AS35533
+import:         from AS214221 action pref=20; accept AS214221
+import:         from AS25000 action pref=20; accept AS25000
+import:         from AS216062 action pref=20; accept AS216062
+import:         from AS200467 action pref=20; accept AS200467
+import:         from AS215705 action pref=20; accept AS215705
+export:         to AS25118 announce ANY
+export:         to AS31583 announce ANY
+export:         to AS48330 announce ANY
+export:         to AS196705 announce ANY
+export:         to AS12403 announce ANY
+export:         to AS47801 announce ANY
+export:         to AS51522 announce ANY
+export:         to AS51518 announce ANY
+export:         to AS35816 announce ANY
+export:         to AS197335 announce ANY
+export:         to AS197628 announce ANY
+export:         to AS51214 announce ANY
+export:         to AS198338 announce ANY
+export:         to AS57903 announce ANY
+export:         to AS51391 announce ANY
+export:         to AS197175 announce ANY
+export:         to AS51917 announce ANY
+export:         to AS52052 announce ANY
+export:         to AS48317 announce ANY
+export:         to AS8654 announce ANY
+export:         to AS39248 announce ANY
+export:         to AS43936 announce ANY
+export:         to AS197175 announce ANY
+export:         to AS47898 announce ANY
+export:         to AS201069 announce ANY
+export:         to AS47203 announce ANY
+export:         to AS204161 announce ANY
+export:         to AS204144 announce ANY
+export:         to AS197152 announce ANY
+export:         to AS204029 announce ANY
+export:         to AS203451 announce ANY
+export:         to AS41430 announce ANY
+export:         to AS198899 announce ANY
+export:         to AS203561 announce ANY
+export:         to AS59823 announce ANY
+export:         to AS57847 announce ANY
+export:         to AS57093 announce ANY
+export:         to AS51211 announce ANY
+export:         to AS48004 announce ANY
+export:         to AS200702 announce ANY
+export:         to AS205236 announce ANY
+export:         to AS204791 announce ANY
+export:         to AS50042 announce ANY
+export:         to AS209789 announce ANY
+export:         to AS57679 announce ANY
+export:         to AS210078 announce ANY
+export:         to AS207909 announce ANY
+export:         to AS59833 announce ANY
+export:         to AS208397 announce ANY
+export:         to AS44139 announce ANY
+export:         to AS213278 announce ANY
+export:         to AS44533 announce ANY
+export:         to AS211867 announce ANY
+export:         to AS211245 announce ANY
+export:         to AS208701 announce ANY
+export:         to AS210451 announce ANY
+export:         to AS207979 announce ANY
+export:         to AS198669 announce ANY
+export:         to AS50140 announce ANY
+export:         to AS199970 announce ANY
+export:         to AS41269 announce ANY
+export:         to AS57363 announce ANY
+export:         to AS198293 announce ANY
+export:         to AS43400 announce ANY
+export:         to AS41914 announce ANY
+export:         to AS35533 announce ANY
+export:         to AS214221 announce ANY
+export:         to AS25000 announce ANY
+export:         to AS216062 announce ANY
+export:         to AS200467 announce ANY
+export:         to AS215705 announce ANY
+admin-c:        AZ46-RIPE
+tech-c:         AZ46-RIPE
+tech-c:         AZ46-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS6789-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-07-28T06:50:04Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CJ2-RIPE
+org-name:       CRELCOM LLC
+country:        RU
+org-type:       LIR
+address:        38 Nikoloyamskaya str., bilding 2 office 6
+address:        109004
+address:        Moscow
+address:        RUSSIAN FEDERATION
+geoloc:         55.747049 37.658949
+phone:          +74997020045
+fax-no:         +74997020045
+admin-c:        AZ46-RIPE
+abuse-c:        ABCR6789-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS6789-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS6789-MNT
+created:        2005-09-29T11:02:40Z
+last-modified:  2020-12-16T13:29:58Z
+source:         RIPE # Filtered
+
+person:         Arthur E Zimens
+address:        38 Nikoloyamskaya str., bilding 2 office 6
+address:        109004 Moscow
+address:        Russian Federation
+phone:          +74997020045
+nic-hdl:        AZ46-RIPE
+mnt-by:         AS6789-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2020-10-28T13:20:53Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          45.140.80.0/22
+origin:         AS6789
+mnt-by:         AS6789-MNT
+mnt-by:         mnt-ru-igkh-1
+created:        2019-08-13T07:15:51Z
+last-modified:  2021-09-16T05:36:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          45.149.244.0/22
+origin:         AS6789
+descr:          CRELCOM broadband
+mnt-by:         AS6789-MNT
+created:        2019-09-05T09:29:38Z
+last-modified:  2019-09-05T09:29:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.245.112.0/20
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2005-10-05T14:54:05Z
+last-modified:  2005-10-05T14:54:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.245.112.0/24
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2020-07-02T04:47:42Z
+last-modified:  2020-07-02T04:47:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.136.222.0/24
+origin:         AS6789
+mnt-by:         mnt-ru-inatel1-1
+created:        2023-10-29T14:25:23Z
+last-modified:  2023-10-29T14:25:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.0.0/24
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2024-04-23T08:04:19Z
+last-modified:  2024-04-23T08:04:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.222.1.0/24
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2024-04-23T08:04:59Z
+last-modified:  2024-04-23T08:04:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.222.2.0/24
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2024-04-23T08:05:27Z
+last-modified:  2024-04-23T08:05:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.222.3.0/24
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2024-04-23T08:05:52Z
+last-modified:  2024-04-23T08:05:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.91.192.0/19
+descr:          CRELCOM broadband
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2016-09-03T07:29:37Z
+last-modified:  2016-09-03T07:29:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.132.217.0/24
+descr:          KKK
+origin:         AS6789
+mnt-by:         AS6789-MNT
+mnt-by:         mnt-ru-igkh-1
+created:        2019-06-06T14:13:10Z
+last-modified:  2021-05-31T04:59:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.207.98.0/23
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2017-08-07T07:39:32Z
+last-modified:  2017-08-07T07:39:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.207.98.0/24
+descr:          Enet-1
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2014-12-01T05:55:04Z
+last-modified:  2017-08-07T07:28:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.207.99.0/24
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2017-08-07T07:37:58Z
+last-modified:  2017-08-07T07:37:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.235.13.0/24
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2024-12-05T10:50:16Z
+last-modified:  2024-12-05T10:50:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.247.96.0/19
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2017-02-03T09:59:46Z
+last-modified:  2017-02-03T09:59:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.51.28.0/22
+origin:         AS6789
+mnt-by:         ru-permtelecom-2-mnt
+created:        2016-10-05T12:29:08Z
+last-modified:  2016-10-05T12:29:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          94.101.110.0/24
+origin:         AS6789
+mnt-by:         lir-ru-inatel3-1-MNT
+created:        2023-10-30T09:31:01Z
+last-modified:  2023-10-30T09:31:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.130.229.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-30T09:24:49Z
+last-modified:  2023-10-30T09:24:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.130.230.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-30T09:19:49Z
+last-modified:  2023-10-30T09:19:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.140.151.0/24
+descr:          Route object for All Inclusive
+origin:         AS6789
+notify:         dmitry@delfa.net
+notify:         operator@delfa.net
+notify:         tat@delfa.net
+mnt-by:         DELFA-RIPE-MNT
+mnt-lower:      DELFA-RIPE-MNT
+mnt-routes:     DELFA-RIPE-MNT
+created:        2020-02-14T13:00:44Z
+last-modified:  2020-02-14T13:00:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.200.128.0/19
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2010-02-03T13:40:35Z
+last-modified:  2010-02-03T13:40:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.101.189.0/24
+origin:         AS6789
+mnt-by:         mnt-ru-igkh-1
+created:        2024-01-17T13:20:26Z
+last-modified:  2024-01-17T13:20:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.51.244.0/24
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2020-01-24T12:05:09Z
+last-modified:  2020-01-24T12:05:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.64.7.0/24
+origin:         AS6789
+mnt-by:         mnt-ru-inatel-k-1
+created:        2023-10-30T06:36:11Z
+last-modified:  2023-10-30T06:36:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.99.152.0/22
+descr:          CRELCOM-ONLINE
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2015-12-30T11:22:11Z
+last-modified:  2015-12-30T11:22:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.99.156.0/22
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2015-12-30T11:22:38Z
+last-modified:  2015-12-30T11:22:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.99.160.0/22
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2015-05-26T13:13:03Z
+last-modified:  2015-05-26T13:13:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.99.168.0/22
+descr:          UNITY GROUP
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2024-07-25T13:17:42Z
+last-modified:  2024-07-25T13:17:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.100.100.0/24
+descr:          CRELCOM LLC
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2015-12-14T14:42:29Z
+last-modified:  2015-12-14T14:42:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.100.103.0/24
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2021-01-06T08:13:01Z
+last-modified:  2021-01-06T08:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.104.92.0/22
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2020-09-01T14:53:56Z
+last-modified:  2020-09-01T14:53:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.104.212.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:10:26Z
+last-modified:  2023-10-29T08:10:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.107.124.0/22
+descr:          Online LLC
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2015-09-02T09:16:14Z
+last-modified:  2015-09-02T09:16:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.107.136.0/22
+descr:          Online LLC
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2015-09-02T09:16:28Z
+last-modified:  2015-09-02T09:16:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.107.156.0/22
+descr:          Online LLC
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2015-09-02T09:16:34Z
+last-modified:  2015-09-02T09:16:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.107.164.0/22
+descr:          Online LLC
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2015-09-02T09:16:44Z
+last-modified:  2015-09-02T09:16:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.109.204.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:11:44Z
+last-modified:  2023-10-29T08:11:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.109.208.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:36:38Z
+last-modified:  2023-10-29T08:36:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.109.209.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:36:57Z
+last-modified:  2023-10-29T08:36:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.109.210.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:37:23Z
+last-modified:  2023-10-29T08:37:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.109.211.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:37:46Z
+last-modified:  2023-10-29T08:37:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.111.48.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:15:05Z
+last-modified:  2023-10-29T08:15:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.112.120.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:15:48Z
+last-modified:  2023-10-29T08:15:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.117.100.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:16:26Z
+last-modified:  2023-10-29T08:16:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.117.140.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:17:08Z
+last-modified:  2023-10-29T08:17:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.123.44.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:17:57Z
+last-modified:  2023-10-29T08:17:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.151.128.0/22
+origin:         AS6789
+mnt-by:         AS6789-MNT
+mnt-by:         ru-iskh-1-mnt
+created:        2016-05-12T04:45:41Z
+last-modified:  2019-05-08T06:29:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.159.164.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:22:16Z
+last-modified:  2023-10-29T08:22:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.166.72.0/22
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:55:24Z
+last-modified:  2024-12-26T14:55:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.166.72.0/24
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:55:40Z
+last-modified:  2024-12-26T14:55:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.166.73.0/24
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:55:58Z
+last-modified:  2024-12-26T14:55:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.166.74.0/24
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:56:11Z
+last-modified:  2024-12-26T14:56:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.166.75.0/24
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:56:25Z
+last-modified:  2024-12-26T14:56:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.173.112.0/22
+descr:          Online LLC
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2016-10-18T05:34:42Z
+last-modified:  2016-10-18T05:34:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.183.76.0/23
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:25:48Z
+last-modified:  2023-10-29T08:25:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.183.78.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-11-08T12:51:53Z
+last-modified:  2023-11-08T12:51:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.183.79.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-11-08T12:52:41Z
+last-modified:  2023-11-08T12:52:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.185.0.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:27:45Z
+last-modified:  2023-10-29T08:27:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.185.1.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:28:11Z
+last-modified:  2023-10-29T08:28:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.185.2.0/23
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:28:40Z
+last-modified:  2023-10-29T08:28:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.185.180.0/22
+descr:          Online LLC
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2017-01-17T07:21:42Z
+last-modified:  2017-01-17T07:21:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.186.232.0/22
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2017-01-24T06:10:00Z
+last-modified:  2017-01-24T06:10:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.229.184.0/22
+descr:          Online LLC
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2018-09-25T10:00:49Z
+last-modified:  2018-09-25T10:00:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.114.192.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:29:54Z
+last-modified:  2023-10-29T08:29:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.114.196.0/22
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:30:53Z
+last-modified:  2023-10-29T08:30:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.114.200.0/21
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:31:31Z
+last-modified:  2023-10-29T08:31:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.34.129.0/24
+origin:         AS6789
+mnt-by:         mnt-ru-igkh-1
+created:        2024-08-14T06:45:55Z
+last-modified:  2024-08-14T06:45:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.37.134.0/24
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:56:46Z
+last-modified:  2024-12-26T14:56:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.37.155.0/24
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:57:03Z
+last-modified:  2024-12-26T14:57:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.37.224.0/24
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:57:22Z
+last-modified:  2024-12-26T14:57:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.37.229.0/24
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:57:39Z
+last-modified:  2024-12-26T14:57:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.142.218.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-12-18T10:20:26Z
+last-modified:  2023-12-18T10:20:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.176.157.0/24
+origin:         AS6789
+mnt-by:         mnt-ru-igkh-1
+created:        2020-09-09T07:43:14Z
+last-modified:  2022-07-28T13:53:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.242.99.0/24
+descr:          Mircom
+origin:         AS6789
+mnt-by:         mnt-ru-igkh-1
+created:        2020-06-02T12:02:46Z
+last-modified:  2020-06-02T12:48:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.28.20.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:32:25Z
+last-modified:  2023-10-29T08:32:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.28.21.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:32:44Z
+last-modified:  2023-10-29T08:32:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.28.22.0/23
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2024-06-10T06:26:04Z
+last-modified:  2024-06-10T06:26:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.247.33.0/24
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2024-12-26T14:57:55Z
+last-modified:  2024-12-26T14:57:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.147.8.0/23
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:34:07Z
+last-modified:  2023-10-29T08:34:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.147.10.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:34:39Z
+last-modified:  2023-10-29T08:34:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.147.11.0/24
+origin:         AS6789
+mnt-by:         ru-inatel-1-mnt
+created:        2023-10-29T08:35:01Z
+last-modified:  2023-10-29T08:35:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:678:107c::/48
+origin:         AS6789
+mnt-by:         ru-llcbroadcasting-1-mnt
+created:        2025-05-23T15:25:42Z
+last-modified:  2025-05-23T15:25:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1d80::/32
+descr:          CRELCOM
+origin:         AS6789
+mnt-by:         AS6789-MNT
+created:        2010-03-15T14:58:14Z
+last-modified:  2010-03-15T14:58:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

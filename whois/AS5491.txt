@@ -1,0 +1,137 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5491'
+
+% Abuse contact for 'AS5491' is 'jan@olsson.net'
+
+aut-num:        AS5491
+as-name:        OLSSON_NET
+org:            ORG-OA440-RIPE
+remarks:
+remarks:        +------- AS5491 Internet since 1993 -------+
+remarks:        | |
+remarks:        | Corporate site: http://www.olsson.net/ |
+remarks:        | |
+remarks:        | Please replace _at_ with the @-sign |
+remarks:        | |
+remarks:        | Peering issues: peering_at_olsson.net |
+remarks:        | Routing & Tech: bgp4-adm_at_olsson.net |
+remarks:        | Abuse and SPAM: abuse_at_olsson.net |
+remarks:        | NOC (24/7/365): dnoc_at_olsson.net |
+remarks:        +------------------------------------------+
+remarks:
+remarks:        ======================================================
+remarks:        IPv4 transits
+remarks:        ======================================================
+remarks:        ------------------------------------------------------
+remarks:        Danish network for Research and Education
+import:         from AS1835 action pref=100; accept ANY
+export:         to AS1835 announce AS5491
+remarks:        ------------------------------------------------------
+remarks:        Cibicom A/S
+import:         from AS3342 action pref=100; accept ANY
+export:         to AS3342 announce AS5491
+remarks:        ------------------------------------------------------
+remarks:        ======================================================
+remarks:        IPv4 peerings
+remarks:        ======================================================
+remarks:        ------------------------------------------------------
+remarks:        FREDERICIAGADE-NETWORK
+import:         from AS25352 action pref=100; accept AS25352
+export:         to AS25352 announce AS5491
+remarks:        ------------------------------------------------------
+remarks:        LM Jogback Datakonsult
+import:         from AS8995 action pref=100; accept AS8995
+export:         to AS8995 announce AS5491
+remarks:        ------------------------------------------------------
+remarks:        ======================================================
+remarks:        IPv6 transits
+remarks:        ======================================================
+remarks:        ------------------------------------------------------
+remarks:        Swipnet (AS1257)
+mp-import:      afi ipv6.unicast from AS1257 accept ANY
+mp-export:      afi ipv6.unicast to AS1257 announce AS5491
+remarks:        ------------------------------------------------------
+remarks:        Nianet A/S (AS31027)
+mp-import:      afi ipv6.unicast from AS31027 accept ANY
+mp-export:      afi ipv6.unicast to AS31027 announce AS5491
+remarks:        ------------------------------------------------------
+remarks:        ======================================================
+remarks:        IPv6 peerings
+remarks:        ======================================================
+remarks:        ------------------------------------------------------
+remarks:        BOB-INC-NETWORKS
+mp-import:      afi ipv6.unicast from AS25352 accept AS25352
+mp-export:      afi ipv6.unicast to AS25352 announce AS5491
+remarks:        ------------------------------------------------------
+admin-c:        JAO-RIPE
+tech-c:         JAO-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         OLSSON-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-11-08T06:55:46Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-GA583-RIPE
+
+organisation:   ORG-OA440-RIPE
+org-name:       Jan Olsson
+country:        DK
+org-type:       OTHER
+address:        Bygaden 18
+address:        Vallensbaek
+address:        Denmark
+abuse-c:        AR19213-RIPE
+mnt-ref:        OLSSON-MNT
+mnt-by:         OLSSON-MNT
+created:        2011-11-30T12:40:47Z
+last-modified:  2022-12-01T16:40:32Z
+source:         RIPE # Filtered
+
+person:         Jan Olsson
+address:        DOT-NET
+phone:          +45 43 64 93 79
+nic-hdl:        JAO-RIPE
+mnt-by:         OLSSON-MNT
+created:        2003-08-01T11:46:16Z
+last-modified:  2014-06-02T19:50:30Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          193.163.221.0/24
+descr:          Olsson.net
+origin:         AS5491
+mnt-by:         OLSSON-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2009-06-16T12:02:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

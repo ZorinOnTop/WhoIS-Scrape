@@ -1,0 +1,4643 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5408'
+
+% Abuse contact for 'AS5408' is 'abuse@grnet.gr'
+
+aut-num:        AS5408
+as-name:        GR-NET
+descr:          http://www.grnet.gr
+org:            ORG-GRaT1-RIPE
+remarks:
+remarks:
+remarks:        # ROUTING POLICY FOR GRNET AS5408)
+remarks:
+remarks:        General Info
+remarks:        ==============
+remarks:        GRNET donwstream customers are Greek Universities, Academic
+remarks:        and Research Institutes
+remarks:        GRNET has GEANT as its upstream; it also connects to GRIX
+remarks:        Internet Exchange
+remarks:
+remarks:        RPKI in GRNET
+remarks:        ==============
+remarks:        GRNET ***drops*** ALL RPKI invalid prefixes received from Upstream
+remarks:        and Greek Internet Exchange (GR-IX)
+remarks:
+remarks:        PA Space Aggregation
+remarks:        =============
+remarks:        GRNET aggregates its PA space before announcing it to its
+remarks:        upstream(s) and exchanges. Should a customer with PA space
+remarks:        wishes not to have its prefixes aggregated, a special community
+remarks:        should be used to tag this route (see below).
+remarks:        Prefixes from GRNET allocation that announced from public ASs
+remarks:        are announced deaggregated.\
+remarks:        Prefix lengths longer than /24 for IPv4 and /48 for IPv6 are NOT
+remarks:        announced to Upstream or GRIX
+remarks:
+remarks:        Primary/Backup control
+remarks:        ========================
+remarks:        GRNET respects the MED received by its customers; thus, the
+remarks:        customers can indicate their primary/backup line and control
+remarks:        incoming traffic by setting MED appropriatelly. Also, the
+remarks:        customers may use the community 5408:110 to indicate their
+remarks:        backup connection (lower local pref), but this method is
+remarks:        recommended only for customers multihomed to another Greek ISP
+remarks:        that use their connection with GRNET as backup.
+remarks:
+remarks:        Hot Potato routing
+remarks:        ========================
+remarks:        By setting the same attributes (Local Preference and MED) on
+remarks:        advertising prefixes, a customer with more than one connections
+remarks:        with GRNET has the ability to use all active paths.
+remarks:        By this way, "hot potato" routing is achieved. Traffic will exit
+remarks:        GRNETs network choosing the closest to destination border router.
+remarks:
+remarks:        Anycast
+remarks:        ========================
+remarks:        GRNET does not follow any explicit policy for anycast services.
+remarks:        Normal routing (and, thus, preference) applies to all anycast
+remarks:        routes
+remarks:
+remarks:        BGP Communities used in GRNET:
+remarks:        ================================
+remarks:
+remarks:        Informational Communities:
+remarks:        +---------------------------------------------------------------+
+remarks:        | These communities tag the source of the routes. They can ONLY |
+remarks:        | be appended by GRNET. Routes with this tag received by any |
+remarks:        | peer will be rejected! |
+remarks:        +---------------------------------------------------------------+
+remarks:        5408:1001 Routes received from GEANT
+remarks:        5408:1002 Routes received from GRIX
+remarks:        5408:1003 Routes from GRNET (Customers & BackBone)
+remarks:        5408:1004 Routes from GEANT NREN
+remarks:        5408:1005 Routes from GEANT IAS
+remarks:        5408:1006 Routes from GEANT CLS
+remarks:
+remarks:        Special Communities for route manipulation:
+remarks:        +---------------------------------------------------------------+
+remarks:        | These communities tag the source of the routes. They can ONLY |
+remarks:        | be appended by GRNET. Routes with this tag received by any |
+remarks:        | peer will be rejected! |
+remarks:        +---------------------------------------------------------------+
+remarks:        5408:2000 Do not aggregate
+remarks:        5408:2005 Prepend AS5408 x5
+remarks:        5408:4001 Do not announce to GRIX
+remarks:        5408:4005 Do not announce to GEANT
+remarks:        5408:4006 Do not announce to GEANT NREN VRF
+remarks:        5408:4007 Do not announce to GEANT Tier-1
+remarks:
+remarks:        Routing Manipulation (for GRNET customers only):
+remarks:        +---------------------------------------------------------------+
+remarks:        | This set of tools allow GRNET clients to manipulate their |
+remarks:        | routing: |
+remarks:
+remarks:        LOCAL PREFERENCES IN GRNET:
+remarks:        =============================
+remarks:
+remarks:        LocalPref 200: - GRNET Customers
+remarks:        - Special Customers (KROOT, SYZEYXIS, ...)
+remarks:        - Locally Generated GRNET Aggregates
+remarks:
+remarks:        LocalPref 190: - GRNET Customers, backup connection
+remarks:
+remarks:        LocalPref 180: - GEANT NREN VRF
+remarks:
+remarks:        LocalPref 170: - GRIX routes (MED=0 Primary, MED=20 Secondary)
+remarks:
+remarks:        LocalPref 160: - GEANT CLS VRF
+remarks:
+remarks:        LocalPref 150: - GRNET as backup in dual homed customers
+remarks:
+remarks:        LocalPref 140: - GEANT IAS VRF
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:        =======================================================================
+remarks:        iBGP (AS5408)
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION:
+remarks:        Full-mesh iBGP peerings.
+remarks:        Import Policy: Accept ANY
+remarks:        Export Policy: Advertize (a) all routes (FIRT) or (b) GRNET & GRIX
+remarks:        routes only, depending on router capabilities.
+remarks:        ======================================================================
+import:         from prng-as5408-ibgp accept ANY;
+export:         to prng-as5408-ibgp-part announce community.contains(5408:1003) OR {0.0.0.0/0};
+export:         to prng-as5408-ibgp announce ANY;
+remarks:        =======================================================================
+remarks:        GEANT (AS20965)
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION:
+remarks:        GEANT is the Internet Upstream for GRNET
+remarks:        Import Policy: Accept all routes (apart from martians),
+remarks:        set MED appropratelly on primary & backup peering.
+remarks:        Export Policy: Announce all GRNET routes (tagged with 5408:1003)
+remarks:        that are not tagged with 5408:4005 (don't-announce-to-geant).
+remarks:        Aggregate PA space (except from the routes tagged with
+remarks:        5408:2000 (do not aggregate) community.
+remarks:        =======================================================================
+import:         from AS20965 62.40.124.89 action community.append(5408:1001); accept NOT community.contains(5408:1002) AND NOT community.contains(5408:1003) AND NOT fltr-martian; REFINE { from AS20965 action aspath.prepend(AS20965,AS20965,AS20965); accept community.contains(20965:7777); from AS20965 accept ANY; }
+import:         from AS20965 62.40.124.141 action community.append(5408:1001); med=20; accept NOT community.contains(5408:1002) AND NOT community.contains(5408:1003) AND NOT fltr-martian; REFINE { from AS20965 action aspath.prepend(AS20965,AS20965,AS20965); accept community.contains(20965:7777); from AS20965 accept ANY; }
+import:         from AS20965 62.40.102.252 action community.append(5408:1001); accept NOT community.contains(5408:1002) AND NOT community.contains(5408:1003) AND NOT fltr-martian;
+import:         from AS20965 62.40.102.254 action community.append(5408:1001); med=20; accept NOT community.contains(5408:1002) AND NOT community.contains(5408:1003) AND NOT fltr-martian;
+export:         to AS20965 announce AS5408:RS-ROUTES; REFINE { to AS20965 62.40.124.89 action community.append(20965:7030); announce ANY; to AS20965 62.40.124.141 action community.append(20965:7030); announce ANY; to AS20965 62.40.102.252 announce ANY; to AS20965 62.40.102.254 announce ANY; }
+export:         to AS20965 announce community.contains(5408:1003) AND NOT community.contains(5408:4005); REFINE { to AS20965 announce (AS5408:AS-TO-GEANT AND NOT AS5408:RS-ROUTES^0-32); to AS20965 announce AS5408:RS-ROUTES^0-32 AND community.contains(5408:2000); } REFINE { to AS20965 62.40.124.89 action community.append(20965:7030); announce ANY; to AS20965 62.40.124.141 action community.append(20965:7030); announce ANY; to AS20965 62.40.102.252 announce ANY; to AS20965 62.40.102.254 announce ANY; }
+remarks:        =======================================================================
+remarks:        GRIX Peers
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION:
+remarks:        These are the GRIX Peers of GRNET
+remarks:        Import Policy: Reject routes tagged with special communities
+remarks:        Accept all other routes that
+remarks:        (a) have the appropriate AS path and
+remarks:        (b) originate from the peer (or behind it)
+remarks:        For these, and according to the received communities:
+remarks:        (i) Set the appropriate local preference
+remarks:        Export Policy: Announce all GRNET routes (tagged with 5408:1003)
+remarks:        that are not tagged with 5408:4001 (don't-announce-to-grix).
+remarks:        Aggregate PA space (except from the routes tagged with
+remarks:        5408:2000 (do not aggregate) community.
+remarks:        =======================================================================
+import:         from prng-as5408-grix-peers action pref=105; community.append(5408:1002); accept NOT community.contains(5408:1001) AND NOT community.contains(5408:1003) AND <^PeerAS+AS5408:AS-GRIX:PeerAS*$>; REFINE { from AS-GRIX at 176.126.38.1 action med=0; accept ANY; from AS-GRIX at 176.126.38.31 action med=20; accept ANY; } # AND (PeerAS^0-27 OR AS5408:AS-GRIX:PeerAS^0-27 OR AS5408:AS-GRIX:PeerAS^0-27); Primary-Backup
+export:         to prng-as5408-grix-peers announce AS5408:RS-ROUTES OR AS199399;
+export:         to prng-as5408-grix-peers announce community.contains(5408:1003) AND NOT community.contains(5408:4001); REFINE { to prng-as5408-grix-peers announce (AS5408:AS-TO-AIX AND NOT AS5408:RS-ROUTES^0-32); to prng-as5408-grix-peers announce AS5408:RS-ROUTES^0-32 AND community.contains(5408:2000); }
+remarks:        =======================================================================
+remarks:        GRIX RS
+remarks:        ----------------------------------------------------------------------
+remarks:        =======================================================================
+import:         from AS50745 action pref=105; med=30; community.append(5408:1002); accept <^AS-GRIX> AND NOT community.contains(5408:1001) AND NOT community.contains(5408:1003);
+remarks:        =======================================================================
+remarks:        GRIX ROUTER @ GRIX
+remarks:        ----------------------------------------------------------------------
+remarks:        =======================================================================
+import:         from AS199399 action pref=105; community.append(5408:1002); accept AS199399; REFINE { from AS-GRIX at 176.126.38.1 action med=0; accept ANY; from AS-GRIX at 176.126.38.31 action med=20; accept ANY; } # Primary-Backup
+export:         to AS199399 announce community.contains(5408:1003) OR {0.0.0.0/0};
+remarks:        =======================================================================
+remarks:        K-ROOT mirror @ GRIX
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION:
+remarks:        K-ROOT @ GRIX. Accept K-Root routes, announce within GRNET *only*
+remarks:        Announce default route.
+remarks:        =======================================================================
+import:         from AS25152 action pref=105; community.append(5408:1002); community.append(5408:4001); community.append(5408:4005); accept {193.0.14.0/24, 195.251.59.0/28} AND NOT community.contains(5408:1001) AND NOT community.contains(5408:1003); REFINE { from AS-GRIX at 176.126.38.1 action med=0; accept ANY; from AS-GRIX at 176.126.38.31 action med=20; accept ANY; } # Primary-Backup
+export:         to AS25152 announce {0.0.0.0/0};
+remarks:        =======================================================================
+remarks:        GRNET Clients
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION:
+remarks:        These are the normal GRNET clients (Universities, Research orgs, etc)
+remarks:        Import Policy: Reject routes tagged with special communities
+remarks:        Accept all other routes that
+remarks:        (a) have the appropriate AS path and
+remarks:        (b) originate from the client (or behind it)
+remarks:        For these, and according to the received communities:
+remarks:        (i) Set the appropriate local preference
+remarks:        Prefixes with no corresponding exact matching route on the
+remarks:        RIPE whois database are only accepted if tagged with NO_EXPORT
+remarks:        Local Preference (on backup links) can be lowered by
+remarks:        using the appropriate community (5408:110), but MED is
+remarks:        recommended for this purpose.
+remarks:        Export Policy:
+remarks:        (a) either all routes (FIRT)
+remarks:        (b) or a partial routing table, consiting
+remarks:        GRNET (5408:1003) and GRIX (5408:1002) routes
+remarks:        (c) or a partial routing table, consiting
+remarks:        GRNET (5408:1003) and GRIX (5408:1002) routes plus default route 0/0.
+remarks:        (d) or default route 0/0.
+remarks:        =======================================================================
+import:         from prng-as5408-grnet-customers action community.append(5408:1003); accept NOT community.contains(5408:1001) AND NOT community.contains(5408:1002) AND community.contains(NO_EXPORT) AND (PeerAS^0-32 OR PeerAS:AS-TO-GRNET^0-32) AND <^PeerAS+PeerAS:AS-TO-GRNET*$>; REFINE { from AS-ANY action pref=110; accept community.contains(5408:110); from AS-ANY action pref=100; accept ANY; }
+import:         from prng-as5408-grnet-customers action community.append(5408:1003); accept NOT community.contains(5408:1001) AND NOT community.contains(5408:1002) AND (PeerAS OR PeerAS:AS-TO-GRNET) AND <^PeerAS+PeerAS:AS-TO-GRNET*$>; REFINE { from AS-ANY action aspath.prepend(AS5408,AS5408,AS5408,AS5408,AS5408); accept community.contains(5408:2005); from AS-ANY accept ANY; } REFINE { from AS-ANY action pref=110; accept community.contains(5408:110); from AS-ANY action pref=100; accept ANY; }
+export:         to prng-as5408-grnet-firt announce NOT {0.0.0.0/0};
+export:         to prng-as5408-grnet-customers announce AS5408:RS-ROUTES OR community.contains(5408:1002) OR community.contains(5408:1003);
+export:         to prng-as5408-grnet-customers-droute announce {0.0.0.0/0} OR AS5408:RS-ROUTES OR community.contains(5408:1002) OR community.contains(5408:1003);
+export:         to prng-as5408-customers-firt announce ANY;
+export:         to prng-as5408-customers-greek-internet announce community.contains(5408:1003) OR community.contains(5408:1002);
+export:         to prng-as5408-customers-greek-internet-dr announce community.contains(5408:1003) OR community.contains(5408:1002) OR {0.0.0.0/0};
+export:         to prng-as5408-customers-grnet announce community.contains(5408:1003);
+export:         to prng-as5408-customers-grnet-dr announce community.contains(5408:1003) OR {0.0.0.0/0};
+export:         to prng-as5408-customers-only-dr announce {0.0.0.0/0};
+remarks:        =======================================================================
+remarks:        EU ACADEMIC INTERNET (GRNET + OTHER EU NRENS)
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION: announce GRNET and GEANT NREN (community 20965:155), route within GRNET *only*.
+remarks:        =======================================================================
+import:         from prng-as5408-customers-eu-academic-internet action community.append(5408:1003); community.append(5408:2000); community.append(5408:4001); community.append(20965:0000); community.append(20965:0011); community.append(20965:0012); community.append(20965:0013); community.append(20965:7000); accept NOT community.contains(5408:1001) AND NOT community.contains(5408:1002) AND community.contains(NO_EXPORT) AND (PeerAS^0-32 OR PeerAS:AS-TO-GRNET^0-32) AND <^PeerAS+PeerAS:AS-TO-GRNET*$>; REFINE { from AS-ANY action pref=110; accept community.contains(5408:110); from AS-ANY action pref=100; accept ANY; }
+import:         from prng-as5408-customers-eu-academic-internet action community.append(5408:1003); community.append(5408:2000); community.append(5408:4001); community.append(20965:0000); community.append(20965:0011); community.append(20965:0012); community.append(20965:0013); community.append(20965:7000); accept NOT community.contains(5408:1001) AND NOT community.contains(5408:1002) AND (PeerAS OR PeerAS:AS-TO-GRNET) AND <^PeerAS+PeerAS:AS-TO-GRNET*$>; REFINE { from AS-ANY action aspath.prepend(AS5408,AS5408,AS5408,AS5408,AS5408); accept community.contains(5408:2005); from AS-ANY accept ANY; } REFINE { from AS-ANY action pref=110; accept community.contains(5408:110); from AS-ANY action pref=100; accept ANY; }
+export:         to prng-as5408-customers-eu-academic-internet announce community.contains(5408:1003) OR community.contains(20965:155);
+remarks:        =======================================================================
+remarks:        GRNET SERVICES
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION:
+remarks:        do not announce anything, accept AS65500
+remarks:        =======================================================================
+import:         from AS65500 action pref=100; community.append(NO_EXPORT); accept AS65500
+export:         to AS65500 announce NOT ANY;
+remarks:        =======================================================================
+remarks:        GRNET ECI-ECN
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION:
+remarks:        do not announce anything, accept AS65502
+remarks:        =======================================================================
+import:         from AS65502 action pref=100; accept AS65502
+export:         to AS65502 announce NOT ANY;
+remarks:        =======================================================================
+remarks:        SYZEYXIS
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION:
+remarks:        announce only GRNET routes, route within GRNET *only*.
+remarks:        =======================================================================
+import:         from AS65052 action pref=100; community.append(5408:1003); community.append(5408:4001); community.append(5408:4005); accept (PeerAS OR PeerAS:AS-TO-GRNET) AND <^PeerAS+PeerAS:AS-TO-GRNET*$> AND NOT community.contains(5408:1001) AND NOT community.contains(5408:1002);
+export:         to AS65052 announce community.contains(5408:1003);
+remarks:        =======================================================================
+remarks:        AKAMAI
+remarks:        ----------------------------------------------------------------------
+remarks:        PEER DESCRIPTION:
+remarks:        AKAMAI. Accept no routes. Announce GRNET customers.
+remarks:        =======================================================================
+import:         from AS21357 accept NOT ANY;
+export:         to AS21357 announce AS5408:RS-ROUTES OR community.contains(5408:1003);
+remarks:        =======================================================================
+import:         from AS65535 accept NOT ANY;
+export:         to AS65535 announce AS5408:RS-ROUTES;
+export:         to AS65535 announce community.contains(5408:1003); REFINE { to AS65535 announce (AS5408:AS-GRNET-CUSTOMERS-PUBLIC-AS AND NOT AS5408:RS-ROUTES^0-32); to AS65535 announce (AS5408:AS-GRNET-CUSTOMERS-PRIVATE-AS AND NOT AS5408:RS-ROUTES^0-32); }
+remarks:
+remarks:
+remarks:
+remarks:        # END OF ROUTING POLICY FOR GRNET
+remarks:
+remarks:
+status:         ASSIGNED
+admin-c:        GN1931-RIPE
+tech-c:         GN1931-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2021-12-31T11:31:18Z
+source:         RIPE # Filtered
+
+organisation:   ORG-GRaT1-RIPE
+org-name:       National Infrastructures for Research and Technology S.A.
+country:        GR
+org-type:       LIR
+address:        7 Kifisias Av.
+address:        11523
+address:        Athens
+address:        GREECE
+phone:          +302107474274
+fax-no:         +302107474490
+admin-c:        GN1931-RIPE
+admin-c:        AL3706-RIPE
+tech-c:         GN1931-RIPE
+abuse-c:        GN1931-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        GRNET-NOC
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         GRNET-NOC
+created:        2004-04-17T11:24:56Z
+last-modified:  2020-12-16T13:15:09Z
+source:         RIPE # Filtered
+
+role:           GRNET NOC
+org:            ORG-GRaT1-RIPE
+address:        Greek Research and Technology Network (GRNET) S.A.
+address:        Kifisias 7
+address:        Athens 11523, GREECE
+phone:          +30 210 7474274
+fax-no:         +30 210 7474490
+remarks:        --------------------------------------
+remarks:        For complains about abuse, spam etc:
+abuse-mailbox:  abuse@grnet.gr
+remarks:        --------------------------------------
+admin-c:        AS43112-RIPE
+tech-c:         AL3706-RIPE
+mnt-by:         GRNET-NOC
+nic-hdl:        GN1931-RIPE
+created:        2007-06-12T14:21:14Z
+last-modified:  2019-09-19T15:39:37Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          37.32.128.0/17
+descr:          Aggregated address space announced by AS5408
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2017-04-10T12:27:16Z
+last-modified:  2017-04-10T12:27:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          44.31.164.0/24
+origin:         AS5408
+descr:          SV1OBF
+admin-c:        SMITH5996-ARIN
+tech-c:         SMITH5996-ARIN
+notify:         hostmaster@ardc.net
+mnt-by:         MAINT-ARDC
+changed:        chris@ardc.net 20230508  #10:31:25Z
+source:         RADB
+last-modified:  2023-11-13T16:17:09Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          44.154.70.0/24
+descr:          SV1OBF
+origin:         AS5408
+mnt-by:         MAINT-AMPR
+changed:        bk29@ampr.org 20190724
+source:         ALTDB
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          44.154.79.0/24
+descr:          Allocated to SV1SMZ
+origin:         AS5408
+mnt-by:         MAINT-YMITSOS
+changed:        yannis@mitsos.net 20200512
+source:         ALTDB
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          44.154.145.0/24
+descr:          SV1OBF
+origin:         AS5408
+mnt-by:         MAINT-AMPR
+changed:        bk29@ampr.org 20190724
+source:         ALTDB
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.217.64.0/18
+descr:          Greek Research & Technology Network (GRNET)
+origin:         AS5408
+mnt-by:         GRNET-NOC
+mnt-routes:     GRNET-NOC
+created:        2007-12-04T12:14:48Z
+last-modified:  2010-06-23T12:17:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.64.0/23
+descr:          CORE-GRNET-NET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2022-07-15T12:42:32Z
+last-modified:  2022-07-15T12:42:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.66.0/23
+descr:          ASFA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2009-12-14T10:57:45Z
+last-modified:  2010-03-10T11:08:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.68.0/22
+descr:          CORE-GRNET-NET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2021-08-02T11:58:50Z
+last-modified:  2021-08-02T11:58:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.72.0/21
+descr:          CORE-GRNET-NET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2021-02-23T11:02:01Z
+last-modified:  2021-02-23T11:02:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.79.0/24
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2021-04-09T13:23:30Z
+last-modified:  2021-04-09T13:23:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.80.0/20
+descr:          CORE-GRNET-NET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2017-12-13T12:58:08Z
+last-modified:  2017-12-13T12:58:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.85.0/24
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.96.0/19
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-02-09T11:48:00Z
+last-modified:  2012-02-09T11:48:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.119.0/24
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.124.0/24
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.217.126.0/24
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.0.0/16
+descr:          Greek Research & Technology Network (GRNET)
+origin:         AS5408
+mnt-by:         GRNET-NOC
+mnt-routes:     GRNET-NOC
+created:        2005-06-30T12:00:41Z
+last-modified:  2016-01-19T08:57:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.0.0/21
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2007-10-19T14:04:40Z
+last-modified:  2007-10-19T14:04:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.1.0/24
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.2.0/24
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.5.0/24
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.9.0/24
+descr:          GRNET NOC
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2008-11-14T16:46:46Z
+last-modified:  2020-06-02T11:34:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.10.0/23
+descr:          IHU
+descr:          International Hellenic University
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2009-03-13T10:51:16Z
+last-modified:  2009-03-13T10:51:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.12.0/24
+descr:          GRNET SMALL CLIENTS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2009-09-08T13:01:58Z
+last-modified:  2009-09-08T13:01:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.16.0/21
+descr:          University of Western Macedonia
+descr:          URL: www.uowm.gr
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2005-11-23T18:18:50Z
+last-modified:  2005-11-23T18:18:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.24.0/23
+descr:          University of Western Macedonia
+descr:          URL: www.uowm.gr
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-10-17T08:58:06Z
+last-modified:  2012-10-17T08:58:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.32.0/24
+descr:          University of Thessaly
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-04-05T14:36:24Z
+last-modified:  2012-04-05T14:36:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.48.0/21
+descr:          OPENSTACK Hosted VM's
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2022-07-22T11:01:34Z
+last-modified:  2022-07-22T11:01:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.58.0/23
+descr:          TEI-SERRES
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-03-31T12:37:09Z
+last-modified:  2006-03-31T12:37:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.60.0/23
+descr:          TEI-SERRES
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-03-23T13:22:33Z
+last-modified:  2012-03-23T13:22:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.72.0/21
+descr:          OKEANOS Hosted VM's
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-12-22T11:31:17Z
+last-modified:  2016-12-22T11:31:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.80.0/21
+descr:          OKEANOS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2013-05-31T13:22:18Z
+last-modified:  2013-05-31T13:22:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.92.0/23
+descr:          TEIKAV
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-05-02T11:51:31Z
+last-modified:  2012-05-02T11:51:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.94.0/24
+descr:          TEIKAV
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-05-02T11:51:48Z
+last-modified:  2012-05-02T11:51:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.96.0/19
+descr:          OKEANOS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2013-04-03T11:52:34Z
+last-modified:  2013-04-03T11:52:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.168.0/21
+descr:          VIMA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2013-07-11T12:55:10Z
+last-modified:  2013-07-11T12:55:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.168.0/23
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.170.0/23
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.174.0/23
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:46:23Z
+last-modified:  2020-11-21T15:46:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.176.0/21
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2023-05-02T07:33:17Z
+last-modified:  2023-05-02T07:33:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.201.0/24
+descr:          University of Thessaly
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2009-10-06T09:05:37Z
+last-modified:  2009-10-06T09:05:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.202.0/23
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2025-04-14T12:23:22Z
+last-modified:  2025-04-14T12:23:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.224.0/21
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2023-07-07T17:20:42Z
+last-modified:  2023-07-07T17:20:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.234.0/23
+descr:          NOHSIS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2008-09-03T06:50:11Z
+last-modified:  2008-09-03T06:50:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.240.0/23
+descr:          HUA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2007-06-08T08:52:55Z
+last-modified:  2007-06-08T08:52:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.242.0/24
+descr:          HUA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2007-06-08T08:52:56Z
+last-modified:  2007-06-08T08:52:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.243.0/24
+descr:          HCMR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2008-09-18T14:26:04Z
+last-modified:  2008-09-18T14:26:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.212.248.0/24
+descr:          Greek Research & Technology Network (GRNET)
+descr:          Small Clients
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2007-05-17T08:35:38Z
+last-modified:  2011-05-18T09:27:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.227.108.0/24
+descr:          Greek Research & Technology Network (GRNET)
+origin:         AS5408
+mnt-by:         GRNET-NOC
+mnt-routes:     GRNET-NOC
+created:        2016-09-19T10:24:43Z
+last-modified:  2016-09-19T10:24:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.107.139.0/24
+origin:         AS5408
+mnt-by:         lir-gr-sarantaporo-1-MNT
+created:        2021-12-15T20:34:42Z
+last-modified:  2021-12-15T20:34:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          143.233.43.0/24
+descr:          GR-NET
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T13:20:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.50.0/24
+descr:          GR-NET
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T13:19:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.51.0/24
+descr:          GR-NET
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T13:19:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.57.0/24
+descr:          GR-NET
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T13:18:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.62.0/24
+descr:          GR-NET
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T13:18:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.68.0/24
+descr:          General Secretariat of Research and Technology
+origin:         AS5408
+mnt-by:         GSRT-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2004-06-16T09:47:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.111.0/24
+descr:          GR-NET
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T13:17:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.169.0/24
+descr:          TEIPI
+descr:          TEI PEIRAEUS
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T13:16:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.172.0/22
+descr:          TEIPI
+descr:          TEI PEIRAEUS
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T13:16:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.176.0/24
+descr:          TEIPI
+descr:          TEI PEIRAEUS
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T13:15:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.182.0/23
+descr:          Agricultural University of Athens
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T08:18:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.184.0/22
+descr:          Agricultural University of Athens
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T11:03:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.188.0/23
+descr:          Agricultural University of Athens
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T11:09:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.204.0/24
+descr:          Agricultural University of Athens
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T08:19:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.233.240.0/24
+descr:          Agricultural University of Athens
+origin:         AS5408
+mnt-by:         AS2546-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-08T11:05:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          145.116.216.0/24
+origin:         AS5408
+descr:          RCAUTH-ANYCAST-ROUTES
+descr:          SOURCE GRNET-GR
+mnt-by:         AS1104-MNT
+created:        2021-11-10T11:26:11Z
+last-modified:  2021-11-10T11:26:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          150.140.128.0/17
+descr:          UPATRAS
+origin:         AS5408
+remarks:        University of Patra
+mnt-by:         GRNET-NOC
+created:        2006-07-20T08:32:12Z
+last-modified:  2006-07-20T08:32:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.5.76.0/22
+descr:          Aggregated address space announced by AS5408
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-10-02T08:13:51Z
+last-modified:  2012-10-02T08:13:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.81.196.0/22
+descr:          Greek Research & Technology Network (GRNET)
+origin:         AS5408
+mnt-by:         GRNET-NOC
+mnt-routes:     GRNET-NOC
+created:        2015-05-29T06:41:26Z
+last-modified:  2015-05-29T06:41:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.105.109.0/24
+descr:          Greek Research & Technology Network (GRNET)
+origin:         AS5408
+mnt-by:         GRNET-NOC
+mnt-routes:     GRNET-NOC
+created:        2016-09-19T10:24:43Z
+last-modified:  2016-09-19T10:24:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.218.36.0/24
+descr:          MAICH
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2007-01-11T14:00:10Z
+last-modified:  2007-01-11T14:05:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.218.96.0/23
+descr:          OTE Telematics Network
+origin:         AS5408
+mnt-by:         OTE-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.218.124.0/23
+descr:          Hellenic Standards Organization
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.42.50.0/23
+descr:          Greek Research & Technology Network (GRNET)
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2021-06-22T09:32:38Z
+last-modified:  2021-06-22T09:32:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.42.52.0/23
+descr:          Greek Research & Technology Network (GRNET)
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2021-06-22T09:32:38Z
+last-modified:  2021-06-22T09:32:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.42.54.0/24
+descr:          Greek Research & Technology Network (GRNET)
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2021-06-22T09:32:38Z
+last-modified:  2021-06-22T09:32:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.192.0/19
+descr:          Aggregated address space announced by AS5408
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-01-11T10:01:52Z
+last-modified:  2006-01-11T10:06:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.192.0/24
+descr:          ILSP, Institute for Language and Speech Processing
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.200.0/21
+descr:          University of Thessaly
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.208.0/22
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2004-11-18T14:49:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.208.0/23
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.212.0/23
+descr:          GSRT-NET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2007-10-23T08:58:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.214.0/23
+descr:          NDC-NET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2007-09-04T16:00:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.217.0/24
+descr:          CETI
+descr:          Cultural and Educational Technology Institute
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-08-13T09:57:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.218.0/23
+descr:          PANTEION
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.220.0/22
+descr:          PANTEION
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.64.0/18
+descr:          Aggregated address space announced by AS5408
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-01-11T10:06:35Z
+last-modified:  2006-01-11T10:06:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.67.0/24
+descr:          TEI-SERRES
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.68.0/22
+descr:          Panteion University
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.75.0/24
+descr:          ARMYSCHOOLS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-01-05T08:41:17Z
+last-modified:  2012-01-05T08:41:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.76.0/23
+descr:          ASFA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2007-10-30T09:26:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.78.0/23
+descr:          UTH
+descr:          Former TEILAM
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2019-03-08T09:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.80.0/21
+descr:          UOWM
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2021-05-14T10:41:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.90.0/23
+descr:          HUANET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2002-03-28T09:31:17Z
+last-modified:  2007-11-20T09:53:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.92.0/23
+descr:          TEIKAV
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.94.0/24
+descr:          TEIKAV
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.95.0/24
+descr:          UOP ex TEI-KALAMATA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2020-01-10T15:03:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.130.123.0/24
+descr:          GUNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2015-04-07T12:36:29Z
+last-modified:  2015-04-07T12:36:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.0.0/16
+descr:          Aggregated address space announced by AS5408
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-01-11T09:44:58Z
+last-modified:  2009-11-09T12:56:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.1.0/24
+descr:          HAFA
+descr:          Hellenic Air Force Academy
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2018-05-07T09:55:30Z
+last-modified:  2018-05-07T09:55:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.2.0/24
+descr:          YPEPTH
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-08-01T06:57:39Z
+last-modified:  2019-08-01T06:57:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.3.0/24
+descr:          CETI
+descr:          Cultural and Educational Technology Institute
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2007-10-23T10:07:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.4.0/24
+descr:          GRNET SMALL CLIENTS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-02-22T17:01:06Z
+last-modified:  2006-02-22T17:01:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.6.0/23
+descr:          NHRF-NET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2007-09-04T15:58:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.8.0/23
+descr:          UOP - exTEIPAT
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2021-10-08T11:56:24Z
+last-modified:  2021-10-08T11:56:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.14.0/23
+descr:          UOP - exTEIPAT
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2021-10-08T11:56:25Z
+last-modified:  2021-10-08T11:56:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.16.0/24
+descr:          YPEPTH
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2008-04-18T12:07:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.17.0/24
+descr:          University of Thessaly
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.18.0/23
+descr:          University of Thessaly
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.20.0/24
+descr:          GR-NET-HQ
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2014-11-21T14:56:00Z
+last-modified:  2014-11-21T14:56:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.21.0/24
+descr:          BSRC-FLEMING
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-01-11T09:33:06Z
+last-modified:  2006-01-11T09:33:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.22.0/24
+descr:          TEI-SERRES
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.24.0/22
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2002-01-08T16:03:33Z
+last-modified:  2004-11-18T14:49:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.28.0/23
+descr:          GR-NET-HQ
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2010-04-14T09:27:54Z
+last-modified:  2010-04-14T09:27:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.30.0/23
+descr:          HUANET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2002-03-28T09:24:34Z
+last-modified:  2007-11-20T09:53:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.38.0/23
+descr:          UPELOP
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2002-07-10T07:00:38Z
+last-modified:  2002-07-10T07:00:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.40.0/24
+descr:          IGME
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2002-10-02T15:46:38Z
+last-modified:  2007-10-30T09:43:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.41.0/24
+descr:          EUGENIDES-GR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2002-11-22T07:47:13Z
+last-modified:  2002-11-22T07:47:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.42.0/23
+descr:          CRES
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2002-11-12T17:11:05Z
+last-modified:  2002-11-12T17:11:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.44.0/23
+descr:          TEI-SERRES
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2002-12-21T10:20:05Z
+last-modified:  2002-12-21T10:20:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.46.0/23
+descr:          UPELOP
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2003-08-22T18:49:52Z
+last-modified:  2003-08-22T18:49:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.49.0/24
+descr:          ITSAK
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2004-01-23T15:06:42Z
+last-modified:  2007-10-24T12:32:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.52.0/24
+descr:          GRNET-GRID
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-05-17T09:01:17Z
+last-modified:  2019-05-17T09:01:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.53.0/24
+descr:          GRNET-GRID
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2005-10-21T16:52:59Z
+last-modified:  2019-05-20T12:39:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.56.0/23
+descr:          UTH
+descr:          Former TEILAM
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-03-30T08:32:38Z
+last-modified:  2019-03-08T09:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.58.0/24
+descr:          ISI
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2008-04-22T10:48:57Z
+last-modified:  2008-04-22T10:48:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.60.0/23
+descr:          ASFA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2004-07-22T08:18:03Z
+last-modified:  2007-10-30T09:26:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.62.0/24
+descr:          GRNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2004-09-03T07:33:48Z
+last-modified:  2004-09-03T07:33:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.63.0/24
+descr:          IMIS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-10-06T15:15:59Z
+last-modified:  2011-10-06T15:15:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.96.0/24
+descr:          SSE-GR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2005-05-26T11:33:40Z
+last-modified:  2005-05-26T11:35:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.98.0/24
+descr:          SND-GR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-06-03T08:59:28Z
+last-modified:  2016-06-03T08:59:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.99.0/24
+descr:          Deaggregated Space
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-21T15:42:10Z
+last-modified:  2020-11-21T15:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.100.0/23
+descr:          TEIION
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-03-17T14:44:31Z
+last-modified:  2011-03-17T14:44:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.104.0/24
+descr:          ARCHET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-04-11T13:44:45Z
+last-modified:  2006-04-11T13:44:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.108.0/24
+descr:          University of Thessaly
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-02-13T15:32:20Z
+last-modified:  2013-11-05T14:01:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.109.0/24
+descr:          ASTER
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2010-09-17T14:35:25Z
+last-modified:  2010-09-17T14:35:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.112.0/23
+descr:          UPELOP
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2003-08-22T18:49:53Z
+last-modified:  2003-08-22T18:49:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.115.0/24
+descr:          BIOACADEMYNET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2003-06-17T13:04:50Z
+last-modified:  2003-06-17T13:04:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.117.0/24
+descr:          GR-ITI
+origin:         AS5408
+notify:         hostmaster@grnet.gr
+mnt-by:         GRNET-NOC
+created:        2003-03-26T20:53:24Z
+last-modified:  2008-01-18T13:23:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.119.0/24
+descr:          RAE-GR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2002-09-05T15:12:35Z
+last-modified:  2007-06-08T13:33:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.124.0/22
+descr:          UTH-exTEI_LAR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-05-10T08:21:55Z
+last-modified:  2019-05-10T08:21:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648::/29
+descr:          GRNETv6
+origin:         AS5408
+mnt-by:         GRNET-NOC
+mnt-routes:     GRNET-NOC
+created:        2015-03-09T16:33:04Z
+last-modified:  2016-02-10T12:21:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2::/48
+descr:          MEGARO-EXPO
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2015-10-09T06:44:52Z
+last-modified:  2015-10-09T06:44:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2002::/48
+descr:          PRESIDENCY OF THE HELLENIC REPUBLIC
+descr:          PUBLIC SECTOR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2022-12-06T16:53:12Z
+last-modified:  2022-12-06T16:53:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2003::/48
+descr:          GSNE
+descr:          424 Geniko Stratiotiko Nosokomeio Ekpaideuseos
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2022-11-30T10:29:15Z
+last-modified:  2022-11-30T10:29:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2004::/48
+descr:          WMUSEUM
+descr:          WAR MUSEUM ATHENS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2022-12-02T14:11:14Z
+last-modified:  2022-12-02T14:11:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2007::/48
+descr:          The American School of Classical Studies at Athens
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2023-05-09T10:31:34Z
+last-modified:  2023-05-09T10:31:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2030::/48
+descr:          GRNET-GRID
+descr:          HellasGrid cluster
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2009-12-11T16:11:30Z
+last-modified:  2009-12-11T16:11:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2040::/48
+descr:          Natural Environment and Climate Change Agency
+descr:          NECCA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2023-01-13T10:25:06Z
+last-modified:  2023-01-13T10:25:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2070::/48
+descr:          Presidency of Greek Government
+descr:          GRPRESIDENCY
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-04-16T08:11:06Z
+last-modified:  2020-04-16T08:11:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2080::/48
+descr:          SND-GR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-02-06T10:30:59Z
+last-modified:  2006-02-06T10:30:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2090::/48
+descr:          Patriarchal University Ecclesiastical Academy of Crete
+descr:          AEAHK
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-10-24T14:01:27Z
+last-modified:  2019-10-24T14:01:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2091::/48
+descr:          Prace Research Infrastructure
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2017-05-22T13:42:47Z
+last-modified:  2017-05-22T13:42:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:20a0::/48
+descr:          Athens Conservatoire
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-07-29T08:05:02Z
+last-modified:  2020-07-29T08:05:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:20b0::/48
+descr:          HELLENIC SPACE CENTER
+descr:          ELKED
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-10-07T07:49:35Z
+last-modified:  2020-10-07T07:49:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:20c0::/48
+descr:          FLOGA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-10-08T08:22:05Z
+last-modified:  2020-10-08T08:22:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:20d0::/48
+descr:          PSP
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-11-16T11:09:34Z
+last-modified:  2020-11-16T11:09:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2110::/48
+descr:          AVARCH
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2009-03-23T15:02:44Z
+last-modified:  2009-03-23T15:02:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2150::/48
+descr:          SELETE
+descr:          SCHOOL OF PEDAGOGICAL
+descr:          AND TECHNOLOGICAL EDUCATION
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-10T10:01:33Z
+last-modified:  2011-05-10T10:02:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2170::/48
+descr:          BIOACADEMYNET
+origin:         AS5408
+created:        2011-05-10T10:25:12Z
+last-modified:  2011-05-10T10:25:12Z
+source:         RIPE
+mnt-by:         GRNET-NOC
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2190::/48
+descr:          American College of Thessaloniki
+origin:         AS5408
+mnt-by:         GRNET-NOC
+mnt-routes:     GRNET-NOC
+created:        2011-05-10T10:52:02Z
+last-modified:  2011-05-10T10:52:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:21b0::/48
+descr:          Athens School of Fine Arts
+origin:         AS5408
+mnt-by:         GRNET-NOC
+mnt-routes:     GRNET-NOC
+created:        2011-05-10T11:16:58Z
+last-modified:  2011-05-10T11:16:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:21c0::/48
+descr:          ARCHAEOLOGICAL SOCIETY AT ATHENS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+mnt-routes:     GRNET-NOC
+created:        2011-05-10T11:20:52Z
+last-modified:  2011-05-10T11:20:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:21d0::/48
+descr:          HellenicParliamentNet
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-21T10:00:43Z
+last-modified:  2011-06-21T10:00:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2210::/48
+descr:          Agricultural University of Athens
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-10T11:31:12Z
+last-modified:  2011-05-10T11:31:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2220::/48
+descr:          AFS-NET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-16T10:27:06Z
+last-modified:  2011-05-16T10:27:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2230::/48
+descr:          UNTC
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-16T10:21:35Z
+last-modified:  2011-05-16T10:21:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2250::/48
+descr:          BSRC-FLEMING
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-16T10:29:33Z
+last-modified:  2011-05-16T10:29:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2270::/48
+descr:          NDC-NET
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-10T12:02:54Z
+last-modified:  2011-05-10T12:02:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2280::/48
+descr:          NATIONAL AGRICULTURAL RESEARCH FOUNDATION
+descr:          ELGO
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2013-02-15T11:42:20Z
+last-modified:  2013-02-15T11:42:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2290::/48
+descr:          HUA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-10T12:40:51Z
+last-modified:  2011-05-10T12:40:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:22c0::/48
+descr:          GR-ITI
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-10T12:49:47Z
+last-modified:  2011-05-10T12:49:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:22f0::/48
+descr:          GRNET SMALL CLIENTS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-27T10:00:47Z
+last-modified:  2011-05-27T10:00:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2320::/48
+descr:          Greek Research and Technology Network
+descr:          General Secretariat of Research and Technology
+descr:          HeadQuarters
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2005-02-11T09:37:26Z
+last-modified:  2005-02-11T09:37:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2340::/48
+descr:          Greek Research and Technology Network
+descr:          General Secretariat of Research and Technology
+descr:          GRNET Network Operations Center
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2008-11-19T09:42:33Z
+last-modified:  2008-11-19T09:42:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2350::/48
+descr:          HCMR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-10T12:58:00Z
+last-modified:  2011-05-10T12:58:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2380::/48
+descr:          EUGENIDES-GR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-16T10:33:26Z
+last-modified:  2011-05-16T10:33:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:23a0::/48
+descr:          PASTEUR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-16T12:01:28Z
+last-modified:  2011-05-16T12:01:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:23b0::/48
+descr:          ISI
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-16T12:04:23Z
+last-modified:  2011-05-16T12:04:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:23c0::/48
+origin:         AS5408
+descr:          IGME
+mnt-by:         GRNET-NOC
+created:        2011-05-16T12:53:41Z
+last-modified:  2011-05-16T12:53:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:23d0::/48
+descr:          Corallia
+descr:          Corallia Clusters Initiative
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-18T13:32:28Z
+last-modified:  2016-11-08T13:36:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:23e0::/48
+descr:          YSMA
+descr:          Acropolis Restoration Service
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2015-09-04T12:49:41Z
+last-modified:  2015-09-04T12:49:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:23f0::/48
+descr:          ITSAK
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-18T13:39:32Z
+last-modified:  2011-05-18T13:39:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2410::/48
+descr:          CRES
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-18T13:43:54Z
+last-modified:  2011-05-18T13:43:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2440::/48
+descr:          MAICH
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-21T08:45:50Z
+last-modified:  2011-06-21T08:45:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2450::/48
+descr:          NOHSIS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-21T08:48:38Z
+last-modified:  2011-06-21T08:48:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2460::/48
+descr:          KEA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-06-02T11:30:15Z
+last-modified:  2016-06-02T11:30:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2480::/48
+descr:          University of Thessaly
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-17T13:37:23Z
+last-modified:  2011-06-17T13:37:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2490::/48
+descr:          UPATRAS
+origin:         AS5408
+remarks:        University of Patra
+mnt-by:         GRNET-NOC
+created:        2011-06-21T10:13:11Z
+last-modified:  2011-06-21T10:13:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:24b0::/48
+descr:          UPELOP
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-17T13:34:54Z
+last-modified:  2011-06-17T13:34:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:24c0::/48
+descr:          PANTEION
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-17T13:31:42Z
+last-modified:  2011-06-17T13:31:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:24e0::/48
+descr:          RAE-GR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-21T08:56:46Z
+last-modified:  2011-06-21T08:56:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:24f0::/48
+descr:          SSE-GR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-21T08:59:59Z
+last-modified:  2011-06-21T08:59:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2500::/48
+descr:          HAFA
+descr:          Hellenic Air Force Academy
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-21T09:01:54Z
+last-modified:  2011-06-21T09:01:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2520::/48
+descr:          T-EPIRUS
+descr:          TEI EPIRUS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-17T13:29:00Z
+last-modified:  2011-06-17T13:29:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2540::/48
+descr:          TEIKAV
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-23T12:09:04Z
+last-modified:  2011-05-23T12:09:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2550::/48
+descr:          TEI-KALAMATA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-23T12:04:19Z
+last-modified:  2011-05-23T12:04:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2570::/48
+descr:          TEILAM
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-23T09:29:59Z
+last-modified:  2011-05-23T09:29:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:25b0::/48
+descr:          TEIPIR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-23T09:22:33Z
+last-modified:  2011-05-23T09:22:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:25c0::/48
+descr:          TEI-SERRES
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-23T09:24:38Z
+last-modified:  2011-05-23T09:24:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:25f0::/48
+descr:          YPEPTH
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-06-21T10:07:29Z
+last-modified:  2011-06-21T10:07:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2600::/48
+descr:          IMIS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-10-06T15:16:26Z
+last-modified:  2011-10-06T15:16:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2610::/48
+descr:          ARMYSCHOOLS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-01-05T08:41:33Z
+last-modified:  2012-01-05T08:41:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2620::/48
+descr:          NAGREF
+descr:          Institute of Olive Tree and Subtropical Plants
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-03-06T12:10:23Z
+last-modified:  2012-03-06T12:10:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2630::/48
+descr:          NLG
+descr:          National Library of Greece
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2012-03-06T12:13:04Z
+last-modified:  2012-03-06T12:13:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2640::/48
+descr:          GNAITOL
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:23:40Z
+last-modified:  2016-03-16T12:23:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2650::/48
+descr:          GNARTAS
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:31Z
+last-modified:  2016-03-16T12:24:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2660::/48
+descr:          GNVOL
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:31Z
+last-modified:  2016-03-16T12:24:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2670::/48
+descr:          GNDRAM
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2680::/48
+descr:          GNZAK
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2690::/48
+descr:          GNIOAN
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:26a0::/48
+descr:          GNKAV
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:26b0::/48
+descr:          GNKARD
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:26c0::/48
+descr:          GNKERK
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:26d0::/48
+descr:          GNKOM
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:26e0::/48
+descr:          GNKOR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:26f0::/48
+descr:          GNMES
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2700::/48
+descr:          GNMYT
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2710::/48
+descr:          GNXAN
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2720::/48
+descr:          GNPATPAID
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2730::/48
+descr:          GNPAT
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2740::/48
+descr:          GNRETH
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2750::/48
+descr:          GNTRIK
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:32Z
+last-modified:  2016-03-16T12:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2760::/48
+descr:          GNCHAN
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:33Z
+last-modified:  2016-03-16T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2770::/48
+descr:          GNCHI
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:33Z
+last-modified:  2016-03-16T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2780::/48
+descr:          GNTRIP
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:33Z
+last-modified:  2016-03-16T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2790::/48
+descr:          GNLIM
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:33Z
+last-modified:  2016-03-16T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:27a0::/48
+descr:          PGNALEX
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:33Z
+last-modified:  2016-03-16T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:27b0::/48
+descr:          PGNHER
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:33Z
+last-modified:  2016-03-16T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:27c0::/48
+descr:          PGNIOAN
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:33Z
+last-modified:  2016-03-16T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:27d0::/48
+descr:          PGNLAR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:33Z
+last-modified:  2016-03-16T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:27e0::/48
+descr:          PGNP
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-16T12:24:33Z
+last-modified:  2016-03-16T12:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:27f0::/48
+descr:          MUSBYPO
+descr:          Museum of Byzantine Culture
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-09-01T08:05:46Z
+last-modified:  2016-09-01T08:05:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2820::/48
+descr:          University of Western Macedonia
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2008-10-16T09:00:42Z
+last-modified:  2008-10-16T09:00:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2830::/48
+descr:          International Hellenic University
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2010-05-18T14:11:22Z
+last-modified:  2010-05-18T14:11:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2840::/48
+descr:          Akadimia Emporikou Naftikou Syrou
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-03-04T11:46:53Z
+last-modified:  2016-03-04T11:46:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2850::/48
+descr:          LYKAIO
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-06-02T11:30:15Z
+last-modified:  2016-06-02T11:30:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2860::/48
+descr:          Jewish Community  of Athens
+descr:          ATHJCOM
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2017-05-22T08:09:02Z
+last-modified:  2017-05-22T08:09:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2890::/48
+descr:          MEGARO-EXPO
+descr:          Megaro EduRoam
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-10-19T09:54:26Z
+last-modified:  2016-10-19T09:54:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:28a0::/48
+descr:          National Centre for Social Research
+descr:          EKKE
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2017-01-17T13:23:56Z
+last-modified:  2017-01-17T13:23:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:28b0::/48
+descr:          Blood Donor Mobile Unit
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-01-04T15:13:18Z
+last-modified:  2019-01-04T15:13:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:28c0::/48
+descr:          Hellenic Foundation for Research and Innovation
+descr:          ELIDEK
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2017-06-07T10:21:59Z
+last-modified:  2017-06-07T10:21:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:28d0::/48
+descr:          DAEM-SERAFEIO
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2017-10-11T10:03:08Z
+last-modified:  2017-10-11T10:03:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2900::/48
+descr:          Geniko Nosokomeio Syrou
+descr:          GNSYR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-11-23T09:07:30Z
+last-modified:  2016-11-23T09:07:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2910::/48
+descr:          Geniko Nosokomeio Rodou
+descr:          GNROD
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2016-12-20T11:05:23Z
+last-modified:  2016-12-20T11:05:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2930::/48
+descr:          General Oncological Hospital of Kiffisia
+descr:          GONKANARG
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-01-03T10:45:49Z
+last-modified:  2019-01-08T14:20:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2940::/48
+descr:          Geniko Nosokomeio Pyrgou
+descr:          GNPYRG
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2020-02-19T08:19:30Z
+last-modified:  2020-02-19T08:19:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2c20::/48
+descr:          DATA PROTECTION AUTHORITY
+descr:          DPA
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2017-11-07T09:55:43Z
+last-modified:  2017-11-07T09:55:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2c50::/48
+descr:          Hellenic Naval Staff and Command College
+descr:          SDEPN
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2017-11-27T10:53:01Z
+last-modified:  2017-11-27T10:53:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2c70::/48
+descr:          Ministry of Digital Policy Telecommunications and Media
+descr:          MINDIG
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2018-03-16T10:28:54Z
+last-modified:  2018-03-16T10:28:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2c80::/48
+descr:          Institute of Educational Policy
+descr:          IEP
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2018-04-16T12:19:43Z
+last-modified:  2018-04-16T12:19:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2c90::/48
+descr:          ADVANCED SCHOOL OF TOURISM EDUCATION OF CRETE
+descr:          ASTEK
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2018-05-07T09:51:24Z
+last-modified:  2018-05-07T09:51:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2ca0::/48
+descr:          Science and Technology Park of Epirus SA
+descr:          STEP
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2018-05-29T16:35:41Z
+last-modified:  2018-05-29T16:35:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2cb0::/48
+descr:          Institute of Communication and Computer Systems
+descr:          ICCS - EPISEY
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-01-03T16:03:43Z
+last-modified:  2019-01-28T12:26:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2cc0::/48
+descr:          Aspropyrgos Merchant Marine Academy
+descr:          AENASPR
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-04-22T12:39:29Z
+last-modified:  2019-04-22T12:39:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2cd0::/48
+descr:          UNIVERSITY MENTAL HEALTH, NEUROSCIENCES AND PRECISION MEDICINE RESEARCH INSTITUTE
+descr:          EPIPSI
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-05-13T12:13:14Z
+last-modified:  2019-05-13T12:13:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2ce0::/48
+descr:          GENERAL STATE ARCHIVES
+descr:          GAK
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-05-21T09:53:24Z
+last-modified:  2019-05-21T09:53:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2cf0::/48
+descr:          Radio Amateur Association of Greece
+descr:          EER
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2019-10-30T12:38:05Z
+last-modified:  2019-10-30T12:38:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2d00::/48
+descr:          YOUTH & LIFELONG LEARNING FOUNDATION
+descr:          INEDIVIM
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2021-02-03T12:23:17Z
+last-modified:  2021-02-03T12:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2d90::/48
+descr:          University of Central Greece
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2006-08-21T08:29:54Z
+last-modified:  2006-08-21T08:29:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2e90::/48
+descr:          CETI
+descr:          Cultural and Educational Technology Institute
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2011-05-09T13:22:43Z
+last-modified:  2011-05-09T13:22:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2fe9::/48
+descr:          GRNETv6 Content Providers
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2014-07-23T08:50:41Z
+last-modified:  2014-07-23T08:50:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2ff0::/44
+descr:          GRNETv6 BackBone
+origin:         AS5408
+mnt-by:         GRNET-NOC
+created:        2014-07-21T13:07:31Z
+last-modified:  2014-07-21T13:07:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a07:8504:1a0::/48
+origin:         AS5408
+descr:          RCAUTH-ANYCAST-ROUTES
+mnt-by:         AS1104-MNT
+created:        2022-09-13T13:45:31Z
+last-modified:  2022-09-13T13:45:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a11:cfc0::/32
+origin:         AS5408
+mnt-by:         lir-gr-sarantaporo-1-MNT
+mnt-by:         lir-gr-sarantaporo-1-MNT
+created:        2021-12-15T20:37:11Z
+last-modified:  2021-12-15T20:37:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,159 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS9020'
+
+% Abuse contact for 'AS9020' is 'noc-services@iosb.fraunhofer.de'
+
+aut-num:        AS9020
+as-name:        AS9020-FRAUNHOFER-IESE-KL
+descr:          Fraunhofer IESE Institut Experimentelles Software Engineering
+descr:          Fraunhofer-Platz 1
+descr:          D-67663 Kaiserslautern
+descr:          Germany
+org:            ORG-FzFd2-RIPE
+import:         from AS42652 action pref=5; accept ANY
+import:         from AS199578 accept ANY
+import:         from AS1275 action pref=100; accept ANY
+export:         to AS42652 announce AS9020
+export:         to AS1275 announce AS9020
+export:         to AS199578 announce AS9020
+mp-import:      afi ipv6.unicast from AS199578 accept ANY
+mp-export:      afi ipv6.unicast to AS199578 announce AS9020
+admin-c:        FH1073-RIPE
+admin-c:        FHG20-RIPE
+tech-c:         SR17-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        removed cross-mnt: AS9020-MNT
+mnt-by:         AS9020-MNT
+mnt-by:         MNT-FHG-LIR
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:13:26Z
+source:         RIPE # Filtered
+
+organisation:   ORG-FzFd2-RIPE
+org-name:       Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.
+country:        DE
+org-type:       LIR
+address:        Fraunhoferstr.1
+address:        76131
+address:        Karlsruhe
+address:        GERMANY
+phone:          +4972160910
+fax-no:         +497216091413
+mnt-ref:        HS96391-MNT
+mnt-ref:        MNT-FHG-LIR
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-FHG-LIR
+abuse-c:        FHG20-RIPE
+created:        2011-11-04T11:49:46Z
+last-modified:  2020-12-16T13:17:15Z
+source:         RIPE # Filtered
+
+role:           FHG LIR ROLE
+address:        Fraunhofer Institut fuer Optronik, Systemtechnik und Bildauswertung IOSB
+abuse-mailbox:  noc-services@iosb.fraunhofer.de
+admin-c:        HS5806-RIPE
+tech-c:         HS5806-RIPE
+nic-hdl:        FHG20-RIPE
+mnt-by:         MNT-FHG-LIR
+created:        2012-05-06T10:25:23Z
+last-modified:  2013-04-29T17:24:56Z
+source:         RIPE # Filtered
+
+person:         Frank Huber
+address:        Fraunhofer Einrichtung Experimentelles Software Engineering
+address:        Sauerwiesen 6
+address:        D-67661 Kaiserslautern
+address:        GERMANY
+phone:          +49 6301 707 123
+nic-hdl:        FH1073-RIPE
+mnt-by:         IBS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-21T23:46:11Z
+source:         RIPE # Filtered
+
+person:         Steffen Reithermann
+address:        Pfalzring 169
+address:        D-67112 Mutterstadt
+address:        GERMANY
+phone:          +49 631 3605078
+fax-no:         +49 631 3507312
+nic-hdl:        SR17-RIPE
+mnt-by:         TRANSKOM-MNT
+created:        2002-06-12T22:41:29Z
+last-modified:  2002-06-12T22:41:29Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          153.96.133.0/24
+descr:          IESE-KL-1
+origin:         AS9020
+mnt-by:         AS9020-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          153.96.134.0/23
+descr:          IESE-KL-1
+origin:         AS9020
+mnt-by:         AS9020-MNT
+mnt-by:         FHG-MNT
+created:        2014-06-26T09:59:08Z
+last-modified:  2014-06-26T09:59:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:db80:3810::/48
+descr:          Fraunhofer-IESE-Main-Site-Intranet
+origin:         AS9020
+mnt-by:         MNT-FHG-LIR
+created:        2013-08-26T08:26:45Z
+last-modified:  2013-08-26T08:26:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

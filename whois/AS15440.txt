@@ -1,0 +1,997 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15400 - AS15474'
+
+as-block:       AS15400 - AS15474
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15440'
+
+% Abuse contact for 'AS15440' is 'abuse@balt.net'
+
+aut-num:        AS15440
+org:            ORG-BA18-RIPE
+as-name:        Baltneta
+descr:          Customers AS
+remarks:        ========================================
+remarks:
+remarks:        +--------------------------------------
+remarks:        |    Upstream Providers                |
+remarks:        +--------------------------------------
+remarks:        ===  RETN  ================================
+import:         from AS9002 action pref=100; accept ANY
+export:         to   AS9002                  announce AS-ML
+remarks:        ===  TELIA   ==============================
+import:         from AS8764 action pref=100; accept ANY
+export:         to   AS8764                  announce AS-ML
+remarks:        ===  COGENT  ==============================
+import:         from AS174 action pref=100;  accept ANY
+export:         to   AS174                   announce AS-ML
+remarks:        ===  HE  ==================================
+import:         from AS6939 action pref=100; accept ANY
+export:         to   AS6939                  announce AS-ML
+mp-import:      afi ipv6.unicast from AS6939  accept ANY
+mp-export:      afi ipv6.unicast to   AS6939  announce AS-ML
+export:         to AS-ANY announce AS-ML
+remarks:        ===========================================
+remarks:        +--------------------------------------
+remarks:        |    Peers                             |
+remarks:        +--------------------------------------
+remarks:        ===  BALT-IX  ==================================
+import:         from AS8486 action pref=250;  accept AS-BALT-IX
+export:         to   AS8486                   announce AS-ML
+mp-import:      afi ipv6.unicast from AS8486  accept AS-BALT-IX-v6
+mp-export:      afi ipv6.unicast to   AS8486  announce AS-ML
+remarks:        ===  DTEL-IX  ==================================
+import:         from AS31210 action pref=100; accept AS-DTEL-IX
+export:         to   AS31210                  announce AS-ML
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to   AS31210 announce AS-ML
+remarks:        ===  TELIA  ====================================
+import:         from AS8764 action pref=250;  accept AS-ANY
+export:         to   AS8764                   announce AS-ML
+remarks:        ===  MEDIAFON  =================================
+import:         from AS43482 action pref=250; accept AS43482
+export:         to   AS43482                  announce AS-ML
+remarks:        ===  GOOGLE  ===================================
+import:         from AS15169 action pref=250; accept AS-GOOGLE
+export:         to   AS15169                  announce AS-ML
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169 announce AS-ML
+remarks:        ===  FACEBOOK  =================================
+import:         from AS32934 action pref=250; accept AS-FACEBOOK
+export:         to   AS32934                  announce AS-ML
+mp-import:      afi ipv6.unicast from AS32934 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to   AS32934 announce AS-ML
+remarks:        ===  AMAZON  ===================================
+import:         from AS16509 action pref=200; accept AS-AMAZON
+export:         to   AS16509                  announce AS-ML
+mp-import:      afi ipv6.unicast from AS16509 accept AS-AMAZON
+mp-export:      afi ipv6.unicast to   AS16509 announce AS-ML
+remarks:        ================================================
+remarks:
+admin-c:        BNK1-RIPE
+tech-c:         BNK1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         BNK-LT-MNT
+created:        2002-07-17T10:12:19Z
+last-modified:  2023-01-20T06:49:23Z
+source:         RIPE
+
+organisation:   ORG-BA18-RIPE
+org-name:       UAB "Baltnetos komunikacijos"
+country:        LT
+org-type:       LIR
+address:        Rutkausko g. 6
+address:        05132
+address:        Vilnius
+address:        LITHUANIA
+phone:          +370 5 2745444
+fax-no:         +370 5 2745440
+admin-c:        BNK1-RIPE
+tech-c:         BNK1-RIPE
+abuse-c:        BNK1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        BNK-LT-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         BNK-LT-MNT
+created:        2004-04-17T11:37:10Z
+last-modified:  2021-02-22T07:20:38Z
+source:         RIPE # Filtered
+
+role:           BNK Operations
+address:        UAB "Baltnetos komunikacijos"
+address:        Rutkausko 6
+address:        Vilnius, Lithuania
+phone:          +370 5 2745444
+admin-c:        AZ431-RIPE
+admin-c:        DC15897-RIPE
+tech-c:         AR7497-RIPE
+tech-c:         VR886-RIPE
+tech-c:         DC15897-RIPE
+nic-hdl:        BNK1-RIPE
+mnt-by:         BNK-LT-MNT
+abuse-mailbox:  abuse@balt.net
+created:        2002-12-04T13:23:34Z
+last-modified:  2023-02-10T13:06:50Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          5.133.65.0/24
+descr:          BK-CLIENT
+origin:         AS15440
+mnt-by:         mnt-lt-bnk-1
+created:        2019-01-22T09:07:34Z
+last-modified:  2019-01-22T09:07:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.133.66.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+mnt-by:         BNK-MNT
+created:        2021-07-09T10:44:36Z
+last-modified:  2021-07-09T10:44:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.57.102.0/24
+origin:         AS15440
+mnt-by:         netutils-mnt
+created:        2024-10-14T16:23:16Z
+last-modified:  2025-02-12T14:03:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.57.102.0/24
+origin:         AS15440
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com
+source:         radb
+last-modified:  2024-10-14T17:18:34Z
+rpki-ov-state:  valid
+
+route:          38.210.227.0/24
+origin:         AS15440
+descr:          Route Registered for Cogent Communications Customer - UAB "Kriseda"
+geoidx:         DE
+mnt-by:         MAINT-AS174
+changed:        neteng@cogentco.com 20250605 # 09:12 GMT
+source:         RADB
+last-modified:  2025-06-05T09:12:52Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          45.82.32.0/22
+origin:         AS15440
+created:        2021-10-13T05:46:45Z
+last-modified:  2021-10-13T05:46:45Z
+source:         RIPE
+mnt-by:         BNK-LT-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.241.192.0/20
+descr:          LT-BALTNET
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2007-02-14T14:30:40Z
+last-modified:  2012-10-03T11:06:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.142.112.0/20
+descr:          Baltneta customers
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2011-08-21T18:36:22Z
+last-modified:  2011-08-21T18:36:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.209.231.0/24
+origin:         AS15440
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com 20241019 # 14:18 GMT
+source:         radb
+last-modified:  2024-10-19T14:18:53Z
+rpki-ov-state:  valid
+
+route:          85.209.231.0/24
+origin:         AS15440
+mnt-by:         netutils-mnt
+created:        2024-10-19T13:15:55Z
+last-modified:  2025-02-12T14:06:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.249.80.0/20
+descr:          Baltneta customers
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2011-08-08T10:19:50Z
+last-modified:  2011-08-08T10:19:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.103.96.0/21
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-06-14T11:15:08Z
+last-modified:  2019-06-14T11:15:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.103.255.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+mnt-by:         BNK-MNT
+created:        2018-08-30T05:59:57Z
+last-modified:  2018-08-30T05:59:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.188.254.0/24
+origin:         AS15440
+mnt-by:         netutils-mnt
+created:        2022-05-19T14:06:13Z
+last-modified:  2025-02-12T14:07:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.188.254.0/24
+origin:         AS15440
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com 20220804
+source:         radb
+last-modified:  2023-11-13T16:12:04Z
+rpki-ov-state:  valid
+
+route:          91.244.197.0/24
+origin:         AS15440
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com 20220804
+source:         radb
+last-modified:  2023-11-13T16:12:04Z
+rpki-ov-state:  valid
+
+route:          92.62.128.0/20
+descr:          LT-BALTNET
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:14:03Z
+last-modified:  2019-03-07T13:14:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.128.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:00:49Z
+last-modified:  2019-03-07T13:00:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.129.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:01:29Z
+last-modified:  2019-03-07T13:01:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.130.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:02:01Z
+last-modified:  2019-03-07T13:02:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.131.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:02:25Z
+last-modified:  2019-03-07T13:02:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.132.0/23
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-04-23T13:22:13Z
+last-modified:  2019-04-23T13:22:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.135.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:03:46Z
+last-modified:  2019-03-07T13:03:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.136.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:09:02Z
+last-modified:  2019-03-07T13:09:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.137.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:09:20Z
+last-modified:  2019-03-07T13:09:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.138.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:09:28Z
+last-modified:  2019-03-07T13:09:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.139.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:09:37Z
+last-modified:  2019-03-07T13:09:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.140.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:10:40Z
+last-modified:  2019-03-07T13:10:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.141.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:10:51Z
+last-modified:  2019-03-07T13:10:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.142.0/24
+origin:         AS15440
+descr:          Baltneta DC
+mnt-by:         AS8486-MNT
+mnt-by:         mnt-lt-bnk-1
+mnt-by:         BNK-LT-MNT
+mnt-by:         BNK-MNT
+created:        2018-12-21T09:51:19Z
+last-modified:  2018-12-21T09:51:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.62.143.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:11:22Z
+last-modified:  2019-03-07T13:11:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          146.103.25.0/24
+origin:         AS15440
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com
+source:         radb
+last-modified:  2024-06-05T01:59:20Z
+rpki-ov-state:  valid
+
+route:          146.103.25.0/24
+origin:         AS15440
+mnt-by:         netutils-mnt
+created:        2024-06-04T23:21:15Z
+last-modified:  2025-02-12T14:01:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          146.103.38.0/24
+origin:         AS15440
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com
+source:         radb
+last-modified:  2024-04-01T11:30:25Z
+rpki-ov-state:  valid
+
+route:          146.103.38.0/24
+origin:         AS15440
+mnt-by:         netutils-mnt
+created:        2024-04-01T08:59:29Z
+last-modified:  2025-02-12T14:01:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          150.241.124.0/24
+origin:         AS15440
+mnt-by:         interlir-mnt
+created:        2024-11-04T12:40:20Z
+last-modified:  2024-11-04T12:40:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.118.198.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+mnt-by:         BNK-MNT
+created:        2019-06-04T06:37:05Z
+last-modified:  2019-06-04T06:37:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          181.214.147.0/24
+origin:         AS15440
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com 20220912
+source:         radb
+last-modified:  2023-11-13T16:12:28Z
+rpki-ov-state:  valid
+
+route:          181.214.147.0/24
+origin:         AS15440
+mnt-by:         netutils-mnt
+created:        2022-03-02T14:54:07Z
+last-modified:  2025-02-12T14:02:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.11.26.0/24
+descr:          BK CloudStack
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-07T13:17:32Z
+last-modified:  2019-03-07T13:17:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.40.6.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+mnt-by:         BNK-MNT
+created:        2020-03-12T19:34:00Z
+last-modified:  2020-03-13T05:48:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.65.48.0/24
+descr:          SERVERIAIVERSLUI
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+mnt-by:         BNK-MNT
+created:        2021-07-08T08:53:37Z
+last-modified:  2021-07-08T08:53:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.140.228.0/24
+descr:          LT-HOSTY
+origin:         AS15440
+mnt-by:         lt-hosty-1-mnt
+created:        2019-03-25T14:41:31Z
+last-modified:  2019-03-25T14:41:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.140.229.0/24
+descr:          LT-HOSTY
+origin:         AS15440
+mnt-by:         lt-hosty-1-mnt
+created:        2019-03-25T14:42:51Z
+last-modified:  2019-03-25T14:42:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.149.153.0/24
+descr:          LRTC_NETWORK_RENT
+origin:         AS15440
+remarks:        Vilniaus_silumos_tinklai
+mnt-by:         LRTC-MNT
+created:        2022-05-31T13:17:56Z
+last-modified:  2022-05-31T13:17:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.186.25.0/24
+origin:         AS15440
+mnt-by:         netutils-mnt
+created:        2023-11-13T15:35:29Z
+last-modified:  2025-02-12T14:02:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.216.209.0/24
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-04-23T13:29:19Z
+last-modified:  2019-04-23T13:29:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.226.127.0/24
+origin:         AS15440
+mnt-by:         om-cloud-1-mnt
+created:        2025-03-17T09:05:22Z
+last-modified:  2025-03-17T09:05:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          191.96.245.0/24
+origin:         AS15440
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com
+source:         radb
+last-modified:  2024-08-15T19:40:32Z
+rpki-ov-state:  valid
+
+route:          191.96.245.0/24
+origin:         AS15440
+mnt-by:         netutils-mnt
+created:        2024-08-15T17:50:42Z
+last-modified:  2025-02-12T14:03:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.14.160.0/19
+descr:          Baltneta customers
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2011-08-21T18:30:52Z
+last-modified:  2011-08-21T18:30:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.197.128.0/18
+descr:          LT-BALTNET
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2002-11-29T11:15:16Z
+last-modified:  2009-05-21T10:31:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.117.16.0/20
+origin:         AS15440
+mnt-by:         AS8486-MNT
+mnt-by:         BNK-LT-MNT
+mnt-by:         BNK-MNT
+created:        2018-11-10T13:04:50Z
+last-modified:  2018-11-10T13:04:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:2ffc::/48
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2020-08-04T07:01:27Z
+last-modified:  2020-08-04T07:01:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:2ffc:2e00::/56
+descr:          ZealiD
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2020-08-03T13:59:13Z
+last-modified:  2020-08-04T04:52:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1ab8::/31
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+mnt-by:         BNK-MNT
+created:        2021-02-11T14:47:46Z
+last-modified:  2021-02-11T14:47:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1ab8::/32
+descr:          Baltneta IPv6
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2011-06-08T10:40:06Z
+last-modified:  2011-06-08T10:40:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1ab9::/32
+descr:          Baltneta DC IPv6
+origin:         AS15440
+mnt-by:         BNK-LT-MNT
+created:        2019-03-06T14:18:01Z
+last-modified:  2019-03-06T14:18:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0d:5000:2::/48
+descr:          VIPHOST
+origin:         AS15440
+created:        2021-11-25T08:57:22Z
+last-modified:  2021-11-25T08:57:22Z
+source:         RIPE
+mnt-by:         BNK-LT-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

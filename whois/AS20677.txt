@@ -1,0 +1,483 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20677'
+
+% Abuse contact for 'AS20677' is 'abuse@imos.net'
+
+aut-num:        AS20677
+as-name:        IMOS-AS
+descr:          Alfons-Feifel-Str. 9
+descr:          D-73037 Goeppingen
+org:            ORG-iG9-RIPE
+remarks:        =============================================
+remarks:        BGP global configuration
+remarks:        =============================================
+remarks:        Upstreams
+remarks:        ---------------------------------------------
+import:         from AS13237 action pref=100; accept ANY # euNetworks
+export:         to AS13237 announce AS-IMOSLAMBDANET
+import:         from AS3356 action pref=100; accept ANY # Level3
+export:         to AS3356 announce AS-IMOS
+import:         from AS1299 action pref=100; accept ANY # Telia
+export:         to AS1299 announce AS-IMOS
+remarks:        ---------------------------------------------
+remarks:        Peerings
+remarks:        ---------------------------------------------
+import:         from AS20676 action pref=300; accept AS20676 # QSC AG
+export:         to AS20676 announce AS-IMOSC24
+import:         from AS25394 action pref=300; accept AS25394 # MK Netzdienste
+export:         to AS25394 announce AS20677
+import:         from AS6735 action pref=300; accept AS6735 # sdt.net AG
+export:         to AS6735 announce AS20677
+import:         from AS29562 action pref=300; accept AS29562 # KabelBW
+export:         to AS29562 announce AS20677
+import:         from AS39702 action pref=300; accept AS39702 # S-IT Sparkassen-IT
+export:         to AS39702 announce AS20677
+import:         from AS12374 action pref=300; accept AS12374 # LF.net
+export:         to AS12374 announce AS20677
+remarks:        ---------------------------------------------
+remarks:        Customers
+remarks:        ---------------------------------------------
+import:         from AS12546 action pref=300; accept AS12546 # Kleemann GmbH
+export:         to AS12546 announce ANY
+import:         from AS206339 action pref=300; accept AS206339 # Schuler Pressen GmbH
+export:         to AS206339 announce ANY
+remarks:        =============================================
+admin-c:        iN902-RIPE
+tech-c:         iN902-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         IMOS-RIPE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-09-04T09:49:37Z
+source:         RIPE
+
+organisation:   ORG-iG9-RIPE
+org-name:       imos Gesellschaft fuer Internet-Marketing und Online-Services mbH
+country:        DE
+org-type:       LIR
+address:        Alfons-Feifel-Str. 9
+address:        73037
+address:        Goeppingen
+address:        GERMANY
+phone:          +49 7161 933390
+fax-no:         +49 7161 9333999
+mnt-ref:        IMOS-RIPE-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         IMOS-RIPE-MNT
+admin-c:        AW111-RIPE
+admin-c:        TF3124-RIPE
+admin-c:        RB12621-RIPE
+abuse-c:        iN902-RIPE
+created:        2004-04-17T11:08:22Z
+last-modified:  2020-12-16T13:10:27Z
+source:         RIPE # Filtered
+
+role:           imos NCC
+address:        imos Gesellschaft fuer Internet-Marketing und Online-Services mbH
+address:        Alfons-Feifel-Str. 9
+address:        73037 Goeppingen
+address:        Germany
+phone:          +49 7161 93339 333
+fax-no:         +49 7161 93339 99
+abuse-mailbox:  abuse@imos.net
+org:            ORG-iG9-RIPE
+admin-c:        AW111-RIPE
+tech-c:         AW111-RIPE
+tech-c:         RB12621-RIPE
+tech-c:         TF3124-RIPE
+nic-hdl:        iN902-RIPE
+mnt-by:         IMOS-RIPE-MNT
+created:        2012-01-19T13:51:54Z
+last-modified:  2014-05-16T08:38:42Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          31.186.125.0/24
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2024-02-19T16:24:52Z
+last-modified:  2024-02-19T16:24:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.186.126.0/24
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2024-02-19T16:25:15Z
+last-modified:  2024-02-19T16:25:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.186.127.0/24
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2024-02-19T16:25:26Z
+last-modified:  2024-02-19T16:25:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          46.17.244.0/22
+descr:          imos
+origin:         AS20677
+notify:         guardian@imos.net
+mnt-by:         IMOS-RIPE-MNT
+created:        2018-10-19T08:41:41Z
+last-modified:  2018-10-19T08:41:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.95.220.0/24
+origin:         AS20677
+mnt-by:         PROVITEX-GMBH-MNT
+created:        2025-02-19T13:53:03Z
+last-modified:  2025-02-19T13:53:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.142.180.0/24
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2022-10-13T12:57:38Z
+last-modified:  2022-10-13T12:57:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          94.142.182.0/24
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2020-10-26T13:10:25Z
+last-modified:  2020-10-26T13:10:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          94.142.183.0/24
+origin:         AS20677
+mnt-by:         de-csgmbh-1-mnt
+created:        2020-06-09T08:41:03Z
+last-modified:  2020-06-09T08:41:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.36.116.0/24
+origin:         AS20677
+mnt-by:         AF92847-MNT
+created:        2022-04-28T11:06:30Z
+last-modified:  2022-04-28T11:06:30Z
+source:         RIPE
+descr:          PMSS GmbH via IMOS
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.38.52.0/22
+descr:          imos
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2013-10-23T09:26:48Z
+last-modified:  2013-10-23T09:26:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.148.0/22
+descr:          imos
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2018-12-12T13:18:21Z
+last-modified:  2018-12-12T13:18:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.152.0/22
+descr:          imos
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2018-12-12T13:18:54Z
+last-modified:  2018-12-12T13:18:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.145.220.0/22
+descr:          imos
+origin:         AS20677
+notify:         guardian@imos.net
+mnt-by:         IMOS-RIPE-MNT
+created:        2018-10-08T06:18:56Z
+last-modified:  2018-10-08T06:18:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.188.244.0/22
+origin:         AS20677
+mnt-by:         de-schuler-1-mnt
+created:        2023-07-04T12:07:02Z
+last-modified:  2023-07-04T12:07:02Z
+source:         RIPE
+notify:         registry@schulergroup.com
+descr:          Schuler Pressen GmbH - PA Space - for imos
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.17.16.0/24
+descr:          NET-PITTINI
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2008-04-21T06:38:32Z
+last-modified:  2014-04-10T07:36:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.28.216.0/22
+origin:         AS20677
+mnt-by:         de-schuler-1-mnt
+created:        2023-07-04T12:01:49Z
+last-modified:  2023-07-04T12:03:54Z
+source:         RIPE
+descr:          Schuler Pressen GmbH - PI Space - for imos
+notify:         registry@schulergroup.com
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.29.9.0/24
+descr:          NET-CINTEG
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2021-12-14T17:19:55Z
+last-modified:  2021-12-14T17:19:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.39.251.0/24
+origin:         AS20677
+mnt-by:         lir-de-pmss-1-MNT
+created:        2024-12-17T09:00:42Z
+last-modified:  2024-12-17T09:03:11Z
+source:         RIPE
+descr:          PMSS GmbH via IMOS
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.180.169.0/24
+descr:          Hirotec Bucher GmbH - PI Space
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2015-04-14T12:50:30Z
+last-modified:  2025-01-20T12:14:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.87.128.0/19
+descr:          imos
+origin:         AS20677
+notify:         guardian@imos.net
+mnt-by:         IMOS-RIPE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2013-10-22T16:06:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:fac0::/32
+descr:          imos IPv6 connectivity
+origin:         AS20677
+mnt-by:         IMOS-RIPE-MNT
+created:        2013-01-29T19:47:13Z
+last-modified:  2013-01-29T19:47:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0b:d380::/29
+origin:         AS20677
+mnt-by:         de-schuler-1-mnt
+created:        2023-07-04T12:09:40Z
+last-modified:  2023-07-04T12:09:40Z
+source:         RIPE
+notify:         registry@schulergroup.com
+descr:          Schuler Pressen GmbH - PA Space - for imos
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a13:fbc0::/48
+origin:         AS20677
+mnt-by:         PROVITEX-GMBH-MNT
+created:        2023-10-24T14:11:36Z
+last-modified:  2023-10-24T14:11:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

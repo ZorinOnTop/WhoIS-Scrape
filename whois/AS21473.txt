@@ -1,0 +1,831 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21453 - AS21503'
+
+as-block:       AS21453 - AS21503
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21473'
+
+% Abuse contact for 'AS21473' is 'abuse@pfalzkom.de'
+
+aut-num:        AS21473
+org:            ORG-MA7-RIPE
+as-name:        PFALZKOM
+descr:          Pfalzkom GmbH
+descr:          Wredestr 35
+descr:          D-67059 Ludwigshafen
+descr:          Germany
+descr:          Technical contact: noc@pfalzkom.de
+descr:          If you would like to peer with us please contact
+descr:          peering@pfalzkom.de
+remarks:        ---------------------------------------
+remarks:        DECIX
+remarks:        We prefer peerings over upstream by setting always_compare_med
+remarks:        ---------------------------------------
+import:         from AS-DECIX-CONNECTED action pref=200; med=0; accept AS-DECIX-CONNECTED
+export:         to AS-DECIX-CONNECTED announce AS-MANET
+remarks:        ---------------------------------------
+remarks:        Upstream Providers
+remarks:        All MEDs on routes received via upstream providers have their med increased by 20
+remarks:        RIPE RPSL implementation does not seem to support that.
+remarks:        ---------------------------------------
+export:         to AS3320 announce AS-MANET
+import:         from AS3320 action pref=200; accept ANY
+export:         to AS3356 announce AS-MANET
+import:         from AS3356 action pref=200; accept ANY
+export:         to AS1299 announce AS-MANET
+import:         from AS1299 action pref=200; accept ANY
+remarks:        ---------------------------------------
+remarks:        Private Peerings
+remarks:        ---------------------------------------
+export:         to AS15495 announce AS-MANET
+import:         from AS15495 action pref=200; med=0; accept AS-PKOM
+remarks:        ---------------------------------------
+remarks:        Customers
+remarks:        ---------------------------------------
+export:         to AS-MANET announce ANY
+import:         from AS-MANET action pref=400; accept AS-MANET
+remarks:        ---------------------------------------------
+admin-c:        MNO3-RIPE
+tech-c:         MNO3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MANET-RIPE-MNT
+created:        2002-09-18T05:43:48Z
+last-modified:  2023-02-13T13:58:54Z
+source:         RIPE
+member-of:      AS3320:AS-AUTH-PILOT-ROUTEPRIO-FROM-AS15945
+member-of:      AS3320:AS-AUTH-PILOT-ROUTEPRIO-FROM-AS21473
+
+organisation:   ORG-MA7-RIPE
+org-name:       PFALZKOM GmbH
+country:        DE
+org-type:       LIR
+address:        Wredestr 35
+address:        67035
+address:        Ludwigshafen
+address:        GERMANY
+phone:          +49 621 585 3282
+fax-no:         +49 621 585 3294
+admin-c:        KY67-Ripe
+admin-c:        nvt-ripe
+admin-c:        TK10084-RIPE
+abuse-c:        AR14650-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MANET-RIPE-MNT
+descr:          formerly known as MAnet GmbH
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MANET-RIPE-MNT
+created:        2004-04-17T11:09:49Z
+last-modified:  2025-05-14T15:24:34Z
+source:         RIPE # Filtered
+
+role:           Pfalzkom Network Operations
+address:        Pfalzkom GmbH
+address:        Wredestr 35
+address:        D-67059 Ludwigshafen
+phone:          +49 621 585 3300
+fax-no:         +49 621 585 3303
+admin-c:        PKom-RIPE
+tech-c:         KY67-Ripe
+tech-c:         nvt-ripe
+nic-hdl:        MNO3-RIPE
+remarks:        Pfalzkom Network Operations
+mnt-by:         MANET-RIPE-MNT
+created:        2002-04-25T05:59:23Z
+last-modified:  2023-02-13T17:25:40Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          45.148.216.0/23
+origin:         AS21473
+mnt-by:         ISPEG-MNT
+created:        2020-10-06T08:38:48Z
+last-modified:  2020-10-06T08:38:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.72.216.0/22
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-06-17T19:34:15Z
+last-modified:  2020-06-17T19:34:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.72.221.0/24
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2020-03-04T16:05:30Z
+last-modified:  2020-03-04T16:05:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.199.192.0/24
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2021-02-10T13:28:02Z
+last-modified:  2021-02-10T13:28:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.240.77.0/24
+descr:          DE-HORNBACH-PI-NET1
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2013-02-13T13:54:02Z
+last-modified:  2013-02-13T13:54:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.190.248.0/21
+descr:          MAnet IP PA Space
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+created:        2008-06-09T19:37:19Z
+last-modified:  2008-06-09T19:37:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.176.168.0/22
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-06-17T19:35:17Z
+last-modified:  2020-06-17T19:35:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.232.128.0/21
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-06-17T19:30:28Z
+last-modified:  2020-06-17T19:30:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          109.233.144.0/21
+descr:          MANET IP PA Space
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+created:        2010-01-04T09:26:12Z
+last-modified:  2010-01-04T09:26:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.233.148.0/24
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-04-02T16:29:30Z
+last-modified:  2020-04-02T16:29:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.233.151.0/24
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-04-03T16:14:46Z
+last-modified:  2020-04-03T16:14:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          138.222.72.0/24
+origin:         AS21473
+mnt-by:         lir-ch-hitachienergy-1-MNT
+created:        2024-04-16T06:55:21Z
+last-modified:  2024-04-16T06:55:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          152.89.92.0/22
+origin:         AS21473
+mnt-by:         MYLOC-MNT
+created:        2024-01-23T06:46:25Z
+last-modified:  2024-01-23T06:46:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.8.228.0/23
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-06-17T19:32:21Z
+last-modified:  2020-06-17T19:32:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.8.230.0/23
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2025-08-11T14:38:41Z
+last-modified:  2025-08-11T14:38:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.21.28.0/22
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-06-17T19:31:38Z
+last-modified:  2020-06-17T19:31:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.28.4.0/22
+descr:          MANET IP PA Space
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+created:        2013-06-10T07:22:09Z
+last-modified:  2013-06-10T07:22:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.28.4.0/24
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-04-03T16:15:18Z
+last-modified:  2020-04-03T16:15:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.28.5.0/24
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-04-03T16:15:34Z
+last-modified:  2020-04-03T16:15:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.28.7.0/24
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2019-11-26T10:28:19Z
+last-modified:  2022-09-05T09:18:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.142.8.0/22
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-06-17T19:31:10Z
+last-modified:  2020-06-17T19:31:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.95.13.0/24
+origin:         AS21473
+mnt-by:         lir-de-bordonaro-holding-1-MNT
+created:        2024-10-23T15:12:50Z
+last-modified:  2024-10-23T15:12:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.16.128.0/20
+descr:          DE-GKM-LAN
+descr:          PfalzKom Internet Service Provider
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+mnt-by:         MANET-RIPE-MNT
+created:        2007-07-24T07:34:21Z
+last-modified:  2007-07-24T07:34:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.16.245.0/24
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2025-02-04T09:47:18Z
+last-modified:  2025-02-04T09:47:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.111.72.0/24
+origin:         AS21473
+mnt-by:         mnt-de-frank-1
+created:        2021-01-12T16:48:55Z
+last-modified:  2021-01-12T16:48:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.221.221.0/24
+origin:         AS21473
+mnt-by:         de-roechling-automotive-2-mnt
+mnt-by:         de-roechling-automotive-1-mnt
+created:        2021-03-05T12:03:15Z
+last-modified:  2021-03-05T12:03:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.238.162.0/24
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2023-09-01T08:53:50Z
+last-modified:  2023-09-01T08:53:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.50.25.0/24
+origin:         AS21473
+mnt-by:         mnt-de-ednt-1
+created:        2024-02-23T12:18:14Z
+last-modified:  2024-02-23T12:18:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.50.46.0/24
+origin:         AS21473
+mnt-by:         mnt-de-ednt-1
+created:        2024-02-23T12:19:10Z
+last-modified:  2024-02-23T12:19:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.59.156.0/24
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2020-11-25T10:11:39Z
+last-modified:  2020-11-25T10:11:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.65.0.0/19
+descr:          Pfalzkom IP PA Space
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+created:        2002-01-09T08:48:45Z
+last-modified:  2021-02-10T08:52:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.183.64.0/19
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2015-10-02T13:04:58Z
+last-modified:  2022-09-05T09:19:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.206.160.0/19
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2015-10-02T13:03:06Z
+last-modified:  2022-09-05T09:19:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.206.185.0/24
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2022-06-02T14:37:34Z
+last-modified:  2022-06-02T14:37:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:2e04::/48
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-11-09T09:24:27Z
+last-modified:  2020-11-09T09:24:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:34c0::/29
+origin:         AS21473
+mnt-by:         lir-de-bordonaro-holding-1-MNT
+created:        2025-02-04T13:03:57Z
+last-modified:  2025-02-04T13:03:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:1e80::/32
+descr:          MANET IPv6 PA Space
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+created:        2010-09-24T11:26:13Z
+last-modified:  2010-09-24T11:26:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:59e0::/32
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2024-09-02T15:25:18Z
+last-modified:  2024-09-02T15:25:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:24d8::/32
+origin:         AS21473
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-06-17T19:34:41Z
+last-modified:  2020-06-17T19:34:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:3fc0::/33
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2025-08-11T14:45:39Z
+last-modified:  2025-08-11T14:45:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:3fc0:8000::/33
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2025-08-11T14:46:12Z
+last-modified:  2025-08-11T14:46:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a07:2800::/29
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2020-11-09T09:24:59Z
+last-modified:  2020-11-09T09:24:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0c:6b00::/32
+origin:         AS21473
+mnt-by:         MYLOC-MNT
+created:        2024-01-23T06:44:51Z
+last-modified:  2024-01-23T06:44:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0c:a6c0:1::/48
+descr:          R\xf6chling WOR via Pfalzkom
+origin:         AS21473
+mnt-by:         de-roechling-automotive-2-mnt
+mnt-by:         de-roechling-automotive-1-mnt
+created:        2020-07-02T11:42:30Z
+last-modified:  2020-07-02T11:42:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a0f:a4c0::/32
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2023-07-06T14:35:52Z
+last-modified:  2023-07-06T14:35:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a0f:a4c1::/32
+origin:         AS21473
+mnt-by:         PFALZKOM-MNT
+created:        2023-07-06T14:36:47Z
+last-modified:  2023-07-06T14:36:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

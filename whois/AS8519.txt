@@ -1,0 +1,142 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8519'
+
+% Abuse contact for 'AS8519' is 'esanic@esa.int'
+
+aut-num:        AS8519
+as-name:        ESA-MOSNET
+org:            ORG-ESA1-RIPE
+descr:          ESA OPSNET-INTRANET
+descr:          Via Galieo Galilei
+descr:          I-00044 Frascati, Rome, Italy
+admin-c:        ENIC2-RIPE
+tech-c:         ESA3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+import:         from AS288
+                action pref=50;
+                accept AS288 AS3230 AS270 AS297
+import:         from AS1275
+                action pref=50;
+                accept AS-DFNTOWINISP
+export:         to AS288
+                announce AS8519
+export:         to AS1275
+                announce AS8519
+default:        to AS1275
+                action pref=90;
+                networks ANY
+mnt-by:         ESANIC-MNT
+created:        2001-10-11T13:53:19Z
+last-modified:  2017-11-15T09:13:44Z
+source:         RIPE
+
+organisation:   ORG-ESA1-RIPE
+org-name:       European Space Agency (ESA)
+country:        DE
+org-type:       LIR
+address:        Via Galileo Galilei, snr,
+address:        I-00044
+address:        Frascati, Rome
+address:        ITALY
+phone:          +39 0694188688
+mnt-ref:        ESANIC-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ESANIC-MNT
+admin-c:        ENIC2-RIPE
+admin-c:        ESA3-RIPE
+abuse-c:        AD10976-RIPE
+created:        2004-04-17T11:07:07Z
+last-modified:  2023-03-16T10:14:43Z
+source:         RIPE # Filtered
+remarks:        https://www.esa.int/About_Us/esait/ESA_Network_Information_Centre
+
+role:           ESA NIC
+address:        ESANIC
+address:        European Space Agency (ESA)
+address:        ESA's European Space Research institude (ESA-ESRIN)
+address:        ESANIC Role Account
+address:        Via Galileo Galilei, snr
+address:        I-00044 Frascati -  Italy
+phone:          +39 06941 88688
+nic-hdl:        ENIC2-RIPE
+admin-c:        ENIC2-RIPE
+tech-c:         ESA3-RIPE
+remarks:        trouble:      -------------------------------------------------------
+remarks:        trouble:      All communication must be directed to esanic@esa.int
+remarks:        trouble:      Fax and phone are only to be used as backup.
+remarks:        trouble:      Office Hours are : 08:20 - 17:15 CET.
+remarks:        trouble:      -------------------------------------------------------
+mnt-by:         ESANIC-MNT
+created:        2001-10-11T12:39:49Z
+last-modified:  2009-02-13T11:47:02Z
+source:         RIPE # Filtered
+
+role:           ESA NOC
+address:        ESANOC
+address:        European Space Agency (ESA)
+address:        ESA's European Space Research Institute (ESA-ESRIN)
+address:        ESANOC Role Account
+address:        Via Galileo Galilei, snr
+address:        I-00044 Frascati - Italy
+phone:          +39 6 941 80 205
+remarks:        trouble:      -------------------------------------------------------
+remarks:        trouble:      All communication must be directed to esanoc@esa.int
+remarks:        trouble:      Fax and phone are only to be used as backup.
+remarks:        trouble:      Support hours are : 08:00 - 18:00 CET.
+remarks:        trouble:      -------------------------------------------------------
+admin-c:        ENIC2-RIPE
+tech-c:         ESA3-RIPE
+nic-hdl:        ESA3-RIPE
+mnt-by:         ESANIC-MNT
+created:        2001-10-11T12:41:44Z
+last-modified:  2009-02-13T11:46:38Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          195.74.160.0/19
+descr:          OPSNET-INTRANET
+origin:         AS8519
+remarks:        -------------------------------------------------------
+remarks:        All communication must be directed to esanic@esa.int
+remarks:        Fax and phone are only to be used as backup.
+remarks:        Office Hours are : 08:20 - 17:15 CET.
+remarks:        -------------------------------------------------------
+notify:         esanic@esa.int
+notify:         esanoc@esa.int
+mnt-by:         ESANIC-MNT
+created:        2001-10-11T13:48:05Z
+last-modified:  2009-03-31T13:39:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

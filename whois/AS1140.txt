@@ -1,0 +1,186 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS1101 - AS1200'
+
+as-block:       AS1101 - AS1200
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:09Z
+last-modified:  2018-11-22T15:27:09Z
+source:         RIPE
+
+% Information related to 'AS1140'
+
+% Abuse contact for 'AS1140' is 'abuse@sidn.nl'
+
+aut-num:        AS1140
+as-name:        SIDN
+org:            ORG-SIDN1-RIPE
+remarks:        === AMS-IX Peers ===
+import:         from AS-SIDN-PEERS-AMSIX-V4 action pref=200; accept ANY
+export:         to AS-SIDN-PEERS-AMSIX-V4 announce AS-SIDN
+mp-import:      afi ipv6.unicast from AS-SIDN-PEERS-AMSIX-V6 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS-SIDN-PEERS-AMSIX-V6 announce AS-SIDN
+remarks:        === NL-IX Peers ===
+import:         from AS-SIDN-PEERS-NLIX-V4 action pref=200; accept ANY
+export:         to AS-SIDN-PEERS-NLIX-V4 announce AS-SIDN
+mp-import:      afi ipv6.unicast from AS-SIDN-PEERS-NLIX-V6 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS-SIDN-PEERS-NLIX-V6 announce AS-SIDN
+remarks:        === R-IX Peers ===
+import:         from AS-SIDN-PEERS-RIX-V4 action pref=200; accept ANY
+export:         to AS-SIDN-PEERS-RIX-V4 announce AS-SIDN
+mp-import:      afi ipv6.unicast from AS-SIDN-PEERS-RIX-V6 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS-SIDN-PEERS-RIX-V6 announce AS-SIDN
+remarks:        === Transit Joint Transit ===
+import:         from AS24785 action pref=140; accept ANY
+export:         to AS24785 announce AS-SIDN
+mp-import:      afi ipv6.unicast from AS24785 action pref=140; accept ANY
+mp-export:      afi ipv6.unicast to AS24785 announce AS-SIDN
+remarks:        === Transit Surfnet ===
+import:         from AS1103 action pref=150; accept {0.0.0.0/0}
+export:         to AS1103 announce AS-SIDN
+mp-import:      afi ipv6.unicast from AS1103 action pref=150; accept {::/0}
+mp-export:      afi ipv6.unicast to AS1103 announce AS-SIDN
+remarks:        === SIDN Anycast ===
+import:         from AS48283 action pref=250; accept ANY
+export:         to AS48283 announce {0.0.0.0/0}
+mp-import:      afi ipv6.unicast from AS48283 action pref=250; accept ANY
+mp-export:      afi ipv6.unicast to AS48283 announce {::/0}
+remarks:        === Looking Glasses ===
+import:         from AS199036 accept NOT ANY
+export:         to AS199036 announce ANY
+remarks:        ==================
+admin-c:        SIDN2
+tech-c:         SIDN1
+status:         LEGACY
+mnt-by:         RIPE-NCC-LEGACY-MNT
+mnt-by:         SIDN-MNT
+created:        2002-09-16T13:52:55Z
+last-modified:  2024-12-24T09:37:52Z
+source:         RIPE
+
+organisation:   ORG-SIDN1-RIPE
+org-name:       Stichting Internet Domeinregistratie Nederland
+country:        NL
+org-type:       LIR
+address:        Postbus 5022
+address:        6802 EA
+address:        Arnhem
+address:        NETHERLANDS
+phone:          +31263525500
+fax-no:         +31263525505
+tech-c:         SIDN1
+admin-c:        SIDN2
+abuse-c:        SIDN3
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SIDN-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SIDN-MNT
+created:        2008-10-13T10:54:48Z
+last-modified:  2020-12-16T12:36:23Z
+source:         RIPE # Filtered
+
+role:           SIDN netmaster
+address:        Meander 501
+address:        PO Box 5022
+address:        6802 EA Arnhem
+admin-c:        SIDN2
+tech-c:         JB18540-RIPE
+tech-c:         DM21506-RIPE
+tech-c:         JJ6842-RIPE
+nic-hdl:        SIDN1
+mnt-by:         SIDN-MNT
+created:        2013-01-14T11:56:25Z
+last-modified:  2025-04-08T07:49:50Z
+source:         RIPE # Filtered
+
+role:           SIDN admin
+address:        Meander 501
+address:        PO Box 5022
+address:        6802 EA Arnhem
+admin-c:        LB19738-RIPE
+tech-c:         SIDN1
+nic-hdl:        SIDN2
+mnt-by:         SIDN-MNT
+created:        2013-01-14T11:53:46Z
+last-modified:  2025-04-08T08:03:39Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          94.198.152.0/21
+descr:          NL-SIDN
+origin:         AS1140
+mnt-by:         SIDN-MNT
+created:        2008-11-11T14:40:49Z
+last-modified:  2008-11-11T14:40:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.76.132.0/22
+descr:          NL-SIDN
+origin:         AS1140
+mnt-by:         SIDN-MNT
+created:        2015-03-05T14:10:04Z
+last-modified:  2015-03-05T14:10:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.176.144.0/24
+descr:          Stichting Internet Domeinregistratie Nederland
+origin:         AS1140
+notify:         unixbeheer@sidn.nl
+mnt-by:         SIDN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2014-02-21T12:58:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:d78::/32
+descr:          NL-SIDN
+origin:         AS1140
+mnt-by:         SIDN-MNT
+created:        2008-11-11T14:39:24Z
+last-modified:  2008-11-11T14:39:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

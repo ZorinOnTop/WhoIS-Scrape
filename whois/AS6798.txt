@@ -1,0 +1,188 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6798'
+
+% Abuse contact for 'AS6798' is 'technik@net4you.net'
+
+aut-num:        AS6798
+as-name:        NET4YOU-AS
+org:            ORG-NA2-RIPE
+remarks:        -------------------------------------------
+remarks:        ip transit - upstreams:
+remarks:        -------------------------------------------
+remarks:        ---> anexia ip upstream <---
+import:         from AS47147 action pref=100; accept ANY
+export:         to AS47147 announce AS-NET4YOU
+mp-import:      afi ipv6.unicast from AS47147 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS47147 announce AS-NET4YOU
+remarks:        ---> core-backbone ip upstream <---
+import:         from AS33891 action pref=100; accept ANY
+export:         to AS33891 announce AS-NET4YOU
+mp-import:      afi ipv6.unicast from AS33891 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS33891 announce AS-NET4YOU
+remarks:        -------------------------------------------
+remarks:        ipv4 customers:
+remarks:        -------------------------------------------
+remarks:        ==> netronics-AS
+import:         from AS200098 accept AS200098
+export:         to AS200098 announce ANY
+remarks:        ==> Lipicer-AS
+import:         from AS210626 accept AS-LIPICER
+export:         to AS210626 announce ANY
+mp-import:      afi ipv6.unicast from AS210626 accept AS-LIPICER
+mp-export:      afi ipv6.unicast to AS210626 announce ANY
+remarks:        -------------------------------------------
+remarks:        peering details: https://as6798.peeringdb.com/
+remarks:        -------------------------------------------
+remarks:        public peering documentation removed
+remarks:        -------------------------------------------
+remarks:        for peering requests or other needs please
+remarks:        use the email address: peering@net4you.net
+remarks:        peering policy: open
+remarks:        -------------------------------------------
+admin-c:        VNW1-RIPE
+tech-c:         VNW1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS6798-MNT
+created:        2002-04-30T12:27:40Z
+last-modified:  2022-01-13T08:43:43Z
+source:         RIPE # Filtered
+
+organisation:   ORG-NA2-RIPE
+org-name:       Net4You Internet GmbH
+country:        AT
+org-type:       LIR
+address:        Tirolerstr. 80
+address:        9500
+address:        Villach
+address:        AUSTRIA
+phone:          +43 4242 5005
+fax-no:         +43 4242 50055
+admin-c:        VNW1-RIPE
+abuse-c:        VNW1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS6798-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS6798-MNT
+created:        2004-04-17T10:59:12Z
+last-modified:  2023-09-12T09:47:21Z
+source:         RIPE # Filtered
+
+role:           Net4You NOC
+address:        Net4You Internet GmbH
+address:        Tiroler Str. 80
+address:        A-9500 Villach
+phone:          +43 4242 5005
+fax-no:         +43 4242 50055
+abuse-mailbox:  technik@net4you.net
+admin-c:        SR8758-RIPE
+tech-c:         SR8758-RIPE
+nic-hdl:        VNW1-RIPE
+mnt-by:         AS6798-MNT
+created:        2002-01-10T18:04:58Z
+last-modified:  2019-08-26T13:55:51Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          94.136.96.0/20
+descr:          Net4You Internet GmbH
+origin:         AS6798
+mnt-by:         AS6798-MNT
+created:        2017-06-07T07:04:33Z
+last-modified:  2017-06-07T07:07:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.105.153.0/24
+descr:          Osiatis-Net
+origin:         AS6798
+mnt-by:         AS6798-MNT
+created:        2010-02-24T11:50:36Z
+last-modified:  2010-02-24T11:50:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.243.162.0/23
+descr:          N4U-Austria
+origin:         AS6798
+mnt-by:         AS6798-MNT
+created:        2002-01-10T18:42:42Z
+last-modified:  2002-01-10T18:42:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.177.128.0/19
+descr:          N4U-Austria
+origin:         AS6798
+mnt-by:         AS6798-MNT
+created:        2002-01-10T18:42:44Z
+last-modified:  2007-09-10T11:02:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:12e0::/32
+descr:          Net4You Internet GmbH
+origin:         AS6798
+mnt-by:         AS6798-MNT
+created:        2017-02-27T16:41:46Z
+last-modified:  2017-02-27T16:43:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

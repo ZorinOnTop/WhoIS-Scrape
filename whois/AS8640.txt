@@ -1,0 +1,186 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8640'
+
+% Abuse contact for 'AS8640' is 'usz.ripe.admin@zurichservices.com'
+
+aut-num:        AS8640
+as-name:        ZFS-GROUP
+org:            ORG-ZIC1-RIPE
+remarks:        --------------------------------------------------
+remarks:        for routing issues, email chr-netgroup@zurich.com
+remarks:        for dns issues, email dns.admin@zurich.com
+remarks:        for abuse issues, email chr_netsecure@zurich.com
+remarks:        --------------------------------------------------
+import:         from AS2686
+                action pref=100;
+                accept ANY
+import:         from AS6730
+                action pref=10;
+                accept ANY
+export:         to AS2686
+                announce AS8640
+export:         to AS6730
+                announce AS8640
+admin-c:        ZB467-RIPE
+tech-c:         ZB467-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        -------------------------------------------------------
+remarks:        02.02.2001 marcel.fehr@zurich.com  added role ZB467
+remarks:        16.04.2003 christian.bittel@zurich.com changed AS
+remarks:        -------------------------------------------------------
+mnt-by:         ZURICH1-AS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:15:31Z
+source:         RIPE
+
+organisation:   ORG-ZIC1-RIPE
+org-name:       Zurich Insurance Company AG
+country:        CH
+org-type:       LIR
+address:        Mythenquai 2
+address:        CH-8002
+address:        Zurich
+address:        SWITZERLAND
+phone:          +41446252525
+fax-no:         +41 44 62710 40
+admin-c:        ZCR1-RIPE
+abuse-c:        AR14320-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ZURICH1-AS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ZURICH1-AS-MNT
+created:        2004-04-17T11:02:35Z
+last-modified:  2024-03-20T08:07:43Z
+source:         RIPE # Filtered
+
+role:           ZFS-GROUP BGP
+address:        Zurich European Data Center (EDC) operated by DXC; Internet access services by BT
+address:        Unterrohrstrasse 4
+address:        CH-8952 Schlieren
+address:        Schlieren
+address:        Switzerland
+remarks:        trouble: abuse-email: dns.admin@zurich.com
+admin-c:        GT4418-RIPE
+admin-c:        WR396-RIPE
+remarks:        admin-c: ch.insurance LIR & IPAM/DNS responsibility with Zurich global DDI team; (BT) network service mgmt with Zurich global SD team
+remarks:        tech-c: Zurich European Data Center (EDC) sourced service by DXC (incl. WebHosting); Internet access services by BT
+nic-hdl:        ZB467-RIPE
+remarks:        homepage: www.zurich.com
+mnt-by:         ZURICH1-AS-MNT
+remarks:        changed to adjust responsibilities with current outsourced services to DXC & BT
+remarks:        changed to reflect LIR ch.insurance responsibilities new with Zurich global DDI team
+created:        2002-02-15T10:45:51Z
+last-modified:  2018-05-28T11:19:30Z
+source:         RIPE # Filtered
+remarks:        abuse-mailbox: chr_netsecure@zurich.com
+remarks:        abuse-mailbox: dns.admin@zurich.com
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          171.27.0.0/16
+origin:         AS8640
+descr:          Akamai Technologies, Inc.
+mnt-by:         MAINT-AS32787
+changed:        oariasme@akamai.com 20201007  #20:02:46Z
+source:         RADB
+last-modified:  2023-11-13T16:13:36Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          171.27.0.0/16
+descr:          Zurich Financial Services Group WWW
+origin:         AS8640
+notify:         christan.bittel@zurich.com
+mnt-by:         ZURICH1-AS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.28.224.0/19
+origin:         AS8640
+descr:          Akamai Technologies, Inc.
+mnt-by:         MAINT-AS32787
+changed:        oariasme@akamai.com 20201007  #20:02:14Z
+source:         RADB
+last-modified:  2023-11-13T16:13:36Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.28.224.0/19
+descr:          CH-ZURICH-991228
+origin:         AS8640
+mnt-by:         ZURICH1-AS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2015-12-18T09:31:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.28.240.0/21
+descr:          ZURICH LDC public IP range
+origin:         AS8640
+mnt-by:         ZURICH1-AS-MNT
+created:        2015-12-17T17:21:50Z
+last-modified:  2015-12-18T12:36:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.28.240.0/21
+origin:         AS8640
+descr:          Akamai Technologies, Inc.
+mnt-by:         MAINT-AS32787
+changed:        oariasme@akamai.com 20201007  #17:55:35Z
+source:         RADB
+last-modified:  2023-11-13T16:13:36Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.28.248.0/24
+descr:          Akamai Technologies, Inc
+origin:         AS8640
+mnt-by:         MAINT-AS32787
+changed:        ameyer@akamai.com 20201123  #03:43:07Z
+source:         RADB
+last-modified:  2023-11-13T16:13:36Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

@@ -1,0 +1,392 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8410'
+
+% Abuse contact for 'AS8410' is 'noc@nir-telecom.ru'
+
+aut-num:        AS8410
+as-name:        NIR-AS
+remarks:        ISP NIR-Telecom
+remarks:        http://www.nir-telecom.ru
+org:            ORG-LA157-RIPE
+remarks:        -------------------------------------------------------
+remarks:        Uplink
+remarks:        -------------------------------------------------------
+import:         from AS8359 action pref=100; accept ANY;
+import:         from AS48858 action pref=100; accept ANY;
+import:         from AS20485 action pref=100; accept ANY;
+export:         to AS8359 announce AS-NIR;
+export:         to AS48858 announce AS-NIR;
+export:         to AS20485 announce AS-NIR;
+remarks:        -------------------------------------------------------
+remarks:        Customers
+remarks:        -------------------------------------------------------
+import:         from AS35410 action pref=120; accept AS35410;
+export:         to AS35410 announce ANY;
+remarks:        -------------------------------------------------------
+remarks:        IX and Peering
+remarks:        -------------------------------------------------------
+import:         from AS42403 action pref=110; accept AS-NSKROUTESERVER;
+export:         to AS42403 announce AS-NIR;
+import:         from AS50952 action pref=110; accept AS-DATAIX;
+export:         to AS50952 announce AS-NIR;
+import:         from AS8631 action pref=110; accept AS-MSKROUTESERVER;
+export:         to AS8631 announce AS-NIR;
+import:         from AS43690 action pref=110; accept AS-SPBROUTESERVER;
+export:         to AS43690 announce AS-NIR;
+import:         from AS43213 action pref=110; accept AS-EKTROUTESERVER;
+export:         to AS43213 announce AS-NIR;
+import:         from AS30871 action pref=120; accept AS30871;
+export:         to AS30871 announce AS8410;
+remarks:        -------------------------------------------------------
+admin-c:        HAV-RIPE
+admin-c:        VK2180-RIPE
+tech-c:         HAV-RIPE
+tech-c:         VK2180-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NIR-MNT
+created:        2003-09-19T10:22:27Z
+last-modified:  2022-07-12T08:44:25Z
+source:         RIPE
+
+organisation:   ORG-LA157-RIPE
+org-name:       NovInvestRezerv, LLC
+country:        RU
+org-type:       LIR
+address:        P.O.Box 265
+address:        630001
+address:        Novosibirsk
+address:        RUSSIAN FEDERATION
+phone:          +73832205000
+fax-no:         +73832205090
+mnt-ref:        NIR-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NIR-MNT
+admin-c:        HAV-RIPE
+admin-c:        VK2180-RIPE
+abuse-c:        NIR-RU
+created:        2008-06-02T09:58:04Z
+last-modified:  2020-12-16T13:01:59Z
+source:         RIPE # Filtered
+
+person:         Aleksey V Kharitonov
+address:        Eltcovskaya 20
+address:        630001 Novosibirsk
+address:        RUSSIA
+phone:          +7 3832 205000
+fax-no:         +7 3832 205000
+nic-hdl:        HAV-RIPE
+created:        2003-09-11T02:36:07Z
+last-modified:  2013-06-19T17:57:09Z
+source:         RIPE # Filtered
+mnt-by:         NIR-MNT
+
+person:         Valerii Kolmakov
+address:        Eltsovskaya 20
+address:        Novosibirsk
+address:        Russian Federation
+phone:          +7-383-2205080
+nic-hdl:        VK2180-RIPE
+mnt-by:         NIR-MNT
+created:        2011-05-24T05:07:03Z
+last-modified:  2018-06-14T07:04:48Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          194.0.120.0/22
+descr:          NIR autonomous system
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2006-10-31T04:55:19Z
+last-modified:  2006-10-31T04:55:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.55.161.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2019-12-19T03:14:15Z
+last-modified:  2019-12-19T03:14:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.55.163.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2019-12-19T03:15:01Z
+last-modified:  2019-12-19T03:15:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.55.168.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2019-12-19T03:15:34Z
+last-modified:  2019-12-19T03:15:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.55.171.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2019-12-19T03:16:28Z
+last-modified:  2019-12-19T03:16:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.140.180.0/22
+descr:          NIR autonomous system
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2003-09-30T05:55:21Z
+last-modified:  2003-09-30T05:55:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.32.0/20
+descr:          NIR autonomous system
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2008-06-30T04:58:52Z
+last-modified:  2008-06-30T04:58:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.15.32.0/21
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:44:24Z
+last-modified:  2023-05-27T14:44:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.40.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:39:12Z
+last-modified:  2023-05-27T14:39:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.41.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:39:44Z
+last-modified:  2023-05-27T14:39:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.43.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:40:51Z
+last-modified:  2023-05-27T14:40:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.44.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:41:07Z
+last-modified:  2023-05-27T14:41:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.45.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:41:24Z
+last-modified:  2023-05-27T14:41:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.46.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:41:39Z
+last-modified:  2023-05-27T14:41:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.48.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:42:09Z
+last-modified:  2023-05-27T14:42:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.52.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:43:08Z
+last-modified:  2023-05-27T14:43:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.15.53.0/24
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2023-05-27T14:43:24Z
+last-modified:  2023-05-27T14:43:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:8240::/32
+descr:          NIR-TELECOM IPv6
+origin:         AS8410
+mnt-by:         NIR-MNT
+created:        2012-07-07T16:08:13Z
+last-modified:  2016-12-01T04:11:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

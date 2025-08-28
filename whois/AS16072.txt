@@ -1,0 +1,215 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16059 - AS16213'
+
+as-block:       AS16059 - AS16213
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16072'
+
+% Abuse contact for 'AS16072' is 'DataPrivacyOffice@firstdata.com'
+
+aut-num:        AS16072
+as-name:        FDD
+import:         from AS3320
+                action pref=10;
+                accept ANY
+import:         from AS702
+                action pref=10;
+                accept ANY
+export:         to AS3320
+                announce AS16072
+export:         to AS702
+                announce AS16072
+org:            ORG-GA9-RIPE
+admin-c:        GH9355-RIPE
+tech-c:         GW6823-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         GZS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-09-04T09:49:24Z
+source:         RIPE
+
+organisation:   ORG-GA9-RIPE
+org-name:       First Data GmbH
+country:        DE
+org-type:       LIR
+address:        Konrad-Adenauer-Allee 1
+address:        61118
+address:        Bad Vilbel
+address:        GERMANY
+phone:          +496979330
+fax-no:         +496979335374
+admin-c:        MP35330-RIPE
+mnt-ref:        GZS-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         GZS-MNT
+abuse-c:        FD4224-RIPE
+created:        2004-04-17T11:07:47Z
+last-modified:  2025-06-25T07:23:42Z
+source:         RIPE # Filtered
+
+role:           GZS Hostmaster
+address:        First Data Deutschland GmbH
+address:        Konrad Adenauer Allee 1
+address:        61118 Bad Vilbel
+address:        DE
+phone:          +49 69 7933 0
+fax-no:         +49 69 7933 6498
+tech-c:         VK3875-RIPE
+tech-c:         JK18662-RIPE
+tech-c:         MP35330-RIPE
+tech-c:         IN1357-RIPE
+admin-c:        IN1357-RIPE
+admin-c:        JK18662-RIPE
+admin-c:        MP35330-RIPE
+remarks:        Role Account for GZS Hostmaster
+nic-hdl:        GH9355-RIPE
+mnt-by:         GZS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-05-30T07:34:41Z
+source:         RIPE # Filtered
+
+role:           GZS Webmaster
+address:        First Data Deutschland GmbH
+address:        Konrad Adenauer Allee 1
+address:        61118 Bad Vilbel
+address:        DE
+phone:          +49 69 7933 0
+fax-no:         +49 69 7933 6498
+tech-c:         VK3875-RIPE
+tech-c:         IN1357-RIPE
+tech-c:         JK18662-RIPE
+tech-c:         MP35330-RIPE
+admin-c:        IN1357-RIPE
+admin-c:        JK18662-RIPE
+admin-c:        MP35330-RIPE
+remarks:        Role Account for FDD Webmaster
+nic-hdl:        GW6823-RIPE
+mnt-by:         GZS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-05-30T07:36:50Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          170.186.205.0/24
+origin:         AS16072
+descr:          Fiserv
+                255 Fiserv Drive
+                Brookfield WI 53045
+                United States
+admin-c:        FAP3-ARIN
+tech-c:         DOE2-ARIN
+tech-c:         JM2443-ARIN
+tech-c:         NOC32256-ARIN
+tech-c:         PATTE249-ARIN
+tech-c:         RIEDE-ARIN
+mnt-by:         MNT-FSL-293
+created:        2024-05-21T15:10:28Z
+last-modified:  2024-05-21T15:10:28Z
+source:         ARIN
+rpki-ov-state:  valid
+
+route:          170.186.207.0/24
+origin:         AS16072
+descr:          Fiserv
+                255 Fiserv Drive
+                Brookfield WI 53045
+                United States
+admin-c:        FAP3-ARIN
+tech-c:         DOE2-ARIN
+tech-c:         JM2443-ARIN
+tech-c:         NOC32256-ARIN
+tech-c:         PATTE249-ARIN
+tech-c:         RIEDE-ARIN
+mnt-by:         MNT-FSL-293
+created:        2024-05-21T15:11:11Z
+last-modified:  2024-05-21T15:11:11Z
+source:         ARIN
+rpki-ov-state:  valid
+
+route:          194.0.196.0/24
+descr:          Firstdata Route Object
+origin:         AS16072
+mnt-by:         MAINT-AS55002
+changed:        netops@defense.net 20180529  #13:31:56Z
+source:         RADB
+last-modified:  2023-11-13T15:53:43Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.73.32.0/23
+descr:          First Data Deutschland GmbH
+descr:          Bad Vilbel, Germany
+origin:         AS16072
+mnt-by:         GZS-MNT
+created:        2011-03-30T10:56:33Z
+last-modified:  2011-03-30T10:56:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.73.36.0/22
+descr:          First Data Deutschland GmbH
+descr:          Bad Vilbel, Germany
+origin:         AS16072
+mnt-by:         GZS-MNT
+created:        2011-03-30T10:58:22Z
+last-modified:  2011-03-30T10:58:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.73.40.0/24
+descr:          Firstdata proxy route object
+origin:         AS16072
+mnt-by:         MAINT-AS55002
+changed:        netops@defense.net 20170831  #13:43:30Z
+source:         RADB
+last-modified:  2023-11-13T15:51:19Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.73.42.0/24
+origin:         AS16072
+mnt-by:         GZS-MNT
+created:        2022-03-29T08:51:52Z
+last-modified:  2022-03-29T08:51:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

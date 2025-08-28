@@ -1,0 +1,2558 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5537 - AS5631'
+
+as-block:       AS5537 - AS5631
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5610'
+
+% Abuse contact for 'AS5610' is 'abuse@o2.cz'
+
+aut-num:        AS5610
+as-name:        O2-CZECH-REPUBLIC
+remarks:        Za Brumlovkou 2
+remarks:        Prague 4
+remarks:        Czech Republic
+remarks:        ==================================================
+remarks:        in case of routing or peering problem
+remarks:        please contact router@o2.cz
+remarks:        Abuse contact abuse@o2.cz
+remarks:        ==================================================
+remarks:        ================== UP-STREAM PROVIDERS ==================
+remarks:        =
+remarks:        == UPSTREAM PROVIDER - Telia ==
+import:         from AS1299 action pref = 200; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS1299  announce AS-CTIOL AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        == UPSTREAM PROVIDER - Cgent ==
+import:         from AS174 action pref = 200; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS174 announce AS-CTIOL AND {194.228.8.0/23} AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        ============ IPv6 UP-STREAM PROVIDERS ============
+remarks:        == UPSTREAM PROVIDER - Telia ==
+remarks:        =
+mp-import:      afi ipv6.unicast from AS1299 action pref = 200; accept ANY AND NOT {0.0.0.0/0};
+mp-export:      afi ipv6.unicast to AS1299 2001:2000:3080:2460::1 at 2001:2000:3080:2460::2 announce AS-CTIOL AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        == UPSTREAM PROVIDER - Cogent ==
+remarks:        =
+mp-import:      afi ipv6.unicast from AS174 action pref = 200; accept ANY AND NOT {0.0.0.0/0};
+mp-export:      afi ipv6.unicast to AS174 2001:2000:3080:129::1 at 2001:2000:3080:129::2 announce AS-CTIOL AND NOT {0.0.0.0/0};
+remarks:        ========================= NIX PEERING ===================
+import:         from AS-TO2-NIX-PEER action pref = 100;accept PeerAS
+export:         to AS-TO2-NIX-PEER announce AS-CTIOL
+remarks:        =
+remarks:        ===================== IPv6 NIX PEERING ===============
+mp-import:      afi ipv6.unicast from AS-TO2-NIX-PEER action pref = 100;accept PeerAS
+mp-export:      afi ipv6.unicast to AS-TO2-NIX-PEER announce AS-CTIOL
+remarks:        =
+remarks:        ========================= NIX SECURE PEERING ===================
+import:         from AS112 action pref = 100;accept ANY
+import:         from AS2852 action pref = 100;accept ANY
+import:         from AS6881 action pref = 100;accept ANY
+import:         from AS25192 action pref = 100;accept ANY
+import:         from AS25234 action pref = 100;accept ANY
+import:         from AS29208 action pref = 100;accept ANY
+import:         from AS43037 action pref = 100;accept ANY
+import:         from AS47200 action pref = 100;accept ANY
+remarks:        =
+export:         to AS112 announce AS-O2CZSEC
+export:         to AS2852 announce AS-O2CZSEC
+export:         to AS6881 announce AS-O2CZSEC
+export:         to AS25192 announce AS-O2CZSEC
+export:         to AS25234 announce AS-O2CZSEC
+export:         to AS29208 announce AS-O2CZSEC
+export:         to AS43037 announce AS-O2CZSEC
+export:         to AS47200 announce AS-O2CZSEC
+remarks:        =
+remarks:        ===================== IPv6 NIX SECURE PEERING ===============
+mp-import:      afi ipv6.unicast from AS112 action pref = 100;accept ANY
+mp-import:      afi ipv6.unicast from AS2852 action pref = 100;accept ANY
+mp-import:      afi ipv6.unicast from AS6881 action pref = 100;accept ANY
+mp-import:      afi ipv6.unicast from AS25192 action pref = 100;accept ANY
+mp-import:      afi ipv6.unicast from AS25234 action pref = 100;accept ANY
+mp-import:      afi ipv6.unicast from AS29208 action pref = 100;accept ANY
+mp-import:      afi ipv6.unicast from AS43037 action pref = 100;accept ANY
+mp-import:      afi ipv6.unicast from AS47200 action pref = 100;accept ANY
+remarks:        =
+mp-export:      afi ipv6.unicast to AS112 announce AS-O2CZSEC
+mp-export:      afi ipv6.unicast to AS2852 announce AS-O2CZSEC
+mp-export:      afi ipv6.unicast to AS6881 announce AS-O2CZSEC
+mp-export:      afi ipv6.unicast to AS25192 announce AS-O2CZSEC
+mp-export:      afi ipv6.unicast to AS25234 announce AS-O2CZSEC
+mp-export:      afi ipv6.unicast to AS29208 announce AS-O2CZSEC
+mp-export:      afi ipv6.unicast to AS43037 announce AS-O2CZSEC
+mp-export:      afi ipv6.unicast to AS47200 announce AS-O2CZSEC
+remarks:        =
+remarks:        =
+remarks:        ============ IPv6 Peering ============
+remarks:        =
+remarks:        =
+remarks:        == Mafra ==
+mp-import:      afi ipv6.unicast from AS38952 accept AS38952
+mp-export:      afi ipv6.unicast to AS38952 announce ANY AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        == GE Money Bank ==
+mp-import:      afi ipv6.unicast from AS25238 accept AS25238
+mp-export:      afi ipv6.unicast to AS25238 announce ANY AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        == Internet Home (LOSAN) ==
+mp-import:      afi ipv6.unicast from AS41824 accept AS41824
+mp-export:      afi ipv6.unicast to AS41824 announce ANY AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        == eHAMnet, s.r.o. ==
+mp-import:      afi ipv6.unicast from AS44712 accept AS44712
+mp-export:      afi ipv6.unicast to AS44712 announce ANY AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        == Autocont ==
+mp-import:      afi ipv6.unicast from AS197376 accept AS197376
+mp-export:      afi ipv6.unicast to AS197376 announce ANY AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        == CUZK ==
+mp-import:      afi ipv6.unicast from AS28892 accept AS28892
+mp-export:      afi ipv6.unicast to AS28892 announce ANY AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        == DataSpring s.r.o. ==
+mp-import:      afi ipv6.unicast from AS201730 accept AS201730
+mp-export:      afi ipv6.unicast to AS201730 announce ANY AND NOT {0.0.0.0/0};
+remarks:        =
+remarks:        == Prazska plynarenska ==
+mp-import:      afi ipv6.unicast from AS62102 accept AS62102
+mp-export:      afi ipv6.unicast to AS62102 announce {0.0.0.0/0};
+remarks:        =
+remarks:        == XLNET s.r.o. ==
+mp-import:      afi ipv6.unicast from AS57560 accept AS57560
+mp-export:      afi ipv6.unicast to AS57560 announce ANY
+remarks:        =
+remarks:        == Jan Ryznar ==
+mp-import:      afi ipv6.unicast from AS203645 accept AS203645
+mp-export:      afi ipv6.unicast to AS203645 announce ANY
+remarks:        =
+remarks:        == DHL ==
+mp-import:      afi ipv6.unicast from AS2571 accept AS2571
+mp-export:      afi ipv6.unicast to AS2571 announce ANY
+remarks:        =
+remarks:        == TS Bohemia ==
+mp-import:      afi ipv6.unicast from AS205724 accept AS205724
+mp-export:      afi ipv6.unicast to AS205724 announce ANY
+remarks:        =
+remarks:        =================== DIRECT PEERING PARTNERS =============
+import:         from AS24971 accept AS-MASTERCZ-CZNIX
+export:         to AS24971 announce AS-CTIOL
+remarks:        =
+remarks:        == CETIN ==
+import:         from AS28725 accept AS28725
+export:         to AS28725 announce ANY
+remarks:        =
+import:         from AS39392 accept AS-SUPERNETWORK
+export:         to AS39392 announce AS-CTIOL
+remarks:        =
+remarks:        == Google ==
+import:         from AS15169 accept AS15169
+export:         to AS15169 announce AS-CTIOL
+mp-import:      afi ipv6.unicast from AS15169 accept AS15169
+mp-export:      afi ipv6.unicast to AS15169 announce AS-CTIOL
+remarks:        =
+remarks:        ==== CZECH CUSTOMERS WITH INTERNATIONAL CONNECTIVITY ====
+remarks:        ========
+remarks:        IH-LOSAN
+import:         from AS41824 accept AS-LOSAN
+export:         to AS41824 announce ANY;
+remarks:        =
+remarks:        ==================== CZECH CUSTOMERS ====================
+remarks:        ========
+remarks:        Maurice Ward & Co., s.r.o.
+import:         from AS199059 accept AS199059
+export:         to AS199059 announce {0.0.0.0/0}
+remarks:        ========
+remarks:        ARIBA
+import:         from AS131306 accept AS131306
+export:         to AS131306 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        G4S Cash Solutions (CZ), a.s.
+import:         from AS42969 accept AS42969
+export:         to AS42969 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        SYCHROVNET
+import:         from AS47114 accept AS47114
+export:         to AS47114 announce {0.0.0.0/0};
+import:         from AS198813 accept AS198813
+export:         to AS198813 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        Rudolf NET
+import:         from AS197393 accept AS197393
+export:         to AS197393 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        GE Capital (Czech) Holding
+import:         from AS25238 accept AS25238
+export:         to AS25238 announce {0.0.0.0/0} and ANY;
+remarks:        ========
+remarks:        MUZO
+import:         from AS21241 accept AS21241
+export:         to AS21241 announce ANY;
+remarks:        ========
+remarks:        Seznam
+import:         from AS43037 accept AS43037
+export:         to AS43037 announce ANY;
+remarks:        ========
+remarks:        DHL
+import:         from AS2571 action pref = 800; accept AS2571
+export:         to AS2571 announce ANY;
+remarks:        ========
+remarks:        Mafra
+import:         from AS38952 action pref = 850; accept AS38952
+export:         to AS38952 announce ANY;
+remarks:        ========
+remarks:        VLP
+import:         from AS50695 action pref = 850; accept AS50695
+export:         to AS50695 announce ANY AND {0.0.0.0/0};
+remarks:        ========
+remarks:        Air Navigation Services of the Czech Republic
+import:         from AS15380 action pref = 830; accept AS15380
+export:         to AS15380 announce ANY;
+remarks:        ========
+remarks:        GROUP 4 Secure Solutions a.s
+import:         from AS25321 action pref = 830; accept AS25321
+export:         to AS25321 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        GE Capital (Czech) Holdings
+import:         from AS25238 action pref = 80; accept AS25238
+export:         to AS25238 announce ANY;
+remarks:        ========
+remarks:        CZ.CTNET Autonomous Sytem
+import:         from AS20884 action pref = 80; accept AS-CTNET
+export:         to AS20884 announce ANY;
+remarks:        ========
+remarks:        Logica
+import:         from AS48405 action pref = 80; accept AS48405
+export:         to AS48405 announce ANY;
+remarks:        ========
+remarks:        LUKOIL
+import:         from AS13105 action pref = 80; accept AS13105
+export:         to AS13105 announce ANY;
+remarks:        ========
+remarks:        INTACTO GAMES a.s.
+import:         from AS51134 action pref = 80; accept AS51134
+export:         to AS51134 announce ANY AND {0.0.0.0/0};
+remarks:        ========
+remarks:        OMEGA tech s.r.o.
+import:         from AS196845 action pref = 80; accept AS196845
+export:         to AS196845 announce ANY;
+remarks:        ========
+remarks:        FDLNet
+import:         from AS198002 action pref = 850; accept AS198002
+export:         to AS198002 announce ANY;
+remarks:        ========
+remarks:        Autocont
+import:         from AS197376 action pref = 850; accept AS197376
+export:         to AS197376 announce ANY;
+remarks:        ========
+remarks:        BAJA Group s.r.o.
+import:         from AS57564 action pref = 850; accept AS57564
+export:         to AS57564 announce ANY;
+remarks:        ========
+remarks:        Cesky urad zememericky a katastralni
+import:         from AS28892 action pref = 850; accept AS28892
+export:         to AS28892 announce ANY;
+remarks:        ========
+remarks:        VITKOVICE IT SOLUTIONS a.s.
+import:         from AS56973 action pref = 850; accept AS56973
+export:         to AS56973 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        Monet
+import:         from AS49580 action pref = 850; accept AS49580
+export:         to AS49580 announce ANY;
+remarks:        ========
+remarks:        Hela PC
+import:         from AS197879 action pref = 850; accept AS197879
+export:         to AS197879 announce ANY;
+remarks:        ========
+remarks:        Ceskomoravska rozvojova a zarucni banka
+import:         from AS56891 action pref = 850; accept AS56891
+export:         to AS56891 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        ING Bank
+import:         from AS21205 action pref = 850; accept AS21205
+export:         to AS21205 announce ANY;
+remarks:        ========
+remarks:        INTERNETHOME (Mirovka.net)
+import:         from AS56442 action pref = 850; accept AS56442
+export:         to AS56442 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        Martin Vicenik
+import:         from AS34955 action pref = 850; accept AS34955
+export:         to AS34955 announce ANY;
+remarks:        ========
+remarks:        ING POJISTOVNA
+import:         from AS197353 action pref = 850; accept AS197353
+export:         to AS197353 announce ANY;
+remarks:        ========
+remarks:        CCS Ceska spolecnost pro platebni karty s.r.o
+import:         from AS198103 action pref = 850; accept AS198103
+export:         to AS198103 announce ANY;
+remarks:        ========
+remarks:        SYCHROVNET
+import:         from AS47114 action pref = 850; accept AS47114
+export:         to AS47114 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        ALTRON
+import:         from AS43866 action pref = 850; accept AS43866
+export:         to AS43866 announce ANY;
+remarks:        ========
+remarks:        AVX CZ
+import:         from AS50975 action pref = 850; accept AS50975
+export:         to AS50975 announce ANY;
+remarks:        ========
+remarks:        K2 connect solution s.r.o.
+import:         from AS197083 action pref = 850; accept AS197083
+export:         to AS197083 announce ANY;
+remarks:        ========
+remarks:        GOLDWARE CZ, s.r.o.
+import:         from AS198657 action pref = 850; accept AS198657
+export:         to AS198657 announce ANY;
+remarks:        ========
+remarks:        eHAMnet, s.r.o.
+import:         from AS44712 action pref = 850; accept AS44712
+export:         to AS44712 announce ANY;
+remarks:        ========
+remarks:        Internethome.
+import:         from AS51154 action pref = 850; accept AS-IHOLM AND AS57560
+export:         to AS51154 announce ANY
+remarks:        ========
+remarks:        DataSpring s.r.o.
+import:         from AS201730 action pref = 850; accept AS201730
+export:         to AS201730 announce ANY
+remarks:        ========
+remarks:        Prazska plynarenska
+import:         from AS62102 action pref = 850; accept AS62102
+export:         to AS62102 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        XLNET s.r.o.
+import:         from AS57560 action pref = 850; accept AS57560
+export:         to AS57560 announce ANY
+remarks:        ========
+remarks:        ON-SEMICONDUCTOR-INC
+import:         from AS21942 action pref = 800; accept AS21942
+export:         to AS21942 announce ANY;
+remarks:        ========
+remarks:        Komercni banka, a. s.
+import:         from AS201163 action pref = 800; accept AS201163
+export:         to AS201163 announce ANY;
+remarks:        ========
+remarks:        FIO banka, a. s.
+import:         from AS62083 action pref = 800; accept AS62083
+export:         to AS62083 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        AVG - Avast
+import:         from AS206334 action pref = 800; accept AS206334
+export:         to AS206334 announce ANY;
+remarks:        ========
+remarks:        SAP SE PRG
+import:         from AS203080 action pref = 800; accept AS203080
+export:         to AS203080 announce {0.0.0.0/0};
+remarks:        ========
+remarks:        TS Bohemia
+import:         from AS205724 action pref = 800; accept AS205724
+export:         to AS205724 announce ANY;
+remarks:        ========
+remarks:        CSOB
+import:         from AS205233 action pref = 800; accept AS205233
+export:         to AS205233 announce ANY;
+remarks:        ========
+remarks:        TTC TELEKOMUNIKACE s.r.o.
+import:         from AS204172 action pref = 800; accept AS204172
+export:         to AS204172 announce ANY;
+remarks:        ========
+remarks:        MSIC-AS
+import:         from AS206683 action pref = 800; accept AS206683
+export:         to AS206683 announce ANY;
+remarks:        ========
+remarks:        ==================== CZECH CUSTOMERS IPv6====================
+remarks:        == CSOB ==
+remarks:        =
+mp-import:      afi ipv6.unicast from AS205233 action pref = 200; accept ANY AND NOT {0.0.0.0/0};
+mp-export:      afi ipv6.unicast to AS205233   announce AS-CTIOL AND NOT {0.0.0.0/0};
+remarks:        ==================== END ====================
+org:            ORG-STaN1-RIPE
+admin-c:        CZO2-RIPE
+tech-c:         CZO2-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS5610-MTN
+created:        2002-07-22T13:51:41Z
+last-modified:  2024-06-12T11:51:47Z
+source:         RIPE
+
+organisation:   ORG-STaN1-RIPE
+org-name:       O2 Czech Republic, a.s.
+country:        CZ
+org-type:       LIR
+address:        Za Brumlovkou 266/2
+address:        140 22
+address:        Praha 4 - Michle
+address:        CZECH REPUBLIC
+phone:          +420 2 71466184
+fax-no:         +420 2 71464414
+admin-c:        VAKO1-RIPE
+admin-c:        MV96-RIPE
+admin-c:        HVJI1-RIPE
+tech-c:         CZO2-RIPE
+abuse-c:        AR14410-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS5610-MTN
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS5610-MTN
+created:        2004-04-17T11:04:17Z
+last-modified:  2020-12-16T12:31:56Z
+source:         RIPE # Filtered
+
+role:           5610-Tech-and-Admin
+address:        Za Brumlovkou 266/2
+address:        Praha 4 - Michle, PSC 140 22
+nic-hdl:        CZO2-RIPE
+admin-c:        VAKO1-RIPE
+admin-c:        MV96-RIPE
+admin-c:        HVJI1-RIPE
+tech-c:         VAKO1-RIPE
+tech-c:         HVJI1-RIPE
+abuse-mailbox:  abuse@o2.cz
+org:            ORG-STaN1-RIPE
+mnt-by:         AS5610-MTN
+created:        2016-02-18T09:58:30Z
+last-modified:  2018-04-20T10:44:21Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          5.23.39.0/24
+descr:          Grafton
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         gigroup-mnt
+mnt-by:         AS5610-MTN
+created:        2022-07-06T12:53:01Z
+last-modified:  2022-07-06T12:56:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.188.128.0/17
+descr:          Mobile services
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2012-11-09T12:03:49Z
+last-modified:  2012-11-09T12:03:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.128.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:09:32Z
+last-modified:  2020-04-29T22:09:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.136.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:10:20Z
+last-modified:  2020-04-29T22:10:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.144.0/20
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T21:54:55Z
+last-modified:  2020-04-29T21:54:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.144.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:10:59Z
+last-modified:  2020-04-29T22:10:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.152.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:11:51Z
+last-modified:  2020-04-29T22:11:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.160.0/20
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T21:47:03Z
+last-modified:  2020-04-29T21:47:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.160.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:34:33Z
+last-modified:  2020-04-29T22:34:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.168.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:35:00Z
+last-modified:  2020-04-29T22:35:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.176.0/20
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:01:08Z
+last-modified:  2020-04-29T22:01:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.176.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:13:54Z
+last-modified:  2020-04-29T22:13:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.184.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:14:26Z
+last-modified:  2020-04-29T22:14:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.192.0/23
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:23:39Z
+last-modified:  2020-04-29T22:23:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.194.0/23
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:15:06Z
+last-modified:  2020-04-29T22:15:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.224.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:15:35Z
+last-modified:  2020-04-29T22:15:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.232.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:16:11Z
+last-modified:  2020-04-29T22:16:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.240.0/20
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:24:18Z
+last-modified:  2020-04-29T22:24:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.240.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:36:41Z
+last-modified:  2020-04-29T22:36:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.188.248.0/21
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:37:15Z
+last-modified:  2020-04-29T22:37:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.0.0/16
+descr:          CZ.CZNET
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         AS5610-MTN
+created:        2002-06-17T08:11:47Z
+last-modified:  2002-06-17T08:11:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.0.0/17
+descr:          BtN Customer
+origin:         AS5610
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20030607
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  valid
+
+route:          80.188.0.0/17
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-07T13:35:33Z
+last-modified:  2010-12-07T13:35:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.40.0/24
+descr:          WURTH in O2CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-10-03T09:05:38Z
+last-modified:  2016-10-03T09:05:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.120.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:47:04Z
+last-modified:  2025-07-09T16:47:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.128.0/17
+descr:          Proxy-registered route object
+origin:         AS5610
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20010121
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  valid
+
+route:          80.188.128.0/17
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-07T13:35:47Z
+last-modified:  2010-12-07T13:35:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.131.0/24
+descr:          CZ.CZNET
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         AS5610-MTN
+created:        2015-07-07T13:04:09Z
+last-modified:  2015-07-07T13:04:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.165.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:46:02Z
+last-modified:  2025-07-09T16:46:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.170.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:45:21Z
+last-modified:  2025-07-09T16:45:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.200.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:44:40Z
+last-modified:  2025-07-09T16:44:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.202.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:43:53Z
+last-modified:  2025-07-09T16:43:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.222.0/24
+descr:          O2CZ preffered customer
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-01T06:45:49Z
+last-modified:  2020-04-01T06:45:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.188.225.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:43:13Z
+last-modified:  2025-07-09T16:43:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.90.160.0/20
+descr:          O2 InternetHome TermsNet
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-11-15T14:13:09Z
+last-modified:  2016-11-15T14:13:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.90.168.0/24
+descr:          ELSAT, s.r.o. (InternetHome prefix)
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2017-04-24T12:25:53Z
+last-modified:  2017-04-24T12:25:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.90.170.0/24
+descr:          ELSAT, s.r.o. (InternetHome prefix)
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2017-04-24T12:25:53Z
+last-modified:  2017-04-24T12:25:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.90.173.0/24
+descr:          ELSAT, s.r.o. (InternetHome prefix)
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2017-04-24T12:25:53Z
+last-modified:  2017-04-24T12:25:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.69.32.0/19
+descr:          InternetHome Losan prefix
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2017-02-10T14:25:00Z
+last-modified:  2017-02-10T14:25:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.208.0.0/16
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2004-03-02T16:19:19Z
+last-modified:  2004-03-02T16:19:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.208.0.0/18
+descr:          Proxy-registered route object
+origin:         AS5610
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20040914
+source:         RADB
+last-modified:  2025-03-28T16:01:03Z
+rpki-ov-state:  valid
+
+route:          83.208.0.0/18
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-08T13:26:06Z
+last-modified:  2010-12-08T13:26:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.208.64.0/18
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-08T13:26:58Z
+last-modified:  2010-12-08T13:26:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.208.128.0/19
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-08T13:26:25Z
+last-modified:  2010-12-08T13:26:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.70.0.0/15
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2004-11-15T14:47:43Z
+last-modified:  2004-11-15T14:47:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.70.0.0/16
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2005-01-05T17:41:40Z
+last-modified:  2005-01-05T17:41:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.70.0.0/17
+descr:          Proxy-registered route object
+origin:         AS5610
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20041114
+source:         RADB
+last-modified:  2025-03-28T16:01:03Z
+rpki-ov-state:  valid
+
+route:          85.70.0.0/17
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2005-01-05T17:40:52Z
+last-modified:  2005-01-05T17:40:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.70.128.0/17
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-08T13:28:52Z
+last-modified:  2010-12-08T13:28:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.70.128.0/17
+descr:          Proxy-registered route object
+origin:         AS5610
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20041114
+source:         RADB
+last-modified:  2025-03-28T16:01:03Z
+rpki-ov-state:  valid
+
+route:          85.71.0.0/16
+descr:          xDSL services
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2012-11-09T09:38:14Z
+last-modified:  2012-11-09T09:38:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.160.0.0/15
+descr:          CZ.CZNET
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         AS5610-MTN
+created:        2015-05-25T12:25:34Z
+last-modified:  2015-05-25T12:25:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.193.0.0/18
+descr:          O2 CZ CGNAT pool
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2017-02-10T14:26:29Z
+last-modified:  2024-05-17T15:35:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.83.160.0/19
+descr:          O2 InternetHome TermsNet
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-11-15T14:14:33Z
+last-modified:  2016-11-15T14:14:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.83.175.0/24
+descr:          ELSAT, s.r.o. (InternetHome prefix)
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2017-04-24T12:25:53Z
+last-modified:  2017-04-24T12:25:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.100.0.0/14
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2005-10-25T16:52:41Z
+last-modified:  2005-10-25T16:52:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.100.0.0/15
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-08T13:29:19Z
+last-modified:  2010-12-08T13:29:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.102.0.0/15
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-08T13:29:37Z
+last-modified:  2010-12-08T13:29:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.102.0.0/16
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2005-10-25T16:59:58Z
+last-modified:  2005-10-25T16:59:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.103.218.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:42:42Z
+last-modified:  2025-07-09T16:42:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.176.0.0/13
+descr:          Proxy-registered route object
+origin:         AS5610
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          90.176.32.0/19
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2015-10-12T10:16:43Z
+last-modified:  2015-10-12T10:16:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.176.64.0/18
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2015-10-12T10:19:33Z
+last-modified:  2015-10-12T10:19:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.176.128.0/17
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2015-10-12T10:20:10Z
+last-modified:  2015-10-12T10:20:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.177.0.0/16
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2015-10-12T10:20:43Z
+last-modified:  2015-10-12T10:20:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.178.0.0/15
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2015-10-12T10:21:08Z
+last-modified:  2015-10-12T10:21:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.180.0.0/14
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-08T13:30:29Z
+last-modified:  2010-12-08T13:30:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.182.108.0/24
+descr:          PHA Czech s.r.o.
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-27T16:05:44Z
+last-modified:  2020-04-27T16:05:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.182.109.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:42:11Z
+last-modified:  2025-07-09T16:42:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.182.110.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:41:18Z
+last-modified:  2025-07-09T16:41:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.182.134.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:40:37Z
+last-modified:  2025-07-09T16:40:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.182.146.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:39:19Z
+last-modified:  2025-07-09T16:39:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.182.161.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:38:43Z
+last-modified:  2025-07-09T16:38:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.182.221.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:35:45Z
+last-modified:  2025-07-09T16:35:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.183.57.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:32:51Z
+last-modified:  2025-07-09T16:32:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          90.183.108.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-09T16:34:14Z
+last-modified:  2025-07-09T16:34:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.191.64.0/18
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-by:         O2SK-MNT
+created:        2019-06-19T21:48:38Z
+last-modified:  2019-09-24T07:57:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.193.132.0/22
+descr:          PSENET-CZ
+descr:          Burza cennych papiru Praha, a.s.
+descr:          assigned PI
+origin:         AS5610
+mnt-by:         BURZA-MNT
+created:        2017-12-04T13:43:12Z
+last-modified:  2017-12-07T10:23:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.213.10.0/24
+descr:          CGI IT Czech Republic
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2022-10-31T14:44:13Z
+last-modified:  2022-10-31T14:44:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.232.82.0/24
+descr:          ABIS-CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2017-04-24T10:41:59Z
+last-modified:  2017-04-24T10:41:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.243.192.0/19
+descr:          InternetHome Losan prefix
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2017-02-10T14:27:10Z
+last-modified:  2017-02-10T14:27:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.80.0.0/15
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+descr:          Abuse Contact:abuse@o2.cz
+created:        2010-04-16T11:03:00Z
+last-modified:  2017-10-17T08:49:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.112.0/20
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2024-10-22T13:24:33Z
+last-modified:  2024-10-22T13:24:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.160.0/20
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2024-10-22T13:01:59Z
+last-modified:  2024-10-22T13:01:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.208.0/24
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+descr:          Abuse Contact:abuse@o2.cz
+descr:          CGNAT
+created:        2018-07-19T13:20:26Z
+last-modified:  2018-07-19T13:20:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.209.0/24
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+descr:          Abuse Contact:abuse@o2.cz
+descr:          CGNAT
+created:        2018-07-19T13:20:57Z
+last-modified:  2018-07-19T13:20:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.210.0/24
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+descr:          Abuse Contact:abuse@o2.cz
+descr:          CGNAT
+created:        2018-07-19T13:21:18Z
+last-modified:  2018-07-19T13:21:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.211.0/24
+descr:          CZ.CZNET
+origin:         AS5610
+mnt-by:         AS5610-MTN
+descr:          Abuse Contact:abuse@o2.cz
+descr:          CGNAT
+created:        2018-07-19T13:21:43Z
+last-modified:  2018-07-19T13:21:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.212.0/24
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:26:08Z
+last-modified:  2020-04-29T22:26:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.213.0/24
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:26:30Z
+last-modified:  2020-04-29T22:26:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.214.0/24
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:27:30Z
+last-modified:  2020-04-29T22:27:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.81.215.0/24
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:27:59Z
+last-modified:  2020-04-29T22:27:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          160.218.0.0/16
+descr:          Route object of Eurotel Praha
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         CZ-EUROTEL-MNT
+mnt-by:         AS5610-MTN
+created:        2015-05-21T11:19:42Z
+last-modified:  2015-05-25T12:12:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          161.195.144.0/24
+origin:         AS5610
+descr:          Aramark Czech
+                Peka?ská 628/14
+                155 00, Praha 5,
+                Czech Republic
+remarks:        Geofeed https://raw.githubusercontent.com/simonmeadows/aramark-geofeed/main/geofeed.csv
+admin-c:        NETWO8966-ARIN
+tech-c:         NETWO8966-ARIN
+mnt-by:         MNT-ARAMAR-2-Z
+created:        2023-08-07T09:56:30Z
+last-modified:  2023-10-23T13:45:46Z
+source:         ARIN
+rpki-ov-state:  valid
+
+route:          171.25.176.0/24
+descr:          CGI IT Czech Republic
+origin:         AS5610
+mnt-by:         CGI-CZ-MNT
+created:        2012-01-16T14:05:23Z
+last-modified:  2019-09-04T10:00:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.61.228.0/22
+descr:          CZ.CZNET
+origin:         AS5610
+notify:         hostmaster@o2.cz
+remarks:        Abuse contact abuse@o2.cz
+mnt-by:         AS5610-MTN
+created:        2014-06-25T06:23:53Z
+last-modified:  2014-06-25T06:24:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.143.112.0/22
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-11-03T09:05:19Z
+last-modified:  2016-11-03T09:05:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.17.13.0/24
+descr:          HP-CZ
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         AS5610-MTN
+created:        2004-02-03T09:10:18Z
+last-modified:  2004-02-03T09:10:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.12.0/22
+descr:          LOGIS
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-lower:      AS5610-MTN
+mnt-routes:     AS5610-MTN
+created:        2020-12-18T14:46:52Z
+last-modified:  2020-12-18T14:46:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.245.32.0/21
+descr:          CZ-CSOB-IPV4
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-routes:     KBC-ICT-MNT
+created:        2016-11-03T08:13:59Z
+last-modified:  2022-06-20T14:31:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.245.32.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-routes:     KBC-ICT-MNT
+created:        2016-11-07T11:34:15Z
+last-modified:  2022-06-20T14:27:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.245.33.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-routes:     KBC-ICT-MNT
+created:        2016-11-07T11:33:59Z
+last-modified:  2022-06-20T14:28:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.245.34.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-routes:     KBC-ICT-MNT
+created:        2016-11-07T11:33:43Z
+last-modified:  2022-06-20T14:30:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.245.35.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-routes:     KBC-ICT-MNT
+created:        2016-11-07T11:33:23Z
+last-modified:  2022-06-20T14:30:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.245.36.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-routes:     KBC-ICT-MNT
+created:        2016-11-07T11:35:06Z
+last-modified:  2022-06-20T14:30:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.245.37.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-routes:     KBC-ICT-MNT
+created:        2016-11-07T11:32:57Z
+last-modified:  2022-06-20T14:30:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.245.38.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-routes:     KBC-ICT-MNT
+created:        2016-11-07T11:32:36Z
+last-modified:  2022-06-20T14:30:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.245.39.0/24
+origin:         AS5610
+mnt-by:         AS5610-MTN
+mnt-routes:     KBC-ICT-MNT
+created:        2016-11-07T11:32:08Z
+last-modified:  2022-06-20T14:30:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.50.248.0/23
+descr:          INPA
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2024-02-01T07:00:32Z
+last-modified:  2024-02-01T07:00:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.165.47.0/24
+descr:          UxNet
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2009-10-06T07:56:57Z
+last-modified:  2012-11-07T10:05:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.228.0.0/16
+descr:          CZ.CZNET
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         AS5610-MTN
+created:        2002-06-26T15:37:40Z
+last-modified:  2002-06-26T15:37:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.0.0/17
+descr:          CZ.CZNET
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         AS5610-MTN
+created:        2003-05-14T01:40:50Z
+last-modified:  2013-05-22T09:27:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.11.0/24
+descr:          CGN-balance
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-01-22T11:24:28Z
+last-modified:  2016-01-22T11:24:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.13.0/24
+descr:          CGN-balance
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-01-22T11:25:10Z
+last-modified:  2016-01-22T11:25:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.20.0/24
+descr:          CGN-balance
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-01-29T09:42:30Z
+last-modified:  2016-01-29T09:42:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.32.0/24
+descr:          CGN-balance
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-01-29T09:42:53Z
+last-modified:  2016-01-29T09:42:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.59.0/24
+descr:          CGN-balance
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-01-28T06:40:47Z
+last-modified:  2016-01-28T06:40:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.68.0/24
+descr:          CGN-balance
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-01-28T06:41:15Z
+last-modified:  2016-01-28T06:41:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.72.0/22
+descr:          CZ.CZNET
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         AS5610-MTN
+created:        2015-05-25T07:57:43Z
+last-modified:  2015-05-25T07:57:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.76.0/24
+descr:          CGN-balance
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-01-28T06:41:44Z
+last-modified:  2016-01-28T06:41:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.79.0/24
+descr:          CGNAT O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2020-04-29T22:32:37Z
+last-modified:  2020-04-29T22:32:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.228.128.0/17
+descr:          CZ.CZNET
+origin:         AS5610
+notify:         hostmaster@iol.cz
+mnt-by:         AS5610-MTN
+created:        2003-05-14T01:41:07Z
+last-modified:  2003-05-14T01:41:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.186.0/24
+descr:          Agrofert CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2025-07-16T09:24:21Z
+last-modified:  2025-07-16T09:24:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.246.96.0/23
+descr:          PPF banka a.s.
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-12-07T13:37:04Z
+last-modified:  2010-12-07T13:37:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.117.208.0/20
+descr:          InternetHome Losan prefix
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2017-02-10T14:27:48Z
+last-modified:  2017-02-10T14:27:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.194.160.0/20
+descr:          O2 InternetHome TermsNet
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2016-11-15T14:14:33Z
+last-modified:  2016-11-15T14:14:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:dd4::/48
+origin:         AS5610
+mnt-by:         mpoisel
+created:        2024-02-27T17:12:04Z
+last-modified:  2024-02-27T17:12:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:41d8::/32
+descr:          Route v6 object of Eurotel Praha
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2015-05-26T14:35:03Z
+last-modified:  2015-05-26T14:35:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1028::/29
+descr:          O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2019-04-03T13:00:37Z
+last-modified:  2019-04-03T13:00:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1028::/32
+descr:          O2 CZ
+origin:         AS5610
+mnt-by:         AS5610-MTN
+created:        2010-02-10T14:30:02Z
+last-modified:  2019-04-03T12:13:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:9b8::/31
+origin:         AS5610
+descr:          InternetHome IPv6 prefix
+mnt-by:         AS5610-MTN
+created:        2017-02-10T12:50:25Z
+last-modified:  2017-02-10T12:50:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,114 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS3209 - AS3353'
+
+as-block:       AS3209 - AS3353
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:19Z
+last-modified:  2018-11-22T15:27:19Z
+source:         RIPE
+
+% Information related to 'AS3323'
+
+% Abuse contact for 'AS3323' is 'abuse@ntua.gr'
+
+aut-num:        AS3323
+as-name:        NTUA
+org:            ORG-NTUA1-RIPE
+import:         from AS5408 action pref=100; accept AS-GRNET AS-GRIX AS5400 AS3333
+import:         from AS8611 action pref=200; accept AS8611 AS-GRNET AS-GRIX AS3333
+export:         to AS5408 announce AS3323 AS8611
+export:         to AS8611 announce AS3323 AS-GRNET AS-AIX AS5400 AS3333
+default:        to AS5408 action pref=100; networks ANY
+default:        to AS8611 action pref=200; networks ANY
+admin-c:        NN4-RIPE
+tech-c:         NN4-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NTUA-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:12:58Z
+source:         RIPE
+sponsoring-org: ORG-GRaT1-RIPE
+
+organisation:   ORG-NTUA1-RIPE
+org-name:       National Technical University of Athens
+country:        GR
+org-type:       OTHER
+address:        Heroon Polytechneiou 9
+abuse-c:        AR22635-RIPE
+mnt-ref:        NTUA-NOC
+mnt-by:         NTUA-NOC
+created:        2013-05-21T11:03:46Z
+last-modified:  2022-12-01T17:21:21Z
+source:         RIPE # Filtered
+
+role:           NTUA NOC
+address:        Network Operation Center - NOC
+address:        National Technical University Of Athens - NTUA
+address:        GR 15780, ZOGRAFOU
+address:        ATHENS, GREECE
+phone:          +30210-772-1861
+fax-no:         +30210-772-1866
+remarks:        --------------------------------------
+remarks:        For complains about abuse, spam etc:
+abuse-mailbox:  abuse@ntua.gr
+remarks:        --------------------------------------
+admin-c:        ES3129-RIPE
+admin-c:        RL248-RIPE
+tech-c:         DK24-RIPE
+tech-c:         DM447-RIPE
+tech-c:         SP2152-RIPE
+tech-c:         AD9501-RIPE
+nic-hdl:        NN4-RIPE
+mnt-by:         NTUA-NOC
+created:        2001-12-17T10:42:22Z
+last-modified:  2012-07-13T16:17:36Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          147.102.0.0/16
+descr:          National Technical University of Athens
+origin:         AS3323
+mnt-by:         NTUA-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:648:2000::/48
+descr:          NTUA
+origin:         AS3323
+mnt-by:         NTUA-NOC
+created:        2005-04-08T12:09:00Z
+last-modified:  2007-07-02T13:47:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

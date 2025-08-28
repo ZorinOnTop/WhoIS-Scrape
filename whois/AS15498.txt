@@ -1,0 +1,1487 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15498'
+
+% Abuse contact for 'AS15498' is 'noc@rtcnow.com'
+
+aut-num:        AS15498
+as-name:        RTCnow
+descr:          RTCnow Streaming Services GmbH
+descr:          Streaming and TV Broadcast Services
+descr:          Dept. Network Operation Center
+descr:          Renngasse 5/11
+descr:          1010 Vienna
+descr:          Austria
+org:            ORG-CIP1-RIPE
+remarks:        ===========================================================
+remarks:        Upstreams Connectivity
+remarks:        ===========================================================
+remarks:        Kapper.net
+import:         from AS48943 accept ANY
+export:         to AS48943 announce AS-RTCnow2Kapper
+mp-import:      afi ipv6.unicast from AS48943 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS48943 announce AS-RTCnow2Kapper
+remarks:        Cogent
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-RTCnow2Cogent
+mp-import:      afi ipv6.unicast from AS174 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-RTCnow2Cogent
+remarks:        ===========================================================
+remarks:        VIX Peerings (back to VIX sind 2025/02)
+remarks:        ===========================================================
+remarks:        Route-Server Peerings at the Vienna Internet Exchange (VIX)
+remarks:        ===========================================================
+remarks:        IPv4 Peerings VIX
+remarks:        ===========================================================
+import:         from AS42 accept AS-PCH
+export:         to   AS42 announce AS-RTCNOW
+import:         from AS112 accept AS112
+export:         to   AS112 announce AS-RTCNOW
+import:         from AS1120 accept AS-ACOSERV
+export:         to   AS1120 announce AS-RTCNOW
+import:         from AS1853 accept AS-ACONETTOVIX
+export:         to   AS1853 announce AS-RTCNOW
+import:         from AS2614 accept AS-ROEDUNET
+export:         to   AS2614 announce AS-RTCNOW
+import:         from AS2635 accept AS-AUTOMATTIC
+export:         to   AS2635 announce AS-RTCNOW
+import:         from AS2686 accept AS-IGNEMEA
+export:         to   AS2686 announce AS-RTCNOW
+import:         from AS2906 accept AS-NFLX
+export:         to   AS2906 announce AS-RTCNOW
+import:         from AS3212 accept AS3212:AS-TELEMACH
+export:         to   AS3212 announce AS-RTCNOW
+import:         from AS3223 accept AS-VOXILITY-SET
+export:         to   AS3223 announce AS-RTCNOW
+import:         from AS3330 accept AS-PROFINET
+export:         to   AS3330 announce AS-RTCNOW
+import:         from AS3856 accept AS-PCH
+export:         to   AS3856 announce AS-RTCNOW
+import:         from AS5403 accept AS-APA
+export:         to   AS5403 announce AS-RTCNOW
+import:         from AS5405 accept AS-INTERDOTLINK
+export:         to   AS5405 announce AS-RTCNOW
+import:         from AS5578 accept AS-BENESTRA
+export:         to   AS5578 announce AS-RTCNOW
+import:         from AS5606 accept AS-GTSRO
+export:         to   AS5606 announce AS-RTCNOW
+import:         from AS6204 accept AS-INTERKVM
+export:         to   AS6204 announce AS-RTCNOW
+import:         from AS6663 accept AS-PANTEL
+export:         to   AS6663 announce AS-RTCNOW
+import:         from AS6720 accept AS-MAGWIEN
+export:         to   AS6720 announce AS-RTCNOW
+import:         from AS6798 accept ANY
+export:         to   AS6798 announce AS-RTCNOW
+import:         from AS7713 accept AS7713:AS-TELKOM-TRANSIT
+export:         to   AS7713 announce AS-RTCNOW
+import:         from AS8075 accept AS-MICROSOFT
+export:         to   AS8075 announce AS-RTCNOW
+import:         from AS8218 accept AS8218:AS-CUSTOMERS
+export:         to   AS8218 announce AS-RTCNOW
+import:         from AS8245 accept AS-VB-PEERS
+export:         to   AS8245 announce AS-RTCNOW
+import:         from AS8302 accept AS-ZATTOO
+export:         to   AS8302 announce AS-RTCNOW
+import:         from AS8339 accept AS-KABS
+export:         to   AS8339 announce AS-RTCNOW
+import:         from AS8387 accept AS8387:AS-T-SYSTEMS-AT
+export:         to   AS8387 announce AS-RTCNOW
+import:         from AS8400 accept AS-TELEKOM
+export:         to   AS8400 announce AS-RTCNOW
+import:         from AS8540 accept AS-AMANET
+export:         to   AS8540 announce AS-RTCNOW
+import:         from AS8560 accept AS-IONOS
+export:         to   AS8560 announce AS-RTCNOW
+import:         from AS8596 accept AS-HOTZE
+export:         to   AS8596 announce AS-RTCNOW
+import:         from AS8674 accept AS-NETNOD-ANYCAST
+export:         to   AS8674 announce AS-RTCNOW
+import:         from AS9009 accept AS-GBXS
+export:         to   AS9009 announce AS-RTCNOW
+import:         from AS9119 accept AS-SOFTNET
+export:         to   AS9119 announce AS-RTCNOW
+import:         from AS9146 accept AS-BIHNET-ALL
+export:         to   AS9146 announce AS-RTCNOW
+import:         from AS10310 accept AS-YAHOO
+export:         to   AS10310 announce AS-RTCNOW
+import:         from AS12401 accept AS-INIC
+export:         to   AS12401 announce AS-RTCNOW
+import:         from AS12453 accept AS-KRAFTCOM
+export:         to   AS12453 announce AS-RTCNOW
+import:         from AS12577 accept AS-MMC-AT
+export:         to   AS12577 announce AS-RTCNOW
+import:         from AS12605 accept AS-LIWESTAT
+export:         to   AS12605 announce AS-RTCNOW
+import:         from AS13004 accept AS-SOX
+export:         to   AS13004 announce AS-RTCNOW
+import:         from AS13237 accept AS-LAMBDANET
+export:         to   AS13237 announce AS-RTCNOW
+import:         from AS13335 accept AS13335
+export:         to   AS13335 announce AS-RTCNOW
+import:         from AS15576 accept AS-NTS
+export:         to   AS15576 announce AS-RTCNOW
+import:         from AS15702 accept AS-ONSTAGE
+export:         to   AS15702 announce AS-RTCNOW
+import:         from AS15958 accept AS-TELENORDOO
+export:         to   AS15958 announce AS-RTCNOW
+import:         from AS16276 accept ANY
+export:         to   AS16276 announce AS-RTCNOW
+import:         from AS20546 accept AS-MYRASEC
+export:         to   AS20546 announce AS-RTCNOW
+import:         from AS20704 accept AS-FUNKNETZ
+export:         to   AS20704 announce AS-RTCNOW
+import:         from AS20751 accept AS-MAX4EU
+export:         to   AS20751 announce AS-RTCNOW
+import:         from AS20804 accept AS-EXATEL-INT
+export:         to   AS20804 announce AS-RTCNOW
+import:         from AS20940 accept AS-AKAMAI
+export:         to   AS20940 announce AS-RTCNOW
+import:         from AS21013 accept AS-ITANDTEL
+export:         to   AS21013 announce AS-RTCNOW
+import:         from AS21360 accept AS-EMPIRION
+export:         to   AS21360 announce AS-RTCNOW
+import:         from AS21385 accept AS-TNIB
+export:         to   AS21385 announce AS-RTCNOW
+import:         from AS24864 accept AS-R-IT
+export:         to   AS24864 announce AS-RTCNOW
+import:         from AS24940 accept AS-HETZNER
+export:         to   AS24940 announce AS-RTCNOW
+import:         from AS24953 accept AS-24953
+export:         to   AS24953 announce AS-RTCNOW
+import:         from AS25011 accept AS25011
+export:         to   AS25011 announce AS-RTCNOW
+import:         from AS25152 accept AS25152
+export:         to   AS25152 announce AS-RTCNOW
+import:         from AS25255 accept AS-H3G-AUSTRIA
+export:         to   AS25255 announce AS-RTCNOW
+import:         from AS25447 accept AS-JM-DATA
+export:         to   AS25447 announce AS-RTCNOW
+import:         from AS25467 accept AS-AKTON
+export:         to   AS25467 announce AS-RTCNOW
+import:         from AS25575 accept AS-DOMAINTECHNIK
+export:         to   AS25575 announce AS-RTCNOW
+import:         from AS26415 accept AS-GTLD
+export:         to   AS26415 announce AS-RTCNOW
+import:         from AS28760 accept AS-INFOTECH
+export:         to   AS28760 announce AS-RTCNOW
+import:         from AS28889 accept AS-LINZNET
+export:         to   AS28889 announce AS-RTCNOW
+import:         from AS29056 accept AS29056:AS-CITYCOM
+export:         to   AS29056 announce AS-RTCNOW
+import:         from AS29081 accept AS-WVNETAT
+export:         to   AS29081 announce AS-RTCNOW
+import:         from AS29208 accept AS-DIALTELECOM
+export:         to   AS29208 announce AS-RTCNOW
+import:         from AS30081 accept AS-CACHENETWORKS
+export:         to   AS30081 announce AS-RTCNOW
+import:         from AS30971 accept AS-NICAT
+export:         to   AS30971 announce AS-RTCNOW
+import:         from AS31042 accept AS-SBB
+export:         to   AS31042 announce AS-RTCNOW
+import:         from AS31229 accept AS-BEYOND
+export:         to   AS31229 announce AS-RTCNOW
+import:         from AS31317 accept AS-ANSCHLUSSWERK
+export:         to   AS31317 announce AS-RTCNOW
+import:         from AS31510 accept AS-IKB
+export:         to   AS31510 announce AS-RTCNOW
+import:         from AS31529 accept AS-DENIC-ANY
+export:         to   AS31529 announce AS-RTCNOW
+import:         from AS31543 accept AS-MYNET-AT
+export:         to   AS31543 announce AS-RTCNOW
+import:         from AS32590 accept AS-VALVE
+export:         to   AS32590 announce AS-RTCNOW
+import:         from AS32787 accept AS-PROLE
+export:         to   AS32787 announce AS-RTCNOW
+import:         from AS32934 accept ANY
+export:         to   AS32934 announce AS-RTCNOW
+import:         from AS34183 accept AS-BMG
+export:         to   AS34183 announce AS-RTCNOW
+import:         from AS34288 accept AS34288:AS-IX:AS-VIX
+export:         to   AS34288 announce AS-RTCNOW
+import:         from AS34347 accept AS-CNHAT
+export:         to   AS34347 announce AS-RTCNOW
+import:         from AS34758 accept AS-AXERA
+export:         to   AS34758 announce AS-RTCNOW
+import:         from AS34772 accept AS-NEOTEL-SET
+export:         to   AS34772 announce AS-RTCNOW
+import:         from AS34779 accept AS-T2-CUST
+export:         to   AS34779 announce AS-RTCNOW
+import:         from AS35339 accept AS-ATNOC
+export:         to   AS35339 announce AS-RTCNOW
+import:         from AS35369 accept AS-LAGIS
+export:         to   AS35369 announce AS-RTCNOW
+import:         from AS39560 accept AS-KT-NET
+export:         to   AS39560 announce AS-RTCNOW
+import:         from AS39878 accept as-rauter
+export:         to   AS39878 announce AS-RTCNOW
+import:         from AS39912 accept AS-I3B-TRANSIT-V4
+export:         to   AS39912 announce AS-RTCNOW
+import:         from AS40994 accept AS-ALWYZON
+export:         to   AS40994 announce AS-RTCNOW
+import:         from AS41491 accept AS41491
+export:         to   AS41491 announce AS-RTCNOW
+import:         from AS43061 accept AS-STELKOM-CUST
+export:         to   AS43061 announce AS-RTCNOW
+import:         from AS43848 accept AS-GAMSJAEGER
+export:         to   AS43848 announce AS-RTCNOW
+import:         from AS43957 accept AS-WNTNEWMEDIA
+export:         to   AS43957 announce AS-RTCNOW
+import:         from AS44306 accept AS-OMONIA
+export:         to   AS44306 announce AS-RTCNOW
+import:         from AS44765 accept AS-MAKENEWMEDIA
+export:         to   AS44765 announce AS-RTCNOW
+import:         from AS44865 accept AS44865
+export:         to   AS44865 announce AS-RTCNOW
+import:         from AS47147 accept AS-ANX
+export:         to   AS47147 announce AS-RTCNOW
+import:         from AS47692 accept AS-NESSUS
+export:         to   AS47692 announce AS-RTCNOW
+import:         from AS48152 accept AS-DRT
+export:         to   AS48152 announce AS-RTCNOW
+import:         from AS48362 accept AS-TKSWF
+export:         to   AS48362 announce AS-RTCNOW
+import:         from AS48943 accept AS-KAPPERNET
+export:         to   AS48943 announce AS-RTCNOW
+import:         from AS49322 accept AS49322
+export:         to   AS49322 announce AS-RTCNOW
+import:         from AS49544 accept AS-INTERACTIVE3D
+export:         to   AS49544 announce AS-RTCNOW
+import:         from AS49808 accept AS-POWERSPEED
+export:         to   AS49808 announce AS-RTCNOW
+import:         from AS50226 accept AS-NETCOMPANY
+export:         to   AS50226 announce AS-RTCNOW
+import:         from AS50507 accept AS-EURACTOVIX
+export:         to   AS50507 announce AS-RTCNOW
+import:         from AS50629 accept ANY
+export:         to   AS50629 announce AS-RTCNOW
+import:         from AS50782 accept AS50782:AS-COSYS
+export:         to   AS50782 announce AS-RTCNOW
+import:         from AS51184 accept AS-MEDIAINVENT
+export:         to   AS51184 announce AS-RTCNOW
+import:         from AS51265 accept AS51265
+export:         to   AS51265 announce AS-RTCNOW
+import:         from AS51776 accept ANY
+export:         to   AS51776 announce AS-RTCNOW
+import:         from AS54113 accept AS-FASTLY
+export:         to   AS54113 announce AS-RTCNOW
+import:         from AS54994 accept ANY
+export:         to   AS54994 announce AS-RTCNOW
+import:         from AS55256 accept AS55256
+export:         to   AS55256 announce AS-RTCNOW
+import:         from AS57169 accept AS-EDIS
+export:         to   AS57169 announce AS-RTCNOW
+import:         from AS57463 accept AS-NETIX-INT
+export:         to   AS57463 announce AS-RTCNOW
+import:         from AS59890 accept AS-LAMPERT
+export:         to   AS59890 announce AS-RTCNOW
+import:         from AS60274 accept AS60274
+export:         to   AS60274 announce AS-RTCNOW
+import:         from AS60517 accept AS-CABLEVISION
+export:         to   AS60517 announce AS-RTCNOW
+import:         from AS60587 accept AS-XINON-CARRIER-V4
+export:         to   AS60587 announce AS-RTCNOW
+import:         from AS60823 accept AS-IFORCE
+export:         to   AS60823 announce AS-RTCNOW
+import:         from AS61211 accept AS-Datacross
+export:         to   AS61211 announce AS-RTCNOW
+import:         from AS61423 accept AS-JMP
+export:         to   AS61423 announce AS-RTCNOW
+import:         from AS62363 accept AS-EGW
+export:         to   AS62363 announce AS-RTCNOW
+import:         from AS62373 accept AS62373
+export:         to   AS62373 announce AS-RTCNOW
+import:         from AS198524 accept AS-ILOL
+export:         to   AS198524 announce AS-RTCNOW
+import:         from AS199081 accept AS199081
+export:         to   AS199081 announce AS-RTCNOW
+import:         from AS199570 accept AS199570
+export:         to   AS199570 announce AS-RTCNOW
+import:         from AS200070 accept AS-CZNIC-TRANSIT
+export:         to   AS200070 announce AS-RTCNOW
+import:         from AS200970 accept AS-RIEPERT
+export:         to   AS200970 announce AS-RTCNOW
+import:         from AS203752 accept AS-E-CAPS
+export:         to   AS203752 announce AS-RTCNOW
+import:         from AS204419 accept AS204419
+export:         to   AS204419 announce AS-RTCNOW
+import:         from AS205243 accept as-cloudnow-v4
+export:         to   AS205243 announce AS-RTCNOW
+import:         from AS207203 accept AS-TIMEWARP-SET
+export:         to   AS207203 announce AS-RTCNOW
+import:         from AS208414 accept AS-WEDOS-GLOBAL
+export:         to   AS208414 announce AS-RTCNOW
+import:         from AS211510 accept AS211510
+export:         to   AS211510 announce AS-RTCNOW
+import:         from AS212131 accept AS212131
+export:         to   AS212131 announce AS-RTCNOW
+import:         from AS215219 accept AS215219
+export:         to   AS215219 announce AS-RTCNOW
+import:         from AS216369 accept AS216369:AS-JKDEV-OUT
+export:         to   AS216369 announce AS-RTCNOW
+import:         from AS396986 accept AS396986
+export:         to   AS396986 announce AS-RTCNOW
+remarks:        ===========================================================
+remarks:        IPv6 Peerings VIX
+remarks:        ===========================================================
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-export:      afi ipv6.unicast to   AS42 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS112 accept AS112
+mp-export:      afi ipv6.unicast to   AS112 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS1120 accept AS-ACOSERV
+mp-export:      afi ipv6.unicast to   AS1120 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS1853 accept AS-ACONETTOVIX
+mp-export:      afi ipv6.unicast to   AS1853 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS2614 accept AS-ROEDUNET
+mp-export:      afi ipv6.unicast to   AS2614 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS2635 accept AS-AUTOMATTIC
+mp-export:      afi ipv6.unicast to   AS2635 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS2686 accept AS-IGNEMEA
+mp-export:      afi ipv6.unicast to   AS2686 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS2906 accept AS-NFLX
+mp-export:      afi ipv6.unicast to   AS2906 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS3212 accept AS3212:AS-TELEMACH6
+mp-export:      afi ipv6.unicast to   AS3212 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS3223 accept AS-VOXILITY-SET
+mp-export:      afi ipv6.unicast to   AS3223 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS3330 accept AS-PROFINET-V6
+mp-export:      afi ipv6.unicast to   AS3330 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS5403 accept AS-APAV6
+mp-export:      afi ipv6.unicast to   AS5403 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS5405 accept AS-INTERDOTLINK
+mp-export:      afi ipv6.unicast to   AS5405 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS5578 accept AS-BENESTRA
+mp-export:      afi ipv6.unicast to   AS5578 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS5606 accept AS-GTSRO
+mp-export:      afi ipv6.unicast to   AS5606 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS6204 accept AS-INTERKVM
+mp-export:      afi ipv6.unicast to   AS6204 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS6663 accept AS-PANTEL
+mp-export:      afi ipv6.unicast to   AS6663 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS6720 accept AS-MAGWIEN
+mp-export:      afi ipv6.unicast to   AS6720 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS6798 accept ANY
+mp-export:      afi ipv6.unicast to   AS6798 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8075 accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to   AS8075 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8218 accept AS8218:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to   AS8218 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8245 accept AS-VB-PEERS
+mp-export:      afi ipv6.unicast to   AS8245 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8302 accept AS-ZATTOO
+mp-export:      afi ipv6.unicast to   AS8302 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8339 accept AS-KABS
+mp-export:      afi ipv6.unicast to   AS8339 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8387 accept AS8387:AS-T-SYSTEMS-AT-V6
+mp-export:      afi ipv6.unicast to   AS8387 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8400 accept AS-TELEKOM
+mp-export:      afi ipv6.unicast to   AS8400 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8540 accept AS-AMANET
+mp-export:      afi ipv6.unicast to   AS8540 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8560 accept AS-IONOS
+mp-export:      afi ipv6.unicast to   AS8560 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8596 accept AS-HOTZE-V6
+mp-export:      afi ipv6.unicast to   AS8596 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS8674 accept AS-NETNOD-ANYCAST
+mp-export:      afi ipv6.unicast to   AS8674 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-export:      afi ipv6.unicast to   AS9002 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS9009 accept AS-GBXS6
+mp-export:      afi ipv6.unicast to   AS9009 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS9119 accept AS-SOFTNET
+mp-export:      afi ipv6.unicast to   AS9119 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS10310 accept AS-YAHOO
+mp-export:      afi ipv6.unicast to   AS10310 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS12401 accept AS-INIC
+mp-export:      afi ipv6.unicast to   AS12401 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS12453 accept AS-KRAFTCOM
+mp-export:      afi ipv6.unicast to   AS12453 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS12577 accept AS-MMC-V6-AT
+mp-export:      afi ipv6.unicast to   AS12577 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS12605 accept AS-LIWESTAT-IPV6
+mp-export:      afi ipv6.unicast to   AS12605 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS13004 accept AS-SOX
+mp-export:      afi ipv6.unicast to   AS13004 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS13237 accept AS-LAMBDANET
+mp-export:      afi ipv6.unicast to   AS13237 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS15576 accept AS-NTS
+mp-export:      afi ipv6.unicast to   AS15576 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS15702 accept AS-ONSTAGE-IPV6
+mp-export:      afi ipv6.unicast to   AS15702 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS16276 accept ANY
+mp-export:      afi ipv6.unicast to   AS16276 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS20546 accept AS-MYRASEC
+mp-export:      afi ipv6.unicast to   AS20546 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS20704 accept AS-FUNKNETZ
+mp-export:      afi ipv6.unicast to   AS20704 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS20804 accept AS-EXATEL-INT
+mp-export:      afi ipv6.unicast to   AS20804 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS20940 accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to   AS20940 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS21013 accept AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to   AS21013 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS21360 accept AS-EMPIRION
+mp-export:      afi ipv6.unicast to   AS21360 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS21385 accept AS-TNIB
+mp-export:      afi ipv6.unicast to   AS21385 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS24864 accept AS-R-IT-V6
+mp-export:      afi ipv6.unicast to   AS24864 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS24940 accept AS-HETZNER
+mp-export:      afi ipv6.unicast to   AS24940 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS24953 accept AS-24953
+mp-export:      afi ipv6.unicast to   AS24953 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS25152 accept AS25152
+mp-export:      afi ipv6.unicast to   AS25152 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS25255 accept AS-H3G-AUSTRIA
+mp-export:      afi ipv6.unicast to   AS25255 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS25447 accept AS-JM-DATA
+mp-export:      afi ipv6.unicast to   AS25447 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS25467 accept AS-AKTON
+mp-export:      afi ipv6.unicast to   AS25467 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS25575 accept AS-DOMAINTECHNIK
+mp-export:      afi ipv6.unicast to   AS25575 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS26415 accept AS-GTLD
+mp-export:      afi ipv6.unicast to   AS26415 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS28760 accept AS-INFOTECH-V6
+mp-export:      afi ipv6.unicast to   AS28760 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS28889 accept AS-LINZNET
+mp-export:      afi ipv6.unicast to   AS28889 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS29056 accept AS29056:AS-CITYCOM
+mp-export:      afi ipv6.unicast to   AS29056 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS29081 accept AS-WVNETAT-IP6
+mp-export:      afi ipv6.unicast to   AS29081 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS29208 accept AS-DIALTELECOM
+mp-export:      afi ipv6.unicast to   AS29208 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS30081 accept AS-CACHENETWORKS
+mp-export:      afi ipv6.unicast to   AS30081 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS30971 accept AS-NICAT
+mp-export:      afi ipv6.unicast to   AS30971 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS31042 accept AS-SBB-V6
+mp-export:      afi ipv6.unicast to   AS31042 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS31229 accept AS-BEYOND
+mp-export:      afi ipv6.unicast to   AS31229 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS31317 accept AS-ANSCHLUSSWERK
+mp-export:      afi ipv6.unicast to   AS31317 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS31510 accept AS-IKB
+mp-export:      afi ipv6.unicast to   AS31510 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS31529 accept AS-DENIC-ANY
+mp-export:      afi ipv6.unicast to   AS31529 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS31543 accept AS-MYNET-AT
+mp-export:      afi ipv6.unicast to   AS31543 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS32590 accept AS-VALVE
+mp-export:      afi ipv6.unicast to   AS32590 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS32787 accept AS-PROLE
+mp-export:      afi ipv6.unicast to   AS32787 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS32934 accept ANY
+mp-export:      afi ipv6.unicast to   AS32934 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS34183 accept AS-BMG
+mp-export:      afi ipv6.unicast to   AS34183 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS34288 accept AS34288:AS-IX:AS-VIX
+mp-export:      afi ipv6.unicast to   AS34288 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS34347 accept AS-CNHAT-V6
+mp-export:      afi ipv6.unicast to   AS34347 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS34758 accept AS-AXERA
+mp-export:      afi ipv6.unicast to   AS34758 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS34772 accept AS-NEOTEL-SET
+mp-export:      afi ipv6.unicast to   AS34772 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS34779 accept AS-T2-CUST
+mp-export:      afi ipv6.unicast to   AS34779 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS35339 accept AS-ATNOC
+mp-export:      afi ipv6.unicast to   AS35339 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS35369 accept AS-LAGIS6
+mp-export:      afi ipv6.unicast to   AS35369 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS39560 accept AS-KT-NET
+mp-export:      afi ipv6.unicast to   AS39560 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS39878 accept as-rauter
+mp-export:      afi ipv6.unicast to   AS39878 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS39912 accept AS-I3B-TRANSIT-V6
+mp-export:      afi ipv6.unicast to   AS39912 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS40994 accept AS-ALWYZON
+mp-export:      afi ipv6.unicast to   AS40994 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS43061 accept AS-STELKOM-CUST
+mp-export:      afi ipv6.unicast to   AS43061 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS43957 accept AS-WNTNEWMEDIA
+mp-export:      afi ipv6.unicast to   AS43957 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS44306 accept AS-OMONIA
+mp-export:      afi ipv6.unicast to   AS44306 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS44765 accept ANY
+mp-export:      afi ipv6.unicast to   AS44765 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS44865 accept AS44865
+mp-export:      afi ipv6.unicast to   AS44865 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS47147 accept AS-ANX
+mp-export:      afi ipv6.unicast to   AS47147 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS47692 accept AS-NESSUS-V6
+mp-export:      afi ipv6.unicast to   AS47692 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS48152 accept AS-DRT
+mp-export:      afi ipv6.unicast to   AS48152 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS48339 accept AS-RRZS
+mp-export:      afi ipv6.unicast to   AS48339 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS48362 accept AS-TKSWF6
+mp-export:      afi ipv6.unicast to   AS48362 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS48943 accept AS-KAPPERNET
+mp-export:      afi ipv6.unicast to   AS48943 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS49322 accept AS49322
+mp-export:      afi ipv6.unicast to   AS49322 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS49544 accept AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to   AS49544 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS49808 accept AS-POWERSPEED-V6
+mp-export:      afi ipv6.unicast to   AS49808 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS50226 accept AS-NETCOMPANY
+mp-export:      afi ipv6.unicast to   AS50226 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS50507 accept AS-EURACTOVIX
+mp-export:      afi ipv6.unicast to   AS50507 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS50629 accept ANY
+mp-export:      afi ipv6.unicast to   AS50629 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS50782 accept AS50782:AS-COSYS
+mp-export:      afi ipv6.unicast to   AS50782 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS51184 accept AS-MEDIAINVENT
+mp-export:      afi ipv6.unicast to   AS51184 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS51265 accept AS51265
+mp-export:      afi ipv6.unicast to   AS51265 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS51776 accept ANY
+mp-export:      afi ipv6.unicast to   AS51776 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS54113 accept AS-FASTLY
+mp-export:      afi ipv6.unicast to   AS54113 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS54994 accept ANY
+mp-export:      afi ipv6.unicast to   AS54994 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS55256 accept AS55256
+mp-export:      afi ipv6.unicast to   AS55256 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS57169 accept AS-EDIS
+mp-export:      afi ipv6.unicast to   AS57169 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS57463 accept AS-NETIX-INT
+mp-export:      afi ipv6.unicast to   AS57463 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS59890 accept AS-LAMPERT
+mp-export:      afi ipv6.unicast to   AS59890 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS60274 accept AS60274
+mp-export:      afi ipv6.unicast to   AS60274 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS60517 accept AS-CABLEVISION
+mp-export:      afi ipv6.unicast to   AS60517 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS60587 accept AS-XINON-CARRIER-V6
+mp-export:      afi ipv6.unicast to   AS60587 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS60823 accept AS-IFORCE
+mp-export:      afi ipv6.unicast to   AS60823 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS61423 accept AS-JMP
+mp-export:      afi ipv6.unicast to   AS61423 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS62363 accept AS-EGW
+mp-export:      afi ipv6.unicast to   AS62363 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS62373 accept AS62373
+mp-export:      afi ipv6.unicast to   AS62373 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS198524 accept AS-ILOL
+mp-export:      afi ipv6.unicast to   AS198524 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS199081 accept AS199081
+mp-export:      afi ipv6.unicast to   AS199081 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS199570 accept AS199570
+mp-export:      afi ipv6.unicast to   AS199570 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS200070 accept AS-CZNIC-TRANSIT
+mp-export:      afi ipv6.unicast to   AS200070 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS200970 accept AS-RIEPERT
+mp-export:      afi ipv6.unicast to   AS200970 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS203752 accept AS-E-CAPS
+mp-export:      afi ipv6.unicast to   AS203752 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS204419 accept AS204419
+mp-export:      afi ipv6.unicast to   AS204419 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS205243 accept as-cloudnow-v6
+mp-export:      afi ipv6.unicast to   AS205243 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS207203 accept AS-TIMEWARP-SET
+mp-export:      afi ipv6.unicast to   AS207203 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS208414 accept AS-WEDOS-GLOBAL
+mp-export:      afi ipv6.unicast to   AS208414 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS211510 accept AS211510
+mp-export:      afi ipv6.unicast to   AS211510 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS215219 accept AS215219
+mp-export:      afi ipv6.unicast to   AS215219 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS216369 accept AS216369:AS-JKDEV-OUT
+mp-export:      afi ipv6.unicast to   AS216369 announce AS-RTCNOW
+mp-import:      afi ipv6.unicast from AS396986 accept AS396986
+mp-export:      afi ipv6.unicast to   AS396986 announce AS-RTCNOW
+remarks:        ===========================================================
+remarks:        For peering requests contact noc@rtcnow.com
+remarks:        ===========================================================
+admin-c:        RTCA1-RIPE
+tech-c:         RTCC1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2002-05-21T14:30:10Z
+last-modified:  2025-02-11T13:03:27Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CIP1-RIPE
+org-name:       RTCnow Streaming Services GmbH
+country:        AT
+org-type:       LIR
+address:        Renngasse 5/11
+address:        1010
+address:        Wien
+address:        AUSTRIA
+phone:          +43 1 24299 0
+phone:          +43 50 9555
+abuse-c:        AR60844-RIPE
+admin-c:        RZ140-RIPE
+mnt-ref:        AT-CPSNET-MNT
+mnt-ref:        AT-RTCNOW-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2004-04-17T10:58:26Z
+last-modified:  2021-08-18T08:07:18Z
+source:         RIPE # Filtered
+
+role:           RTCnow EU Network Administration
+address:        RTCnow Streaming Services GmbH
+address:        Zirkusgasse 36/1
+address:        A-1020 Vienna
+address:        Austria
+phone:          +43 50 955
+remarks:        ---------------------------------------------------------
+remarks:        RTCnow Network Admin is reachable during working hours
+remarks:        Mo-Fr 08:00 and 18:00 CET-1
+remarks:        RTCnow NOC is reachable 24x7 via +43 660 7509550
+remarks:        Trouble Ticket generation: noc.eu@rtcnow.com.
+remarks:        ---------------------------------------------------------
+admin-c:        RZ140-RIPE
+tech-c:         RTCC1-RIPE
+nic-hdl:        RTCA1-RIPE
+mnt-by:         AT-RTCNOW-MNT
+created:        2016-02-06T07:52:36Z
+last-modified:  2022-12-14T23:25:53Z
+source:         RIPE # Filtered
+
+role:           RTCnow EU Network Operation Center
+address:        RTCnow Streaming Services GmbH
+address:        Zirkusgasse 36/1
+address:        A-1020 Vienna
+address:        Austria
+phone:          +43 50 955
+remarks:        ---------------------------------------------------------
+remarks:        RTCnow Network Admin is reachable during working hours
+remarks:        Mo-Fr 08:00 and 18:00 CET-1
+remarks:        RTCnow NOC is reachable 24x7 via +43 660 7509550
+remarks:        Trouble Ticket generation: noc.eu@rtcnow.com.
+remarks:        ---------------------------------------------------------
+admin-c:        RZ140-RIPE
+tech-c:         RZ140-RIPE
+nic-hdl:        RTCC1-RIPE
+mnt-by:         AT-RTCNOW-MNT
+created:        2016-02-06T07:50:43Z
+last-modified:  2017-08-18T16:25:24Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          62.13.192.0/19
+descr:          RTCnow Streaming Services GmbH
+descr:          PROVIDER
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-09-25T17:58:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.192.0/21
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-23T20:02:34Z
+last-modified:  2017-08-23T20:02:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.192.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:09:14Z
+last-modified:  2017-08-18T16:09:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.193.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:09:14Z
+last-modified:  2017-08-18T16:09:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.194.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:09:14Z
+last-modified:  2017-08-18T16:09:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.195.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:09:14Z
+last-modified:  2017-08-18T16:09:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.196.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:09:14Z
+last-modified:  2017-08-18T16:09:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.197.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:09:14Z
+last-modified:  2017-08-18T16:09:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.198.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:02:29Z
+last-modified:  2017-08-18T16:02:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.199.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:02:36Z
+last-modified:  2017-08-18T16:02:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.200.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:01:20Z
+last-modified:  2017-08-18T16:01:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.201.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:01:58Z
+last-modified:  2017-08-18T16:01:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.202.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:02:11Z
+last-modified:  2017-08-18T16:02:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.203.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:14:54Z
+last-modified:  2017-08-18T16:14:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.204.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:14:54Z
+last-modified:  2017-08-18T16:14:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.205.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:14:54Z
+last-modified:  2017-08-18T16:14:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.206.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:14:54Z
+last-modified:  2017-08-18T16:14:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.207.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:14:55Z
+last-modified:  2017-08-18T16:14:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.208.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:14:55Z
+last-modified:  2017-08-18T16:14:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.209.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:14:55Z
+last-modified:  2017-08-18T16:14:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.210.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T15:59:19Z
+last-modified:  2017-08-18T15:59:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.211.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:14:55Z
+last-modified:  2017-08-18T16:14:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.212.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter New York
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-02-17T08:08:18Z
+last-modified:  2017-02-17T08:08:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.213.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter New York
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-02-17T08:08:36Z
+last-modified:  2017-02-17T08:08:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.214.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:15:22Z
+last-modified:  2017-08-18T16:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.215.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:15:22Z
+last-modified:  2017-08-18T16:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.216.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:15:22Z
+last-modified:  2017-08-18T16:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.217.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:15:22Z
+last-modified:  2017-08-18T16:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.218.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:15:22Z
+last-modified:  2017-08-18T16:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.219.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:15:22Z
+last-modified:  2017-08-18T16:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.220.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T15:59:54Z
+last-modified:  2017-08-18T15:59:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.221.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:15:22Z
+last-modified:  2017-08-18T16:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.222.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:15:22Z
+last-modified:  2017-08-18T16:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.13.223.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-18T16:15:23Z
+last-modified:  2017-08-18T16:15:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.138.124.0/22
+origin:         AS15498
+mnt-by:         AT-RTCNOW-MNT
+mnt-by:         AS15498-MNT
+created:        2017-10-11T21:22:51Z
+last-modified:  2017-10-11T21:22:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.138.124.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2025-02-12T16:31:41Z
+last-modified:  2025-02-12T16:31:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.138.125.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2025-02-12T16:31:53Z
+last-modified:  2025-02-12T16:31:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.138.126.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2025-02-12T16:32:03Z
+last-modified:  2025-02-12T16:32:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.138.127.0/24
+descr:          RTCnow Streaming Services GmbH
+descr:          RTCnow Datacenter Z4ATVIE10
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2025-02-12T16:32:11Z
+last-modified:  2025-02-12T16:32:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:d88::/29
+descr:          RTCnow Streaming Services GmbH
+descr:          PROVIDER
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-24T09:16:19Z
+last-modified:  2022-04-05T21:26:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:d88::/32
+descr:          RTCnow Streaming Services GmbH
+descr:          PROVIDER
+origin:         AS15498
+mnt-by:         AS15498-MNT
+mnt-by:         AT-CPSNET-MNT
+created:        2009-11-08T08:16:48Z
+last-modified:  2022-04-05T21:26:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:d88::/46
+descr:          RTCnow Streaming Services GmbH
+descr:          PROVIDER
+origin:         AS15498
+notify:         noc.eu@rtcnow.com
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-24T14:38:07Z
+last-modified:  2022-04-05T21:25:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:d88:4::/46
+descr:          RTCnow Streaming Services GmbH
+descr:          PROVIDER
+origin:         AS15498
+notify:         noc.eu@rtcnow.com
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-24T14:38:40Z
+last-modified:  2022-04-05T21:26:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:d88:8::/46
+descr:          RTCnow Streaming Services GmbH
+descr:          PROVIDER
+origin:         AS15498
+notify:         noc.eu@rtcnow.com
+mnt-by:         AS15498-MNT
+mnt-by:         AT-RTCNOW-MNT
+created:        2017-08-24T14:38:54Z
+last-modified:  2022-04-05T21:26:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

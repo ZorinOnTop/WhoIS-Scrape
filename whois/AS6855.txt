@@ -1,0 +1,1117 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6855'
+
+% Abuse contact for 'AS6855' is 'abuse@telekom.sk'
+
+aut-num:        AS6855
+as-name:        SK-TELEKOM
+descr:          Slovak Telekom / T-Mobile CZ
+org:            ORG-ST4-RIPE
+remarks:        --------------
+remarks:        -- Upstream --
+remarks:        --------------
+import:         from AS3320 action pref=60; accept ANY
+import:         from AS1299 action pref=60; accept ANY
+remarks:        -------------
+remarks:        -- Peering --
+remarks:        -------------
+import:         from AS-SIXSTIP-SET action pref=70; accept ANY
+remarks:        ----------------
+remarks:        -- Upstream --
+remarks:        --------------
+export:         to AS3320 announce AS-SLOVAK
+export:         to AS1299 announce AS-SLOVAK
+export:         to AS5588 announce AS13036
+remarks:        -------------
+remarks:        -- Peering --
+remarks:        -------------
+export:         to AS-SIXSTIP-SET announce AS-SLOVAK
+remarks:        ----------------
+default:        to AS3320 action pref=100; networks ANY
+remarks:        ==============================
+remarks:        Communities to control traffic
+remarks:        6855:1101 Do not announce to SIX
+remarks:        6855:1102 Do not announce to DT AS3320
+remarks:        6855:1107 Do not announce to TeliaSonera AS1299
+remarks:        6855:1201 Prepend 6855 when announcing to SIX
+remarks:        6855:1202 Prepend 6855 when announcing to AS3320
+remarks:        6855:1207 Prepend 6855 when announcing to AS1299
+remarks:        6855:1301 Prepend 6855 6855 when announcing to SIX
+remarks:        6855:1302 Prepend 6855 6855 when announcing to AS3320
+remarks:        6855:1307 Prepend 6855 6855 when announcing to AS1299
+remarks:        6855:50 SET_LOCAL_PREFERENCE to 50
+remarks:        6855:90 SET_LOCAL_PREFERENCE to 90
+remarks:        LOC_PREF settings
+remarks:        50 Customer routes - GLOBAL BACKUP
+remarks:        60 Upstream providers
+remarks:        70 Peering partners
+remarks:        90 Customer routes - BACKUP links with ST AS6855
+remarks:        100 Customer routes - PRIMARY connections
+remarks:        Other:
+remarks:        DSCP = 0 on ANY connection
+remarks:        (upstream, peer, customers, dial customers, VPN customers)
+remarks:        ================
+remarks:        Route colouring:
+remarks:        6855:2401 Routes from SIX peering
+remarks:        6855:2402 Routes from DT
+remarks:        6855:2407 Routes from TeliaSonera
+remarks:        6855:2700 Default route
+remarks:        POP NAME POP ID PA comm strings PI comm strings
+remarks:        <name> xx 6855:26xx 6855:25xx
+remarks:        ==================================================
+admin-c:        STIP-RIPE
+tech-c:         STIP-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2020-11-02T09:17:37Z
+source:         RIPE
+
+organisation:   ORG-ST4-RIPE
+org-name:       Slovak Telekom, a.s.
+country:        SK
+org-type:       LIR
+address:        Bajkalska 28
+address:        817 62
+address:        Bratislava
+address:        SLOVAKIA
+phone:          +421258823205
+mnt-ref:        SK-TELECOM-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SK-TELECOM-MNT
+admin-c:        JK1887-RIPE
+admin-c:        RJAR-RIPE
+admin-c:        SI261-RIPE
+admin-c:        MM34621-RIPE
+admin-c:        MB1059-RIPE
+abuse-c:        STIP-RIPE
+created:        2004-04-17T12:06:36Z
+last-modified:  2022-08-11T13:54:20Z
+source:         RIPE # Filtered
+
+role:           Slovak Telecom Network Administrator
+address:        Slovak Telekom, a.s.
+address:        Bajkalska 28, 81762 Bratislava, Slovak republic
+abuse-mailbox:  abuse@telekom.sk
+admin-c:        JK1887-RIPE
+tech-c:         JK1887-RIPE
+tech-c:         MM34621-RIPE
+tech-c:         RJAR-RIPE
+nic-hdl:        STIP-RIPE
+mnt-by:         SK-TELECOM-MNT
+created:        2002-10-14T08:17:59Z
+last-modified:  2015-05-12T11:27:29Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          78.98.0.0/15
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+created:        2007-05-02T14:50:28Z
+last-modified:  2007-05-02T14:50:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.47.0.0/17
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+created:        2009-03-09T11:13:41Z
+last-modified:  2009-03-09T11:13:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.239.68.0/24
+origin:         AS6855
+mnt-by:         ANECT-MNT
+created:        2023-07-26T13:11:11Z
+last-modified:  2023-07-26T13:11:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.239.69.0/24
+origin:         AS6855
+mnt-by:         ANECT-MNT
+created:        2023-07-26T13:10:26Z
+last-modified:  2023-07-26T13:10:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.239.80.0/21
+origin:         AS6855
+mnt-by:         ANECT-MNT
+created:        2024-05-20T09:27:22Z
+last-modified:  2024-05-20T09:27:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.239.80.0/23
+origin:         AS6855
+mnt-by:         PM61812-MNT
+mnt-by:         ANECT-MNT
+created:        2021-02-23T19:22:03Z
+last-modified:  2021-02-23T19:22:55Z
+source:         RIPE
+descr:          ANECT Brno route
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.239.82.0/23
+origin:         AS6855
+mnt-by:         ANECT-MNT
+created:        2022-05-30T13:27:03Z
+last-modified:  2022-05-30T13:29:35Z
+source:         RIPE
+descr:          ANECT Praha route
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.239.84.0/22
+origin:         AS6855
+mnt-by:         ANECT-MNT
+created:        2022-05-30T13:31:01Z
+last-modified:  2022-05-30T13:31:01Z
+source:         RIPE
+descr:          ANECT Praha route
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.248.31.0/24
+descr:          SPP Distribucia NET
+origin:         AS6855
+mnt-by:         GTSSK-MNT
+created:        2019-06-27T09:27:10Z
+last-modified:  2019-06-27T09:27:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.248.74.0/24
+origin:         AS6855
+mnt-by:         GTSSK-MNT
+mnt-by:         SWAN-MNT
+created:        2020-09-03T11:58:58Z
+last-modified:  2020-09-03T11:59:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.197.0.0/16
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         SK-TELECOM-MNT
+created:        2005-07-04T15:42:58Z
+last-modified:  2005-07-04T15:42:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.127.0.0/16
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+created:        2006-10-24T16:59:37Z
+last-modified:  2006-10-24T16:59:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.195.106.0/23
+descr:          CESKA SPRAVA SOCIALNIHO ZABEZPECENI
+origin:         AS6855
+mnt-by:         CSSZ-MNT
+created:        2022-05-10T11:56:29Z
+last-modified:  2022-05-10T11:56:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.195.106.0/24
+descr:          CESKA SPRAVA SOCIALNIHO ZABEZPECENI
+origin:         AS6855
+mnt-by:         CSSZ-MNT
+created:        2022-05-10T11:56:29Z
+last-modified:  2022-05-10T11:56:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.195.107.0/24
+descr:          CESKA SPRAVA SOCIALNIHO ZABEZPECENI
+origin:         AS6855
+mnt-by:         CSSZ-MNT
+created:        2022-05-10T11:56:29Z
+last-modified:  2022-05-10T11:56:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.213.10.0/24
+descr:          CGI IT Czech Republic
+origin:         AS6855
+mnt-by:         GTSCZ-MNT
+created:        2022-05-13T07:41:02Z
+last-modified:  2022-05-13T07:41:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.220.237.0/24
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+created:        2010-12-19T20:33:48Z
+last-modified:  2010-12-19T20:33:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.245.16.0/23
+descr:          Network of Coolhousing
+origin:         AS6855
+mnt-by:         COOLHOUSING-MNT
+created:        2022-06-01T10:18:13Z
+last-modified:  2022-06-01T10:18:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.153.100.0/23
+descr:          T-Mobile Czech Republic a.s.
+origin:         AS6855
+mnt-by:         AS13036-MNT
+created:        2022-05-20T14:42:34Z
+last-modified:  2022-05-20T14:42:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.153.124.0/22
+descr:          T-Mobile Czech Republic a.s.
+origin:         AS6855
+mnt-by:         AS13036-MNT
+created:        2022-05-20T14:45:05Z
+last-modified:  2022-05-20T14:45:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.102.0.0/15
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+created:        2009-02-09T15:52:24Z
+last-modified:  2009-02-09T15:52:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.102.128.0/17
+origin:         AS6855
+mnt-by:         AS6855-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        2020-02-09T14:41:33Z
+last-modified:  2020-02-09T14:41:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.103.0.0/18
+origin:         AS6855
+mnt-by:         AS6855-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        2020-02-10T23:03:09Z
+last-modified:  2020-02-10T23:03:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.103.64.0/18
+origin:         AS6855
+mnt-by:         AS6855-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        2020-02-10T23:03:37Z
+last-modified:  2020-02-10T23:03:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.40.0.0/15
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+created:        2010-02-02T09:34:21Z
+last-modified:  2010-02-02T09:34:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.41.128.0/17
+origin:         AS6855
+mnt-by:         AS6855-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        2020-02-09T14:41:00Z
+last-modified:  2020-02-09T14:41:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.19.72.0/22
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+created:        2013-03-13T08:58:37Z
+last-modified:  2013-03-13T08:58:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.58.102.0/24
+origin:         AS6855
+mnt-by:         AS6855-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        2023-05-10T12:56:13Z
+last-modified:  2023-05-10T12:57:34Z
+source:         RIPE
+descr:          GP Technology
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.58.103.0/24
+origin:         AS6855
+mnt-by:         AS6855-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        2023-05-15T06:21:01Z
+last-modified:  2023-05-15T06:21:01Z
+source:         RIPE
+descr:          GP Technology
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.84.7.0/24
+descr:          Ministry of Health of The Czech Republic
+origin:         AS6855
+mnt-by:         GTSCZ-MNT
+created:        2022-05-16T13:20:39Z
+last-modified:  2022-05-16T13:20:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.84.96.0/24
+descr:          MPO-GTS
+origin:         AS6855
+mnt-by:         GTSCZ-MNT
+created:        2022-05-16T13:47:14Z
+last-modified:  2022-05-16T13:47:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.84.97.0/24
+descr:          MPO1-GTS
+origin:         AS6855
+mnt-by:         GTSCZ-MNT
+created:        2022-05-16T13:49:28Z
+last-modified:  2022-05-16T13:49:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.84.98.0/23
+descr:          MPO2-GTS
+origin:         AS6855
+mnt-by:         GTSCZ-MNT
+created:        2022-05-16T13:51:50Z
+last-modified:  2022-05-16T13:51:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.84.157.0/24
+origin:         AS6855
+mnt-by:         MNT-CNB
+created:        2022-05-20T18:11:41Z
+last-modified:  2022-05-20T18:11:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.84.159.0/24
+origin:         AS6855
+mnt-by:         MNT-CNB
+mnt-by:         MNT-CNB
+created:        2022-05-20T18:10:59Z
+last-modified:  2022-05-20T18:10:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.84.245.0/24
+descr:          Ministerstvo zivotniho prostredi
+origin:         AS6855
+mnt-by:         MZP-MNT
+created:        2022-05-10T12:14:34Z
+last-modified:  2022-05-10T12:14:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.200.143.0/24
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+created:        2007-05-02T14:49:32Z
+last-modified:  2007-05-02T14:49:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.201.110.0/24
+descr:          RAIFFEISENBANK-CZ
+origin:         AS6855
+mnt-by:         GTSCZ-MNT
+created:        2022-05-13T08:03:04Z
+last-modified:  2022-05-13T08:03:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.48.241.0/24
+descr:          CZSO-NET
+descr:          CESKY STATISTICKY URAD
+descr:          assigned PI
+origin:         AS6855
+mnt-by:         STATURAD-MNT
+created:        2022-05-12T05:59:07Z
+last-modified:  2022-05-12T05:59:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.50.215.0/24
+descr:          AS-JT Bank
+origin:         AS6855
+mnt-by:         AS12767-MNT
+created:        2022-05-24T18:13:32Z
+last-modified:  2022-05-24T18:13:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.154.224.0/19
+descr:          Slovak Telekom
+origin:         AS6855
+notify:         regripe@telekom.sk
+notify:         vas@eurotel.sk
+mnt-by:         AS5628-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        2017-08-23T17:04:00Z
+last-modified:  2017-08-23T17:04:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.156.70.0/24
+origin:         AS6855
+mnt-by:         mnt-sk-jukosro-1
+created:        2022-01-24T16:16:47Z
+last-modified:  2022-01-24T16:16:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.169.224.0/24
+descr:          JABLOTRON ALARMS a.s.
+origin:         AS6855
+mnt-by:         SV-AGENCY-MNT
+created:        2022-05-13T12:22:49Z
+last-modified:  2022-05-13T12:22:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.91.0.0/17
+origin:         AS6855
+descr:          Slovak Telekom
+notify:         regripe@telekom.sk
+notify:         vas@eurotel.sk
+mnt-by:         AS5628-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        2017-08-23T17:11:40Z
+last-modified:  2017-08-23T17:11:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.146.128.0/19
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+notify:         regripe@telekom.sk
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-12-05T13:40:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.146.130.0/24
+origin:         AS6855
+mnt-by:         SK-TELECOM-MNT
+created:        2025-02-05T12:20:06Z
+last-modified:  2025-02-05T12:20:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.216.240.0/24
+descr:          RSD-TMCZ
+origin:         AS6855
+mnt-by:         RSD-MNT
+created:        2022-01-06T09:26:59Z
+last-modified:  2022-01-06T09:26:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.5.192.0/19
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         AS6855-MNT
+notify:         regripe@telekom.sk
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-12-05T13:42:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.81.128.0/17
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         SK-TELECOM-MNT
+notify:         regripe@telekom.sk
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-12-05T13:43:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.81.197.0/24
+origin:         AS6855
+mnt-by:         AS6855-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        2021-07-28T05:35:10Z
+last-modified:  2021-07-28T05:35:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.160.160.0/19
+descr:          routes from Slovak Telecom AS6855
+origin:         AS6855
+mnt-by:         SK-TELECOM-MNT
+created:        2003-11-26T11:10:07Z
+last-modified:  2003-11-26T11:10:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:678:c14::/48
+descr:          AISIN-CZ
+origin:         AS6855
+mnt-by:         GTSCZ-MNT
+created:        2022-05-13T07:28:13Z
+last-modified:  2022-05-13T07:28:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:16c0::/48
+descr:          CZSO6-PI-CZ
+descr:          CESKY STATISTICKY URAD
+descr:          assigned PI
+origin:         AS6855
+mnt-by:         STATURAD-MNT
+created:        2022-05-12T05:54:56Z
+last-modified:  2022-05-12T05:54:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:17d0::/48
+descr:          SSHR6-CZ
+descr:          Sprava statnich hmotnych rezerv
+origin:         AS6855
+mnt-by:         GTSCZ-MNT
+created:        2022-05-13T08:35:41Z
+last-modified:  2022-05-13T08:35:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:1bc4::/48
+descr:          Urad prumysloveho vlastnictvi
+origin:         AS6855
+mnt-by:         GTSCZ-MNT
+created:        2022-05-12T08:11:49Z
+last-modified:  2022-05-12T08:11:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:2cc0::/48
+descr:          Sprava Prazskeho hradu
+origin:         AS6855
+mnt-by:         HRAD-CZ-MNT
+created:        2022-05-12T08:01:14Z
+last-modified:  2022-05-12T08:01:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:2f9c::/48
+descr:          RSD-TMCZ
+origin:         AS6855
+mnt-by:         RSD-MNT
+created:        2022-05-11T12:19:07Z
+last-modified:  2022-05-11T12:19:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:12a8::/29
+descr:          IPv6 routes from Slovak Telecom
+origin:         AS6855
+mnt-by:         SK-TELECOM-MNT
+created:        2016-04-26T09:33:05Z
+last-modified:  2016-04-26T09:34:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:6bc0::/32
+descr:          ANECT summary route
+origin:         AS6855
+mnt-by:         ANECT-MNT
+created:        2021-02-26T09:57:06Z
+last-modified:  2021-02-26T09:57:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a01:5f7::/32
+descr:          Network of Coolhousing
+origin:         AS6855
+mnt-by:         COOLHOUSING-MNT
+created:        2022-05-17T15:45:01Z
+last-modified:  2022-05-17T15:45:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:69a0::/32
+origin:         AS6855
+mnt-by:         MNT-CNB
+mnt-by:         MNT-CNB
+created:        2022-05-20T18:10:06Z
+last-modified:  2022-05-20T18:10:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

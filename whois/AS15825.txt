@@ -1,0 +1,109 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15825 - AS15825'
+
+as-block:       AS15825 - AS15825
+descr:          ASN block not managed by the RIPE NCC
+remarks:        ------------------------------------------------------
+remarks:
+remarks:        For registration information,
+remarks:        you can consult the following sources:
+remarks:
+remarks:        IANA
+remarks:        https://www.iana.org/assignments/as-numbers
+remarks:
+remarks:        AFRINIC (Africa)
+remarks:        http://www.afrinic.net/ whois.afrinic.net
+remarks:
+remarks:        APNIC (Asia Pacific)
+remarks:        http://www.apnic.net/ whois.apnic.net
+remarks:
+remarks:        ARIN (Northern America)
+remarks:        http://www.arin.net/ whois.arin.net
+remarks:
+remarks:        LACNIC (Latin America and the Carribean)
+remarks:        http://www.lacnic.net/ whois.lacnic.net
+remarks:
+remarks:        ------------------------------------------------------
+mnt-by:         RIPE-DBM-MNT
+created:        2018-11-22T15:28:03Z
+last-modified:  2018-11-22T15:28:03Z
+source:         RIPE
+
+% Information related to 'AS15825'
+
+% No abuse contact registered for AS15825
+
+aut-num:        AS15825
+as-name:        UNSPECIFIED
+descr:          Network Computer Systems Automomous System
+descr:          7 sixth avenue Ridge in Accra Ghana, We need the AS number    descr:  in order to be multihomed with UUNET and Teleglobe
+import:         from AS701
+                action pref=100;
+                accept ANY
+import:         from AS6453
+                action pref=100;
+                accept ANY
+export:         to AS701
+                announce AS15825
+export:         to AS6453
+                announce AS15825
+default:        to AS6453
+                action pref=100;
+                networks ANY
+admin-c:        NNQ1-RIPE
+tech-c:         WT2-RIPE
+status:         OTHER
+mnt-by:         NCS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-09-04T15:22:32Z
+source:         RIPE-NONAUTH
+
+person:         Nii Narku Quaynor
+address:        Network Computer Systems Ltd.
+address:        7A & 7B Sixth Avenue, Ridge
+address:        Private Mail Bag, Osu
+address:        Accra
+address:        Ghana, West Africa
+phone:          +233 21 220622
+phone:          +233 21 225472
+fax-no:         +233 21 772279
+nic-hdl:        NNQ1-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-04-05T14:25:39Z
+mnt-by:         RIPE-NCC-LOCKED-MNT
+source:         RIPE # Filtered
+
+person:         Werner Tillmann
+address:        Fa. Wuetschner Fahrzeugteile
+address:        Industriestr. 13
+address:        D-97070 Wuerzburg
+address:        Germany
+phone:          +49 931 20027 13
+fax-no:         +49 931 274992
+nic-hdl:        WT2-RIPE
+mnt-by:         DENIC-P
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-21T23:11:20Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          193.194.162.0/23
+descr:          GDC ROUTE OBJECT
+origin:         AS15825
+mnt-by:         GDC-MNT
+changed:        ***@ghana.com 20160411
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

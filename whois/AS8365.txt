@@ -1,0 +1,430 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8365'
+
+% Abuse contact for 'AS8365' is 'abuse@man-da.de'
+
+aut-num:        AS8365
+as-name:        MANDA
+org:            ORG-MA6-RIPE
+remarks:        Metropolitan Area Network Darmstadt -
+remarks:        Darmstadt and Southern Hessian
+remarks:        scientific community Network
+remarks:        ============ IXP ============
+import:         from AS-MANDA-DECIX-PEERS-v4 accept ANY
+export:         to AS-MANDA-DECIX-PEERS-v4 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS-MANDA-DECIX-PEERS-v6 accept ANY
+mp-export:      afi ipv6.unicast to AS-MANDA-DECIX-PEERS-v6 announce AS-MANDA
+remarks:        ---------------------------------------------------------------
+import:         from AS-MANDA-AMSIX-PEERS-v4 accept ANY
+export:         to AS-MANDA-AMSIX-PEERS-v4 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS-MANDA-AMSIX-PEERS-v6 accept ANY
+mp-export:      afi ipv6.unicast to AS-MANDA-AMSIX-PEERS-v6 announce AS-MANDA
+import:         from AS6777 accept <^AS8365>
+export:         to AS6777 action community .= { 6777:8365 }; announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS6777 accept <^AS8365>
+mp-export:      afi ipv6.unicast to AS6777 action community .= { 6777:8365 }; announce AS-MANDA
+remarks:        ----------------------------------------------------------------
+import:         from AS-MANDA-ECIX-PEERS-v4 accept ANY
+export:         to AS-MANDA-ECIX-PEERS-v4 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS-MANDA-ECIX-PEERS-v6 accept ANY
+mp-export:      afi ipv6.unicast to AS-MANDA-ECIX-PEERS-v6 announce AS-MANDA
+remarks:        ----------------------------------------------------------------
+import:         from AS-MANDA-LINX-PEERS-v4 accept ANY
+export:         to AS-MANDA-LINX-PEERS-v4 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS-MANDA-LINX-PEERS-v6 accept ANY
+mp-export:      afi ipv6.unicast to AS-MANDA-LINX-PEERS-v6 announce AS-MANDA
+remarks:        ============ PNI ============
+import:         from AS553 accept AS-BELWUE AS-SWITCH AS-CERNEXT
+export:         to AS553 announce AS-MANDA AS-MANDA-AMSIX-PEERS-v4
+mp-import:      afi ipv6.unicast from AS553 accept AS-BELWUE AS-SWITCH AS-CERNEXT
+mp-export:      afi ipv6.unicast to AS553 announce AS-MANDA AS-MANDA-AMSIX-PEERS-v6
+remarks:        ------------------------------
+import:         from AS20633 accept AS20633
+export:         to AS20633 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS20633 accept AS20633
+mp-export:      afi ipv6.unicast to AS20633 announce AS-MANDA
+remarks:        ------------------------------
+import:         from AS12897 accept AS-MEDIANET
+export:         to AS12897 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS12897 accept AS-MEDIANET
+mp-export:      afi ipv6.unicast to AS12897 announce AS-MANDA
+remarks:        ------------------------------
+import:         from AS15169 accept AS15169
+export:         to AS15169 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS15169 accept AS15169
+mp-export:      afi ipv6.unicast to AS15169 announce AS-MANDA
+remarks:        ------------------------------
+import:         from AS3209 accept AS3209
+export:         to AS3209 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS3209 accept AS3209
+mp-export:      afi ipv6.unicast to AS3209 announce AS-MANDA
+remarks:        ------------------------------
+import:         from AS8878 accept AS8878
+export:         to AS8878 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS8878 accept AS8878
+mp-export:      afi ipv6.unicast to AS8878 announce AS-MANDA
+remarks:        ------------------------------
+import:         from AS201213 accept AS201213
+export:         to AS201213 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS201213 accept AS201213
+mp-export:      afi ipv6.unicast to AS201213 announce AS-MANDA
+remarks:        ------------------------------
+import:         from AS28676 accept AS28676
+export:         to AS28676 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS28676 accept AS28676
+mp-export:      afi ipv6.unicast to AS28676 announce AS-MANDA
+remarks:        ------------------------------
+import:         from AS34966 accept AS34966
+export:         to AS34966 announce AS-MANDA
+remarks:        ============ Upstream ============
+import:         from AS2914 accept ANY
+export:         to AS2914 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS2914 accept ANY
+mp-export:      afi ipv6.unicast to AS2914 announce AS-MANDA
+remarks:        ----------------------------------------------
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-MANDA
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-MANDA
+remarks:        ============ Downstream ============
+import:         from AS2857 accept AS-RLP-NET
+export:         to AS2857 announce ANY
+mp-import:      afi ipv6.unicast from AS2857 accept AS-RLP-NET
+mp-export:      afi ipv6.unicast to AS2857 announce ANY
+remarks:        -----------------------------------------
+import:         from AS12643 accept AS12643
+export:         to AS12643 announce ANY
+mp-import:      afi ipv6.unicast from AS12643 accept AS12643
+mp-export:      afi ipv6.unicast to AS12643 announce ANY
+remarks:        ------------------------------------------
+import:         from AS28714 accept AS28714
+export:         to AS28714 announce ANY
+mp-import:      afi ipv6.unicast from AS28714 accept AS28714
+mp-export:      afi ipv6.unicast to AS28714 announce ANY
+remarks:        ------------------------------------------
+import:         from AS212795 accept AS212795
+export:         to AS212795 announce ANY
+mp-import:      afi ipv6.unicast from AS212795 accept AS212795
+mp-export:      afi ipv6.unicast to AS212795 announce ANY
+remarks:        ------------------------------------------
+import:         from AS35548 accept AS-SMARTTERRA
+export:         to AS35548 announce ANY
+mp-import:      afi ipv6.unicast from AS35548 accept AS-SMARTTERRA
+mp-export:      afi ipv6.unicast to AS35548 announce ANY
+remarks:        ------------------------------------------
+import:         from AS50595 accept AS50595
+export:         to AS50595 announce ANY
+mp-import:      afi ipv6.unicast from AS50595 accept AS50595
+mp-export:      afi ipv6.unicast to AS50595 announce ANY
+remarks:        ------------------------------------------
+import:         from AS209499 accept AS209499
+export:         to AS209499 announce ANY
+mp-import:      afi ipv6.unicast from AS209499 accept AS209499
+mp-export:      afi ipv6.unicast to AS209499 announce ANY
+remarks:        ------------------------------------------
+import:         from AS6766 accept AS6766
+export:         to AS6766 announce ANY
+mp-import:      afi ipv6.unicast from AS6766 accept AS6766
+mp-export:      afi ipv6.unicast to AS6766 announce ANY
+remarks:        ------------------------------------------
+import:         from AS201339 accept AS201339
+export:         to AS201339 announce ANY
+remarks:        ------------------------------------------------------
+admin-c:        AE4287-RIPE
+admin-c:        TK1226-RIPE
+admin-c:        LK3276-RIPE
+tech-c:         MAND2-RIPE
+remarks:        ------------------------------------------------------
+remarks:        For peering requests please send mail to
+remarks:        peering@man-da.de
+remarks:        ------------------------------------------------------
+remarks:        Information: http://www.man-da.de/
+remarks:        Please contact abuse@man-da.de for abuse management
+remarks:        ------------------------------------------------------
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MANDA-MNT
+created:        2002-07-19T12:22:37Z
+last-modified:  2025-08-07T15:28:46Z
+source:         RIPE # Filtered
+
+organisation:   ORG-MA6-RIPE
+org-name:       Man-da.de GmbH
+country:        DE
+org-type:       LIR
+address:        Dolivostr. 11
+address:        64293
+address:        Darmstadt
+address:        GERMANY
+phone:          +4961511671199
+mnt-ref:        MANDA-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MANDA-MNT
+admin-c:        MAND2-RIPE
+tech-c:         MAND2-RIPE
+abuse-c:        MAND2-RIPE
+created:        2004-04-17T11:09:47Z
+last-modified:  2020-12-16T12:58:26Z
+source:         RIPE # Filtered
+
+role:           Metropolitan Area Network Darmstadt
+address:        man-da.de GmbH
+address:        Dolivostr. 11
+address:        64293 Darmstadt, Germany
+address:        Germany
+phone:          +49 6151 16 71199
+admin-c:        AE4287-RIPE
+admin-c:        TK1226-RIPE
+admin-c:        LK3276-RIPE
+tech-c:         TK1226-RIPE
+tech-c:         AE4287-RIPE
+tech-c:         LK3276-RIPE
+nic-hdl:        MAND2-RIPE
+remarks:        MANDA role account
+remarks:        Information: http://www.man-da.de/
+abuse-mailbox:  abuse@man-da.de
+mnt-by:         MANDA-MNT
+mnt-ref:        MANDA-MNT
+created:        2002-05-16T10:19:10Z
+last-modified:  2024-02-13T14:41:24Z
+source:         RIPE # Filtered
+
+person:         Andreas Ebert
+address:        man-da.de GmbH
+address:        Dolivostr. 11
+address:        D-64293 Darmstadt
+address:        Germany
+phone:          +49 6151 16 71023
+nic-hdl:        AE4287-RIPE
+mnt-by:         MANDA-MNT
+mnt-ref:        MANDA-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-08-16T12:47:24Z
+source:         RIPE # Filtered
+
+person:         Lars Kollstedt
+address:        man-da.de GmbH
+address:        Dolivostr. 11
+address:        D-64293 Darmstadt
+address:        Germany
+phone:          +49 6151 16 71027
+nic-hdl:        LK3276-RIPE
+mnt-by:         MANDA-MNT
+mnt-ref:        MANDA-MNT
+created:        2013-09-18T16:58:06Z
+last-modified:  2023-08-16T09:40:32Z
+source:         RIPE # Filtered
+
+person:         Thomas Kraft
+address:        TU Darmstadt
+address:        Hochschulrechenzentrum, MANDA
+address:        Karolinenplatz 5
+address:        D-64289 Darmstadt
+address:        Germany
+phone:          +49 6151 16 71028
+fax-no:         +49 6151 16 71198
+nic-hdl:        TK1226-RIPE
+remarks:        http://www.hrz.tu-darmstadt.de/manda
+mnt-by:         MANDA-MNT
+mnt-ref:        MANDA-MNT
+created:        2002-10-31T13:19:42Z
+last-modified:  2023-08-16T12:47:24Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          82.195.64.0/19
+descr:          MANDA
+origin:         AS8365
+mnt-by:         MANDA-MNT
+mnt-lower:      MANDA-MNT
+mnt-routes:     MANDA-MNT
+notify:         ripe@man-da.de
+pingable:       82.195.77.109
+ping-hdl:       DUMY-RIPE
+created:        2003-11-04T18:05:46Z
+last-modified:  2023-08-18T09:09:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.243.70.0/24
+descr:          MANDA PI
+origin:         AS8365
+mnt-by:         MANDA-MNT
+mnt-routes:     MANDA-MNT
+notify:         ripe@man-da.de
+pingable:       91.243.70.254
+ping-hdl:       DUMY-RIPE
+created:        2012-08-06T11:32:57Z
+last-modified:  2012-08-06T11:32:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          130.83.0.0/16
+descr:          TU-DARMSTADT via MANDA
+origin:         AS8365
+mnt-by:         MANDA-MNT
+notify:         ripe@man-da.de
+created:        1970-01-01T00:00:00Z
+last-modified:  2007-10-05T12:46:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          141.100.0.0/16
+descr:          FH-DARMSTADT via MANDA
+origin:         AS8365
+mnt-by:         MANDA-MNT
+notify:         ripe@man-da.de
+created:        1970-01-01T00:00:00Z
+last-modified:  2007-10-05T12:46:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.55.124.0/22
+descr:          MANDA
+origin:         AS8365
+mnt-by:         MANDA-MNT
+mnt-lower:      MANDA-MNT
+mnt-routes:     MANDA-MNT
+notify:         ripe@man-da.de
+created:        2014-04-25T08:03:43Z
+last-modified:  2014-04-25T08:03:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.23.248.0/24
+descr:          HESSENCL
+origin:         AS8365
+mnt-by:         MANDA-MNT
+notify:         ripe@man-da.de
+created:        1970-01-01T00:00:00Z
+last-modified:  2007-10-05T12:46:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:2184::/48
+descr:          DE-MANDA-20150611
+descr:          Hochschule Darmstadt
+origin:         AS8365
+mnt-lower:      MANDA-MNT
+mnt-routes:     MANDA-MNT
+mnt-by:         MANDA-MNT
+notify:         ripe@man-da.de
+created:        2015-06-11T14:01:38Z
+last-modified:  2015-06-11T14:01:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:295c::/48
+descr:          DE-MANDA-20210224
+descr:          Hochschule Darmstadt
+origin:         AS8365
+mnt-lower:      MANDA-MNT
+mnt-routes:     MANDA-MNT
+mnt-by:         MANDA-MNT
+notify:         ripe@man-da.de
+created:        2021-02-24T14:31:48Z
+last-modified:  2021-02-24T14:31:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:41b8::/29
+descr:          DE-MANDA-20041108 since 2024-06-03
+descr:          MANDA
+origin:         AS8365
+mnt-lower:      MANDA-MNT
+mnt-routes:     MANDA-MNT
+mnt-by:         MANDA-MNT
+notify:         ripe@man-da.de
+pingable:       2001:41b8:0:5::10
+ping-hdl:       DUMY-RIPE
+created:        2024-06-10T07:44:48Z
+last-modified:  2024-06-10T14:32:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

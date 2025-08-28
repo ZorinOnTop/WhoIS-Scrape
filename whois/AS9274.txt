@@ -1,0 +1,372 @@
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to 'AS9249 - AS10239'
+
+as-block:       AS9249 - AS10239
+descr:          APNIC ASN block
+remarks:        These AS numbers are further assigned by APNIC
+remarks:        to APNIC members and end-users in the APNIC region
+admin-c:        HM20-AP
+tech-c:         HM20-AP
+mnt-by:         APNIC-HM
+mnt-lower:      APNIC-HM
+last-modified:  2022-09-22T22:36:45Z
+source:         APNIC
+
+role:           APNIC Hostmaster
+address:        6 Cordelia Street
+address:        South Brisbane
+address:        QLD 4101
+country:        AU
+phone:          +61 7 3858 3100
+fax-no:         +61 7 3858 3199
+e-mail:         helpdesk@apnic.net
+admin-c:        AMS11-AP
+tech-c:         AH256-AP
+nic-hdl:        HM20-AP
+remarks:        Administrator for APNIC
+notify:         hostmaster@apnic.net
+mnt-by:         MAINT-APNIC-AP
+last-modified:  2013-10-23T04:06:51Z
+source:         APNIC
+
+% Information related to 'AS9270 - AS9277'
+
+as-block:       AS9270 - AS9277
+descr:          KRNIC-ASBLOCK-AP
+descr:          KRNIC
+descr:          Korea Network Information Center
+country:        KR
+admin-c:        HM127-AP
+tech-c:         HM127-AP
+remarks:        Authoritative information regarding AS Number
+remarks:        assignments made from within this block can also be
+remarks:        queried at whois.nic.or.kr
+mnt-by:         APNIC-HM
+mnt-lower:      MNT-KRNIC-AP
+last-modified:  2017-06-15T04:25:40Z
+source:         APNIC
+
+person:         Host Master
+address:        Jeollanam-do Naju-si Jinheung-gil
+country:        KR
+phone:          +82-2-405-5118
+e-mail:         hostmaster@nic.or.kr
+nic-hdl:        HM127-AP
+mnt-by:         MNT-KRNIC-AP
+last-modified:  2019-05-22T01:20:31Z
+source:         APNIC
+
+% Information related to 'AS9274'
+
+% Abuse contact for 'AS9274' is 'irt@nic.or.kr'
+
+aut-num:        AS9274
+as-name:        PUSAN-AS-KR
+descr:          Pusan National University
+country:        KR
+admin-c:        AM1692-AP
+tech-c:         AM1692-AP
+import:         from AS3786
+                action pref=10;
+                accept ANY
+import:         from AS9270
+                action pref=100;
+                accept ANY
+export:         to AS3786
+                announce AS9274
+export:         to AS9270
+                announce AS9274
+mnt-by:         MNT-KRNIC-AP
+mnt-irt:        IRT-KRNIC-KR
+last-modified:  2021-09-09T08:26:02Z
+source:         APNIC
+
+irt:            IRT-KRNIC-KR
+address:        9, Jinheung-gil, Naju-si, Jeollanam-do
+e-mail:         irt@nic.or.kr
+abuse-mailbox:  irt@nic.or.kr
+admin-c:        IM574-AP
+tech-c:         IM574-AP
+auth:           # Filtered
+remarks:        irt@nic.or.kr was validated on 2020-04-09
+mnt-by:         MNT-KRNIC-AP
+last-modified:  2025-04-10T04:49:23Z
+source:         APNIC
+
+person:         AS Manager
+address:        Busan Geumjeong-gu Busandaehak-ro 63beon-gil 2-1
+country:        KR
+phone:          +82-51-510-7477
+e-mail:         internet@pusan.ac.kr
+nic-hdl:        AM1692-AP
+mnt-by:         MNT-KRNIC-AP
+last-modified:  2024-11-05T00:12:05Z
+source:         APNIC
+
+% Information related to 'AS9274'
+
+aut-num:        AS9274
+as-name:        PUSAN-AS-KR-KR
+descr:          Pusan National University
+country:        KR
+import:         from AS9270 action pref=100 accept ANY
+import:         from AS3786 action pref=10 accept ANY
+export:         to AS9270 announce AS9274
+export:         to AS3786 announce AS9274
+admin-c:        NA56-KR
+tech-c:         NA56-KR
+mnt-by:         MNT-KRNIC-AP
+mnt-irt:        IRT-KRNIC-KR
+remarks:        This information has been partially mirrored by APNIC from
+remarks:        KRNIC. To obtain more specific information, please use the
+remarks:        KRNIC whois server at whois.kisa.or.kr.
+source:         KRNIC
+
+person:         AS Manager
+address:        Busan Geumjeong-gu Busandaehak-ro 63beon-gil 2-1
+address:        Information Technology Services
+country:        KR
+phone:          +82-51-510-7477
+e-mail:         internet@pusan.ac.kr
+nic-hdl:        NA56-KR
+mnt-by:         MNT-KRNIC-AP
+remarks:        This information has been partially mirrored by APNIC from
+remarks:        KRNIC. To obtain more specific information, please use the
+remarks:        KRNIC whois server at whois.kisa.or.kr.
+source:         KRNIC
+
+% This query was served by the APNIC Whois Service version 1.88.34 (WHOIS-UK2)
+
+
+
+route:          164.125.0.0/16
+descr:          Pusan National University
+origin:         AS9274
+mnt-by:         MAINT-AS4766
+changed:        choi@streamwk.kix.net 20010215
+source:         RADB
+last-modified:  2023-11-13T16:15:42Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.0.0/18
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20070829
+source:         RADB
+last-modified:  2023-11-13T16:09:30Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.60.0/22
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20081121
+source:         RADB
+last-modified:  2023-11-13T16:09:32Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.64.0/18
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20070829
+source:         RADB
+last-modified:  2023-11-13T16:09:30Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.64.0/20
+descr:          Transit customer route announce
+origin:         AS9274
+mnt-by:         MAINT-AS9318
+changed:        empires@sk.com 20131106
+source:         RADB
+last-modified:  2023-11-13T15:45:51Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.68.0/22
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20081121
+source:         RADB
+last-modified:  2023-11-13T16:09:32Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.80.0/20
+descr:          Transit customer route announce
+origin:         AS9274
+mnt-by:         MAINT-AS9318
+changed:        empires@sk.com 20131106
+source:         RADB
+last-modified:  2023-11-13T15:45:51Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.80.0/21
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20081121
+source:         RADB
+last-modified:  2023-11-13T16:09:32Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.96.0/19
+descr:          Transit customer route announce
+origin:         AS9274
+mnt-by:         MAINT-AS9318
+changed:        empires@sk.com 20131106
+source:         RADB
+last-modified:  2023-11-13T15:45:51Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.128.0/18
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20070829
+source:         RADB
+last-modified:  2023-11-13T16:09:30Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.156.0/23
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20081121
+source:         RADB
+last-modified:  2023-11-13T16:09:32Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.192.0/19
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20070829
+source:         RADB
+last-modified:  2023-11-13T16:09:30Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.125.224.0/19
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20070829
+source:         RADB
+last-modified:  2023-11-13T16:09:30Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          203.232.240.0/21
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20070829
+source:         RADB
+last-modified:  2023-11-13T16:09:30Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          220.67.94.0/23
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20070829
+source:         RADB
+last-modified:  2023-11-13T16:09:30Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          220.67.96.0/22
+descr:          Proxy-Registered Route Object by LG Dacom(AS3786)
+origin:         AS9274
+remarks:        This route object is for a LG Dacom's customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was automatically created to prevent
+remarks:        some LG Dacom peer from rejecting this route because
+remarks:        they may create their filter based on Route Registry DB.
+notify:         noc@bora.net
+mnt-by:         MAINT-AS3786
+changed:        yuncheol@bora.net 20070829
+source:         RADB
+last-modified:  2023-11-13T16:09:30Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

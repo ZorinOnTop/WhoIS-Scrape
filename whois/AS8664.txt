@@ -1,0 +1,281 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8664'
+
+% Abuse contact for 'AS8664' is 'abuse@uw.edu.pl'
+
+aut-num:        AS8664
+org:            ORG-IA45-RIPE
+as-name:        ICM-PUB
+descr:          public network services
+admin-c:        ICM3-RIPE
+tech-c:         ICM3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:
+remarks:        Communities set by ICM (8664:xxxx)
+remarks:
+remarks:        1000 - ICM networks
+remarks:        1011 - IXP with Pionier access (MAN-edu)
+remarks:        1013 - IXP with Pionier access (MAN-com)
+remarks:        1014 - IXP with Pionier access (com with peering agreement)
+remarks:        1015 - IXP with Pionier access (content provider)
+remarks:        1016 - IXP with Pionier access (com without peering agreement)
+remarks:        1022 - Pionier members (polish edu MANs)
+remarks:        1024 - PLIX
+remarks:        1025 - WAW-EDU(SGH,WSISiZ,PW)
+remarks:        1027 - GTS
+remarks:        1029 - Netia
+remarks:        1030 - TPSA
+remarks:        1031 - NASK
+remarks:        1033 - UPC
+remarks:        1034 - Provector
+remarks:        1050 - Advertised peerings
+remarks:
+remarks:        Communities accepted by ICM (8664:xxxx)
+remarks:        no-export
+remarks:        no-advertise
+remarks:        20XY
+remarks:        X = 1 - ... to Pionier peerings
+remarks:        X = 2 - ... to ICM IXP
+remarks:        X = 3 - ... to AS8501
+remarks:        (advertise only to Pionier MANs with direct peering)
+remarks:        Y = 0 - do not announce (doesn't work for X = 2)
+remarks:        Y = 1 - prepend once
+remarks:        Y = 2 - prepend twice
+remarks:        Y = 3 - prepend thrice
+remarks:        Y = 4 - prepend quadrice
+remarks:        2990 - set localpref 250
+remarks:        2999 - set localpref 150
+remarks:        # By default we set localpref:
+remarks:        # 300 - for our direct peers
+remarks:        # 200 - for our direct peers customers and IXPs (WIX,PLIX)
+remarks:        2100 - Advertise only to AS-ICM
+remarks:
+remarks:        Our looking-glass service: https://lg.core.icm.edu.pl/
+remarks:
+remarks:        In case of routing problems mail info@core.icm.edu.pl
+remarks:
+mnt-by:         ICM-PL
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:14:11Z
+source:         RIPE # Filtered
+
+organisation:   ORG-IA45-RIPE
+org-name:       University of Warsaw
+country:        PL
+org-type:       LIR
+address:        Krakowskie Przedmiescie 26/28
+address:        00-927
+address:        Warsaw
+address:        POLAND
+phone:          +48225520527
+fax-no:         +48225520837
+admin-c:        UWPL
+tech-c:         UWPL
+abuse-c:        UWPL
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        UW-PL
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         UW-PL
+created:        2004-04-17T11:47:16Z
+last-modified:  2020-12-16T13:11:53Z
+source:         RIPE # Filtered
+
+role:           ICM Networking Group
+address:        University of Warsaw, ICM Core Network Services
+address:        Pawinskiego 5A
+address:        02-106 Warszawa
+address:        Poland
+phone:          +48 22 8749393
+fax-no:         +48 22 8749115
+abuse-mailbox:  abuse@core.icm.edu.pl
+admin-c:        JS10005-RIPE
+tech-c:         JS10005-RIPE
+tech-c:         MS43472-RIPE
+tech-c:         BD10038-RIPE
+nic-hdl:        ICM3-RIPE
+mnt-by:         ICM-PL
+created:        2001-12-06T20:18:50Z
+last-modified:  2024-08-12T12:33:25Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          193.219.28.0/24
+descr:          Public Internet services network
+descr:          at University of Warsaw, ICM
+origin:         AS8664
+notify:         info@net.icm.edu.pl
+mnt-by:         ICM-PL
+created:        1970-01-01T00:00:00Z
+last-modified:  2009-11-04T13:12:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.87.16.0/20
+descr:          ICM, University of Warsaw
+descr:          Warsaw, Poland
+origin:         AS8664
+notify:         info@net.icm.edu.pl
+mnt-by:         ICM-PL
+created:        2011-01-11T15:21:43Z
+last-modified:  2011-01-11T15:21:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.135.43.0/24
+descr:          ICM
+descr:          University of Warsaw
+descr:          Warsaw, Poland
+origin:         AS8664
+mnt-by:         ICM-PL
+created:        2012-01-05T17:03:57Z
+last-modified:  2012-01-05T17:03:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.135.50.0/23
+descr:          Public Internet services network
+descr:          at University of Warsaw, ICM
+origin:         AS8664
+notify:         info@net.icm.edu.pl
+mnt-by:         ICM-PL
+created:        2004-02-04T12:35:37Z
+last-modified:  2009-11-04T13:12:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.135.52.0/22
+descr:          Public Internet services network
+descr:          at University of Warsaw, ICM
+origin:         AS8664
+notify:         info@core.icm.edu.pl
+mnt-by:         ICM-PL
+created:        2012-02-06T10:55:45Z
+last-modified:  2012-02-06T10:55:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.135.56.0/21
+descr:          ICM
+descr:          University of Warsaw
+descr:          Warsaw Poland
+origin:         AS8664
+mnt-by:         ICM-PL
+created:        2010-11-22T10:24:12Z
+last-modified:  2010-11-22T10:24:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.135.56.0/23
+descr:          University of Warsaw
+descr:          Warsaw, Poland
+origin:         AS8664
+mnt-by:         ICM-PL
+created:        2010-10-04T10:52:51Z
+last-modified:  2010-10-04T10:52:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:6a0::/32
+descr:          PL-ICM
+origin:         AS8664
+mnt-by:         ICM-PL
+created:        2009-10-23T15:35:05Z
+last-modified:  2009-10-23T15:35:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:6a0::/34
+descr:          PL-ICM-PUB
+origin:         AS8664
+mnt-by:         ICM-PL
+created:        2009-10-19T15:07:31Z
+last-modified:  2009-10-19T15:07:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

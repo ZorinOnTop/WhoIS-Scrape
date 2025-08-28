@@ -1,0 +1,685 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20859 - AS20927'
+
+as-block:       AS20859 - AS20927
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20902'
+
+% Abuse contact for 'AS20902' is 'abuse@degnet-gmbh.de'
+
+aut-num:        AS20902
+org:            ORG-DG3-RIPE
+as-name:        DEGNET
+descr:          DegNet GmbH
+descr:          Postfach 1240
+descr:          D-94469 Deggendorf
+remarks:        -----------------------------------------------------------
+import:         from AS3209 accept ANY
+export:         to AS3209 announce AS-DEGNET
+mp-import:      afi ipv6.unicast from AS3209 accept ANY
+mp-export:      afi ipv6.unicast to AS3209 announce AS-DEGNET
+remarks:        -----------------------------------------------------------
+import:         from AS12611 accept ANY
+export:         to AS12611 announce AS-DEGNET
+mp-import:      afi ipv6.unicast from AS12611 accept ANY
+mp-export:      afi ipv6.unicast to AS12611 announce AS-DEGNET
+remarks:        -----------------------------------------------------------
+import:         from AS15933 accept ANY
+export:         to AS15933 announce ANY
+mp-import:      afi ipv6.unicast from AS15933 accept ANY
+mp-export:      afi ipv6.unicast to AS15933 announce ANY
+remarks:        -----------------------------------------------------------
+import:         from AS57395 accept ANY
+export:         to AS57395 announce ANY
+mp-import:      afi ipv6.unicast from AS57395 accept ANY
+mp-export:      afi ipv6.unicast to AS57395 announce ANY
+remarks:        -----------------------------------------------------------
+import:         from AS57684 accept ANY
+export:         to AS57684 announce ANY
+mp-import:      afi ipv6.unicast from AS57684 accept ANY
+mp-export:      afi ipv6.unicast to AS57684 announce ANY
+member-of:      AS3320:AS-AUTH-BLACKHOLE-FROM-AS57684
+remarks:        -----------------------------------------------------------
+import:         from AS64396 accept AS64396
+export:         to AS64396 announce ANY
+mp-import:      afi ipv6.unicast from AS64396 accept AS64396
+mp-export:      afi ipv6.unicast to AS64396 announce ANY
+remarks:        -----------------------------------------------------------
+admin-c:        DEGN8-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         DEGN8-RIPE
+remarks:        -----------------------------------------------------------
+remarks:
+remarks:        BGP community definitions
+remarks:        =========================
+remarks:
+remarks:        Communities tagged on inbound routes
+remarks:        ------------------------------------
+remarks:        20902:9000 internal routes from AS20902 (DegNet)
+remarks:        20902:9010 routes received from customer AS
+remarks:        20902:9020 routes received from peer AS
+remarks:        20902:9030 routes received from upstream AS
+remarks:
+remarks:        Communities to control traffic
+remarks:        ------------------------------
+remarks:
+remarks:        === do not announce, AS prepend, set metric ===
+remarks:
+remarks:        20902:11000 do not announce to AS-ANY
+remarks:        20902:11001 prepend 1x when announce to AS-ANY
+remarks:        20902:11002 prepend 2x when announce to AS-ANY
+remarks:        20902:11003 prepend 3x when announce to AS-ANY
+remarks:        20902:11005 set med 55 when announce to AS-ANY
+remarks:
+remarks:        20902:11010 do not announce to AS12611 (R-KOM)
+remarks:        20902:11011 prepend 1x when announce to AS12611
+remarks:        20902:11012 prepend 2x when announce to AS12611
+remarks:        20902:11013 prepend 3x when announce to AS12611
+remarks:        20902:11015 set med 55 when announce to AS12611
+remarks:
+remarks:        20902:11020 do not announce to AS57684 (WBW)
+remarks:        20902:11021 prepend 1x when announce to AS57684
+remarks:        20902:11022 prepend 2x when announce to AS57684
+remarks:        20902:11023 prepend 3x when announce to AS57684
+remarks:        20902:11025 set med 55 when announce to AS57684
+remarks:
+remarks:        20902:11030 do not announce to AS15933 (ITH)
+remarks:        20902:11031 prepend 1x when announce to AS15933
+remarks:        20902:11032 prepend 2x when announce to AS15933
+remarks:        20902:11033 prepend 3x when announce to AS15933
+remarks:        20902:11035 set med 55 when announce to AS15933
+remarks:
+remarks:        20902:11040 do not announce to AS64396 (BIB)
+remarks:        20902:11041 prepend 1x when announce to AS64396
+remarks:        20902:11042 prepend 2x when announce to AS64396
+remarks:        20902:11043 prepend 3x when announce to AS64396
+remarks:        20902:11045 set med 55 when announce to AS64396
+remarks:
+remarks:        20902:11050 do not announce to AS57395 (HARTL)
+remarks:        20902:11051 prepend 1x when announce to AS57395
+remarks:        20902:11052 prepend 2x when announce to AS57395
+remarks:        20902:11053 prepend 3x when announce to AS57395
+remarks:        20902:11055 set med 55 when announce to AS57395
+remarks:
+remarks:        20902:11990 do not announce to AS-ANY:UPSTREAM
+remarks:        20902:11991 prepend 1x when announce to AS-ANY:UPSTREAM
+remarks:        20902:11992 prepend 2x when announce to AS-ANY:UPSTREAM
+remarks:        20902:11993 prepend 3x when announce to AS-ANY:UPSTREAM
+remarks:        20902:11995 set med 55 when announce to AS-ANY:UPSTREAM
+remarks:
+remarks:        === black-hole service ===
+remarks:
+remarks:        20902:13001 black-hole to IP inside AS20902
+remarks:        20902:13002 black-hole to IP at our peers/upstream if avail
+remarks:        20902:13003 black-hole to IP at AS-ANY if avail
+remarks:
+remarks:        We support RFC7999 using 65535:666
+remarks:
+remarks:        === local preference setting ===
+remarks:
+remarks:        20902:18070 set local-preference to 70 at AS20902 (low)
+remarks:        20902:18100 set local-preference to 100 at AS20902 (def.)
+remarks:        20902:18130 set local-preference to 130 at AS20902 (high)
+remarks:
+remarks:        -----------------------------------------------------------
+remarks:
+remarks:        BGP filters
+remarks:        ===========
+remarks:
+remarks:        - Inbound prefixes longer than /24 except for black-hole
+remarks:        - RFC6890 Special-Purpose IP Address Registries
+remarks:        - RFC5771 Multicast Address Assignments
+remarks:
+remarks:        -----------------------------------------------------------
+remarks:
+remarks:        BGP contact
+remarks:        ===========
+remarks:
+remarks:        Mail peering requests, problem reports, etc.
+remarks:        to: hostmaster@degnet-gmbh.de
+remarks:
+remarks:        -----------------------------------------------------------
+mnt-by:         DEGNET-MNT
+created:        2002-06-13T16:41:08Z
+last-modified:  2022-09-26T04:55:57Z
+source:         RIPE
+
+organisation:   ORG-DG3-RIPE
+org-name:       DegNet GmbH
+country:        DE
+org-type:       LIR
+address:        Postfach 1240
+address:        94469
+address:        Deggendorf
+address:        GERMANY
+phone:          +49 991 32020
+fax-no:         +49 991 3202888
+admin-c:        DEGN8-RIPE
+abuse-c:        DEGN8-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DEGNET-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DEGNET-MNT
+created:        2004-04-17T11:06:32Z
+last-modified:  2020-12-26T19:39:00Z
+source:         RIPE # Filtered
+
+role:           DegNet NOC
+address:        DegNet GmbH
+address:        Postfach 1240
+address:        D-94469 Deggendorf
+phone:          +49 991 32020
+remarks:        -----------------------------------------------------------
+remarks:
+remarks:        The DegNet NOC can be reached @
+remarks:        hostmaster@degnet-gmbh.de or phone-no +49-991-3202808
+remarks:
+remarks:        Please submit abuse reports @
+remarks:        http://www.degnet-gmbh.de/abuse
+remarks:
+remarks:        -----------------------------------------------------------
+admin-c:        FF8
+tech-c:         FF8
+abuse-mailbox:  abuse@degnet-gmbh.de
+nic-hdl:        DEGN8-RIPE
+mnt-by:         DEGNET-MNT
+created:        2013-05-27T23:47:46Z
+last-modified:  2022-09-26T01:51:05Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          46.229.0.0/20
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2011-02-09T17:09:57Z
+last-modified:  2011-02-09T17:09:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.229.0.0/21
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-06-01T01:21:11Z
+last-modified:  2021-06-01T01:21:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.229.10.0/23
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-05-31T23:39:01Z
+last-modified:  2021-05-31T23:39:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.229.12.0/22
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-05-31T23:40:38Z
+last-modified:  2021-05-31T23:40:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.96.0/19
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2004-09-15T02:51:24Z
+last-modified:  2004-09-15T02:51:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.96.0/20
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2023-01-19T11:51:39Z
+last-modified:  2023-01-19T11:51:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.96.0/21
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2022-02-10T00:04:43Z
+last-modified:  2022-02-10T00:04:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.96.0/22
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-11-21T04:35:55Z
+last-modified:  2021-11-21T04:35:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.96.0/23
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-11-21T04:35:15Z
+last-modified:  2021-11-21T04:35:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.96.0/24
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-11-21T04:34:05Z
+last-modified:  2021-11-21T04:34:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.97.0/24
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-11-21T04:34:03Z
+last-modified:  2021-11-21T04:34:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.98.0/23
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-11-21T04:35:18Z
+last-modified:  2021-11-21T04:35:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.98.0/24
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-11-21T04:34:02Z
+last-modified:  2021-11-21T04:34:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.99.0/24
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-11-21T04:34:00Z
+last-modified:  2021-11-21T04:34:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.100.0/22
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2022-02-09T23:48:13Z
+last-modified:  2022-02-09T23:48:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.108.0/22
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2022-02-09T23:48:42Z
+last-modified:  2022-02-09T23:48:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.108.0/24
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2024-11-25T00:06:54Z
+last-modified:  2024-11-25T00:06:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.110.0/23
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2024-11-25T00:07:25Z
+last-modified:  2024-11-25T00:07:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.112.0/20
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2022-02-09T23:57:28Z
+last-modified:  2022-02-09T23:57:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.73.112.0/21
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2022-02-09T23:58:06Z
+last-modified:  2022-02-09T23:58:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.88.64.0/20
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2006-08-10T22:23:12Z
+last-modified:  2006-08-10T22:23:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.88.64.0/21
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-09-28T00:51:21Z
+last-modified:  2021-09-28T00:51:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.88.72.0/22
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2021-09-28T00:52:37Z
+last-modified:  2021-09-28T00:52:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.239.160.0/20
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2010-03-06T01:36:15Z
+last-modified:  2010-03-06T01:36:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.192.14.0/24
+descr:          Buergernetz Deggendorf e.V.
+origin:         AS20902
+mnt-by:         F-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-03-23T00:16:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.0.184.0/24
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2007-01-28T16:47:51Z
+last-modified:  2007-01-28T16:47:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:2088::/48
+descr:          DegNet e.V.
+origin:         AS20902
+mnt-by:         F-MNT
+created:        2011-02-09T01:14:03Z
+last-modified:  2017-03-23T00:40:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1230::/29
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2012-09-16T20:24:26Z
+last-modified:  2012-09-16T20:24:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1230::/29
+origin:         AS20902
+descr:          rkom route object
+admin-c:        netops-defense
+tech-c:         netops-defense
+notify:         netops@defense.net
+mnt-by:         MAINT-AS55002
+changed:        netops@defense.net 20200326  #12:28:06Z
+source:         RADB
+last-modified:  2023-11-13T16:00:17Z
+rpki-ov-state:  valid
+
+route6:         2a00:1230::/48
+descr:          DegNet GmbH, Germany
+origin:         AS20902
+mnt-by:         DEGNET-MNT
+created:        2022-10-10T06:36:55Z
+last-modified:  2022-10-10T06:36:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

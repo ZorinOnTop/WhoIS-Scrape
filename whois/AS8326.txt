@@ -1,0 +1,233 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8326'
+
+% Abuse contact for 'AS8326' is 'abuse@man.bydgoszcz.pl'
+
+aut-num:        AS8326
+org:            ORG-UoTa1-RIPE
+as-name:        PL-BYDMAN-EDU
+descr:          Educational Users
+descr:          University of Technology&Agriculture
+descr:          Bydgoszcz,Poland
+import:         from AS8501
+                action pref=100;
+                accept ANY
+import:         from AS12423
+                action pref=100;
+                accept (AS12423 AS15949)
+import:         from AS5550
+                action pref=100;
+                accept (AS5550 AS12827 AS12831 AS15798)
+import:         from AS8508
+                action pref=100;
+                accept (AS8508 AS13086 AS15373 AS15744)
+import:         from AS12618
+                action pref=100;
+                accept ANY
+export:         to AS8501
+                announce AS8326 AS12618
+export:         to AS12423
+                announce AS8326 AS12618
+export:         to AS5550
+                announce AS8326 AS12618
+export:         to AS8508
+                announce AS8326 AS12618
+export:         to AS12618
+                announce AS-PLNET
+default:        to AS8501
+                action pref=100;
+                networks ANY
+admin-c:        JS238-RIPE
+tech-c:         KS129-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         PL-BYDMAN-MNT
+created:        2001-11-08T18:48:54Z
+last-modified:  2019-12-04T11:17:04Z
+source:         RIPE # Filtered
+
+organisation:   ORG-UoTa1-RIPE
+org-name:       Politechnika Bydgoska im. Jana i Jedrzeja Sniadeckich
+country:        PL
+org-type:       LIR
+address:        ul. Aleje Prof. Sylwestra Kaliskiego 7
+address:        85-796
+address:        Bydgoszcz
+address:        POLAND
+phone:          +48 52 3749464
+phone:          +48 609849864
+phone:          +48 52 3408695
+fax-no:         +48 52 3749486
+fax-no:         +48 52 3408660
+admin-c:        KS129-RIPE
+admin-c:        JS238-RIPE
+admin-c:        PJ171-RIPE
+mnt-ref:        PL-BYDMAN-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PL-BYDMAN-MNT
+abuse-c:        BYD-PL
+created:        2004-04-17T11:46:43Z
+last-modified:  2022-04-13T13:19:00Z
+source:         RIPE # Filtered
+
+person:         Janusz Szykowny
+address:        Uniwersytet Technologiczno-Przyrodniczy
+address:        ul. Kaliskiego 7
+address:        85-796 Bydgoszcz
+phone:          +48 52 3749464
+fax-no:         +48 52 3408660
+nic-hdl:        JS238-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2011-01-19T20:51:31Z
+source:         RIPE # Filtered
+mnt-by:         PL-BYDMAN-MNT
+
+person:         Krzysztof Sobiecki
+address:        Uniwersytet Technologiczno-Przyrodniczy
+address:        ul. Kaliskiego 7
+address:        85-796 Bydgoszcz
+phone:          +48 52 3408681
+fax-no:         +48 52 3408660
+nic-hdl:        KS129-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2011-01-19T20:48:48Z
+source:         RIPE # Filtered
+mnt-by:         PL-BYDMAN-MNT
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          46.239.128.0/20
+descr:          Educational Users
+descr:          Metropolitan Area Network in Bydgoszcz
+descr:          Bydgoszcz, Poland
+origin:         AS8326
+notify:         lirmnt@utp.edu.pl
+mnt-by:         PL-BYDMAN-MNT
+created:        2011-02-16T16:58:06Z
+last-modified:  2011-02-16T16:58:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.146.224.0/19
+descr:          Educational Users
+descr:          University of Technology&Agriculture
+descr:          Bydgoszcz, Poland
+origin:         AS8326
+notify:         Janusz.Szykowny@atr.bydgoszcz.pl
+mnt-by:         PL-BYDMAN-MNT
+created:        2003-07-03T20:47:06Z
+last-modified:  2003-07-03T20:47:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.191.128.0/20
+descr:          Educational Users
+descr:          University of Technology&Agriculture
+descr:          Bydgoszcz,Poland
+origin:         AS8326
+notify:         Janusz.Szykowny@atr.bydgoszcz.pl
+mnt-by:         PL-BYDMAN-MNT
+created:        2006-10-14T17:36:28Z
+last-modified:  2006-10-14T17:36:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.122.192.0/20
+descr:          Educational Users
+descr:          University of Technology&Agriculture
+descr:          Bydgoszcz,Poland
+origin:         AS8326
+notify:         Janusz.Szykowny@atr.bydgoszcz.pl
+mnt-by:         PL-BYDMAN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2002-10-17T19:31:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.122.208.0/21
+descr:          Educational Users
+descr:          University of Technology&Agriculture
+descr:          Bydgoszcz,Poland
+origin:         AS8326
+notify:         Janusz.Szykowny@atr.bydgoszcz.pl
+mnt-by:         PL-BYDMAN-MNT
+created:        2001-10-30T16:50:32Z
+last-modified:  2003-03-04T17:41:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:908::/30
+descr:          Educational Users
+descr:          University of Technology and Life Sciences
+descr:          Bydgoszcz, POLAND
+origin:         AS8326
+mnt-by:         PL-BYDMAN-MNT
+created:        2016-11-28T10:26:48Z
+last-modified:  2016-11-28T10:26:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

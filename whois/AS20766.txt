@@ -1,0 +1,795 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20766'
+
+% Abuse contact for 'AS20766' is 'abuse@gitoyen.net'
+
+aut-num:        AS20766
+as-name:        GITOYEN-MAIN-AS
+descr:          The main Autonomous System of Gitoyen (Paris, France).
+org:            ORG-GG4-RIPE
+remarks:
+remarks:        =========================
+remarks:        IRR: AS-GITOYEN
+remarks:        Looking Glass: http://lg.gitoyen.net/
+remarks:        Open peering policy: just ask peering@gitoyen.net
+remarks:        PeeringDB: http://as20766.peeringdb.com/
+remarks:
+remarks:        ======== BGP Upstream ========
+remarks:        # IELO
+import:         from AS29075 action pref=90; accept ANY
+export:         to AS29075 announce AS-GITOYEN
+remarks:        -
+remarks:        # Telia
+import:         from AS1299 action pref=90; accept ANY
+export:         to AS1299 announce AS-GITOYEN
+remarks:        -
+remarks:        # Absolight
+import:         from AS29608 action pref=90; accept ANY
+export:         to AS29608 announce AS-GITOYEN
+remarks:        -
+remarks:        # Hopus
+import:         from AS44530 action pref=100; accept ANY
+export:         to AS44530 announce AS-GITOYEN
+remarks:        -
+remarks:        # IELO Bulk
+import:         from AS57179 action pref=100; accept ANY
+export:         to AS57179 announce AS-GITOYEN
+remarks:        -
+remarks:        # Gandi
+import:         from AS29169 action pref=100; accept ANY
+export:         to AS29169 announce AS-GITOYEN
+remarks:
+remarks:        ======== BGP Downstream ========
+remarks:        # Toile-Libre
+import:         from AS48920 accept AS-TOILE-LIBRE
+export:         to AS48920 announce ANY
+remarks:        -
+remarks:        # Aquilenet
+import:         from AS211882 accept AS211882:AS-AQUILENET
+export:         to AS211882 announce ANY
+remarks:        -
+remarks:        # Tiersbox
+import:         from AS207324 accept AS207324:AS-TIERSBOX
+export:         to AS207324 announce ANY
+remarks:        -
+remarks:        # Perchey
+import:         from AS35616 accept AS35616
+export:         to AS35616 announce ANY
+remarks:        -
+remarks:        # Franciliens.net
+import:         from AS207816 accept AS207816
+export:         to AS207816 announce ANY
+remarks:        -
+remarks:        # Pinpin.tel
+import:         from AS51220 accept AS51220:AS-PINPINTEL
+export:         to AS51220 announce ANY
+remarks:
+remarks:        ======== Peering ========
+remarks:        # Breizh-IX
+import:         from AS206165 accept AS-BREIZHIX-RS-MEMBERS
+export:         to AS206165 announce AS-GITOYEN
+remarks:        -
+remarks:        # RIPE NCC - RIS
+import:         from AS12654 accept AS12654:RS-RIS
+export:         to AS12654 announce ANY
+remarks:        -
+remarks:        # SFINX
+import:         from AS1304 accept AS-SFINX-RS-MEMBERS
+export:         to AS1304 announce AS-GITOYEN
+remarks:        -
+remarks:        # AMS-IX
+import:         from AS6777 accept AS-AMS-IX-RS
+export:         to AS6777 announce AS-GITOYEN
+remarks:        -
+remarks:        # FRANCE-IX-PAR
+import:         from AS51706 accept AS51706:AS-MEMBERS
+export:         to AS51706 announce AS-GITOYEN
+remarks:        -
+remarks:        # FRANCE-IX-MRS
+import:         from AS42064 accept AS42064:AS-MEMBERS
+export:         to AS42064 announce AS-GITOYEN
+remarks:        -
+remarks:        # TopIX
+import:         from AS25309 accept ANY
+export:         to AS25309 announce AS-GITOYEN
+remarks:        -
+remarks:        # LU-CIX
+import:         from AS49624 accept ANY
+export:         to AS49624 announce AS-GITOYEN
+remarks:        -
+remarks:        # Grenode
+import:         from AS51083 accept AS-GRENODE
+export:         to AS51083 announce AS-GITOYEN
+remarks:        -
+remarks:        # NL-ix
+import:         from AS34307 accept AS-NL-IX-RS
+export:         to AS34307 announce AS-GITOYEN
+remarks:
+remarks:        ======== AMS-IX ========
+remarks:
+remarks:        # GoDaddy
+export:         to AS26496 announce AS-GITOYEN
+import:         from AS26496 action pref=100; accept AS-GDG
+remarks:        # Riot Games
+export:         to AS6507 announce AS-GITOYEN
+import:         from AS6507 action pref=100; accept AS-RIOT
+remarks:        # Adeli
+export:         to AS43142 announce AS-GITOYEN
+import:         from AS43142 action pref=100; accept AS-adelinovius
+remarks:        # Afilias
+export:         to AS12041 announce AS-GITOYEN
+import:         from AS12041 action pref=100; accept AS12041
+remarks:        # NAP Info Singapore
+export:         to AS55818 announce AS-GITOYEN
+import:         from AS55818 action pref=100; accept AS55818
+remarks:        # NetActuate
+export:         to AS36236 announce AS-GITOYEN
+import:         from AS36236 action pref=100; accept AS-NETACTUATE
+remarks:        # Packet Clearing House
+export:         to AS3856 announce AS-GITOYEN
+import:         from AS3856 action pref=100; accept AS-PCH
+remarks:        # OVH
+export:         to AS16276 announce AS-GITOYEN
+import:         from AS16276 action pref=100; accept AS-OVH
+remarks:        # Cloudflare
+export:         to AS13335 announce AS-GITOYEN
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE
+remarks:        # Twitch
+export:         to AS46489 announce AS-GITOYEN
+import:         from AS46489 action pref=100; accept AS-TWITCH
+remarks:        # Hurricane Electric
+export:         to AS6939 announce AS-GITOYEN
+import:         from AS6939 action pref=100; accept AS6939
+remarks:        # Verizon Digital Media Services (EdgeCast Networks)
+export:         to AS15133 announce AS-GITOYEN
+import:         from AS15133 action pref=100; accept AS-EDGECAST
+remarks:        # LuxNetwork S.A.
+export:         to AS29467 announce AS-GITOYEN
+import:         from AS29467 action pref=100; accept AS-LUXNETWORK
+remarks:        # Mobile TeleSystems PJSC
+export:         to AS8359 announce AS-GITOYEN
+import:         from AS8359 action pref=100; accept AS-MTU AS-MTU-V6
+remarks:        # WTBTS-NLD
+export:         to AS51752 announce AS-GITOYEN
+import:         from AS51752 action pref=100; accept AS-WTBTS
+remarks:        # Packet Clearing House AS42
+export:         to AS42 announce AS-GITOYEN
+import:         from AS42 action pref=100; accept AS-PCH
+remarks:        # CAT Telecom AS4651
+export:         to AS4651 announce AS-GITOYEN
+import:         from AS4651 action pref=100; accept AS-THIX
+remarks:        # MANDA
+export:         to AS8365 announce AS-GITOYEN
+import:         from AS8365 action pref=100; accept AS-MANDA
+remarks:        # Amsterdam Internet Exchange BV
+export:         to AS1200 announce AS-GITOYEN
+import:         from AS1200 action pref=100; accept AS1200
+remarks:        # FR-NIC-DNS-ANYCAST (AFNIC / NIC-France)
+export:         to AS2484 announce AS-GITOYEN
+import:         from AS2484 action pref=100; accept AS-AFNIC
+remarks:        # LNC SA
+export:         to AS49463 announce AS-GITOYEN
+import:         from AS49463 action pref=100; accept AS49463
+remarks:        # InterBox Internet
+export:         to AS16298 announce AS-GITOYEN
+import:         from AS16298 action pref=100; accept AS-INTERBOX
+remarks:        # Conostix S.A.
+export:         to AS197692 announce AS-GITOYEN
+import:         from AS197692 action pref=100; accept AS-CONOSTIX
+remarks:        # Sunrise Communications AG
+export:         to AS6730 announce AS-GITOYEN
+import:         from AS6730 action pref=100; accept AS-GLOBAL
+remarks:        # Sarenet, S.A.
+export:         to AS3262 announce AS-GITOYEN
+import:         from AS3262 action pref=100; accept AS3262
+remarks:        # XS4ALL Internet B.V.
+export:         to AS3265 announce AS-GITOYEN
+import:         from AS3265 action pref=100; accept AS-ACCESSFORALL
+remarks:        # Telenor (Norway/Sweden)
+export:         to AS2119 announce AS-GITOYEN
+import:         from AS2119 action pref=100; accept AS-TELENOR
+remarks:        # Cogeco Peer1
+export:         to AS13768 announce AS-GITOYEN
+import:         from AS13768 action pref=100; accept AS13768:AS-CUSTOMERS
+remarks:        # Neuronnexion
+export:         to AS9036 announce AS-GITOYEN
+import:         from AS9036 action pref=100; accept AS-NEURONNEXION
+remarks:        # Apple Inc.
+export:         to AS714 announce AS-GITOYEN
+import:         from AS714 action pref=100; accept AS714
+remarks:        # Automattic
+export:         to AS2635 announce AS-GITOYEN
+import:         from AS2635 action pref=100; accept AS-AUTOMATTIC
+remarks:        # Akamai Technologies
+export:         to AS20940 announce AS-GITOYEN
+import:         from AS20940 action pref=100; accept AS-AKAMAI
+remarks:        # Linkedin
+export:         to AS14413 announce AS-GITOYEN
+import:         from AS14413 action pref=100; accept AS-LINKEDIN
+remarks:        # UbuntuNet Alliance for Research and Education Networking
+export:         to AS36944 announce AS-GITOYEN
+import:         from AS36944 action pref=100; accept AS-TERTIARY
+remarks:        # Open Peering
+export:         to AS20562 announce AS-GITOYEN
+import:         from AS20562 action pref=100; accept AS-OPENPEERING
+remarks:        # Stichting Nationale Beheersorganisatie Internet Providers (NBIP)
+export:         to AS200020 announce AS-GITOYEN
+import:         from AS200020 action pref=100; accept AS-NBIP AS-NBIP6
+remarks:        # AMS-IX Route Servers
+export:         to AS6777 announce AS-GITOYEN
+import:         from AS6777 action pref=100; accept AS-AMS-IX-RS
+remarks:        # Saudi Telecom Company (STC IGW)
+export:         to AS39386 announce AS-GITOYEN
+import:         from AS39386 action pref=100; accept AS-IGW-SET
+remarks:        # OpenCarrier eG
+export:         to AS41692 announce AS-GITOYEN
+import:         from AS41692 action pref=100; accept AS-OPENCARRIER AS-OPENCARRIER6
+remarks:        # Dropbox
+export:         to AS19679 announce AS-GITOYEN
+import:         from AS19679 action pref=100; accept AS-DROPBOX
+remarks:        # Hivane
+export:         to AS34019 announce AS-GITOYEN
+import:         from AS34019 action pref=100; accept AS-HIVANE
+remarks:        # Plex BV
+export:         to AS21478 announce AS-GITOYEN
+import:         from AS21478 action pref=100; accept AS21478
+remarks:        # Anexia
+export:         to AS42473 announce AS-GITOYEN
+import:         from AS42473 action pref=100; accept AS-ANEXIA
+remarks:        # GitHub, Inc.
+export:         to AS36459 announce AS-GITOYEN
+import:         from AS36459 action pref=100; accept AS-GITHUB
+remarks:        # Amazon.com
+export:         to AS16509 announce AS-GITOYEN
+import:         from AS16509 action pref=100; accept AS-AMAZON
+remarks:        # NedZone Internet BV
+export:         to AS25459 announce AS-GITOYEN
+import:         from AS25459 action pref=100; accept AS25459
+remarks:        # OpenDNS, Inc.
+export:         to AS36692 announce AS-GITOYEN
+import:         from AS36692 action pref=100; accept AS-OPENDNS
+remarks:        # Nerim
+export:         to AS13193 announce AS-GITOYEN
+import:         from AS13193 action pref=100; accept AS-NERIM
+remarks:        # SOLCON
+export:         to AS12414 announce AS-GITOYEN
+import:         from AS12414 action pref=100; accept AS-SOLCON
+remarks:
+remarks:        ======== EQUINIX ========
+remarks:
+remarks:        # Riot Games
+export:         to AS6507 announce AS-GITOYEN
+import:         from AS6507 action pref=100; accept AS-RIOT
+remarks:        # Salesforce.com
+export:         to AS14340 announce AS-GITOYEN
+import:         from AS14340 action pref=100; accept AS-SALESFORCE
+remarks:        # Adeli
+export:         to AS43142 announce AS-GITOYEN
+import:         from AS43142 action pref=100; accept AS-adelinovius
+remarks:        # Nerim
+export:         to AS13193 announce AS-GITOYEN
+import:         from AS13193 action pref=100; accept AS-NERIM
+remarks:        # NetActuate
+export:         to AS36236 announce AS-GITOYEN
+import:         from AS36236 action pref=100; accept AS-NETACTUATE
+remarks:        # Packet Clearing House
+export:         to AS3856 announce AS-GITOYEN
+import:         from AS3856 action pref=100; accept AS-PCH
+remarks:        # OVH
+export:         to AS16276 announce AS-GITOYEN
+import:         from AS16276 action pref=100; accept AS-OVH
+remarks:        # Cloudflare
+export:         to AS13335 announce AS-GITOYEN
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE
+remarks:        # LuxNetwork S.A.
+export:         to AS29467 announce AS-GITOYEN
+import:         from AS29467 action pref=100; accept AS-LUXNETWORK
+remarks:        # Verizon Digital Media Services (EdgeCast Networks)
+export:         to AS15133 announce AS-GITOYEN
+import:         from AS15133 action pref=100; accept AS-EDGECAST
+remarks:        # Equinix Connect - PA Metro
+export:         to AS24990 announce AS-GITOYEN
+import:         from AS24990 action pref=100; accept AS-EQUINIX-EU
+remarks:        # Hurricane Electric
+export:         to AS6939 announce AS-GITOYEN
+import:         from AS6939 action pref=100; accept AS6939
+remarks:        # wan2many
+export:         to AS29608 announce AS-GITOYEN
+import:         from AS29608 action pref=100; accept AS-W2MY
+remarks:        # Packet Clearing House AS42
+export:         to AS42 announce AS-GITOYEN
+import:         from AS42 action pref=100; accept AS-PCH
+remarks:        # CAT Telecom AS4651
+export:         to AS4651 announce AS-GITOYEN
+import:         from AS4651 action pref=100; accept AS-THIX
+remarks:        # Equinix Internet Exchange MLPE
+export:         to AS24115 announce AS-GITOYEN
+import:         from AS24115 action pref=100; accept AS24115
+remarks:        # FR-NIC-DNS-ANYCAST (AFNIC / NIC-France)
+export:         to AS2484 announce AS-GITOYEN
+import:         from AS2484 action pref=100; accept AS-AFNIC
+remarks:        # Afilias
+export:         to AS12041 announce AS-GITOYEN
+import:         from AS12041 action pref=100; accept AS12041
+remarks:        # Blue Networks Technologies
+export:         to AS50620 announce AS-GITOYEN
+import:         from AS50620 action pref=100; accept AS-BLUENETECH
+remarks:        # Neuronnexion
+export:         to AS9036 announce AS-GITOYEN
+import:         from AS9036 action pref=100; accept AS-NEURONNEXION
+remarks:        # Apple Inc.
+export:         to AS714 announce AS-GITOYEN
+import:         from AS714 action pref=100; accept AS-APPLE
+remarks:        # LNC SA
+export:         to AS49463 announce AS-GITOYEN
+import:         from AS49463 action pref=100; accept AS49463
+remarks:        # M-ROOT DNS Server
+export:         to AS7500 announce AS-GITOYEN
+import:         from AS7500 action pref=100; accept AS-M-ROOT
+remarks:        # Linkedin
+export:         to AS14413 announce AS-GITOYEN
+import:         from AS14413 action pref=100; accept AS-LINKEDIN
+remarks:        # Prosodie Cap Gemini
+export:         to AS8784 announce AS-GITOYEN
+import:         from AS8784 action pref=100; accept AS-MGN
+remarks:        # Dropbox
+export:         to AS19679 announce AS-GITOYEN
+import:         from AS19679 action pref=100; accept AS-DROPBOX
+remarks:        # Hivane
+export:         to AS34019 announce AS-GITOYEN
+import:         from AS34019 action pref=100; accept AS-HIVANE
+remarks:        # Anexia
+export:         to AS42473 announce AS-GITOYEN
+import:         from AS42473 action pref=100; accept AS-ANEXIA
+remarks:        # Quantic Telecom
+export:         to AS198507 announce AS-GITOYEN
+import:         from AS198507 action pref=100; accept AS-QUANTIC
+remarks:        # FullSave
+export:         to AS39405 announce AS-GITOYEN
+import:         from AS39405 action pref=100; accept AS-FULLSAVE
+remarks:        # APPLIWAVE
+export:         to AS200780 announce AS-GITOYEN
+import:         from AS200780 action pref=100; accept AS-APPLIWAVE
+remarks:        # Amazon.com
+export:         to AS16509 announce AS-GITOYEN
+import:         from AS16509 action pref=100; accept AS-AMAZON
+remarks:
+remarks:        ======== SFINX ========
+remarks:
+remarks:        # Hivane
+export:         to AS34019 announce AS-GITOYEN
+import:         from AS34019 action pref=100; accept AS-HIVANE
+remarks:        # wan2many
+export:         to AS29608 announce AS-GITOYEN
+import:         from AS29608 action pref=100; accept AS-W2MY
+remarks:        # M-ROOT DNS Server
+export:         to AS7500 announce AS-GITOYEN
+import:         from AS7500 action pref=100; accept AS-M-ROOT
+remarks:        # Sunrise Communications AG
+export:         to AS6730 announce AS-GITOYEN
+import:         from AS6730 action pref=100; accept AS-GLOBAL
+remarks:        # Neuronnexion
+export:         to AS9036 announce AS-GITOYEN
+import:         from AS9036 action pref=100; accept AS-NEURONNEXION
+remarks:        # Prosodie Cap Gemini
+export:         to AS8784 announce AS-GITOYEN
+import:         from AS8784 action pref=100; accept AS-MGN
+remarks:        # FR-NIC-DNS-ANYCAST (AFNIC / NIC-France)
+export:         to AS2484 announce AS-GITOYEN
+import:         from AS2484 action pref=100; accept AS-AFNIC
+remarks:        # FR-NIC-DNS-UNICAST (AFNIC / NIC-France)
+export:         to AS2486 announce AS-GITOYEN
+import:         from AS2486 action pref=100; accept AS-AFNIC
+remarks:        # Nerim
+export:         to AS13193 announce AS-GITOYEN
+import:         from AS13193 action pref=100; accept AS-NERIM
+remarks:        # SFINX Route Servers
+export:         to AS1304 announce AS-GITOYEN
+import:         from AS1304 action pref=100; accept AS-SFINX-RS-MEMBERS
+remarks:        # OVH
+export:         to AS16276 announce AS-GITOYEN
+import:         from AS16276 action pref=100; accept AS-OVH
+remarks:        # Blue Networks Technologies
+export:         to AS50620 announce AS-GITOYEN
+import:         from AS50620 action pref=100; accept AS-BLUENETECH
+remarks:
+remarks:        ======== FRANCE-IX ========
+remarks:
+remarks:        # Salesforce.com
+export:         to AS14340 announce AS-GITOYEN
+import:         from AS14340 action pref=100; accept AS-SALESFORCE
+remarks:        # Adeli
+export:         to AS43142 announce AS-GITOYEN
+import:         from AS43142 action pref=100; accept AS-adelinovius
+remarks:        # Nerim
+export:         to AS13193 announce AS-GITOYEN
+import:         from AS13193 action pref=100; accept AS-NERIM
+remarks:        # NetActuate
+export:         to AS36236 announce AS-GITOYEN
+import:         from AS36236 action pref=100; accept AS-NETACTUATE
+remarks:        # Packet Clearing House
+export:         to AS3856 announce AS-GITOYEN
+import:         from AS3856 action pref=100; accept AS-PCH
+remarks:        # OVH
+export:         to AS16276 announce AS-GITOYEN
+import:         from AS16276 action pref=100; accept AS-OVH
+remarks:        # Cloudflare
+export:         to AS13335 announce AS-GITOYEN
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE
+remarks:        # Twitch
+export:         to AS46489 announce AS-GITOYEN
+import:         from AS46489 action pref=100; accept AS-TWITCH
+remarks:        # LuxNetwork S.A.
+export:         to AS29467 announce AS-GITOYEN
+import:         from AS29467 action pref=100; accept AS-LUXNETWORK
+remarks:        # Hurricane Electric
+export:         to AS6939 announce AS-GITOYEN
+import:         from AS6939 action pref=100; accept AS6939
+remarks:        # wan2many
+export:         to AS29608 announce AS-GITOYEN
+import:         from AS29608 action pref=100; accept AS-W2MY
+remarks:        # Packet Clearing House AS42
+export:         to AS42 announce AS-GITOYEN
+import:         from AS42 action pref=100; accept AS-PCH
+remarks:        # Association tetaneutral.net
+export:         to AS197422 announce AS-GITOYEN
+import:         from AS197422 action pref=100; accept AS-TETANEUTRAL-NET
+remarks:        # FR-NIC-DNS-ANYCAST (AFNIC / NIC-France)
+export:         to AS2484 announce AS-GITOYEN
+import:         from AS2484 action pref=100; accept AS-AFNIC
+remarks:        # FR-NIC-DNS-UNICAST (AFNIC / NIC-France)
+export:         to AS2486 announce AS-GITOYEN
+import:         from AS2486 action pref=100; accept AS-AFNIC
+remarks:        # LNC SA
+export:         to AS49463 announce AS-GITOYEN
+import:         from AS49463 action pref=100; accept AS49463
+remarks:        # Conostix S.A.
+export:         to AS197692 announce AS-GITOYEN
+import:         from AS197692 action pref=100; accept AS-CONOSTIX
+remarks:        # Neuronnexion
+export:         to AS9036 announce AS-GITOYEN
+import:         from AS9036 action pref=100; accept AS-NEURONNEXION
+remarks:        # Apple Inc.
+export:         to AS714 announce AS-GITOYEN
+import:         from AS714 action pref=100; accept AS-APPLE
+remarks:        # Automattic
+export:         to AS2635 announce AS-GITOYEN
+import:         from AS2635 action pref=100; accept AS-AUTOMATTIC
+remarks:        # M-ROOT DNS Server
+export:         to AS7500 announce AS-GITOYEN
+import:         from AS7500 action pref=100; accept AS-M-ROOT
+remarks:        # Linkedin
+export:         to AS14413 announce AS-GITOYEN
+import:         from AS14413 action pref=100; accept AS-LINKEDIN
+remarks:        # Prosodie Cap Gemini
+export:         to AS8784 announce AS-GITOYEN
+import:         from AS8784 action pref=100; accept AS-MGN
+remarks:        # Open Peering
+export:         to AS20562 announce AS-GITOYEN
+import:         from AS20562 action pref=100; accept AS-OPENPEERING
+remarks:        # OpenDNS, Inc.
+export:         to AS36692 announce AS-GITOYEN
+import:         from AS36692 action pref=100; accept AS-OPENDNS
+remarks:        # Saudi Telecom Company (STC IGW)
+export:         to AS39386 announce AS-GITOYEN
+import:         from AS39386 action pref=100; accept AS-IGW-SET
+remarks:        # Dropbox
+export:         to AS19679 announce AS-GITOYEN
+import:         from AS19679 action pref=100; accept AS-DROPBOX
+remarks:        # Hivane
+export:         to AS34019 announce AS-GITOYEN
+import:         from AS34019 action pref=100; accept AS-HIVANE
+remarks:        # Blue Networks Technologies
+export:         to AS50620 announce AS-GITOYEN
+import:         from AS50620 action pref=100; accept AS-BLUENETECH
+remarks:        # Riot Games
+export:         to AS6507 announce AS-GITOYEN
+import:         from AS6507 action pref=100; accept AS-RIOT
+remarks:        # FullSave
+export:         to AS39405 announce AS-GITOYEN
+import:         from AS39405 action pref=100; accept AS-FULLSAVE
+remarks:        # APPLIWAVE
+export:         to AS200780 announce AS-GITOYEN
+import:         from AS200780 action pref=100; accept AS-APPLIWAVE
+remarks:        # Anexia
+export:         to AS42473 announce AS-GITOYEN
+import:         from AS42473 action pref=100; accept AS-ANEXIA
+remarks:        # France-IX Route Servers
+export:         to AS51706 announce AS-GITOYEN
+import:         from AS51706 action pref=100; accept AS51706:AS-MEMBERS
+remarks:        # Akamai Technologies
+export:         to AS20940 announce AS-GITOYEN
+import:         from AS20940 action pref=100; accept AS-AKAMAI
+remarks:        # Amazon.com
+export:         to AS16509 announce AS-GITOYEN
+import:         from AS16509 action pref=100; accept AS-AMAZON
+remarks:        # Numericable
+export:         to AS21502 announce AS-GITOYEN
+import:         from AS21502 action pref=100; accept AS-NUMERICABLE
+remarks:
+remarks:        =========================
+admin-c:        GI1036-RIPE
+tech-c:         GI1036-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         Gitoyen-NCC
+created:        2002-09-24T12:17:02Z
+last-modified:  2024-11-14T23:14:02Z
+source:         RIPE # Filtered
+
+organisation:   ORG-GG4-RIPE
+org-name:       Association "Gitoyen"
+country:        FR
+org-type:       LIR
+address:        21 ter rue Voltaire
+address:        75011
+address:        Paris
+address:        FRANCE
+phone:          +33189168261
+admin-c:        SB18329-RIPE
+admin-c:        JD4314-RIPE
+admin-c:        PLB73-RIPE
+admin-c:        CM12414-RIPE
+admin-c:        JR5446-RIPE
+admin-c:        GI1036-RIPE
+mnt-ref:        Gitoyen-NCC
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         Gitoyen-NCC
+abuse-c:        GI1036-RIPE
+created:        2004-04-17T11:22:08Z
+last-modified:  2021-09-21T21:12:04Z
+source:         RIPE # Filtered
+
+role:           NOC Gitoyen
+address:        Gitoyen
+address:        21 ter rue Voltaire
+address:        75011 Paris
+address:        France
+remarks:        Email is preferred
+admin-c:        PLB73-RIPE
+admin-c:        VL239-RIPE
+admin-c:        CM12414-RIPE
+admin-c:        JR5446-RIPE
+admin-c:        SB18329-RIPE
+admin-c:        TVO62-RIPE
+admin-c:        THP25-RIPE
+tech-c:         PLB73-RIPE
+tech-c:         JR5446-RIPE
+tech-c:         SB18329-RIPE
+tech-c:         TVO62-RIPE
+tech-c:         THP25-RIPE
+nic-hdl:        GI1036-RIPE
+mnt-by:         Gitoyen-NCC
+abuse-mailbox:  abuse@gitoyen.net
+created:        2002-03-18T10:59:55Z
+last-modified:  2018-07-22T11:24:23Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          45.94.17.0/24
+descr:          Route to Gitoyen
+origin:         AS20766
+notify:         noc@gitoyen.net
+mnt-by:         Gitoyen-NCC
+created:        2023-03-20T17:36:58Z
+last-modified:  2023-03-20T17:36:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.94.18.0/23
+descr:          Route to Gitoyen
+origin:         AS20766
+notify:         noc@gitoyen.net
+mnt-by:         Gitoyen-NCC
+created:        2023-03-20T14:57:11Z
+last-modified:  2023-03-20T14:57:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.67.160.0/19
+descr:          Route to Gitoyen
+org:            ORG-GG4-RIPE
+origin:         AS20766
+notify:         noc@gitoyen.net
+mnt-by:         Gitoyen-NCC
+created:        2001-11-13T14:29:13Z
+last-modified:  2015-12-12T19:58:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.67.182.0/24
+descr:          Route to Rhizome
+origin:         AS20766
+notify:         noc@gitoyen.net
+mnt-by:         Gitoyen-NCC
+mnt-routes:     Gitoyen-NCC
+mnt-routes:     RHIZOME-MNT
+created:        2022-01-04T18:22:09Z
+last-modified:  2022-01-04T18:32:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.197.176.0/21
+descr:          Route to 109.197.176.0-21
+origin:         AS20766
+notify:         noc@gitoyen.net
+mnt-by:         GITOYEN-NCC
+created:        2024-11-14T22:50:17Z
+last-modified:  2024-11-14T22:50:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.57.124.0/22
+descr:          Route to Gitoyen
+org:            ORG-GG4-RIPE
+origin:         AS20766
+notify:         noc@gitoyen.net
+mnt-by:         Gitoyen-NCC
+created:        2019-02-06T15:55:28Z
+last-modified:  2019-02-06T15:55:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.23.30.0/24
+origin:         AS20766
+notify:         seb@gitoyen.net
+mnt-by:         Gitoyen-NCC
+created:        2019-02-06T15:55:29Z
+last-modified:  2020-03-21T21:44:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:910::/32
+descr:          Gitoyen IPv6 Network
+origin:         AS20766
+mnt-by:         GITOYEN-NCC
+notify:         noc@gitoyen.net
+created:        2010-07-29T20:40:43Z
+last-modified:  2012-02-23T13:06:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:913:4000::/36
+descr:          Mycelium IPv6 Network
+origin:         AS20766
+mnt-by:         GITOYEN-NCC
+notify:         noc@gitoyen.net
+created:        2018-09-30T15:55:52Z
+last-modified:  2018-09-30T15:55:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a04:9ac2::/32
+origin:         AS20766
+notify:         seb@gitoyen.net
+mnt-by:         Gitoyen-NCC
+created:        2020-03-21T21:44:42Z
+last-modified:  2020-03-21T21:44:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0f:6780::/29
+descr:          Route to Gitoyen IPv6
+origin:         AS20766
+notify:         noc@gitoyen.net
+mnt-by:         Gitoyen-NCC
+created:        2020-08-14T10:34:23Z
+last-modified:  2020-08-14T10:34:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0f:e580:b::/48
+origin:         AS20766
+mnt-by:         PP66043-MNT
+created:        2024-09-10T20:27:05Z
+last-modified:  2025-03-28T11:14:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

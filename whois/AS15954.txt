@@ -1,0 +1,512 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15835 - AS15963'
+
+as-block:       AS15835 - AS15963
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15954'
+
+% Abuse contact for 'AS15954' is 'abuse@tecnocratica.net'
+
+aut-num:        AS15954
+as-name:        Tecnocratica
+descr:          Tecnocratica Centro de Datos, S.L.
+org:            ORG-NS101-RIPE
+remarks:        ------------------
+remarks:        ---- Transits ----
+remarks:        ------------------
+remarks:        --- Cogent Communications
+import:         from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-Tecnocratica
+mp-import:      afi any from AS174 action pref=100; accept ANY
+mp-export:      afi any to AS174 announce AS-Tecnocratica
+remarks:        --- NTT Ltd.
+import:         from AS2914 action pref=100; accept ANY
+export:         to AS2914 announce AS-Tecnocratica
+mp-import:      afi any from AS2914 action pref=100; accept ANY
+mp-export:      afi any to AS2914 announce AS-Tecnocratica
+remarks:        --- GTT Communications, Inc.
+import:         from AS3257 action pref=100; accept ANY
+export:         to AS3257 announce AS-Tecnocratica
+mp-import:      afi any from AS3257 action pref=100; accept ANY
+mp-export:      afi any to AS3257 announce AS-Tecnocratica
+import:         from AS8928 action pref=100; accept ANY
+export:         to AS8928 announce AS-Tecnocratica
+mp-import:      afi any from AS8928 action pref=100; accept ANY
+mp-export:      afi any to AS8928 announce AS-Tecnocratica
+remarks:        --- Aire Networks
+import:         from AS29119 action pref=100; accept ANY
+export:         to AS29119 announce AS-Tecnocratica
+mp-import:      afi any from AS29119 action pref=100; accept ANY
+mp-export:      afi any to AS29119 announce AS-Tecnocratica
+remarks:        ----------------------------------------------
+remarks:        ------------------ IMPORTS -------------------
+remarks:        ----------------------------------------------
+remarks:        ----------------------------------------------
+remarks:        ------------------ PEERINGS ------------------
+remarks:        ----------------------------------------------
+import:         from AS15954:AS-PEERINGS accept AS15954:AS-PEERINGS
+mp-import:      afi any from AS15954:AS-PEERINGS accept AS15954:AS-PEERINGS
+remarks:        ----------------------------------------------
+remarks:        ------------------ CLIENTS -------------------
+remarks:        ----------------------------------------------
+import:         from AS15954:AS-CUSTOMERS action pref=160; accept AS15954:AS-CUSTOMERS
+import:         from AS-Tecnocratica action pref=160; accept AS-Tecnocratica
+import:         from AS6750 action pref=160; accept AS6750
+import:         from AS16134 action pref=160; accept AS16134
+import:         from AS20144 action pref=160; accept AS20144
+import:         from AS25152 action pref=160; accept AS25152
+import:         from AS29117 action pref=160; accept AS29117
+import:         from AS43520 action pref=160; accept AS43520
+import:         from AS51718 action pref=160; accept AS51718
+import:         from AS197518 action pref=160; accept AS-RACKMARKT
+import:         from AS201446 action pref=160; accept AS201446
+import:         from AS202207 action pref=160; accept AS-ASPA
+import:         from AS204773 action pref=160; accept AS-DMNTR
+mp-import:      afi any from AS15954:AS-CUSTOMERS action pref=160; accept AS15954:AS-CUSTOMERS
+mp-import:      afi any from AS-Tecnocratica accept AS-Tecnocratica
+mp-import:      afi any from AS6750 accept AS6750
+mp-import:      afi any from AS16134 accept AS16134
+mp-import:      afi any from AS20144 accept AS20144
+mp-import:      afi any from AS25152 accept AS25152
+mp-import:      afi any from AS29117 accept AS29117
+mp-import:      afi any from AS43520 accept AS43520
+mp-import:      afi any from AS51718 accept AS51718
+mp-import:      afi any from AS197518 accept AS-RACKMARKT
+mp-import:      afi any from AS201446 accept AS201446
+mp-import:      afi any from AS202207 accept AS-ASPA
+mp-import:      afi any from AS204773 accept AS-DMNTR
+remarks:        ----------------------------------------------
+remarks:        ----------------------------------------------
+remarks:        ------------------ EXPORTS -------------------
+remarks:        ----------------------------------------------
+remarks:        ----------------------------------------------
+remarks:        ------------------ PEERINGS ------------------
+remarks:        ----------------------------------------------
+export:         to AS15954:AS-PEERINGS announce AS-Tecnocratica
+mp-export:      afi any to AS15954:AS-PEERINGS announce AS-Tecnocratica
+remarks:        ----------------------------------------------
+remarks:        ------------------ CLIENTS -------------------
+remarks:        ----------------------------------------------
+export:         to AS15954:AS-CUSTOMERS announce ANY
+export:         to AS-Tecnocratica announce ANY
+export:         to AS6750 announce ANY
+export:         to AS16134 announce ANY
+export:         to AS29117 announce ANY
+export:         to AS20144 announce ANY
+export:         to AS25152 announce ANY
+export:         to AS43520 announce ANY
+export:         to AS51718 announce ANY
+export:         to AS197518 announce ANY
+export:         to AS201446 announce ANY
+export:         to AS202207 announce ANY
+export:         to AS204773 announce ANY
+mp-export:      afi any to AS15954:AS-CUSTOMERS announce ANY
+mp-export:      afi any to AS-Tecnocratica announce ANY
+mp-export:      afi any to AS6750 announce ANY
+mp-export:      afi any to AS16134 announce ANY
+mp-export:      afi any to AS20144 announce ANY
+mp-export:      afi any to AS25152 announce ANY
+mp-export:      afi any to AS29117 announce ANY
+mp-export:      afi any to AS43520 announce ANY
+mp-export:      afi any to AS51718 announce ANY
+mp-export:      afi any to AS197518 announce ANY
+mp-export:      afi any to AS201446 announce ANY
+mp-export:      afi any to AS202207 announce ANY
+mp-export:      afi any to AS204773 announce ANY
+remarks:        ----------------------------------------------
+admin-c:        TECN2-RIPE
+tech-c:         TECN3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TECNOCRATICA-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-05-22T08:57:17Z
+source:         RIPE # Filtered
+
+organisation:   ORG-NS101-RIPE
+org-name:       Tecnocratica Centro de Datos, S.L.
+country:        ES
+org-type:       LIR
+descr:          https://www.tecnocratica.net
+descr:          https://www.neodigit.net
+address:        Salvatierra, 4
+address:        28034
+address:        Madrid
+address:        SPAIN
+phone:          +34 910 059 045
+fax-no:         +34902010005
+admin-c:        AAS
+admin-c:        ASP
+abuse-c:        TECN11-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TECNOCRATICA-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TECNOCRATICA-MNT
+created:        2011-03-10T13:44:53Z
+last-modified:  2022-12-01T13:27:30Z
+source:         RIPE # Filtered
+
+role:           ADMIN TECNOCRATICA ES
+address:        C/ Salvatierra 4, 3D
+address:        28034 - Madrid
+address:        Spain
+abuse-mailbox:  abuse@tecnocratica.net
+admin-c:        ASP
+admin-c:        AAS
+tech-c:         TECN3-RIPE
+nic-hdl:        TECN2-RIPE
+mnt-by:         TECNOCRATICA-MNT
+created:        2012-11-08T18:59:52Z
+last-modified:  2022-01-26T17:19:16Z
+source:         RIPE # Filtered
+
+role:           NOC TECNOCRATICA ES
+address:        C/ Salvatierra 4, 3 D
+address:        28034 - Madrid
+address:        Spain
+abuse-mailbox:  abuse@tecnocratica.net
+admin-c:        TECN2-RIPE
+tech-c:         AAS
+tech-c:         ASP
+tech-c:         EDU-RIPE
+nic-hdl:        TECN3-RIPE
+mnt-by:         TECNOCRATICA-MNT
+created:        2012-11-08T19:01:18Z
+last-modified:  2023-01-09T12:03:33Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          31.24.120.0/21
+descr:          Legacy IPv4 space
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2015-10-07T10:31:50Z
+last-modified:  2018-03-02T11:59:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.47.72.0/21
+descr:          Tecnocratica Centro de Datos IPv4 network
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2018-05-22T14:48:50Z
+last-modified:  2018-05-22T14:51:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.247.120.0/21
+descr:          VP
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2014-11-26T16:26:46Z
+last-modified:  2018-05-22T11:30:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.199.120.0/24
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2021-08-23T07:28:51Z
+last-modified:  2021-08-23T07:28:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.216.219.0/24
+descr:          Tecnocratica IPv4 Routing Network
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2015-10-08T12:25:55Z
+last-modified:  2024-05-22T16:09:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.49.184.0/22
+descr:          Tecnocratica Centro de Datos IPv4 network
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2018-05-22T14:49:58Z
+last-modified:  2018-05-22T14:49:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.57.196.0/22
+descr:          Tecnocratica Centro de Datos IPv4 network
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2014-06-05T17:04:55Z
+last-modified:  2018-03-02T11:55:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.66.72.0/24
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2024-10-16T10:35:28Z
+last-modified:  2024-10-16T10:35:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.66.73.0/24
+descr:          Tecnocratica Centro de Datos IPv4 network
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2021-11-05T15:55:48Z
+last-modified:  2021-11-05T15:55:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.66.74.0/24
+descr:          Tecnocratica Centro de Datos IPv4 network
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2022-09-13T12:25:29Z
+last-modified:  2022-09-13T12:25:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.203.224.0/22
+descr:          Tecnocratica Centro de Datos IPv4 network
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2021-06-21T10:53:42Z
+last-modified:  2021-06-23T08:11:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.247.194.0/24
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2022-12-30T09:08:38Z
+last-modified:  2022-12-30T09:08:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.247.214.0/23
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2022-12-09T09:21:27Z
+last-modified:  2022-12-09T09:21:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.176.119.0/24
+descr:          SDR, S.L. - Housing
+origin:         AS15954
+mnt-by:         SDR-MNT
+created:        2015-10-08T12:24:58Z
+last-modified:  2015-10-08T12:24:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          204.62.249.0/24
+descr:          ISC Spain - via tecnocratica
+origin:         AS15954
+mnt-lower:      joao-mnt
+mnt-routes:     joao-mnt
+mnt-by:         joao-mnt
+created:        2013-12-04T20:23:19Z
+last-modified:  2018-09-04T17:47:12Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.18.32.0/20
+descr:          Tecnocratica - clouds
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2012-10-18T14:16:46Z
+last-modified:  2016-08-08T14:11:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:a940::/32
+descr:          Tecnocratica Centro de Datos, S.L.
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2018-05-22T15:51:03Z
+last-modified:  2023-11-08T09:45:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:a941::/32
+descr:          Tecnocratica Centro de Datos, S.L. IPv6
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2023-01-30T10:13:52Z
+last-modified:  2023-01-30T10:13:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:a942::/32
+origin:         AS15954
+mnt-by:         TECNOCRATICA-MNT
+created:        2023-10-04T12:45:27Z
+last-modified:  2023-10-04T12:45:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2810::/32
+origin:         AS15954
+mnt-by:         SDR-MNT
+created:        2016-03-23T16:49:43Z
+last-modified:  2016-03-23T16:49:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

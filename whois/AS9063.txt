@@ -1,0 +1,1590 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS9063'
+
+% Abuse contact for 'AS9063' is 'abuse@vsenet.de'
+
+aut-num:        AS9063
+as-name:        SAARGATE-AS
+descr:          VSE NET GmbH
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+org:            ORG-SGfM1-RIPE
+remarks:        +-----------------+
+remarks:        | U p s t r e a m |
+remarks:        +-----------------+
+remarks:        *** IPv4 ***
+remarks:        - TeliaSonera
+import:         from AS1299 action pref=500; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS1299 announce AS-SAARGATE
+remarks:        - Level 3 Communications
+import:         from AS3356 action pref=500; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS3356 announce AS-SAARGATE
+remarks:        - Cogent Communications
+import:         from AS174 action pref=500; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS174 announce AS-SAARGATE
+remarks:        - Deutsche Telekom
+import:         from AS3320 action pref=500; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS3320 announce AS-SAARGATE
+remarks:        *** IPv6 ***
+remarks:        - TeliaSonera
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-SAARGATE
+remarks:        - Level 3 Communications
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-SAARGATE
+remarks:        - Cogent Communications
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-SAARGATE
+remarks:        - Deutsche Telekom
+mp-import:      afi ipv6.unicast from AS3320 accept ANY
+mp-export:      afi ipv6.unicast to AS3320 announce AS-SAARGATE
+remarks:        - Hurricane Electric
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-SAARGATE
+remarks:        +---------------------+
+remarks:        | D o w n s t r e a m |
+remarks:        +---------------------+
+remarks:        - Salink
+export:         to AS8937 announce ANY
+import:         from AS8937 action pref=1000; accept AS-SALINK
+remarks:        - Cegecom S.A.
+export:         to AS15965 announce ANY
+import:         from AS15965 action pref=1000; accept AS-CEGECOM
+remarks:        - Saarbruecker Zeitung Druck und Verlag GmbH
+export:         to AS12404 announce ANY
+import:         from AS12404 action pref=1000; accept AS12404
+remarks:        - Internett
+import:         from AS29510 action pref=1000; accept AS-INTERNETT
+export:         to AS29510 announce ANY
+remarks:        - infoServe GmbH
+export:         to AS9188 announce ANY
+import:         from AS9188 action pref=1000; accept AS-INFOSERVE
+remarks:        - Sybcom GmbH
+export:         to AS12431 announce ANY
+import:         from AS12431 action pref=1000; accept AS12431
+remarks:        - Manitu
+import:         from AS34240 action pref=800; accept AS34240
+export:         to AS34240 announce ANY
+remarks:        - Key-Systems
+import:         from AS196763 action pref=1000; accept AS196763
+export:         to AS196763 announce ANY
+remarks:        - Fraunhofer IESE
+import:         from AS9020 action pref=1000; accept AS9020
+export:         to AS9020 announce ANY
+remarks:        - Versorgungs- und Verkehrsgesellschaft Saarbruecken Gmbh
+import:         from AS51137 action pref=1000; accept AS51137
+export:         to AS51137 announce ANY
+remarks:        - Hydac Technology GmbH
+export:         to AS31049 announce ANY
+import:         from AS31049 action pref=1000; accept AS31049
+remarks:        - prego services GmbH
+import:         from AS61310 action pref=1000; accept AS61310
+export:         to AS61310 announce ANY
+remarks:        - m+m werbeagentur
+import:         from AS61415 action pref=1000; accept AS61415
+export:         to AS61415 announce ANY
+remarks:        - Orbis AG
+import:         from AS60400 action pref=1000; accept AS60400
+export:         to AS60400 announce ANY
+remarks:        - CompuGroup Medical AG
+import:         from AS203437 action pref=1000; accept AS203437
+export:         to AS203437 announce ANY
+remarks:        - Netbuild
+import:         from AS38927 action pref=1000; accept AS38927
+export:         to AS38927 announce ANY
+remarks:        - Inopla
+import:         from AS203427 action pref=1000; accept AS203427
+export:         to AS203427 announce ANY
+remarks:        - DSW GmbH
+import:         from AS203412 action pref=1000; accept AS203412
+export:         to AS203412 announce ANY
+remarks:        - ROTAREX S.A.
+import:         from AS203398 action pref=1000; accept AS203398
+export:         to AS203398 announce ANY
+remarks:        - Geib IT
+import:         from AS60351 action pref=1000; accept AS60351
+export:         to AS60351 announce ANY
+remarks:        - Chronosat GmbH
+import:         from AS44064 action pref=1000; accept AS-CHRONOS
+export:         to AS44064 announce ANY
+remarks:        - Encevo
+export:         to AS202438 announce ANY
+import:         from AS202438 action pref=1000; accept AS202438
+remarks:        - Hahn Automation GmbH
+export:         to AS208238 announce ANY
+import:         from AS208238 action pref=1000; accept AS208238
+remarks:        - ILS/RDV/RDS Saarbruecken
+import:         from AS211075 action pref=1000; accept AS211075
+export:         to AS211075 announce ANY
+remarks:        - IKS Weiskirchen
+import:         from AS210521 action pref=1000; accept AS210521
+export:         to AS210521 announce ANY
+remarks:        - AirIT
+import:         from AS201370:AS-AIRIT action pref=1000; accept AS201370:AS-AIRIT
+export:         to AS201370:AS-AIRIT announce ANY
+remarks:        - IT-DLZ Saarland
+import:         from AS213490 action pref=1000; accept AS213490
+export:         to AS213490 announce ANY
+remarks:        - Deloitte
+import:         from AS214004 action pref=1000; accept AS214004
+export:         to AS214004 announce ANY
+admin-c:        TE847-RIPE
+tech-c:         TE847-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SAARGATE-DE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-02-04T09:24:24Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SGfM1-RIPE
+org-name:       VSE NET GmbH
+country:        DE
+org-type:       LIR
+address:        Heinrich-Barth-Straße 17
+address:        D-66115
+address:        Saarbruecken
+address:        GERMANY
+phone:          +496816071111
+fax-no:         +496816071112
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SAARGATE-DE-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SAARGATE-DE-MNT
+admin-c:        HP318-RIPE
+admin-c:        SW2600-RIPE
+admin-c:        CE599-RIPE
+admin-c:        AD4807-RIPE
+admin-c:        JW9031-RIPE
+admin-c:        TS17420-RIPE
+abuse-c:        VS7623-RIPE
+created:        2004-04-17T11:11:48Z
+last-modified:  2023-10-23T09:44:49Z
+source:         RIPE # Filtered
+
+role:           TERESTO Role Account
+remarks:        Technical Team at VSENET
+address:        VSE NET GmbH
+address:        Nell-Breuning-Allee 6
+address:        D-66115 Saarbruecken
+phone:          +496816070
+admin-c:        TS17420-RIPE
+admin-c:        CE599-RIPE
+admin-c:        HP318-RIPE
+admin-c:        AD4807-RIPE
+admin-c:        JW9031-RIPE
+tech-c:         TS17420-RIPE
+tech-c:         CE599-RIPE
+tech-c:         HP318-RIPE
+tech-c:         AD4807-RIPE
+tech-c:         JW9031-RIPE
+nic-hdl:        TE847-RIPE
+mnt-by:         SAARGATE-DE-MNT
+created:        2007-04-03T07:39:55Z
+last-modified:  2022-04-27T22:19:28Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          5.181.116.0/22
+descr:          IP-Range Trilan
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+mnt-by:         mnt-de-swttrilan-1
+created:        2019-07-03T08:16:31Z
+last-modified:  2019-07-03T08:18:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.22.9.0/24
+descr:          IP-Range Trilan
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+mnt-by:         mnt-de-swttrilan-1
+created:        2025-04-01T12:43:43Z
+last-modified:  2025-04-01T12:43:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.220.32.0/22
+descr:          Westconnect via VSE NET
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2024-07-16T07:35:52Z
+last-modified:  2024-07-16T07:35:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.9.184.0/21
+descr:          K-net Telekommunikation GmbH
+descr:          D-67655 Kaiserslautern
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2011-12-16T13:16:23Z
+last-modified:  2015-01-06T10:07:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.230.0.0/19
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-04-11T11:29:51Z
+last-modified:  2012-04-11T11:29:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.234.36.0/23
+descr:          Route ROEDL-IT via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+notify:         klaus.clemens@roedl.com
+mnt-by:         SAARGATE-DE-MNT
+mnt-by:         INEXIO-MNT
+mnt-routes:     DE-COLT-MNT
+created:        2014-12-05T14:42:20Z
+last-modified:  2018-02-08T09:50:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.27.228.0/22
+descr:          Kraemer IT via VSENET
+origin:         AS9063
+mnt-by:         mnt-de-kraemer-it-1
+created:        2021-07-19T12:45:24Z
+last-modified:  2021-07-19T12:45:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.184.160.0/19
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2015-01-05T08:34:23Z
+last-modified:  2015-01-06T10:03:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.186.0.0/20
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2008-08-06T13:40:58Z
+last-modified:  2012-04-11T11:30:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.156.197.0/24
+descr:          K-net Telekommunikation GmbH
+descr:          D-67655 Kaiserslautern
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2016-11-30T08:48:53Z
+last-modified:  2016-11-30T08:48:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.156.202.0/24
+descr:          K-net Telekommunikation GmbH
+descr:          D-67655 Kaiserslautern
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2016-11-30T08:48:54Z
+last-modified:  2016-11-30T08:48:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.156.214.0/23
+descr:          K-net Telekommunikation GmbH
+descr:          D-67655 Kaiserslautern
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2016-11-30T08:48:54Z
+last-modified:  2016-11-30T08:48:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.75.80.0/20
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2009-11-19T13:08:31Z
+last-modified:  2015-01-06T10:15:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.230.201.0/24
+descr:          K-net Telekommunikation GmbH
+descr:          D-67655 Kaiserslautern
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2016-11-30T08:47:14Z
+last-modified:  2016-11-30T08:47:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.230.202.0/24
+descr:          K-net Telekommunikation GmbH
+descr:          D-67655 Kaiserslautern
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2016-11-30T08:47:14Z
+last-modified:  2016-11-30T08:47:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          129.233.211.0/24
+descr:          Route FRAUNHOFER via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2017-12-15T13:19:59Z
+last-modified:  2017-12-15T13:19:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          147.93.216.0/21
+descr:          Westconnect via VSE NET
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2025-03-12T07:36:06Z
+last-modified:  2025-03-12T07:36:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          153.96.50.0/24
+descr:          Route FRAUNHOFER via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-09-04T12:44:50Z
+last-modified:  2015-01-06T10:15:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          153.96.57.0/24
+descr:          Route FRAUNHOFER via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-09-04T12:45:25Z
+last-modified:  2015-01-06T10:17:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          153.96.136.0/24
+descr:          Route FRAUNHOFER via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-09-04T12:45:54Z
+last-modified:  2015-01-06T10:16:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          153.96.137.0/24
+descr:          Route FRAUNHOFER via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-09-04T12:46:08Z
+last-modified:  2015-01-06T10:16:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          153.96.138.0/24
+descr:          Route FRANUNHOFER via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2011-08-11T11:12:00Z
+last-modified:  2012-04-13T07:13:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          153.96.139.0/24
+descr:          Route FRAUNHOFER via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-09-04T12:46:21Z
+last-modified:  2015-01-06T10:17:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          153.96.183.0/24
+descr:          Route FRAUNHOFER via VSENET
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2015-12-08T13:16:08Z
+last-modified:  2015-12-08T13:16:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          153.97.134.0/24
+descr:          Route FRANUNHOFER via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2011-07-29T08:21:01Z
+last-modified:  2012-04-13T07:22:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          176.126.64.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:44:51Z
+last-modified:  2020-04-21T08:44:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.126.68.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:12Z
+last-modified:  2020-04-21T08:45:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.126.71.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:12Z
+last-modified:  2020-04-21T08:45:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.126.72.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:12Z
+last-modified:  2020-04-21T08:45:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.126.75.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:13Z
+last-modified:  2020-04-21T08:45:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.126.76.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:13Z
+last-modified:  2020-04-21T08:45:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.126.79.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:13Z
+last-modified:  2020-04-21T08:45:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.126.80.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:14Z
+last-modified:  2020-04-21T08:45:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.126.82.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:14Z
+last-modified:  2020-04-21T08:45:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.5.28.0/22
+descr:          Elektrizitaetswerk Goldbach-Hoesbach GmbH & Co. KG
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+mnt-by:         EWG-MNT
+created:        2012-10-08T12:23:08Z
+last-modified:  2018-04-11T11:30:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.13.28.0/22
+descr:          EWR via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-12-19T09:16:27Z
+last-modified:  2015-01-06T10:13:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.35.109.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:14Z
+last-modified:  2020-04-21T08:45:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.35.110.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:15Z
+last-modified:  2020-04-21T08:45:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.38.76.0/22
+descr:          RMENET via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2013-10-31T11:45:35Z
+last-modified:  2015-01-06T10:13:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.44.200.0/22
+descr:          VEGANET via VSENET
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2014-01-10T12:48:42Z
+last-modified:  2015-01-06T10:12:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.44.200.0/23
+descr:          VEGANET via VSE NET
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+mnt-by:         HD96977-MNT
+created:        2025-03-14T13:11:17Z
+last-modified:  2025-03-14T13:11:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.53.156.0/22
+descr:          innogy TelNet via VSENET
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+mnt-by:         westconnect-mnt
+notify:         ripe@vsenet.de
+created:        2014-04-11T21:12:22Z
+last-modified:  2024-05-13T13:13:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.119.32.0/22
+descr:          K-net Telekommunikation GmbH
+descr:          D-67655 Kaiserslautern
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2016-02-15T11:14:44Z
+last-modified:  2016-02-15T11:14:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.161.200.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:15Z
+last-modified:  2020-04-21T08:45:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.166.189.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:15Z
+last-modified:  2020-04-21T08:45:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.166.190.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:15Z
+last-modified:  2020-04-21T08:45:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.168.8.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:16Z
+last-modified:  2020-04-21T08:45:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.168.11.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:16Z
+last-modified:  2020-04-21T08:45:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.168.141.0/24
+descr:          Kraemer IT via VSENET
+origin:         AS9063
+mnt-by:         mnt-de-kraemer-it-1
+created:        2020-09-15T14:51:46Z
+last-modified:  2020-09-15T14:51:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.186.144.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:16Z
+last-modified:  2020-04-21T08:45:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.194.151.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:17Z
+last-modified:  2020-04-21T08:45:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.203.123.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:17Z
+last-modified:  2020-04-21T08:45:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.209.92.0/22
+descr:          Elektrizitaetswerk Goldbach-Hoesbach GmbH & Co. KG
+origin:         AS9063
+mnt-by:         EWG-MNT
+mnt-by:         SAARGATE-DE-MNT
+created:        2024-04-22T12:09:31Z
+last-modified:  2024-04-22T12:09:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.222.139.0/24
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:17Z
+last-modified:  2020-04-21T08:45:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.231.252.0/22
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-04-21T08:45:17Z
+last-modified:  2020-04-21T08:45:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.141.183.0/24
+descr:          IT-DLZ des Saarlandes via VSE NET GmbH
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2024-11-05T15:20:06Z
+last-modified:  2024-11-05T15:23:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.141.188.0/24
+descr:          IT-DLZ des Saarlandes via VSE NET GmbH
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2024-11-05T15:21:11Z
+last-modified:  2024-11-05T15:24:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.35.184.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2019-10-22T10:58:18Z
+last-modified:  2019-10-22T10:58:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.35.188.0/23
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2019-10-22T10:58:19Z
+last-modified:  2019-10-22T10:58:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.180.160.0/21
+descr:          Dillinger Stahlbau GmbH
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-04-13T07:56:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.66.0.0/21
+descr:          Elektrizitaetswerk Goldbach-Hoesbach GmbH & Co. KG
+origin:         AS9063
+mnt-by:         EWG-MNT
+mnt-by:         SAARGATE-DE-MNT
+created:        2015-12-16T11:20:12Z
+last-modified:  2018-04-11T11:28:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.82.48.0/20
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        2016-05-09T08:08:46Z
+last-modified:  2016-05-09T08:08:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.88.128.0/19
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-04-13T07:20:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.185.65.0/24
+descr:          Elektrizitaetswerk Goldbach-Hoesbach GmbH & Co. KG
+origin:         AS9063
+mnt-by:         EWG-MNT
+mnt-by:         SAARGATE-DE-MNT
+created:        2018-04-11T07:49:32Z
+last-modified:  2018-04-11T07:49:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.185.66.0/23
+descr:          Elektrizitaetswerk Goldbach-Hoesbach GmbH & Co. KG
+origin:         AS9063
+mnt-by:         EWG-MNT
+mnt-by:         SAARGATE-DE-MNT
+created:        2018-04-11T11:28:17Z
+last-modified:  2018-04-11T11:28:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.185.68.0/22
+descr:          Elektrizitaetswerk Goldbach-Hoesbach GmbH & Co. KG
+origin:         AS9063
+mnt-by:         EWG-MNT
+mnt-by:         SAARGATE-DE-MNT
+created:        2018-04-11T11:28:36Z
+last-modified:  2018-04-11T11:28:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.185.72.0/22
+descr:          Elektrizitaetswerk Goldbach-Hoesbach GmbH & Co. KG
+origin:         AS9063
+mnt-by:         EWG-MNT
+mnt-by:         SAARGATE-DE-MNT
+created:        2018-04-11T11:28:36Z
+last-modified:  2018-04-11T11:28:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.185.76.0/23
+descr:          Elektrizitaetswerk Goldbach-Hoesbach GmbH & Co. KG
+origin:         AS9063
+mnt-by:         EWG-MNT
+mnt-by:         SAARGATE-DE-MNT
+created:        2018-04-11T11:28:36Z
+last-modified:  2018-04-11T11:28:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.24.224.0/20
+descr:          VSENET / Teresto / artelis
+descr:          Nell-Breunig-Allee 6
+descr:          D-66115 Saarbruecken
+origin:         AS9063
+notify:         ripe@vsenet.de
+mnt-by:         SAARGATE-DE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-04-13T07:21:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:4060::/32
+descr:          RMENET via VSENET
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2013-10-31T11:47:19Z
+last-modified:  2013-10-31T11:47:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:7820::/32
+descr:          VEGANET via VSENET
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2014-01-10T12:59:14Z
+last-modified:  2014-01-10T12:59:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:5a0::/29
+descr:          VSENET / Teresto / artelis
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2020-06-19T11:31:59Z
+last-modified:  2020-06-19T11:31:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:5a0::/32
+descr:          VSENET / Teresto / artelis
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+notify:         ripe@vsenet.de
+created:        2009-03-12T09:05:41Z
+last-modified:  2012-04-13T07:50:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2c60::/32
+descr:          innogy TelNet via VSENET/ARTELIS
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+mnt-by:         westconnect-mnt
+notify:         ripe@vsenet.de
+created:        2014-04-09T13:52:00Z
+last-modified:  2024-05-13T13:08:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2dc0::/32
+descr:          K-net Telekommunikation GmbH
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-09-14T10:59:01Z
+last-modified:  2012-09-14T10:59:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:7940::/32
+descr:          Elektrizitaetswerk Goldbach-Hoesbach GmbH & Co. KG
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-10-08T12:16:37Z
+last-modified:  2012-10-08T12:16:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:9b40::/32
+descr:          EWR via VSENET
+origin:         AS9063
+mnt-by:         SAARGATE-DE-MNT
+created:        2012-12-19T09:15:33Z
+last-modified:  2012-12-19T09:15:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0f:ed80::/29
+descr:          IPv6-Range Trilan
+origin:         AS9063
+mnt-by:         mnt-de-swttrilan-1
+created:        2025-01-22T12:30:23Z
+last-modified:  2025-01-22T12:30:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a10:65c0::/29
+descr:          Kraemer IT via VSENET
+origin:         AS9063
+mnt-by:         mnt-de-kraemer-it-1
+created:        2020-09-16T13:14:29Z
+last-modified:  2020-09-16T13:14:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

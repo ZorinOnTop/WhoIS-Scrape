@@ -1,0 +1,178 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16059 - AS16213'
+
+as-block:       AS16059 - AS16213
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16079'
+
+% Abuse contact for 'AS16079' is 'GLOBEISITITScesNetworkScesWANSME@nestle.com'
+
+aut-num:        AS16079
+as-name:        NESTEC_CLGO
+org:            ORG-NOSW1-RIPE
+descr:          Switzerland LGO - LAN - advertised by Swisscom and Sunrise via Verizon - Oct 2020
+import:         from AS6730 accept ANY
+import:         from AS3303 accept ANY
+export:         to AS6730 announce AS16079
+export:         to AS3303 announce AS16079
+default:        to AS6730 action pref=10; networks ANY
+admin-c:        TL5763-RIPE
+admin-c:        IT2860-RIPE
+tech-c:         TL5763-RIPE
+tech-c:         IT2860-RIPE
+tech-c:         CM13858-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NESTEC-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2020-10-01T15:43:43Z
+source:         RIPE
+
+organisation:   ORG-NOSW1-RIPE
+org-name:       Nestle Operational Services Worldwide SA
+country:        CH
+org-type:       LIR
+address:        Avenue Nestlé 55
+address:        1800
+address:        Vevey
+address:        SWITZERLAND
+phone:          +41219241111
+fax-no:         +41219211885
+abuse-c:        NOSW1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        NESTEC-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NESTEC-MNT
+admin-c:        IT2860-RIPE
+admin-c:        FB16558-RIPE
+tech-c:         IT2860-RIPE
+tech-c:         TL5763-RIPE
+created:        2013-06-21T09:51:57Z
+last-modified:  2022-03-03T08:38:36Z
+source:         RIPE # Filtered
+
+person:         Cyrille MAIRE
+address:        Rue d'Entre-Deux-Villes 10
+address:        La Tour-De-Peilz  1814
+phone:          +41219246743
+nic-hdl:        CM13858-RIPE
+mnt-by:         NESTEC-MNT
+created:        2013-03-14T13:27:19Z
+last-modified:  2013-03-14T13:27:19Z
+source:         RIPE # Filtered
+
+person:         Isaias Telhado
+address:        3701 E La Salle St, Phoenix, AZ 85040, US
+phone:          +1 (602) 516-8227
+nic-hdl:        IT2860-RIPE
+mnt-by:         NESTEC-MNT
+mnt-by:         NESTLE-MNT
+mnt-by:         NUK-MNT
+created:        2019-04-01T09:47:39Z
+last-modified:  2019-04-01T09:52:02Z
+source:         RIPE
+
+person:         Tim Li
+address:        North York, Toronto, CA
+phone:          +1 (416) 553-6536
+nic-hdl:        TL5763-RIPE
+mnt-by:         NESTEC-MNT
+created:        2019-04-02T12:42:12Z
+last-modified:  2019-04-02T12:42:12Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          141.122.0.0/16
+descr:          Global Nestle Network
+origin:         AS16079
+mnt-by:         NESTEC-MNT
+created:        2005-02-09T17:01:38Z
+last-modified:  2018-09-04T15:42:06Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.122.0.0/20
+descr:          NESTEC_CLGO
+origin:         AS16079
+mnt-by:         NESTEC-MNT
+created:        2013-08-26T09:19:29Z
+last-modified:  2018-09-04T17:43:50Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.122.9.0/24
+descr:          Proxy-registered route object
+origin:         AS16079
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20061016
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.209.159.0/24
+descr:          Proxy-registered route object
+origin:         AS16079
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070509
+source:         LEVEL3
+rpki-ov-state:  valid
+
+

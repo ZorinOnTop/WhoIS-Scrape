@@ -1,0 +1,3456 @@
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.
+#
+
+
+ASNumber:       1241
+ASName:         RIPE-ASNBLOCK-1241
+ASHandle:       AS1241
+RegDate:        2002-10-15
+Updated:        2003-04-25
+Comment:        These addresses have been further assigned to users in
+Comment:        the RIPE NCC region. Contact information can be found in
+Comment:        the RIPE database at http://www.ripe.net/whois    
+Ref:            https://rdap.arin.net/registry/autnum/1241
+
+ResourceLink:  https://apps.db.ripe.net/db-web-ui/query
+ResourceLink:  whois.ripe.net
+
+
+OrgName:        RIPE Network Coordination Centre
+OrgId:          RIPE
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:      
+PostalCode:     1001EB
+Country:        NL
+RegDate:        
+Updated:        2013-07-29
+Ref:            https://rdap.arin.net/registry/entity/RIPE
+
+ReferralServer:  whois.ripe.net
+ResourceLink:  https://apps.db.ripe.net/db-web-ui/query
+
+OrgAbuseHandle: ABUSE3850-ARIN
+OrgAbuseName:   Abuse Contact
+OrgAbusePhone:  +31205354444 
+OrgAbuseEmail:  abuse@ripe.net
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE3850-ARIN
+
+OrgTechHandle: RNO29-ARIN
+OrgTechName:   RIPE NCC Operations
+OrgTechPhone:  +31 20 535 4444 
+OrgTechEmail:  hostmaster@ripe.net
+OrgTechRef:    https://rdap.arin.net/registry/entity/RNO29-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.
+#
+
+
+
+Found a referral to whois.ripe.net.
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS1241 - AS1241'
+
+as-block:       AS1241 - AS1241
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:09Z
+last-modified:  2018-11-22T15:27:09Z
+source:         RIPE
+
+% Information related to 'AS1241'
+
+% Abuse contact for 'AS1241' is 'abuse@forthnet.gr'
+
+aut-num:        AS1241
+as-name:        FORTHNET-GR
+org:            ORG-FS5-RIPE
+descr:          Forthnet
+descr:          Greek IP Service Provider
+descr:          GR
+admin-c:        FARO1-RIPE
+tech-c:         FTO1-RIPE
+remarks:
+remarks:        The following BGP policy is applied to all customers
+remarks:
+remarks:        - Private reserved networks and private AS numbers are not
+remarks:        accepted and always filtered.
+remarks:
+remarks:        - Prefixes longer than a /24 are not accepted.
+remarks:
+remarks:        - Prefixes not matching import policy are rejected.
+remarks:        Customers must always have a valid route object.
+remarks:
+remarks:        - Prefix limit is placed upon the number of prefixes
+remarks:        received including a percentage amount for future growth.
+remarks:
+remarks:        - Advertisements tagged with communities other than
+remarks:        the one outlined below are reset by default at ingress.
+remarks:
+remarks:        - We honor well known communities
+remarks:        no-export & no-advertise
+remarks:
+remarks:        - We enforce strict RPKI policy, dropping INVALID routes
+remarks:        on Transit and Peering links.
+remarks:
+remarks:        Upstream Communities applied at ingress
+remarks:
+remarks:        Upstream Community
+remarks:        ----------------------- --------------
+remarks:        AS21215 1241:30020
+remarks:        AS21215 (path 1) 1241:30021
+remarks:        AS21215 (path 2) 1241:30022
+remarks:        AS6762 1241:30030
+remarks:        AS6762 (path 1) 1241:30031
+remarks:        AS6762 (path 2) 1241:30032
+remarks:
+remarks:
+remarks:        Upstream Communities applied at ingress Per City
+remarks:
+remarks:        CITY - POP Community
+remarks:        ----------------------- --------------
+remarks:        Athens - KLN 1241:30102
+remarks:        Thessaloniki - THR 1241:30104
+remarks:
+remarks:
+remarks:        Peering Communities applied at ingress
+remarks:
+remarks:        EXCHANGE Community
+remarks:        ----------------------- --------------
+remarks:        GRIX/DIRECT(national) 1241:30200
+remarks:        International Exchange (IX) 1241:30201
+remarks:
+remarks:        All Upstream and International IX Prefixes
+remarks:        will be marked with community:
+remarks:        1241:30001
+remarks:
+remarks:
+remarks:        Customer Traffic Engineering
+remarks:
+remarks:        Prepend to all Upstreams
+remarks:
+remarks:        Action (RIPE description) Community
+remarks:        --------------------------------- -----------
+remarks:        Prepend x1 to all Upstreams 1241:20001
+remarks:        Prepend x2 to all Upstreams 1241:20002
+remarks:        Prepend x3 to all Upstreams 1241:20003
+remarks:        Prepend x4 to all Upstreams 1241:20004
+remarks:
+remarks:
+remarks:        Prepend to AS21215 (UGNI)
+remarks:
+remarks:        Action (RIPE description) Community
+remarks:        --------------------------------- -----------
+remarks:        Prepend x1 to AS21215 (all paths) 1241:20201
+remarks:        Prepend x1 to AS21215 (path 1) 1241:20211
+remarks:        Prepend x1 to AS21215 (path 2) 1241:20221
+remarks:        Prepend x2 to AS21215 (all paths) 1241:20202
+remarks:        Prepend x2 to AS21215 (path 1) 1241:20212
+remarks:        Prepend x2 to AS21215 (path 2) 1241:20222
+remarks:        Prepend x3 to AS21215 (all paths) 1241:20203
+remarks:        Prepend x3 to AS21215 (path 1) 1241:20213
+remarks:        Prepend x3 to AS21215 (path 2) 1241:20223
+remarks:        Prepend x4 to AS21215 (all paths) 1241:20204
+remarks:        Prepend x4 to AS21215 (path 1) 1241:20214
+remarks:        Prepend x4 to AS21215 (path 2) 1241:20224
+remarks:
+remarks:
+remarks:        Prepend to AS6762 (Seabone)
+remarks:
+remarks:        Action (RIPE description) Community
+remarks:        --------------------------------- -----------
+remarks:        Prepend x1 to AS6762 (all paths) 1241:20301
+remarks:        Prepend x1 to AS6762 (path 1) 1241:20311
+remarks:        Prepend x1 to AS6762 (path 2) 1241:20321
+remarks:        Prepend x2 to AS6762 (all paths) 1241:20302
+remarks:        Prepend x2 to AS6762 (path 1) 1241:20312
+remarks:        Prepend x2 to AS6762 (path 2) 1241:20322
+remarks:        Prepend x3 to AS6762 (all paths) 1241:20303
+remarks:        Prepend x3 to AS6762 (path 1) 1241:20313
+remarks:        Prepend x3 to AS6762 (path 2) 1241:20323
+remarks:        Prepend x4 to AS6762 (all paths) 1241:20304
+remarks:        Prepend x4 to AS6762 (path 1) 1241:20314
+remarks:        Prepend x4 to AS6762 (path 2) 1241:20324
+remarks:
+remarks:
+remarks:
+remarks:        Blackholing
+remarks:
+remarks:        Action (RIPE description) Community
+remarks:        ------------------------------ ------------
+remarks:        Blackhole Traffic in AS31042 1241:20920
+remarks:        Blackhole Traffic in AS6762 1241:20930
+remarks:        Blackhole Traffic in DE-CIX 1241:20950
+remarks:        Blackhole Traffic in all Upstreams that support it 1241:20999
+remarks:
+remarks:        Upstreams
+remarks:
+import:         from AS6762 action pref=60; accept ANY
+export:         to AS6762 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS6762 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast to AS6762 announce AS-FORTHNET-V6
+import:         from AS31042 action pref=60; accept ANY
+export:         to AS31042 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS31042 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast to AS31042 announce AS-FORTHNET-V6
+import:         from AS21215 action pref=60; accept ANY
+export:         to AS21215 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS21215 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast to AS21215 announce AS-FORTHNET-V6
+remarks:
+remarks:        --------------------------------
+remarks:
+remarks:        Peers
+remarks:
+remarks:        DEC-IX (German Internet EXchange)
+remarks:
+import:         from AS6695 action pref=75; accept AS-DECIX
+export:         to AS6695 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS6695 action pref=75; accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-FORTHNET-V6
+remarks:
+remarks:
+remarks:        ---------------------------------
+remarks:
+remarks:        AMS-IX (Amsterdam Internet EXchange)
+remarks:
+import:         from AS6777 action pref=75; accept AS-AMS-IX-RS
+export:         to AS6777 action community .= { 6777:6777 }; announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS6777 action pref=75; accept AS-AMS-IX-RS
+mp-export:      afi ipv6.unicast to AS6777 announce AS-FORTHNET-V6
+remarks:
+import:         from AS1200 action pref=79; accept AS1200
+export:         to AS1200 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS1200 action pref=79; accept AS1200
+mp-export:      afi ipv6.unicast to AS1200 announce AS-FORTHNET-V6
+remarks:
+remarks:        ---------------------------------
+remarks:
+remarks:        GRIX (Greek Internet EXchange) PEERINGS
+remarks:
+import:         from AS5408 action pref=85; accept AS5408:AS-TO-AIX
+export:         to AS5408 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS5408 action pref=85; accept AS-GRNET
+mp-export:      afi ipv6.unicast to AS5408 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS6799 action pref=85; accept AS6799:AS-TO-AIX
+export:         to AS6799 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6799 action pref=85; accept AS-OTENET
+mp-export:      afi ipv6.unicast to AS6799 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS3329 action pref=85; accept AS3329:AS-TO-AIX
+export:         to AS3329 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS3329 action pref=85; accept AS3329
+mp-export:      afi ipv6.unicast to AS3329 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS202112 action pref=85; accept AS-TCDN
+export:         to AS202112 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS202112 action pref=85; accept AS-TCDN
+mp-export:      afi ipv6.unicast to AS202112 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS6866 action pref=85; accept AS6866:AS-TO-AIX
+export:         to AS6866 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6866 action pref=85; accept AS6866
+mp-export:      afi ipv6.unicast to AS6866 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS25152 action pref=85; accept RS-KROOT-GRNET
+export:         to AS25152 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS25152 action pref=85; accept AS25152
+mp-export:      afi ipv6.unicast to AS25152 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS203348 action pref=85; accept AS203348
+export:         to AS203348 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS203348 action pref=85; accept AS203348
+mp-export:      afi ipv6.unicast to AS203348 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS6507 action pref=85; accept AS6507
+export:         to AS6507 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6507 action pref=85; accept AS6507
+mp-export:      afi ipv6.unicast to AS6507 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS199081 action pref=85; accept AS199081
+export:         to AS199081 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS199081 action pref=85; accept AS199081
+mp-export:      afi ipv6.unicast to AS199081 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS8075 action pref=85; accept AS8075
+export:         to AS8075 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS8075 action pref=85; accept AS8075
+mp-export:      afi ipv6.unicast to AS8075 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS16509 action pref=85; accept AS16509
+export:         to AS16509 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS16509 action pref=85; accept AS16509
+mp-export:      afi ipv6.unicast to AS16509 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS13335 action pref=85; accept AS13335
+export:         to AS13335 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS13335 action pref=85; accept AS13335
+mp-export:      afi ipv6.unicast to AS13335 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS50311 action pref=85; accept AS50311
+export:         to AS50311 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS50311 action pref=85; accept AS50311
+mp-export:      afi ipv6.unicast to AS50311 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS207327 action pref=85; accept AS207327
+export:         to AS207327 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS207327 action pref=85; accept AS207327
+mp-export:      afi ipv6.unicast to AS207327 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS50520 action pref=85; accept AS50520
+export:         to AS50520 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS50520 action pref=85; accept AS50520
+mp-export:      afi ipv6.unicast to AS50520 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS51185 action pref=85; accept AS51185
+export:         to AS51185 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS51185 action pref=85; accept AS51185
+mp-export:      afi ipv6.unicast to AS51185 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS42 action pref=85; accept AS42
+export:         to AS42 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS42 action pref=85; accept AS42
+mp-export:      afi ipv6.unicast to AS42 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS3856 action pref=85; accept AS3856
+export:         to AS3856 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS3856 action pref=85; accept AS3856
+mp-export:      afi ipv6.unicast to AS3856 announce AS1241:AS-TO-AIX-V6
+remarks:        ---------------------------------
+remarks:
+remarks:        PRIVATE PEERINGS
+remarks:
+import:         from AS25472 action pref=85; accept AS-WIND-HELLAS
+export:         to AS25472 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS25472 action pref=85; accept AS25472
+mp-export:      afi ipv6.unicast to AS25472 announce AS-FORTHNET-V6
+remarks:
+import:         from AS198477 action pref=85; accept AS198477:AS-TO-AIX
+export:         to AS198477 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS198477 action pref=85; accept AS198477
+mp-export:      afi ipv6.unicast to AS198477 announce AS1241:AS-TO-AIX-V6
+remarks:        --------------------------------
+remarks:
+remarks:        Customers
+remarks:
+import:         from AS6674 action pref=100; accept AS6674
+import:         from AS8388 action pref=100; accept AS8388
+import:         from AS8499 action pref=100; accept AS8499
+import:         from AS9128 action pref=100; accept AS9128
+import:         from AS13038 action pref=100; accept AS13038
+import:         from AS13153 action pref=100; accept AS13153
+import:         from AS15439 action pref=100; accept AS15439 AS39062
+import:         from AS15536 action pref=100; accept AS15536
+import:         from AS15764 action pref=100; accept AS15764
+import:         from AS15853 action pref=100; accept AS15853
+import:         from AS16013 action pref=100; accept AS16013
+import:         from AS20506 action pref=100; accept AS20506
+import:         from AS21291 action pref=100; accept AS21291
+import:         from AS24849 action pref=100; accept AS24849
+import:         from AS28953 action pref=100; accept AS28953
+import:         from AS29052 action pref=100; accept AS29052
+import:         from AS29162 action pref=100; accept AS29162
+import:         from AS29241 action pref=100; accept AS29241
+import:         from AS30850 action pref=100; accept AS30850
+import:         from AS34239 action pref=100; accept AS34239
+import:         from AS34516 action pref=100; accept AS34516
+import:         from AS34780 action pref=100; accept AS34780
+import:         from AS35472 action pref=100; accept AS35472
+import:         from AS35506 action pref=100; accept AS35506
+import:         from AS41125 action pref=100; accept AS41125
+import:         from AS42070 action pref=100; accept AS42070
+import:         from AS42680 action pref=100; accept AS42680
+import:         from AS43834 action pref=100; accept AS43834
+import:         from AS44036 action pref=100; accept AS44036
+import:         from AS44357 action pref=100; accept AS44357
+import:         from AS48168 action pref=100; accept AS48168
+import:         from AS48489 action pref=100; accept AS48489
+import:         from AS50148 action pref=100; accept AS50148
+import:         from AS51537 action pref=100; accept AS51537
+import:         from AS51810 action pref=100; accept AS51810 AS48380
+import:         from AS56910 action pref=100; accept AS56910:AS-TO-FORTHNET
+import:         from AS197534 action pref=100; accept AS197534
+import:         from AS197746 action pref=100; accept AS197746
+import:         from AS199375 action pref=100; accept AS199375
+import:         from AS199382 action pref=100; accept AS199382
+import:         from AS200744 action pref=100; accept AS200744
+import:         from AS201293 action pref=100; accept AS201293
+import:         from AS202506 action pref=100; accept AS202506
+import:         from AS206697 action pref=100; accept AS206697
+import:         from AS208552 action pref=100; accept AS208552
+import:         from AS209111 action pref=100; accept AS209111
+import:         from AS29229 action pref=100; accept AS29229
+import:         from AS200540 action pref=100; accept AS200540
+import:         from AS208785 action pref=100; accept AS208785
+import:         from AS206349 action pref=100; accept AS206349
+import:         from AS207492 action pref=100; accept AS207492
+import:         from AS57794 action pref=100; accept AS57794
+import:         from AS34516 action pref=100; accept AS34516
+import:         from AS25447 action pref=100; accept AS25447
+import:         from AS34516 action pref=100; accept AS34516
+import:         from AS60325 action pref=100; accept AS60325
+import:         from AS204932 action pref=100; accept AS204932
+import:         from AS211109 action pref=100; accept AS211109
+import:         from AS213218 action pref=100; accept AS213218
+import:         from AS216028 action pref=100; accept AS216028
+import:         from AS215964 action pref=100; accept AS215964
+import:         from AS215161 action pref=100; accept AS215161
+import:         from AS28969 action pref=100; accept AS28969
+import:         from AS214261 action pref=100; accept AS214261
+import:         from AS214452 action pref=100; accept AS214452
+export:         to AS214452 announce ANY
+export:         to AS6674 announce ANY
+export:         to AS8388 announce ANY
+export:         to AS8499 announce ANY
+export:         to AS9128 announce ANY
+export:         to AS13038 announce ANY
+export:         to AS13153 announce ANY
+export:         to AS15439 announce ANY
+export:         to AS15536 announce ANY
+export:         to AS15764 announce ANY
+export:         to AS15853 announce ANY
+export:         to AS16013 announce ANY
+export:         to AS20506 announce ANY
+export:         to AS21291 announce ANY
+export:         to AS24849 announce ANY
+export:         to AS28953 announce ANY
+export:         to AS29052 announce ANY
+export:         to AS29162 announce ANY
+export:         to AS29241 announce ANY
+export:         to AS30850 announce ANY
+export:         to AS34239 announce ANY
+export:         to AS34516 announce ANY
+export:         to AS34780 announce ANY
+export:         to AS35472 announce ANY
+export:         to AS35506 announce ANY
+export:         to AS41125 announce ANY
+export:         to AS42070 announce ANY
+export:         to AS42680 announce ANY
+export:         to AS43834 announce ANY
+export:         to AS44036 announce ANY
+export:         to AS44357 announce ANY
+export:         to AS48168 announce ANY
+export:         to AS48489 announce ANY
+export:         to AS50148 announce ANY
+export:         to AS51537 announce ANY
+export:         to AS51810 announce ANY
+export:         to AS56910 announce ANY
+export:         to AS197534 announce ANY
+export:         to AS197746 announce ANY
+export:         to AS199375 announce ANY
+export:         to AS199382 announce ANY
+export:         to AS200744 announce ANY
+export:         to AS201293 announce ANY
+export:         to AS202506 announce ANY
+export:         to AS206697 announce ANY
+export:         to AS208552 announce ANY
+export:         to AS209111 announce ANY
+export:         to AS29229 announce ANY
+export:         to AS200540 announce ANY
+export:         to AS208785 announce ANY
+export:         to AS206349 announce ANY
+export:         to AS207492 announce ANY
+export:         to AS57794 announce ANY
+export:         to AS34516 announce ANY
+export:         to AS60325 announce ANY
+export:         to AS204932 announce ANY
+export:         to AS211109 announce ANY
+export:         to AS213218 announce ANY
+export:         to AS216028 announce ANY
+export:         to AS215964 announce ANY
+export:         to AS215161 announce ANY
+export:         to AS28969 announce ANY
+export:         to AS214261 announce ANY
+mp-import:      afi ipv6.unicast from AS200744 action pref=100; accept AS200744
+mp-export:      afi ipv6.unicast to AS200744 announce ANY
+mp-import:      afi ipv6.unicast from AS197746 action pref=100; accept AS197746
+mp-export:      afi ipv6.unicast to AS197746 announce ANY
+admin-c:        FARO1-RIPE
+tech-c:         FTO1-RIPE
+status:         LEGACY
+mnt-by:         FORTHNETGR-MNT
+mnt-by:         RIPE-NCC-LEGACY-MNT
+created:        2002-05-29T11:40:34Z
+last-modified:  2025-06-26T06:23:34Z
+source:         RIPE
+
+organisation:   ORG-FS5-RIPE
+org-name:       Nova Telecommunications & Media Single Member S.A
+country:        GR
+org-type:       LIR
+address:        Athinon Avenue 106
+address:        10442
+address:        Athens
+address:        GREECE
+phone:          +302106158519
+fax-no:         +302119557111
+admin-c:        FARO1-RIPE
+tech-c:         FTO1-RIPE
+abuse-c:        FARO1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        FORTHNETGR-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         FORTHNETGR-MNT
+created:        2004-04-17T11:24:53Z
+last-modified:  2023-01-19T10:04:23Z
+source:         RIPE # Filtered
+
+role:           Forthnet Administrative Role
+address:        58, Antigonis Str
+address:        104 42, ATHENS
+address:        GR
+phone:          +30 2119557000
+fax-no:         +30 2119557222
+abuse-mailbox:  abuse@forthnet.gr
+admin-c:        CK4191-RIPE
+admin-c:        DK637-RIPE
+tech-c:         FTO1-RIPE
+nic-hdl:        FARO1-RIPE
+mnt-by:         FORTHNETGR-MNT
+created:        2011-05-03T09:51:08Z
+last-modified:  2017-01-11T12:55:11Z
+source:         RIPE # Filtered
+
+role:           Forthnet Technical Operations
+address:        58, Antigonis Str
+address:        104 42, ATHENS
+address:        GR
+phone:          +30 2119557000
+fax-no:         +30 2119557222
+admin-c:        FARO1-RIPE
+tech-c:         DK637-RIPE
+tech-c:         CK4191-RIPE
+nic-hdl:        FTO1-RIPE
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-01-10T11:23:30Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@forthnet.gr
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          46.12.0.0/16
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2010-10-06T14:23:52Z
+last-modified:  2010-10-06T14:23:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.12.0.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:59Z
+last-modified:  2014-08-25T13:07:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.12.0.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-02-14T12:13:06Z
+last-modified:  2012-02-14T12:13:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.12.64.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-02-14T12:13:37Z
+last-modified:  2012-02-14T12:13:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.12.128.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:59Z
+last-modified:  2014-08-25T13:07:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.12.128.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2010-11-09T15:22:12Z
+last-modified:  2010-11-09T15:22:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.12.192.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2010-10-06T14:24:59Z
+last-modified:  2010-10-06T14:24:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.246.128.0/17
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2011-06-07T10:06:40Z
+last-modified:  2011-06-07T10:06:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.246.128.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2011-06-07T10:06:40Z
+last-modified:  2011-06-07T10:06:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.246.192.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2011-06-07T10:06:40Z
+last-modified:  2011-06-07T10:06:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.0.0/16
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+notify:         routeadmin@forthnet.gr
+remarks:        send abuse reports to abuse@forthnet.gr
+mnt-by:         FORTHNETGR-MNT
+mnt-by:         FORTHNETGR-MNT
+created:        2005-09-09T09:40:43Z
+last-modified:  2006-04-18T12:44:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.0.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:59Z
+last-modified:  2014-08-25T13:07:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.41.0/24
+descr:          Forthnet-Nova
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2018-03-20T11:43:44Z
+last-modified:  2018-03-20T11:43:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.42.0/24
+descr:          ATCOM-INTERNET-AND-MULTIMEDIA-SA
+descr:          FORTHNET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2013-11-18T09:18:06Z
+last-modified:  2013-11-18T09:18:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.44.0/24
+descr:          Forthnet-Nova
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2018-03-20T11:55:09Z
+last-modified:  2018-03-20T11:55:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.46.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2020-11-15T10:15:55Z
+last-modified:  2020-11-15T10:15:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.53.0/24
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2023-12-07T07:12:10Z
+last-modified:  2023-12-07T07:13:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.85.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-02-14T08:11:18Z
+last-modified:  2024-02-14T08:11:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.128.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:59Z
+last-modified:  2014-08-25T13:07:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.193.0/24
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-01-12T08:04:39Z
+last-modified:  2012-01-12T08:04:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.1.248.0/21
+descr:          LLU-POOL-LSF
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-02-21T12:57:17Z
+last-modified:  2014-02-21T12:57:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.49.0.0/16
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2006-12-27T13:21:52Z
+last-modified:  2006-12-27T13:21:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.49.0.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2009-02-02T14:54:31Z
+last-modified:  2009-02-02T14:54:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.49.0.0/18
+descr:          LLU-POOL-LSF
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2015-04-21T07:25:25Z
+last-modified:  2015-04-21T07:25:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.49.64.0/18
+descr:          LLU-POOL-KLN
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2015-04-21T07:26:53Z
+last-modified:  2015-04-21T07:26:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.49.64.0/20
+descr:          LLU-POOL-LSF
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2015-04-21T07:26:27Z
+last-modified:  2015-04-21T07:26:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.49.128.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2009-02-02T14:54:54Z
+last-modified:  2009-02-02T14:54:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.103.0.0/16
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2007-11-15T14:10:06Z
+last-modified:  2007-11-15T14:10:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.103.0.0/17
+descr:          GR-FORTHNET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2008-04-16T12:07:04Z
+last-modified:  2008-04-16T12:07:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.103.0.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-02-14T12:14:09Z
+last-modified:  2012-02-14T12:14:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.103.64.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-02-14T12:14:36Z
+last-modified:  2012-02-14T12:14:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.103.128.0/17
+descr:          GR-FORTHNET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2008-04-16T12:07:36Z
+last-modified:  2008-04-16T12:07:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.103.128.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-02-14T12:15:02Z
+last-modified:  2012-02-14T12:15:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.103.192.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-02-14T12:15:33Z
+last-modified:  2012-02-14T12:15:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.209.236.0/22
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2020-05-04T08:43:42Z
+last-modified:  2020-05-04T08:43:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.198.183.0/24
+descr:          ADACOM-NET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2025-02-14T08:58:50Z
+last-modified:  2025-02-14T08:58:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.216.206.0/24
+descr:          FORTHNET Customers
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2010-07-15T11:38:52Z
+last-modified:  2010-07-15T11:38:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.217.243.0/24
+descr:          AEGEAN
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2010-12-20T14:41:05Z
+last-modified:  2010-12-20T14:41:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.223.104.0/24
+descr:          PANENTERTAINMENT
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2011-02-24T08:17:39Z
+last-modified:  2011-02-24T08:17:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.230.247.0/24
+origin:         AS1241
+created:        2023-09-28T12:18:40Z
+last-modified:  2023-09-28T12:18:40Z
+source:         RIPE
+mnt-by:         vissado-mnt
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          130.43.0.0/17
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2011-12-15T07:07:37Z
+last-modified:  2011-12-15T07:07:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          130.43.0.0/18
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:58Z
+last-modified:  2014-08-25T13:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          130.43.0.0/19
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2011-12-14T13:32:36Z
+last-modified:  2011-12-14T13:32:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          130.43.32.0/19
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-02-14T08:07:19Z
+last-modified:  2024-02-14T08:07:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          130.43.64.0/18
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:58Z
+last-modified:  2014-08-25T13:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          130.43.64.0/20
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2011-12-14T13:34:13Z
+last-modified:  2011-12-14T13:34:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          130.43.96.0/19
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-12-06T12:08:53Z
+last-modified:  2012-12-06T12:08:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.97.196.0/24
+origin:         AS1241
+created:        2023-09-28T12:18:09Z
+last-modified:  2023-09-28T12:18:09Z
+source:         RIPE
+mnt-by:         vissado-mnt
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.72.148.0/22
+descr:          FRANCO COMPANIA NAVIERA S.A.
+origin:         AS1241
+mnt-by:         SUPER-DPFCN14
+created:        2014-11-06T13:14:09Z
+last-modified:  2014-11-06T13:14:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.72.148.0/24
+origin:         AS1241
+mnt-by:         SUPER-DPFCN14
+created:        2018-10-01T07:08:23Z
+last-modified:  2018-10-01T07:08:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.117.229.0/24
+origin:         AS1241
+mnt-by:         ae-channelvas-1-mnt
+created:        2017-08-04T08:49:25Z
+last-modified:  2017-08-04T08:49:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.181.28.0/22
+origin:         AS1241
+mnt-by:         gr-autohellas-1-mnt
+created:        2017-06-14T13:46:38Z
+last-modified:  2017-06-14T13:46:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.4.0.0/16
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2009-02-24T14:01:30Z
+last-modified:  2009-02-24T14:01:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.4.0.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:58Z
+last-modified:  2014-08-25T13:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.4.128.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2009-12-16T15:19:48Z
+last-modified:  2014-08-25T13:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.4.192.0/18
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2009-02-24T14:05:40Z
+last-modified:  2009-02-24T14:05:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.41.229.0/24
+descr:          INTERNETQ
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:06:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.92.0.0/16
+descr:          FORTHNET Customers
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2010-02-03T12:50:33Z
+last-modified:  2010-02-03T12:50:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.0.0/17
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+mnt-lower:      FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-05-08T09:06:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.8.0/22
+descr:          Forthnet Satellite Service
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+mnt-lower:      FORTHNETGR-MNT
+mnt-lower:      SKYLOGIC-MNT
+created:        2012-05-16T09:40:55Z
+last-modified:  2012-05-16T09:40:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.85.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-02-14T08:10:48Z
+last-modified:  2024-02-14T08:10:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.123.0/24
+descr:          ATCOM-INTERNET-AND-MULTIMEDIA-SA
+descr:          FORTHNET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2013-11-18T09:51:07Z
+last-modified:  2013-11-18T09:51:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.128.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:58Z
+last-modified:  2014-08-25T13:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.128.0/18
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2008-02-04T11:18:37Z
+last-modified:  2008-02-04T11:18:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.192.0/21
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:06:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.199.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2021-12-15T10:32:58Z
+last-modified:  2021-12-15T10:32:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.200.0/22
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:05:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.228.0/22
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:05:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.232.0/22
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:05:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.92.252.0/22
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:05:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.218.1.0/24
+descr:          HYPERNET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:05:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.218.2.0/23
+descr:          HYPERNET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:05:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.218.4.0/24
+descr:          HYPERNET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:05:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.218.233.0/24
+descr:          DELTA
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:05:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.238.112.0/22
+descr:          ACCI
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2005-09-13T10:40:52Z
+last-modified:  2005-09-13T10:40:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.0.185.0/24
+descr:          PH-NET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2008-03-28T14:41:20Z
+last-modified:  2008-03-28T14:41:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.50.43.0/24
+descr:          Christopher-C-Varvias
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-02-26T13:33:54Z
+last-modified:  2014-02-26T13:33:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.126.255.0/24
+descr:          GRIFFIN TRAVEL
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2010-12-06T10:12:03Z
+last-modified:  2010-12-06T10:12:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.219.0.0/16
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2002-04-03T06:49:07Z
+last-modified:  2005-03-08T14:05:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.219.0.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-02-14T08:04:51Z
+last-modified:  2024-02-14T08:05:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.219.0.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2021-12-15T09:58:41Z
+last-modified:  2021-12-15T09:58:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.219.3.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2013-03-07T11:58:55Z
+last-modified:  2013-03-07T11:58:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.219.41.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2021-12-15T10:31:51Z
+last-modified:  2021-12-15T10:31:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.219.56.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2013-03-07T11:58:55Z
+last-modified:  2013-03-07T11:58:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.219.128.0/17
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:58Z
+last-modified:  2014-08-25T13:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.219.218.0/23
+descr:          Forthnet Satellite Service
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+mnt-lower:      FORTHNETGR-MNT
+mnt-lower:      SKYLOGIC-MNT
+created:        2013-05-29T08:27:31Z
+last-modified:  2013-05-29T08:27:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.219.223.0/24
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2023-12-07T07:12:56Z
+last-modified:  2023-12-07T07:13:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.219.231.0/24
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2013-02-14T06:40:54Z
+last-modified:  2013-02-14T06:40:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.74.224.0/19
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2005-09-13T11:13:15Z
+last-modified:  2005-09-13T11:13:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.54.192.0/19
+descr:          FORTHNET
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2001-12-05T16:14:19Z
+last-modified:  2005-10-31T13:00:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.251.0.0/17
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-03-08T14:06:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.251.0.0/18
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:58Z
+last-modified:  2014-08-25T13:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.251.56.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2013-03-07T12:52:35Z
+last-modified:  2013-03-07T12:52:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.251.64.0/18
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:58Z
+last-modified:  2014-08-25T13:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.251.91.0/24
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2013-03-07T12:52:56Z
+last-modified:  2013-03-07T12:52:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.16.128.0/17
+descr:          FORTHNET-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+mnt-lower:      FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-04-09T11:18:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.16.128.0/18
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:58Z
+last-modified:  2014-08-25T13:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.16.144.0/20
+descr:          FORTHNET-LLU-CUSTOMERS
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-03-26T12:29:06Z
+last-modified:  2012-03-26T12:29:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.16.160.0/22
+descr:          LLU-POOL-LSF
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2013-04-02T12:58:12Z
+last-modified:  2013-04-02T12:58:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.16.192.0/18
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-08-25T13:07:59Z
+last-modified:  2014-08-25T13:07:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.16.224.0/20
+descr:          FORTHNET-AS1241-ADDRESS-BLOCK
+descr:          Athens, Greece
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-02-14T08:08:11Z
+last-modified:  2024-02-14T08:08:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.16.253.0/24
+descr:          FORTHnet SA address block
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2013-02-14T06:40:54Z
+last-modified:  2013-02-14T06:40:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2148::/29
+descr:          Forthnet IPv6 Route Object
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2012-08-01T09:25:02Z
+last-modified:  2012-08-01T09:25:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2148::/32
+descr:          Forthnet IPv6 Route Object
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2011-05-04T05:52:38Z
+last-modified:  2011-05-04T05:52:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149::/32
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:4000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8000::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8000::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T11:49:16Z
+last-modified:  2024-04-02T11:49:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8200::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T11:59:14Z
+last-modified:  2024-04-02T11:59:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8400::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T11:59:32Z
+last-modified:  2024-04-02T11:59:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8600::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T11:59:48Z
+last-modified:  2024-04-02T11:59:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8800::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T12:00:12Z
+last-modified:  2024-04-02T12:00:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8a00::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T12:00:28Z
+last-modified:  2024-04-02T12:00:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8a00::/40
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-03T19:12:09Z
+last-modified:  2024-04-03T19:12:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8a00::/41
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-03T19:14:06Z
+last-modified:  2024-04-03T19:14:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8a00::/42
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-11T08:26:23Z
+last-modified:  2024-04-11T08:26:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8a40::/42
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-11T08:26:12Z
+last-modified:  2024-04-11T08:26:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8a80::/41
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-03T19:13:45Z
+last-modified:  2024-04-03T19:13:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8a80::/42
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-11T08:26:00Z
+last-modified:  2024-04-11T08:26:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8ac0::/42
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-11T08:25:47Z
+last-modified:  2024-04-11T08:25:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8b00::/40
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-03T19:12:25Z
+last-modified:  2024-04-03T19:12:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8b00::/41
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-03T19:14:23Z
+last-modified:  2024-04-03T19:14:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8b00::/42
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-11T08:24:34Z
+last-modified:  2024-04-11T08:24:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8b40::/42
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-11T08:25:06Z
+last-modified:  2024-04-11T08:25:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8b80::/41
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-03T19:14:35Z
+last-modified:  2024-04-03T19:14:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8b80::/42
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-11T08:25:19Z
+last-modified:  2024-04-11T08:25:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:8bc0::/42
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-11T08:25:32Z
+last-modified:  2024-04-11T08:25:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2149:c000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214a::/32
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2022-05-10T13:16:43Z
+last-modified:  2022-05-10T13:17:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214a::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2022-05-10T13:18:57Z
+last-modified:  2022-05-10T13:18:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214a::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2022-05-10T13:20:01Z
+last-modified:  2022-05-10T13:20:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214a:4000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2022-05-10T13:20:40Z
+last-modified:  2022-05-10T13:20:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214a:8000::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2022-05-10T13:21:12Z
+last-modified:  2022-05-10T13:21:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214a:8000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2022-05-10T13:21:45Z
+last-modified:  2022-05-10T13:21:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214a:c000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2022-05-10T13:22:12Z
+last-modified:  2022-05-10T13:22:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214b::/32
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214b::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214b::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214b:4000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214b:8000::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214b:8000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214b:c000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c::/32
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:35Z
+last-modified:  2014-09-17T10:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c:4000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c:8000::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c:8000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c:8000::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T12:01:06Z
+last-modified:  2024-04-02T12:01:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c:8200::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T12:01:25Z
+last-modified:  2024-04-02T12:01:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c:8400::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T12:01:41Z
+last-modified:  2024-04-02T12:01:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c:8600::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T12:01:57Z
+last-modified:  2024-04-02T12:01:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c:8800::/39
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2024-04-02T12:02:13Z
+last-modified:  2024-04-02T12:02:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214c:c000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d::/32
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d::/35
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:2000::/35
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:4000::/34
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:4000::/35
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:6000::/35
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:8000::/33
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:8000::/35
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:8000::/36
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:9000::/36
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:c000::/35
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:c000::/36
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:d000::/36
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:e000::/36
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:e000::/37
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:e800::/37
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:f000::/36
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:f000::/37
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:214d:f800::/37
+descr:          FORTHNET-AS1241-IPv6-ADDRESS-BLOCK
+origin:         AS1241
+mnt-by:         FORTHNETGR-MNT
+created:        2014-09-17T10:17:36Z
+last-modified:  2014-09-17T10:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:1e84:28f::/48
+descr:          BMW Greece
+origin:         AS1241
+mnt-by:         AUTO-1BMW
+mnt-by:         AS8590-MNT
+created:        2017-08-18T05:16:17Z
+last-modified:  2017-08-18T05:16:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

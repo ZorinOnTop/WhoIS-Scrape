@@ -1,0 +1,513 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8194'
+
+% Abuse contact for 'AS8194' is 'abuse@lvrtc.lv'
+
+aut-num:        AS8194
+as-name:        VITA
+org:            ORG-SINA1-RIPE
+remarks:        VAS Latvijas Valsts radio un televizijas centrs
+remarks:        ==== Uplinks ====
+remarks:        ---- TET ----
+import:         from AS12578 accept ANY
+mp-import:      afi ipv6 from AS12578 accept ANY
+export:         to AS12578 announce AS-VITA
+mp-export:      afi ipv6 to AS12578 announce AS-VITA
+remarks:        ---- BITE ----
+import:         from AS13194 accept ANY
+mp-import:      afi ipv6 from AS13194 accept ANY
+export:         to AS13194 announce AS-VITA
+mp-export:      afi ipv6 to AS13194 announce AS-VITA
+remarks:        ---- Arelion ----
+import:         from AS1299 accept ANY
+mp-import:      afi ipv6 from AS1299 accept ANY
+export:         to AS1299 announce AS-VITA
+mp-export:      afi ipv6 to AS1299 announce AS-VITA
+remarks:        ---- TELENET ----
+import:         from AS24589 accept ANY
+mp-import:      afi ipv6 from AS24589 accept ANY
+export:         to AS24589 announce AS-VITA
+mp-export:      afi ipv6 to AS24589 announce AS-VITA
+remarks:
+remarks:        ==== PEERS ====
+remarks:        ---- Hurricane Electric ----
+import:         from AS6939 accept AS-HURRICANE
+mp-import:      afi ipv6 from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-VITA
+mp-export:      afi ipv6 to AS6939 announce AS-VITA
+remarks:        ---- Akamai ----
+import:         from AS20940 accept AS-AKAMAI
+mp-import:      afi ipv6 from AS20940 accept AS-AKAMAI
+export:         to AS20940 announce AS-VITA
+mp-export:      afi ipv6 to AS20940 announce AS-VITA
+remarks:        ---- Microsoft -----
+import:         from AS8075 accept AS-MICROSOFT
+mp-import:      afi ipv6 from AS8075 accept AS-MICROSOFT
+export:         to AS8075 announce AS-VITA
+mp-export:      afi ipv6 to AS8075 announce AS-VITA
+remarks:
+remarks:        ==== IXP ====
+remarks:        ---- STHIX IXP ----
+import:         from AS57151 accept AS-SET-STHIX-RS
+mp-import:      afi ipv6 from AS57151 accept AS-SET-STHIX-RS
+export:         to AS57151 announce AS-VITA
+mp-export:      afi ipv6 to AS57151 announce AS-VITA
+remarks:        ---- BALT-IX IXP ----
+import:         from AS8486 accept AS-BALT-IX
+mp-import:      afi ipv6 from AS8486 accept AS-BALT-IX-v6
+export:         to AS8486 announce AS-VITA
+mp-export:      afi ipv6 to AS8486 announce AS-VITA
+remarks:        ---- GLV-IX IXP ----
+import:         from AS47352 accept AS-GLVIX-CUSTOMERS
+mp-import:      afi ipv6 from AS47352 accept AS-GLVIX-CUSTOMERS
+export:         to AS47352 announce AS-VITA
+mp-export:      afi ipv6 to AS47352 announce AS-VITA
+remarks:        ---- SMILE IXP ----
+import:         from AS39626 accept AS-SMILE
+mp-import:      afi ipv6 from AS39626 accept AS-SMILE
+export:         to AS39626 announce AS-VITA
+mp-export:      afi ipv6 to AS39626 announce AS-VITA
+remarks:        ---- LIX IXP ----
+import:         from AS42480 accept AS-LATVIA
+export:         to AS42480 announce AS-VITA
+remarks:
+remarks:        ==== Customers ====
+import:         from AS201547 accept AS201547
+export:         to AS201547 announce ANY
+import:         from AS43104 accept AS43104
+export:         to AS43104 announce ANY
+import:         from AS206362 accept AS206362
+export:         to AS206362 announce ANY
+import:         from AS41376 accept AS41376
+export:         to AS41376 announce ANY
+import:         from AS5538 accept AS-NIC
+export:         to AS5538 announce ANY
+import:         from AS29466 accept AS29466
+export:         to AS29466 announce ANY
+import:         from AS206600 accept AS206600
+export:         to AS206600 announce ANY
+import:         from AS24972 accept AS24972
+export:         to AS24972 announce ANY
+import:         from AS51955 accept AS51955
+export:         to AS51955 announce ANY
+import:         from AS33867 accept AS33867
+export:         to AS33867 announce ANY
+import:         from AS12509 accept AS12509
+export:         to AS12509 announce ANY
+import:         from AS25241 accept AS25241
+export:         to AS25241 announce ANY
+import:         from AS199663 accept AS199663
+export:         to AS199663 announce ANY
+import:         from AS41726 accept AS41726
+export:         to AS41726 announce ANY
+import:         from AS29345 accept AS29345
+export:         to AS29345 announce ANY
+import:         from AS41424 accept AS41424
+export:         to AS41424 announce ANY
+import:         from AS57058 accept AS57058
+export:         to AS57058 announce ANY
+import:         from AS21061 accept AS21061
+export:         to AS21061 announce ANY
+import:         from AS42936 accept AS42936
+export:         to AS42936 announce ANY
+import:         from AS62220 accept AS62220
+export:         to AS62220 announce ANY
+import:         from AS208284 accept AS208284
+export:         to AS208284 announce ANY
+import:         from AS60324 accept AS60324
+export:         to AS60324 announce ANY
+import:         from AS57956 accept AS57956
+export:         to AS57956 announce ANY
+admin-c:        DP10859-RIPE
+tech-c:         VITA2-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8194-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-08-25T10:35:12Z
+source:         RIPE
+
+organisation:   ORG-SINA1-RIPE
+org-name:       VAS "Latvijas Valsts radio un televizijas centrs"
+country:        LV
+org-type:       LIR
+address:        Zemitana street 9 k-3
+address:        LV-1012
+address:        Riga
+address:        LATVIA
+phone:          +371 67108704
+fax-no:         +37167379837
+admin-c:        DP10859-RIPE
+abuse-c:        AHL20-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8194-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8194-MNT
+created:        2004-04-17T11:38:29Z
+last-modified:  2023-11-17T11:06:56Z
+source:         RIPE # Filtered
+
+role:           State Information Network Agency - VITA
+remarks:        LVRTC - Latvijas valsts radio un televizijas centrs
+address:        Erglu iela. 14, Riga, Latvia, LV-1012
+org:            ORG-SINA1-RIPE
+admin-c:        DP10859-RIPE
+tech-c:         DP10859-RIPE
+tech-c:         IS8179-RIPE
+tech-c:         RB47964-RIPE
+nic-hdl:        VITA2-RIPE
+remarks:        DNS - dns@lvrtc.lv
+remarks:        Routing - iproute@lvrtc.lv
+remarks:        E-mail - postmaster@lvrtc.lv
+abuse-mailbox:  abuse@lvrtc.lv
+mnt-by:         AS8194-MNT
+created:        2007-06-27T09:39:45Z
+last-modified:  2023-07-31T10:36:53Z
+source:         RIPE # Filtered
+
+person:         Dzintars Pentjuss
+address:        Zemitana iela 9 k-3, Riga, Latvia
+phone:          +37167029540
+nic-hdl:        DP10859-RIPE
+mnt-by:         AS8194-MNT
+created:        2013-03-05T07:22:28Z
+last-modified:  2023-07-31T10:34:01Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          31.24.192.0/21
+descr:          LVRTC
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2011-03-01T11:19:40Z
+last-modified:  2011-03-01T11:19:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.24.192.0/24
+descr:          VITANET
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2020-06-09T08:41:22Z
+last-modified:  2020-06-09T08:41:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.24.193.0/24
+descr:          VITANET
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2020-06-09T08:41:57Z
+last-modified:  2020-06-09T08:41:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.24.194.0/24
+descr:          VITANET
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2020-06-09T08:42:25Z
+last-modified:  2020-06-09T08:42:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.24.195.0/24
+descr:          VITANET
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2020-06-09T08:43:06Z
+last-modified:  2020-06-09T08:43:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.24.196.0/24
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2017-04-13T11:39:09Z
+last-modified:  2017-04-13T11:39:09Z
+source:         RIPE
+descr:          LVRTC_TEST
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.24.197.0/24
+descr:          VITANET
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2020-06-09T08:43:50Z
+last-modified:  2020-06-09T08:43:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.24.198.0/24
+descr:          VITANET
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2020-06-09T08:44:15Z
+last-modified:  2020-06-09T08:44:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.24.199.0/24
+descr:          VITANET
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2020-06-09T08:44:42Z
+last-modified:  2020-06-09T08:44:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.244.144.0/20
+descr:          GOVLVNET
+origin:         AS8194
+notify:         dpd@lvrtc.lv
+mnt-by:         AS8194-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-10-24T10:01:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.244.156.0/24
+origin:         AS8194
+descr:          lvrtc proxy route object
+admin-c:        netops-defense
+tech-c:         netops-defense
+notify:         netops@defense.net
+mnt-by:         MAINT-AS55002
+changed:        netops@defense.net 20220825  #17:14:08Z
+source:         RADB
+last-modified:  2023-11-13T16:12:12Z
+rpki-ov-state:  valid
+
+route:          195.244.157.0/24
+origin:         AS8194
+descr:          lvrtc route object
+admin-c:        netops-defense
+tech-c:         netops-defense
+notify:         netops@defense.net
+mnt-by:         MAINT-AS55002
+changed:        netops@defense.net 20221121  #14:43:38Z
+source:         RADB
+last-modified:  2023-11-13T16:13:08Z
+rpki-ov-state:  valid
+
+route:          212.70.160.0/19
+descr:          VITA
+origin:         AS8194
+notify:         peter@vita.gov.lv
+mnt-by:         AS8194-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.70.160.0/23
+descr:          VITANET
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2015-01-06T19:32:40Z
+last-modified:  2015-01-06T19:32:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.70.163.0/24
+descr:          VITANET
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2015-01-06T19:25:17Z
+last-modified:  2015-01-06T19:25:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.70.171.0/24
+origin:         AS8194
+descr:          LR State Chancellery
+mnt-by:         AS8194-MNT
+created:        2024-09-10T12:19:27Z
+last-modified:  2024-09-10T12:19:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.70.179.0/24
+descr:          LVRTC
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2015-01-07T11:23:15Z
+last-modified:  2015-01-07T11:23:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1780::/32
+descr:          VAS LVRTC
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2010-11-12T09:24:14Z
+last-modified:  2010-11-12T09:24:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1780:a501::/48
+origin:         AS8194
+mnt-by:         AS8194-MNT
+created:        2025-02-24T08:23:59Z
+last-modified:  2025-02-24T08:23:59Z
+source:         RIPE
+descr:          LDVC_LV (ExNVD)
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1780:dd00::/40
+origin:         AS8194
+descr:          VITANET
+mnt-by:         AS8194-MNT
+created:        2020-01-08T09:20:16Z
+last-modified:  2020-01-08T09:21:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

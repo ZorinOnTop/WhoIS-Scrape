@@ -1,0 +1,562 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8771 - AS8795'
+
+as-block:       AS8771 - AS8795
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8788'
+
+% Abuse contact for 'AS8788' is 'abuse@adamant.ua'
+
+aut-num:        AS8788
+as-name:        ADAMANT
+descr:          Kyiv, Ukraine
+org:            ORG-AC6-RIPE
+remarks:        === Internet eXchange Points =======================================
+remarks:        ~~~ Giganet ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS59613 action pref=100; accept AS-UBNIX
+export:         to AS59613 announce AS-ADAM-UA
+mp-import:      afi ipv6.unicast from AS59613 action pref=100; accept AS-UBNIX-v6
+mp-export:      afi ipv6.unicast to AS59613 announce AS-ADAM-UA-v6
+remarks:        ~~~ DTEL-IX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS31210 action pref=100; accept AS-DTEL-IX
+export:         to AS31210 announce AS-ADAM-UA
+mp-import:      afi ipv6.unicast from AS31210 action pref=100; accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-ADAM-UA-v6
+remarks:        ~~~ UA-IX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS15645 action pref=100; accept AS-UAIX
+export:         to AS15645 announce AS-ADAM-UA
+mp-import:      afi ipv6.unicast from AS15645 action pref=100; accept AS-UAIX-V6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-ADAM-UA-v6
+remarks:        === Uplinks ========================================================
+remarks:        ~~~ Cogent ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS174 action pref=120; accept ANY
+export:         to AS174 announce AS-ADAM
+mp-import:      afi ipv6.unicast from AS174 action pref=120; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-ADAM-v6
+remarks:        ~~~ UARNet ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS3255 action pref=120; accept ANY
+export:         to AS3255 announce AS-ADAM
+mp-import:      afi ipv6.unicast from AS3255 action pref=120; accept ANY
+mp-export:      afi ipv6.unicast to AS3255 announce AS-ADAM-v6
+remarks:        ~~~ ETT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS35320 action pref=120; accept ANY
+export:         to AS35320 announce AS-ADAM
+mp-import:      afi ipv6.unicast from AS35320 action pref=120; accept ANY
+mp-export:      afi ipv6.unicast to AS35320 announce AS-ADAM-v6
+remarks:        === Parities =======================================================
+remarks:        ~~~ Vodafone (Comstar / TSUA) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS12294 action pref=100; accept AS-TSUA
+export:         to AS12294 announce AS-ADAM-UA
+remarks:        ~~~ Google ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS15169 action pref=100; accept ANY
+export:         to AS15169 announce AS-ADAM-UA
+mp-import:      afi ipv6.unicast from AS15169 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS15169 announce AS-ADAM-UA
+remarks:        ~~~ Google Global Cache ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS11344 accept {}
+export:         to AS11344 announce AS-ADAM-UA
+remarks:        ~~~ Scientific-Industrial Firm "VOLZ" Ltd. ~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS12963 action pref=100; accept AS-VOLZ
+export:         to AS12963 announce AS-ADAM-UA
+remarks:        ~~~ Datagroup LLC ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS3326 action pref=100; accept AS3326:AS-EXT
+export:         to AS3326 announce AS-ADAM-UA
+remarks:        ~~~ Internet Data Center "ColoCALL" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS15497 action pref=100; accept AS-COLOCALL
+export:         to AS15497 announce AS-ADAM-UA
+remarks:        ~~~ United Networks of Ukraine, Ltd. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS24703 action pref=100; accept AS-UNITED
+export:         to AS24703 announce AS-ADAM-UA
+remarks:        ~~~ Ukrainian Telecommunication Group LLC ~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS50581 action pref=100; accept AS-UTG-UA
+export:         to AS50581 announce AS-ADAM-UA
+remarks:        === Other peerings =================================================
+remarks:        Merlin telecom
+import:         from AS20714 action pref=80; accept AS-MERLINTELECOM
+export:         to AS20714 announce ANY
+remarks:        DSTSIP
+import:         from AS21096 action pref=80; accept AS-DSSZZI
+export:         to AS21096 announce ANY
+remarks:        Optima Pharm
+import:         from AS24610 action pref=80; accept AS24610
+export:         to AS24610 announce ANY
+remarks:        Parity with United Networks
+import:         from AS24703 action pref=100; accept AS-UNITED
+export:         to AS24703 announce AS-ADAM-UA
+remarks:        VinTPP
+import:         from AS28750 action pref=500; accept AS-VINNESTX
+export:         to AS28750 announce ANY
+remarks:        Rada
+import:         from AS29335 action pref=500; accept AS29335
+export:         to AS29335 announce ANY
+remarks:        PIB
+import:         from AS31489 action pref=500; accept AS31489
+export:         to AS31489 announce ANY
+remarks:        IT mark / IP trans
+import:         from AS39742 action pref=500; accept AS39742
+export:         to AS39742 announce ANY
+remarks:        ~~~KMU~~~
+import:         from AS41502 action pref=500; accept AS41502
+export:         to AS41502 announce ANY
+remarks:        ~~~Ministry of Economy of Ukraine~~~
+import:         from AS210340 action pref=500; accept AS210340
+export:         to AS210340 announce ANY
+remarks:        "Musical television LLC" Ukraine
+import:         from AS43306 action pref=500; accept AS-K1TV
+export:         to AS43306 announce ANY
+remarks:        K1 TV
+import:         from AS42918 action pref=500; accept AS-K1TV
+export:         to AS42918 announce ANY
+remarks:        ~~~ Municipal Enterprise "Main Information and Computing Centre" ~~~
+import:         from AS44461 action pref=500; accept AS44461
+export:         to AS44461 announce ANY
+remarks:        TOV Finayti
+import:         from AS49982 action pref=500; accept AS49982
+export:         to AS49982 announce ANY
+remarks:        ~~~National Security and Defence Council of Ukraine Staff~~~
+import:         from AS56978 action pref=500; accept AS56978
+export:         to AS56978 announce ANY
+remarks:        Helpteh
+import:         from AS57605 action pref=500; accept AS57605
+export:         to AS57605 announce ANY
+remarks:        State enterprise "Ukrainian Special Systems"
+import:         from AS197388 action pref=500; accept AS197388
+export:         to AS197388 announce ANY
+remarks:        ~~~Kalimat~~~
+import:         from AS210022 action pref=500; accept AS210022
+export:         to AS210022 announce ANY
+remarks:        ~~~ ADAMANT2 ~~~
+import:         from AS49859 action pref=500; accept AS-ADAMANT2
+export:         to AS49859 announce ANY
+mp-import:      afi ipv6.unicast from AS49859 action pref=500; accept AS-ADAMANT2-v6
+mp-export:      afi ipv6.unicast to AS49859 announce ANY
+remarks:        ~~~ KYIVTELESERVIS ~~~
+import:         from AS43409 action pref=500; accept AS43409
+export:         to AS43409 announce ANY
+admin-c:        ADAM2-RIPE
+tech-c:         ADAM2-RIPE
+status:         ASSIGNED
+mnt-by:         ADAM-NOC
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-08-18T09:19:05Z
+last-modified:  2022-11-28T14:04:54Z
+source:         RIPE
+
+organisation:   ORG-AC6-RIPE
+org-name:       ADAMANT, Ltd.
+country:        UA
+org-type:       LIR
+address:        51A, Kharkivske shosse str.
+address:        02096
+address:        Kyiv
+address:        UKRAINE
+phone:          +380442329266
+fax-no:         +380442329660
+admin-c:        ADAM2-RIPE
+mnt-ref:        ADAM-NOC
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ADAM-NOC
+tech-c:         ADAM2-RIPE
+abuse-c:        ADAM2-RIPE
+created:        2004-04-17T12:08:29Z
+last-modified:  2020-12-16T13:42:26Z
+source:         RIPE # Filtered
+
+role:           Adamant LLC NOC
+address:        51A, Kharkivske shosse str., Kyiv, 02096, Ukraine
+phone:          +380(44)2474411
+fax-no:         +380(44)2329660
+abuse-mailbox:  abuse@adamant.ua
+admin-c:        MAGE-RIPE
+admin-c:        TS40110-RIPE
+admin-c:        IP4211-RIPE
+tech-c:         MAGE-RIPE
+tech-c:         IP4211-RIPE
+admin-c:        TD223-RIPE
+tech-c:         TS40110-RIPE
+nic-hdl:        ADAM2-RIPE
+mnt-by:         ADAM-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-03-01T09:01:42Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          91.205.16.0/22
+descr:          DC-ADAM Customers
+origin:         AS8788
+org:            ORG-AA442-RIPE
+notify:         noc@collocation.com.ua
+mnt-by:         DC-NOC
+mnt-by:         ADAM-NOC
+created:        2008-08-05T14:30:15Z
+last-modified:  2018-02-13T09:24:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.205.16.0/23
+descr:          DC-ADAM Customers
+origin:         AS8788
+mnt-by:         DC-NOC
+mnt-by:         ADAM-NOC
+created:        2018-02-13T09:34:08Z
+last-modified:  2018-02-13T09:34:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.205.16.0/24
+descr:          DC-ADAM Customers
+origin:         AS8788
+mnt-by:         DC-NOC
+mnt-by:         ADAM-NOC
+created:        2018-02-13T09:31:43Z
+last-modified:  2018-02-13T09:31:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.205.17.0/24
+descr:          DC-ADAM Customers
+origin:         AS8788
+mnt-by:         DC-NOC
+mnt-by:         ADAM-NOC
+created:        2018-02-13T09:32:15Z
+last-modified:  2018-02-13T09:32:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.205.18.0/23
+descr:          DC-ADAM Customers
+origin:         AS8788
+mnt-by:         DC-NOC
+mnt-by:         ADAM-NOC
+created:        2018-02-13T09:34:31Z
+last-modified:  2018-02-13T09:34:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.205.18.0/24
+descr:          DC-ADAM Customers
+origin:         AS8788
+mnt-by:         DC-NOC
+mnt-by:         ADAM-NOC
+created:        2018-02-13T09:32:37Z
+last-modified:  2018-02-13T09:32:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.205.19.0/24
+descr:          DC-ADAM Customers
+origin:         AS8788
+mnt-by:         DC-NOC
+mnt-by:         ADAM-NOC
+created:        2018-02-13T09:33:08Z
+last-modified:  2018-02-13T09:33:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.211.96.0/19
+descr:          Adamant Co.
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2010-07-15T09:16:21Z
+last-modified:  2010-07-15T09:16:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.211.96.0/20
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2023-01-17T07:49:03Z
+last-modified:  2023-01-17T07:49:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.211.112.0/20
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2024-01-08T08:36:53Z
+last-modified:  2024-01-08T08:36:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.138.87.0/24
+descr:          Adamant Co.
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2003-02-19T12:47:23Z
+last-modified:  2003-02-19T12:47:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.32.108.0/23
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2018-10-29T13:16:09Z
+last-modified:  2018-10-29T13:16:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.32.108.0/24
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2018-10-29T13:16:59Z
+last-modified:  2018-10-29T13:16:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.32.109.0/24
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2018-10-29T13:17:16Z
+last-modified:  2018-10-29T13:17:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.32.110.0/24
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2018-10-29T13:17:56Z
+last-modified:  2018-10-29T13:17:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.26.128.0/19
+descr:          Adamant LLC Customers
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-02-13T09:15:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.26.140.0/24
+descr:          Adamant LLC Customers
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2012-11-18T19:51:10Z
+last-modified:  2018-02-13T07:23:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.80.32.0/19
+descr:          Adamant Co.
+origin:         AS8788
+mnt-by:         ADAM-NOC
+mnt-routes:     ADAM-NOC
+mnt-lower:      ADAM-NOC
+created:        2008-06-03T14:41:20Z
+last-modified:  2008-06-03T14:41:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.80.32.0/20
+descr:          Adamant Co.
+origin:         AS8788
+mnt-by:         ADAM-NOC
+mnt-routes:     ADAM-NOC
+mnt-lower:      ADAM-NOC
+created:        2015-05-29T12:52:22Z
+last-modified:  2015-05-29T12:52:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.80.48.0/20
+descr:          Adamant Co.
+origin:         AS8788
+mnt-by:         ADAM-NOC
+mnt-routes:     ADAM-NOC
+mnt-lower:      ADAM-NOC
+created:        2015-05-29T12:52:54Z
+last-modified:  2015-05-29T12:52:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:e780::/32
+descr:          Adamant Co.
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2011-05-31T12:57:48Z
+last-modified:  2011-05-31T12:57:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:e780:2::/48
+origin:         AS8788
+mnt-by:         ADAM-NOC
+created:        2022-08-24T09:09:46Z
+last-modified:  2022-08-24T09:09:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

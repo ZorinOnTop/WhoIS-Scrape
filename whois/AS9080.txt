@@ -1,0 +1,258 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS9080'
+
+% Abuse contact for 'AS9080' is 'abuse@ipex.cz'
+
+aut-num:        AS9080
+org:            ORG-IL4-RIPE
+as-name:        GIN
+descr:          Czech Republic, EU
+descr:          http://www.ipex.cz
+remarks:
+remarks:        +-----------------------------------------------------
+remarks:        | UPSTREAM
+remarks:        +-----------------------------------------------------
+remarks:
+remarks:        +-- SUPER NETWORK
+import:         from AS39392 accept ANY
+export:         to AS39392 announce AS-GIN
+remarks:
+remarks:        +-- DIAL TELECOM
+import:         from AS29208 accept ANY
+export:         to AS29208 announce AS-GIN
+mp-import:      afi ipv6.unicast from AS29208 accept ANY
+mp-export:      afi ipv6.unicast to AS29208 announce AS-GIN
+remarks:
+remarks:        +-- KAORA
+import:         from AS42000 accept ANY
+export:         to AS42000 announce AS-GIN
+mp-import:      afi ipv6.unicast from AS42000 accept ANY
+mp-export:      afi ipv6.unicast to AS42000 announce AS-GIN
+remarks:        +-----------------------------------------------------
+remarks:        | DIRECT PEERING
+remarks:        +-----------------------------------------------------
+remarks:
+remarks:        +-- MASTER INTERNET
+import:         from AS24971 accept AS-MASTERCZ
+export:         to AS24971 announce AS-GIN
+mp-import:      afi ipv6.unicast from AS24971 accept AS-MASTERCZ
+mp-export:      afi ipv6.unicast to AS24971 announce AS-GIN
+remarks:
+remarks:        +-- DRAGON INTERNET
+import:         from AS15614 accept AS15614
+export:         to AS15614 announce AS-GIN
+remarks:
+remarks:        +-- PE3NY
+import:         from AS48926 accept AS48926
+export:         to AS48926 announce AS-GIN
+remarks:
+remarks:        +-- PAMICO
+import:         from AS203018 accept AS203018
+export:         to AS203018 announce ANY
+mp-import:      afi ipv6.unicast from AS203018 accept AS203018
+mp-export:      afi ipv6.unicast to AS203018 announce ANY
+remarks:
+remarks:        +-- JASEK
+import:         from AS207187 accept AS207187 OR AS207242 OR AS207198
+export:         to AS207187 announce ANY
+mp-import:      afi ipv6.unicast from AS207187 accept AS207187
+mp-export:      afi ipv6.unicast to AS207187 announce ANY
+remarks:
+remarks:        +---------------------------------------------------
+remarks:        | GIN filters out inbound prefixes longer than /24. |
+remarks:        | We also filter the following bogus networks: |
+remarks:        | 10.0.0.0/8 |
+remarks:        | 127.0.0.0/8 |
+remarks:        | 172.16.0.0/12 |
+remarks:        | 192.168.0.0/16 |
+remarks:        | 224.0.0.0/3 |
+remarks:        +---------------------------------------------------
+remarks:        +---------------------------------------------------
+remarks:        | Operational issues 24x7: noc@ipex.cz |
+remarks:        | Peering requests: peering@ipex.cz |
+remarks:        | Abuse and spam: abuse@ipex.cz |
+remarks:        | Routing, IP requests: hostmaster@ipex.cz |
+remarks:        +---------------------------------------------------
+remarks:
+admin-c:        PC984-RIPE
+tech-c:         IH459-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS9080-MNT
+created:        2002-06-01T19:13:20Z
+last-modified:  2018-09-04T09:50:38Z
+source:         RIPE # Filtered
+
+organisation:   ORG-IL4-RIPE
+org-name:       Ipex A.S
+country:        CZ
+org-type:       LIR
+address:
+address:        13000
+address:        Praha
+address:        CZECH REPUBLIC
+phone:          +420 515 533 333
+admin-c:        PC984-RIPE
+admin-c:        PB9907-RIPE
+abuse-c:        IH459-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS9080-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS9080-MNT
+created:        2004-04-17T11:04:33Z
+last-modified:  2024-01-23T10:22:02Z
+source:         RIPE # Filtered
+
+role:           IPEX Hostmasters
+address:        Ipex a.s.
+address:        Rohácova 1095/77
+address:        130 00 Praha
+address:        CZ, EU
+phone:          +420 844 844 000
+fax-no:         +420 386 357 623
+remarks:        trouble: -------------------------------------------
+remarks:        trouble: Please send abuse reports to: abuse@ipex.cz
+remarks:        trouble: NOT to the contacts here - thank you.
+remarks:        trouble: -------------------------------------------
+admin-c:        PC984-RIPE
+tech-c:         PB9907-RIPE
+nic-hdl:        IH459-RIPE
+mnt-by:         AS9080-MNT
+created:        2004-01-19T02:48:04Z
+last-modified:  2020-06-16T17:00:56Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@ipex.cz
+
+person:         Petr Chrunak
+address:        Ipex a.s.
+address:        Siroka 37
+address:        Ceske Budejovice
+address:        37001
+address:        The Czech Republic
+phone:          +420 38 6357594
+phone:          +420 38 6357623
+fax-no:         +420 38 6357594
+fax-no:         +420 38 6357623
+nic-hdl:        PC984-RIPE
+mnt-by:         AS9080-MNT
+created:        2002-06-02T08:14:59Z
+last-modified:  2004-01-19T10:25:03Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          85.132.140.0/22
+origin:         AS9080
+mnt-by:         AS9080-MNT
+created:        2022-12-11T12:03:10Z
+last-modified:  2022-12-11T12:03:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.132.160.0/20
+origin:         AS9080
+mnt-by:         AS9080-MNT
+created:        2024-02-08T15:04:39Z
+last-modified:  2024-02-08T15:04:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.132.176.0/22
+origin:         AS9080
+mnt-by:         AS9080-MNT
+created:        2024-06-21T11:01:38Z
+last-modified:  2024-06-21T11:01:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.71.128.0/18
+descr:          GIN's network
+origin:         AS9080
+mnt-by:         AS9080-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.168.160.0/20
+descr:          GIN's network
+origin:         AS9080
+mnt-by:         AS9080-MNT
+mnt-routes:     AS9080-MNT
+created:        2003-04-08T14:33:51Z
+last-modified:  2003-04-08T14:33:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:ae8::/32
+descr:          GIN's network
+origin:         AS9080
+mnt-by:         AS9080-MNT
+created:        2009-05-17T17:22:55Z
+last-modified:  2009-05-17T17:22:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,799 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15965 - AS16057'
+
+as-block:       AS15965 - AS16057
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS15974'
+
+% Abuse contact for 'AS15974' is 'abuse@ttk.ru'
+
+aut-num:        AS15974
+as-name:        VTT-AS
+descr:          ISP, Saratov, Russia.
+descr:          JSC "Volgatranstelecom"
+remarks:        Looking Glass:
+remarks:        http://lg.vtt.net/
+remarks:        ---------------------------------------------------------
+remarks:        ***** Saratov Classic Uplink *****
+remarks:        ---------------------------------------------------------
+import:         from AS20485 217.150.41.246 at 217.150.41.245 action pref=100; accept ANY
+export:         to AS20485 217.150.41.246 at 217.150.41.245 announce AS-VTT-S
+remarks:        ---------------------------------------------------------
+remarks:        *** Saratov Retail Uplink ***
+remarks:        ---------------------------------------------------------
+import:         from AS20485 217.150.45.6 at 217.150.45.5 action pref=100; accept { 0.0.0.0/0 }
+export:         to AS20485 217.150.45.6 at 217.150.45.5 announce AS-VTT-S
+mp-import:      afi ipv6.unicast from AS20485 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS20485 announce AS-VTT-S
+remarks:        ---------------------------------------------------------
+remarks:        ***** Volgograd Classic Uplink *****
+remarks:        ---------------------------------------------------------
+import:         from AS20485 217.150.47.45 at 217.150.47.46 action pref=100; accept ANY
+export:         to AS20485 217.150.47.45 at 217.150.47.46 announce AS-VTT-V
+remarks:        ---------------------------------------------------------
+remarks:        *** Volgograd Retail Uplink ***
+remarks:        ---------------------------------------------------------
+import:         from AS20485 217.150.46.214 at 217.150.46.213 action pref=100; accept { 0.0.0.0/0 }
+export:         to AS20485 217.150.46.214 at 217.150.46.213 announce AS-VTT-V
+mp-import:      afi ipv6.unicast from AS20485 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS20485 announce AS-VTT-V
+remarks:        ---------------------------------------------------------
+remarks:        *** Astrakhan General Uplink ***
+remarks:        ---------------------------------------------------------
+import:         from AS20485 217.150.50.114 at 217.150.50.113 action pref=100; accept ANY
+export:         to AS20485 217.150.50.114 at 217.150.50.113 announce AS-VTT-A
+mp-import:      afi ipv6.unicast from AS20485 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS20485 announce AS-VTT-A
+remarks:        ---------------------------------------------------------
+remarks:        ************ IX in Saratov ************
+remarks:        ---------------------------------------------------------
+import:         from AS9049 action pref=200; accept AS-ERTH
+export:         to AS9049 announce AS-VTT
+mp-import:      afi ipv6.unicast from AS9049 action pref=200; accept AS-ERTH
+mp-export:      afi ipv6.unicast to AS9049 announce AS-VTT
+import:         from AS9111 action pref=200; accept AS9111 { 212.193.32.0/19^19-24 }
+export:         to AS9111 announce AS-VTT
+mp-import:      afi ipv6.unicast from AS9111 action pref=200; accept AS9111
+mp-export:      afi ipv6.unicast to AS9111 announce AS-VTT
+remarks:        ---------------------------------------------------------
+remarks:        *********** IX in Volgograd ***********
+remarks:        ---------------------------------------------------------
+import:         from AS9049 action pref=200; accept AS-ERTH
+export:         to AS9049 announce AS-VTT
+remarks:        ---------------------------------------------------------
+remarks:        *********** IX in Astrakhan ************
+remarks:        ---------------------------------------------------------
+remarks:        EMPTY
+remarks:        ---------------------------------------------------------
+remarks:        ***** Customers in Saratov *****
+remarks:        ---------------------------------------------------------
+remarks:        EMPTY
+remarks:        ***** Customers in Balakovo *****
+remarks:        ---------------------------------------------------------
+remarks:        EMPTY
+remarks:        ---------------------------------------------------------
+remarks:        ***** Customers in Volgograd *****
+remarks:        ---------------------------------------------------------
+import:         from AS198778 action pref=200; accept AS-EROS { 91.246.24.0/24 }
+export:         to AS198778 announce ANY
+import:         from AS58084 action pref=200; accept AS58084 { 37.221.184.0/21^21-24 }
+export:         to AS58084 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        ***** Customers in Astrakhan *****
+remarks:        ---------------------------------------------------------
+import:         from AS58084 action pref=200; accept AS58084 { 37.221.184.0/21^21-24 }
+export:         to AS58084 announce ANY
+remarks:        ---------------------------------------------------------
+org:            ORG-CJSC19-RIPE
+admin-c:        VTT3-RIPE
+tech-c:         VN887-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TRANSTELECOM-MNT
+mnt-by:         VTT-MNT
+created:        2002-08-16T17:53:28Z
+last-modified:  2025-01-14T15:47:58Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CJSC19-RIPE
+org-name:       Joint Stock Company TransTeleCom
+country:        RU
+org-type:       LIR
+address:        Vereyskaya street 29, building 134
+address:        121357
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74957846670
+fax-no:         +74957846671
+admin-c:        YL390-RIPE
+admin-c:        MN12708-RIPE
+abuse-c:        KTTK-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TRANSTELECOM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TRANSTELECOM-MNT
+created:        2009-03-11T13:07:47Z
+last-modified:  2025-01-13T21:17:10Z
+source:         RIPE # Filtered
+
+role:           VTT Network Operations Centre
+address:        JSC "Volgatranstelecom"
+address:        Chernyshevskogo str., 60\62a, floor 12
+address:        Saratov, 410004
+address:        Russia
+phone:          +7 845 2394545
+phone:          +7 845 2394546
+phone:          +7 845 2394519
+phone:          +7 845 2394517
+phone:          +7 845 2394501
+phone:          +7 845 2394538
+fax-no:         +7 845 2394510
+remarks:        ---------------------------------------------------------
+remarks:        Points of contact for VTT Network Operations
+remarks:        ---------------------------------------------------------
+remarks:        SPAM and Network security issues: abuse@vtt.net
+remarks:        General information: office@vtt.net
+remarks:        Routing and peering issues: noc@vtt.net
+remarks:        IP address space requests
+remarks:        and reverse zone delegation: hostmaster@vtt.net
+remarks:        Other LIR issues: lir@vtt.net
+remarks:        ---------------------------------------------------------
+remarks:        _________________A T T E N T I O N!____________________
+remarks:        Please use abuse@vtt.net e-mail address for complaints.
+remarks:        All messages to any other our address, relative to SPAM
+remarks:        or security issues, will not be concerned.
+remarks:        ---------------------------------------------------------
+abuse-mailbox:  abuse@vtt.net
+org:            ORG-JV1-RIPE
+admin-c:        VTT3-RIPE
+tech-c:         IPv6-RU
+tech-c:         DSM119-RIPE
+tech-c:         DVN12-RIPE
+nic-hdl:        VN887-RIPE
+mnt-by:         VTT-MNT
+created:        2009-10-28T05:18:36Z
+last-modified:  2019-07-18T10:58:17Z
+source:         RIPE # Filtered
+
+role:           VTT Registry
+address:        JSC "Volgatranstelecom"
+address:        37/45, Shelkovichnaya str.
+address:        Saratov, 410017
+address:        Russia
+phone:          +7 845 2394210
+phone:          +7 845 2394519
+phone:          +7 845 2394501
+phone:          +7 845 2394517
+fax-no:         +7 845 2394200
+fax-no:         +7 845 2394510
+remarks:        ---------------------------------------------------------
+remarks:        Points of contact for VTT Network Operations
+remarks:        ---------------------------------------------------------
+remarks:        SPAM and Network security issues:    abuse@vtt.net
+remarks:        General information:                 office@vtt.net
+remarks:        Routing and peering issues:          noc@vtt.net
+remarks:        IP address space requests
+remarks:        and reverse zone delegation:         hostmaster@vtt.net
+remarks:        Other LIR issues:                    lir@vtt.net
+remarks:        ---------------------------------------------------------
+remarks:        _________________A T T E N T I O N!____________________
+remarks:        Please use abuse@vtt.net e-mail address for complaints.
+remarks:        All messages to any other our address, relative to SPAM
+remarks:        or security issues, will not be concerned.
+remarks:        ---------------------------------------------------------
+abuse-mailbox:  abuse@vtt.net
+org:            ORG-JV1-RIPE
+admin-c:        AGS103-RIPE
+tech-c:         IPv6-RU
+nic-hdl:        VTT3-RIPE
+mnt-by:         VTT-MNT
+created:        2002-07-01T16:20:25Z
+last-modified:  2019-05-14T12:42:28Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          83.234.164.0/22
+descr:          TTK-Uryupinsk
+origin:         AS15974
+mnt-by:         TRANSTELECOM-MNT
+notify:         noc@volga.ttk.ru
+created:        2023-12-12T16:59:34Z
+last-modified:  2023-12-12T16:59:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.157.208.0/21
+descr:          RU-VTT-5 (Astrakhan)
+origin:         AS15974
+member-of:      RS-VTT-SELF
+org:            ORG-JV1-RIPE
+mnt-by:         VTT-MNT
+notify:         hostmaster@vtt.net
+created:        2013-09-07T17:05:48Z
+last-modified:  2013-09-07T17:16:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.44.120.0/22
+descr:          TTK-Retail route object
+descr:          Saratov Region
+origin:         AS15974
+mnt-by:         VTT-MNT
+notify:         noc@volga.ttk.ru
+notify:         hostmaster@vtt.net
+created:        2024-11-02T07:06:53Z
+last-modified:  2024-11-02T07:06:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.22.6.0/24
+descr:          Mikhlevich Village
+descr:          Marks, Russian Federation
+origin:         AS15974
+mnt-by:         MIKHLEVICH-MNT
+notify:         denis@mikhlevich.ru
+created:        2022-02-16T11:51:31Z
+last-modified:  2022-02-16T11:51:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.128.0/19
+descr:          RU-VTT-1 (Volgograd)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+holes:          213.80.132.0/24
+holes:          213.80.140.0/22
+holes:          213.80.144.0/21
+member-of:      RS-VTT-SELF
+mnt-by:         VTT-MNT
+created:        2006-06-13T15:46:49Z
+last-modified:  2014-07-14T11:16:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.128.0/22
+descr:          RU-VTT-1 (Volgograd)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-SELF
+mnt-by:         VTT-MNT
+created:        2015-07-18T15:38:40Z
+last-modified:  2015-07-18T15:38:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.132.0/24
+descr:          VTT-Volgograd Retail
+descr:          PPPoE fixed users Part-I
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-RETAIL
+notify:         hostmaster@vtt.net
+mnt-by:         VTT-MNT
+created:        2012-11-12T21:12:47Z
+last-modified:  2013-01-17T18:29:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.133.0/24
+descr:          RU-VTT-1 (Volgograd)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-SELF
+mnt-by:         VTT-MNT
+created:        2015-07-18T15:38:40Z
+last-modified:  2015-07-18T15:38:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.134.0/23
+descr:          RU-VTT-1 (Volgograd)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-SELF
+mnt-by:         VTT-MNT
+created:        2015-07-18T15:38:40Z
+last-modified:  2015-07-18T15:38:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.136.0/22
+descr:          RU-VTT-1 (Volgograd)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-SELF
+mnt-by:         VTT-MNT
+created:        2015-07-18T15:38:40Z
+last-modified:  2015-07-18T15:38:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.140.0/22
+descr:          VTT-Volgograd Retail
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-RETAIL
+notify:         hostmaster@vtt.net
+mnt-by:         VTT-MNT
+created:        2013-02-28T19:13:27Z
+last-modified:  2013-02-28T19:13:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.144.0/21
+descr:          VTT-Volgograd Retail
+descr:          PPPoE dynamic users Part-I & Part-II
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-RETAIL
+notify:         hostmaster@vtt.net
+mnt-by:         VTT-MNT
+created:        2013-06-30T20:25:38Z
+last-modified:  2013-06-30T20:25:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.152.0/22
+descr:          VTT-Volgograd Retail
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-RETAIL
+notify:         hostmaster@vtt.net
+mnt-by:         VTT-MNT
+created:        2015-07-18T15:24:02Z
+last-modified:  2015-07-18T15:24:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.156.0/22
+descr:          RU-VTT-1 (Volgograd)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-SELF
+mnt-by:         VTT-MNT
+created:        2015-07-18T15:38:40Z
+last-modified:  2015-07-18T15:38:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.160.0/19
+descr:          RU-VTT-2 (Astrakhan)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-SELF
+mnt-by:         VTT-MNT
+created:        2006-06-13T15:47:01Z
+last-modified:  2017-05-02T05:16:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.192.0/19
+descr:          RU-VTT-3 (Retail-1 Saratovskaya obl.)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-SELF
+member-of:      RS-VTT-RETAIL
+mnt-by:         VTT-MNT
+created:        2006-06-13T15:46:54Z
+last-modified:  2013-06-30T20:32:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.200.0/21
+descr:          VTT-Saratov Retail
+descr:          PPPoE dynamic users Part-II
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-RETAIL
+notify:         hostmaster@vtt.net
+mnt-by:         VTT-MNT
+created:        2010-10-21T00:11:23Z
+last-modified:  2013-01-17T18:29:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.224.0/19
+descr:          RU-VTT-4
+origin:         AS15974
+org:            ORG-JV1-RIPE
+holes:          213.80.224.0/20
+holes:          213.80.240.0/21
+holes:          213.80.248.0/21
+member-of:      RS-VTT-SELF
+mnt-by:         VTT-MNT
+notify:         hostmaster@vtt.net
+created:        2006-06-13T15:47:06Z
+last-modified:  2014-07-14T11:43:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.224.0/20
+descr:          VTT-Saratov Retail
+origin:         AS15974
+holes:          213.80.225.0/24
+holes:          213.80.232.0/24
+holes:          213.80.235.0/24
+holes:          213.80.238.0/24
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-RETAIL
+notify:         hostmaster@vtt.net
+notify:         noc@volga.ttk.ru
+mnt-by:         VTT-MNT
+created:        2014-07-12T18:29:28Z
+last-modified:  2025-04-22T09:52:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.225.0/24
+descr:          TTK-Retail route object
+origin:         AS15974
+notify:         noc@volga.ttk.ru
+mnt-by:         VTT-MNT
+mnt-by:         TTKS-MNT
+created:        2025-04-22T10:01:42Z
+last-modified:  2025-04-22T10:01:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.232.0/24
+descr:          TTK Saratov NAT
+origin:         AS15974
+notify:         noc@volga.ttk.ru
+mnt-by:         VTT-MNT
+created:        2023-11-02T08:14:29Z
+last-modified:  2023-11-02T08:14:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.235.0/24
+descr:          TTK-Business route object
+origin:         AS15974
+notify:         noc@volga.ttk.ru
+mnt-by:         VTT-MNT
+mnt-by:         TTKS-MNT
+created:        2025-04-22T10:01:42Z
+last-modified:  2025-04-22T10:01:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.238.0/24
+descr:          TTK-Retail route object
+origin:         AS15974
+notify:         noc@volga.ttk.ru
+mnt-by:         VTT-MNT
+mnt-by:         TTKS-MNT
+created:        2025-04-22T10:01:43Z
+last-modified:  2025-04-22T10:01:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.240.0/21
+descr:          RU-VTT-4 (Retail-2 Saratovskaya obl.)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-RETAIL
+notify:         hostmaster@vtt.net
+mnt-by:         VTT-MNT
+created:        2014-07-14T11:41:51Z
+last-modified:  2014-07-14T11:44:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.80.248.0/21
+descr:          VTT-Saratov Part-II
+origin:         AS15974
+org:            ORG-JV1-RIPE
+mnt-by:         VTT-MNT
+created:        2012-11-11T19:19:06Z
+last-modified:  2012-11-11T19:19:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.23.64.0/19
+descr:          RU-VTT-0 (Saratov Part-I)
+origin:         AS15974
+org:            ORG-JV1-RIPE
+holes:          217.23.74.0/24
+holes:          217.23.80.0/24
+member-of:      RS-VTT-SELF
+mnt-by:         VTT-MNT
+created:        2004-04-07T11:31:32Z
+last-modified:  2022-10-20T05:23:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.23.74.0/24
+descr:          VTT-Saratov Retail
+descr:          PPPoE fixed users Part-I
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-RETAIL
+mnt-by:         VTT-MNT
+created:        2012-11-11T18:50:22Z
+last-modified:  2013-01-17T18:33:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.23.80.0/24
+descr:          TTK Saratov
+descr:          COD
+origin:         AS15974
+org:            ORG-JV1-RIPE
+member-of:      RS-VTT-RETAIL
+mnt-by:         VTT-MNT
+created:        2022-10-20T08:54:27Z
+last-modified:  2022-10-20T08:54:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:e840::/32
+descr:          RU-VTT-0
+descr:          VTT in Saratov region
+origin:         AS15974
+org:            ORG-JV1-RIPE
+notify:         hostmaster@vtt.net
+mnt-by:         VTT-MNT
+created:        2013-02-01T10:34:00Z
+last-modified:  2013-02-01T10:34:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:e841::/32
+descr:          RU-VTT-1
+descr:          VTT in Astrakhan region
+origin:         AS15974
+org:            ORG-JV1-RIPE
+notify:         hostmaster@vtt.net
+mnt-by:         VTT-MNT
+created:        2013-05-21T08:59:50Z
+last-modified:  2013-05-21T08:59:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:e842::/32
+descr:          RU-VTT-2
+descr:          VTT in Volgograd region
+origin:         AS15974
+org:            ORG-JV1-RIPE
+notify:         hostmaster@vtt.net
+mnt-by:         VTT-MNT
+created:        2013-05-27T12:33:11Z
+last-modified:  2013-05-27T12:33:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

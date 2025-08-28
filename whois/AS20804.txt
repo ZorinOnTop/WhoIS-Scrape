@@ -1,0 +1,581 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20804'
+
+% Abuse contact for 'AS20804' is 'abuse@exatel.pl'
+
+aut-num:        AS20804
+as-name:        ASN-TELENERGO
+org:            ORG-TS16-RIPE
+descr:          ul. PERKUNA 47, WARSZAWA
+descr:          POLAND
+import:         from AS5617 action pref=70; accept ANY
+import:         from AS8545 action pref=85; accept ANY
+import:         from AS44896 action pref=85; accept ANY
+import:         from AS29535 action pref=85; accept ANY
+import:         from AS50607 action pref=85; accept ANY
+import:         from AS6777 action pref=85; accept ANY
+import:         from AS24748 action pref=85; accept ANY
+import:         from AS56682 action pref=85; accept ANY
+import:         from AS15169 action pref=85; accept ANY
+import:         from AS21357 action pref=85; accept ANY
+import:         from AS16138 action pref=85; accept ANY
+import:         from AS1299 action pref=85; accept ANY
+import:         from AS8714 action pref=80; accept ANY
+import:         from AS6695 action pref=80; accept ANY
+import:         from AS31210 action pref=85; accept ANY
+import:         from AS2914 action pref=85; accept ANY
+import:         from AS47200 action pref=85; accept ANY
+import:         from AS57734 action pref=85; accept ANY
+import:         from AS57811 action pref=85; accept ANY
+import:         from AS24115 action pref=85; accept ANY
+import:         from AS16276 action pref=85; accept ANY
+import:         from AS12741 action pref=85; accept ANY
+import:         from AS52005 action pref=85; accept ANY
+import:         from AS16509 action pref=85; accept ANY
+import:         from AS8508 action pref=85; accept ANY
+import:         from AS56630 action pref=85; accept ANY
+import:         from AS59613 action pref=85; accept ANY
+import:         from AS20717 action pref=85; accept ANY
+import:         from AS13119 action pref=85; accept ANY
+import:         from AS1121 action pref=85; accept ANY
+import:         from AS31500 action pref=85; accept ANY
+import:         from AS50952 action pref=85; accept ANY
+import:         from AS61968 action pref=85; accept ANY
+import:         from AS6762 action pref=85; accept ANY
+import:         from AS50263 action pref=85; accept ANY
+export:         to AS24115 announce AS-EXATEL-INT
+export:         to AS5617 announce AS-EXATEL-PL
+export:         to AS44896 announce AS-EXATEL-INT
+export:         to AS29535 announce AS-EXATEL-PL
+export:         to AS50607 announce AS-EXATEL-PL
+export:         to AS6777 announce AS-EXATEL-INT
+export:         to AS24748 announce AS-EXATEL-INT
+export:         to AS15169 announce AS-EXATEL-INT
+export:         to AS21357 announce AS-EXATEL-INT
+export:         to AS56682 announce AS-EXATEL-PL
+export:         to AS16138 announce AS-EXATEL-PL
+export:         to AS1299 announce AS-EXATEL-INT
+export:         to AS8714 announce AS-EXATEL-INT
+export:         to AS6695 announce AS-EXATEL-INT
+export:         to AS31210 announce AS-EXATEL-INT
+export:         to AS2914 announce AS-EXATEL-INT
+export:         to AS47200 announce AS-EXATEL-INT
+export:         to AS57734 announce AS-EXATEL-INT
+export:         to AS57811 announce AS-EXATEL-PL
+export:         to AS24115 announce AS-EXATEL-INT
+export:         to AS16276 announce AS-EXATEL-INT
+export:         to AS12741 announce AS-EXATEL-PL
+export:         to AS52005 announce AS-EXATEL-INT
+export:         to AS16509 announce AS-EXATEL-INT
+export:         to AS8508 announce AS-EXATEL-INT
+export:         to AS56630 announce AS-EXATEL-INT
+export:         to AS59613 announce AS-EXATEL-INT
+export:         to AS20717 announce AS-EXATEL-INT
+export:         to AS13119 announce AS-EXATEL-INT
+export:         to AS1121 announce AS-EXATEL-INT
+export:         to AS31500 announce AS-EXATEL-INT
+export:         to AS50952 announce AS-EXATEL-INT
+export:         to AS61968 announce AS-EXATEL-INT
+export:         to AS6762 announce AS-EXATEL-INT
+export:         to AS50263 announce AS-EXATEL-INT
+admin-c:        TNRG1-RIPE
+tech-c:         TNRG1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-EXATEL
+remarks:        ----------------------------------------------------
+remarks:        BGP COMMUNITY SUPPORT FOR AS20804 BGP CUSTOMERS:
+remarks:
+remarks:        Community Action
+remarks:        ----------------------------------------------------
+remarks:        20804:50 Set local pref 50 (e.g. for backup routes)
+remarks:        20804:96 Don't advertise to global upstream providers
+remarks:        20804:97 Don't advertise to polish upstream providers
+remarks:        20804:98 Don't advertise to peering partners
+remarks:        20804:99 Don't advertise anywhere
+remarks:
+remarks:        20804:1000 Don't advertise to ORANGE POLSKA (POLPAK) [AS5617]
+remarks:        20804:100x Prepend x times with AS20804 to ORANGE POLSKA (POLPAK) [AS5617]
+remarks:
+remarks:        20804:2400 Don't advertise to INTERIA.PL [AS56682&AS16138]
+remarks:        20804:240x Prepend x times with AS20804 to INTERIA.PL [AS56682&AS16138]
+remarks:
+remarks:        20804:1200 Don't advertise to EQUINIX WARSAW (former PLIX) members [AS24115]
+remarks:        20804:120x Prepend x times with AS20804 to EQUINIX WARSAW (former PLIX) [AS24115]
+remarks:
+remarks:        20804:1700 Don't advertise to LINX LON1,2 members [AS8714]
+remarks:        20804:170x Prepend x times with AS20804 to LINX LON 1,2 [AS8714]
+remarks:
+remarks:        20804:2200 Don't advertise to GOOGLE GLOBAL CACHE [AS15169]
+remarks:        20804:220x Prepend x times with AS20804 to GOOGLE GLOBAL CACHE [AS15169]
+remarks:
+remarks:        20804:2220 Don't advertise to GOOGLE PEERING [AS15169]
+remarks:        20804:222x Prepend x times with AS20804 to GOOGLE PEERING [AS15169]
+remarks:
+remarks:        20804:1100 Don't advertise to TP-IX members [AS29535]
+remarks:        20804:110x Prepend x times with AS20804 to TP-IX [AS29535]
+remarks:
+remarks:        20804:2100 Don't advertise to AKAMAI CACHE [AS21357]
+remarks:        20804:210x Prepend x times with AS20804 to AKAMAI CACHE [AS21357]
+remarks:
+remarks:        20804:1800 Don't advertise to AS-DTEL-IX members [AS31210]
+remarks:        20804:180x Prepend x times with AS20804 to AS-DTEL-IX [AS31210]
+remarks:
+remarks:        20804:2800 Don't advertise to VIX WIEDEN [AS1121]
+remarks:        20804:280x Prepend x times with AS20804 to VIX WIEDEN [AS61121]
+remarks:
+remarks:        20804:3800 Don't advertise to MIX-IT [AS61968]
+remarks:        20804:380x Prepend x times with AS20804 to MIX-IT [AS61968]
+remarks:
+remarks:        20804:2300 Don't advertise to ACCN MAN SZCZECIN [AS13119]
+remarks:        20804:230x Prepend x times with AS20804 to ACCN MAN SZCZECIN [AS13119]
+remarks:
+remarks:        20804:2600 Don't advertise to CKPS SASK [AS8508]
+remarks:        20804:260x Prepend x times with AS20804 to CKPS SASK [AS8508]
+remarks:
+remarks:        20804:3900 Don't advertise to AMAZON CZECH REPUBLIC [AS16509]
+remarks:        20804:390x Prepend x times with AS20804 to AMAZON CZECH REPUBLIC [AS16509]
+remarks:
+remarks:        20804:2000 Don't advertise to NETIA S.A. [AS12741]
+remarks:        20804:200x Prepend x times with AS20804 to NETIA S.A. [AS12741]
+remarks:
+remarks:        20804:1500 Don't advertise to PIX/POZIX members [AS44896]
+remarks:        20804:150x Prepend x times with AS20804 to PIX/POZIX [AS44896]
+remarks:
+remarks:        20804:1600 Don't advertise to ARELION (former TELIA) [AS1299]
+remarks:        20804:160x Prepend x times with AS20804 to ARELION (former TELIA) [AS1299]
+remarks:
+remarks:        20804:4000 Don't advertise to TELECOM ITALIA SPARKLE members [AS6762]
+remarks:        20804:400x Prepend x times with AS20804 to TELECOM ITALIA SPARKLE [AS6762]
+remarks:
+remarks:        20804:2500 Don't advertise to THINX/ATMAN members [AS24748]
+remarks:        20804:250x Prepend x times with AS20804 to THINX/ATMAN [AS24748]
+remarks:
+remarks:        20804:1300 Don't advertise to DE-CIX Frankfurt members [AS6695]
+remarks:        20804:130x Prepend x times with AS20804 to DE-CIX Frankfurt [AS6695]
+remarks:
+remarks:        20804:1400 Don't advertise to AMS-IX members [AS6777]
+remarks:        20804:140x Prepend x times with AS20804 to AMS-IX [AS6777]
+remarks:
+remarks:        20804:1310 Don't advertise to DE-CIX-Duesseldorf members [AS56890]
+remarks:        20804:131x Prepend x times with AS20804 to DE-CIX-Duesseldorf [AS56890]
+remarks:
+remarks:        20804:1320 Don't advertise to DE-CIX-Munich members [AS47228]
+remarks:        20804:132x Prepend x times with AS20804 to DE-CIX-Munich [AS47228]
+remarks:
+remarks:        20804:1330 Don't advertise to DE-CIX-Hamburg members [AS43252]
+remarks:        20804:133x Prepend x times with AS20804 to DE-CIX-Hamburg [AS43252]
+remarks:
+remarks:        20804:4200 Don't advertise to OVH CLOUD [AS16276]
+remarks:        20804:420x Prepend x times with AS20804 to OVH CLOUD [AS16276]
+remarks:
+remarks:        20804:4300 Don't advertise to MELBICOM [AS56630]
+remarks:        20804:430x Prepend x times with AS20804 to MELBICOM [AS56630]
+remarks:
+remarks:        20804:4400 Don't advertise to GLOBAL-IX [AS31500, AS50952]
+remarks:        20804:440x Prepend x times with AS20804 to GLOBAL-IX [AS31500, AS50952]
+remarks:
+remarks:        20804:4100 Don't advertise to NTT Communication [AS2914]
+remarks:        20804:410x Prepend x times with AS20804 to NTT Communication [AS2914]
+remarks:
+remarks:        20804:4500 Don't advertise to FRANCE-IX members [AS57734]
+remarks:        20804:450x Prepend x times with AS20804 to FRANCE-IX [AS57734]
+remarks:
+remarks:        20804:4600 Don't advertise to NIX.CZ members [AS47200]
+remarks:        20804:460x Prepend x times with AS20804 to NIX.CZ [AS47200]
+remarks:
+remarks:        20804:4700 Don't advertise to ATENDE SOFTWARE [AS57811]
+remarks:        20804:470x Prepend x times with AS20804 to ATENDE SOFTWARE [AS57811]
+remarks:
+remarks:        20804:4800 Don't advertise to NETNOD AG STOCKHOLM members [AS52005]
+remarks:        20804:480x Prepend x times with AS20804 to NETNOD AG STOCKHOLM [AS52005]
+remarks:
+remarks:        20804:4900 Don't advertise to GIGANET IXN members [AS59613]
+remarks:        20804:490x Prepend x times with AS20804 to GIGANET IXN [AS59613]
+remarks:
+remarks:        20804:1340 Don't advertise to DE-CIX-Marseille members [AS20717]
+remarks:        20804:134x Prepend x times with AS20804 to DE-CIX-Marseille [AS20717]
+remarks:
+remarks:        20804:3000 Don't advertise to Netflix Streaming Services Inc. [AS2906]
+remarks:        20804:300x Prepend x times with AS20804 to Netflix Streaming Services Inc. [AS2906]
+remarks:
+remarks:        20804:3300 Don't advertise to 1-IX members [AS50623]
+remarks:        20804:330x Prepend x times with AS20804 to 1-IX [AS50623]
+remarks:
+remarks:        ***********************************************
+remarks:        20804:666 - blackhole (discard) all traffic
+remarks:        ***********************************************
+remarks:        Customer traffic engineering communities - Blackhole
+remarks:        Traffic destined for any prefixes tagged with this
+remarks:        community will be discarded at ingress to the Exatel
+remarks:        network. The prefix must be one permitted by the
+remarks:        customer's existing ingress BGP filter. Exatel will accept only
+remarks:        /32 prefix with this community.
+remarks:        ***********************************************
+remarks:        The following communities are available for experimental/trial use:
+remarks:        20804:663 blackhole (discard) traffic from polish peers
+remarks:        20804:664 blackhole (discard) traffic from foreign peers
+remarks:        20804:665 blackhole (discard) traffic from polish and foreign peers
+remarks:        Unlike regular blackhole community, selective blackhole communities
+remarks:        preserve traffic with Exatel and its customers, discarding only traffic from other peers.
+remarks:        Exatel will accept only /32 prefixes with this community.
+remarks:        -------------------------------------------------------
+remarks:        All RFC1997 communities are supported.
+remarks:        -------------------------------------------------------
+remarks:        general information and customer care mailto:bok@exatel.pl
+remarks:        peering and BGP issues - mailto:bgp@exatel.pl
+remarks:        abuse and bug reports - mailto:abuse@exatel.pl
+remarks:        registry contact - mailto:registry@exatel.pl
+remarks:        ***********************************************
+created:        2002-08-29T08:21:34Z
+last-modified:  2025-06-23T08:40:24Z
+source:         RIPE
+
+organisation:   ORG-TS16-RIPE
+org-name:       Exatel S.A.
+country:        PL
+org-type:       LIR
+address:        ul.Perkuna 47
+address:        04-164
+address:        Warszawa
+address:        POLAND
+phone:          +48223406050
+fax-no:         +48223406022
+admin-c:        IG346-RIPE
+abuse-c:        AE3653-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-EXATEL
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-EXATEL
+created:        2004-04-17T11:48:12Z
+last-modified:  2020-12-16T12:26:58Z
+source:         RIPE # Filtered
+
+role:           TELENERGO CORE IP NETWORK ADMINISTRATORS
+address:        Exatel S.A.
+address:        ul. Perkuna 47
+address:        04-164 Warszawa
+address:        POLAND
+phone:          +48 (22) 340 6050
+fax-no:         +48 (22) 340 6363
+remarks:        trouble: general information and customer care - mailto:bok@exatel.pl
+remarks:        trouble: peering and BGP issues - mailto:bgp@exatel.pl
+remarks:        trouble: abuse and bug reports - mailto:abuse@exatel.pl
+remarks:        trouble: registry contact - mailto:ripe@exatel.pl
+remarks:        Exatel Looking Glass: http://lg.exatel.pl/lg
+admin-c:        IG346-RIPE
+tech-c:         IG346-RIPE
+tech-c:         BP379-RIPE
+tech-c:         ML4998-RIPE
+tech-c:         JM2846-RIPE
+tech-c:         RA9071-RIPE
+nic-hdl:        TNRG1-RIPE
+mnt-by:         MNT-EXATEL
+created:        2002-11-27T16:48:25Z
+last-modified:  2017-10-17T08:49:11Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          81.15.128.0/17
+descr:          EXATEL S.A.
+origin:         AS20804
+mnt-by:         TELENERGO-MNT
+notify:         iwona.grzechnik@exatel.pl
+created:        2002-08-22T14:32:50Z
+last-modified:  2005-03-08T10:32:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.177.0.0/16
+descr:          EXATEL S.A.
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2003-08-26T20:17:04Z
+last-modified:  2007-09-13T05:20:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.177.194.0/24
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2025-04-07T16:13:00Z
+last-modified:  2025-04-07T16:13:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.220.0.0/17
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2021-02-01T14:31:15Z
+last-modified:  2021-02-01T14:31:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.220.114.0/24
+origin:         AS20804
+created:        2022-05-05T05:50:25Z
+last-modified:  2022-05-05T05:50:25Z
+source:         RIPE
+mnt-by:         MNT-EXATEL
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.220.128.0/18
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2021-02-01T14:31:43Z
+last-modified:  2021-02-01T14:31:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.220.208.0/20
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2021-02-01T14:32:10Z
+last-modified:  2021-02-01T14:32:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.220.224.0/19
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2021-02-01T14:32:37Z
+last-modified:  2021-02-01T14:32:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.220.252.0/24
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2019-02-07T10:21:28Z
+last-modified:  2019-02-07T10:21:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.220.253.0/24
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2019-02-07T10:21:53Z
+last-modified:  2019-02-07T10:21:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.56.173.0/24
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2018-08-21T13:31:06Z
+last-modified:  2018-09-04T19:39:34Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.183.32.0/19
+descr:          EXATEL S.A. (PL)
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2009-02-16T12:34:37Z
+last-modified:  2009-02-16T12:34:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.136.0.0/16
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2017-05-05T07:18:16Z
+last-modified:  2017-05-05T07:18:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.136.113.0/24
+origin:         AS20804
+created:        2022-05-05T05:49:35Z
+last-modified:  2022-05-05T05:49:35Z
+source:         RIPE
+mnt-by:         MNT-EXATEL
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.137.162.0/24
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2017-04-25T10:40:14Z
+last-modified:  2017-04-25T10:40:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.172.160.0/19
+descr:          EXATEL S.A.
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+notify:         iwona.grzechnik@exatel.pl
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-03-10T10:19:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:4120::/32
+descr:          EXATEL S.A.
+origin:         AS20804
+mnt-by:         MNT-EXATEL
+created:        2013-03-13T13:17:42Z
+last-modified:  2013-03-13T13:17:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a10:f781:10:f1a7::/64
+origin:         AS20804
+descr:          EPIX-LORA-EXATELSA
+mnt-by:         EPOLUDNIE-MNT
+mnt-by:         EPOLUDNIE-MP-MNT
+mnt-lower:      EPOLUDNIE-MNT
+mnt-lower:      EPOLUDNIE-MP-MNT
+created:        2022-05-16T07:01:28Z
+last-modified:  2022-05-16T07:01:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

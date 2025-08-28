@@ -1,0 +1,694 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20859 - AS20927'
+
+as-block:       AS20859 - AS20927
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20904'
+
+% Abuse contact for 'AS20904' is 'abuse@cinia.fi'
+
+aut-num:        AS20904
+as-name:        Netplaza-AS
+org:            ORG-CL69-RIPE
+admin-c:        CNFI-RIPE
+tech-c:         CNFI-RIPE
+remarks:        --------------------------------
+remarks:        Transits
+remarks:        --------------------------------
+import:         from AS1759 accept ANY
+export:         to AS1759 announce AS-NETPLAZA
+import:         from AS47605 accept ANY
+export:         to AS47605 announce AS-NETPLAZA
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-NETPLAZA
+remarks:        --------------------------------
+remarks:        Customers
+remarks:        --------------------------------
+import:         from AS23154 accept AS23154
+export:         to AS23154 announce {0.0.0.0/0}
+import:         from AS48618 accept AS48618
+export:         to AS48618 announce ANY
+import:         from AS51691 accept AS-SET-FSOL
+export:         to AS208272 announce ANY
+import:         from AS208272 accept AS208272
+export:         to AS51691 announce ANY
+import:         from AS395266 accept AS395266
+export:         to AS395266 announce ANY
+import:         from AS209682 accept AS209682
+export:         to AS209682 announce ANY
+import:         from AS211215 accept AS211215
+export:         to AS211215 announce ANY
+import:         from AS60109 accept AS60109
+export:         to AS60109 announce ANY
+import:         from AS208272 accept AS208272
+export:         to AS208272 announce {0.0.0.0/0}
+import:         from AS50290 accept AS50290
+export:         to AS50290 announce ANY
+import:         from AS3222 accept AS3222
+export:         to AS3222 announce {0.0.0.0/0}
+remarks:        --------------------------------
+remarks:        Private peers
+remarks:        --------------------------------
+import:         from AS51473 accept AS51473
+export:         to AS51473 announce AS-NETPLAZA
+import:         from AS3222 accept AS3222
+export:         to AS3222 announce AS-NETPLAZA
+remarks:        --------------------------------
+remarks:        FICIX-2 peers
+remarks:        --------------------------------
+import:         from AS2906 accept AS-NFLX
+export:         to AS2906 announce AS-NETPLAZA
+import:         from AS6939 accept AS-HURRICANE AS-HURRICANEv6
+export:         to AS6939 announce AS-NETPLAZA
+import:         from AS16302 accept AS-SUOMICOM
+export:         to AS16302 announce AS-NETPLAZA
+import:         from AS60116 accept AS-FICIX
+export:         to AS60116 announce AS-NETPLAZA
+import:         from AS1741 accept AS-FUNET
+export:         to AS1741 announce AS-NETPLAZA
+import:         from AS13335 accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-NETPLAZA
+import:         from AS24940 accept AS-HETZNER
+export:         to AS24940 announce AS-NETPLAZA
+import:         from AS29422 accept AS-NBLNETFI
+export:         to AS29422 announce AS-NETPLAZA
+import:         from AS202053 accept AS-UPCLOUD
+export:         to AS202053 announce AS-NETPLAZA
+import:         from AS8075 accept AS-MICROSOFT
+export:         to AS8075 announce AS-NETPLAZA
+import:         from AS12630 accept AS-OTAVERKKO
+export:         to AS12630 announce AS-NETPLAZA
+import:         from AS15380 accept AS-EQUINIX-EU
+export:         to AS15380 announce AS-NETPLAZA
+import:         from AS208722 accept AS-YNDX
+export:         to AS208722 announce AS-NETPLAZA
+import:         from AS26415 accept AS-GTLD
+export:         to AS26415 announce AS-NETPLAZA
+import:         from AS32934 accept AS-FACEBOOK
+export:         to AS32934 announce AS-NETPLAZA
+import:         from AS12552 accept AS12552
+export:         to AS12552 announce AS-NETPLAZA
+import:         from AS54113 accept AS-FASTLY
+export:         to AS54113 announce AS-NETPLAZA
+import:         from AS49282 accept AS49282:AS-CUST
+export:         to AS49282 announce AS-NETPLAZA
+remarks:        --------------------------------
+remarks:        TREX peers
+remarks:        --------------------------------
+import:         from AS42 accept AS-PCH
+export:         to AS42 announce AS-NETPLAZA
+import:         from AS3856 accept AS-PCH
+export:         to AS3856 announce AS-NETPLAZA
+import:         from AS29432 accept AS29432:AS-PEERING
+export:         to AS29432 announce AS-NETPLAZA
+import:         from AS51164 accept AS-CYBERCOM
+export:         to AS51164 announce AS-NETPLAZA
+import:         from AS58003 accept AS58003
+export:         to AS58003 announce AS-NETPLAZA
+import:         from AS12552 accept AS12552
+export:         to AS12552 announce AS-NETPLAZA
+remarks:        --------------------------------
+remarks:        DECIX FRA peers
+remarks:        --------------------------------
+import:         from AS32590 accept AS-VALVE
+export:         to AS32590 announce AS-NETPLAZA
+import:         from AS61423 accept AS-JMP
+export:         to AS61423 announce AS-NETPLAZA
+remarks:        ------------------------------------------------------------
+remarks:        Peering contact: ip-oper@cinia.fi
+remarks:        BGP COMMUNITY SUPPORT FOR AS20904 TRANSIT CUSTOMERS
+remarks:        Following communities are assignable to routes by customers.
+remarks:        ------------------------------------------------------------
+remarks:        Local-preference communities:
+remarks:        20904:200xx, where ...
+remarks:        XX is:
+remarks:        01 = Set local-preference to 50 within AS20904
+remarks:        03 = Set local-preference to 70 within AS20904
+remarks:        07 = Set local-preference to 110 within AS20904
+remarks:        99 = Set route next-hop to Black-hole
+remarks:        Default local-preference for customer routes is 150.
+remarks:
+remarks:        Other route announcement control communities:
+remarks:        20904:2xyzz gereric range, where ...
+remarks:        X is:
+remarks:        1 = Prepends peer-AS once to ...
+remarks:        2 = Prepends peer-AS twice to ...
+remarks:        3 = Prepends peer-AS thrice to ...
+remarks:        9 = Do not announce to ...
+remarks:
+remarks:        Y is:
+remarks:        0 = to Cinia customer peers ...
+remarks:        ZZ is:
+remarks:        99 = Any
+remarks:
+remarks:        1 = to Cinia private peers ...
+remarks:        ZZ is:
+remarks:        99 = Any
+remarks:
+remarks:        2 = to Cinia public peering point ...
+remarks:        ZZ is:
+remarks:        00 = TREX
+remarks:        01 = FICIX-1
+remarks:        02 = FICIX-2
+remarks:        04 = DECIX
+remarks:        99 = Any
+remarks:
+remarks:        3 = to Cinia transit peers ...
+remarks:        ZZ is:
+remarks:        00 = FNE AS47605
+remarks:        02 = Arelion AS1299
+remarks:        99 = Any
+remarks:
+remarks:        Cinia will cleanup AS20904 related communities from all
+remarks:        announcements to peers.
+remarks:        ------------------------------------------------------------
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         CNFI-MNT
+created:        2002-06-05T11:44:33Z
+last-modified:  2024-06-17T04:56:16Z
+source:         RIPE
+
+organisation:   ORG-CL69-RIPE
+org-name:       Cinia Oy
+country:        FI
+org-type:       LIR
+address:        Firdonkatu 2 T 161
+address:        FI-00520
+address:        HELSINKI
+address:        FINLAND
+phone:          +358293008708
+admin-c:        CNFI-RIPE
+abuse-c:        CNFI1000-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        CNFI-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         CNFI-MNT
+created:        2007-06-08T10:11:07Z
+last-modified:  2025-05-09T10:52:52Z
+source:         RIPE # Filtered
+
+role:           Cinia Oy - LIR Team
+address:        Ilmalantori 1, FI-00240 Helsinki, Finland
+admin-c:        HM2104-RIPE
+admin-c:        JL4684-RIPE
+tech-c:         JS11347-RIPE
+tech-c:         PL10210-RIPE
+tech-c:         JD8707-RIPE
+tech-c:         JL4684-RIPE
+tech-c:         KV3575-RIPE
+tech-c:         HS11144-RIPE
+abuse-mailbox:  abuse@cinia.fi
+nic-hdl:        CNFI-RIPE
+mnt-by:         CNFI-MNT
+created:        2005-09-19T09:40:35Z
+last-modified:  2025-02-19T07:43:20Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          5.61.94.0/24
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2024-12-16T07:23:01Z
+last-modified:  2024-12-16T07:23:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          37.35.80.0/21
+descr:          Netplaza Oy
+descr:          Oulu, Finland
+origin:         AS20904
+mnt-by:         FI-UTANET
+mnt-routes:     FI-UTANET
+created:        2012-01-09T14:38:53Z
+last-modified:  2012-01-09T14:38:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.156.104.0/22
+origin:         AS20904
+mnt-by:         mnt-fi-nivalankuitu-1
+created:        2021-01-25T10:14:41Z
+last-modified:  2021-01-25T10:14:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          46.254.208.0/24
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2025-04-24T15:02:13Z
+last-modified:  2025-04-24T15:02:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.254.210.0/24
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2025-04-24T15:02:38Z
+last-modified:  2025-04-24T15:02:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.254.211.0/24
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2025-04-24T15:02:52Z
+last-modified:  2025-04-24T15:02:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.95.240.0/21
+descr:          Cinia Oy
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2024-02-12T12:45:32Z
+last-modified:  2024-02-12T12:45:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          77.95.246.0/23
+descr:          Cinia Oy
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2023-10-19T09:07:04Z
+last-modified:  2023-10-19T09:07:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.75.96.0/20
+descr:          Netplaza Oy
+descr:          Oulu, Finland
+origin:         AS20904
+mnt-by:         FI-UTANET
+mnt-routes:     FI-UTANET
+created:        2002-04-10T09:31:24Z
+last-modified:  2006-08-30T09:54:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.174.192.0/21
+descr:          Frozen Hat
+origin:         AS20904
+mnt-by:         FI-UTANET
+mnt-routes:     FI-UTANET
+created:        2013-04-18T13:16:16Z
+last-modified:  2013-04-18T13:16:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          149.126.176.0/21
+descr:          Netplaza Oy
+descr:          Oulu, Finland
+origin:         AS20904
+mnt-by:         FI-UTANET
+mnt-routes:     FI-UTANET
+created:        2011-08-10T06:55:25Z
+last-modified:  2011-08-10T06:55:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.5.160.0/19
+descr:          Cinia Oy
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2024-02-12T12:45:47Z
+last-modified:  2024-02-12T12:45:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.5.180.0/22
+origin:         AS20904
+mnt-by:         CNFI-MNT
+mnt-by:         CNFI-MNT
+created:        2022-05-04T10:25:04Z
+last-modified:  2022-05-04T10:25:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.5.192.0/20
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2018-09-13T09:16:59Z
+last-modified:  2018-09-13T09:16:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          164.5.208.0/21
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2024-12-16T07:52:41Z
+last-modified:  2024-12-16T07:52:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.16.168.0/22
+descr:          Cinia Oy
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2024-02-12T12:46:30Z
+last-modified:  2024-02-12T12:46:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.25.76.0/22
+descr:          Netplaza Oy
+origin:         AS20904
+mnt-by:         FI-UTANET
+mnt-routes:     FI-UTANET
+created:        2013-05-03T09:42:54Z
+last-modified:  2013-05-03T09:42:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.25.76.0/23
+origin:         AS20904
+mnt-by:         FI-UTANET
+created:        2016-10-12T02:02:39Z
+last-modified:  2016-10-12T02:02:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.25.78.0/24
+origin:         AS20904
+mnt-by:         FI-UTANET
+created:        2016-10-12T02:03:25Z
+last-modified:  2016-10-12T02:03:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.25.79.0/24
+descr:          Netplaza Oy, restricted access network
+origin:         AS20904
+mnt-by:         FI-UTANET
+created:        2013-10-24T11:09:34Z
+last-modified:  2013-10-24T11:09:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.67.80.0/22
+descr:          Netplaza Oy
+descr:          Oulu, Finland
+origin:         AS20904
+mnt-by:         FI-UTANET
+mnt-routes:     FI-UTANET
+created:        2014-09-18T11:38:42Z
+last-modified:  2014-09-18T11:38:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.115.16.0/22
+descr:          IT-SALONEN OY
+origin:         AS20904
+mnt-by:         fi-dreamit-1-mnt
+created:        2015-10-23T09:07:05Z
+last-modified:  2015-10-23T09:07:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.64.0.0/21
+descr:          Netplaza Oy
+descr:          Oulu, Finland
+origin:         AS20904
+mnt-by:         FI-UTANET
+mnt-routes:     FI-UTANET
+created:        2009-07-09T13:56:19Z
+last-modified:  2009-07-09T13:56:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.25.34.0/24
+descr:          Keysight Technologies Finland via Netplaza
+origin:         AS20904
+mnt-by:         FI-UTANET
+created:        2018-06-21T14:31:02Z
+last-modified:  2018-09-04T19:27:06Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.6.54.0/24
+origin:         AS20904
+mnt-by:         mnt-fi-savontietokeskus-1
+created:        2020-01-21T11:53:44Z
+last-modified:  2020-01-21T11:53:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:1a58::/32
+descr:          Netplaza Oy
+descr:          Oulu, Finland
+origin:         AS20904
+mnt-by:         FI-UTANET
+mnt-routes:     FI-UTANET
+created:        2010-02-04T09:46:23Z
+last-modified:  2010-02-04T09:46:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:74a0::/32
+descr:          Netplaza Oy Frozen Hat
+origin:         AS20904
+mnt-by:         FI-UTANET
+mnt-routes:     FI-UTANET
+created:        2013-04-29T12:55:17Z
+last-modified:  2013-04-29T12:55:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a04:240::/29
+origin:         AS20904
+mnt-by:         CNFI-MNT
+created:        2024-02-19T08:08:33Z
+last-modified:  2024-02-19T08:08:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a06:ae00::/29
+descr:          IT-SALONEN OY
+origin:         AS20904
+mnt-by:         fi-dreamit-1-mnt
+created:        2015-12-10T15:34:14Z
+last-modified:  2015-12-10T15:34:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

@@ -1,0 +1,299 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8204'
+
+% Abuse contact for 'AS8204' is 'abuse@telekom.de'
+
+aut-num:        AS8204
+as-name:        FTA-Net
+org:            ORG-DTA2-RIPE
+remarks:        Internet Service
+remarks:        Berlin, Germany
+import:         from AS680
+                action pref=100;
+                accept ANY
+import:         from AS8220
+                action pref=100;
+                accept ANY
+import:         from AS20588
+                action pref=100;
+                accept  AS20588
+export:         to AS680
+                announce AS8204 AS20588
+export:         to AS8220
+                announce AS8204 AS20588
+export:         to AS20588
+                announce ANY
+admin-c:        KS1445-RIPE
+tech-c:         FTA1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8204-MNT
+created:        2002-08-27T09:00:08Z
+last-modified:  2017-11-15T09:14:57Z
+source:         RIPE # Filtered
+
+organisation:   ORG-DTA2-RIPE
+org-name:       Deutsche Telekom AG
+country:        DE
+org-type:       LIR
+address:        Eduard-Schopf-Allee 1
+address:        D-28217
+address:        Bremen
+address:        GERMANY
+phone:          +4942151554041
+phone:          +4942151555165
+fax-no:         +49391580100379
+fax-no:         +494412344589
+admin-c:        DTAG-RIPE
+admin-c:        SL7866-RIPE
+admin-c:        EH4097-RIPE
+admin-c:        SB15220-RIPE
+abuse-c:        DTAG3-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DTAG-NIC
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DTAG-NIC
+created:        2004-04-17T11:12:44Z
+last-modified:  2025-03-06T11:48:39Z
+source:         RIPE # Filtered
+
+role:           Hostmaster FTA Berlin
+address:        T-Systems Enterprise Services GmbH
+address:        Am Studio 20A
+address:        D-12489 Berlin
+address:        Germany
+phone:          +49 30 6704 4666
+fax-no:         +49 30 6704 4699
+admin-c:        CH146-RIPE
+admin-c:        EV739-RIPE
+tech-c:         KS1445-RIPE
+tech-c:         CH146-RIPE
+tech-c:         EV739-RIPE
+nic-hdl:        FTA1-RIPE
+mnt-by:         AS8204-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2009-08-21T12:42:22Z
+source:         RIPE # Filtered
+
+person:         Klaus-Dieter Suhrke
+address:        T-Systems international GmbH
+address:        Ringbahnstrasse 130
+address:        D-12103 Berlin
+address:        Germany
+phone:          +49 171 9746282
+fax-no:         +49 171 9746282
+nic-hdl:        KS1445-RIPE
+mnt-by:         AS8204-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2011-04-20T00:00:19Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          141.16.0.0/16
+descr:          FTA Internet Service
+origin:         AS8204
+mnt-by:         AS8204-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.0.0/19
+descr:          FTA Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2002-08-27T08:32:02Z
+last-modified:  2002-08-27T08:32:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.32.0/19
+descr:          MCA Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2002-08-27T08:42:03Z
+last-modified:  2002-08-27T08:42:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.64.0/18
+descr:          FTA Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2002-08-27T08:43:56Z
+last-modified:  2002-08-27T08:43:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.128.0/19
+descr:          MSB Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2002-08-27T08:47:27Z
+last-modified:  2002-08-27T08:47:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.160.0/19
+descr:          FTA Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2002-08-27T08:48:59Z
+last-modified:  2002-08-27T08:48:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.160.0/22
+descr:          FTA Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2016-04-29T09:16:52Z
+last-modified:  2016-04-29T09:16:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.164.0/22
+descr:          FTA Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2016-04-29T09:16:19Z
+last-modified:  2016-04-29T09:16:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.168.0/21
+descr:          FTA Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2016-04-29T09:14:37Z
+last-modified:  2016-04-29T09:14:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.176.0/20
+descr:          FTA Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2016-04-29T09:09:58Z
+last-modified:  2016-04-29T09:13:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.16.192.0/18
+descr:          FTA Internet Service
+origin:         AS8204
+notify:         hostmaster@fta-berlin.de
+mnt-by:         AS8204-MNT
+created:        2002-08-27T08:49:50Z
+last-modified:  2002-08-27T08:49:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

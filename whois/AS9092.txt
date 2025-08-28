@@ -1,0 +1,259 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS9092'
+
+% Abuse contact for 'AS9092' is 'support@open.ch'
+
+aut-num:        AS9092
+as-name:        OPENSYSTEMS-AS
+descr:          Zurich, Switzerland
+descr:          https://open-systems.com
+org:            ORG-OSA1-RIPE
+remarks:        For peering details see
+remarks:        http://as9092.peeringdb.com/
+remarks:
+remarks:        We have an open peering policy and would like to peer with
+remarks:        you. Please send requests to peering@open.ch.
+remarks:
+remarks:        NOC: support@open.ch
+remarks:        Abuse: abuse@open.ch
+remarks:
+remarks:        -------------------------------------------------
+remarks:        Peering Point Presence @TIX Zurich and @SWISSIX Zurich
+remarks:        We have an open Peering-Policy (MD5 required)
+remarks:        -------------------------------------------------
+remarks:        Main Upstream/Transit Providers:
+import:         from AS174 action pref=100; accept ANY
+import:         from AS3320 action pref=100; accept ANY
+import:         from AS13237 action pref=100; accept ANY
+import:         from AS3356 action pref=100; accept ANY
+export:         to AS174 announce AS-OPENSYSTEMS
+export:         to AS3320 announce AS-OPENSYSTEMS
+export:         to AS13237 announce AS-OPENSYSTEMS
+export:         to AS3356 announce AS-OPENSYSTEMS
+remarks:        -------------------------------------------------
+remarks:        Direct Peerings:
+import:         from AS9092:AS-TRANSIT accept ANY
+import:         from AS9092:AS-PEERS accept AS9092:AS-SET:PeerAS
+export:         to AS9092:AS-TRANSIT announce AS9092:AS-OPENSYSTEMS
+export:         to AS9092:AS-PEERS announce AS9092:AS-OPENSYSTEMS
+admin-c:        ADMI9092
+tech-c:         TECH9092
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ------------------------------------------------
+remarks:        We export the following prefixes:
+remarks:        * 213.156.224.0/20
+remarks:        * 213.156.240.0/21
+remarks:        * 2a00:db0::/32
+remarks:        ------------------------------------------------
+remarks:        Contact Information
+remarks:        * Operational issues: support@open.ch
+remarks:        * Peering issues: peering@open.ch
+remarks:        * Abuse and SPAM: abuse@open.ch
+remarks:        ------------------------------------------------
+mnt-by:         AS9092-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-08-26T09:50:04Z
+source:         RIPE
+
+organisation:   ORG-OSA1-RIPE
+org-name:       Open Systems AG
+country:        CH
+org-type:       LIR
+address:        Raeffelstrasse 29
+address:        8045
+address:        Zurich
+address:        SWITZERLAND
+phone:          +41581001111
+fax-no:         +41581001011
+admin-c:        ADMI9092
+mnt-ref:        AS9092-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS9092-MNT
+abuse-c:        OSA40-RIPE
+created:        2004-04-17T11:02:57Z
+last-modified:  2025-02-03T13:12:36Z
+source:         RIPE # Filtered
+
+role:           AS9092 Admins
+address:        Raeffelstrasse 29, 8045 Zurich
+nic-hdl:        ADMI9092
+mnt-by:         AS9092-MNT
+created:        2013-10-31T13:25:42Z
+last-modified:  2025-02-03T13:11:32Z
+source:         RIPE # Filtered
+admin-c:        SN9721-RIPE
+admin-c:        EZ2241-RIPE
+
+role:           AS9092 Technicians
+address:        Raeffelstrasse 29, 8045 Zurich
+nic-hdl:        TECH9092
+mnt-by:         AS9092-MNT
+created:        2013-10-31T12:08:29Z
+last-modified:  2025-02-03T13:12:49Z
+source:         RIPE # Filtered
+tech-c:         SN9721-RIPE
+tech-c:         EZ2241-RIPE
+abuse-mailbox:  support@open.ch
+
+% Information related to 'ADMI9092'
+
+role:           AS9092 Admins
+address:        Raeffelstrasse 29, 8045 Zurich
+nic-hdl:        ADMI9092
+mnt-by:         AS9092-MNT
+created:        2013-10-31T13:25:42Z
+last-modified:  2025-02-03T13:11:32Z
+source:         RIPE # Filtered
+admin-c:        SN9721-RIPE
+admin-c:        EZ2241-RIPE
+
+person:         Elliott Zastrow
+address:        Open Systems AG
+address:        Raeffelstrasse 29
+address:        CH-8045 Zurich
+address:        Switzerland
+phone:          +41 58 100 10 10
+nic-hdl:        EZ2241-RIPE
+created:        2022-03-04T14:11:51Z
+last-modified:  2022-03-04T14:11:51Z
+source:         RIPE # Filtered
+mnt-by:         AS9092-MNT
+
+person:         Simon Neukom
+address:        Open Systems AG
+address:        Raeffelstrasse 29
+address:        CH-8045 Zurich
+address:        Switzerland
+phone:          +41 58 100 10 10
+nic-hdl:        SN9721-RIPE
+created:        2022-03-04T14:04:45Z
+last-modified:  2022-03-04T14:04:45Z
+source:         RIPE # Filtered
+mnt-by:         AS9092-MNT
+
+% Information related to 'TECH9092'
+
+role:           AS9092 Technicians
+address:        Raeffelstrasse 29, 8045 Zurich
+nic-hdl:        TECH9092
+mnt-by:         AS9092-MNT
+created:        2013-10-31T12:08:29Z
+last-modified:  2025-02-03T13:12:49Z
+source:         RIPE # Filtered
+tech-c:         SN9721-RIPE
+tech-c:         EZ2241-RIPE
+abuse-mailbox:  support@open.ch
+
+person:         Elliott Zastrow
+address:        Open Systems AG
+address:        Raeffelstrasse 29
+address:        CH-8045 Zurich
+address:        Switzerland
+phone:          +41 58 100 10 10
+nic-hdl:        EZ2241-RIPE
+created:        2022-03-04T14:11:51Z
+last-modified:  2022-03-04T14:11:51Z
+source:         RIPE # Filtered
+mnt-by:         AS9092-MNT
+
+person:         Simon Neukom
+address:        Open Systems AG
+address:        Raeffelstrasse 29
+address:        CH-8045 Zurich
+address:        Switzerland
+phone:          +41 58 100 10 10
+nic-hdl:        SN9721-RIPE
+created:        2022-03-04T14:04:45Z
+last-modified:  2022-03-04T14:04:45Z
+source:         RIPE # Filtered
+mnt-by:         AS9092-MNT
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          185.112.132.0/22
+descr:          AS9092-NET-2
+origin:         AS9092
+mnt-by:         AS9092-MNT
+created:        2015-08-10T09:17:24Z
+last-modified:  2015-08-10T09:17:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.156.224.0/20
+origin:         AS9092
+mnt-by:         OS-ADMIN-MNT
+mnt-by:         AS9092-MNT
+created:        2023-01-19T16:26:01Z
+last-modified:  2023-01-19T16:26:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.156.240.0/21
+origin:         AS9092
+mnt-by:         OS-ADMIN-MNT
+mnt-by:         AS9092-MNT
+created:        2023-01-19T16:26:45Z
+last-modified:  2023-01-19T16:26:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:db0::/32
+descr:          OPEN
+origin:         AS9092
+mnt-by:         AS9092-MNT
+created:        2012-02-07T10:17:50Z
+last-modified:  2012-02-07T10:17:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

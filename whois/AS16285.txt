@@ -1,0 +1,1626 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16285 - AS16314'
+
+as-block:       AS16285 - AS16314
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-01-25T16:07:47Z
+last-modified:  2021-01-25T16:07:47Z
+source:         RIPE
+
+% Information related to 'AS16285'
+
+% Abuse contact for 'AS16285' is 'abuse@ttk.ru'
+
+aut-num:        AS16285
+as-name:        ASN-UMN
+descr:          Technicheskaya Str.18b, Yekaterinburg, Russia
+org:            ORG-CJSC19-RIPE
+remarks:        --------------------------------------------
+remarks:        Upstreams (IPv4)
+remarks:        --------------------------------------------
+import:         from AS20485 action pref=200; accept ANY
+export:         to AS20485 announce AS-UMN AS-UMN-TMN AS-UMN-TOB AS-UMN-YAL AS-UMN-ISH AS-UMN-PRM AS-UMN-SRG AS-UMN-PYT
+remarks:        --------------------------------------------
+remarks:        Upstreams (IPv6)
+remarks:        --------------------------------------------
+mp-import:      afi ipv6.unicast from AS20485 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS20485 announce AS-UMN6 AS-UMN-TMN6 AS-UMN-TOB6 AS-UMN-YAL6 AS-UMN-ISH6 AS-UMN-PRM6 AS-UMN-SRG6 AS-UMN-PYT6
+remarks:        --------------------------------------------
+remarks:        Yekaterinburg Peers (IPv4)
+remarks:        --------------------------------------------
+import:         { from AS25086 action pref=100; accept AS25086 AS48687 AS42276 AS35013 AS42602 AS25296 AS42803; from AS12668 action pref=100; accept AS12668; from AS28890 action pref=100; accept AS28890; from AS31499 action pref=100; accept AS31499; from AS31363 action pref=100; accept AS31363 AS42602;from AS16179 action pref=100; accept AS-SET-DCNX; }
+export:         { to AS25086 announce AS-UMN-IX; to AS12668 announce AS-UMN-IX; to AS28890 announce AS-UMN-IX;to AS16179 announce AS-UTTK-EKB; to AS31499 announce AS-UMN-IX; to AS31363 announce AS-UMN-IX; }
+remarks:        --------------------------------------------
+remarks:        Sverdlovsk region Customers (IPv4)
+remarks:        --------------------------------------------
+import:         { from AS39812 action pref=100; accept AS39812 AS49568; from AS30856 action pref=100; accept AS30856; from AS30767 action pref=100; accept AS30767 AS21275 AS43785; from AS41560 action pref=100; accept AS41560; from AS43403 action pref=100; accept AS43403; from AS43721 action pref=100; accept AS43721; from AS42375 action pref=100; accept AS42375; from AS49675 action pref=100; accept AS49675; from AS49218 action pref=100; accept AS49218; from AS41822 action pref=100; accept AS41822 AS39799; from AS57123 action pref=100; accept AS57123; from AS56947 action pref=100; accept AS56947; from AS57526 action pref=100; accept AS57526; from AS56999 action pref=100; accept AS56999; from AS41861 action pref=100; accept AS41861 AS60005; from AS50663 action pref=100; accept AS50663; from AS198715 action pref=100; accept AS198715; from AS198844 action pref=100; accept AS198844; from AS48877 action pref=100; accept AS48877; from AS60600 action pref=100; accept AS60600; from AS44528 action pref=100; accept AS44528; from AS49361 action pref=100; accept AS49361; from AS31499 action pref=100; accept AS-MOTIV; from AS43237 action pref=100; accept AS43237; from AS48524 action pref=100; accept AS-INTERRA; from AS49218 action pref=100; accept AS-NTKS;}
+export:         { to AS39812 announce ANY; to AS30856 announce ANY; to AS30767 announce ANY; to AS41560 announce ANY; to AS43403 announce ANY; to AS43721 announce ANY; to AS42375 announce ANY; to AS49675 announce ANY; to AS49218 announce ANY; to AS41822 announce ANY; to AS57123 announce ANY; to AS56947 announce ANY; to AS57526 announce ANY; to AS56999 announce ANY; to AS41861 announce ANY; to AS50663 announce ANY; to AS198715 announce ANY; to AS198844 announce ANY; to AS48877 announce ANY; to AS60600 announce ANY; to AS44528 announce ANY; to AS49361 announce ANY; to AS31499 announce ANY; to AS43237 announce ANY; to AS-INTERRA announce ANY; to AS-NTKS announce ANY;}
+remarks:        --------------------------------------------
+remarks:        Sverdlovsk region Customers (IPv6)
+remarks:        --------------------------------------------
+mp-import:      afi ipv6.unicast { from AS48524 action pref=100; accept AS48524; from AS48524 action pref=100; accept AS-INTERRA;}
+mp-export:      afi ipv6.unicast { to AS48524 announce ANY; to AS-INTERRA announce ANY; }
+remarks:        --------------------------------------------
+remarks:        Tyumen region Customers and Peers (IPv4)
+remarks:        --------------------------------------------
+import:         { from AS48873 action pref=100; accept AS48873 AS49551; from AS44685 action pref=100; accept AS44685; from AS49845 action pref=100; accept AS49845; from AS44257 action pref=100; accept AS44257 AS43093 AS12772; from AS31336 action pref=100; accept AS31336; from AS59614 action pref=100; accept AS59614; from AS61009 action pref=100; accept AS61009; from AS47569 action pref=100; accept AS47569; from AS50923 action pref=100; accept AS-METRO-SET; from AS60245 action pref=100; accept AS60245; from AS59476 action pref=100; accept AS59476; from AS41332 action pref=100; accept AS41332; from AS51028 action pref=100; accept AS-SVOLS; from AS62312 action pref=100; accept AS62312; from AS43912 action pref=100; accept AS43912; from AS31112 action pref=100; accept AS-SIBTEL-TMN; from AS197392 action pref=100; accept AS197392; from AS60245 action pref=100; accept AS-23NET;}
+export:         { to AS48873 announce ANY; to AS44685 announce ANY; to AS49845 announce ANY; to AS44257 announce ANY; to AS31336 announce ANY; to AS59614 announce ANY; to AS61009 announce ANY; to AS47569 announce ANY; to AS50923 announce ANY; to AS60245 announce ANY; to AS59476 announce ANY; to AS41332 announce ANY; to AS51028 announce AS-UTTK-TMN; to AS62312 announce ANY; to AS43912 announce ANY; to AS31112 announce ANY; to AS197392 announce ANY;to AS-23NET announce ANY;}
+remarks:        --------------------------------------------
+remarks:        Tyumen region Customers (IPv6)
+remarks:        --------------------------------------------
+mp-import:      afi ipv6.unicast { from AS44847 action pref=100; accept AS44847; from AS50923 action pref=100; accept AS-METRO-SET6; }
+mp-export:      afi ipv6.unicast { to AS44847 announce ANY; to AS50923 announce ANY; }
+remarks:        --------------------------------------------
+remarks:        Tobolsk Customers (IPv4)
+remarks:        --------------------------------------------
+import:         { from AS44257 action pref=100; accept AS44257 AS43093; from AS197392 action pref=100; accept AS197392; from AS31112 action pref=100; accept AS-SIBTEL-TMN; from AS60245 action pref=100; accept AS60245; }
+export:         { to AS44257 announce ANY; to AS197392 announce ANY; to AS60245 announce ANY; }
+remarks:        --------------------------------------------
+remarks:        Yalutorovsk Customers (IPv4)
+remarks:        --------------------------------------------
+import:         { from AS60245 action pref=100; accept AS60245; }
+export:         { to AS60245 announce ANY; }
+remarks:        --------------------------------------------
+remarks:        Ishim Customers (IPv4)
+remarks:        --------------------------------------------
+remarks:        --------------------------------------------
+remarks:        Perm region Customers (IPv4)
+remarks:        --------------------------------------------
+import:         { from AS42534 action pref=100; accept AS42534; from AS29303 action pref=100; accept AS29303 AS47854 AS48080 AS49803 AS42534 AS57842 AS56447 AS57973 AS59558 AS47597 AS42042 AS6874 AS60290; from AS45021 action pref=100; accept AS45021; from AS48826 action pref=100; accept AS48826; from AS51663 action pref=100; accept AS51663; from AS31692 action pref=100; accept AS31692 AS49530 AS50960 AS56877 AS198546 AS56447 AS58107 AS199317 AS60527 AS39735 AS42071 AS198774 AS57842; from AS197501 action pref=100; accept AS197501 AS47346; from AS13296 action pref=100; accept AS13296 AS41034; from AS198130 action pref=100; accept AS198130; from AS41034 action pref=100; accept AS41034 AS31656 AS8775 AS48538 AS6874 AS8684 AS13296 AS42104 AS31336 AS51891 AS8712 AS28860 AS44572 AS61382; from AS59558 action pref=100; accept AS59558; from AS60290 action pref=100; accept AS60290; from AS56603 action pref=100; accept AS56603; from AS62026 action pref=100; accept AS62026; from AS201582 action pref=100; accept AS201582; from AS201470 action pref=100; accept AS201470; from AS12772 action pref=100; accept AS12772;}
+export:         { to AS42534 announce ANY; to AS29303 announce ANY; to AS45021 announce ANY; to AS48826 announce ANY; to AS51663 announce ANY; to AS31692 announce ANY; to AS197501 announce ANY; to AS13296 announce ANY; to AS198130 announce ANY; to AS41034 announce ANY; to AS59558 announce ANY; to AS60290 announce ANY; to AS56603 announce ANY; to AS62026 announce ANY; to AS201582 announce ANY; to AS201470 announce ANY; to AS12772 announce ANY;}
+remarks:        --------------------------------------------
+remarks:        Perm region Customers (IPv6)
+remarks:        --------------------------------------------
+mp-import:      afi ipv6.unicast { from AS13296 action pref=100; accept AS13296; from AS198130 action pref=100; accept AS198130; from AS31692 action pref=100; accept AS31692 AS39735 AS49530 AS50960 AS56877 AS57842 AS198546 AS198774 AS56447 AS58107 AS199317 AS60527 AS42071; from AS-SATURNNET action pref=100; accept AS-SATURNNET;}
+mp-export:      afi ipv6.unicast { to AS13296 announce ANY; to AS198130 announce ANY; to AS31692 announce ANY; to AS-SATURNNET announce ANY; }
+remarks:        --------------------------------------------
+remarks:        Khanty-Mansi Autonomous Area Customers (IPv4)
+remarks:        --------------------------------------------
+import:         { from AS49575 action pref=100; accept AS49575; from AS30855 action pref=100; accept AS30855 AS49575; from AS43270 action pref=100; accept AS43270; from AS35527 action pref=100; accept AS35527; from AS21353 action pref=100; accept AS21353;from AS43849 action pref=100; accept AS43849; from AS38934 action pref=100; accept AS38934 AS60554 AS56836; from AS35564 action pref=100; accept AS35564;}
+export:         { to AS49575 announce ANY; to AS21353 announce ANY; to AS30855 announce ANY; to AS43270 announce ANY; to AS35527 announce ANY; to AS43849 announce ANY; to AS38934 announce ANY; to AS35564 announce ANY;}
+remarks:        --------------------------------------------
+remarks:        Khanty-Mansi Autonomous Area Customers (IPv6)
+remarks:        --------------------------------------------
+mp-import:      afi ipv6.unicast { from AS35527 action pref=100; accept AS35527 ; }
+mp-export:      afi ipv6.unicast { to AS35527 announce ANY; }
+remarks:        --------------------------------------------
+remarks:        Pyt-Yah Customers (IPv4)
+remarks:        --------------------------------------------
+import:         from AS41822 action pref=100; accept AS41822;
+export:         to AS41822 announce ANY;
+remarks:        --------------------------------------------
+remarks:        Spam & Abuse: abuse@uralttk.ru
+remarks:        Routing inquiries: lir@uralttk.ru
+remarks:        -----------------------------------------
+admin-c:        UTTK-RIPE
+tech-c:         UTTK-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TRANSTELECOM-MNT
+created:        2002-07-29T12:35:00Z
+last-modified:  2025-01-13T21:16:50Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CJSC19-RIPE
+org-name:       Joint Stock Company TransTeleCom
+country:        RU
+org-type:       LIR
+address:        Vereyskaya street 29, building 134
+address:        121357
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74957846670
+fax-no:         +74957846671
+admin-c:        YL390-RIPE
+admin-c:        MN12708-RIPE
+abuse-c:        KTTK-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TRANSTELECOM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TRANSTELECOM-MNT
+created:        2009-03-11T13:07:47Z
+last-modified:  2025-01-13T21:17:10Z
+source:         RIPE # Filtered
+
+role:           Ural TTK IP Group
+address:        CJSC "Ural-TransTeleCom"
+address:        Technicheskaya Str. 18b
+address:        Yekaterinburg, 620050
+address:        Russian Federation
+phone:          +7 343 3727272
+fax-no:         +7 343 3728732
+admin-c:        MK23673-RIPE
+tech-c:         MK23673-RIPE
+abuse-mailbox:  lir@ural.ttk.ru
+nic-hdl:        UTTK-RIPE
+mnt-by:         UMN-MNT
+created:        2007-10-24T06:05:56Z
+last-modified:  2020-08-03T06:20:24Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          37.209.224.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Yalutorovsk
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-04-03T03:57:14Z
+last-modified:  2012-04-03T03:57:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.209.225.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Ishim
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-04-03T03:57:14Z
+last-modified:  2012-04-03T03:57:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.209.226.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Surgut
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-09-13T03:43:23Z
+last-modified:  2013-12-04T11:25:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.209.228.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Pyt-Yah
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-10-19T05:43:58Z
+last-modified:  2012-10-19T05:43:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.209.229.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-08-19T05:45:54Z
+last-modified:  2014-01-21T10:24:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.209.230.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-03-14T08:49:41Z
+last-modified:  2014-01-21T10:24:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.209.232.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-05-11T07:10:35Z
+last-modified:  2012-05-11T07:10:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.209.236.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Tyumen
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-05-11T07:10:34Z
+last-modified:  2013-12-04T10:54:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.96.0/19
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Ekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2005-12-12T07:15:40Z
+last-modified:  2013-09-23T04:06:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.98.0/24
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051019
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.102.0/23
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051109
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.102.0/24
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051104
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.103.0/24
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051017
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.105.0/24
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051114
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.112.0/23
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051109
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.113.0/24
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051017
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.114.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Kamensk-Uralsky
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+mnt-routes:     KAMENSKTEL-MNT
+created:        2011-01-28T05:49:42Z
+last-modified:  2014-11-17T11:52:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.114.0/23
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051017
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.116.0/24
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20040105
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.117.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Suhoy Log
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2011-01-28T05:49:42Z
+last-modified:  2011-01-28T05:49:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.122.0/23
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051019
+source:         RADB
+last-modified:  2025-03-28T16:01:00Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.125.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2011-07-07T06:41:00Z
+last-modified:  2011-07-07T06:49:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.78.126.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2011-07-07T06:49:48Z
+last-modified:  2011-07-07T06:49:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          82.116.8.0/21
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20040817
+source:         RADB
+last-modified:  2025-03-28T16:01:02Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.64.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Surgut
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2009-05-20T06:19:38Z
+last-modified:  2009-05-20T06:19:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.68.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2009-05-20T08:35:48Z
+last-modified:  2009-05-20T08:35:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.72.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Tobolsk
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-08-21T10:28:15Z
+last-modified:  2013-08-21T10:28:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.74.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-08-21T10:28:15Z
+last-modified:  2014-01-28T09:54:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.76.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-08-21T10:28:15Z
+last-modified:  2014-01-28T09:54:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.78.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-08-21T10:28:15Z
+last-modified:  2014-01-28T09:54:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.79.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@ural.ttk.ru
+mnt-by:         UMN-MNT
+created:        2013-08-21T10:28:15Z
+last-modified:  2024-02-27T06:52:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.80.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2011-09-13T05:09:15Z
+last-modified:  2014-01-21T10:24:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.84.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Surgut
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2011-09-13T05:09:15Z
+last-modified:  2011-09-13T05:39:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.88.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Serov
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-11-15T10:31:45Z
+last-modified:  2013-11-15T10:31:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.92.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Serov
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-11-15T10:31:45Z
+last-modified:  2013-11-15T10:31:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.222.94.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-12-05T10:00:04Z
+last-modified:  2013-12-05T10:00:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.7.40.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Tyumen
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-10-19T05:43:57Z
+last-modified:  2013-12-04T11:25:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.68.128.0/21
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-06-23T03:06:05Z
+last-modified:  2014-06-23T03:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.68.136.0/21
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-06-23T03:13:24Z
+last-modified:  2014-06-23T03:13:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.68.136.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-06-23T03:13:24Z
+last-modified:  2014-06-23T03:20:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.68.139.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         spd@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2015-03-05T04:44:57Z
+last-modified:  2015-03-05T04:44:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.68.140.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-06-23T03:16:59Z
+last-modified:  2014-06-23T03:16:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.68.144.0/22
+descr:          CJSC "Ural-TransTeleCom"
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-06-23T04:20:27Z
+last-modified:  2014-06-23T04:20:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.68.148.0/22
+descr:          CJSC "Ural-TransTeleCom"
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-06-23T04:20:27Z
+last-modified:  2014-06-23T04:20:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.68.152.0/22
+descr:          CJSC "Ural-TransTeleCom"
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-06-23T04:20:27Z
+last-modified:  2014-06-23T04:20:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.68.156.0/22
+descr:          CJSC "Ural-TransTeleCom"
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-06-23T04:20:27Z
+last-modified:  2014-06-23T04:20:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.84.132.0/24
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20041127
+source:         RADB
+last-modified:  2025-03-28T16:00:27Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.84.214.0/24
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20041127
+source:         RADB
+last-modified:  2025-03-28T16:00:27Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.151.176.0/23
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20041127
+source:         RADB
+last-modified:  2025-03-28T16:00:27Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.151.180.0/22
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20041127
+source:         RADB
+last-modified:  2025-03-28T16:00:27Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.75.128.0/19
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Ekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2008-06-26T10:49:47Z
+last-modified:  2013-09-23T04:06:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.75.128.0/20
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Serov
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2008-05-29T12:14:40Z
+last-modified:  2014-01-21T11:02:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.75.144.0/21
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Ekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-01-21T11:02:27Z
+last-modified:  2014-01-21T11:02:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.75.145.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Nizhnya Tura
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2011-01-28T05:49:42Z
+last-modified:  2011-01-28T05:49:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.75.148.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Nizhnya Tura
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2011-01-28T05:49:42Z
+last-modified:  2011-01-28T05:49:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.75.153.0/24
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-01-21T11:02:27Z
+last-modified:  2014-01-21T11:02:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.75.154.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2014-01-21T11:02:27Z
+last-modified:  2014-01-21T11:02:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.75.156.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-04-10T09:19:25Z
+last-modified:  2014-01-21T10:24:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.141.224.0/19
+descr:          Proxy-registered route object
+origin:         AS16285
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20080505
+source:         RADB
+last-modified:  2025-03-28T16:00:48Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.141.224.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-11-14T10:32:19Z
+last-modified:  2013-11-15T09:40:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.141.228.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-11-15T09:40:34Z
+last-modified:  2013-11-15T09:40:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.141.232.0/21
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-11-15T09:40:34Z
+last-modified:  2013-11-15T09:40:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.141.240.0/21
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2008-08-08T08:45:19Z
+last-modified:  2013-09-23T04:06:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.141.244.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          RETAIL IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-11-15T09:40:34Z
+last-modified:  2013-11-15T09:40:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.141.246.0/23
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-11-15T09:40:35Z
+last-modified:  2013-11-15T09:40:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.141.248.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Serov
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2011-05-17T08:10:17Z
+last-modified:  2011-05-17T08:10:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.141.252.0/22
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv4 Address Space in Tyumen
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2006-12-13T11:45:30Z
+last-modified:  2011-01-11T11:50:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6080::/29
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space AS16285
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-09-19T07:28:40Z
+last-modified:  2012-09-19T07:28:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6080::/31
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space for Sverdlovskaya oblast
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-11-06T04:34:55Z
+last-modified:  2012-11-06T04:34:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6080::/32
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space in Yekaterinburg
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2011-09-23T09:58:43Z
+last-modified:  2012-09-21T05:06:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6080:4::/46
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space in Yekaterinburg for RETAIL
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-05-16T04:39:37Z
+last-modified:  2013-05-16T04:39:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6082::/31
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space for Tyumenskaya oblast
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-11-06T04:34:55Z
+last-modified:  2012-11-06T04:34:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6082::/32
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space in Tyumen
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-09-21T05:06:52Z
+last-modified:  2012-11-06T04:43:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6083::/36
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space in Tobolsk
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-11-06T04:43:13Z
+last-modified:  2012-11-06T04:43:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6083:8000::/36
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space in Yalutorovsk
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-11-06T04:43:14Z
+last-modified:  2012-11-06T04:43:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6083:c000::/36
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space in Ishim
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2013-07-09T05:32:36Z
+last-modified:  2013-07-09T05:32:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6084::/31
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space for Permsky Kray
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-11-06T04:34:55Z
+last-modified:  2012-11-06T04:34:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6084::/32
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space in Perm
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-09-21T05:06:53Z
+last-modified:  2012-09-21T05:06:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6086::/31
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space for Khanty-Mansiysky AO
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-11-06T04:34:55Z
+last-modified:  2012-11-06T04:34:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6086::/32
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space in Surgut
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-11-06T04:43:14Z
+last-modified:  2012-11-06T04:43:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:6087::/36
+descr:          CJSC "Ural-TransTeleCom"
+descr:          IPv6 Address Space in Pyt-Yah
+origin:         AS16285
+notify:         lir@uralttk.ru
+mnt-by:         UMN-MNT
+created:        2012-11-26T11:50:51Z
+last-modified:  2012-11-26T11:50:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

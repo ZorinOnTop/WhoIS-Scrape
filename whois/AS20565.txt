@@ -1,0 +1,349 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20565'
+
+% Abuse contact for 'AS20565' is 'abuse@netalis.fr'
+
+aut-num:        AS20565
+as-name:        NETALIS
+descr:          NETALIS
+remarks:
+remarks:        d8b db d88888b d888888b .d8b. db d888888b .d8888.
+remarks:        888o 88 88' `~~88~~' d8' `8b 88 `88' 88' YP
+remarks:        88V8o 88 88ooooo 88 88ooo88 88 88 `8bo.
+remarks:        88 V8o88 88~~~~~ 88 88~~~88 88 88 `Y8b.
+remarks:        88 V888 88. 88 88 88 88booo. .88. db 8D
+remarks:        VP V8P Y88888P YP YP YP Y88888P Y888888P `8888Y'
+remarks:
+remarks:        French B2B ISP. We provide Access links, Cloud service and Voice over IP.
+remarks:        Please refer to our PeeringDB page for infos regarding POP and IXes.
+remarks:
+remarks:        PeeringDB: https://as20565.peeringdb.com
+remarks:        Looking Glass: https://lg.as20565.net
+remarks:        Request peerings at peering@netalis.fr
+remarks:
+remarks:        Pingable IPv4 reference: 185.113.48.0
+remarks:        Pingable IPv6 reference: WIP
+remarks:
+remarks:        --------------------------------------------------
+remarks:        ------------------ BGP Upstreams -----------------
+remarks:        --------------------------------------------------
+remarks:
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS2914 action pref=200; accept ANY # NTT
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS6762 action pref=200; accept ANY # Telecom Italia Sparkle
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS60068 action pref=200; accept ANY # CDN77 - DataPacket
+remarks:
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS2914 announce AS-NETALIS # NTT
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS6762 announce AS-NETALIS # Telecom Italia Sparkle
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS60068 announce AS-NETALIS # CDN77 - DataPacket
+remarks:
+remarks:        --------------------------------------------------
+remarks:        -------------------- Peerings --------------------
+remarks:        --------------------------------------------------
+remarks:
+remarks:        ------------------ Route servers -----------------
+remarks:
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS51706 action pref=800; accept AS51706:AS-MEMBERS # FranceIX Route Servers
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS51706 announce AS-NETALIS # FranceIX Route Servers
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS24115 action pref=800; accept ANY # Equinix MLPE Paris
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS24115 announce AS-NETALIS # Equinix MLPE Paris
+remarks:
+remarks:        -------------- Multi-homed peerings --------------
+remarks:
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS15169 action pref=800; accept AS-GOOGLE # Google
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS15169 announce AS-NETALIS # Google
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS714 action pref=800; accept AS-APPLE # Apple
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS714 announce AS-NETALIS # Apple
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS32934 action pref=800; accept AS-FACEBOOK # Facebook
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS32934 announce AS-NETALIS # Facebook
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS8075 action pref=800; accept AS-MICROSOFT # Microsoft
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS8075 announce AS-NETALIS # Microsoft
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS199524 action pref=800; accept AS-GCORE # G-Core
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS199524 announce AS-NETALIS # G-Core
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS16276 action pref=800; accept AS-OVH # OVH
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS16276 announce AS-NETALIS # OVH
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS2486 action pref=800; accept AS-AFNIC # AFNIC Unicast
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS2486 announce AS-NETALIS # AFNIC Unicast
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS2484 action pref=800; accept AS-AFNIC # AFNIC Anycast
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS2484 announce AS-NETALIS # AFNIC Anycast
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS136907 action pref=800; accept AS-HUAWEI # Huawei
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS136907 announce AS-NETALIS # Huawei
+remarks:
+remarks:        --------------------- Equinix --------------------
+remarks:
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS13335 action pref=800; accept AS-CLOUDFLARE # Cloudflare
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS13335 announce AS-NETALIS # Cloudflare
+mp-import:      afi ipv4.unicast from AS6939 action pref=800; accept AS-HURRICANE # HE IPv4
+mp-export:      afi ipv4.unicast to AS6939 announce AS-NETALIS # HE IPv4
+mp-import:      afi ipv6.unicast from AS6939 action pref=800; accept AS-HURRICANEV6 # HE IPv6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-NETALIS # HE IPv6
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS10310 action pref=800; accept AS-YAHOO # Yahoo
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS10310 announce AS-NETALIS # Yahoo
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS198545 action pref=800; accept AS-FLEXNET # FLEX NETWORK
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS198545 announce AS-NETALIS # FLEX NETWORK
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS24990 action pref=800; accept AS-EQUINIX-EU # Equinix Connect France
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS24990 announce AS-NETALIS # Equinix Connect France
+remarks:
+remarks:        -------------------- FranceIX --------------------
+remarks:
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS20940 action pref=800; accept AS-AKAMAI # Akamai
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS20940 announce AS-NETALIS # Akamai
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS50628 action pref=800; accept AS-LEONIX # Leonix
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS50628 announce AS-NETALIS # Leonix
+mp-import:      afi ipv4.unicast from AS8966 action pref=800; accept AS-EMIX # Emirated Telco Corp Etisalat
+mp-export:      afi ipv4.unicast to AS8966 announce AS-NETALIS # Emirated Telco Corp Etisalat
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS47891 action pref=800; accept AS47891 # Cyres
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS47891 announce AS-NETALIS # Cyres
+remarks:
+remarks:        --------------------------------------------------
+remarks:        ------------ BGP Downstream/Customers ------------
+remarks:        --------------------------------------------------
+remarks:
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS49920 action pref=600; accept AS49920 # Flowbird
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS203585 action pref=300; accept AS203585 # Netalis PACA
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS-NETALIS announce ANY
+remarks:
+org:            ORG-NS284-RIPE
+admin-c:        NTLA2-RIPE
+tech-c:         NTLN3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         fr-netalis-1-mnt
+created:        2015-08-12T15:58:54Z
+last-modified:  2025-04-08T14:54:14Z
+source:         RIPE
+
+organisation:   ORG-NS284-RIPE
+org-name:       Netalis SAS
+country:        FR
+org-type:       LIR
+address:        4 chemin de l'ermitage, Immeuble Le Pulsar, ZI Palente
+address:        25000
+address:        Besancon
+address:        FRANCE
+language:       FR
+phone:          +33988258825
+remarks:        EN: For technical inquiries, please refer to tech-c. For judicial requisitions, please refer to abuse-c. For any other inquiry, please refer to admin-c.
+remarks:        FR: Contactez tech-c pour les demandes techniques et abuse-c pour les réquisitions judiciaires. Contactez admin-c pour toute autre demande.
+admin-c:        NTLA2-RIPE
+tech-c:         NTLN3-RIPE
+abuse-c:        NTLB1-RIPE
+mnt-ref:        fr-netalis-1-mnt
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         fr-netalis-1-mnt
+created:        2015-08-12T08:22:41Z
+last-modified:  2021-09-14T13:07:21Z
+source:         RIPE # Filtered
+
+role:           NETALIS Administration
+remarks:        For technical enquiries, please refer to NTLN3-RIPE.
+address:        Netalis SAS
+address:        4 Chemin de l'Ermitage, Immeuble le Pulsar, ZI Palente
+address:        25000 BESANÇON
+address:        FRANCE
+phone:          +33988258825
+fax-no:         +33972630085
+remarks:        Please refer to this object's admin-c for escalation purposes only.
+admin-c:        NG3600-RIPE
+nic-hdl:        NTLA2-RIPE
+created:        2021-09-14T09:40:14Z
+last-modified:  2021-09-14T10:04:22Z
+source:         RIPE # Filtered
+mnt-by:         fr-netalis-1-mnt
+
+role:           NETALIS NOC
+address:        Netalis SAS
+address:        4 Chemin de l'Ermitage, Immeuble le Pulsar, ZI Palente
+address:        25000 BESANÇON
+address:        FRANCE
+phone:          +33988258889
+fax-no:         +33972630085
+remarks:        Please refer to this object's admin-c and tech-c for escalation purposes only.
+admin-c:        AP33385-RIPE
+tech-c:         AP33385-RIPE
+nic-hdl:        NTLN3-RIPE
+created:        2021-09-14T10:03:57Z
+last-modified:  2023-07-24T08:01:27Z
+source:         RIPE # Filtered
+mnt-by:         fr-netalis-1-mnt
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          45.81.208.0/22
+origin:         AS20565
+descr:          Netalis
+mnt-by:         fr-netalis-1-mnt
+created:        2019-07-12T09:57:18Z
+last-modified:  2019-07-12T09:57:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.153.204.0/22
+descr:          Netalis
+origin:         AS20565
+mnt-by:         fr-netalis-1-mnt
+created:        2019-10-02T08:46:13Z
+last-modified:  2019-10-02T08:46:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.246.104.0/24
+origin:         AS20565
+mnt-by:         lir-fr-arsbfc-1-MNT
+created:        2021-09-01T08:29:55Z
+last-modified:  2021-09-01T08:29:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.222.200.0/21
+origin:         AS20565
+mnt-by:         fr-netalis-1-mnt
+created:        2025-06-25T13:31:09Z
+last-modified:  2025-06-25T13:31:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.215.10.0/24
+origin:         AS20565
+descr:          TCL main IP Range
+mnt-by:         mnt-fr-coronis-1
+created:        2020-02-10T15:59:02Z
+last-modified:  2021-01-07T15:39:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.16.220.0/22
+origin:         AS20565
+mnt-by:         fr-netalis-1-mnt
+created:        2025-06-25T13:32:13Z
+last-modified:  2025-06-25T13:32:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.113.48.0/22
+descr:          Netalis
+origin:         AS20565
+mnt-by:         fr-netalis-1-mnt
+created:        2015-12-10T10:29:09Z
+last-modified:  2015-12-10T10:29:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.241.0.0/22
+descr:          Netalis
+origin:         AS20565
+mnt-by:         fr-netalis-1-mnt
+created:        2019-10-02T08:50:34Z
+last-modified:  2019-10-02T08:50:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a06:6800::/29
+origin:         AS20565
+descr:          Netalis
+mnt-by:         fr-netalis-1-mnt
+created:        2016-11-03T12:38:56Z
+last-modified:  2021-09-16T08:51:15Z
+source:         RIPE
+descr:          Netalis
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a11:3380::/29
+origin:         AS20565
+mnt-by:         lir-fr-arsbfc-1-MNT
+created:        2021-09-01T08:30:11Z
+last-modified:  2021-09-01T08:30:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

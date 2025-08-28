@@ -1,0 +1,120 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8550'
+
+% Abuse contact for 'AS8550' is 'abuse@lonap.net'
+
+aut-num:        AS8550
+org:            ORG-LL117-RIPE
+as-name:        LONAP-MLP
+status:         ASSIGNED
+descr:          LONAP Route Server ASN
+remarks:        -----------------------------------------------------------------
+remarks:        :::::: LONAP IXP as-sets:
+remarks:        AS-SET-LONAP-CONNECTED  - All LONAP Member AS-SETs
+remarks:        AS-SET-LONAP-MLP        - IPv4 Route Server AS-SETs
+remarks:        AS-SET-LONAP-MLP-v6     - IPv6 Route Server AS-SETs
+remarks:        -----------------------------------------------------------------
+remarks:        :::::: Connected ASNs ONLY:
+remarks:        :::::: Useful for discovering new/gone away peers.
+remarks:        :::::: SHOULD NOT be used for building prefix filters.
+remarks:        AS-LONAP-CONNECTED      - All LONAP Member ASNs
+remarks:        AS-LONAP-MLP            - IPv4 Route Server Connected ASNs
+remarks:        AS-LONAP-MLP-v6         - IPv6 Route Server Connected ASNs
+remarks:        -----------------------------------------------------------------
+remarks:        Full policy including RPKI is at:
+remarks:        https://www.lonap.net/tech/route-servers
+remarks:        -----------------------------------------------------------------
+remarks:        :::::: ROUTE SERVER BGP COMMUNITIES
+remarks:        - Where possible, use BGP Large Communities (RFC 8092).
+remarks:        - Do not mix Large/Standard Communities
+remarks:
+remarks:        :::::: LARGE COMMUNITIES (RECOMMENDED)
+remarks:        8550:1:0     -  Send prefixes to all other participants (default)
+remarks:        8550:1:<ASN> -  Send prefix to participant with specific ASN
+remarks:        8550:0:<ASN> -  Don't send prefix to participant with specific ASN
+remarks:        8550:0:0     -  Don't send prefix to any (other) participants
+remarks:        8550:101:<ASN> -  Prepend to specific peer AS once
+remarks:        8550:102:<ASN> -  Prepend to specific peer AS twice
+remarks:        8550:103:<ASN> -  Prepend to specific peer AS three times
+remarks:
+remarks:        :::::: STANDARD COMMUNITIES (LEGACY)
+remarks:        8550:8550    -  Send prefixes to all other participants (default)
+remarks:        8550:<ASN>   -  Send prefix to participant with specific ASN
+remarks:        0:<ASN>      -  Don't send prefix to participant with specific ASN
+remarks:        0:8550       -  Don't send prefix to any (other) participants
+remarks:        -----------------------------------------------------------------
+export:         to AS-ANY   announce AS-SET-LONAP-MLP
+mp-export:      afi ipv6 to AS-ANY   announce AS-SET-LONAP-MLP-V6
+admin-c:        AS8330-RIPE
+tech-c:         AS8330-RIPE
+mnt-by:         AS8330-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2005-02-22T09:16:15Z
+last-modified:  2021-01-05T14:15:13Z
+source:         RIPE
+
+organisation:   ORG-LL117-RIPE
+org-name:       LONAP Ltd
+country:        GB
+org-type:       LIR
+address:        2nd Floor Regis House, 45 King William Street
+address:        EC4R 9AN
+address:        London
+address:        UNITED KINGDOM
+phone:          +442031378330
+fax-no:         +442031378331
+admin-c:        AS8330-RIPE
+mnt-ref:        AS8330-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8330-MNT
+abuse-c:        LA8330-RIPE
+created:        2012-04-17T09:07:13Z
+last-modified:  2024-05-14T13:32:54Z
+source:         RIPE # Filtered
+
+role:           LONAP Tech contact
+address:        London
+phone:          +44 20 3137 8330
+tech-c:         ROBL-RIPE
+tech-c:         WILL-RIPE
+tech-c:         GZOW-RIPE
+nic-hdl:        AS8330-RIPE
+remarks:        ****
+remarks:        **** SUPPORT REQUESTS
+remarks:        **** ================
+remarks:        ****
+remarks:        **** THESE MUST BE SENT
+remarks:        **** TO support AT
+remarks:        **** lonap DOT net
+remarks:        ****
+mnt-by:         AS8330-MNT
+created:        2001-10-11T18:21:05Z
+last-modified:  2024-11-19T23:22:17Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+%  No entries found for the selected source(s).
+
+

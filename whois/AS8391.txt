@@ -1,0 +1,493 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8391'
+
+% Abuse contact for 'AS8391' is 'abuse@knipp.de'
+
+aut-num:        AS8391
+org:            ORG-KMuK1-RIPE
+as-name:        KNIPP-AS
+descr:          Knipp Medien und Kommunikation GmbH
+descr:          Martin-Schmeisser-Weg 9
+descr:          44227 Dortmund
+descr:          Germany
+import:         from AS8561 accept AS8561
+export:         to AS8561 announce ANY
+mp-import:      afi ipv6.unicast from AS8561 accept AS8561
+mp-export:      afi ipv6.unicast to AS8561 announce ANY
+import:         from AS8881 accept ANY
+export:         to AS8881 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS8881 accept ANY
+mp-export:      afi ipv6.unicast to AS8881 announce AS-KNIPP-v6
+import:         from AS13237 accept ANY
+export:         to AS13237 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS13237 accept ANY
+mp-export:      afi ipv6.unicast to AS13237 announce AS-KNIPP-v6
+import:         from AS15763 accept AS-DOKOM21
+export:         to AS15763 announce ANY
+mp-import:      afi ipv6.unicast from AS15763 accept AS-DOKOM21
+mp-export:      afi ipv6.unicast to AS15763 announce ANY
+import:         from AS31056 accept AS31056
+export:         to AS31056 announce ANY
+mp-import:      afi ipv6.unicast from AS31056 accept ANY
+mp-export:      afi ipv6.unicast to AS31056 announce ANY
+default:        to AS13237 networks AS-KNIPP
+remarks:        ------------------------------------------
+remarks:        Peering DE-CIX
+remarks:        ------------------------------------------
+import:         from AS42 accept AS-PCH
+export:         to AS42 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 announce AS-KNIPP-v6
+import:         from AS714 accept AS-APPLE
+export:         to AS714 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS714 accept AS-APPLE
+mp-export:      afi ipv6.unicast to AS714 announce AS-KNIPP-v6
+import:         from AS1267 accept AS-INFOSTRADA
+export:         to AS1267 announce AS-KNIPP
+import:         from AS1764 accept AS-NEXTLAYER
+export:         to AS1764 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS1764 accept AS-NEXTLAYER-V6
+mp-export:      afi ipv6.unicast to AS1764 announce AS-KNIPP-v6
+import:         from AS3856 accept AS-PCH
+export:         to AS3856 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 announce AS-KNIPP-v6
+import:         from AS5605 accept AS-NETUSE
+export:         to AS5605 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS5605 accept AS-NETUSE
+mp-export:      afi ipv6.unicast to AS5605 announce AS-KNIPP-v6
+import:         from AS6695 accept AS-DECIX
+export:         to AS6695 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-KNIPP-v6
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANEv6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-KNIPP-v6
+import:         from AS7342 accept AS-GTLD
+export:         to AS7342 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS7342 accept AS-GTLD
+mp-export:      afi ipv6.unicast to AS7342 announce AS-KNIPP-v6
+import:         from AS8359 accept AS-MTU
+export:         to AS8359 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS8359 accept AS-MTU
+mp-export:      afi ipv6.unicast to AS8359 announce AS-KNIPP-v6
+import:         from AS8365 accept AS-MANDA
+export:         to AS8365 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS8365 accept AS-MANDA
+mp-export:      afi ipv6.unicast to AS8365 announce AS-KNIPP-v6
+import:         from AS8422 accept AS-NETCOLOGNE
+export:         to AS8422 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS8422 accept AS-NETCOLOGNE-V6
+mp-export:      afi ipv6.unicast to AS8422 announce AS-KNIPP-v6
+import:         from AS8551 accept AS-BEZEQINT
+export:         to AS8551 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS8551 accept AS-BEZEQINT
+mp-export:      afi ipv6.unicast to AS8551 announce AS-KNIPP-v6
+import:         from AS8657 accept AS-CPRM
+export:         to AS8657 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS8657 accept AS-CPRM-V6
+mp-export:      afi ipv6.unicast to AS8657 announce AS-KNIPP-v6
+import:         from AS8708 accept <^AS8708+$>
+export:         to AS8708 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS8708 accept <^AS8708+$>
+mp-export:      afi ipv6.unicast to AS8708 announce AS-KNIPP-v6
+import:         from AS8763 accept AS-DENIC
+export:         to AS8763 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS8763 accept AS-DENIC
+mp-export:      afi ipv6.unicast to AS8763 announce AS-KNIPP-v6
+import:         from AS8781 accept AS-QTEL-SET
+export:         to AS8781 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS8781 accept AS-QTEL-SET
+mp-export:      afi ipv6.unicast to AS8781 announce AS-KNIPP-v6
+import:         from AS8966 accept AS-EMIX
+export:         to AS8966 announce AS-KNIPP
+import:         from AS9044 accept AS-SOLNET
+export:         to AS9044 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS9044 accept AS-SOLNET
+mp-export:      afi ipv6.unicast to AS9044 announce AS-KNIPP-v6
+import:         from AS9063 accept AS-SAARGATE
+export:         to AS9063 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS9063 accept AS-SAARGATE
+mp-export:      afi ipv6.unicast to AS9063 announce AS-KNIPP-v6
+import:         from AS10310 accept <^AS10310+$>
+export:         to AS10310 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS10310 accept <^AS10310+$>
+mp-export:      afi ipv6.unicast to AS10310 announce AS-KNIPP-v6
+import:         from AS12355 accept AS-HELINET-V4
+export:         to AS12355 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS12355 accept AS-HELINET-V6
+mp-export:      afi ipv6.unicast to AS12355 announce AS-KNIPP-v6
+import:         from AS12713 accept AS-OTEGLOBE
+export:         to AS12713 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS12713 accept AS-OTEGLOBE
+mp-export:      afi ipv6.unicast to AS12713 announce AS-KNIPP-v6
+import:         from AS13030 accept AS-INIT7
+export:         to AS13030 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS13030 accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 announce AS-KNIPP-v6
+import:         from AS15830 accept AS-TELECITYLON
+export:         to AS15830 announce AS-KNIPP
+import:         from AS16509 accept AS16509
+export:         to AS16509 announce AS-KNIPP
+import:         from AS20940 accept AS-AKAMAI
+export:         to AS20940 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS20940 accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 announce AS-KNIPP-v6
+import:         from AS21336 accept AS-IR
+export:         to AS21336 announce AS-KNIPP
+import:         from AS21385 accept AS-TNIB
+export:         to AS21385 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS21385 accept AS-TNIB
+mp-export:      afi ipv6.unicast to AS21385 announce AS-KNIPP-v6
+import:         from AS29140 accept AS-HOSTSERVER
+export:         to AS29140 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS29140 accept AS-HOSTSERVER
+mp-export:      afi ipv6.unicast to AS29140 announce AS-KNIPP-v6
+import:         from AS31529 accept AS-DENIC-ANY
+export:         to AS31529 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS31529 accept AS-DENIC-ANY
+mp-export:      afi ipv6.unicast to AS31529 announce AS-KNIPP-v6
+import:         from AS36692 accept <^AS36692+$>
+export:         to AS36692 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS36692 accept <^AS36692+$>
+mp-export:      afi ipv6.unicast to AS36692 announce AS-KNIPP-v6
+export:         to AS37497 announce AS-KNIPP
+import:         from AS41692 accept AS-OPENCARRIER
+export:         to AS41692 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS41692 accept AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast to AS41692 announce AS-KNIPP-v6
+import:         from AS42708 accept AS-PORTLANE
+export:         to AS42708 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS42708 accept AS-PORTLANE
+mp-export:      afi ipv6.unicast to AS42708 announce AS-KNIPP-v6
+import:         from AS47195 accept AS-GAMEFORGE
+export:         to AS47195 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS47195 accept AS-GAMEFORGEV6
+mp-export:      afi ipv6.unicast to AS47195 announce AS-KNIPP-v6
+import:         from AS47692 accept AS-NESSUS
+export:         to AS47692 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS47692 accept AS-NESSUS-V6
+mp-export:      afi ipv6.unicast to AS47692 announce AS-KNIPP-v6
+import:         from AS47869 accept AS47869
+export:         to AS47869 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS47869 accept AS47869
+mp-export:      afi ipv6.unicast to AS47869 announce AS-KNIPP-v6
+import:         from AS49544 accept AS-INTERACTIVE3D
+export:         to AS49544 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS49544 accept AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to AS49544 announce AS-KNIPP-v6
+import:         from AS57344 accept AS-57344
+export:         to AS57344 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS57344 accept AS-57344
+mp-export:      afi ipv6.unicast to AS57344 announce AS-KNIPP-v6
+import:         from AS60169 accept AS60169
+export:         to AS60169 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS60169 accept AS60169
+mp-export:      afi ipv6.unicast to AS60169 announce AS-KNIPP-v6
+import:         from AS198781 accept AS-198781
+export:         to AS198781 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS198781 accept AS-198781
+mp-export:      afi ipv6.unicast to AS198781 announce AS-KNIPP-v6
+import:         from AS6695 accept AS6695
+export:         to AS6695 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS6695 accept AS6695
+mp-export:      afi ipv6.unicast to AS6695 announce AS-KNIPP-v6
+import:         from AS59645 accept AS59645:AS-WYBT
+export:         to AS59645 announce AS-KNIPP
+mp-import:      afi ipv6.unicast from AS59645 accept AS59645:AS-WYBT
+mp-export:      afi ipv6.unicast to AS59645 announce AS-KNIPP-v6
+admin-c:        EK40-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         KH1111-RIPE
+mnt-by:         KNIPP-NOC-MNT
+created:        2002-07-19T14:05:18Z
+last-modified:  2024-12-19T15:35:28Z
+source:         RIPE
+
+organisation:   ORG-KMuK1-RIPE
+org-name:       Knipp Medien und Kommunikation GmbH
+country:        DE
+org-type:       LIR
+address:        Martin-Schmeisser-Weg 9
+address:        D-44227
+address:        Dortmund
+address:        GERMANY
+phone:          +4923197030
+fax-no:         +492319703200
+mnt-ref:        KNIPP-NOC-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         KNIPP-NOC-MNT
+admin-c:        EK40-RIPE
+tech-c:         KH1111-RIPE
+abuse-c:        KAC13-RIPE
+created:        2004-04-17T11:09:23Z
+last-modified:  2023-07-20T11:10:00Z
+source:         RIPE # Filtered
+
+role:           Knipp Hostmaster
+address:        Knipp Medien und Kommunikation GmbH
+address:        Martin-Schmeisser-Weg 9
+address:        D-44227 Dortmund
+address:        Germany
+phone:          +49 231 9703 0
+fax-no:         +49 231 9703 200
+admin-c:        EK40-RIPE
+tech-c:         DL241-RIPE
+tech-c:         SW198-RIPE
+tech-c:         BM8463-RIPE
+nic-hdl:        KH1111-RIPE
+mnt-by:         KNIPP-NOC-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-07-29T21:25:30Z
+source:         RIPE # Filtered
+
+person:         Elmar Knipp
+address:        Martin-Schmeisser-Weg 9
+address:        D-44227 Dortmund
+address:        Germany
+phone:          +49 231 9703 0
+fax-no:         +49 231 9703 200
+nic-hdl:        EK40-RIPE
+mnt-by:         KNIPP-NOC-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T00:16:45Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          195.138.32.0/22
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-05-21T16:36:13Z
+last-modified:  2025-05-21T16:36:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.138.37.0/24
+descr:          AS8391 proxy-registered route by Cogent
+origin:         AS8391
+remarks:        Proxy-registered route object
+remarks:        for Cogent customer
+notify:         neteng@cogentco.com
+mnt-by:         MAINT-AS174
+changed:        neteng@cogentco.com 20040122
+source:         RADB
+last-modified:  2023-11-13T15:39:34Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.138.38.0/24
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-05-21T16:37:32Z
+last-modified:  2025-05-21T16:37:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.138.54.0/24
+descr:          DE-KNIPP
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-04-09T13:37:19Z
+last-modified:  2025-04-09T13:37:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.138.58.0/24
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-05-21T16:34:33Z
+last-modified:  2025-05-21T16:34:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.138.61.0/24
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-06-18T10:25:33Z
+last-modified:  2025-06-18T10:25:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.138.62.0/24
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-06-18T10:26:38Z
+last-modified:  2025-06-18T10:26:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.253.0.0/18
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-07-08T07:33:06Z
+last-modified:  2025-07-08T07:33:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.253.0.0/24
+descr:          AS8391 proxy-registered route by Cogent
+origin:         AS8391
+remarks:        Proxy-registered route object
+remarks:        for Cogent customer
+notify:         neteng@cogentco.com
+mnt-by:         MAINT-AS174
+changed:        neteng@cogentco.com 20040122
+source:         RADB
+last-modified:  2023-11-13T15:39:34Z
+rpki-ov-state:  valid
+
+route:          195.253.64.0/18
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-07-07T16:01:41Z
+last-modified:  2025-07-07T16:01:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.253.128.0/18
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-07-07T16:01:04Z
+last-modified:  2025-07-07T16:01:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.253.224.0/20
+origin:         AS8391
+mnt-by:         KNIPP-NOC-MNT
+created:        2025-08-15T10:44:37Z
+last-modified:  2025-08-15T10:44:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:5b0::/32
+descr:          DE-KNIPP
+origin:         AS8391
+holes:          2a01:5b0:2::/48
+holes:          2a01:5b0:3::/48
+holes:          2a01:5b0:4::/48
+holes:          2a01:5b0:5::/48
+holes:          2a01:5b0:6::/48
+holes:          2a01:5b0:c::/48
+holes:          2a01:5b0:d::/48
+holes:          2a01:5b0:20::/48
+holes:          2a01:5b0:21::/48
+holes:          2a01:5b0:22::/48
+holes:          2a01:5b0:23::/48
+holes:          2a01:5b0:24::/48
+holes:          2a01:5b0:25::/48
+holes:          2a01:5b0:26::/48
+holes:          2a01:5b0:27::/48
+holes:          2a01:5b0:28::/48
+holes:          2a01:5b0:29::/48
+holes:          2a01:5b0:2a::/48
+holes:          2a01:5b0:2b::/48
+holes:          2a01:5b0:2c::/48
+holes:          2a01:5b0:2d::/48
+mnt-by:         KNIPP-NOC-MNT
+created:        2008-07-03T06:30:00Z
+last-modified:  2020-11-11T10:01:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

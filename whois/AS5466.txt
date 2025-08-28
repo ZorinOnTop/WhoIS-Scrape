@@ -1,0 +1,1145 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5466'
+
+% Abuse contact for 'AS5466' is 'ripe-support@eir.ie'
+
+aut-num:        AS5466
+as-name:        EIRCOM
+descr:          Internet House
+descr:          26-34 Temple Bar
+descr:          Dublin 2
+descr:          Ireland
+org:            ORG-EA29-RIPE
+remarks:        ---------------------------------------------------------------
+remarks:        Transit providers: Cogent, Arelion
+import:         from AS174 action pref=65235; accept ANY
+export:         to AS174 announce AS-EIRCOM
+import:         from AS1299 action pref=65235; accept ANY
+export:         to AS1299 announce AS-EIRCOM
+remarks:        ---------------------------------------------------------------
+remarks:        Eir has an open peering policy
+import:         from AS-ANY accept ANY AND NOT {0.0.0.0/0}
+export:         to AS-ANY announce AS-EIRCOM AND NOT {0.0.0.0/0}
+remarks:        ---------------------------------------------------------------
+admin-c:        EN369-RIPE
+tech-c:         EN369-RIPE
+remarks:        ---------------------------------------------------------
+remarks:        Incoming route local-preference policy is as follows
+remarks:        - 800 for Eircom customer routes , 700 for Eircom customer backup routes
+remarks:        - 650 for PNI in Ireland
+remarks:        - 600 for INEX routes
+remarks:        - 550 for PNI outside Ireland
+remarks:        - 500 for IXPs outside Ireland
+remarks:        - 300 for Transit Provider routes
+remarks:        ---------------------------------------------------------
+remarks:        Peering/Routing contact address: peering@eir.ie
+remarks:        ---------------------------------------------------------
+remarks:        Eircom AS5466 is present at the following IXPs and peers with the Route Servers
+remarks:        INEX LAN1
+remarks:        LINX LON1
+remarks:        AMS-IX
+remarks:        Eircom AS5466 also privately peers where justified by traffic levels
+remarks:        Also see AS5466 entry at peeringdb.com for list of interconnection facilities
+remarks:        ---------------------------------------------------------
+remarks:        Supported eBGP customer prefix exclude communities for transits
+remarks:        5466:1299 meaning AS5466 do not advertise to AS1299
+remarks:        ---------------------------------------------------------
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TE-MNT
+created:        2002-09-13T14:07:24Z
+last-modified:  2025-01-13T14:39:29Z
+source:         RIPE # Filtered
+
+organisation:   ORG-EA29-RIPE
+org-name:       Eircom Limited
+country:        IE
+org-type:       LIR
+address:        2 Heuston South Quarter, St Johns Road West
+address:        D08 Y42N
+address:        Dublin 8
+address:        IRELAND
+phone:          +35317010000
+fax-no:         +35317017796
+remarks:        eir and Open eir are trading names of eircom limited
+admin-c:        LDK23-RIPE
+admin-c:        RC17-RIPE
+admin-c:        DC18-RIPE
+admin-c:        KM7138-RIPE
+admin-c:        MW9186-RIPE
+mnt-ref:        TE-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TE-MNT
+abuse-c:        ENA33-RIPE
+created:        2004-04-17T11:27:21Z
+last-modified:  2024-01-23T15:04:17Z
+source:         RIPE # Filtered
+
+role:           Eircom Networks
+address:        Eircom
+address:        Bianconi Avenue
+address:        Citywest, Dublin 24
+address:        Ireland
+remarks:        -----------------------------------------------------------
+remarks:        For abuse/spam complaints for addresses from within this block please contact abuse@eircom.net
+remarks:        If you are not satisfied please submit a report on the web at http://support.eircom.net/abuse/
+remarks:        For information on abuse and what you can do to report it and prevent it please see http://support.eircom.net/abuse/security.asp
+remarks:        ---------------------------------------------------------
+admin-c:        RC17-RIPE
+admin-c:        KM7138-RIPE
+admin-c:        MW9186-RIPE
+tech-c:         RC17-RIPE
+tech-c:         KM7138-RIPE
+tech-c:         MW9186-RIPE
+nic-hdl:        EN369-RIPE
+mnt-by:         TE-MNT
+created:        2006-01-12T16:24:08Z
+last-modified:  2021-11-09T10:41:31Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          51.171.0.0/16
+descr:          eircom
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2015-09-01T11:24:52Z
+last-modified:  2015-09-01T11:24:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.77.160.0/19
+descr:          eircom customers
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please contact abuse@eircom.net.
+remarks:        Please note that ALL networks in this block are delegated
+remarks:        to eircom customers!
+remarks:        networks@eircom.net should ONLY be used for routing issues.
+notify:         networks@eircom.net
+mnt-by:         TE-MNT
+created:        2002-01-30T11:08:37Z
+last-modified:  2002-01-30T11:08:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.141.192.0/18
+descr:          eircom, Ireland
+descr:          customer assignments
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please contact abuse@eircom.net.
+remarks:        networks@eircom.net should ONLY be used for routing issues.
+notify:         networks@eircom.net
+mnt-by:         TE-MNT
+created:        2003-09-02T12:26:13Z
+last-modified:  2003-09-02T12:26:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.70.0.0/15
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please contact abuse@eircom.net.
+remarks:        networks@eircom.net should ONLY be used for routing issues.
+notify:         networks@eircom.net
+mnt-by:         TE-MNT
+created:        2004-01-06T13:13:20Z
+last-modified:  2004-01-06T13:13:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.174.160.0/19
+descr:          eircom
+origin:         AS5466
+mnt-by:         TE-MNT
+mnt-lower:      TE-MNT
+remarks:        peering@eircom.net should ONLY be used for routing issues
+created:        2015-04-13T14:35:44Z
+last-modified:  2015-04-13T14:35:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.40.0.0/13
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2005-04-05T14:17:39Z
+last-modified:  2005-04-05T14:17:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.40.0.0/15
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-16T16:23:49Z
+last-modified:  2015-11-16T16:23:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.42.0.0/16
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-16T16:24:39Z
+last-modified:  2015-11-16T16:24:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.0.0/17
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-16T16:25:17Z
+last-modified:  2015-11-16T16:25:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.38.0/24
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2022-02-23T11:40:08Z
+last-modified:  2022-02-23T11:40:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.56.0/24
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2022-02-23T11:39:06Z
+last-modified:  2022-02-23T11:39:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.60.0/24
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2022-02-23T11:42:15Z
+last-modified:  2022-02-23T11:42:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.128.0/20
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-16T16:25:51Z
+last-modified:  2015-11-16T16:25:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.144.0/22
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-16T16:26:21Z
+last-modified:  2015-11-16T16:26:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.148.0/23
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-16T16:26:55Z
+last-modified:  2015-11-16T16:26:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.150.0/24
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-16T16:28:11Z
+last-modified:  2015-11-16T16:28:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.151.0/24
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/     wmsupport@eir.ie
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eir.ie
+mnt-by:         TE-MNT
+created:        2015-11-16T16:28:25Z
+last-modified:  2022-02-23T11:37:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.152.0/21
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-17T13:59:09Z
+last-modified:  2015-11-17T13:59:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.160.0/19
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-17T13:59:44Z
+last-modified:  2015-11-17T13:59:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.43.192.0/18
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-17T14:00:24Z
+last-modified:  2015-11-17T14:00:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.44.0.0/14
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please submit a report on the web at
+remarks:        http://support.eircom.net/abuse/
+remarks:        peering@eircom.net should ONLY be used for routing issues.
+notify:         peering@eircom.net
+mnt-by:         TE-MNT
+created:        2015-11-16T16:28:53Z
+last-modified:  2015-11-16T16:28:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.204.208.0/20
+descr:          O2 Ireland Fixed Broadband - Eircom White Label
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2009-01-08T10:36:11Z
+last-modified:  2009-01-08T10:36:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.44.0.0/15
+descr:          eircom
+origin:         AS5466
+mnt-by:         TE-MNT
+notify:         networks@eircom.net
+created:        2008-10-29T16:42:26Z
+last-modified:  2008-10-29T16:43:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.83.240.0/21
+descr:          Three Ireland (Hutchison) - Fixed Broadband - Eircom
+origin:         AS5466
+mnt-by:         IRLO2-MNT
+mnt-by:         H3GIE-MNT
+created:        2016-02-16T12:05:21Z
+last-modified:  2018-03-23T16:44:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          146.214.80.0/23
+descr:          Mallinckrodt
+origin:         AS5466
+mnt-by:         TE-MNT
+notify:         ripe@eircom.net
+remarks:        Customers' PI address space, originating within eir's AS
+remarks:        This route object was created by eir on behalf of customer.
+remarks:        As some of eir's upstream networks filter based on IRR objects,
+remarks:        this route object has been created to ensure that the advertisement
+remarks:        of this prefix is not rejected.
+created:        2017-06-06T11:14:52Z
+last-modified:  2018-09-04T18:50:22Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          159.134.0.0/16
+descr:          eircom
+origin:         AS5466
+notify:         peering@eir.ie
+mnt-by:         TE-MNT
+created:        2002-08-15T10:46:00Z
+last-modified:  2022-01-20T15:44:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          159.134.0.0/24
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2022-04-20T11:39:49Z
+last-modified:  2022-04-20T11:39:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          159.134.191.0/24
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2022-04-20T11:40:21Z
+last-modified:  2022-04-20T11:40:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          159.134.198.0/24
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2022-02-23T11:40:50Z
+last-modified:  2022-02-23T11:40:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          159.134.237.0/24
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2022-04-20T11:40:55Z
+last-modified:  2022-04-20T11:40:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          159.134.250.0/24
+origin:         AS5466
+descr:          Test prefix
+notify:         ross.chandler@eir.ie
+mnt-by:         TE-MNT
+created:        2022-01-20T15:46:08Z
+last-modified:  2022-01-20T15:46:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.255.216.0/24
+origin:         AS5466
+mnt-by:         lir-ie-version1-1-MNT
+created:        2023-01-24T16:14:24Z
+last-modified:  2023-01-24T16:14:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.57.112.0/22
+descr:          eircom
+origin:         AS5466
+notify:         peering@eircom.net
+remarks:        peering@eircom.net should ONLY be used for routing issues
+notify:         ripe@eircom.net
+mnt-by:         TE-MNT
+mnt-lower:      TE-MNT
+created:        2014-05-13T12:55:11Z
+last-modified:  2014-05-13T12:55:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.61.0.0/22
+descr:          Three Ireland (Hutchison) - White label DSL Eir
+origin:         AS5466
+mnt-by:         IRLO2-MNT
+mnt-by:         H3GIE-MNT
+created:        2016-01-21T18:50:26Z
+last-modified:  2018-03-23T17:19:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.109.4.0/22
+descr:          IFA Telecom - Eircom White Label
+origin:         AS5466
+mnt-by:         TE-MNT
+mnt-by:         maireadglynn-mnt
+created:        2015-08-31T13:03:49Z
+last-modified:  2015-08-31T13:03:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.202.16.0/22
+descr:          Pure Telecom - eir White Label DSL
+remarks:        Wholessale operator originating within eir's AS
+origin:         AS5466
+mnt-by:         TE-MNT
+notify:         ripe@eircom.net
+created:        2017-05-17T13:21:46Z
+last-modified:  2017-05-17T13:21:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.239.76.0/22
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2020-06-23T14:57:35Z
+last-modified:  2020-06-23T14:57:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.56.21.0/24
+origin:         AS5466
+descr:          DXC Technology
+notify:         ipaddr@dxc.com
+mnt-by:         AS71-MNT
+changed:        tomas.kostrian@dxc.com 20240620 # 1406Z
+source:         RADB
+last-modified:  2024-06-20T14:06:15Z
+rpki-ov-state:  valid
+
+route:          192.56.21.0/24
+origin:         AS5466
+descr:          DXC Technology
+admin-c:        ESIPA-ARIN
+tech-c:         ESIPA-ARIN
+mnt-by:         MNT-ESLAC-Z
+created:        2024-04-09T13:31:36Z
+last-modified:  2024-04-09T13:31:36Z
+source:         ARIN
+rpki-ov-state:  valid
+
+route:          192.107.110.0/24
+descr:          BROADCOM Ireland
+origin:         AS5466
+notify:         ross.chandler@eir.ie
+mnt-by:         TE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-09-16T09:41:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.178.40.0/24
+descr:          eircom
+origin:         AS5466
+notify:         networks@eircom.net
+mnt-by:         TE-MNT
+created:        2012-05-08T11:51:43Z
+last-modified:  2012-05-08T11:51:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.178.41.0/24
+descr:          eircom
+origin:         AS5466
+notify:         networks@eircom.net
+mnt-by:         TE-MNT
+created:        2012-05-08T11:51:43Z
+last-modified:  2012-05-08T11:51:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.42.62.0/24
+descr:          TECNOMENNET
+origin:         AS5466
+mnt-by:         TE-MNT
+mnt-by:         DATANET-NOC
+created:        2015-12-15T17:22:33Z
+last-modified:  2015-12-15T17:22:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.106.128.0/19
+descr:          Telecom Internet
+origin:         AS5466
+notify:         dcurran@tinet.ie
+notify:         karenk@tinet.ie
+mnt-by:         TE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.125.128.0/18
+descr:          Aggregate route announced by eircom
+origin:         AS5466
+remarks:        For spam/abuse complaints for addresses from this block
+remarks:        please contact abuse@eircom.net.
+notify:         networks@eircom.net
+mnt-by:         TE-MNT
+created:        2002-07-31T14:12:52Z
+last-modified:  2002-07-31T14:12:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.125.192.0/19
+descr:          eircom
+origin:         AS5466
+mnt-by:         TE-MNT
+mnt-lower:      TE-MNT
+notify:         peering@eircom.net
+notify:         ripe@eircom.net
+remarks:        peering@eircom.net should ONLY be used for routing issues
+created:        2015-01-13T18:26:48Z
+last-modified:  2015-01-13T18:26:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.7.32.0/19
+descr:          eircom customers
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please contact abuse@eircom.net.
+remarks:        networks@eircom.net should be used for technical issues.
+notify:         networks@eircom.net
+mnt-by:         TE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          204.103.54.0/24
+descr:          Hewlett Packard Enterprise (HPE) Continuity Services
+origin:         AS5466
+mnt-by:         TE-MNT
+notify:         ripe@eircom.net
+remarks:        HPE address space, originating within eir AS
+created:        2016-05-09T11:16:44Z
+last-modified:  2018-09-04T18:26:22Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.94.128.0/17
+descr:          eircom, Ireland
+origin:         AS5466
+remarks:        For abuse/spam complaints for addresses from this block
+remarks:        please contact the techc and/or adminc for the individual
+remarks:        inetnum objects. If this does not resolve the problem to
+remarks:        your satisfaction please contact abuse@eircom.net.
+remarks:        networks@eircom.net should ONLY be used for routing issues.
+notify:         networks@eircom.net
+mnt-by:         TE-MNT
+created:        2002-09-27T14:25:53Z
+last-modified:  2002-09-27T14:25:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.190.128.0/19
+descr:          Eircom Net
+origin:         AS5466
+notify:         networks@eircom.net
+mnt-by:         TE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.191.224.0/21
+descr:          O2 Ireland Fixed Broadband - Eircom White Label
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2011-03-09T12:46:42Z
+last-modified:  2011-03-09T12:46:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.183.0.0/16
+descr:          eircom
+origin:         AS5466
+mnt-by:         TE-MNT
+created:        2016-11-07T12:16:18Z
+last-modified:  2016-11-07T12:16:18Z
+source:         RIPE
+notify:         ripe@eircom.net
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:bb0::/29
+descr:          IE-EIRCOM-20030401
+origin:         AS5466
+remarks:        peering@eir.ie should ONLY be used for routing issues.
+notify:         peering@eir.ie
+mnt-by:         TE-MNT
+mnt-lower:      TE-MNT
+created:        2014-10-27T15:19:54Z
+last-modified:  2022-02-23T11:43:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a09:2140::/48
+origin:         AS5466
+mnt-by:         lir-ie-version1-1-MNT
+created:        2023-01-24T16:13:50Z
+last-modified:  2023-01-24T16:13:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a09:2140:8000::/48
+origin:         AS5466
+mnt-by:         lir-ie-version1-1-MNT
+created:        2023-01-24T16:14:08Z
+last-modified:  2023-01-24T16:14:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,300 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS3209 - AS3353'
+
+as-block:       AS3209 - AS3353
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:19Z
+last-modified:  2018-11-22T15:27:19Z
+source:         RIPE
+
+% Information related to 'AS3244'
+
+% Abuse contact for 'AS3244' is 'abuse@3ctelecom.hu'
+
+aut-num:        AS3244
+as-name:        BANKNET
+org:            ORG-BK1-RIPE
+import:         from AS2686
+                action pref=40;
+                accept AS-IGNEMEA
+import:         from AS3300
+                action pref=40;
+                accept ANY
+import:         from AS9024
+                action pref=40;
+                accept ANY
+import:         from AS5507
+                action pref=40;
+                accept AS-BIX
+import:         from AS15467
+                action pref=40;
+                accept AS15467
+import:         from AS15566
+                action pref=40;
+                accept AS15566
+import:         from AS24806
+                action pref=40;
+                accept AS24806
+export:         to AS2686
+                announce AS3244
+export:         to AS3300
+                announce AS3244
+export:         to AS5507
+                announce AS3244
+export:         to AS9024
+                announce AS3244
+export:         to AS15467
+                announce AS3244
+export:         to AS15566
+                announce AS3244
+export:         to AS24806
+                announce AS3244
+default:        to AS3300
+                action pref=80;
+                networks ANY
+default:        to AS9024
+                action pref=50;
+                networks ANY
+admin-c:        JZ38
+tech-c:         JZ38
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         LB2082-RIPE
+mnt-by:         AS3244-MNT
+created:        2002-07-02T18:59:28Z
+last-modified:  2017-11-15T09:16:21Z
+source:         RIPE
+
+organisation:   ORG-BK1-RIPE
+org-name:       3c. Kft.
+country:        HU
+org-type:       LIR
+address:        Konkoly-Thege ut 29-33
+address:        1121
+address:        Budapest
+address:        HUNGARY
+phone:          +36 1 275 5200
+fax-no:         +36 1 275 5887
+admin-c:        LB2082-RIPE
+admin-c:        ZB635-RIPE
+admin-c:        BL1382-RIPE
+mnt-ref:        AS3244-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS3244-MNT
+abuse-c:        BL1382-RIPE
+created:        2004-04-17T11:25:45Z
+last-modified:  2020-12-16T13:34:33Z
+source:         RIPE # Filtered
+
+person:         Zsolt Bogdan-Rajcs
+address:        3C Kft.
+address:        Konkoly Thege ut 29-33.
+address:        XXXI. epulet
+address:        1121 Budapest
+address:        Hungary
+phone:          +36 1 275 52 00
+fax-no:         +36 1 275 58 87
+nic-hdl:        JZ38
+mnt-by:         AS3244-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-08-23T14:02:23Z
+source:         RIPE # Filtered
+
+person:         Laszlo Buday
+address:        BankNet Kft.
+address:        Konkoly Thege ut 29-33.
+address:        XXXI. epulet
+address:        1121 Budapest
+address:        Hungary
+phone:          +36 1 275 52 00
+fax-no:         +36 1 275 58 87
+nic-hdl:        LB2082-RIPE
+mnt-by:         AS3244-MNT
+created:        2001-12-13T17:31:22Z
+last-modified:  2001-12-13T17:31:22Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          193.131.100.0/22
+descr:          BankNet Kft. Budapest, Hungary.
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-01-24T13:23:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.140.0/24
+descr:          3C BIX
+origin:         AS3244
+mnt-by:         AS3244-MNT
+mnt-by:         DRAVANET-MNT
+created:        2012-01-30T08:58:29Z
+last-modified:  2012-02-28T12:53:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.147.0/24
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        2024-05-06T14:26:07Z
+last-modified:  2024-05-06T14:26:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.148.0/24
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        2024-05-06T14:28:13Z
+last-modified:  2024-05-06T14:28:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.150.0/24
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        2024-04-02T11:56:25Z
+last-modified:  2024-04-02T11:56:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.151.0/24
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        2024-05-06T14:29:20Z
+last-modified:  2024-05-06T14:29:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.153.0/24
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        2024-04-02T12:00:18Z
+last-modified:  2024-04-02T12:00:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.156.0/24
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        2024-05-06T14:30:49Z
+last-modified:  2024-05-06T14:30:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.157.0/24
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        2024-05-06T14:31:24Z
+last-modified:  2024-05-06T14:31:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.158.0/24
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        2024-05-06T14:31:47Z
+last-modified:  2024-05-06T14:31:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.152.159.0/24
+origin:         AS3244
+mnt-by:         AS3244-MNT
+created:        2024-05-06T14:32:05Z
+last-modified:  2024-05-06T14:32:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

@@ -1,0 +1,712 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5377'
+
+% Abuse contact for 'AS5377' is 'lir-abuse@marlink.com'
+
+aut-num:        AS5377
+as-name:        MARLINK-EMEA
+org:            ORG-MEA38-RIPE
+import:         from AS174 action pref=100; accept ANY
+import:         from AS1299 action pref=100; accept ANY
+import:         from AS2119 action pref=100; accept ANY
+import:         from AS3356 action pref=100; accept ANY
+import:         from AS3549 action pref=100; accept ANY
+import:         from AS5459 action pref=500; accept ANY
+import:         from AS5511 action pref=100; accept ANY
+import:         from AS20776 action pref=100; accept ANY
+import:         from AS21351 action pref=100; accept ANY
+import:         from AS37101 action pref=100; accept ANY
+import:         from AS22351 action pref=100; accept ANY
+import:         from AS48252 action pref=100; accept ANY
+remarks:        ------------------------------------------------------------------
+import:         from AS9207 action pref=900; accept AS9207 AS328569
+remarks:        ------------------------------------------------------------------
+import:         from AS37052 action pref=900; accept AS37052
+remarks:        ------------------------------------------------------------------
+remarks:        Peerings within New York
+remarks:        ------------------------------------------------------------------
+import:         from AS8841 action pref=900; accept AS8841 RS-MARLINK-NYC
+export:         to AS8841 announce ANY
+remarks:        ------------------------------------------------------------------
+remarks:        Peerings at IX
+remarks:        ------------------------------------------------------------------
+import:         from AS714 action pref=200; accept AS714
+import:         from AS2906 action pref=200; accept AS-NFLX RS-NETFLIX
+import:         from AS5459 action pref=200; accept AS5459
+import:         from AS8714 action pref=200; accept AS8714
+import:         from AS16509 action pref=200; accept AS16509
+import:         from AS32934 action pref=200; accept AS32934
+remarks:        ------------------------------------------------------------------
+remarks:        MegaIX peering
+import:         from AS64216 action pref=200; accept ANY
+export:         to AS64216 announce AS5377:AS-MARLINK-NYC
+remarks:        ------------------------------------------------------------------
+export:         to AS174 announce AS-MARLINK
+export:         to AS1299 announce AS-MARLINK
+export:         to AS2119 announce AS-MARLINK RS-MARLINK-NO
+export:         to AS3356 announce AS-MARLINK
+export:         to AS3549 announce AS-MARLINK
+export:         to AS5511 announce AS-MARLINK RS-MARLINK-FR
+export:         to AS20776 announce AS-MARLINK-GF RS-MARLINK-GF
+export:         to AS21351 announce AS-MARLINK-GF RS-MARLINK-GF
+export:         to AS22351 announce AS-MARLINK
+export:         to AS9207 announce ANY
+export:         to AS37101 announce ANY
+export:         to AS37052 announce ANY
+export:         to AS48252 announce AS-MARLINK-GF RS-MARLINK-GF
+remarks:        ------------------------------------------------------------------
+remarks:        Peerings at IX
+remarks:        ------------------------------------------------------------------
+export:         to AS714 announce AS5377
+export:         to AS2906 announce AS5377
+export:         to AS5459 announce AS5377
+export:         to AS8714 announce AS5377
+export:         to AS16509 announce AS5377
+export:         to AS32934 announce AS5377
+remarks:        ------------------------------------------------------------------
+default:        to AS174 action pref=100; networks ANY
+default:        to AS1299 action pref=100; networks ANY
+default:        to AS2119 action pref=100; networks ANY
+default:        to AS3356 action pref=100; networks ANY
+default:        to AS3549 action pref=100; networks ANY
+default:        to AS5511 action pref=100; networks ANY
+default:        to AS20776 action pref=100; networks ANY
+default:        to AS21351 action pref=100; networks ANY
+default:        to AS22351 action pref=100; networks ANY
+default:        to AS48252 action pref=100; networks ANY
+admin-c:        TH50-RIPE
+tech-c:         TH50-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ------------------------------------------------------------------
+remarks:        BGP COMMUNITY SUPPORT FOR AS5377 TRANSIT CUSTOMERS:
+remarks:        Community Action
+remarks:        ----------------------------------------------------------------
+remarks:        5377:50 Set local pref 50 within AS5377
+remarks:        5377:150 Set local pref 150 within AS5377
+remarks:        ------------------------------------------------------------------
+mnt-by:         Marlink-MNT
+created:        2002-09-18T11:44:26Z
+last-modified:  2025-05-21T14:45:12Z
+source:         RIPE
+
+organisation:   ORG-MEA38-RIPE
+org-name:       Marlink AS
+country:        NO
+org-type:       LIR
+address:        Lysaker Torg 45
+address:        NO-1366
+address:        Lysaker
+address:        NORWAY
+phone:          +47 22 58 00 00
+admin-c:        TH50-RIPE
+tech-c:         TH50-RIPE
+abuse-c:        AR37636-RIPE
+mnt-ref:        Marlink-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         Marlink-MNT
+created:        2016-09-15T10:33:37Z
+last-modified:  2020-12-16T12:57:28Z
+source:         RIPE # Filtered
+
+role:           Marlink IP NOC
+address:        Marlink AS
+address:        Mailing address P.O.Box 433
+address:        Visiting address Lysaker Torg 45
+address:        N-1366 LYSAKER
+address:        Norway
+phone:          +4722582050
+fax-no:         +4722582001
+abuse-mailbox:  lir-abuse@marlink.com
+admin-c:        RVA8-RIPE
+admin-c:        AA289-RIPE
+tech-c:         RVA8-RIPE
+tech-c:         MR25194-RIPE
+nic-hdl:        TH50-RIPE
+mnt-by:         Marlink-MNT
+created:        2002-08-06T08:49:48Z
+last-modified:  2019-12-20T07:34:49Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          77.70.128.0/17
+descr:          MARLINK-NET
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2007-12-06T11:10:33Z
+last-modified:  2016-10-05T16:12:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.70.128.0/19
+descr:          LU-MARLINK-BTZ-POP
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2015-07-14T10:07:18Z
+last-modified:  2016-10-05T16:12:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.70.144.0/20
+descr:          FR-MARLINK-ASG-POP
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2016-10-05T16:12:34Z
+last-modified:  2016-10-05T16:12:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.70.160.0/20
+holes:          77.70.164.0/22
+descr:          Marlink-ASG-BTZ-POPs-PTH2
+descr:          Marlink customer range via PARIS TH2
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2015-03-13T15:40:10Z
+last-modified:  2018-03-06T12:45:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.70.176.0/22
+descr:          MARLINK-NET-USA
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2017-05-25T11:20:47Z
+last-modified:  2017-05-25T11:20:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.70.181.0/24
+descr:          MARLINK-NET-USA
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2019-05-08T06:18:30Z
+last-modified:  2019-05-08T06:18:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.70.184.0/21
+descr:          MARLINK-NET-USA
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2021-03-30T08:25:57Z
+last-modified:  2021-03-30T08:25:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.70.192.0/19
+descr:          Marlink-EIK-BTZ-POPs-LTH2
+descr:          Marlink customer range via London TH2
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2016-10-05T16:12:34Z
+last-modified:  2016-10-05T16:12:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.70.207.0/24
+descr:          Marlink-LTH2-Announcement
+descr:          Marlink customer range via London TH2
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2019-03-27T10:24:08Z
+last-modified:  2019-03-27T10:24:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.70.240.0/20
+descr:          MARLINK-OFFICE-NET
+descr:          Marlink office range
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2016-05-31T14:52:29Z
+last-modified:  2016-10-05T16:12:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          154.58.196.0/24
+origin:         AS5377
+descr:          Route Registered for Cogent Communications Customer - Omni Access S.L.
+geoidx:         ES
+mnt-by:         MAINT-AS174
+changed:        neteng@cogentco.com 20230818
+source:         RADB
+last-modified:  2023-11-13T16:18:16Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          154.62.77.0/24
+origin:         AS5377
+descr:          Route Registered for Cogent Communications Customer - Omni Access S.L.
+geoidx:         ES
+mnt-by:         MAINT-AS174
+changed:        neteng@cogentco.com 20230821
+source:         RADB
+last-modified:  2023-11-13T16:18:17Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.219.192.0/18
+descr:          MARLINK-NET
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-10-05T16:12:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.219.196.0/24
+descr:          MARLINK-OFFICE-NET-LYSAKER
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2016-06-02T14:02:10Z
+last-modified:  2016-10-05T16:12:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.220.0.0/16
+descr:          MARLINK-NET
+origin:         AS5377
+holes:          193.220.160.0/23
+holes:          193.220.162.0/23
+holes:          193.220.180.0/23
+holes:          193.220.184.0/22
+holes:          193.220.188.0/24
+holes:          193.220.191.0/24
+holes:          193.220.192.0/20
+holes:          193.220.208.0/21
+holes:          193.220.216.0/22
+mnt-by:         Marlink-MNT
+created:        2001-12-17T08:27:05Z
+last-modified:  2025-07-02T13:57:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.220.88.0/21
+descr:          MARLINK-FRENCH-GUIANA
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2020-12-10T15:55:00Z
+last-modified:  2020-12-10T15:55:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.220.88.0/21
+origin:         AS5377
+descr:          DIGICEL FWI TRANSIT CUSTOMERS
+mnt-by:         MAINT-AS48252
+changed:        jawad.amra@digicelgroup.fr 20210310  #19:01:24Z
+source:         RADB
+last-modified:  2025-02-19T19:00:04Z
+rpki-ov-state:  valid
+
+route:          193.220.94.0/24
+origin:         AS5377
+descr:          DIGICEL FWI TRANSIT CUSTOMERS
+mnt-by:         MAINT-AS48252
+changed:        jawad.amra@digicelgroup.fr 20210310  #19:08:26Z
+source:         RADB
+last-modified:  2025-02-19T19:00:04Z
+rpki-ov-state:  valid
+
+route:          193.220.94.0/24
+descr:          MARLINK-FRENCH-GUIANA
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2024-05-17T12:16:17Z
+last-modified:  2024-05-17T12:16:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.220.165.0/24
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2023-06-23T11:13:32Z
+last-modified:  2023-06-23T11:13:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.220.174.0/23
+descr:          BR-SP3-MARLINK
+descr:          Marlink BR SP3
+remarks:        193.220.174.0-193.220.175.255
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2024-06-26T13:13:05Z
+last-modified:  2024-06-26T13:28:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.220.220.0/22
+descr:          US-LA-MARLINK
+descr:          Marlink LA
+remarks:        193.220.220.0-193.220.223.255
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2022-04-20T10:52:46Z
+last-modified:  2022-04-20T10:52:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.220.224.0/20
+descr:          US-NYCTH2-MARLINK
+descr:          Marlink MI1
+remarks:        193.220.224.0-193.220.239.255
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2022-04-20T10:52:46Z
+last-modified:  2025-06-12T17:20:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.220.230.0/24
+descr:          US-MI1-MARLINK
+descr:          Marlink MI1
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2025-05-20T15:57:41Z
+last-modified:  2025-05-20T15:57:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.220.240.0/20
+descr:          NO-EIK-MARLINK
+descr:          Marlink Eik PoP
+remarks:        193.220.240.0-193.220.255.255
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2021-04-09T13:49:55Z
+last-modified:  2021-04-09T13:49:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.252.234.0/24
+descr:          MARLINK
+origin:         AS5377
+mnt-by:         FT-BRX
+mnt-by:         PC80199-MNT
+created:        2017-12-13T16:56:51Z
+last-modified:  2017-12-14T10:47:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          204.8.41.0/24
+origin:         AS5377
+descr:          Marlink-ITC, Inc.
+admin-c:        MAIR-ARIN
+tech-c:         MAIR-ARIN
+mnt-by:         MNT-MARLI-19
+remarks:        This object is automatically managed by ARIN
+created:        2025-02-06T12:28:02Z
+last-modified:  2025-06-03T11:31:26Z
+source:         ARIN
+rpki-ov-state:  valid
+
+route:          216.9.228.0/23
+origin:         AS5377
+descr:          Marlink route object for NY2
+admin-c:        MAIR-ARIN
+tech-c:         MAIR-ARIN
+mnt-by:         MNT-MARLI-19
+created:        2024-10-31T13:48:11Z
+last-modified:  2025-06-03T11:31:26Z
+source:         ARIN
+rpki-ov-state:  valid
+
+route:          216.9.230.0/23
+origin:         AS5377
+descr:          Marlink route object for LA2
+admin-c:        MAIR-ARIN
+tech-c:         MAIR-ARIN
+mnt-by:         MNT-MARLI-19
+created:        2024-10-31T13:50:49Z
+last-modified:  2025-06-03T11:31:26Z
+source:         ARIN
+rpki-ov-state:  valid
+
+route6:         2a02:6600::/29
+descr:          MARLINK-IPv6-NET
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2020-06-26T09:47:22Z
+last-modified:  2020-06-26T09:47:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:6600::/32
+descr:          FR-MARLINK-NET-IPv6
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2017-03-24T11:55:56Z
+last-modified:  2024-11-21T16:18:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:6600:f000::/48
+origin:         AS5377
+descr:          IPv6 routes from Norway, Lysaker office
+mnt-by:         Marlink-MNT
+created:        2019-09-09T15:17:44Z
+last-modified:  2019-09-09T15:17:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:6601::/32
+descr:          UK-MARLINK-NET-IPv6
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2024-11-21T16:18:36Z
+last-modified:  2024-11-21T16:18:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:6601:c000::/36
+origin:         AS5377
+descr:          IPv6 routes from Norway, EIK
+mnt-by:         Marlink-MNT
+created:        2025-04-23T11:59:17Z
+last-modified:  2025-04-23T11:59:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:6602::/32
+descr:          US-MARLINK-NET-IPv6
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2024-11-21T16:18:59Z
+last-modified:  2024-11-21T16:18:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:6603::/32
+descr:          MARLINK-IPv6-NET-CUSTOMERS
+origin:         AS5377
+mnt-by:         Marlink-MNT
+created:        2020-11-23T10:49:54Z
+last-modified:  2024-11-21T16:22:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

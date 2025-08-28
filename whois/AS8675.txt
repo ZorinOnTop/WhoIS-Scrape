@@ -1,0 +1,679 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8675'
+
+% Abuse contact for 'AS8675' is 'abuse@rt.ru'
+
+aut-num:        AS8675
+org:            ORG-JR8-RIPE
+as-name:        AS_TULATEL
+descr:          OJSC "CenterTelecom"
+import:         from AS44237 action pref=100; accept ANY
+import:         from AS200095 action pref=100; accept ANY
+import:         from AS201620 action pref=100; accept ANY
+import:         from AS48938 action pref=100; accept ANY
+export:         to AS44237 announce AS-TULATELECOM
+export:         to AS200452 announce ANY
+export:         to AS48938 announce ANY
+export:         to AS200095 announce ANY
+export:         to AS201620 announce ANY
+import:         from AS200452 action pref=100; accept ANY
+default:        to AS44237 networks AS-TULATELECOM
+admin-c:        KSC2-RIPE
+tech-c:         IYK5-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TULATEL-MNT-RIPE
+mnt-by:         ROSTELECOM-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-04-15T10:48:19Z
+source:         RIPE # Filtered
+
+organisation:   ORG-JR8-RIPE
+org-name:       PJSC Rostelecom
+country:        RU
+org-type:       LIR
+address:        14 A, Sinopskaya nabereznaya
+address:        191167
+address:        S.Peterburg
+address:        RUSSIAN FEDERATION
+phone:          +7 499 999-82-83
+fax-no:         +74999953619
+admin-c:        PRTT1-RIPE
+admin-c:        IE1277-RIPE
+admin-c:        NM7547-RIPE
+admin-c:        AA728-RIPE
+abuse-c:        RTNC-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ROSTELECOM-MNT
+mnt-ref:        ROSNIIROS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ROSTELECOM-MNT
+created:        2005-03-22T11:11:20Z
+last-modified:  2025-08-12T04:03:18Z
+source:         RIPE # Filtered
+
+person:         Inoyat Y. Kayumov
+address:        Tula's Branch OJSC CenterTelecom
+address:        33, Pr. Lenina
+address:        300000, Tula, Russia
+remarks:        phone: +7 0872 360778
+phone:          +7 4872 360778
+nic-hdl:        IYK5-RIPE
+mnt-by:         TULATEL-MNT-RIPE
+created:        2004-12-22T15:03:45Z
+last-modified:  2014-02-13T07:09:16Z
+source:         RIPE # Filtered
+remarks:        modified for Russian phone area changes
+
+person:         Konstantin S. Chesnokov
+address:        Rostelecom
+address:        pr.Lenina, 33
+address:        300062, Tula, Russia
+phone:          +74872308070
+nic-hdl:        KSC2-RIPE
+mnt-by:         TULATEL-MNT-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2021-09-21T07:22:33Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          212.12.0.0/19
+descr:          Specific route for AS 8675
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         ROSTELECOM-MNT
+created:        2024-12-23T07:26:30Z
+last-modified:  2024-12-23T07:26:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.0.0/24
+descr:          Specific route for Tulatelecom corporate networks
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T08:25:25Z
+last-modified:  2005-01-24T08:25:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.1.0/24
+descr:          Specific route for dialup clients
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T08:23:32Z
+last-modified:  2005-01-24T08:23:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.2.0/24
+descr:          Specific route for client`s leased links
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T08:22:48Z
+last-modified:  2005-01-24T08:22:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.3.0/24
+descr:          Specific route for client`s leased links
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T08:21:49Z
+last-modified:  2005-01-24T08:21:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.4.0/24
+descr:          Specific route for dialup clients
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         ROSTELECOM-MNT
+created:        2024-12-23T07:27:08Z
+last-modified:  2024-12-23T07:27:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.5.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T08:17:52Z
+last-modified:  2005-01-24T08:17:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.6.0/24
+descr:          Specific route for client`s leased links
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T08:14:42Z
+last-modified:  2005-01-24T08:14:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.7.0/24
+descr:          Specific route for Tulanews Ltd
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T08:12:47Z
+last-modified:  2005-01-24T08:12:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.8.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T08:10:46Z
+last-modified:  2005-01-24T08:10:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.9.0/24
+descr:          Address space for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2004-04-27T03:27:12Z
+last-modified:  2004-04-27T03:27:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.10.0/24
+descr:          Address space for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2004-04-27T11:11:44Z
+last-modified:  2004-04-27T11:11:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.11.0/24
+descr:          Address space for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2004-04-27T19:08:01Z
+last-modified:  2004-04-27T19:08:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.12.0/24
+descr:          Specific route for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:38:56Z
+last-modified:  2005-01-24T07:38:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.13.0/24
+descr:          Address space for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2004-06-08T04:14:12Z
+last-modified:  2004-06-08T04:14:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.14.0/24
+descr:          Specific route for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:35:37Z
+last-modified:  2005-01-24T07:35:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.15.0/24
+descr:          Specific route for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:35:10Z
+last-modified:  2005-01-24T07:35:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.16.0/24
+descr:          Specific route for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:34:33Z
+last-modified:  2005-01-24T07:34:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.17.0/24
+descr:          Specific route for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:33:42Z
+last-modified:  2005-01-24T07:33:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.18.0/24
+descr:          Specific route for IOLA users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:33:15Z
+last-modified:  2005-01-24T07:33:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.19.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:28:29Z
+last-modified:  2005-01-24T07:28:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.20.0/24
+descr:          Specific route for ADSL users
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:28:04Z
+last-modified:  2005-01-24T07:32:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.21.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         ROSTELECOM-MNT
+created:        2024-12-23T07:27:47Z
+last-modified:  2024-12-23T07:27:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.22.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:26:55Z
+last-modified:  2005-01-24T07:26:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.23.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:25:25Z
+last-modified:  2005-01-24T07:25:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.24.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:24:58Z
+last-modified:  2005-01-24T07:24:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.25.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:22:54Z
+last-modified:  2005-01-24T07:22:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.26.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:22:24Z
+last-modified:  2005-01-24T07:22:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.27.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:20:58Z
+last-modified:  2005-01-24T07:20:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.28.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:18:24Z
+last-modified:  2005-01-24T07:18:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.29.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:17:11Z
+last-modified:  2005-01-24T07:17:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.30.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:15:09Z
+last-modified:  2005-01-24T07:15:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.12.31.0/24
+descr:          Specific route for load balansing
+origin:         AS8675
+notify:         noc@tula.net
+mnt-by:         TULATEL-MNT-RIPE
+created:        2005-01-24T07:07:29Z
+last-modified:  2005-01-24T07:07:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.35.160.0/19
+descr:          Specific route for AS 8675
+mnt-routes:     ROSTELECOM-MNT
+origin:         AS8675
+mnt-by:         TULATEL-MNT-RIPE
+created:        2011-03-04T08:00:30Z
+last-modified:  2018-10-26T07:43:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

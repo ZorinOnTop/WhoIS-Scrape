@@ -1,0 +1,511 @@
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to 'AS9249 - AS10239'
+
+as-block:       AS9249 - AS10239
+descr:          APNIC ASN block
+remarks:        These AS numbers are further assigned by APNIC
+remarks:        to APNIC members and end-users in the APNIC region
+admin-c:        HM20-AP
+tech-c:         HM20-AP
+mnt-by:         APNIC-HM
+mnt-lower:      APNIC-HM
+last-modified:  2022-09-22T22:36:45Z
+source:         APNIC
+
+role:           APNIC Hostmaster
+address:        6 Cordelia Street
+address:        South Brisbane
+address:        QLD 4101
+country:        AU
+phone:          +61 7 3858 3100
+fax-no:         +61 7 3858 3199
+e-mail:         helpdesk@apnic.net
+admin-c:        AMS11-AP
+tech-c:         AH256-AP
+nic-hdl:        HM20-AP
+remarks:        Administrator for APNIC
+notify:         hostmaster@apnic.net
+mnt-by:         MAINT-APNIC-AP
+last-modified:  2013-10-23T04:06:51Z
+source:         APNIC
+
+% Information related to 'AS10102'
+
+% Abuse contact for 'AS10102' is 'legal@1asiacom.com'
+
+aut-num:        AS10102
+as-name:        SG-1ASIACOM-AS-AP
+descr:          1Asia Communication Pte Ltd
+descr:          151 Chin Swee Road
+descr:          14-01 Manhattan House
+country:        SG
+mp-import:      afi any.unicast { from AS-ANY accept ANY AND NOT RS-MARTIANS; } refine { from AS-ANY action pref = 50; accept community.contains(10102:50); from AS-ANY action pref = 30; accept community.contains(10102:70); from AS-ANY action pref = 10; accept community.contains(10102:90); from AS-ANY action pref = 0; accept ANY; } refine afi ipv4.unicast { from AS6453 66.110.0.126 at 103.4.109.254 action pref=10; community.append(10102:11000,10102:11010,10102:11011); accept ANY AND NOT RS-MARTIANS; from AS58682 103.4.108.54 at 103.4.108.53 action community.append(10102:41000,10102:41010,10102:41011); accept AS-58682^24 AND <^AS58682+ AS-58682*$>; from AS58715 103.4.108.62 at 103.4.108.61 action community.append(10102:41000,10102:41010,10102:41011); accept AS-58715^24 AND <^AS58715+ AS-58715*$>; from AS58656 103.4.108.94 at 103.4.108.93 action community.append(10102:41000,10102:41010,10102:41011); accept AS-BDHUB^24 AND <^AS58656+ AS-BDHUB*$>; from AS45326 103.4.108.130 at 103.4.108.129 action community.append(10102:41000,10102:41010,10102:41011); accept AS45326^24 AND <^AS45326+$>; from AS132575 103.4.108.146 at 103.4.108.145 action community.append(10102:41000,10102:41010,10102:41011); accept AS132575^24 AND <^AS132575+$>; from AS58782 103.4.108.134 at 103.4.108.133 action pref=10; community.append(10102:41000,10102:41010,10102:41011); accept AS58782^24 AND <^AS58782+$>; from AS24556 103.4.108.162 at 103.4.108.161 action community.append(10102:41000,10102:41010,10102:41011); accept AS24556^24 AND <^AS24556+$>; from AS58803 103.4.108.174 at 103.4.108.173 action community.append(10102:41000,10102:41010,10102:41011); accept AS-58803^24 AND <^AS58803+ AS-58803*$>; from AS58657 103.4.108.178 at 103.4.108.177 action community.append(10102:41000,10102:41010,10102:41011); accept AS58657^24 AND <^AS58657+$>; from AS132306 103.4.108.182 at 103.4.108.181 action community.append(10102:41000,10102:41010,10102:41011); accept AS132306^24 AND <^AS132306+$>; from AS38071 103.4.108
+.186 at 103.4.108.185 action community.append(10102:41000,10102:41010,10102:41011); accept AS38071:AS-CUSTOMERS^24 AND <^AS38071+ AS38071:AS-CUSTOMERS*$>; from AS132582 103.4.108.218 at 103.4.108.217 action community.append(10102:41000,10102:41010,10102:41011); accept AS132582^24 AND <^AS132582+$>; from AS38744 103.4.108.222 at 103.4.108.221 action community.append(10102:41000,10102:41010,10102:41011); accept AS38744^24 AND <^AS38744+$>; from AS38071 103.4.109.34 at 103.4.109.33 action pref=10; community.append(10102:41000,10102:41010,10102:41011); accept AS38071:AS-CUSTOMERS^24 AND <^AS38071+ AS38071:AS-CUSTOMERS*$>; from AS58672 103.4.109.46 at 103.4.109.45 action community.append(10102:41000,10102:41010,10102:41011); accept AS-Maxnet^24 AND <^AS58672+ AS-Maxnet*$>; from AS58670 103.4.109.50 at 103.4.109.49 action community.append(10102:41000,10102:41010,10102:41011); accept AS58670^24 AND <^AS58670+$>; from AS58629 103.4.109.62 at 103.4.109.61 action community.append(10102:41000,10102:41010,10102:41011); accept AS58629:AS-CUSTOMERS^24 AND <^AS58629+ AS58629:AS-CUSTOMERS*$>; from AS58691 103.4.109.78 at 103.4.109.77 action community.append(10102:41000,10102:41010,10102:41011); accept AS-SET-DELTA^24 AND <^AS58691+ AS-SET-DELTA*$>; from AS58691 103.4.109.82 at 103.4.109.81 action pref=10; community.append(10102:41000,10102:41010,10102:41011); accept AS-SET-DELTA^24 AND <^AS58691+ AS-SET-DELTA*$>; from AS58657 103.4.109.94 at 103.4.109.93 action pref=10; community.append(10102:41000,10102:41010,10102:41011); accept AS58657^24 AND <^AS58657+$>; from AS24323 103.4.109.134 at 103.4.109.133 action community.append(10102:41000,10102:41010,10102:41011); accept AS24323^24 AND <^AS24323+$>; from AS58782 103.4.109.142 at 103.4.109.141 action community.append(10102:41000,10102:41010,10102:41011); accept AS58782^24 AND <^AS58782+$>; from AS38031 103.4.109.158 at 103.4.109.157 action community.append(10102:41000,10102:41010,10102:41011); accept AS38031^24 AND <^AS38031+$>; fro
+m AS132442 103.4.109.170 at 103.4.109.169 action community.append(10102:41000,10102:41010,10102:41011); accept AS-NEWTEX^24 AND <^AS132442+ AS-NEWTEX*$>; from AS23923 103.4.109.202 at 103.4.109.201 action community.append(10102:41000,10102:41010,10102:41011); accept AS-AGNI^24 AND <^AS23923+ AS-AGNI*$>; from AS38592 103.4.111.210 at 103.4.111.209 action pref=10; community.append(10102:41000,10102:41010,10102:41011); accept AS38592^24 AND <^AS38592+$>; from AS38592 103.4.111.242 at 103.4.111.241 action community.append(10102:41000,10102:41010,10102:41011); accept AS38592^24 AND <^AS38592+$>; from AS38562 103.4.111.254 at 103.4.111.253 action community.append(10102:41000,10102:41010,10102:41011); accept AS38562^24 AND <^AS38562+$>; from AS9498 125.17.2.54 at 125.17.2.53 action pref=10; community.append(10102:11000,10102:11010,10102:11011); accept ANY AND NOT RS-MARTIANS; from AS23923 103.4.109.250 at 103.4.109.249 action pref=10; community.append(10102:41000,10102:41010,10102:41011); accept AS-AGNI^24 AND <^AS23923+ AS-AGNI*$>; from AS24556 103.4.108.230 at 103.4.108.229 action pref=10; community.append(10102:41000,10102:41010,10102:41011); accept AS24556^24 AND <^AS24556+$>; from AS15169 27.0.9.10 at 27.0.9.9 action pref=5; community.append(10102:31000,10102:31020,10102:31021); accept AS15169^24 AND <^AS15169+ AS-GOOGLE*$>; from AS15169 27.0.10.9 at 27.0.10.10 action pref=5; community.append(10102:31000,10102:31020,10102:31021); accept AS15169^24 AND <^AS15169+ AS-GOOGLE*$>; from AS23936 27.0.10.18 at 27.0.10.17 action community.append(10102:43000,10102:43010,10102:43011); accept AS23936^24 AND <^AS23936+$>; from AS24482 27.0.10.66 at 27.0.10.65 action community.append(10102:43000,10102:43010,10102:43011); accept AS-SGGS^24 AND <^AS24482+ AS-SGGS*$>; from AS58715 27.0.10.90 at 27.0.10.89 action community.append(10102:43000,10102:43010,10102:43011); accept AS-58715^24 AND <^AS58715+ AS-58715*$>; from AS6939 27.50.33.38 at 27.50.33.37 action pref=10; community.append(
+10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; from AS6762 93.186.133.41 at 93.186.133.42 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; from AS55518 103.16.102.10 at 103.16.102.52 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS; from AS55518 103.16.102.12 at 103.16.102.52 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS; from AS55518 103.16.102.13 at 103.16.102.52 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS; from AS6453 120.29.215.25 at 120.29.215.26 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; from AS9505 175.41.61.53 at 175.41.61.54 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; from AS10310 202.79.197.3 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-YAHOO^24 AND <^AS10310+ AS-YAHOO*$>; from AS10310 202.79.197.131 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-YAHOO^24 AND <^AS10310+ AS-YAHOO*$>; from AS18106 202.79.197.6 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS18106^24 AND <^AS18106+$>; from AS7595 202.79.197.25 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS7595^24 AND <^AS7595+$>; from AS8075 202.79.197.57 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-MICROSOFT^24 AND <^AS8075+ AS-MICROSOFT*$>; from AS32934 202.79.197.65 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-FACEBOOK^24 AND <^AS32934+ AS-FACEBOOK*$>; from AS15133 202.79.197.67 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21
+020,10102:21021); accept AS-EDGECAST^24 AND <^AS15133+ AS-EDGECAST*$>; from AS36351 202.79.197.69 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-SOFTLAYER^24 AND <^AS36351+ AS-SOFTLAYER*$>; from AS24218 202.79.197.85 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-SET-GTI-PIP^24 AND <^AS36351+ AS-SET-GTI-PIP*$>; from AS36692 202.79.197.90 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-OPENDNS^24 AND <^AS36692+ AS-OPENDNS*$>; from AS45634 202.79.197.93 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS45634^24 AND <^AS45634+$>; from AS20940 202.79.197.102 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-AKAMAI^24 AND <^AS20940+ AS-AKAMAI*$>; from AS24115 202.79.197.122 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS; from AS24115 202.79.197.123 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS; from AS45352 202.79.197.153 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-SET-IPSERVERONE^24 AND <^AS45352+ AS-SET-IPSERVERONE*$>; from AS9534 202.79.197.158 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS9534^24 AND <^AS9534+$>; from AS45796 202.79.197.192 at 202.79.197.171 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS45796^24 AND <^AS45796+$>; from AS6453 66.110.0.219 at 182.16.142.3 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; from AS174 149.6.184.185 at 149.6.184.186 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; from AS3356 195.50.118.49 at 195.
+50.118.50 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; } refine afi ipv6.unicast { from AS6453 2001:5a0:2300:100::55 at 2001:5a0:2300:100::56 action pref=10; community.append(10102:11000,10102:11010,10102:11011); accept ANY AND NOT RS-MARTIANS; from AS58629 2404:a100:1fff:ffff::2 at 2404:a100:1fff:ffff::1 action community.append(10102:41000,10102:41010,10102:41011); accept AS58629:AS-CUSTOMERS AND <^AS58629+ AS58629:AS-CUSTOMERS*$>; from AS58691 2404:a100:1fff:ffff::6 at 2404:a100:1fff:ffff::5 action community.append(10102:41000,10102:41010,10102:41011); accept AS-SET-DELTA AND <^AS58691+ AS-SET-DELTA*$>;from AS58691 2404:a100:1fff:ffff::a at 2404:a100:1fff:ffff::9 action pref=10; community.append(10102:41000,10102:41010,10102:41011); accept AS-SET-DELTA AND <^AS58691+ AS-SET-DELTA*$>; from AS6939 2001:470:1:c9::1 at 2001:470:1:c9::2 action pref=10; community.append(10102:11000,10102:11010,10102:11011); accept ANY AND NOT RS-MARTIANS; from AS20940 2001:de8:4::2:940:1 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-AKAMAI AND <^AS20940+ AS-AKAMAI*$>; from AS24115 2001:de8:4::2:4115:1 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS; from AS24115 2001:de8:4::2:4115:2 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS; from AS36351 2001:de8:4::3:6351:1 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-SOFTLAYER AND <^AS36351+ AS-SOFTLAYER*$>; from AS45352 2001:de8:4::4:5352:1 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS-SET-IPSERVERONE AND <^AS45352+ AS-SET-IPSERVERONE*$>; from AS45634 2001:de8:4::4:5634:1 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accep
+t AS45634 AND <^AS45634+$>; from AS45796 2001:de8:4::4:5796:1 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept AS45796 AND <^AS45796+$>; from AS55518 2001:de8:12:100::10 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS;from AS55518 2001:de8:12:100::12 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS; from AS55518 2001:de8:12:100::13 at 2001:de8:4::1:102:1 action pref=5; community.append(10102:21000,10102:21020,10102:21021); accept ANY AND NOT RS-MARTIANS; from AS6762 2001:41a8:6000:2::55 at 2001:41a8:6000:2::56 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; from AS15169 2404:a100:2000::11 at 2404:a100:2000::12 action pref=5; community.append(10102:31000,10102:31020,10102:31021); accept AS15169 AND <^AS15169+ AS-GOOGLE*$>; from AS24482 2404:a100:2000:1fff:ffff::2 at 2404:a100:2000:1fff:ffff::1 action community.append(10102:43000,10102:43010,10102:43011); accept AS-SGGS AND <^AS24482+ AS-SGGS*$>; from AS6453 2405:2000:300::41 at 2405:2000:300::42 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; from AS6453 2001:5a0:c00:400::15 at 2001:5a0:c00:400::16 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS; from AS174 2001:978:2:21::41:1 at 2001:978:2:21::41:2 action pref=10; community.append(10102:13000,10102:13010,10102:13011); accept ANY AND NOT RS-MARTIANS;}
+mp-export:      afi any.unicast { to AS-ANY announce AS-10102 AND <^AS-10102*$>; } refine { to AS58629 action pref=0; announce ANY; to AS58691 action pref=0; announce community.contains(10102:21000,10102:21020,10102:21021,10102:31000,10102:31020,10102:31021); to AS24482 action pref=0; announce ANY; } refine afi ipv4.unicast { to AS58682 action pref=0; announce { 0.0.0.0/0 }; to AS58715 action pref=0; announce ANY; to AS58656 action pref=0; announce ANY; to AS45326 action pref=0; announce { 0.0.0.0/0 }; to AS132575 action pref=0; announce { 0.0.0.0/0 }; to AS58782 action pref=0; announce { 0.0.0.0/0 }; to AS24556 action pref=0; announce { 0.0.0.0/0 }; to AS58803 action pref=0; announce { 0.0.0.0/0 }; to AS58657 action pref=0; announce { 0.0.0.0/0 }; to AS132306 action pref=0; announce { 0.0.0.0/0 }; to AS38071 action pref=0; announce { 0.0.0.0/0 }; to AS132582 action pref=0; announce { 0.0.0.0/0 }; to AS38744 action pref=0; announce { 0.0.0.0/0 }; to AS58672 action pref=0; announce ANY; to AS58670 action pref=0; announce { 0.0.0.0/0 }; to AS24323 action pref=0; announce { 0.0.0.0/0 }; to AS38031 action pref=0; announce { 0.0.0.0/0 }; to AS132442 action pref=0; announce { 0.0.0.0/0 }; to AS23923 action pref=0; announce ANY; to AS38592 action pref=0; announce { 0.0.0.0/0 }; to AS38562 action pref=0; announce { 0.0.0.0/0 }; to AS23936 action pref=0; announce ANY; }
+org:            ORG-CPL21-AP
+admin-c:        SHC12-AP
+tech-c:         MMR13-AP
+abuse-c:        AS2992-AP
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         APNIC-HM
+mnt-irt:        IRT-SG-1ASIACOM-SG
+last-modified:  2021-01-14T05:43:40Z
+source:         APNIC
+
+irt:            IRT-SG-1ASIACOM-SG
+address:        151 Lorong Chuan , NEW TECH PARK # 04-07 Lobby G
+e-mail:         legal@1asiacom.com
+abuse-mailbox:  legal@1asiacom.com
+admin-c:        MMHN1-AP
+tech-c:         MMHN1-AP
+auth:           # Filtered
+remarks:        legal@1asiacom.com was validated on 2025-03-09
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2025-03-09T09:12:40Z
+source:         APNIC
+
+organisation:   ORG-CPL21-AP
+org-name:       1Asia Communication Pte Ltd
+org-type:       LIR
+country:        SG
+address:        151 Lorong Chuan
+address:        Unit # 04-07 Lobby G
+phone:          +65-6280-0688
+fax-no:         +65-6280-0688
+e-mail:         legal@1asiacom.com
+mnt-ref:        APNIC-HM
+mnt-by:         APNIC-HM
+last-modified:  2023-09-05T02:15:38Z
+source:         APNIC
+
+role:           ABUSE SG1ASIACOMSG
+country:        ZZ
+address:        151 Lorong Chuan , NEW TECH PARK # 04-07 Lobby G
+phone:          +000000000
+e-mail:         legal@1asiacom.com
+admin-c:        MMHN1-AP
+tech-c:         MMHN1-AP
+nic-hdl:        AS2992-AP
+remarks:        Generated from irt object IRT-SG-1ASIACOM-SG
+remarks:        legal@1asiacom.com was validated on 2025-03-09
+abuse-mailbox:  legal@1asiacom.com
+mnt-by:         APNIC-ABUSE
+last-modified:  2025-03-09T09:13:06Z
+source:         APNIC
+
+role:           Shahriar Haq Chowdhury
+address:        151 Lorong Chuan, New Tech Park
+country:        SG
+phone:          +6591996837
+e-mail:         legal@1asiacom.com
+admin-c:        MMHN1-AP
+tech-c:         MMHN1-AP
+nic-hdl:        SHC12-AP
+notify:         legal@1asiacom.com
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-11-15T09:50:18Z
+source:         APNIC
+
+person:         Muhammad Moinur Rahman
+address:        The Alliance Building. (6th Floor),
+address:        63 Pragati Sharani, Baridhara, Shajadpur
+country:        BD
+phone:          +8801977881132
+e-mail:         moin@1asia-ahl.com
+nic-hdl:        MMR13-AP
+notify:         moin@1asia-ahl.com
+mnt-by:         MAINT-BD-1ASIAAHL
+last-modified:  2012-11-28T06:20:40Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.34 (WHOIS-UK2)
+
+
+
+route:          27.0.8.0/22
+origin:         AS10102
+descr:          1Asia Communication Pte Ltd
+                151 Lorong Chuan
+                Unit #04-07 Lobby G
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2025-03-13T08:08:55Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          27.0.8.0/24
+origin:         AS10102
+descr:          1Asia Communication Pte Ltd
+                151 Lorong Chuan
+                Unit #04-07 Lobby G
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2025-03-13T08:08:56Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          27.0.9.0/24
+origin:         AS10102
+descr:          1Asia Communication Pte Ltd
+                151 Lorong Chuan
+                Unit #04-07 Lobby G
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2025-03-13T08:08:57Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          27.0.10.0/24
+origin:         AS10102
+descr:          1Asia Communication Pte Ltd
+                151 Lorong Chuan
+                Unit #04-07 Lobby G
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2025-03-13T08:08:59Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          27.0.11.0/24
+origin:         AS10102
+descr:          1Asia Communication Pte Ltd
+                151 Lorong Chuan
+                Unit #04-07 Lobby G
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2025-03-13T08:09:00Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          103.4.108.0/22
+descr:          1Asia Alliance Communication Ltd
+origin:         AS10102
+country:        BD
+mnt-lower:      MAINT-BD-1ASIAAHL
+mnt-routes:     MAINT-BD-1ASIAAHL
+mnt-by:         MAINT-BD-1ASIAAHL
+last-modified:  2012-12-30T11:00:31Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          103.4.108.0/23
+descr:          1Asia Alliance Communication Ltd
+origin:         AS10102
+country:        BD
+mnt-lower:      MAINT-BD-1ASIAAHL
+mnt-routes:     MAINT-BD-1ASIAAHL
+mnt-by:         MAINT-BD-1ASIAAHL
+last-modified:  2012-12-30T11:04:14Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          103.4.108.0/24
+descr:          1Asia Alliance Communication Ltd
+origin:         AS10102
+country:        BD
+mnt-lower:      MAINT-BD-1ASIAAHL
+mnt-routes:     MAINT-BD-1ASIAAHL
+mnt-by:         MAINT-BD-1ASIAAHL
+last-modified:  2012-12-30T11:02:48Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          103.4.109.0/24
+descr:          1Asia Alliance Communication Ltd
+origin:         AS10102
+country:        BD
+mnt-lower:      MAINT-BD-1ASIAAHL
+mnt-routes:     MAINT-BD-1ASIAAHL
+mnt-by:         MAINT-BD-1ASIAAHL
+last-modified:  2012-12-30T11:03:04Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          103.4.110.0/23
+descr:          1Asia Alliance Communication Ltd
+origin:         AS10102
+country:        BD
+mnt-lower:      MAINT-BD-1ASIAAHL
+mnt-routes:     MAINT-BD-1ASIAAHL
+mnt-by:         MAINT-BD-1ASIAAHL
+last-modified:  2012-12-30T11:04:29Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          103.4.110.0/24
+descr:          1Asia Alliance Communication Ltd
+origin:         AS10102
+country:        BD
+mnt-lower:      MAINT-BD-1ASIAAHL
+mnt-routes:     MAINT-BD-1ASIAAHL
+mnt-by:         MAINT-BD-1ASIAAHL
+last-modified:  2012-12-30T11:03:32Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          103.4.111.0/24
+descr:          1Asia Alliance Communication Ltd
+origin:         AS10102
+country:        BD
+mnt-lower:      MAINT-BD-1ASIAAHL
+mnt-routes:     MAINT-BD-1ASIAAHL
+mnt-by:         MAINT-BD-1ASIAAHL
+last-modified:  2012-12-30T11:03:46Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.208.0/21
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-02-16T06:41:05Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.208.0/22
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:54Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.208.0/23
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:27Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.208.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:18:20Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.209.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:18:26Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.210.0/23
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:33Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.210.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:18:31Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.211.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:18:37Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.212.0/22
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:59Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.212.0/23
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:38Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.212.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:01Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.213.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:06Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.214.0/23
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:43Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.214.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:11Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          114.141.215.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:19:16Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          182.16.140.0/22
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+mnt-lower:      MAINT-BD-1ASIAAHL
+mnt-routes:     MAINT-BD-1ASIAAHL
+mnt-by:         MAINT-BD-1ASIAAHL
+last-modified:  2012-12-09T17:48:49Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          182.16.140.0/23
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:28:02Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          182.16.140.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:27:35Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          182.16.141.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:27:43Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          182.16.142.0/23
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:28:08Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          182.16.142.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:27:49Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          182.16.143.0/24
+descr:          1Asia Communication Pte Ltd
+origin:         AS10102
+country:        SG
+mnt-lower:      MAINT-SG-1ASIACOM-SG
+mnt-routes:     MAINT-SG-1ASIACOM-SG
+mnt-by:         MAINT-SG-1ASIACOM-SG
+last-modified:  2012-12-30T11:27:54Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route6:         2404:a100::/32
+origin:         AS10102
+descr:          1Asia Communication Pte Ltd
+                151 Lorong Chuan
+                Unit #04-07 Lobby G
+mnt-by:         MAINT-BD-1ASIACOM
+last-modified:  2025-03-13T08:01:40Z
+source:         APNIC
+rpki-ov-state:  valid
+
+

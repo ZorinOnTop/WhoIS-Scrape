@@ -1,0 +1,238 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS248 - AS251'
+
+as-block:       AS248 - AS251
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:05Z
+last-modified:  2018-11-22T15:27:05Z
+source:         RIPE
+
+% Information related to 'AS249'
+
+% No abuse contact registered for AS249
+
+aut-num:        AS249
+as-name:        PACKETSTAR
+descr:          European Network
+remarks:        ---------------------------------
+remarks:        UPSTREAM
+remarks:        ---------------------------------
+remarks:        # IPv4
+import:         from AS174 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS174 announce AS249:AS-CUSTOMERS
+import:         from AS9002 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS9002 announce AS249:AS-CUSTOMERS
+import:         from AS1299 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS1299 announce AS249:AS-CUSTOMERS
+import:         from AS2914 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS2914 announce AS249:AS-CUSTOMERS
+remarks:        # IPv6
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS249:AS-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS9002 accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS249:AS-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS249:AS-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS2914 accept ANY
+mp-export:      afi ipv6.unicast to AS2914 announce AS249:AS-CUSTOMERS
+remarks:        ---------------------------------
+remarks:        DOWNSTREAM
+remarks:        ---------------------------------
+remarks:        # IPv4
+import:         from AS56444 accept AS-THECLOUDLIMITED:AS-ORIGINS
+export:         to AS56444 announce ANY
+import:         from AS204044 accept AS204044
+export:         to AS204044 announce ANY
+import:         from AS204193 accept AS204193
+export:         to AS204193 announce ANY
+import:         from AS215071 accept AS215071
+export:         to AS215071 announce ANY
+import:         from AS22612 accept AS22612
+export:         to AS22612 announce ANY
+remarks:        # IPv6
+remarks:        ---------------------------------
+remarks:        PUBLIC ROUTE SERVERS
+remarks:        ---------------------------------
+import:         from AS-LINX-CONNECTED accept PeerAS
+export:         to AS-LINX-CONNECTED announce AS249:AS-CUSTOMERS
+remarks:        We also announce to LONAP Route Server, No AS SET avaliable
+remarks:        ---------------------------------
+remarks:        PRIVATE PEERING
+remarks:        ---------------------------------
+remarks:        # IPv4
+import:         from AS6939 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS6939 announce AS249:AS-CUSTOMERS
+import:         from AS6461 accept AS-MFNX
+export:         to AS6461 announce AS249:AS-CUSTOMERS
+remarks:        # IPv6
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS249:AS-CUSTOMERS
+remarks:        ---------------------------------
+remarks:        PEERING POLICY
+remarks:        ---------------------------------
+remarks:        PacketStar have an open peering policy
+remarks:        For details visit www.as249.net
+remarks:        Please accept AS249:AS-CUSTOMERS
+remarks:        ---------------------------------
+remarks:        BGP COMMUNITIES
+remarks:        ---------------------------------
+remarks:        Please visit www.as249.net for details
+remarks:        ---------------------------------
+admin-c:        PAPP-RIPE
+tech-c:         PAPP-RIPE
+status:         LEGACY
+mnt-by:         AS249-MNT
+created:        2002-08-21T16:05:59Z
+last-modified:  2024-10-31T09:41:36Z
+source:         RIPE
+
+person:         Peter Appleton
+address:        The Granary
+address:        Whiteley Lane
+address:        Fareham
+address:        Hampshire
+address:        PO15 6RQ
+address:        UNITED KINGDOM
+phone:          +448453131111
+nic-hdl:        PAPP-RIPE
+mnt-by:         AS249-MNT
+created:        2014-08-14T00:45:17Z
+last-modified:  2016-06-16T23:54:33Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          85.237.80.0/22
+origin:         AS249
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com 20241028 # 00:30 GMT
+source:         radb
+last-modified:  2024-10-28T00:30:22Z
+rpki-ov-state:  valid
+
+route:          185.116.108.0/22
+descr:          Packet Star Networks
+origin:         AS249
+mnt-by:         STAR-MNT
+created:        2024-04-14T11:05:17Z
+last-modified:  2024-04-14T11:05:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.116.108.0/24
+descr:          Packet Star Networks
+origin:         AS249
+mnt-by:         STAR-MNT
+created:        2024-03-08T01:02:43Z
+last-modified:  2024-03-08T01:02:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a06:7e00::/29
+descr:          Packet Star Networks
+origin:         AS249
+mnt-by:         STAR-MNT
+created:        2025-04-17T05:26:56Z
+last-modified:  2025-04-17T05:28:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a06:7e00::/32
+descr:          Packet Star Networks UK
+origin:         AS249
+mnt-by:         STAR-MNT
+created:        2025-04-17T05:41:11Z
+last-modified:  2025-04-17T05:41:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a06:7e01::/32
+descr:          Packet Star Networks NL
+origin:         AS249
+mnt-by:         STAR-MNT
+created:        2025-04-17T05:40:33Z
+last-modified:  2025-04-17T05:40:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a06:7e02::/32
+descr:          Packet Star Networks DE
+origin:         AS249
+mnt-by:         STAR-MNT
+created:        2025-04-17T05:42:11Z
+last-modified:  2025-04-17T05:42:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a06:7e07::/32
+descr:          Packet Star Networks Core
+origin:         AS249
+mnt-by:         STAR-MNT
+created:        2025-04-17T05:39:35Z
+last-modified:  2025-04-17T05:39:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

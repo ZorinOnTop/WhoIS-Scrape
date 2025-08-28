@@ -1,0 +1,280 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15679'
+
+% Abuse contact for 'AS15679' is 'cissupport@ita.gov.om'
+
+aut-num:        AS15679
+as-name:        CIS
+org:            ORG-ITA5-RIPE
+import:         from AS8529 accept ANY
+import:         from AS28885 accept ANY
+import:         from AS50010 accept ANY
+export:         to AS8529 announce AS15679
+export:         to AS28885 announce AS15679
+export:         to AS50010 announce AS15679
+remarks:        ----------------------------------
+remarks:        We export the prefixes:
+remarks:        188.65.24/21
+remarks:        2a00:11a8::/32
+remarks:        Contact: cissupport@ita.gov.om
+remarks:        ----------------------------------
+admin-c:        CL205-RIPE
+tech-c:         CL205-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         OM_CIS-MNT
+created:        2009-07-31T08:46:35Z
+last-modified:  2018-09-04T10:43:20Z
+source:         RIPE
+
+organisation:   ORG-ITA5-RIPE
+org-name:       Ministry of Transport, Communication, and Information Technology
+country:        OM
+org-type:       LIR
+address:        Muscat, Al-Khuwair,
+                Al-Wazarat Road P.O.Box: 684
+address:        100
+address:        Muscat
+address:        OMAN
+phone:          +96824166888
+phone:          +96824166862
+fax-no:         +96824166604
+abuse-c:        AR16374-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         OM_CIS-MNT
+mnt-ref:        OM_CIS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+admin-c:        ITA96-RIPE
+created:        2009-07-27T09:00:06Z
+last-modified:  2022-09-14T07:01:34Z
+source:         RIPE # Filtered
+
+role:           CIS LIR
+address:        Information Technology Authority (ITA)
+address:        Center for Information Security (CIS)
+address:        Muscat
+admin-c:        ITA600-RIPE
+tech-c:         RS5187-RIPE
+tech-c:         ITA96-RIPE
+nic-hdl:        CL205-RIPE
+mnt-by:         OM_CIS-MNT
+created:        2009-07-31T03:32:38Z
+last-modified:  2013-01-10T07:49:47Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          188.65.24.0/21
+origin:         AS15679
+descr:          AC_OMANTEL Proxy Route Object for Arbor Cloud
+mnt-by:         MAINT-AS19905
+changed:        soc@neustar.biz 20250110 # 00:47 GMT
+source:         RADB
+last-modified:  2025-01-10T00:47:37Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.24.0/23
+descr:          NAWRAS via EMIX
+origin:         AS15679
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20130902
+source:         RADB
+last-modified:  2023-11-13T15:45:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.24.0/24
+descr:          ISD Infra Alloc
+origin:         AS15679
+mnt-by:         OM_CIS-MNT
+mnt-routes:     AS8529-MNT
+mnt-routes:     NAWRAS-NOC
+created:        2013-01-09T20:06:55Z
+last-modified:  2013-01-09T20:06:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.25.0/24
+descr:          ISD Infra Alloc
+origin:         AS15679
+mnt-by:         OM_CIS-MNT
+mnt-routes:     AS8529-MNT
+mnt-routes:     NAWRAS-NOC
+created:        2013-01-09T20:09:30Z
+last-modified:  2013-01-09T20:09:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.26.0/23
+descr:          NAWRAS via EMIX
+origin:         AS15679
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20130902
+source:         RADB
+last-modified:  2023-11-13T15:45:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.26.0/24
+descr:          ISD Infra Alloc
+origin:         AS15679
+mnt-by:         OM_CIS-MNT
+mnt-routes:     AS8529-MNT
+mnt-routes:     NAWRAS-NOC
+created:        2013-01-09T20:12:36Z
+last-modified:  2013-01-09T20:12:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.27.0/24
+descr:          ISD Infra Alloc
+origin:         AS15679
+mnt-by:         OM_CIS-MNT
+mnt-routes:     AS8529-MNT
+mnt-routes:     NAWRAS-NOC
+created:        2013-01-09T20:14:15Z
+last-modified:  2013-01-09T20:14:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.28.0/23
+descr:          NAWRAS via EMIX
+origin:         AS15679
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20130902
+source:         RADB
+last-modified:  2023-11-13T15:45:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.28.0/24
+descr:          ISD Infra Alloc
+origin:         AS15679
+mnt-by:         OM_CIS-MNT
+mnt-routes:     AS8529-MNT
+mnt-routes:     NAWRAS-NOC
+created:        2013-01-09T20:15:55Z
+last-modified:  2013-01-09T20:15:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.29.0/24
+descr:          ISD Infra Alloc
+origin:         AS15679
+mnt-by:         OM_CIS-MNT
+mnt-routes:     AS8529-MNT
+mnt-routes:     NAWRAS-NOC
+created:        2013-01-09T20:17:36Z
+last-modified:  2013-01-09T20:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.30.0/23
+descr:          NAWRAS via EMIX
+origin:         AS15679
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20130902
+source:         RADB
+last-modified:  2023-11-13T15:45:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.30.0/24
+descr:          ISD Infra Alloc
+origin:         AS15679
+mnt-by:         OM_CIS-MNT
+mnt-routes:     AS8529-MNT
+mnt-routes:     NAWRAS-NOC
+created:        2013-01-09T20:18:50Z
+last-modified:  2013-01-09T20:18:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          188.65.31.0/24
+descr:          ISD Infra Alloc
+origin:         AS15679
+mnt-by:         OM_CIS-MNT
+mnt-routes:     AS8529-MNT
+mnt-routes:     NAWRAS-NOC
+created:        2013-01-09T20:20:14Z
+last-modified:  2013-01-09T20:20:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

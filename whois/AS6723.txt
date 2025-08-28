@@ -1,0 +1,310 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6723'
+
+% Abuse contact for 'AS6723' is 'abuse@as6723.net'
+
+aut-num:        AS6723
+as-name:        UA-XAIM
+org:            ORG-OVP1-RIPE
+remarks:        ***************************
+mp-import:      afi ipv6.unicast from AS8631 accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS8631 announce AS-6723-V6
+mp-import:      afi ipv6.unicast from AS15645 accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS3255 accept ANY
+mp-export:      afi ipv6.unicast to AS3255 announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS3257 announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS9002 accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS6663 accept ANY
+mp-export:      afi ipv6.unicast to AS6663 announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS31210 at 2001:7f8:63::3D accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 at 2001:7f8:63::3D announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS31210 at 2001:7f8:63::A0 accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 at 2001:7f8:63::A0 announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS59613 accept AS-UBNIX
+mp-export:      afi ipv6.unicast to AS59613 announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANEv6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-6723-v6
+mp-import:      afi ipv6.unicast from AS12578 accept AS-LATTELEKOM
+mp-export:      afi ipv6.unicast to AS12578 announce AS-6723-v6
+remarks:        ***************************
+import:         from AS3255 action pref=100; accept ANY
+import:         from AS9002 action pref=100; accept ANY
+import:         from AS6663 action pref=100; accept ANY
+import:         from AS3257 action pref=100; accept ANY
+import:         from AS3267 action pref=80; accept AS-RUNNET
+import:         from AS3356 action pref=100; accept ANY
+import:         from AS6870 action pref=100; accept ANY
+import:         from AS28917 action pref=100; accept ANY
+import:         from AS34259 action pref=100; accept ANY
+import:         from AS50952 action pref=100; accept ANY
+import:         from AS8631 action pref=100; accept AS-MSKROUTESERVER
+import:         from AS13002 action pref=80; accept AS-LINKEY
+import:         from AS13188 action pref=80; accept AS13188
+import:         from AS15756 action pref=80; accept AS-CARAVANRUS
+import:         from AS20985 action pref=80; accept AS-ARTX
+import:         from AS25308 action pref=80; accept AS-CITYLAN
+import:         from AS29076 action pref=80; accept ANY
+import:         from AS29329 action pref=80; accept AS-NODEX
+import:         from AS31210 at 193.25.180.61 action pref=50; accept AS-DTEL-IX
+import:         from AS31210 at 193.25.180.160 action pref=50; accept AS-DTEL-IX
+import:         from AS31500 action pref=50; accept AS-GLOBAL-NET
+import:         from AS34352 action pref=80; accept AS-MCN
+import:         from AS34456 action pref=80; accept AS-RCPEERS
+import:         from AS35297 action pref=80; accept AS-DL-UA
+import:         from AS35320 action pref=80; accept ANY
+import:         from AS41145 action pref=80; accept AS-TELIX
+import:         from AS41349 action pref=80; accept AS-MVM
+import:         from AS41802 action pref=80; accept AS-KVIDEX
+import:         from AS44050 action pref=80; accept AS-PIN-MSKIX
+import:         from AS45004 action pref=80; accept AS-UANG
+import:         from AS48293 action pref=80; accept AS-UNIONTEL-RU
+import:         from AS50577 action pref=80; accept AS50577
+import:         from AS51464 action pref=80; accept AS51464
+import:         from AS59613 action pref=50; accept AS-UBNIX
+import:         from AS6939 action pref=45; accept AS-HURRICANE
+import:         from AS12578 action pref=80; accept AS-LATTELEKOM
+import:         from AS56834 action pref=80; accept AS56834
+export:         to AS3255 announce AS-6723
+export:         to AS9002 announce AS-6723
+export:         to AS6663 announce AS-6723
+export:         to AS3257 announce AS-6723
+export:         to AS3267 announce AS-6723
+export:         to AS3356 announce AS-6723
+export:         to AS6870 announce AS-6723
+export:         to AS28917 announce AS-6723
+export:         to AS34259 announce AS-6723
+export:         to AS50952 announce AS-6723
+export:         to AS8631 announce AS-6723
+export:         to AS13002 announce AS-6723
+export:         to AS13188 announce AS-6723
+export:         to AS15756 announce AS-6723
+export:         to AS20985 announce AS-6723
+export:         to AS25308 announce AS-6723
+export:         to AS29076 announce AS-6723
+export:         to AS29329 announce AS-6723
+export:         to AS31210 at 193.25.180.61 announce AS-6723
+export:         to AS31210 at 193.25.180.160 announce AS-6723
+export:         to AS31500 announce AS-6723
+export:         to AS34352 announce AS-6723
+export:         to AS34456 announce AS-6723
+export:         to AS35297 announce AS-6723
+export:         to AS35320 announce AS-6723
+export:         to AS41145 announce AS-6723
+export:         to AS41349 announce AS-6723
+export:         to AS41802 announce AS-6723
+export:         to AS44050 announce AS-6723
+export:         to AS45004 announce AS-6723
+export:         to AS48293 announce AS-6723
+export:         to AS50577 announce AS-6723
+export:         to AS51464 announce AS-6723
+export:         to AS59613 announce AS-6723
+export:         to AS6939 announce AS-6723
+export:         to AS12578 announce AS-6723
+export:         to AS56834 announce AS-6723
+remarks:        ***************************
+import:         from AS13307 action pref=30; accept AS-SKIF
+import:         from AS15683 action pref=30; accept AS15683
+import:         from AS25385 action pref=30; accept AS25385
+import:         from AS43967 action pref=30; accept AS-TEREMKI
+import:         from AS59636 action pref=30; accept AS59636
+import:         from AS5380 action pref=30; accept AS5380
+import:         from AS44006 action pref=30; accept AS44006
+import:         from AS49971 action pref=30; accept AS49971
+export:         to AS13307 announce any
+export:         to AS15683 announce any
+export:         to AS25385 announce any
+export:         to AS43967 announce any
+export:         to AS59636 announce any
+export:         to AS5380 announce any
+export:         to AS44006 announce any
+export:         to AS49971 announce any
+remarks:        ***************************
+remarks:        ----- "AS48648" KYIVLINK -----
+import:         from AS48648 action pref=50; accept AS-KLNK
+export:         to AS48648 announce AS-6723
+remarks:        ----- GOOGLE -----
+import:         from AS15169 action pref=50; accept AS-GOOGLE
+export:         to AS15169 announce AS-6723
+mp-import:      afi ipv6.unicast from AS15169 action pref=50; accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 announce AS-6723-v6
+admin-c:        XAIM1-RIPE
+tech-c:         XAIM1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         XAIM-MNT
+created:        2008-04-10T09:39:58Z
+last-modified:  2025-06-25T10:18:50Z
+source:         RIPE # Filtered
+
+organisation:   ORG-OVP1-RIPE
+org-name:       "AS6723" LIMITED LIABILITY COMPANY
+country:        UA
+org-type:       LIR
+address:        3-A, Tsulukidze str.
+address:        03190
+address:        Kiev
+address:        UKRAINE
+phone:          +380674450424
+fax-no:         +380442720455
+admin-c:        XAIM1-RIPE
+admin-c:        XAIM-RIPE
+abuse-c:        XAIM1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        XAIM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         XAIM-MNT
+created:        2010-03-11T11:41:36Z
+last-modified:  2022-06-01T17:23:37Z
+source:         RIPE # Filtered
+
+role:           "AS6723" LLC
+address:        21 Zaliznychne Highway
+address:        01103, Kiev, Ukraine
+phone:          +380 44 585-50-02
+abuse-mailbox:  abuse@as6723.net
+nic-hdl:        XAIM1-RIPE
+mnt-by:         XAIM-MNT
+created:        2013-06-10T10:46:13Z
+last-modified:  2022-06-01T17:18:19Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          178.255.176.0/21
+descr:          ua.xaim route
+origin:         AS6723
+mnt-by:         XAIM-MNT
+created:        2011-02-10T10:50:41Z
+last-modified:  2011-02-10T10:50:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.255.176.0/23
+descr:          ua.xaim collocation
+origin:         AS6723
+mnt-by:         XAIM-MNT
+created:        2011-03-15T17:43:08Z
+last-modified:  2011-03-15T17:43:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.255.178.0/24
+descr:          ua.xaim infrastructure route
+origin:         AS6723
+mnt-by:         XAIM-MNT
+created:        2010-08-19T13:05:28Z
+last-modified:  2011-02-08T11:32:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.255.183.0/24
+descr:          ua.xaim backup route
+origin:         AS6723
+mnt-by:         XAIM-MNT
+created:        2021-02-08T12:20:25Z
+last-modified:  2021-02-08T12:20:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.5.255.0/24
+descr:          ua.xaim backup route
+origin:         AS6723
+mnt-by:         XAIM-MNT
+created:        2021-02-08T12:40:07Z
+last-modified:  2021-02-08T12:40:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:6d80::/32
+descr:          ua.xaim route
+origin:         AS6723
+mnt-by:         XAIM-MNT
+created:        2011-07-06T15:49:08Z
+last-modified:  2011-07-06T15:49:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a01:6d80:f000::/36
+descr:          XAIM
+origin:         AS6723
+mnt-by:         XAIM-MNT
+created:        2011-07-21T09:32:18Z
+last-modified:  2011-07-21T13:11:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

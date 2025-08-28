@@ -1,0 +1,267 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15517'
+
+% Abuse contact for 'AS15517' is 'abuse@netstream.ch'
+
+aut-num:        AS15517
+as-name:        NETSTREAM-CH
+remarks:
+remarks:        Internet Service Provider
+remarks:        Duebendorf (ZH), CH-Switzerland
+remarks:
+org:            ORG-NHA24-RIPE
+admin-c:        NNA36-RIPE
+tech-c:         NNT30-RIPE
+status:         ASSIGNED
+remarks:
+remarks:        ===================================================
+remarks:
+remarks:        Peering requests: peering@noc.netstream.ch
+remarks:        Networking issues: noc@noc.netstream.ch
+remarks:        Spam and Abuse issues: abuse@netstream.ch
+remarks:        Other info: http://www.netstream.com
+remarks:
+remarks:        ===================================================
+remarks:
+remarks:        We are located at the following exchange point:
+remarks:
+remarks:        Switzerland:
+remarks:
+remarks:        SwissIX (Glattbrugg) http://www.swissix.ch/
+remarks:        91.206.52.95
+remarks:
+remarks:        ===================================================
+remarks:
+remarks:        Transit:
+remarks:
+remarks:        --- DTAG Deutsche Telekom AG (AS3320) ---
+import:         from AS3320 62.65.130.154 at 62.65.130.153 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS3320 62.65.130.154 at 62.65.130.153 announce AS-NETSTREAM-CH
+remarks:
+remarks:        --- Level 3 Communications (AS3356) ---
+import:         from AS3356 213.242.67.29 at 213.242.67.29 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS3356 213.242.67.29 at 213.242.67.29 announce AS-NETSTREAM-CH
+remarks:
+remarks:        ===================================================
+remarks:
+remarks:        Peerings:
+remarks:
+remarks:        --- SWITCH, Swiss Education and Research Network (AS559) ---
+import:         from AS559 91.206.52.53 at 91.206.52.95 accept AS-SWITCH
+export:         to AS559 91.206.52.53 at 91.206.52.95 announce AS-NETSTREAM-CH
+remarks:
+remarks:        ==================================================
+remarks:
+remarks:        Customers:
+remarks:
+import:         from AS61174 accept AS61174
+export:         to AS61174 announce ANY
+import:         from AS21436 accept AS21436
+export:         to AS21436 announce ANY
+import:         from AS209898 accept as-ungleich
+export:         to AS209898 announce ANY
+import:         from AS207996 accept as-ungleich
+export:         to AS207996 announce ANY
+remarks:
+remarks:
+remarks:        We filter the following networks:
+remarks:
+remarks:        Network / Bit:
+remarks:        0.0.0.0 / 0
+remarks:        10.0.0.0 / 8 ge 9
+remarks:        127.0.0.0 / 8 ge 9
+remarks:        172.16.0.0 /12 ge 13
+remarks:        192.168.0.0 / ge 17
+remarks:        224.0.0.0 / 4 ge 5
+remarks:
+remarks:        ===================================================
+remarks:
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NETSTREAM-MNT
+created:        2002-07-25T16:42:44Z
+last-modified:  2023-06-05T13:28:39Z
+source:         RIPE
+
+organisation:   ORG-NHA24-RIPE
+org-name:       Netstream Holding AG
+country:        CH
+org-type:       LIR
+address:        Poststrasse 14
+address:        6300
+address:        Zug
+address:        SWITZERLAND
+phone:          +41580584000
+admin-c:        NNA36-RIPE
+tech-c:         NNT30-RIPE
+abuse-c:        AR70393-RIPE
+mnt-ref:        NETSTREAM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NETSTREAM-MNT
+created:        2023-06-02T07:51:07Z
+last-modified:  2023-06-02T07:51:07Z
+source:         RIPE # Filtered
+
+role:           Netstream NOC Admin-Team
+address:        SWITZERLAND
+address:        Zug
+address:        6300
+address:        Poststrasse 14
+phone:          +41580584000
+nic-hdl:        NNA36-RIPE
+mnt-by:         NETSTREAM-MNT
+created:        2023-06-02T07:51:05Z
+last-modified:  2023-06-02T07:51:06Z
+source:         RIPE # Filtered
+
+role:           Netstream NOC Tech-Team
+address:        SWITZERLAND
+address:        Zug
+address:        6300
+address:        Poststrasse 14
+phone:          +41580584000
+nic-hdl:        NNT30-RIPE
+mnt-by:         NETSTREAM-MNT
+created:        2023-06-02T07:51:06Z
+last-modified:  2023-06-02T07:51:06Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          62.65.128.0/19
+descr:          CH-NETSTREAM-20000724
+origin:         AS15517
+notify:         admin@netstream.ch
+mnt-by:         NETSTREAM-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.65.137.0/24
+origin:         AS15517
+mnt-by:         NETSTREAM-MNT
+created:        2021-06-28T08:45:21Z
+last-modified:  2021-06-28T08:45:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.78.0.0/18
+descr:          CH-NETSTREAM-20080820
+origin:         AS15517
+mnt-by:         NETSTREAM-MNT
+created:        2008-08-20T13:07:11Z
+last-modified:  2008-08-20T13:07:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.133.240.0/21
+descr:          ASSOLO-CH-DSLNET
+origin:         AS15517
+mnt-by:         NETSTREAM-MNT
+created:        2008-07-01T08:54:14Z
+last-modified:  2008-07-01T08:54:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:470:2d::/48
+origin:         AS15517
+descr:          NET-2001-470-2d---48-AS15517
+admin-c:        ZH17-ARIN
+tech-c:         ZH17-ARIN
+mnt-by:         MNT-HURC
+source:         ARIN
+created:        2024-04-20T13:45:14Z
+last-modified:  2024-04-20T13:45:14Z
+rpki-ov-state:  valid
+
+route6:         2001:470:2e0::/48
+origin:         AS15517
+descr:          NET-2001-470-2e0---48-AS15517
+admin-c:        ZH17-ARIN
+tech-c:         ZH17-ARIN
+mnt-by:         MNT-HURC
+source:         ARIN
+created:        2024-04-17T01:45:13Z
+last-modified:  2024-04-17T01:45:13Z
+rpki-ov-state:  valid
+
+route6:         2a01:330::/29
+origin:         AS15517
+mnt-by:         NETSTREAM-MNT
+created:        2023-01-27T07:45:14Z
+last-modified:  2023-01-27T07:45:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a01:330::/32
+descr:          CH-NETSTREAM-20140109
+origin:         AS15517
+mnt-by:         NETSTREAM-MNT
+created:        2014-01-09T14:49:31Z
+last-modified:  2014-01-09T14:49:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

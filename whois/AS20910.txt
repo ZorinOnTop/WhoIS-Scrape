@@ -1,0 +1,526 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20859 - AS20927'
+
+as-block:       AS20859 - AS20927
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20910'
+
+% Abuse contact for 'AS20910' is 'helpdesk@bite.lv'
+
+aut-num:        AS20910
+as-name:        BALTKOM-AS
+remarks:        ----- Uplinks -----
+remarks:        -- Telia
+import:         from AS5518 action pref=150; accept ANY
+export:         to AS5518 78.154.154.137 at 78.154.154.138 announce AS-BALTKOM
+export:         to AS5518 78.154.154.154 at 78.154.154.155 announce AS-BALTKOM
+export:         to AS5518 78.154.154.161 at 78.154.154.162 announce AS-BALTKOM
+export:         to AS5518 78.154.154.165 at 78.154.154.166 announce AS-BALTKOM
+mp-import:      afi ipv6.unicast from AS5518 action pref=150; accept ANY
+mp-export:      afi ipv6.unicast to AS5518 2a02:16d8:2:d::1 at 2a02:16d8:2:d::2 announce AS-BALTKOM
+mp-export:      afi ipv6.unicast to AS5518 2a02:16d8:2:39::1 at 2a02:16d8:2:39::2 announce AS-BALTKOM
+remarks:        -- RETN
+import:         from AS9002 action pref=150; accept ANY
+export:         to AS9002 announce AS-BALTKOM
+mp-import:      afi ipv6.unicast from AS9002 action pref=150; accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-BALTKOM
+remarks:        -- Fiord
+import:         from AS28917 action pref=150; accept ANY
+export:         to AS28917 announce AS-BALTKOM
+remarks:        -- BITE
+import:         from AS13194 action pref=150; accept ANY
+export:         to AS13194 announce AS-BALTKOM
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS13194
+remarks:        --
+remarks:        ----- Peers -----
+remarks:        -- Hurricane Electric
+import:         from AS6939 action pref=100; accept ANY
+export:         to AS6939 announce AS-BALTKOM
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-BALTKOM
+remarks:        -- Peter-IX
+import:         from AS49634 action pref=100; accept ANY
+export:         to AS49634 announce AS-BALTKOM
+remarks:        -- SMILE
+import:         from AS39626 action pref=100; accept ANY
+export:         to AS39626 announce AS-BALTKOM
+mp-import:      afi ipv6.unicast from AS39626 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS39626 announce AS-BALTKOM
+remarks:        -- LIX
+import:         from AS42480 action pref=100; accept ANY
+export:         to AS42480 62.63.140.157 at 62.63.140.158 announce AS-BALTKOM-LV
+export:         to AS42480 announce AS-BALTKOM
+remarks:        -- Lattelecom
+import:         from AS6747 action pref=100; accept ANY
+export:         to AS6747 announce AS-BALTKOM
+remarks:        -- Lattelekom (Apollo)
+import:         from AS12578 action pref=100; accept ANY
+export:         to AS12578 announce AS-BALTKOM
+remarks:        -- Lattelekom (GEANT-Apollo)
+import:         from AS6906 action pref=100; accept ANY
+export:         to AS6906 announce AS-BALTKOM
+remarks:        -- LATNET
+import:         from AS2588 action pref=100; accept ANY
+export:         to AS2588 announce AS-BALTKOM
+remarks:        -- Latvenergo
+import:         from AS29600 action pref=100; accept ANY
+export:         to AS29600 announce AS-BALTKOM
+remarks:        -- CSC
+import:         from AS34326 action pref=100; accept ANY
+export:         to AS34326 announce AS-BALTKOM
+remarks:        --
+remarks:        ----- Customers -----
+remarks:        -- DataClub
+import:         from AS52048 action pref=50; accept AS52048
+export:         to AS52048 announce ANY
+remarks:        -- PRO-9
+import:         from AS50731 action pref=50; accept AS50731
+export:         to AS50731 announce ANY
+remarks:        -- Proact IT
+import:         from AS204427 action pref=50; accept AS204427
+export:         to AS204427 announce ANY
+remarks:        -- MITS
+import:         from AS57516 action pref=50; accept AS57516
+export:         to AS57516 announce ANY
+remarks:        -- CDR
+import:         from AS51347 action pref=50; accept AS51347
+export:         to AS51347 announce ANY
+remarks:        -- GOOD
+import:         from AS212496 action pref=50; accept AS212496
+export:         to AS212496 announce ANY
+remarks:        -- GarmTech
+import:         from AS43108 action pref=50; accept AS-GARMTECH
+export:         to AS43108 announce ANY
+remarks:        -- Dautkom
+import:         from AS28843 action pref=50; accept AS28843
+export:         to AS28843 announce ANY
+remarks:        -- NIC-LV
+import:         from AS51955 action pref=50; accept AS51955
+export:         to AS51955 announce ANY
+remarks:        -- Telenet
+import:         from AS24589 action pref=50; accept AS-TELENET-LATVIA
+export:         to AS24589 announce ANY
+remarks:        --
+org:            ORG-SSN2-RIPE
+admin-c:        BTV777-RIPE
+tech-c:         BTV777-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SNLV-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-08-08T09:06:48Z
+source:         RIPE
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS13194
+
+organisation:   ORG-SSN2-RIPE
+org-name:       SIA "BITE Latvija"
+country:        LV
+org-type:       LIR
+address:        Uriekstes street 2A
+address:        LV-1005
+address:        Riga
+address:        LATVIA
+phone:          +37125851601
+phone:          +37167788120
+fax-no:         +37167788129
+admin-c:        JJ1652-RIPE
+admin-c:        VJVJ
+admin-c:        RFRF
+mnt-ref:        SNLV-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SNLV-MNT
+abuse-c:        snlv-ripe
+tech-c:         snlv-ripe
+created:        2008-07-24T13:53:22Z
+last-modified:  2023-07-25T08:09:03Z
+source:         RIPE # Filtered
+
+role:           BITE Latvija
+address:        Uriekstes iela 2A - 24, Riga, Latvia
+nic-hdl:        BTV777-RIPE
+mnt-by:         BALTKOM-MNT
+created:        2012-11-09T10:41:07Z
+last-modified:  2024-08-29T11:17:18Z
+source:         RIPE # Filtered
+abuse-mailbox:  core@baltcom.lv
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          37.148.168.0/21
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2025-08-09T19:04:07Z
+last-modified:  2025-08-09T19:04:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.84.0.0/20
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2024-08-19T06:40:22Z
+last-modified:  2024-08-19T06:40:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.205.192.0/18
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2021-09-01T07:51:00Z
+last-modified:  2021-09-01T07:51:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.38.128.0/17
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2007-08-31T11:35:36Z
+last-modified:  2024-06-18T09:32:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.115.96.0/19
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2012-12-12T08:11:34Z
+last-modified:  2024-07-11T11:47:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.254.120.0/23
+origin:         AS20910
+mnt-by:         LATNET-MNT
+created:        2020-05-14T15:31:44Z
+last-modified:  2020-05-14T15:31:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.226.0.0/17
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2012-12-12T08:12:17Z
+last-modified:  2024-07-11T11:47:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.192.0/19
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2013-10-25T05:54:07Z
+last-modified:  2024-06-19T12:17:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.201.0.0/17
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2006-05-15T14:44:07Z
+last-modified:  2024-07-11T11:50:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.142.0.0/20
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2013-10-02T12:08:48Z
+last-modified:  2024-07-11T12:48:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.188.32.0/19
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2024-06-18T12:32:34Z
+last-modified:  2024-06-18T12:32:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.177.192.0/18
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2008-04-01T08:42:24Z
+last-modified:  2024-07-11T12:49:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.30.128.0/17
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2012-12-12T08:13:00Z
+last-modified:  2024-07-11T12:50:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.110.0.0/19
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2013-10-22T13:00:44Z
+last-modified:  2024-07-11T12:50:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          136.169.0.0/17
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2020-10-08T10:30:23Z
+last-modified:  2024-07-11T12:59:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.112.128.0/18
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2009-04-21T10:56:35Z
+last-modified:  2024-07-11T13:13:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.62.128.0/19
+mnt-by:         BALTKOM-MNT
+origin:         AS20910
+created:        2009-01-21T08:55:00Z
+last-modified:  2024-07-11T13:14:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.244.128.0/20
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2013-10-22T12:53:22Z
+last-modified:  2024-07-11T13:25:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.180.96.0/19
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2012-12-12T08:08:58Z
+last-modified:  2024-07-11T13:25:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.198.224.0/20
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-07-11T13:26:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.199.96.0/19
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2012-12-13T11:43:02Z
+last-modified:  2022-02-10T14:33:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:9000::/29
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2020-12-16T11:37:43Z
+last-modified:  2020-12-16T11:37:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f4a0::/29
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2021-11-17T07:23:04Z
+last-modified:  2021-11-17T07:23:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:6740::/29
+origin:         AS20910
+mnt-by:         BALTKOM-MNT
+created:        2021-11-17T07:23:39Z
+last-modified:  2021-11-17T07:23:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

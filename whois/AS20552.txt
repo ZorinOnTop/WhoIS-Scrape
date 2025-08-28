@@ -1,0 +1,667 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20552'
+
+% Abuse contact for 'AS20552' is 'abuse@horyzont.net'
+
+aut-num:        AS20552
+as-name:        HORYZONT
+org:            ORG-HTI1-RIPE
+import:         from AS8938 accept ANY
+import:         from AS5617 accept ANY
+import:         from AS33868 accept AS33868 AS42594 AS41835 AS29501
+import:         from AS9112 accept ANY
+import:         from AS5617 accept ANY
+import:         from AS50606 accept ANY
+import:         from AS3356 accept ANY
+import:         from AS44033 accept AS44033
+import:         from AS1299 accept ANY
+import:         from AS9002 accept ANY
+export:         to AS44033 announce ANY
+export:         to AS8938 announce AS20552
+export:         to AS33868 announce ANY
+export:         to AS9112 announce AS-HTI2PIONIER
+export:         to AS5617 announce AS-HTI2TPNET
+export:         to AS50606 announce AS-HTI2VIRTUAOPERATOR
+export:         to AS3356 announce AS-HTI2LEVEL3
+export:         to AS5617 announce AS-HTI2TPNET
+export:         to AS1299 announce AS-HTI-CUSTOMERS
+export:         to AS9002 announce AS-HTI2RETN
+remarks:        ================================================
+remarks:        Communities used in AS20552
+remarks:        ================================================
+remarks:
+remarks:        Communities for specific peers are 20552:1ax :
+remarks:        x=0 - do not announce
+remarks:        x=1 - prepend 1 hop
+remarks:        x=2 - prepend 2 hops
+remarks:        x=3 - prepend 3 hops
+remarks:
+remarks:        TPSA 20552:103x
+remarks:        VIRTUAOPERATOR 20552:104x
+remarks:        TELIA 20552:105x
+remarks:        POL34 20552:106x
+remarks:        PIX 20552:107x
+remarks:        VECTRA 20552:108x
+remarks:        RETN 20552:110x
+remarks:
+remarks:        ================================================
+remarks:        customer traffic engineering communities - blackhole
+remarks:        20552:666 - blackhole traffic at our global upstreams
+remarks:
+remarks:        Traffic destined for /32 prefixes tagged with this
+remarks:        community will be discarded at ingress to the
+remarks:        network. The prefix must be permitted by the
+remarks:        customer existing ingress BGP filter.
+remarks:        noc@hti.pl needs to be contacted to allow this funcionality.
+remarks:
+remarks:        Please contact noc@hti.pl with any questions
+remarks:        regarding this functionality.
+remarks:        ================================================
+admin-c:        HID22-RIPE
+tech-c:         HID22-RIPE
+status:         ASSIGNED
+mnt-by:         HORYZONT-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2001-12-07T20:06:21Z
+last-modified:  2024-12-19T10:55:22Z
+source:         RIPE
+
+organisation:   ORG-HTI1-RIPE
+org-name:       Horyzont Technologie Internetowe sp.z.o.o.
+country:        PL
+org-type:       LIR
+address:        Bulgarska 17
+address:        60-320
+address:        Poznan
+address:        POLAND
+phone:          +48618582255
+fax-no:         +48618582256
+admin-c:        MMAG2-RIPE
+admin-c:        HID22-RIPE
+mnt-ref:        HORYZONT-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         HORYZONT-MNT
+abuse-c:        HTAB1-RIPE
+created:        2004-04-17T11:47:13Z
+tech-c:         HID22-RIPE
+last-modified:  2020-12-16T13:12:25Z
+source:         RIPE # Filtered
+
+role:           Horyzont IT Department
+address:        ul. Bulgarska 17
+address:        60-320 Poznan
+nic-hdl:        HID22-RIPE
+admin-c:        MMAG2-RIPE
+admin-c:        DB26805-RIPE
+tech-c:         MMAG2-RIPE
+tech-c:         DB26805-RIPE
+mnt-by:         HORYZONT-MNT
+created:        2015-05-29T09:43:49Z
+last-modified:  2022-12-27T13:41:06Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          91.199.97.0/24
+descr:          Horyzont Technologie Internetowe
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2025-01-15T11:05:59Z
+last-modified:  2025-01-15T11:07:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.216.30.0/24
+descr:          Horyzont Technologie Internetowe
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2010-04-20T18:18:00Z
+last-modified:  2017-06-30T12:51:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.105.72.0/24
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2018-06-06T11:54:44Z
+last-modified:  2018-06-06T11:54:44Z
+source:         RIPE
+descr:          Horyzont Technologie Internetowe
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.105.73.0/24
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2018-06-06T11:55:04Z
+last-modified:  2018-06-06T11:55:04Z
+source:         RIPE
+descr:          Horyzont Technologie Internetowe
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.105.74.0/24
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2022-06-29T13:35:38Z
+last-modified:  2022-06-29T13:35:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.40.240.0/21
+descr:          Horyzont Technologie Internetowe
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2011-11-21T14:20:44Z
+last-modified:  2011-11-21T14:21:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.40.240.0/24
+descr:          Horyzont Technologie Internetowe Sp z.o.o.
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-18T09:27:56Z
+last-modified:  2016-05-18T09:27:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.40.241.0/24
+descr:          Horyzont Technologie Internetowe Sp z.o.o.
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-18T09:28:47Z
+last-modified:  2016-05-18T09:28:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.40.242.0/24
+descr:          Horyzont Technologie Internetowe Sp z.o.o.
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-18T09:29:45Z
+last-modified:  2016-05-18T09:29:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.40.243.0/24
+descr:          Horyzont Technologie Internetowe Sp z.o.o.
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-18T09:30:31Z
+last-modified:  2016-05-18T09:30:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.40.244.0/24
+descr:          PL-HORYZONT
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2015-01-04T23:31:44Z
+last-modified:  2015-01-04T23:31:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.40.245.0/24
+descr:          PL-HORYZONT
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2015-01-04T23:31:44Z
+last-modified:  2015-01-04T23:31:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.40.246.0/24
+descr:          PL-HORYZONT
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2015-01-04T23:31:44Z
+last-modified:  2015-01-04T23:31:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          164.40.247.0/24
+descr:          PL-HORYZONT
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2015-01-04T23:31:44Z
+last-modified:  2015-01-04T23:31:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.235.240.0/22
+origin:         AS20552
+mnt-by:         VECTRANET-MNT
+mnt-by:         HORYZONT-MNT
+created:        2017-07-06T14:18:30Z
+last-modified:  2017-07-06T14:18:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.235.240.0/24
+origin:         AS20552
+descr:          Horyzont Technologie Internetowe
+mnt-by:         HORYZONT-MNT
+created:        2017-07-07T09:40:03Z
+last-modified:  2017-07-07T09:40:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.235.241.0/24
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2017-07-07T09:41:10Z
+last-modified:  2017-07-07T09:41:10Z
+source:         RIPE
+descr:          Horyzont Technologie Internetowe
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.24.200.0/22
+descr:          Horyzont Technologie Internetowe
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2013-04-24T08:40:21Z
+last-modified:  2013-04-24T08:40:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.52.168.0/22
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-30T12:31:32Z
+last-modified:  2016-05-30T12:31:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.52.168.0/23
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-30T12:32:04Z
+last-modified:  2016-05-30T12:32:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.52.168.0/24
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-30T12:33:20Z
+last-modified:  2016-05-30T12:33:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.52.169.0/24
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-30T12:33:43Z
+last-modified:  2016-05-30T12:33:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.52.170.0/23
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-30T12:32:48Z
+last-modified:  2016-05-30T12:32:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.52.170.0/24
+descr:          PL-HORYZONT
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2015-01-04T23:31:44Z
+last-modified:  2015-01-04T23:31:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.52.171.0/24
+descr:          PL-HORYZONT
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2015-01-04T23:31:44Z
+last-modified:  2015-01-04T23:31:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.119.12.0/22
+descr:          Horyzont Technologie Internetowe Sp z.o.o.
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-02-22T11:49:11Z
+last-modified:  2016-02-22T11:49:11Z
+source:         RIPE
+notify:         lir@horyzont.net
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.119.12.0/24
+origin:         AS20552
+descr:          Horyzont Technologie Internetowe
+mnt-by:         HORYZONT-MNT
+created:        2016-03-22T09:37:46Z
+last-modified:  2016-03-22T09:37:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.119.13.0/24
+origin:         AS20552
+descr:          Horyzont Technologie Internetowe
+mnt-by:         HORYZONT-MNT
+created:        2016-03-22T09:39:39Z
+last-modified:  2016-03-22T09:39:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.119.14.0/24
+origin:         AS20552
+descr:          Horyzont Technologie Internetowe
+mnt-by:         HORYZONT-MNT
+created:        2016-03-22T09:40:52Z
+last-modified:  2016-03-22T09:46:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.119.15.0/24
+origin:         AS20552
+descr:          Horyzont Technologie Internetowe
+mnt-by:         HORYZONT-MNT
+created:        2016-03-22T09:41:43Z
+last-modified:  2016-03-22T09:47:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.168.128.0/20
+descr:          Horyzont Technologie Internetowe
+origin:         AS20552
+notify:         lir@horyzont.net
+mnt-by:         HORYZONT-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.168.129.0/24
+descr:          Horyzont Technologie Internetowe
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-18T09:54:25Z
+last-modified:  2016-05-18T09:54:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.168.141.0/24
+descr:          Horyzont Technologie Internetowe
+origin:         AS20552
+mnt-by:         HORYZONT-MNT
+created:        2016-05-18T10:03:46Z
+last-modified:  2016-05-18T10:03:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:d88::/32
+descr:          Horyzont Technologie Internetowe
+origin:         AS20552
+notify:         lir@horyzont.net
+mnt-by:         HORYZONT-MNT
+created:        2009-05-07T09:14:40Z
+last-modified:  2014-01-16T14:16:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

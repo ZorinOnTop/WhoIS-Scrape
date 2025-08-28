@@ -1,0 +1,345 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8737'
+
+% Abuse contact for 'AS8737' is 'abuse@kpn.com'
+
+aut-num:        AS8737
+as-name:        PT
+org:            ORG-WAPI1-RIPE
+remarks:        KPN Internet Solutions
+remarks:        P.O.Box 3053
+remarks:        3800 DB Amersfoort
+remarks:        Netherlands
+remarks:        NOC: +31-30-6588612
+import:         from AS1136 action pref=100; accept ANY
+export:         to AS1136 announce AS-Spirit
+mp-import:      from AS1136 action pref=100; accept ANY
+mp-export:      to AS1136 announce AS-Spirit
+import:         from AS15879 action pref=100; accept AS-KPNIS
+export:         to AS15879 announce { 0.0.0.0/0 }
+mp-import:      from AS15879 action pref=100; accept AS-KPNIS
+mp-export:      to AS15879 announce { 0.0.0.0/0 }
+import:         from AS3265 action pref=100; accept AS-ACCESSFORALL
+export:         to AS-ACCESSFORALL announce { 0.0.0.0/0 }
+mp-import:      from AS3265 action pref=100; accept AS-ACCESSFORALL
+mp-export:      to AS3265 announce { 0.0.0.0/0 }
+admin-c:        KPN-RIPE
+tech-c:         KPN-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         PT978-RIPE
+mnt-by:         KPN-MNT
+created:        2002-09-19T06:58:28Z
+last-modified:  2024-07-04T12:20:00Z
+source:         RIPE # Filtered
+
+organisation:   ORG-WAPI1-RIPE
+org-name:       KPN B.V.
+country:        NL
+org-type:       LIR
+address:        Rontgenlaan 75
+address:        2719 DX
+address:        Zoetermeer
+address:        NETHERLANDS
+phone:          +31622433027
+admin-c:        BAKC-RIPE
+admin-c:        RH672-RIPE
+admin-c:        PBOS-RIPE
+admin-c:        BAKC-RIPE
+abuse-c:        PT978-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        KPN-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         KPN-MNT
+created:        2004-04-17T11:44:04Z
+last-modified:  2023-03-08T08:10:46Z
+source:         RIPE # Filtered
+
+role:           KPN Internet
+address:        KPN
+address:        Wilhelminakade 123
+address:        3072AP Rotterdam
+address:        Netherlands
+abuse-mailbox:  abuse@kpn.com
+remarks:        trouble: +----------------------------------------------------+
+remarks:        trouble: | Peering/operational issues: peering-office@kpn.com |
+remarks:        trouble: +----------------------------------------------------+
+admin-c:        JZ1998-RIPE
+admin-c:        PBOS-RIPE
+tech-c:         BC70-RIPE
+tech-c:         MH5996-RIPE
+tech-c:         JDM1-RIPE
+remarks:        ==========================================================
+remarks:        Role Object for KPN Internet Solutions
+remarks:        For urgent operational issues, change requests, routing
+remarks:        policies, etc use the email address "peering-office@kpn.com"
+remarks:        For portscans, DoS attacks and spam complaints, please
+remarks:        use the email address "abuse@kpn.com".
+remarks:        Please include all headers and logging where appropriate.
+remarks:        For domain changes use the email address "domain@kpn.com"
+remarks:        ==========================================================
+nic-hdl:        KPN-RIPE
+mnt-by:         KPN-MNT
+created:        2004-08-11T08:57:52Z
+last-modified:  2025-01-20T09:27:49Z
+source:         RIPE # Filtered
+
+role:           KPN B.V.
+address:        Stationsstraat 115 (visit address)
+address:        P.O. box 3053
+address:        3800 DB Amersfoort
+address:        The Netherlands
+phone:          +31 30 6588612
+remarks:        Operational issues: netmaster@kpn.com
+remarks:        Peering issues: peering-office@kpn.com
+nic-hdl:        PT978-RIPE
+admin-c:        RH13540-RIPE
+admin-c:        PBOS-RIPE
+tech-c:         RH13540-RIPE
+remarks:        For security & abuse issues see inetnum.
+abuse-mailbox:  abuse@kpn.com
+mnt-by:         KPN-MNT
+created:        2003-04-02T10:49:57Z
+last-modified:  2021-08-11T07:00:08Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          145.78.28.0/24
+descr:          POSTNL
+origin:         AS8737
+notify:         kpn-ip-office@kpn.com
+notify:         abuse@postnl.nl
+mnt-by:         KPN-MNT
+created:        2025-07-02T06:27:02Z
+last-modified:  2025-07-02T06:27:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          146.104.250.0/24
+descr:          TBI
+origin:         AS8737
+notify:         kpn-ip-office@kpn.com
+mnt-by:         KPN-MNT
+created:        2023-10-11T09:43:19Z
+last-modified:  2023-10-11T09:43:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.120.224.0/23
+descr:          KPN B.V.
+origin:         AS8737
+mnt-by:         KPN-MNT
+mnt-routes:     KPN-MNT
+created:        2025-03-05T08:30:21Z
+last-modified:  2025-03-05T08:30:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.120.226.0/23
+descr:          KPN B.V.
+origin:         AS8737
+mnt-by:         KPN-MNT
+mnt-routes:     KPN-MNT
+created:        2025-03-05T08:30:21Z
+last-modified:  2025-03-05T08:30:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.120.228.0/23
+descr:          KPN B.V.
+origin:         AS8737
+notify:         kpn-ip-office@kpn.com
+mnt-by:         KPN-MNT
+mnt-routes:     KPN-MNT
+created:        2025-02-18T14:49:45Z
+last-modified:  2025-02-18T14:49:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.120.250.0/23
+descr:          KPN B.V.
+origin:         AS8737
+notify:         kpn-ip-office@kpn.com
+mnt-by:         KPN-MNT
+mnt-routes:     KPN-MNT
+created:        2025-02-18T14:49:45Z
+last-modified:  2025-02-18T14:49:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.121.0.0/16
+descr:          PIADDR
+origin:         AS8737
+mnt-by:         KPN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2021-08-11T06:57:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.121.0.0/17
+descr:          PIADDR
+origin:         AS8737
+mnt-by:         KPN-MNT
+created:        2019-08-28T11:25:50Z
+last-modified:  2019-08-28T11:25:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.121.64.0/18
+descr:          PIADDR
+origin:         AS8737
+mnt-by:         KPN-MNT
+created:        2019-08-28T13:49:56Z
+last-modified:  2019-08-28T13:49:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.121.128.0/17
+descr:          PIADDR
+origin:         AS8737
+mnt-by:         KPN-MNT
+created:        2019-08-28T11:27:32Z
+last-modified:  2019-08-28T11:27:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.75.0.0/16
+descr:          PIADDR
+origin:         AS8737
+mnt-by:         KPN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2021-08-11T06:57:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.75.0.0/17
+descr:          PIADDR
+origin:         AS8737
+mnt-by:         KPN-MNT
+created:        2019-08-28T13:53:17Z
+last-modified:  2019-08-28T13:53:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.75.128.0/17
+descr:          PIADDR
+origin:         AS8737
+mnt-by:         KPN-MNT
+created:        2019-08-28T13:53:32Z
+last-modified:  2019-08-28T13:53:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

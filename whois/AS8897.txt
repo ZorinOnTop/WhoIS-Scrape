@@ -1,0 +1,2673 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8897'
+
+% Abuse contact for 'AS8897' is 'abuse@kcom.com'
+
+aut-num:        AS8897
+as-name:        KCOM-SPN
+org:            ORG-MI5-RIPE
+descr:          (Service-Provider Network) (ex-Mistral)
+descr:          Globalswitch1, East India Dock Road, London
+remarks:
+remarks:        ------------------------------------------------------
+remarks:        | Kcom |
+remarks:        | SERVICE PROVIDER NETWORK (SPN) |
+remarks:        | |
+remarks:        | The information below is generated automagically |
+remarks:        ------------------------------------------------------
+remarks:
+remarks:        MP TRANSIT.
+remarks:        _______________________________________________________
+mp-import:      afi ipv4.unicast from AS3356 accept ANY AND NOT {0.0.0.0/0}
+mp-export:      afi ipv4.unicast to AS3356 announce AS-KCOMSPN
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-KCOMSPN
+remarks:        _______________________________________________________
+mp-import:      afi ipv4.unicast from AS286 accept ANY AND NOT {0.0.0.0/0}
+mp-export:      afi ipv4.unicast to AS286 announce AS-KCOMSPN
+mp-import:      afi ipv6.unicast from AS286 accept ANY
+mp-export:      afi ipv6.unicast to AS286 announce AS-KCOMSPN
+remarks:        _______________________________________________________
+mp-import:      afi ipv4.unicast from AS3549 accept ANY AND NOT {0.0.0.0/0}
+mp-export:      afi ipv4.unicast to AS3549 announce AS-KCOMSPN
+remarks:        _______________________________________________________
+remarks:        TRANSIT CUSTOMERS
+remarks:        AS205114
+mp-import:      afi ipv4.unicast from AS205114 accept AS205114
+mp-export:      afi ipv4.unicast to AS205114 announce ANY
+remarks:        -------------------------------------------------------
+remarks:        IPv4 PEERING.
+remarks:        -------------------------------------------------------
+descr:          AS27638 Career Builder
+mp-import:      afi ipv4.unicast from AS27638 accept AS27638
+mp-export:      afi ipv4.unicast to AS27638 announce AS-KCOMSPN
+descr:          -------------------------------------------------------
+remarks:        AS42 Packet Clearing House (PCH)
+mp-import:      afi ipv4.unicast from AS42 accept AS-PCH
+mp-export:      afi ipv4.unicast to AS42 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS112 Ripe NCC
+mp-import:      afi ipv4.unicast from AS112 accept AS112
+mp-export:      afi ipv4.unicast to AS112 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS174 Cogent Communications
+mp-import:      afi ipv4.unicast from AS174 accept AS174
+mp-export:      afi ipv4.unicast to AS174 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS209 Qwest
+mp-import:      afi ipv4.unicast from AS209 accept AS-QWEST
+mp-export:      afi ipv4.unicast to AS209 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS286 KPN
+mp-import:      afi ipv4.unicast from AS286 accept AS-KPN
+mp-export:      afi ipv4.unicast to AS286 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS559 SWITCH
+mp-import:      afi ipv4.unicast from AS559 accept AS-SWITCH
+mp-export:      afi ipv4.unicast to AS559 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS702 Verizon Business
+mp-import:      afi ipv4.unicast from AS702 accept AS702
+mp-export:      afi ipv4.unicast to AS702 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS786 JANET(UK)
+mp-import:      afi ipv4.unicast from AS786 accept AS-JANETPLUS
+mp-export:      afi ipv4.unicast to AS786 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS855 Bell Aliant
+mp-import:      afi ipv4.unicast from AS855 accept AS855
+mp-export:      afi ipv4.unicast to AS855 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1103 SURFnet
+mp-import:      afi ipv4.unicast from AS1103 accept AS-SURFNET
+mp-export:      afi ipv4.unicast to AS1103 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1126 SARA
+mp-import:      afi ipv4.unicast from AS1126 accept AS1126
+mp-export:      afi ipv4.unicast to AS1126 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1140 SIDN
+mp-import:      afi ipv4.unicast from AS1140 accept AS1140
+mp-export:      afi ipv4.unicast to AS1140 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1239 Sprint
+mp-import:      afi ipv4.unicast from AS1239 accept AS1239
+mp-export:      afi ipv4.unicast to AS1239 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1248 Nokia Corporation
+mp-import:      afi ipv4.unicast from AS1248 accept AS-NOK
+mp-export:      afi ipv4.unicast to AS1248 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1257 Tele2 AB
+mp-import:      afi ipv4.unicast from AS1257 accept AS-TELE2
+mp-export:      afi ipv4.unicast to AS1257 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1267 Wind International Services S. p. A.
+mp-import:      afi ipv4.unicast from AS1267 accept AS-INFOSTRADA
+mp-export:      afi ipv4.unicast to AS1267 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1273 Cable & Wireless
+mp-import:      afi ipv4.unicast from AS1273 accept AS-CW
+mp-export:      afi ipv4.unicast to AS1273 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1290 Telstra Europe Limited
+mp-import:      afi ipv4.unicast from AS1290 accept AS-PSINETEU
+mp-export:      afi ipv4.unicast to AS1290 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1299 TeliaSonera
+mp-import:      afi ipv4.unicast from AS1299 accept AS-TELIANET
+mp-export:      afi ipv4.unicast to AS1299 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1408 CCBill
+mp-import:      afi ipv4.unicast from AS1408 accept AS1408
+mp-export:      afi ipv4.unicast to AS1408 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1668 AOL, Inc.
+mp-import:      afi ipv4.unicast from AS1668 accept AS1668
+mp-export:      afi ipv4.unicast to AS1668 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1680 013 Netvision Ltd
+mp-import:      afi ipv4.unicast from AS1680 accept AS1680
+mp-export:      afi ipv4.unicast to AS1680 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS1836 Green.ch AG
+mp-import:      afi ipv4.unicast from AS1836 accept AS-TICCH
+mp-export:      afi ipv4.unicast to AS1836 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2110 British Telecommunications plc (Ireland)
+mp-import:      afi ipv4.unicast from AS2110 accept AS-IEUNET
+mp-export:      afi ipv4.unicast to AS2110 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2119 Telenor
+mp-import:      afi ipv4.unicast from AS2119 accept AS-TELENOR
+mp-export:      afi ipv4.unicast to AS2119 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2529 Thus Plc
+mp-import:      afi ipv4.unicast from AS2529 accept AS-DEMON
+mp-export:      afi ipv4.unicast to AS2529 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2603 NORDUnet A/S
+mp-import:      afi ipv4.unicast from AS2603 accept AS-NORDUNET
+mp-export:      afi ipv4.unicast to AS2603 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2611 BELNET
+mp-import:      afi ipv4.unicast from AS2611 accept AS-BELNET
+mp-export:      afi ipv4.unicast to AS2611 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2686 AT&T Global Network Services - EMEA
+mp-import:      afi ipv4.unicast from AS2686 accept AS-IGNEMEA
+mp-export:      afi ipv4.unicast to AS2686 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2818 BBC
+mp-import:      afi ipv4.unicast from AS2818 accept AS-BBC
+mp-export:      afi ipv4.unicast to AS2818 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2828 XO Communications, Inc.
+mp-import:      afi ipv4.unicast from AS2828 accept AS2828
+mp-export:      afi ipv4.unicast to AS2828 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2852 CESNET, z.s.p.o.
+mp-import:      afi ipv4.unicast from AS2852 accept AS-SANET
+mp-export:      afi ipv4.unicast to AS2852 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2856 British Telecommunications plc
+mp-import:      afi ipv4.unicast from AS2856 accept AS-BTGB
+mp-export:      afi ipv4.unicast to AS2856 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS2914 NTT Communications Global IP Network
+mp-import:      afi ipv4.unicast from AS2914 accept AS2914
+mp-export:      afi ipv4.unicast to AS2914 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3209 Vodafone D2 GmbH
+mp-import:      afi ipv4.unicast from AS3209 accept AS-ARCORGLOBAL
+mp-export:      afi ipv4.unicast to AS3209 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3213 Bogons Ltd.
+mp-import:      afi ipv4.unicast from AS3213 accept AS-BOGONS
+mp-export:      afi ipv4.unicast to AS3213 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3216 Golden Telecom
+mp-import:      afi ipv4.unicast from AS3216 accept AS-SOVAM
+mp-export:      afi ipv4.unicast to AS3216 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3249 Elion Ettevtted AS
+mp-import:      afi ipv4.unicast from AS3249 accept AS-ESTPAK
+mp-export:      afi ipv4.unicast to AS3249 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3255 UARNet
+mp-import:      afi ipv4.unicast from AS3255 accept AS3255
+mp-export:      afi ipv4.unicast to AS3255 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3257 Tinet
+mp-import:      afi ipv4.unicast from AS3257 accept AS-TISCALI
+mp-export:      afi ipv4.unicast to AS3257 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3262 Sarenet
+mp-import:      afi ipv4.unicast from AS3262 accept AS-SARENET
+mp-export:      afi ipv4.unicast to AS3262 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3265 XS4ALL Internet BV
+mp-import:      afi ipv4.unicast from AS3265 accept AS-ACCESSFORALL
+mp-export:      afi ipv4.unicast to AS3265 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3267 State Institute of Information Technologies and Telecommunications (SIIT&T Informika)
+mp-import:      afi ipv4.unicast from AS3267 accept AS-RUNNET
+mp-export:      afi ipv4.unicast to AS3267 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3292 TDC A/S
+mp-import:      afi ipv4.unicast from AS3292 accept AS-TDCNET
+mp-export:      afi ipv4.unicast to AS3292 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3300 Infonet Nederland BV
+mp-import:      afi ipv4.unicast from AS3300 accept AS-INFONET
+mp-export:      afi ipv4.unicast to AS3300 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3303 Swisscom PLC
+mp-import:      afi ipv4.unicast from AS3303 accept AS-SWCMGLOBAL
+mp-export:      afi ipv4.unicast to AS3303 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3308 TeliaSonera Denmark
+mp-import:      afi ipv4.unicast from AS3308 accept AS-TELIANETDK
+mp-export:      afi ipv4.unicast to AS3308 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3320 T-Systems Ltd
+mp-import:      afi ipv4.unicast from AS3320 accept AS-DTAG
+mp-export:      afi ipv4.unicast to AS3320 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3327 CITIC Telecom
+mp-import:      afi ipv4.unicast from AS3327 accept AS-CITICTEL-CPC
+mp-export:      afi ipv4.unicast to AS3327 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3333 Ripe NCC
+mp-import:      afi ipv4.unicast from AS3333 accept AS-RIPENCC
+mp-export:      afi ipv4.unicast to AS3333 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3356 Level 3 Communications, Inc.
+mp-import:      afi ipv4.unicast from AS3356 accept AS3356
+mp-export:      afi ipv4.unicast to AS3356 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3491 PCCW Global
+mp-import:      afi ipv4.unicast from AS3491 accept AS-CAIS
+mp-export:      afi ipv4.unicast to AS3491 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3549 Global Crossing
+mp-import:      afi ipv4.unicast from AS3549 accept AS-GBLX
+mp-export:      afi ipv4.unicast to AS3549 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3557 Internet Systems Consortium, Inc.
+mp-import:      afi ipv4.unicast from AS3557 accept AS-ISC
+mp-export:      afi ipv4.unicast to AS3557 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3561 SAVVIS Communications Corporation
+mp-import:      afi ipv4.unicast from AS3561 accept AS3561
+mp-export:      afi ipv4.unicast to AS3561 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3741 Internet Solutions (PTY) Ltd.
+mp-import:      afi ipv4.unicast from AS3741 accept AS3741
+mp-export:      afi ipv4.unicast to AS3741 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS3856 Packet Clearing House (PCH)
+mp-import:      afi ipv4.unicast from AS3856 accept AS3856
+mp-export:      afi ipv4.unicast to AS3856 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS4004 Orange Business Services
+mp-import:      afi ipv4.unicast from AS4004 accept AS-GLOBALONE-UK
+mp-export:      afi ipv4.unicast to AS4004 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS4134 China Telecom (Europe) Ltd.
+mp-import:      afi ipv4.unicast from AS4134 accept AS4134
+mp-export:      afi ipv4.unicast to AS4134 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS4250 Alentus Corporation
+mp-import:      afi ipv4.unicast from AS4250 accept AS4250
+mp-export:      afi ipv4.unicast to AS4250 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS4436 nLayer Communications, Inc.
+mp-import:      afi ipv4.unicast from AS4436 accept AS4436
+mp-export:      afi ipv4.unicast to AS4436 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS4589 Easynet Ltd
+mp-import:      afi ipv4.unicast from AS4589 accept AS-EASYNET
+mp-export:      afi ipv4.unicast to AS4589 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS4637 Reach Global Services Ltd.
+mp-import:      afi ipv4.unicast from AS4637 accept AS4637
+mp-export:      afi ipv4.unicast to AS4637 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS4739 Internode
+mp-import:      afi ipv4.unicast from AS4739 accept AS4739
+mp-export:      afi ipv4.unicast to AS4739 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS4766 Korea Telecom
+mp-import:      afi ipv4.unicast from AS4766 accept AS4766
+mp-export:      afi ipv4.unicast to AS4766 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS4788 Telekom Malaysia
+mp-import:      afi ipv4.unicast from AS4788 accept AS4788
+mp-export:      afi ipv4.unicast to AS4788 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5089 NTL Group Ltd.
+mp-import:      afi ipv4.unicast from AS5089 accept AS-NTLI
+mp-export:      afi ipv4.unicast to AS5089 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5388 Cable & Wireless
+mp-import:      afi ipv4.unicast from AS5388 accept AS-ENERGIS
+mp-export:      afi ipv4.unicast to AS5388 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5390 Online Breedband BV
+mp-import:      afi ipv4.unicast from AS5390 accept AS-EURONETNL
+mp-export:      afi ipv4.unicast to AS5390 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5400 British Telecommunications plc (2)
+mp-import:      afi ipv4.unicast from AS5400 accept AS-BT-EU
+mp-export:      afi ipv4.unicast to AS5400 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5408 Greek Research and Technology Network S.A.
+mp-import:      afi ipv4.unicast from AS5408 accept AS5408
+mp-export:      afi ipv4.unicast to AS5408 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5410 Bouygues Telecom
+mp-import:      afi ipv4.unicast from AS5410 accept AS-BOUYGTEL-ISP
+mp-export:      afi ipv4.unicast to AS5410 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5413 GX Networks Ltd.
+mp-import:      afi ipv4.unicast from AS5413 accept AS5413
+mp-export:      afi ipv4.unicast to AS5413 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5419 Cubic Circle BV
+mp-import:      afi ipv4.unicast from AS5419 accept AS-CUCI
+mp-export:      afi ipv4.unicast to AS5419 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5427 Primus Telecommunications
+mp-import:      afi ipv4.unicast from AS5427 accept AS-PRIL-EU
+mp-export:      afi ipv4.unicast to AS5427 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5430 Freenet Cityline GmbH
+mp-import:      afi ipv4.unicast from AS5430 accept AS-FREENETDE
+mp-export:      afi ipv4.unicast to AS5430 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5466 Eircom Group Plc
+mp-import:      afi ipv4.unicast from AS5466 accept AS-EIRCOM
+mp-export:      afi ipv4.unicast to AS5466 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5503 RM Education
+mp-import:      afi ipv4.unicast from AS5503 accept AS-RMIFL
+mp-export:      afi ipv4.unicast to AS5503 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5511 France Telecom
+mp-import:      afi ipv4.unicast from AS5511 accept AS-OPENTRANSIT
+mp-export:      afi ipv4.unicast to AS5511 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5524 Breedband Nederland BV
+mp-import:      afi ipv4.unicast from AS5524 accept AS5524
+mp-export:      afi ipv4.unicast to AS5524 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5552 Redstone Managed Solutions Ltd
+mp-import:      afi ipv4.unicast from AS5552 accept AS5552
+mp-export:      afi ipv4.unicast to AS5552 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5564 Brightsolid Online Technology Ltd.
+mp-import:      afi ipv4.unicast from AS5564 accept AS5564
+mp-export:      afi ipv4.unicast to AS5564 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5568 Russian Institute for Public Networks (RIPN)
+mp-import:      afi ipv4.unicast from AS5568 accept AS-RBNET
+mp-export:      afi ipv4.unicast to AS5568 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5577 root eSolutions
+mp-import:      afi ipv4.unicast from AS5577 accept AS5577
+mp-export:      afi ipv4.unicast to AS5577 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5580 Atrato IP Networks
+mp-import:      afi ipv4.unicast from AS5580 accept AS5580
+mp-export:      afi ipv4.unicast to AS5580 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5583 Orange Business Group
+mp-import:      afi ipv4.unicast from AS5583 accept AS-GIPNL
+mp-export:      afi ipv4.unicast to AS5583 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5588 Antel Germany Gmbh
+mp-import:      afi ipv4.unicast from AS5588 accept AS-GTS-CE
+mp-export:      afi ipv4.unicast to AS5588 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5600 Europacom.net Ltd.
+mp-import:      afi ipv4.unicast from AS5600 accept AS-TCPNET
+mp-export:      afi ipv4.unicast to AS5600 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5615 Telfort B.V.
+mp-import:      afi ipv4.unicast from AS5615 accept AS-TELFORT
+mp-export:      afi ipv4.unicast to AS5615 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS5631 Vital International Ltd.
+mp-import:      afi ipv4.unicast from AS5631 accept AS-VITAL-GROUP
+mp-export:      afi ipv4.unicast to AS5631 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6067 Onyx Internet
+mp-import:      afi ipv4.unicast from AS6067 accept AS-ONYX
+mp-export:      afi ipv4.unicast to AS6067 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6320 Fused Networks
+mp-import:      afi ipv4.unicast from AS6320 accept AS-TELECOMPLETE
+mp-export:      afi ipv4.unicast to AS6320 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6327 Shaw
+mp-import:      afi ipv4.unicast from AS6327 accept AS6327
+mp-export:      afi ipv4.unicast to AS6327 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6447 Route Views
+mp-import:      afi ipv4.unicast from AS6447 accept AS6447
+mp-export:      afi ipv4.unicast to AS6447 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6453 Tata Communications (UK) Limited
+mp-import:      afi ipv4.unicast from AS6453 accept AS-GLOBEINTERNET
+mp-export:      afi ipv4.unicast to AS6453 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6461 AboveNet, Communications UK Ltd
+mp-import:      afi ipv4.unicast from AS6461 accept AS6461
+mp-export:      afi ipv4.unicast to AS6461 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6656 Star Technology Group Ltd.
+mp-import:      afi ipv4.unicast from AS6656 accept AS-STG
+mp-export:      afi ipv4.unicast to AS6656 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6661 EPT Luxembourg
+mp-import:      afi ipv4.unicast from AS6661 accept AS-PTLU
+mp-export:      afi ipv4.unicast to AS6661 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6663 EuroWeb
+mp-import:      afi ipv4.unicast from AS6663 accept AS6663
+mp-export:      afi ipv4.unicast to AS6663 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6667 Saunalahti Group Oyj (EUnet Finland)
+mp-import:      afi ipv4.unicast from AS6667 accept AS-EUNETIP
+mp-export:      afi ipv4.unicast to AS6667 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6677 Iceland Telecom
+mp-import:      afi ipv4.unicast from AS6677 accept AS-ICENET
+mp-export:      afi ipv4.unicast to AS6677 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6730 Sunrise
+mp-import:      afi ipv4.unicast from AS6730 accept AS-GLOBAL
+mp-export:      afi ipv4.unicast to AS6730 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6735 sdt.net AG
+mp-import:      afi ipv4.unicast from AS6735 accept AS-SDTAMSIX
+mp-export:      afi ipv4.unicast to AS6735 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6762 Telecom Italia
+mp-import:      afi ipv4.unicast from AS6762 accept AS-SEABONE
+mp-export:      afi ipv4.unicast to AS6762 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6763 Telecom Italia Netherlands B.V.
+mp-import:      afi ipv4.unicast from AS6763 accept AS6763
+mp-export:      afi ipv4.unicast to AS6763 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6770 Aexiomus Limited
+mp-import:      afi ipv4.unicast from AS6770 accept AS-AEXIOMUS-T
+mp-export:      afi ipv4.unicast to AS6770 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6774 Belgacom International Carrier Services
+mp-import:      afi ipv4.unicast from AS6774 accept AS-BELBONETOPEERS
+mp-export:      afi ipv4.unicast to AS6774 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6779 Fujitsu Services
+mp-import:      afi ipv4.unicast from AS6779 accept AS-ICLNET
+mp-export:      afi ipv4.unicast to AS6779 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6805 Telefonica Deutschland GmbH
+mp-import:      afi ipv4.unicast from AS6805 accept AS-TDDE
+mp-export:      afi ipv4.unicast to AS6805 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6830 UPC Broadband
+mp-import:      afi ipv4.unicast from AS6830 accept AS-AORTA
+mp-export:      afi ipv4.unicast to AS6830 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6854 Synterra ZAO
+mp-import:      afi ipv4.unicast from AS6854 accept AS-SYNTERRA
+mp-export:      afi ipv4.unicast to AS6854 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6871 PlusNet Technologies Ltd.
+mp-import:      afi ipv4.unicast from AS6871 accept AS-PLUSNETUK
+mp-export:      afi ipv4.unicast to AS6871 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6894 KDDI Europe Ltd
+mp-import:      afi ipv4.unicast from AS6894 accept AS-KDDIEU
+mp-export:      afi ipv4.unicast to AS6894 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6908 Datahop
+mp-import:      afi ipv4.unicast from AS6908 accept AS-DATAHOP
+mp-export:      afi ipv4.unicast to AS6908 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6911 Pro-Net Internet Services Ltd.
+mp-import:      afi ipv4.unicast from AS6911 accept AS6911
+mp-export:      afi ipv4.unicast to AS6911 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS6939 Hurricane Electric
+mp-import:      afi ipv4.unicast from AS6939 accept AS6939
+mp-export:      afi ipv4.unicast to AS6939 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS7473 SingTel (Europe) Ltd
+mp-import:      afi ipv4.unicast from AS7473 accept AS-SINGTEL-IX
+mp-export:      afi ipv4.unicast to AS7473 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8001 Net Access Corporation
+mp-import:      afi ipv4.unicast from AS8001 accept AS8001
+mp-export:      afi ipv4.unicast to AS8001 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8002 Stealth Communications
+mp-import:      afi ipv4.unicast from AS8002 accept AS8002
+mp-export:      afi ipv4.unicast to AS8002 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8068 Microsoft Corporation
+mp-import:      afi ipv4.unicast from AS8068 accept AS-MICROSOFTEU
+mp-export:      afi ipv4.unicast to AS8068 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8190 Viatel Holding (Bermuda) Limited
+mp-import:      afi ipv4.unicast from AS8190 accept AS-VIATEL
+mp-export:      afi ipv4.unicast to AS8190 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8218 Neotelecoms SAS
+mp-import:      afi ipv4.unicast from AS8218 accept AS-NEOT
+mp-export:      afi ipv4.unicast to AS8218 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8220 COLT Telecom Ltd.
+mp-import:      afi ipv4.unicast from AS8220 accept AS-COLT
+mp-export:      afi ipv4.unicast to AS8220 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8282 Fidonet
+mp-import:      afi ipv4.unicast from AS8282 accept AS-FIDONET
+mp-export:      afi ipv4.unicast to AS8282 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8342 OJSC RTCOMM
+mp-import:      afi ipv4.unicast from AS8342 accept AS-RT
+mp-export:      afi ipv4.unicast to AS8342 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8359 COMSTAR-Direct CJSC
+mp-import:      afi ipv4.unicast from AS8359 accept AS-MTU
+mp-export:      afi ipv4.unicast to AS8359 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8365 TU Darmstadt, Hochschulrechenzentrum
+mp-import:      afi ipv4.unicast from AS8365 accept AS8365
+mp-export:      afi ipv4.unicast to AS8365 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8368 Belgian Network Solutions
+mp-import:      afi ipv4.unicast from AS8368 accept AS-BENESOL
+mp-export:      afi ipv4.unicast to AS8368 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8401 Mailbox Internet
+mp-import:      afi ipv4.unicast from AS8401 accept AS-MAILBOX
+mp-export:      afi ipv4.unicast to AS8401 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8419 Hotchilli Internet Limited
+mp-import:      afi ipv4.unicast from AS8419 accept AS-HOTCHILLI
+mp-export:      afi ipv4.unicast to AS8419 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8422 NetCologne GmbH
+mp-import:      afi ipv4.unicast from AS8422 accept AS-NETCOLOGNE
+mp-export:      afi ipv4.unicast to AS8422 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8426 Claranet Ltd.
+mp-import:      afi ipv4.unicast from AS8426 accept AS-CLARANET
+mp-export:      afi ipv4.unicast to AS8426 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8447 Telekom Austria TA AG
+mp-import:      afi ipv4.unicast from AS8447 accept AS-PTA
+mp-export:      afi ipv4.unicast to AS8447 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8468 Entanet International Ltd
+mp-import:      afi ipv4.unicast from AS8468 accept AS-ENTANET
+mp-export:      afi ipv4.unicast to AS8468 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8473 Bahnhof
+mp-import:      afi ipv4.unicast from AS8473 accept AS8473
+mp-export:      afi ipv4.unicast to AS8473 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8492 Obit Communications
+mp-import:      afi ipv4.unicast from AS8492 accept AS-OBIT
+mp-export:      afi ipv4.unicast to AS8492 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8551 Bezeq International Ltd.
+mp-import:      afi ipv4.unicast from AS8551 accept AS-BEZEQINT
+mp-export:      afi ipv4.unicast to AS8551 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8553 Avensys Networks Ltd.
+mp-import:      afi ipv4.unicast from AS8553 accept AS-AVENSYS
+mp-export:      afi ipv4.unicast to AS8553 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8560 1&1 Internet AG
+mp-import:      afi ipv4.unicast from AS8560 accept AS8560
+mp-export:      afi ipv4.unicast to AS8560 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8577 Rackage Ltd.
+mp-import:      afi ipv4.unicast from AS8577 accept AS8577
+mp-export:      afi ipv4.unicast to AS8577 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8582 News-Service.com
+mp-import:      afi ipv4.unicast from AS8582 accept AS-SUPPORT
+mp-export:      afi ipv4.unicast to AS8582 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8586 Opal Business Solutions Ltd
+mp-import:      afi ipv4.unicast from AS8586 accept AS-REDNET
+mp-export:      afi ipv4.unicast to AS8586 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8587 Infracom Internet B.V.
+mp-import:      afi ipv4.unicast from AS8587 accept AS8587
+mp-export:      afi ipv4.unicast to AS8587 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8607 Timico Ltd
+mp-import:      afi ipv4.unicast from AS8607 accept AS-ATLAS
+mp-export:      afi ipv4.unicast to AS8607 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8608 EspritXB
+mp-import:      afi ipv4.unicast from AS8608 accept AS-QINIP
+mp-export:      afi ipv4.unicast to AS8608 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8622 Namesco Limited
+mp-import:      afi ipv4.unicast from AS8622 accept AS-ISIONUK
+mp-export:      afi ipv4.unicast to AS8622 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8657 PT Comunicaes
+mp-import:      afi ipv4.unicast from AS8657 accept AS-CPRM
+mp-export:      afi ipv4.unicast to AS8657 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8674 Autonomica Ab
+mp-import:      afi ipv4.unicast from AS8674 accept AS8674
+mp-export:      afi ipv4.unicast to AS8674 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8676 PRT Systems
+mp-import:      afi ipv4.unicast from AS8676 accept AS-PSYS
+mp-export:      afi ipv4.unicast to AS8676 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8681 Jersey Telecom
+mp-import:      afi ipv4.unicast from AS8681 accept AS-JERSEYTELECOM
+mp-export:      afi ipv4.unicast to AS8681 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8683 Nominet UK
+mp-import:      afi ipv4.unicast from AS8683 accept AS-NOMINET
+mp-export:      afi ipv4.unicast to AS8683 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8686 System Online Ltd
+mp-import:      afi ipv4.unicast from AS8686 accept AS-SYSONLINE
+mp-export:      afi ipv4.unicast to AS8686 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8689 Powernet
+mp-import:      afi ipv4.unicast from AS8689 accept AS-POWERNET
+mp-export:      afi ipv4.unicast to AS8689 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8708 RCS & RDS S.A.
+mp-import:      afi ipv4.unicast from AS8708 accept AS-RDSNET
+mp-export:      afi ipv4.unicast to AS8708 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8732 Comcor
+mp-import:      afi ipv4.unicast from AS8732 accept AS8732
+mp-export:      afi ipv4.unicast to AS8732 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8737 KPN Wholesale Service & Op.
+mp-import:      afi ipv4.unicast from AS8737 accept AS8737
+mp-export:      afi ipv4.unicast to AS8737 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8764 TEO LT, AB
+mp-import:      afi ipv4.unicast from AS8764 accept AS8764
+mp-export:      afi ipv4.unicast to AS8764 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8781 Qatar Telecom
+mp-import:      afi ipv4.unicast from AS8781 accept AS8781
+mp-export:      afi ipv4.unicast to AS8781 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8838 Stripe 21 Ltd.
+mp-import:      afi ipv4.unicast from AS8838 accept AS-QIX
+mp-export:      afi ipv4.unicast to AS8838 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8844 CI-Net Limited
+mp-import:      afi ipv4.unicast from AS8844 accept AS-COMMUNITY
+mp-export:      afi ipv4.unicast to AS8844 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8851 Edge Telecom Ltd
+mp-import:      afi ipv4.unicast from AS8851 accept AS-EDGE
+mp-export:      afi ipv4.unicast to AS8851 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8871 CSI Ltd
+mp-import:      afi ipv4.unicast from AS8871 accept AS-CSI
+mp-export:      afi ipv4.unicast to AS8871 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8881 Versatel Nord GmbH
+mp-import:      afi ipv4.unicast from AS8881 accept AS8881
+mp-export:      afi ipv4.unicast to AS8881 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8897 Mistral Internet
+mp-import:      afi ipv4.unicast from AS8897 accept AS-MISTRAL
+mp-export:      afi ipv4.unicast to AS8897 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8902 Internet for Business
+mp-import:      afi ipv4.unicast from AS8902 accept AS8902
+mp-export:      afi ipv4.unicast to AS8902 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8912 NetBenefit managed hosting
+mp-import:      afi ipv4.unicast from AS8912 accept AS-NETBENEFIT
+mp-export:      afi ipv4.unicast to AS8912 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8914 Eircom Group Plc
+mp-import:      afi ipv4.unicast from AS8914 accept AS-TENET
+mp-export:      afi ipv4.unicast to AS8914 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8918 Coolwave Communications B.V.
+mp-import:      afi ipv4.unicast from AS8918 accept AS-CARRIERONE
+mp-export:      afi ipv4.unicast to AS8918 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8928 Interoute Telecommunications
+mp-import:      afi ipv4.unicast from AS8928 accept AS-INTEROUTE
+mp-export:      afi ipv4.unicast to AS8928 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8943 Jump Networks Ltd
+mp-import:      afi ipv4.unicast from AS8943 accept AS-JUMP
+mp-export:      afi ipv4.unicast to AS8943 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8954 InTouch
+mp-import:      afi ipv4.unicast from AS8954 accept AS-INTOUCHPEERS
+mp-export:      afi ipv4.unicast to AS8954 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS8966 ETISALAT
+mp-import:      afi ipv4.unicast from AS8966 accept AS-EMIX
+mp-export:      afi ipv4.unicast to AS8966 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9002 RETN Ltd.
+mp-import:      afi ipv4.unicast from AS9002 accept AS-RETN
+mp-export:      afi ipv4.unicast to AS9002 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9009 GlobalAXS
+mp-import:      afi ipv4.unicast from AS9009 accept AS-GBXS
+mp-export:      afi ipv4.unicast to AS9009 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9031 EDPnet
+mp-import:      afi ipv4.unicast from AS9031 accept AS-INTICONET
+mp-export:      afi ipv4.unicast to AS9031 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9044 SolNet Internet Solution Provider
+mp-import:      afi ipv4.unicast from AS9044 accept AS-SOLNET
+mp-export:      afi ipv4.unicast to AS9044 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9121 Turk Telekom
+mp-import:      afi ipv4.unicast from AS9121 accept AS-TTNET
+mp-export:      afi ipv4.unicast to AS9121 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9143 Ziggo
+mp-import:      afi ipv4.unicast from AS9143 accept AS-BENELUX
+mp-export:      afi ipv4.unicast to AS9143 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9145 EWE TEL GmbH
+mp-import:      afi ipv4.unicast from AS9145 accept AS-EWETEL
+mp-export:      afi ipv4.unicast to AS9145 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9150 InterConnect Services BV
+mp-import:      afi ipv4.unicast from AS9150 accept AS-INTERCONNECT
+mp-export:      afi ipv4.unicast to AS9150 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9153 Burstfire Networks Ltd.
+mp-import:      afi ipv4.unicast from AS9153 accept AS-BURSTFIRE
+mp-export:      afi ipv4.unicast to AS9153 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9191 NewNet Plc
+mp-import:      afi ipv4.unicast from AS9191 accept AS-NEWNET
+mp-export:      afi ipv4.unicast to AS9191 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9193 NaviSite, Inc.
+mp-import:      afi ipv4.unicast from AS9193 accept AS-CONEXIONEU
+mp-export:      afi ipv4.unicast to AS9193 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9318 SK Broadband Co., Ltd.
+mp-import:      afi ipv4.unicast from AS9318 accept AS-HANARO
+mp-export:      afi ipv4.unicast to AS9318 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9498 Bharti Airtel Ltd
+mp-import:      afi ipv4.unicast from AS9498 accept AS9498
+mp-export:      afi ipv4.unicast to AS9498 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS9505 ChungHwa Telecom Co.,LTD.
+mp-import:      afi ipv4.unicast from AS9505 accept AS9505
+mp-export:      afi ipv4.unicast to AS9505 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS10310 Yahoo! UK Ltd.
+mp-import:      afi ipv4.unicast from AS10310 accept AS10310
+mp-export:      afi ipv4.unicast to AS10310 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS10474 MWEB Connect Pty Ltd.
+mp-import:      afi ipv4.unicast from AS10474 accept AS10474
+mp-export:      afi ipv4.unicast to AS10474 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS11666 Nexicom Group
+mp-import:      afi ipv4.unicast from AS11666 accept AS11666
+mp-export:      afi ipv4.unicast to AS11666 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12041 Afilias Limited
+mp-import:      afi ipv4.unicast from AS12041 accept AS12041
+mp-export:      afi ipv4.unicast to AS12041 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12306 Plusline AG
+mp-import:      afi ipv4.unicast from AS12306 accept AS-PLUSLINE
+mp-export:      afi ipv4.unicast to AS12306 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12322 Free SAS
+mp-import:      afi ipv4.unicast from AS12322 accept AS-PROXAD
+mp-export:      afi ipv4.unicast to AS12322 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12337 noris network AG
+mp-import:      afi ipv4.unicast from AS12337 accept AS12337
+mp-export:      afi ipv4.unicast to AS12337 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12350 VTX Services
+mp-import:      afi ipv4.unicast from AS12350 accept AS-VTX
+mp-export:      afi ipv4.unicast to AS12350 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12355 HeLi NET Telekommunikation GmbH & Co. KG
+mp-import:      afi ipv4.unicast from AS12355 accept AS-HELINET-V4
+mp-export:      afi ipv4.unicast to AS12355 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12389 Rostelecom
+mp-import:      afi ipv4.unicast from AS12389 accept AS-ROSTELECOM
+mp-export:      afi ipv4.unicast to AS12389 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12390 Kingston Communications (HULL) PLC
+mp-import:      afi ipv4.unicast from AS12390 accept AS-KINGSTONUK
+mp-export:      afi ipv4.unicast to AS12390 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12399 ScanPlus GmbH
+mp-import:      afi ipv4.unicast from AS12399 accept AS-SPXS
+mp-export:      afi ipv4.unicast to AS12399 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12414 Solcon Internetdiensten B.V.
+mp-import:      afi ipv4.unicast from AS12414 accept AS-SOLCON
+mp-export:      afi ipv4.unicast to AS12414 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12496 IDNet
+mp-import:      afi ipv4.unicast from AS12496 accept AS-IDNET
+mp-export:      afi ipv4.unicast to AS12496 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12519 FastNet International
+mp-import:      afi ipv4.unicast from AS12519 accept AS-FASTNET
+mp-export:      afi ipv4.unicast to AS12519 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12552 IP-Only Telecommunication AB
+mp-import:      afi ipv4.unicast from AS12552 accept AS-IPO
+mp-export:      afi ipv4.unicast to AS12552 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12573 WideXS / Ion IP
+mp-import:      afi ipv4.unicast from AS12573 accept AS-WIDEXS
+mp-export:      afi ipv4.unicast to AS12573 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12634 Scarlet Telecom B.V.
+mp-import:      afi ipv4.unicast from AS12634 accept AS-SCARLET
+mp-export:      afi ipv4.unicast to AS12634 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12654 RIPE NCC
+mp-import:      afi ipv4.unicast from AS12654 accept AS12654
+mp-export:      afi ipv4.unicast to AS12654 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12703 Lumison
+mp-import:      afi ipv4.unicast from AS12703 accept AS12703
+mp-export:      afi ipv4.unicast to AS12703 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12713 OTEGlobe S.A.
+mp-import:      afi ipv4.unicast from AS12713 accept AS-OTEGLOBE
+mp-export:      afi ipv4.unicast to AS12713 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12715 Jazz Telecom SAU
+mp-import:      afi ipv4.unicast from AS12715 accept AS-JAZZTRANS
+mp-export:      afi ipv4.unicast to AS12715 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12759 SOCO Network Solutions GmbH
+mp-import:      afi ipv4.unicast from AS12759 accept AS-SOCO
+mp-export:      afi ipv4.unicast to AS12759 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12859 BIT BV
+mp-import:      afi ipv4.unicast from AS12859 accept AS-BIT
+mp-export:      afi ipv4.unicast to AS12859 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12871 Concepts ICT Holding B.V.
+mp-import:      afi ipv4.unicast from AS12871 accept AS-CONCEPTS
+mp-export:      afi ipv4.unicast to AS12871 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12874 Fastweb
+mp-import:      afi ipv4.unicast from AS12874 accept AS-FASTWEB
+mp-export:      afi ipv4.unicast to AS12874 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12902 Luna.nl BV
+mp-import:      afi ipv4.unicast from AS12902 accept AS-LUNA
+mp-export:      afi ipv4.unicast to AS12902 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12932 Teletext Ltd
+mp-import:      afi ipv4.unicast from AS12932 accept AS-TELETEXT
+mp-export:      afi ipv4.unicast to AS12932 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12956 Telefonica S.A.
+mp-import:      afi ipv4.unicast from AS12956 accept AS-TDATANET
+mp-export:      afi ipv4.unicast to AS12956 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12975 Paltel
+mp-import:      afi ipv4.unicast from AS12975 accept AS-PALTEL
+mp-export:      afi ipv4.unicast to AS12975 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS12989 Highwinds Network Group Inc.
+mp-import:      afi ipv4.unicast from AS12989 accept AS12989
+mp-export:      afi ipv4.unicast to AS12989 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13005 C2 Internet Ltd.
+mp-import:      afi ipv4.unicast from AS13005 accept AS-C2INTERNET
+mp-export:      afi ipv4.unicast to AS13005 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13030 Init Seven AG
+mp-import:      afi ipv4.unicast from AS13030 accept AS13030
+mp-export:      afi ipv4.unicast to AS13030 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13037 Zen Internet Ltd
+mp-import:      afi ipv4.unicast from AS13037 accept AS-ZEN
+mp-export:      afi ipv4.unicast to AS13037 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13101 TNG - THE NET GENERATION AG
+mp-import:      afi ipv4.unicast from AS13101 accept AS-TNG
+mp-export:      afi ipv4.unicast to AS13101 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13122 Manx Telecom Ltd.
+mp-import:      afi ipv4.unicast from AS13122 accept AS-MANX
+mp-export:      afi ipv4.unicast to AS13122 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13127 Tele2 Nederland B.V.
+mp-import:      afi ipv4.unicast from AS13127 accept AS-VERSATEL
+mp-export:      afi ipv4.unicast to AS13127 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13193 Nerim
+mp-import:      afi ipv4.unicast from AS13193 accept AS-NERIM
+mp-export:      afi ipv4.unicast to AS13193 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13213 UK-2 Ltd.
+mp-import:      afi ipv4.unicast from AS13213 accept AS-UK2NET
+mp-export:      afi ipv4.unicast to AS13213 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13237 LambdaNet
+mp-import:      afi ipv4.unicast from AS13237 accept AS-LAMBDANET
+mp-export:      afi ipv4.unicast to AS13237 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13276 Nebula Oy
+mp-import:      afi ipv4.unicast from AS13276 accept AS-MAGENTA
+mp-export:      afi ipv4.unicast to AS13276 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13285 Opal Telecom
+mp-import:      afi ipv4.unicast from AS13285 accept AS-OPAL
+mp-export:      afi ipv4.unicast to AS13285 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13445 Cisco Systems
+mp-import:      afi ipv4.unicast from AS13445 accept AS13445
+mp-export:      afi ipv4.unicast to AS13445 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13680 hgtn.net
+mp-import:      afi ipv4.unicast from AS13680 accept AS13680
+mp-export:      afi ipv4.unicast to AS13680 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS13768 PEER 1
+mp-import:      afi ipv4.unicast from AS13768 accept AS-PEERONECUST
+mp-export:      afi ipv4.unicast to AS13768 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS14492 Datapipe
+mp-import:      afi ipv4.unicast from AS14492 accept AS14492
+mp-export:      afi ipv4.unicast to AS14492 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS14537 Continent8
+mp-import:      afi ipv4.unicast from AS14537 accept AS14537
+mp-export:      afi ipv4.unicast to AS14537 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15133 EdgeCast Networks
+mp-import:      afi ipv4.unicast from AS15133 accept AS15133
+mp-export:      afi ipv4.unicast to AS15133 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15169 Google
+mp-import:      afi ipv4.unicast from AS15169 accept AS15169
+mp-export:      afi ipv4.unicast to AS15169 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15290 MTS Allstream Inc.
+mp-import:      afi ipv4.unicast from AS15290 accept AS15290
+mp-export:      afi ipv4.unicast to AS15290 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15395 Rackspace Managed Hosting
+mp-import:      afi ipv4.unicast from AS15395 accept AS-RACKSPACE
+mp-export:      afi ipv4.unicast to AS15395 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15399 Wananchi
+mp-import:      afi ipv4.unicast from AS15399 accept AS15399
+mp-export:      afi ipv4.unicast to AS15399 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15412 Reliance Globalcom
+mp-import:      afi ipv4.unicast from AS15412 accept AS-FLAGP
+mp-export:      afi ipv4.unicast to AS15412 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15426 NedLook internet solutions
+mp-import:      afi ipv4.unicast from AS15426 accept AS-XENOSITE
+mp-export:      afi ipv4.unicast to AS15426 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15435 CAIW Diensten B.V.
+mp-import:      afi ipv4.unicast from AS15435 accept AS-KABELFOON
+mp-export:      afi ipv4.unicast to AS15435 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15444 Netservices Plc
+mp-import:      afi ipv4.unicast from AS15444 accept AS-NETSERVICES
+mp-export:      afi ipv4.unicast to AS15444 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15480 Vodafone
+mp-import:      afi ipv4.unicast from AS15480 accept AS15480
+mp-export:      afi ipv4.unicast to AS15480 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15509 Plant hosting & co-location B.V.
+mp-import:      afi ipv4.unicast from AS15509 accept AS-PLANT
+mp-export:      afi ipv4.unicast to AS15509 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15533 SunGard
+mp-import:      afi ipv4.unicast from AS15533 accept AS-SASEUROPE
+mp-export:      afi ipv4.unicast to AS15533 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15535 Virtual Access Internet BV
+mp-import:      afi ipv4.unicast from AS15535 accept AS-VIRTUALXS
+mp-export:      afi ipv4.unicast to AS15535 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15542 ZeelandNet BV
+mp-import:      afi ipv4.unicast from AS15542 accept AS-ZEELANDNET
+mp-export:      afi ipv4.unicast to AS15542 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15557 Neuf Cegetel
+mp-import:      afi ipv4.unicast from AS15557 accept AS-LDCOMNET
+mp-export:      afi ipv4.unicast to AS15557 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15594 Netzquadrat
+mp-import:      afi ipv4.unicast from AS15594 accept AS-NQ
+mp-export:      afi ipv4.unicast to AS15594 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15598 IP Exchange GmbH
+mp-import:      afi ipv4.unicast from AS15598 accept AS-IPX
+mp-export:      afi ipv4.unicast to AS15598 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15600 Finecom Telecommunications AG
+mp-import:      afi ipv4.unicast from AS15600 accept AS-FINECOM
+mp-export:      afi ipv4.unicast to AS15600 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15670 BBned NV
+mp-import:      afi ipv4.unicast from AS15670 accept AS15670
+mp-export:      afi ipv4.unicast to AS15670 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15703 TrueServer BV
+mp-import:      afi ipv4.unicast from AS15703 accept AS-TRUESERVER
+mp-export:      afi ipv4.unicast to AS15703 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15766 Domicilium (IOM) Ltd.
+mp-import:      afi ipv4.unicast from AS15766 accept AS-DOMICILIUM
+mp-export:      afi ipv4.unicast to AS15766 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15773 Inclarity Communications
+mp-import:      afi ipv4.unicast from AS15773 accept AS-INCLARITY
+mp-export:      afi ipv4.unicast to AS15773 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15805 OTEnet Telecom
+mp-import:      afi ipv4.unicast from AS15805 accept AS15805
+mp-export:      afi ipv4.unicast to AS15805 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15830 TelecityGroup UK Limited
+mp-import:      afi ipv4.unicast from AS15830 accept AS-TELECITYLON
+mp-export:      afi ipv4.unicast to AS15830 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15839 Cobweb Solutions Ltd
+mp-import:      afi ipv4.unicast from AS15839 accept AS15839
+mp-export:      afi ipv4.unicast to AS15839 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15879 Is Interned Services BV
+mp-import:      afi ipv4.unicast from AS15879 accept AS-IS-NL
+mp-export:      afi ipv4.unicast to AS15879 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS15988 Akhter Computers Ltd.
+mp-import:      afi ipv4.unicast from AS15988 accept AS-AKHTER
+mp-export:      afi ipv4.unicast to AS15988 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16080 Cougar Technologies B.V.
+mp-import:      afi ipv4.unicast from AS16080 accept AS-CARPEDIEM
+mp-export:      afi ipv4.unicast to AS16080 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16082 Spitfire Network Services Ltd
+mp-import:      afi ipv4.unicast from AS16082 accept AS-SPITFIRE
+mp-export:      afi ipv4.unicast to AS16082 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16090 Wave Rider / OpenSense Ltd
+mp-import:      afi ipv4.unicast from AS16090 accept AS-OPENSENSE
+mp-export:      afi ipv4.unicast to AS16090 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16097 HL komm Telekommunikations GmbH
+mp-import:      afi ipv4.unicast from AS16097 accept AS-HLKOMM
+mp-export:      afi ipv4.unicast to AS16097 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16131 GrafiX Internet B.V.
+mp-import:      afi ipv4.unicast from AS16131 accept AS-GRAFIX-TRANSIT
+mp-export:      afi ipv4.unicast to AS16131 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16147 ISC Politie
+mp-import:      afi ipv4.unicast from AS16147 accept AS16147
+mp-export:      afi ipv4.unicast to AS16147 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16150 Phonera Networks AB
+mp-import:      afi ipv4.unicast from AS16150 accept AS16150
+mp-export:      afi ipv4.unicast to AS16150 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16164 Sohonet
+mp-import:      afi ipv4.unicast from AS16164 accept AS16164
+mp-export:      afi ipv4.unicast to AS16164 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16237 NXS Internet B.V.
+mp-import:      afi ipv4.unicast from AS16237 accept AS-NXS
+mp-export:      afi ipv4.unicast to AS16237 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16243 Virtu Secure Webservices BV
+mp-import:      afi ipv4.unicast from AS16243 accept AS-VIRTUI
+mp-export:      afi ipv4.unicast to AS16243 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16260 PacketExchange
+mp-import:      afi ipv4.unicast from AS16260 accept AS16260
+mp-export:      afi ipv4.unicast to AS16260 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16265 LeaseWeb
+mp-import:      afi ipv4.unicast from AS16265 accept AS-LEASEWEB
+mp-export:      afi ipv4.unicast to AS16265 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16276 OVH SARL
+mp-import:      afi ipv4.unicast from AS16276 accept AS-OVH
+mp-export:      afi ipv4.unicast to AS16276 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16298 InterBox Internet
+mp-import:      afi ipv4.unicast from AS16298 accept AS-INTERBOX
+mp-export:      afi ipv4.unicast to AS16298 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16339 Virtual Internet (UK) Ltd
+mp-import:      afi ipv4.unicast from AS16339 accept AS16339
+mp-export:      afi ipv4.unicast to AS16339 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16353 Merula Ltd.
+mp-import:      afi ipv4.unicast from AS16353 accept AS-MERULA
+mp-export:      afi ipv4.unicast to AS16353 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS16637 MTN Network Solutions (Pty) Limited
+mp-import:      afi ipv4.unicast from AS16637 accept AS-MTNNS
+mp-export:      afi ipv4.unicast to AS16637 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS17451 Biznet Networks
+mp-import:      afi ipv4.unicast from AS17451 accept AS17451
+mp-export:      afi ipv4.unicast to AS17451 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS17557 Pakistan Telecommunication Company Ltd
+mp-import:      afi ipv4.unicast from AS17557 accept AS17557
+mp-export:      afi ipv4.unicast to AS17557 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS17660 Bhutan Telecom Ltd
+mp-import:      afi ipv4.unicast from AS17660 accept AS17660
+mp-export:      afi ipv4.unicast to AS17660 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS18705 Research In Motion
+mp-import:      afi ipv4.unicast from AS18705 accept AS18705
+mp-export:      afi ipv4.unicast to AS18705 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS19151 WV Fiber, LLC
+mp-import:      afi ipv4.unicast from AS19151 accept AS-WVFIBER
+mp-export:      afi ipv4.unicast to AS19151 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20485 CJSC Company TransTeleCom
+mp-import:      afi ipv4.unicast from AS20485 accept AS-TTK
+mp-export:      afi ipv4.unicast to AS20485 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20495 We Dare B.V.
+mp-import:      afi ipv4.unicast from AS20495 accept AS-WEDARE
+mp-export:      afi ipv4.unicast to AS20495 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20500 Griffin Information Systems Ltd
+mp-import:      afi ipv4.unicast from AS20500 accept AS-GRIFFIN
+mp-export:      afi ipv4.unicast to AS20500 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20504 RTLNederland Interactief B.V.
+mp-import:      afi ipv4.unicast from AS20504 accept AS-RTL
+mp-export:      afi ipv4.unicast to AS20504 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20507 InterNLnet
+mp-import:      afi ipv4.unicast from AS20507 accept AS-INTERNLNET
+mp-export:      afi ipv4.unicast to AS20507 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20547 UKS Ltd
+mp-import:      afi ipv4.unicast from AS20547 accept AS-UKS
+mp-export:      afi ipv4.unicast to AS20547 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20562 Open Peering
+mp-import:      afi ipv4.unicast from AS20562 accept AS-OPENPEERING
+mp-export:      afi ipv4.unicast to AS20562 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20634 Telecom Liechtenstein AG
+mp-import:      afi ipv4.unicast from AS20634 accept AS-LIECOMTEL
+mp-export:      afi ipv4.unicast to AS20634 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20640 Titan Networks GmbH
+mp-import:      afi ipv4.unicast from AS20640 accept AS-TITANNET
+mp-export:      afi ipv4.unicast to AS20640 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20679 HighSpeed Office Limited
+mp-import:      afi ipv4.unicast from AS20679 accept AS-HSO
+mp-export:      afi ipv4.unicast to AS20679 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20712 Andrews & Arnold Ltd
+mp-import:      afi ipv4.unicast from AS20712 accept AS-AA
+mp-export:      afi ipv4.unicast to AS20712 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20718 Arsys Internet S.L.
+mp-import:      afi ipv4.unicast from AS20718 accept AS-ARSYSINTERNET
+mp-export:      afi ipv4.unicast to AS20718 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20747 PINS Nederland B.V.
+mp-import:      afi ipv4.unicast from AS20747 accept AS-PINS
+mp-export:      afi ipv4.unicast to AS20747 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20799 Datanet co uk Ltd.
+mp-import:      afi ipv4.unicast from AS20799 accept AS-DATANETUK
+mp-export:      afi ipv4.unicast to AS20799 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20847 Introweb Nederland B.V.
+mp-import:      afi ipv4.unicast from AS20847 accept AS-INTROWEB
+mp-export:      afi ipv4.unicast to AS20847 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20857 Transip B.V.
+mp-import:      afi ipv4.unicast from AS20857 accept AS-TRANSIP
+mp-export:      afi ipv4.unicast to AS20857 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20923 Skymarket Ltd.
+mp-import:      afi ipv4.unicast from AS20923 accept AS-SKYMARKET
+mp-export:      afi ipv4.unicast to AS20923 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20932 SIG/ IP- MAN
+mp-import:      afi ipv4.unicast from AS20932 accept AS-IP-MAN
+mp-export:      afi ipv4.unicast to AS20932 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20940 Akamai Technologies, Inc.
+mp-import:      afi ipv4.unicast from AS20940 accept AS-AKAMAI
+mp-export:      afi ipv4.unicast to AS20940 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20953 Info.nl
+mp-import:      afi ipv4.unicast from AS20953 accept AS-INFO
+mp-export:      afi ipv4.unicast to AS20953 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20969 NOB,a unit of Technicolor Network Services
+mp-import:      afi ipv4.unicast from AS20969 accept AS-NOB
+mp-export:      afi ipv4.unicast to AS20969 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS20976 Hotlinks Internet Services
+mp-import:      afi ipv4.unicast from AS20976 accept AS-HOTLINKS-LINX
+mp-export:      afi ipv4.unicast to AS20976 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21011 Nauka-Svyaz LTD
+mp-import:      afi ipv4.unicast from AS21011 accept AS21011
+mp-export:      afi ipv4.unicast to AS21011 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21055 Axamba Ltd.
+mp-import:      afi ipv4.unicast from AS21055 accept AS-WEBTAPESTRY
+mp-export:      afi ipv4.unicast to AS21055 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21073 Zoranet Connectivity Services B.V.
+mp-import:      afi ipv4.unicast from AS21073 accept AS-ZORANET
+mp-export:      afi ipv4.unicast to AS21073 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21099 Game Digital Ltd
+mp-import:      afi ipv4.unicast from AS21099 accept AS-BARRYSWORLD-LINX
+mp-export:      afi ipv4.unicast to AS21099 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21155 ProServe B.V.
+mp-import:      afi ipv4.unicast from AS21155 accept AS-PROSERVE
+mp-export:      afi ipv4.unicast to AS21155 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21221 InfoPact Netwerkdiensten BV
+mp-import:      afi ipv4.unicast from AS21221 accept AS-INFOPACT
+mp-export:      afi ipv4.unicast to AS21221 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21263 TeleData Friedrichshafen GmbH
+mp-import:      afi ipv4.unicast from AS21263 accept AS21263
+mp-export:      afi ipv4.unicast to AS21263 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21345 Messagelabs
+mp-import:      afi ipv4.unicast from AS21345 accept AS-MESSAGELABSEUROPE
+mp-export:      afi ipv4.unicast to AS21345 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21371 Equinix
+mp-import:      afi ipv4.unicast from AS21371 accept AS-IXEUROPE
+mp-export:      afi ipv4.unicast to AS21371 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21392 MuntInternet
+mp-import:      afi ipv4.unicast from AS21392 accept AS-MUNTINTERNET
+mp-export:      afi ipv4.unicast to AS21392 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21396 NetConnex Broadband Ltd.
+mp-import:      afi ipv4.unicast from AS21396 accept AS-NETCONNEX
+mp-export:      afi ipv4.unicast to AS21396 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21409 Ikoula
+mp-import:      afi ipv4.unicast from AS21409 accept AS-IKOULA
+mp-export:      afi ipv4.unicast to AS21409 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21478 Plex Elektronische Informatie
+mp-import:      afi ipv4.unicast from AS21478 accept AS21478
+mp-export:      afi ipv4.unicast to AS21478 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS21844 The Planet.com
+mp-import:      afi ipv4.unicast from AS21844 accept AS21844
+mp-export:      afi ipv4.unicast to AS21844 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS22212 Internap Network Services
+mp-import:      afi ipv4.unicast from AS22212 accept AS22212
+mp-export:      afi ipv4.unicast to AS22212 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS22577 Admob
+mp-import:      afi ipv4.unicast from AS22577 accept AS22577
+mp-export:      afi ipv4.unicast to AS22577 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS22822 Limelight Networks, Inc.
+mp-import:      afi ipv4.unicast from AS22822 accept AS-LLNW
+mp-export:      afi ipv4.unicast to AS22822 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS23148 Terremark Worldwide, Inc.
+mp-import:      afi ipv4.unicast from AS23148 accept AS-TWW
+mp-export:      afi ipv4.unicast to AS23148 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS23393 ISPRIME B.V.
+mp-import:      afi ipv4.unicast from AS23393 accept AS23393
+mp-export:      afi ipv4.unicast to AS23393 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24167 ASGCNet
+mp-import:      afi ipv4.unicast from AS24167 accept AS24167
+mp-export:      afi ipv4.unicast to AS24167 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24586 Intermax BV
+mp-import:      afi ipv4.unicast from AS24586 accept AS-INTERMAX
+mp-export:      afi ipv4.unicast to AS24586 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24594 Frontier Systems
+mp-import:      afi ipv4.unicast from AS24594 accept AS24594
+mp-export:      afi ipv4.unicast to AS24594 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24642 Caveo Internet BV
+mp-import:      afi ipv4.unicast from AS24642 accept AS-CAVEO
+mp-export:      afi ipv4.unicast to AS24642 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24724 ATM S.A.
+mp-import:      afi ipv4.unicast from AS24724 accept AS24724
+mp-export:      afi ipv4.unicast to AS24724 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24730 Garnier Projects BV
+mp-import:      afi ipv4.unicast from AS24730 accept AS-NETHOLDING
+mp-export:      afi ipv4.unicast to AS24730 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24793 NL Hosting Internet bv
+mp-import:      afi ipv4.unicast from AS24793 accept AS24793
+mp-export:      afi ipv4.unicast to AS24793 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24851 Netcetera Ltd.
+mp-import:      afi ipv4.unicast from AS24851 accept AS-NETCETERA
+mp-export:      afi ipv4.unicast to AS24851 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24867 Adapt Services Limited
+mp-import:      afi ipv4.unicast from AS24867 accept AS24867
+mp-export:      afi ipv4.unicast to AS24867 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24875 ISP Services B.V.
+mp-import:      afi ipv4.unicast from AS24875 accept AS-ISPSERVICES
+mp-export:      afi ipv4.unicast to AS24875 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24916 OrbitalNet
+mp-import:      afi ipv4.unicast from AS24916 accept AS-ORBITAL
+mp-export:      afi ipv4.unicast to AS24916 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24931 DediPower Managed Hosting Ltd.
+mp-import:      afi ipv4.unicast from AS24931 accept AS-DEDIPOWER
+mp-export:      afi ipv4.unicast to AS24931 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24940 Hetzner Online AG
+mp-import:      afi ipv4.unicast from AS24940 accept AS24940
+mp-export:      afi ipv4.unicast to AS24940 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24961 myLoc managed IT AG
+mp-import:      afi ipv4.unicast from AS24961 accept AS24961
+mp-export:      afi ipv4.unicast to AS24961 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24963 Yacast Media
+mp-import:      afi ipv4.unicast from AS24963 accept AS-YACAST
+mp-export:      afi ipv4.unicast to AS24963 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS24974 Tachyon Europe BV
+mp-import:      afi ipv4.unicast from AS24974 accept AS-TACHYON-EU
+mp-export:      afi ipv4.unicast to AS24974 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25061 Associated Networks (UK) Ltd. ANLX
+mp-import:      afi ipv4.unicast from AS25061 accept AS-ANLX
+mp-export:      afi ipv4.unicast to AS25061 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25074 INET-People Provider Services
+mp-import:      afi ipv4.unicast from AS25074 accept AS-INETBONE
+mp-export:      afi ipv4.unicast to AS25074 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25137 NFSI TELECOM LDA
+mp-import:      afi ipv4.unicast from AS25137 accept AS25137
+mp-export:      afi ipv4.unicast to AS25137 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25148 Basefarm AS
+mp-import:      afi ipv4.unicast from AS25148 accept AS25148
+mp-export:      afi ipv4.unicast to AS25148 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25151 Cyso Managed Hosting
+mp-import:      afi ipv4.unicast from AS25151 accept AS-CYSO
+mp-export:      afi ipv4.unicast to AS25151 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25152 Ripe NCC
+mp-import:      afi ipv4.unicast from AS25152 accept AS25152
+mp-export:      afi ipv4.unicast to AS25152 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25180 Exponential-e Ltd
+mp-import:      afi ipv4.unicast from AS25180 accept AS-EXPONENTIAL-E
+mp-export:      afi ipv4.unicast to AS25180 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25182 NPO
+mp-import:      afi ipv4.unicast from AS25182 accept AS-PUBLIEKEOMPOEP
+mp-export:      afi ipv4.unicast to AS25182 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25205 Lastminute.com
+mp-import:      afi ipv4.unicast from AS25205 accept AS25205
+mp-export:      afi ipv4.unicast to AS25205 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25310 Cable & Wireless
+mp-import:      afi ipv4.unicast from AS25310 accept AS25310
+mp-export:      afi ipv4.unicast to AS25310 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25369 KillerCreation Networks Ltd
+mp-import:      afi ipv4.unicast from AS25369 accept AS25369
+mp-export:      afi ipv4.unicast to AS25369 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25394 MK Netzdienste GmbH & Co. KG
+mp-import:      afi ipv4.unicast from AS25394 accept AS25394
+mp-export:      afi ipv4.unicast to AS25394 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25459 NedZone Internet B.V.
+mp-import:      afi ipv4.unicast from AS25459 accept AS-NEDZONE
+mp-export:      afi ipv4.unicast to AS25459 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25466 Lidero Network AB
+mp-import:      afi ipv4.unicast from AS25466 accept AS-LIDERONET
+mp-export:      afi ipv4.unicast to AS25466 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25525 ReasonNet IP Networks
+mp-import:      afi ipv4.unicast from AS25525 accept AS-REASONNET
+mp-export:      afi ipv4.unicast to AS25525 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25542 Denit Internet Services
+mp-import:      afi ipv4.unicast from AS25542 accept AS-DENIT
+mp-export:      afi ipv4.unicast to AS25542 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25562 Sony Computer Entertainment Europe Ltd
+mp-import:      afi ipv4.unicast from AS25562 accept AS-SCEE
+mp-export:      afi ipv4.unicast to AS25562 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25577 C4L Connexions4London
+mp-import:      afi ipv4.unicast from AS25577 accept AS-C4L
+mp-export:      afi ipv4.unicast to AS25577 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25588 UltraSpeed UK Limited
+mp-import:      afi ipv4.unicast from AS25588 accept AS-ULTRASPEED
+mp-export:      afi ipv4.unicast to AS25588 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25596 Cambrium BV
+mp-import:      afi ipv4.unicast from AS25596 accept AS-CAMBRIUM
+mp-export:      afi ipv4.unicast to AS25596 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25818 CMC Networks
+mp-import:      afi ipv4.unicast from AS25818 accept AS25818
+mp-export:      afi ipv4.unicast to AS25818 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS25973 PacketExchange
+mp-import:      afi ipv4.unicast from AS25973 accept AS25973
+mp-export:      afi ipv4.unicast to AS25973 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS26972 Trans World Internet Exchange
+mp-import:      afi ipv4.unicast from AS26972 accept AS26972
+mp-export:      afi ipv4.unicast to AS26972 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS27822 Emerging Markets Communications, Inc.
+mp-import:      afi ipv4.unicast from AS27822 accept AS27822
+mp-export:      afi ipv4.unicast to AS27822 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28673 Internet Technology Products Ltd.
+mp-import:      afi ipv4.unicast from AS28673 accept AS28673
+mp-export:      afi ipv4.unicast to AS28673 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28685 RoutIT B.V.
+mp-import:      afi ipv4.unicast from AS28685 accept AS-ROUTIT
+mp-export:      afi ipv4.unicast to AS28685 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28717 Zen Systems ApS
+mp-import:      afi ipv4.unicast from AS28717 accept AS-ZENSYSTEMS
+mp-export:      afi ipv4.unicast to AS28717 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28788 Unilogic Networks B.V.
+mp-import:      afi ipv4.unicast from AS28788 accept AS-UNILOGICNET
+mp-export:      afi ipv4.unicast to AS28788 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28792 Public Internet Ltd.
+mp-import:      afi ipv4.unicast from AS28792 accept AS-PUBLICINET
+mp-export:      afi ipv4.unicast to AS28792 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28809 NaukaNet
+mp-import:      afi ipv4.unicast from AS28809 accept AS-NAUKANET
+mp-export:      afi ipv4.unicast to AS28809 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28836 IC&S
+mp-import:      afi ipv4.unicast from AS28836 accept AS-ICSNL
+mp-export:      afi ipv4.unicast to AS28836 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28870 PLUSINFO LTD
+mp-import:      afi ipv4.unicast from AS28870 accept AS-PLUS
+mp-export:      afi ipv4.unicast to AS28870 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28878 Signet Internet
+mp-import:      afi ipv4.unicast from AS28878 accept AS-SIGNET
+mp-export:      afi ipv4.unicast to AS28878 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28929 ASDASD srl
+mp-import:      afi ipv4.unicast from AS28929 accept AS28929
+mp-export:      afi ipv4.unicast to AS28929 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS28986 Loud-n-clear
+mp-import:      afi ipv4.unicast from AS28986 accept AS-LOUDNCLEAR
+mp-export:      afi ipv4.unicast to AS28986 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29006 POBOX Ltd.
+mp-import:      afi ipv4.unicast from AS29006 accept AS-POBOX
+mp-export:      afi ipv4.unicast to AS29006 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29009 UK Broadband Ltd
+mp-import:      afi ipv4.unicast from AS29009 accept AS-UKBB
+mp-export:      afi ipv4.unicast to AS29009 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29017 Gyron Internet Ltd.
+mp-import:      afi ipv4.unicast from AS29017 accept AS-GYRON
+mp-export:      afi ipv4.unicast to AS29017 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29055 Prodigy Internet Ltd.
+mp-import:      afi ipv4.unicast from AS29055 accept AS-PRODIGY
+mp-export:      afi ipv4.unicast to AS29055 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29073 Ecatel Limited
+mp-import:      afi ipv4.unicast from AS29073 accept AS-ECATEL
+mp-export:      afi ipv4.unicast to AS29073 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29076 Filanco Europe Ltd
+mp-import:      afi ipv4.unicast from AS29076 accept AS29076
+mp-export:      afi ipv4.unicast to AS29076 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29113 Sloane Park Property Trust, a.s.
+mp-import:      afi ipv4.unicast from AS29113 accept AS-SLOANE
+mp-export:      afi ipv4.unicast to AS29113 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29131 Iomart Hosting Limited
+mp-import:      afi ipv4.unicast from AS29131 accept AS-RAPIDSWITCH
+mp-export:      afi ipv4.unicast to AS29131 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29169 Gandi
+mp-import:      afi ipv4.unicast from AS29169 accept AS29169
+mp-export:      afi ipv4.unicast to AS29169 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29208 Dial Telecom
+mp-import:      afi ipv4.unicast from AS29208 accept AS-DIALTELECOM
+mp-export:      afi ipv4.unicast to AS29208 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29263 Gemeente Den Haag
+mp-import:      afi ipv4.unicast from AS29263 accept AS-HAAGNET
+mp-export:      afi ipv4.unicast to AS29263 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29328 T-Mobile (UK) Limited
+mp-import:      afi ipv4.unicast from AS29328 accept AS29328
+mp-export:      afi ipv4.unicast to AS29328 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29396 UNET BV
+mp-import:      afi ipv4.unicast from AS29396 accept AS-UNET
+mp-export:      afi ipv4.unicast to AS29396 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29438 Momax S.r.l.
+mp-import:      afi ipv4.unicast from AS29438 accept AS-MOMAX
+mp-export:      afi ipv4.unicast to AS29438 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29452 Secura Hosting Ltd.
+mp-import:      afi ipv4.unicast from AS29452 accept AS-SECURA
+mp-export:      afi ipv4.unicast to AS29452 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29462 DSD automatisering B.V.
+mp-import:      afi ipv4.unicast from AS29462 accept AS29462
+mp-export:      afi ipv4.unicast to AS29462 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29527 Othello Technology Systems Ltd.
+mp-import:      afi ipv4.unicast from AS29527 accept AS-OTHELLOTECH
+mp-export:      afi ipv4.unicast to AS29527 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29550 BlueConnex
+mp-import:      afi ipv4.unicast from AS29550 accept AS-POUNDHOST
+mp-export:      afi ipv4.unicast to AS29550 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29611 Elite
+mp-import:      afi ipv4.unicast from AS29611 accept AS-ELITE
+mp-export:      afi ipv4.unicast to AS29611 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29636 Catalyst2 Services Ltd
+mp-import:      afi ipv4.unicast from AS29636 accept AS-CATALYST2
+mp-export:      afi ipv4.unicast to AS29636 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29640 Com Ned Netwerken bv
+mp-import:      afi ipv4.unicast from AS29640 accept AS-COMNED
+mp-export:      afi ipv4.unicast to AS29640 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29668 Qube Managed Services
+mp-import:      afi ipv4.unicast from AS29668 accept AS-QUBE
+mp-export:      afi ipv4.unicast to AS29668 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29676 Gradwell dot com Ltd
+mp-import:      afi ipv4.unicast from AS29676 accept AS-GRADWELL
+mp-export:      afi ipv4.unicast to AS29676 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29686 Probe Networks
+mp-import:      afi ipv4.unicast from AS29686 accept AS29686
+mp-export:      afi ipv4.unicast to AS29686 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS29791 Voxel dot Net
+mp-import:      afi ipv4.unicast from AS29791 accept AS29791
+mp-export:      afi ipv4.unicast to AS29791 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30071 OCCAID, Inc.
+mp-import:      afi ipv4.unicast from AS30071 accept AS30071
+mp-export:      afi ipv4.unicast to AS30071 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30081 CacheNetworks, LLC
+mp-import:      afi ipv4.unicast from AS30081 accept AS30081
+mp-export:      afi ipv4.unicast to AS30081 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30094 Giganews, Inc.
+mp-import:      afi ipv4.unicast from AS30094 accept AS-GIGANEWS
+mp-export:      afi ipv4.unicast to AS30094 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30132 Internet Systems Consortium
+mp-import:      afi ipv4.unicast from AS30132 accept AS30132
+mp-export:      afi ipv4.unicast to AS30132 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30740 Exa Networks Ltd.
+mp-import:      afi ipv4.unicast from AS30740 accept AS-EXA
+mp-export:      afi ipv4.unicast to AS30740 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30751 Eurotel OJSC
+mp-import:      afi ipv4.unicast from AS30751 accept AS30751
+mp-export:      afi ipv4.unicast to AS30751 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30781 Jaguar Network
+mp-import:      afi ipv4.unicast from AS30781 accept AS30781
+mp-export:      afi ipv4.unicast to AS30781 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30827 Xtraordinary Networks Ltd.
+mp-import:      afi ipv4.unicast from AS30827 accept AS-XTRAORDINARY
+mp-export:      afi ipv4.unicast to AS30827 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30844 Econet Carrier Services
+mp-import:      afi ipv4.unicast from AS30844 accept AS-ECS
+mp-export:      afi ipv4.unicast to AS30844 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30889 Waycom
+mp-import:      afi ipv4.unicast from AS30889 accept AS30889
+mp-export:      afi ipv4.unicast to AS30889 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30890 Cobalt IT srl
+mp-import:      afi ipv4.unicast from AS30890 accept AS30890
+mp-export:      afi ipv4.unicast to AS30890 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30914 ioko365 Ltd
+mp-import:      afi ipv4.unicast from AS30914 accept AS-IOKO
+mp-export:      afi ipv4.unicast to AS30914 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS30925 SpeedXS
+mp-import:      afi ipv4.unicast from AS30925 accept AS30925
+mp-export:      afi ipv4.unicast to AS30925 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31027 nianet a/s
+mp-import:      afi ipv4.unicast from AS31027 accept AS31027
+mp-export:      afi ipv4.unicast to AS31027 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31084 Magrathea
+mp-import:      afi ipv4.unicast from AS31084 accept AS-MAGRATHEA
+mp-export:      afi ipv4.unicast to AS31084 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31216 BSO Network Solutions
+mp-import:      afi ipv4.unicast from AS31216 accept AS-BSOCOM
+mp-export:      afi ipv4.unicast to AS31216 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31252 Starnet
+mp-import:      afi ipv4.unicast from AS31252 accept AS31252
+mp-export:      afi ipv4.unicast to AS31252 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31283 FastHost AS
+mp-import:      afi ipv4.unicast from AS31283 accept AS-FASTHOST
+mp-export:      afi ipv4.unicast to AS31283 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31290 murphx Innovative Solutions Ltd.
+mp-import:      afi ipv4.unicast from AS31290 accept AS-MURPHX
+mp-export:      afi ipv4.unicast to AS31290 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31334 Kabel Deutschland
+mp-import:      afi ipv4.unicast from AS31334 accept AS31334
+mp-export:      afi ipv4.unicast to AS31334 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31339 Reactive Networks
+mp-import:      afi ipv4.unicast from AS31339 accept AS-REACTIVE
+mp-export:      afi ipv4.unicast to AS31339 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31383 Computel Standby BV
+mp-import:      afi ipv4.unicast from AS31383 accept AS-COMPUTEL
+mp-export:      afi ipv4.unicast to AS31383 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31458 Smart Telecom Holdings
+mp-import:      afi ipv4.unicast from AS31458 accept AS-SMART
+mp-export:      afi ipv4.unicast to AS31458 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31459 BBC
+mp-import:      afi ipv4.unicast from AS31459 accept AS31459
+mp-export:      afi ipv4.unicast to AS31459 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31477 Duocast
+mp-import:      afi ipv4.unicast from AS31477 accept AS-DUOCAST
+mp-export:      afi ipv4.unicast to AS31477 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31500 GlobalNet JSC
+mp-import:      afi ipv4.unicast from AS31500 accept AS-GLOBAL-NET
+mp-export:      afi ipv4.unicast to AS31500 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31529 DENIC eG
+mp-import:      afi ipv4.unicast from AS31529 accept AS31529
+mp-export:      afi ipv4.unicast to AS31529 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31615 T-Mobile Netherlands B.V.
+mp-import:      afi ipv4.unicast from AS31615 accept AS31615
+mp-export:      afi ipv4.unicast to AS31615 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31641 Bytel Ltd
+mp-import:      afi ipv4.unicast from AS31641 accept AS31641
+mp-export:      afi ipv4.unicast to AS31641 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31655 Gamma Telecom Ltd.
+mp-import:      afi ipv4.unicast from AS31655 accept AS-GAMMATELECOM
+mp-export:      afi ipv4.unicast to AS31655 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31661 ComX Networks
+mp-import:      afi ipv4.unicast from AS31661 accept AS-COMX
+mp-export:      afi ipv4.unicast to AS31661 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31708 Coreix Ltd.
+mp-import:      afi ipv4.unicast from AS31708 accept AS-COREIX
+mp-export:      afi ipv4.unicast to AS31708 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31715 NetrinoUK Ltd
+mp-import:      afi ipv4.unicast from AS31715 accept AS-NETRINO
+mp-export:      afi ipv4.unicast to AS31715 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS31727 Node4 Ltd
+mp-import:      afi ipv4.unicast from AS31727 accept AS-NODE4
+mp-export:      afi ipv4.unicast to AS31727 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS32385 IntelePeer INC.
+mp-import:      afi ipv4.unicast from AS32385 accept AS32385
+mp-export:      afi ipv4.unicast to AS32385 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS32748 NoZone, Inc.
+mp-import:      afi ipv4.unicast from AS32748 accept AS32748
+mp-export:      afi ipv4.unicast to AS32748 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS32787 Prolexic Technologies Inc.
+mp-import:      afi ipv4.unicast from AS32787 accept AS32787
+mp-export:      afi ipv4.unicast to AS32787 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS32934 Facebook UK Ltd
+mp-import:      afi ipv4.unicast from AS32934 accept AS32934
+mp-export:      afi ipv4.unicast to AS32934 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS32979 Neustar
+mp-import:      afi ipv4.unicast from AS32979 accept AS32979
+mp-export:      afi ipv4.unicast to AS32979 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS33073 ISC - f.root-servers.net
+mp-import:      afi ipv4.unicast from AS33073 accept AS33073
+mp-export:      afi ipv4.unicast to AS33073 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS33081 Internet Systems Consortium, Inc.
+mp-import:      afi ipv4.unicast from AS33081 accept AS33081
+mp-export:      afi ipv4.unicast to AS33081 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS33915 The Network Factory B.V.
+mp-import:      afi ipv4.unicast from AS33915 accept AS-TNF
+mp-export:      afi ipv4.unicast to AS33915 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS33920 aq Limited
+mp-import:      afi ipv4.unicast from AS33920 accept AS-AQNET
+mp-export:      afi ipv4.unicast to AS33920 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS33968 Hosting UK
+mp-import:      afi ipv4.unicast from AS33968 accept AS-INTENG
+mp-export:      afi ipv4.unicast to AS33968 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34079 Eduserv Internet
+mp-import:      afi ipv4.unicast from AS34079 accept AS34079
+mp-export:      afi ipv4.unicast to AS34079 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34106 Telegraaf Media ICT
+mp-import:      afi ipv4.unicast from AS34106 accept AS-TELEGRAAF
+mp-export:      afi ipv4.unicast to AS34106 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34141 IN2IP B.V.
+mp-import:      afi ipv4.unicast from AS34141 accept AS-IN2IP
+mp-export:      afi ipv4.unicast to AS34141 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34215 @Inet Technology Consultancy BV
+mp-import:      afi ipv4.unicast from AS34215 accept AS-ATINET
+mp-export:      afi ipv4.unicast to AS34215 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34245 Magnet Networks
+mp-import:      afi ipv4.unicast from AS34245 accept AS-MAGNETLOCAL
+mp-export:      afi ipv4.unicast to AS34245 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34270 Internet Connections
+mp-import:      afi ipv4.unicast from AS34270 accept AS-INETC
+mp-export:      afi ipv4.unicast to AS34270 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34305 EuroAccess Enterprises Limited
+mp-import:      afi ipv4.unicast from AS34305 accept AS-EUROACCESS
+mp-export:      afi ipv4.unicast to AS34305 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34309 Link 11 GmbH
+mp-import:      afi ipv4.unicast from AS34309 accept AS-LINK11
+mp-export:      afi ipv4.unicast to AS34309 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34313 Lixxus Ltd.
+mp-import:      afi ipv4.unicast from AS34313 accept AS-LIXXUS
+mp-export:      afi ipv4.unicast to AS34313 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34419 Vodafone Group Services GmbH
+mp-import:      afi ipv4.unicast from AS34419 accept AS-VODAFONE
+mp-export:      afi ipv4.unicast to AS34419 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34430 Connect Data Solutions BV
+mp-import:      afi ipv4.unicast from AS34430 accept AS-QORE
+mp-export:      afi ipv4.unicast to AS34430 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34442 Xifos Limited
+mp-import:      afi ipv4.unicast from AS34442 accept AS34442
+mp-export:      afi ipv4.unicast to AS34442 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34486 IP2 Internet B.V.
+mp-import:      afi ipv4.unicast from AS34486 accept AS-IP2
+mp-export:      afi ipv4.unicast to AS34486 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34655 DoclerWeb Kft.
+mp-import:      afi ipv4.unicast from AS34655 accept AS-DOCLER
+mp-export:      afi ipv4.unicast to AS34655 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34695 E4A s.r.l.
+mp-import:      afi ipv4.unicast from AS34695 accept AS34695
+mp-export:      afi ipv4.unicast to AS34695 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34746 Eaton Kaye Ltd
+mp-import:      afi ipv4.unicast from AS34746 accept AS34746
+mp-export:      afi ipv4.unicast to AS34746 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34763 Ipercast Network
+mp-import:      afi ipv4.unicast from AS34763 accept AS-VIRGINRADIO
+mp-export:      afi ipv4.unicast to AS34763 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34790 Waveworks
+mp-import:      afi ipv4.unicast from AS34790 accept AS-WAVEWORKS
+mp-export:      afi ipv4.unicast to AS34790 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34803 Broadband Gibraltar Ltd
+mp-import:      afi ipv4.unicast from AS34803 accept AS34803
+mp-export:      afi ipv4.unicast to AS34803 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34816 AEG
+mp-import:      afi ipv4.unicast from AS34816 accept AS-AEG
+mp-export:      afi ipv4.unicast to AS34816 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS34968 Iunxi BV
+mp-import:      afi ipv4.unicast from AS34968 accept AS-IUNXI
+mp-export:      afi ipv4.unicast to AS34968 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35028 Multiplay (UK) Ltd.
+mp-import:      afi ipv4.unicast from AS35028 accept AS-MULTIPLAY
+mp-export:      afi ipv4.unicast to AS35028 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35180 Hipcom
+mp-import:      afi ipv4.unicast from AS35180 accept AS35180
+mp-export:      afi ipv4.unicast to AS35180 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35228 Be Un Ltd. / O2 UK
+mp-import:      afi ipv4.unicast from AS35228 accept AS35228
+mp-export:      afi ipv4.unicast to AS35228 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35259 APM Internet Ltd.
+mp-import:      afi ipv4.unicast from AS35259 accept AS-APM
+mp-export:      afi ipv4.unicast to AS35259 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35260 Internet Unie Services
+mp-import:      afi ipv4.unicast from AS35260 accept AS35260
+mp-export:      afi ipv4.unicast to AS35260 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35320 Eurotranstelecom
+mp-import:      afi ipv4.unicast from AS35320 accept AS-ETT
+mp-export:      afi ipv4.unicast to AS35320 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35366 ISPpro Internet KG
+mp-import:      afi ipv4.unicast from AS35366 accept AS35366
+mp-export:      afi ipv4.unicast to AS35366 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35399 IT Inside Out (NetworkWizardry)
+mp-import:      afi ipv4.unicast from AS35399 accept AS35399
+mp-export:      afi ipv4.unicast to AS35399 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35425 Bytemark Hosting
+mp-import:      afi ipv4.unicast from AS35425 accept AS-BYTEMARK
+mp-export:      afi ipv4.unicast to AS35425 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35432 Cablenet
+mp-import:      afi ipv4.unicast from AS35432 accept AS35432
+mp-export:      afi ipv4.unicast to AS35432 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35456 Fubra Limited
+mp-import:      afi ipv4.unicast from AS35456 accept AS-FUBRA
+mp-export:      afi ipv4.unicast to AS35456 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35591 Provider-one.net Limited
+mp-import:      afi ipv4.unicast from AS35591 accept AS-PROVIDERONE
+mp-export:      afi ipv4.unicast to AS35591 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS35916 Multacom
+mp-import:      afi ipv4.unicast from AS35916 accept AS35916
+mp-export:      afi ipv4.unicast to AS35916 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS36408 Panther Express
+mp-import:      afi ipv4.unicast from AS36408 accept AS36408
+mp-export:      afi ipv4.unicast to AS36408 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS36623 VeriSign
+mp-import:      afi ipv4.unicast from AS36623 accept AS36623
+mp-export:      afi ipv4.unicast to AS36623 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS36625 VeriSign Netherlands BV
+mp-import:      afi ipv4.unicast from AS36625 accept AS36625
+mp-export:      afi ipv4.unicast to AS36625 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS36692 OpenDNS, LLC
+mp-import:      afi ipv4.unicast from AS36692 accept AS36692
+mp-export:      afi ipv4.unicast to AS36692 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS36944 Tenet
+mp-import:      afi ipv4.unicast from AS36944 accept AS36944
+mp-export:      afi ipv4.unicast to AS36944 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS37179 Africa Independent Network Exchange (PTY)LTD
+mp-import:      afi ipv4.unicast from AS37179 accept AS37179
+mp-export:      afi ipv4.unicast to AS37179 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS38082 True Internet Gateway Co. Ltd
+mp-import:      afi ipv4.unicast from AS38082 accept AS38082
+mp-export:      afi ipv4.unicast to AS38082 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS38915 Gemeente Heerlen
+mp-import:      afi ipv4.unicast from AS38915 accept AS38915
+mp-export:      afi ipv4.unicast to AS38915 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39033 Cluster Internet
+mp-import:      afi ipv4.unicast from AS39033 accept AS-CLUSTER
+mp-export:      afi ipv4.unicast to AS39033 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39202 GCAP Media PLC
+mp-import:      afi ipv4.unicast from AS39202 accept AS-GCAP
+mp-export:      afi ipv4.unicast to AS39202 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39295 Switch IP Ltd.
+mp-import:      afi ipv4.unicast from AS39295 accept AS-SWITCHIP
+mp-export:      afi ipv4.unicast to AS39295 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39309 Edutel B.V.
+mp-import:      afi ipv4.unicast from AS39309 accept AS-EDUTEL
+mp-export:      afi ipv4.unicast to AS39309 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39326 Goscomb Technologies Ltd.
+mp-import:      afi ipv4.unicast from AS39326 accept AS-GOSCOMB
+mp-export:      afi ipv4.unicast to AS39326 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39556 Easyhosting BV
+mp-import:      afi ipv4.unicast from AS39556 accept AS-EASYHOSTING
+mp-export:      afi ipv4.unicast to AS39556 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39591 Global-e Datacenter BV
+mp-import:      afi ipv4.unicast from AS39591 accept AS39591
+mp-export:      afi ipv4.unicast to AS39591 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39637 I4 Networks
+mp-import:      afi ipv4.unicast from AS39637 accept AS39637
+mp-export:      afi ipv4.unicast to AS39637 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39647 Redhosting B.V. & Voiceworks B.V.
+mp-import:      afi ipv4.unicast from AS39647 accept AS39647
+mp-export:      afi ipv4.unicast to AS39647 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39704 CJ2 Hosting
+mp-import:      afi ipv4.unicast from AS39704 accept AS39704
+mp-export:      afi ipv4.unicast to AS39704 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39757 The UK Grid Network Ltd.
+mp-import:      afi ipv4.unicast from AS39757 accept AS-UKGRID
+mp-export:      afi ipv4.unicast to AS39757 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39779 OpenPeers Ltd.
+mp-import:      afi ipv4.unicast from AS39779 accept AS-OPENPEERS
+mp-export:      afi ipv4.unicast to AS39779 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS39792 Anders Business Group Ltd.
+mp-import:      afi ipv4.unicast from AS39792 accept AS-ANDERS
+mp-export:      afi ipv4.unicast to AS39792 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS40009 BitGravity
+mp-import:      afi ipv4.unicast from AS40009 accept AS40009
+mp-export:      afi ipv4.unicast to AS40009 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS40064 JumpTV Inc.
+mp-import:      afi ipv4.unicast from AS40064 accept AS40064
+mp-export:      afi ipv4.unicast to AS40064 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS40761 New Frontier Technologies Corporation
+mp-import:      afi ipv4.unicast from AS40761 accept AS40761
+mp-export:      afi ipv4.unicast to AS40761 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41012 The Cloud Networks Limited
+mp-import:      afi ipv4.unicast from AS41012 accept AS-THECLOUD
+mp-export:      afi ipv4.unicast to AS41012 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41045 Butlernetworks
+mp-import:      afi ipv4.unicast from AS41045 accept AS41045
+mp-export:      afi ipv4.unicast to AS41045 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41095 IPTP Networks
+mp-import:      afi ipv4.unicast from AS41095 accept AS-IPTP
+mp-export:      afi ipv4.unicast to AS41095 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41103 ClearIP
+mp-import:      afi ipv4.unicast from AS41103 accept AS-CLEARIP
+mp-export:      afi ipv4.unicast to AS41103 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41197 Switch Media PLC
+mp-import:      afi ipv4.unicast from AS41197 accept AS41197
+mp-export:      afi ipv4.unicast to AS41197 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41230 Ask4 Limited
+mp-import:      afi ipv4.unicast from AS41230 accept AS-ASK4
+mp-export:      afi ipv4.unicast to AS41230 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41445 Net Ground B.V.
+mp-import:      afi ipv4.unicast from AS41445 accept AS-NETGROUND
+mp-export:      afi ipv4.unicast to AS41445 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41552 Kijiji International Ltd
+mp-import:      afi ipv4.unicast from AS41552 accept AS41552
+mp-export:      afi ipv4.unicast to AS41552 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41690 Dailymotion
+mp-import:      afi ipv4.unicast from AS41690 accept AS-DAILYMOTION
+mp-export:      afi ipv4.unicast to AS41690 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41692 Open Carrier
+mp-import:      afi ipv4.unicast from AS41692 accept AS-OPENCARRIER
+mp-export:      afi ipv4.unicast to AS41692 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41769 Voicenet Solutions Ltd
+mp-import:      afi ipv4.unicast from AS41769 accept AS41769
+mp-export:      afi ipv4.unicast to AS41769 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS41853 LLC NTCOM
+mp-import:      afi ipv4.unicast from AS41853 accept AS-NTCOM
+mp-export:      afi ipv4.unicast to AS41853 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS42184 Jansen Systemberatung GmbH
+mp-import:      afi ipv4.unicast from AS42184 accept AS-DLRZ
+mp-export:      afi ipv4.unicast to AS42184 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS42353 Simwood eSMS Limited
+mp-import:      afi ipv4.unicast from AS42353 accept AS42353
+mp-export:      afi ipv4.unicast to AS42353 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS42369 LBI
+mp-import:      afi ipv4.unicast from AS42369 accept AS42369
+mp-export:      afi ipv4.unicast to AS42369 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS42455 Wi-Manx
+mp-import:      afi ipv4.unicast from AS42455 accept AS-WIMANX
+mp-export:      afi ipv4.unicast to AS42455 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS42579 Sargasso Networks
+mp-import:      afi ipv4.unicast from AS42579 accept AS-SARGASSO-UK
+mp-export:      afi ipv4.unicast to AS42579 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS42689 Move Networks
+mp-import:      afi ipv4.unicast from AS42689 accept AS42689
+mp-export:      afi ipv4.unicast to AS42689 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS42899 Freshtel UK Ltd.
+mp-import:      afi ipv4.unicast from AS42899 accept AS42899
+mp-export:      afi ipv4.unicast to AS42899 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS42949 eatserver.nl
+mp-import:      afi ipv4.unicast from AS42949 accept AS42949
+mp-export:      afi ipv4.unicast to AS42949 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS43013 York Data Services Limited
+mp-import:      afi ipv4.unicast from AS43013 accept AS43013
+mp-export:      afi ipv4.unicast to AS43013 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS43293 Stichting Proxility
+mp-import:      afi ipv4.unicast from AS43293 accept AS43293
+mp-export:      afi ipv4.unicast to AS43293 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS43338 Rational Services Limited (PokerStars)
+mp-import:      afi ipv4.unicast from AS43338 accept AS43338
+mp-export:      afi ipv4.unicast to AS43338 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS43350 NFOrce Entertainment BV
+mp-import:      afi ipv4.unicast from AS43350 accept AS43350
+mp-export:      afi ipv4.unicast to AS43350 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS43437 Voipro Nederland B.V.
+mp-import:      afi ipv4.unicast from AS43437 accept AS43437
+mp-export:      afi ipv4.unicast to AS43437 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS43531 IX Reach
+mp-import:      afi ipv4.unicast from AS43531 accept AS43531
+mp-export:      afi ipv4.unicast to AS43531 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS43560 REDUNIX
+mp-import:      afi ipv4.unicast from AS43560 accept AS-PANTHERIT
+mp-export:      afi ipv4.unicast to AS43560 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS43821 Wikimedia Foundation Inc
+mp-import:      afi ipv4.unicast from AS43821 accept AS-WIKIMEDIA
+mp-export:      afi ipv4.unicast to AS43821 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS44444 Websense Hosted R&D Ltd
+mp-import:      afi ipv4.unicast from AS44444 accept AS-WHS-EU
+mp-export:      afi ipv4.unicast to AS44444 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS44654 Media Network Services
+mp-import:      afi ipv4.unicast from AS44654 accept AS44654
+mp-export:      afi ipv4.unicast to AS44654 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS44684 Mythic Beasts
+mp-import:      afi ipv4.unicast from AS44684 accept AS-MYTHIC
+mp-export:      afi ipv4.unicast to AS44684 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS44788 Criteo
+mp-import:      afi ipv4.unicast from AS44788 accept AS44788
+mp-export:      afi ipv4.unicast to AS44788 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS44953 IsiConneXion B.V.
+mp-import:      afi ipv4.unicast from AS44953 accept AS44953
+mp-export:      afi ipv4.unicast to AS44953 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS45014 Nuco Technologies Ltd
+mp-import:      afi ipv4.unicast from AS45014 accept AS45014
+mp-export:      afi ipv4.unicast to AS45014 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS45037 Hispaweb Network
+mp-import:      afi ipv4.unicast from AS45037 accept AS45037
+mp-export:      afi ipv4.unicast to AS45037 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS46786 IP Transit Inc.
+mp-import:      afi ipv4.unicast from AS46786 accept AS46786
+mp-export:      afi ipv4.unicast to AS46786 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS47143 Todayhost Ltd
+mp-import:      afi ipv4.unicast from AS47143 accept AS47143
+mp-export:      afi ipv4.unicast to AS47143 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS47195 Gameforge Productions GmbH
+mp-import:      afi ipv4.unicast from AS47195 accept AS47195
+mp-export:      afi ipv4.unicast to AS47195 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS47344 Hyves
+mp-import:      afi ipv4.unicast from AS47344 accept AS47344
+mp-export:      afi ipv4.unicast to AS47344 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS47480 Blue Tiger Solutions
+mp-import:      afi ipv4.unicast from AS47480 accept AS47480
+mp-export:      afi ipv4.unicast to AS47480 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS47756 Thornton Ltd
+mp-import:      afi ipv4.unicast from AS47756 accept AS47756
+mp-export:      afi ipv4.unicast to AS47756 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS47869 Netrouting
+mp-import:      afi ipv4.unicast from AS47869 accept AS47869
+mp-export:      afi ipv4.unicast to AS47869 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS47999 Transversal Corporation Ltd
+mp-import:      afi ipv4.unicast from AS47999 accept AS47999
+mp-export:      afi ipv4.unicast to AS47999 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS48173 The unbelievable Machine Company GmbH
+mp-import:      afi ipv4.unicast from AS48173 accept AS48173
+mp-export:      afi ipv4.unicast to AS48173 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS48961 Warwicknet Ltd.
+mp-import:      afi ipv4.unicast from AS48961 accept AS48961
+mp-export:      afi ipv4.unicast to AS48961 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS49249 Nominum
+mp-import:      afi ipv4.unicast from AS49249 accept AS49249
+mp-export:      afi ipv4.unicast to AS49249 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS49375 Trunk Networks
+mp-import:      afi ipv4.unicast from AS49375 accept AS49375
+mp-export:      afi ipv4.unicast to AS49375 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS49562 XMS
+mp-import:      afi ipv4.unicast from AS49562 accept AS49562
+mp-export:      afi ipv4.unicast to AS49562 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS49572 Fujitsu Services
+mp-import:      afi ipv4.unicast from AS49572 accept AS49572
+mp-export:      afi ipv4.unicast to AS49572 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS49625 IC Computers - IC Hosting
+mp-import:      afi ipv4.unicast from AS49625 accept AS49625
+mp-export:      afi ipv4.unicast to AS49625 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS49629 UTV Internet Limited
+mp-import:      afi ipv4.unicast from AS49629 accept AS49629
+mp-export:      afi ipv4.unicast to AS49629 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS49820 Pictura Database Publishing
+mp-import:      afi ipv4.unicast from AS49820 accept AS49820
+mp-export:      afi ipv4.unicast to AS49820 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS49900 Betfair Limited
+mp-import:      afi ipv4.unicast from AS49900 accept AS49900
+mp-export:      afi ipv4.unicast to AS49900 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS50295 Triple-IT BV
+mp-import:      afi ipv4.unicast from AS50295 accept AS50295
+mp-export:      afi ipv4.unicast to AS50295 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS50384 W-ix Ltd
+mp-import:      afi ipv4.unicast from AS50384 accept AS50384
+mp-export:      afi ipv4.unicast to AS50384 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS64584 Telfort
+mp-import:      afi ipv4.unicast from AS64584 accept AS64584
+mp-export:      afi ipv4.unicast to AS64584 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS64597 Renesys Corporation
+mp-import:      afi ipv4.unicast from AS64597 accept AS64597
+mp-export:      afi ipv4.unicast to AS64597 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS64650 T-Mobile Netherlands B.V.
+mp-import:      afi ipv4.unicast from AS64650 accept AS64650
+mp-export:      afi ipv4.unicast to AS64650 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        AS196720 deCarta
+mp-import:      afi ipv4.unicast from AS196720 accept AS196720
+mp-export:      afi ipv4.unicast to AS196720 announce AS-KCOMSPN
+remarks:        -------------------------------------------------------
+remarks:        TRANSIT CUSTOMERS
+remarks:        -------------------------------------------------------
+remarks:        AS51918
+mp-import:      afi ipv4.unicast from AS51918 accept AS51918
+mp-export:      afi ipv4.unicast to AS51918 announce ANY
+remarks:        -------------------------------------------------------
+remarks:        AS199131
+mp-import:      afi ipv4.unicast from AS199131 accept AS199131
+mp-export:      afi ipv4.unicast to AS199131 announce ANY
+remarks:        -------------------------------------------------------
+remarks:        KCOM (SPN) ENGINEERING PUBLIC COMMUNITY NOMENCLATURE
+remarks:        _______________________________________________________
+remarks:        GROUP COMMUNITY
+remarks:        _______________________________________________________
+remarks:        MISTRAL BLOCKS
+remarks:        [[blanket]] 8897:8897
+remarks:        London 8897:64801
+remarks:        PRIVATE PEERING
+remarks:        [[blanket]] 8897:64850
+remarks:        London 8897:64851
+remarks:        PUBLIC PEERING
+remarks:        [[blanket]] 8897:64900
+remarks:        London 8897:64901
+remarks:        TRANSIT
+remarks:        [[blanket]] 8897:64950
+remarks:        London 8897:64951
+remarks:        TRANSIT CUSTOMERS
+remarks:        [[blanket]] 8897:65000
+remarks:        London 8897:65001
+remarks:        UK Rings 8897:6500[5-7]
+remarks:        PUBLIC PEERING
+remarks:        [[blanket]] 8897:64901
+remarks:        LINX 8897:65101
+remarks:        LONAP 8897:65104
+remarks:        MULTICAST
+remarks:        [[blanket]] 8897:65444
+remarks:        LINX 8897:65440
+remarks:        LONAP 8897:65441
+remarks:        MULTICAST CUSTOMERS 8897:65450
+remarks:        _______________________________________________________
+remarks:        We operate an open peering policy.
+remarks:        We filter all the usual/current bogons.
+remarks:
+remarks:        Peering contact: spnpeering@kcom.com
+remarks:
+remarks:        LINX JUNIPER IPv4 195.66.224.70
+remarks:        LINX EXTREME IPv4 195.66.236.70
+remarks:        LONAP IPv4 5.57.80.22
+remarks:        LONAP IPv4 5.57.80.23
+remarks:        _______________________________________________________
+remarks:        LINX JUNIPER IPv6 2001:7F8:4::22C1:1
+remarks:        LINX EXTREME IPv6 2001:7F8:4:1::22C1:1
+remarks:        _______________________________________________________
+remarks:
+remarks:
+admin-c:        MH14860-RIPE
+admin-c:        PE2639-RIPE
+tech-c:         MH14860-RIPE
+tech-c:         PE2639-RIPE
+status:         ASSIGNED
+mnt-by:         MISTRALNOC
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-09-17T12:20:09Z
+last-modified:  2019-08-15T08:49:12Z
+source:         RIPE # Filtered
+
+organisation:   ORG-MI5-RIPE
+org-name:       KCOM GROUP LIMITED
+country:        GB
+org-type:       LIR
+address:        Suite 1 Osprey House, Osprey Road
+address:        ex2 7wn
+address:        exeter
+address:        UNITED KINGDOM
+phone:          +441392333309
+fax-no:         +448704936399
+mnt-ref:        MISTRALNOC
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MISTRALNOC
+admin-c:        PE2639-RIPE
+admin-c:        MH14860-RIPE
+abuse-c:        MH14860-RIPE
+created:        2004-04-17T12:18:16Z
+last-modified:  2021-12-16T09:43:28Z
+source:         RIPE # Filtered
+
+role:           Mistral Hostmaster
+address:        Kcom
+address:        32 West Street
+address:        Brighton
+address:        East Sussex
+address:        UK
+address:        BN1 2RT
+phone:          +44 870 4936310
+fax-no:         +44 870 4936399
+remarks:        trouble: Information: http://www.mistral.net/
+remarks:        trouble: Questions? mailto:hostmaster@mistral.net
+remarks:        trouble: Problems? mailto:abuse@kcom.com
+admin-c:        PE2639-RIPE
+tech-c:         PE2639-RIPE
+nic-hdl:        MH14860-RIPE
+mnt-by:         MISTRALNOC
+created:        2002-07-16T09:55:19Z
+last-modified:  2023-06-26T08:33:40Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@kcom.com
+
+person:         Phil Edwards
+address:        GCI Network Solutions
+address:        19-25 Nuffield Road
+address:        Poole
+address:        Dorset
+address:        BH17 0RU
+phone:          +44 3303 130734
+remarks:        Head of Cloud Engineering
+nic-hdl:        PE2639-RIPE
+mnt-by:         MISTRALNOC
+created:        2002-03-06T16:25:55Z
+last-modified:  2023-05-24T11:22:36Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          91.195.168.0/23
+descr:          IBG Hosting
+origin:         AS8897
+mnt-by:         EXPONENTIAL-E-MNT
+created:        2011-12-14T11:40:16Z
+last-modified:  2012-06-19T09:24:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.209.125.0/24
+descr:          KCOM-MANAGED-PI-HDNL
+descr:          ALLOCATED PI Space do not break up
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2008-11-17T16:47:24Z
+last-modified:  2008-11-17T16:47:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.156.16.0/22
+origin:         AS8897
+mnt-by:         uk-gossinteractive-1-mnt
+created:        2016-07-11T08:43:33Z
+last-modified:  2016-07-11T08:43:33Z
+source:         RIPE
+descr:          Goss Interactive
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.149.15.0/24
+descr:          MISTRAL
+descr:          ALLOCATED PI Space do not break up
+descr:          Former Astra route
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2005-03-21T16:27:03Z
+last-modified:  2021-06-04T09:39:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.1.164.0/23
+descr:          KCOM-MANAGED-PI-IN-TUITION-1
+descr:          ALLOCATED PI Space do not break up
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2008-06-03T08:22:26Z
+last-modified:  2008-06-03T08:22:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.131.0/24
+descr:          SAQ DSL Block
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2016-02-25T15:50:12Z
+last-modified:  2016-02-25T15:50:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.132.0/22
+descr:          SAQ DSL Block
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2016-03-01T11:23:29Z
+last-modified:  2016-03-01T11:23:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.136.0/24
+descr:          SAQ DSL Block
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2016-03-01T11:23:29Z
+last-modified:  2016-03-01T11:23:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.138.0/24
+descr:          SAQ DSL Block
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2016-03-01T11:23:29Z
+last-modified:  2016-03-01T11:23:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.140.0/22
+descr:          SAQ DSL Block
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2016-03-01T11:23:29Z
+last-modified:  2016-03-01T11:23:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.2.144.0/23
+descr:          SAQ DSL Block
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2016-03-01T11:23:29Z
+last-modified:  2016-03-01T11:23:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.111.145.0/24
+descr:          Supanet-Internexus-3
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2010-01-18T10:04:27Z
+last-modified:  2010-01-18T10:04:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.40.160.0/23
+descr:          Supanet-Internexus-2
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2010-01-15T13:58:02Z
+last-modified:  2010-01-15T14:17:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.40.162.0/23
+descr:          Supanet-Internexus-4
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2010-02-02T14:11:24Z
+last-modified:  2010-02-02T14:11:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:15e0::/32
+descr:          KCOM-SPN-IPV6-AGG1
+origin:         AS8897
+mnt-by:         MISTRALNOC
+created:        2010-03-10T11:54:29Z
+last-modified:  2010-03-10T11:54:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

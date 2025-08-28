@@ -1,0 +1,1135 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20717'
+
+% Abuse contact for 'AS20717' is 'abuse@de-cix.net'
+
+aut-num:        AS20717
+as-name:        DECIX-MRS-AS
+descr:          DE-CIX Marseille Route Servers
+org:            ORG-DtGI1-RIPE
+admin-c:        DXSU6695-RIPE
+tech-c:         DXSU6695-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DECIX-MNT
+remarks:
+remarks:        You may use BGP Standard or Large Communities to
+remarks:        control route redistribution via the route servers:
+remarks:
+remarks:        (20717:20717), (20717:1:0): Redistribute to all route server peers (default)
+remarks:        (20717:<peer ASN>), (20717:1:20717): Redistribute to <peer ASN>
+remarks:        (0:<peer ASN>), (20717:0:<peer ASN>): Do not redistribute to <peer ASN>
+remarks:        (0:20717), (20717:0:0): Do not redistribute
+remarks:
+remarks:        If <peer ASN> uses a 16b ASN, you may use BGP Standard or Large Communities
+remarks:        If <peer ASN> uses a 32b ASN, you have to use BGP Large Communities
+remarks:
+remarks:        There are additional communities for controlling announcements:
+remarks:
+remarks:        65535:0 GRACEFUL_SHUTDOWN
+remarks:        65535:666 BLACKHOLE
+remarks:        20717:65281 NO-EXPORT
+remarks:        20717:65282 NO-ADVERTISE
+remarks:
+remarks:        For more information on route server control and blackholing, please see:
+remarks:        https://docs.de-cix.net/category/jyc0p3ubp9
+remarks:
+import:         from AS42 185.1.47.42 at 185.1.47.252 accept AS-PCH
+export:         to AS42 185.1.47.42 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS42 185.1.47.42 at 185.1.47.253 accept AS-PCH
+export:         to AS42 185.1.47.42 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS42 2001:7f8:36::2a:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 2001:7f8:36::2a:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS42 2001:7f8:36::2a:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 2001:7f8:36::2a:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS112 185.1.47.212 at 185.1.47.252 accept AS112
+export:         to AS112 185.1.47.212 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS112 185.1.47.212 at 185.1.47.253 accept AS112
+export:         to AS112 185.1.47.212 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS112 2001:7f8:36::70:0:1 at 2001:7f8:36::50ed:fc:1 accept AS112
+mp-export:      afi ipv6.unicast to AS112 2001:7f8:36::70:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS112 2001:7f8:36::70:0:1 at 2001:7f8:36::50ed:fd:1 accept AS112
+mp-export:      afi ipv6.unicast to AS112 2001:7f8:36::70:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS714 185.1.47.22 at 185.1.47.252 accept AS-APPLE
+export:         to AS714 185.1.47.22 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS714 185.1.47.22 at 185.1.47.253 accept AS-APPLE
+export:         to AS714 185.1.47.22 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS714 185.1.47.39 at 185.1.47.252 accept AS-APPLE
+export:         to AS714 185.1.47.39 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS714 185.1.47.39 at 185.1.47.253 accept AS-APPLE
+export:         to AS714 185.1.47.39 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS714 2001:7f8:36::2ca:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-APPLE
+mp-export:      afi ipv6.unicast to AS714 2001:7f8:36::2ca:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS714 2001:7f8:36::2ca:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-APPLE
+mp-export:      afi ipv6.unicast to AS714 2001:7f8:36::2ca:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS714 2001:7f8:36::2ca:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-APPLE
+mp-export:      afi ipv6.unicast to AS714 2001:7f8:36::2ca:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS714 2001:7f8:36::2ca:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-APPLE
+mp-export:      afi ipv6.unicast to AS714 2001:7f8:36::2ca:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS3303 185.1.47.36 at 185.1.47.252 accept AS-SWCMGLOBAL
+export:         to AS3303 185.1.47.36 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS3303 185.1.47.36 at 185.1.47.253 accept AS-SWCMGLOBAL
+export:         to AS3303 185.1.47.36 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS3303 2001:7f8:36::ce7:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-SWCMGLOBAL
+mp-export:      afi ipv6.unicast to AS3303 2001:7f8:36::ce7:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS3303 2001:7f8:36::ce7:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-SWCMGLOBAL
+mp-export:      afi ipv6.unicast to AS3303 2001:7f8:36::ce7:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS3856 185.1.47.21 at 185.1.47.252 accept AS-PCH
+export:         to AS3856 185.1.47.21 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS3856 185.1.47.21 at 185.1.47.253 accept AS-PCH
+export:         to AS3856 185.1.47.21 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS3856 2001:7f8:36::f10:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 2001:7f8:36::f10:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS3856 2001:7f8:36::f10:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 2001:7f8:36::f10:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS4455 185.1.47.5 at 185.1.47.252 accept AS-BSO
+export:         to AS4455 185.1.47.5 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS4455 185.1.47.5 at 185.1.47.253 accept AS-BSO
+export:         to AS4455 185.1.47.5 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS4455 2001:7f8:36::1167:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-BSO
+mp-export:      afi ipv6.unicast to AS4455 2001:7f8:36::1167:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS4455 2001:7f8:36::1167:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-BSO
+mp-export:      afi ipv6.unicast to AS4455 2001:7f8:36::1167:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS4788 185.1.47.49 at 185.1.47.252 accept AS-4788
+export:         to AS4788 185.1.47.49 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS4788 185.1.47.49 at 185.1.47.253 accept AS-4788
+export:         to AS4788 185.1.47.49 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS4788 2001:7f8:36::12b4:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-4788
+mp-export:      afi ipv6.unicast to AS4788 2001:7f8:36::12b4:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS4788 2001:7f8:36::12b4:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-4788
+mp-export:      afi ipv6.unicast to AS4788 2001:7f8:36::12b4:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS5400 185.1.47.94 at 185.1.47.252 accept AS-BT-EU
+export:         to AS5400 185.1.47.94 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS5400 185.1.47.94 at 185.1.47.253 accept AS-BT-EU
+export:         to AS5400 185.1.47.94 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS5400 2001:7f8:36::1518:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-BT-EU
+mp-export:      afi ipv6.unicast to AS5400 2001:7f8:36::1518:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS5400 2001:7f8:36::1518:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-BT-EU
+mp-export:      afi ipv6.unicast to AS5400 2001:7f8:36::1518:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS5405 185.1.47.28 at 185.1.47.252 accept AS5405:AS-INTERDOTLINK
+export:         to AS5405 185.1.47.28 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS5405 185.1.47.28 at 185.1.47.253 accept AS5405:AS-INTERDOTLINK
+export:         to AS5405 185.1.47.28 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS5405 2001:7f8:36::151d:0:1 at 2001:7f8:36::50ed:fc:1 accept AS5405:AS-INTERDOTLINK
+mp-export:      afi ipv6.unicast to AS5405 2001:7f8:36::151d:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS5405 2001:7f8:36::151d:0:1 at 2001:7f8:36::50ed:fd:1 accept AS5405:AS-INTERDOTLINK
+mp-export:      afi ipv6.unicast to AS5405 2001:7f8:36::151d:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS5511 185.1.47.57 at 185.1.47.252 accept AS-OPENTRANSIT
+export:         to AS5511 185.1.47.57 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS5511 185.1.47.57 at 185.1.47.253 accept AS-OPENTRANSIT
+export:         to AS5511 185.1.47.57 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS5511 2001:7f8:36::1587:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-OPENTRANSIT
+mp-export:      afi ipv6.unicast to AS5511 2001:7f8:36::1587:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS5511 2001:7f8:36::1587:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-OPENTRANSIT
+mp-export:      afi ipv6.unicast to AS5511 2001:7f8:36::1587:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS5713 185.1.47.81 at 185.1.47.252 accept AS-5713
+export:         to AS5713 185.1.47.81 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS5713 185.1.47.81 at 185.1.47.253 accept AS-5713
+export:         to AS5713 185.1.47.81 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS5713 2001:7f8:36::1651:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-5713
+mp-export:      afi ipv6.unicast to AS5713 2001:7f8:36::1651:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS5713 2001:7f8:36::1651:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-5713
+mp-export:      afi ipv6.unicast to AS5713 2001:7f8:36::1651:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS6057 185.1.47.16 at 185.1.47.252 accept AS-ANTEL-ALL
+export:         to AS6057 185.1.47.16 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS6057 185.1.47.16 at 185.1.47.253 accept AS-ANTEL-ALL
+export:         to AS6057 185.1.47.16 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS6057 2001:7f8:36::17a9:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ANTEL-ALL
+mp-export:      afi ipv6.unicast to AS6057 2001:7f8:36::17a9:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS6057 2001:7f8:36::17a9:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ANTEL-ALL
+mp-export:      afi ipv6.unicast to AS6057 2001:7f8:36::17a9:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS6774 185.1.47.29 at 185.1.47.252 accept AS6774:AS-BICS-TRANSIT
+export:         to AS6774 185.1.47.29 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS6774 185.1.47.29 at 185.1.47.253 accept AS6774:AS-BICS-TRANSIT
+export:         to AS6774 185.1.47.29 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS6774 2001:7f8:36::1a76:0:1 at 2001:7f8:36::50ed:fc:1 accept AS6774:AS-BICS-TRANSIT
+mp-export:      afi ipv6.unicast to AS6774 2001:7f8:36::1a76:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS6774 2001:7f8:36::1a76:0:1 at 2001:7f8:36::50ed:fd:1 accept AS6774:AS-BICS-TRANSIT
+mp-export:      afi ipv6.unicast to AS6774 2001:7f8:36::1a76:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS6810 185.1.47.17 at 185.1.47.252 accept AS-BEZEQ
+export:         to AS6810 185.1.47.17 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS6810 185.1.47.17 at 185.1.47.253 accept AS-BEZEQ
+export:         to AS6810 185.1.47.17 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS6810 2001:7f8:36::1a9a:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-BEZEQ
+mp-export:      afi ipv6.unicast to AS6810 2001:7f8:36::1a9a:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS6810 2001:7f8:36::1a9a:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-BEZEQ
+mp-export:      afi ipv6.unicast to AS6810 2001:7f8:36::1a9a:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS6939 185.1.47.2 at 185.1.47.252 accept AS-HURRICANE
+export:         to AS6939 185.1.47.2 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS6939 185.1.47.2 at 185.1.47.253 accept AS-HURRICANE
+export:         to AS6939 185.1.47.2 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS6939 2001:7f8:36::1b1b:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to AS6939 2001:7f8:36::1b1b:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS6939 2001:7f8:36::1b1b:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to AS6939 2001:7f8:36::1b1b:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS7713 185.1.47.27 at 185.1.47.252 accept AS7713:AS-TELKOM-TRANSIT
+export:         to AS7713 185.1.47.27 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS7713 185.1.47.27 at 185.1.47.253 accept AS7713:AS-TELKOM-TRANSIT
+export:         to AS7713 185.1.47.27 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS7713 2001:7f8:36::1e21:0:1 at 2001:7f8:36::50ed:fc:1 accept AS7713:AS-TELKOM-TRANSIT
+mp-export:      afi ipv6.unicast to AS7713 2001:7f8:36::1e21:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS7713 2001:7f8:36::1e21:0:1 at 2001:7f8:36::50ed:fd:1 accept AS7713:AS-TELKOM-TRANSIT
+mp-export:      afi ipv6.unicast to AS7713 2001:7f8:36::1e21:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS8309 185.1.47.12 at 185.1.47.252 accept AS-SPH
+export:         to AS8309 185.1.47.12 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS8309 185.1.47.12 at 185.1.47.253 accept AS-SPH
+export:         to AS8309 185.1.47.12 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS8309 2001:7f8:36::2075:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-SPH
+mp-export:      afi ipv6.unicast to AS8309 2001:7f8:36::2075:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS8309 2001:7f8:36::2075:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-SPH
+mp-export:      afi ipv6.unicast to AS8309 2001:7f8:36::2075:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS8529 185.1.47.24 at 185.1.47.252 accept AS8529:AS-ZOI
+export:         to AS8529 185.1.47.24 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS8529 185.1.47.24 at 185.1.47.253 accept AS8529:AS-ZOI
+export:         to AS8529 185.1.47.24 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS8529 185.1.47.37 at 185.1.47.252 accept AS-OMANTEL
+export:         to AS8529 185.1.47.37 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS8529 185.1.47.37 at 185.1.47.253 accept AS-OMANTEL
+export:         to AS8529 185.1.47.37 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS8529 2001:7f8:36::2151:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-OMANTEL
+mp-export:      afi ipv6.unicast to AS8529 2001:7f8:36::2151:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS8529 2001:7f8:36::2151:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-OMANTEL
+mp-export:      afi ipv6.unicast to AS8529 2001:7f8:36::2151:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS8529 2001:7f8:36::e8d5:0:1 at 2001:7f8:36::50ed:fc:1 accept AS8529:AS-ZOI
+mp-export:      afi ipv6.unicast to AS8529 2001:7f8:36::e8d5:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS8529 2001:7f8:36::e8d5:0:1 at 2001:7f8:36::50ed:fd:1 accept AS8529:AS-ZOI
+mp-export:      afi ipv6.unicast to AS8529 2001:7f8:36::e8d5:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS8544 185.1.47.58 at 185.1.47.252 accept AS-THUNDER
+export:         to AS8544 185.1.47.58 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS8544 185.1.47.58 at 185.1.47.253 accept AS-THUNDER
+export:         to AS8544 185.1.47.58 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS8544 2001:7f8:36::2160:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-THUNDER
+mp-export:      afi ipv6.unicast to AS8544 2001:7f8:36::2160:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS8544 2001:7f8:36::2160:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-THUNDER
+mp-export:      afi ipv6.unicast to AS8544 2001:7f8:36::2160:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS8657 185.1.47.19 at 185.1.47.252 accept AS-CPRM
+export:         to AS8657 185.1.47.19 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS8657 185.1.47.19 at 185.1.47.253 accept AS-CPRM
+export:         to AS8657 185.1.47.19 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS8657 2001:7f8:36::21d1:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-CPRM-V6
+mp-export:      afi ipv6.unicast to AS8657 2001:7f8:36::21d1:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS8657 2001:7f8:36::21d1:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-CPRM-V6
+mp-export:      afi ipv6.unicast to AS8657 2001:7f8:36::21d1:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS8966 185.1.47.61 at 185.1.47.252 accept AS-EMIX
+export:         to AS8966 185.1.47.61 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS8966 185.1.47.61 at 185.1.47.253 accept AS-EMIX
+export:         to AS8966 185.1.47.61 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS8966 2001:7f8:36::2306:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-EMIX
+mp-export:      afi ipv6.unicast to AS8966 2001:7f8:36::2306:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS8966 2001:7f8:36::2306:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-EMIX
+mp-export:      afi ipv6.unicast to AS8966 2001:7f8:36::2306:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS9038 185.1.47.44 at 185.1.47.252 accept AS-9038
+export:         to AS9038 185.1.47.44 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS9038 185.1.47.44 at 185.1.47.253 accept AS-9038
+export:         to AS9038 185.1.47.44 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS9038 2001:7f8:36::234e:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-9038
+mp-export:      afi ipv6.unicast to AS9038 2001:7f8:36::234e:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS9038 2001:7f8:36::234e:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-9038
+mp-export:      afi ipv6.unicast to AS9038 2001:7f8:36::234e:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS9119 185.1.47.68 at 185.1.47.252 accept AS-SOFTNET
+export:         to AS9119 185.1.47.68 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS9119 185.1.47.68 at 185.1.47.253 accept AS-SOFTNET
+export:         to AS9119 185.1.47.68 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS9119 2001:7f8:36::239f:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-SOFTNET
+mp-export:      afi ipv6.unicast to AS9119 2001:7f8:36::239f:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS9119 2001:7f8:36::239f:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-SOFTNET
+mp-export:      afi ipv6.unicast to AS9119 2001:7f8:36::239f:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS9304 185.1.47.84 at 185.1.47.252 accept AS-HUTCHCITY
+export:         to AS9304 185.1.47.84 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS9304 185.1.47.84 at 185.1.47.253 accept AS-HUTCHCITY
+export:         to AS9304 185.1.47.84 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS9304 2001:7f8:36::2458:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-HUTCHCITY
+mp-export:      afi ipv6.unicast to AS9304 2001:7f8:36::2458:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS9304 2001:7f8:36::2458:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-HUTCHCITY
+mp-export:      afi ipv6.unicast to AS9304 2001:7f8:36::2458:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS9498 185.1.47.7 at 185.1.47.252 accept AS9498:AS-BHARTI-IN
+export:         to AS9498 185.1.47.7 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS9498 185.1.47.7 at 185.1.47.253 accept AS9498:AS-BHARTI-IN
+export:         to AS9498 185.1.47.7 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS9498 2001:7f8:36::251a:0:1 at 2001:7f8:36::50ed:fc:1 accept AS9498:AS-BHARTI-IN
+mp-export:      afi ipv6.unicast to AS9498 2001:7f8:36::251a:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS9498 2001:7f8:36::251a:0:1 at 2001:7f8:36::50ed:fd:1 accept AS9498:AS-BHARTI-IN
+mp-export:      afi ipv6.unicast to AS9498 2001:7f8:36::251a:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS9541 185.1.47.107 at 185.1.47.252 accept AS9541:AS-CUSTOMERS
+export:         to AS9541 185.1.47.107 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS9541 185.1.47.107 at 185.1.47.253 accept AS9541:AS-CUSTOMERS
+export:         to AS9541 185.1.47.107 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS9541 2001:7f8:36::2545:0:1 at 2001:7f8:36::50ed:fc:1 accept AS9541:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS9541 2001:7f8:36::2545:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS9541 2001:7f8:36::2545:0:1 at 2001:7f8:36::50ed:fd:1 accept AS9541:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS9541 2001:7f8:36::2545:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS10075 185.1.47.145 at 185.1.47.252 accept AS-FGL
+export:         to AS10075 185.1.47.145 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS10075 185.1.47.145 at 185.1.47.253 accept AS-FGL
+export:         to AS10075 185.1.47.145 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS10075 2001:7f8:36::275b:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-FGL
+mp-export:      afi ipv6.unicast to AS10075 2001:7f8:36::275b:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS10075 2001:7f8:36::275b:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-FGL
+mp-export:      afi ipv6.unicast to AS10075 2001:7f8:36::275b:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS10282 185.1.47.60 at 185.1.47.252 accept AS-OBS-CEEUR
+export:         to AS10282 185.1.47.60 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS10282 185.1.47.60 at 185.1.47.253 accept AS-OBS-CEEUR
+export:         to AS10282 185.1.47.60 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS10282 2001:7f8:36::282a:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-OBS-CEEUR
+mp-export:      afi ipv6.unicast to AS10282 2001:7f8:36::282a:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS10282 2001:7f8:36::282a:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-OBS-CEEUR
+mp-export:      afi ipv6.unicast to AS10282 2001:7f8:36::282a:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS10310 185.1.47.54 at 185.1.47.252 accept AS-YAHOO
+export:         to AS10310 185.1.47.54 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS10310 185.1.47.54 at 185.1.47.253 accept AS-YAHOO
+export:         to AS10310 185.1.47.54 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS10310 185.1.47.55 at 185.1.47.252 accept AS-YAHOO
+export:         to AS10310 185.1.47.55 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS10310 185.1.47.55 at 185.1.47.253 accept AS-YAHOO
+export:         to AS10310 185.1.47.55 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS10310 2001:7f8:36::2846:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-YAHOO
+mp-export:      afi ipv6.unicast to AS10310 2001:7f8:36::2846:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS10310 2001:7f8:36::2846:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-YAHOO
+mp-export:      afi ipv6.unicast to AS10310 2001:7f8:36::2846:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS10310 2001:7f8:36::2846:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-YAHOO
+mp-export:      afi ipv6.unicast to AS10310 2001:7f8:36::2846:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS10310 2001:7f8:36::2846:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-YAHOO
+mp-export:      afi ipv6.unicast to AS10310 2001:7f8:36::2846:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS12779 185.1.47.78 at 185.1.47.252 accept AS12779:AS-CUSTOMERS
+export:         to AS12779 185.1.47.78 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS12779 185.1.47.78 at 185.1.47.253 accept AS12779:AS-CUSTOMERS
+export:         to AS12779 185.1.47.78 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS12779 2001:7f8:36::31eb:0:1 at 2001:7f8:36::50ed:fc:1 accept AS12779:AS-CUSTOMERS-V6
+mp-export:      afi ipv6.unicast to AS12779 2001:7f8:36::31eb:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS12779 2001:7f8:36::31eb:0:1 at 2001:7f8:36::50ed:fd:1 accept AS12779:AS-CUSTOMERS-V6
+mp-export:      afi ipv6.unicast to AS12779 2001:7f8:36::31eb:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS12850 185.1.47.30 at 185.1.47.252 accept AS-ENTER
+export:         to AS12850 185.1.47.30 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS12850 185.1.47.30 at 185.1.47.253 accept AS-ENTER
+export:         to AS12850 185.1.47.30 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS12850 2001:7f8:36::3232:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ENTER
+mp-export:      afi ipv6.unicast to AS12850 2001:7f8:36::3232:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS12850 2001:7f8:36::3232:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ENTER
+mp-export:      afi ipv6.unicast to AS12850 2001:7f8:36::3232:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS12956 185.1.47.40 at 185.1.47.252 accept AS-TDATANET
+export:         to AS12956 185.1.47.40 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS12956 185.1.47.40 at 185.1.47.253 accept AS-TDATANET
+export:         to AS12956 185.1.47.40 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS12956 2001:7f8:36::329c:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-TDATANET
+mp-export:      afi ipv6.unicast to AS12956 2001:7f8:36::329c:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS12956 2001:7f8:36::329c:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-TDATANET
+mp-export:      afi ipv6.unicast to AS12956 2001:7f8:36::329c:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS12975 185.1.47.128 at 185.1.47.252 accept AS-PALTEL
+export:         to AS12975 185.1.47.128 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS12975 185.1.47.128 at 185.1.47.253 accept AS-PALTEL
+export:         to AS12975 185.1.47.128 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS12975 2001:7f8:36::32af:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-PALTEL
+mp-export:      afi ipv6.unicast to AS12975 2001:7f8:36::32af:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS12975 2001:7f8:36::32af:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-PALTEL
+mp-export:      afi ipv6.unicast to AS12975 2001:7f8:36::32af:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS13030 185.1.47.85 at 185.1.47.252 accept AS-INIT7
+export:         to AS13030 185.1.47.85 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS13030 185.1.47.85 at 185.1.47.253 accept AS-INIT7
+export:         to AS13030 185.1.47.85 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS13030 2001:7f8:36::32e6:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 2001:7f8:36::32e6:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS13030 2001:7f8:36::32e6:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 2001:7f8:36::32e6:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS13113 185.1.47.118 at 185.1.47.252 accept AS-ISILINE
+export:         to AS13113 185.1.47.118 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS13113 185.1.47.118 at 185.1.47.253 accept AS-ISILINE
+export:         to AS13113 185.1.47.118 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS13113 2001:7f8:36::3339:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ISILINE
+mp-export:      afi ipv6.unicast to AS13113 2001:7f8:36::3339:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS13113 2001:7f8:36::3339:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ISILINE
+mp-export:      afi ipv6.unicast to AS13113 2001:7f8:36::3339:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS13335 185.1.47.106 at 185.1.47.252 accept AS-CLOUDFLARE
+export:         to AS13335 185.1.47.106 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS13335 185.1.47.106 at 185.1.47.253 accept AS-CLOUDFLARE
+export:         to AS13335 185.1.47.106 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS13335 185.1.47.4 at 185.1.47.252 accept AS-CLOUDFLARE
+export:         to AS13335 185.1.47.4 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS13335 185.1.47.4 at 185.1.47.253 accept AS-CLOUDFLARE
+export:         to AS13335 185.1.47.4 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS13335 2001:7f8:36::3417:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 2001:7f8:36::3417:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS13335 2001:7f8:36::3417:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 2001:7f8:36::3417:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS13335 2001:7f8:36::3417:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 2001:7f8:36::3417:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS13335 2001:7f8:36::3417:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 2001:7f8:36::3417:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS14340 185.1.47.71 at 185.1.47.252 accept AS-SALESFORCE
+export:         to AS14340 185.1.47.71 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS14340 185.1.47.71 at 185.1.47.253 accept AS-SALESFORCE
+export:         to AS14340 185.1.47.71 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS14340 2001:7f8:36::3804:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-SALESFORCE
+mp-export:      afi ipv6.unicast to AS14340 2001:7f8:36::3804:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS14340 2001:7f8:36::3804:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-SALESFORCE
+mp-export:      afi ipv6.unicast to AS14340 2001:7f8:36::3804:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS14907 185.1.47.125 at 185.1.47.252 accept AS-WIKIMEDIA
+export:         to AS14907 185.1.47.125 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS14907 185.1.47.125 at 185.1.47.253 accept AS-WIKIMEDIA
+export:         to AS14907 185.1.47.125 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS14907 2001:7f8:36::3a3b:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-WIKIMEDIA
+mp-export:      afi ipv6.unicast to AS14907 2001:7f8:36::3a3b:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS14907 2001:7f8:36::3a3b:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-WIKIMEDIA
+mp-export:      afi ipv6.unicast to AS14907 2001:7f8:36::3a3b:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS15169 185.1.47.3 at 185.1.47.252 accept AS-GOOGLE
+export:         to AS15169 185.1.47.3 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS15169 185.1.47.3 at 185.1.47.253 accept AS-GOOGLE
+export:         to AS15169 185.1.47.3 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS15169 2001:7f8:36::3b41:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 2001:7f8:36::3b41:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS15169 2001:7f8:36::3b41:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 2001:7f8:36::3b41:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS15802 185.1.47.98 at 185.1.47.252 accept AS-EITC-DU
+export:         to AS15802 185.1.47.98 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS15802 185.1.47.98 at 185.1.47.253 accept AS-EITC-DU
+export:         to AS15802 185.1.47.98 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS15802 2001:7f8:36::3dba:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-EITC-DU
+mp-export:      afi ipv6.unicast to AS15802 2001:7f8:36::3dba:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS15802 2001:7f8:36::3dba:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-EITC-DU
+mp-export:      afi ipv6.unicast to AS15802 2001:7f8:36::3dba:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS15954 185.1.47.105 at 185.1.47.252 accept AS-TECNOCRATICA
+export:         to AS15954 185.1.47.105 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS15954 185.1.47.105 at 185.1.47.253 accept AS-TECNOCRATICA
+export:         to AS15954 185.1.47.105 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS15954 2001:7f8:36::3e52:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-TECNOCRATICA
+mp-export:      afi ipv6.unicast to AS15954 2001:7f8:36::3e52:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS15954 2001:7f8:36::3e52:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-TECNOCRATICA
+mp-export:      afi ipv6.unicast to AS15954 2001:7f8:36::3e52:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS16509 185.1.47.115 at 185.1.47.252 accept AS-AMAZON
+export:         to AS16509 185.1.47.115 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS16509 185.1.47.115 at 185.1.47.253 accept AS-AMAZON
+export:         to AS16509 185.1.47.115 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS16509 185.1.47.48 at 185.1.47.252 accept AS-AMAZON
+export:         to AS16509 185.1.47.48 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS16509 185.1.47.48 at 185.1.47.253 accept AS-AMAZON
+export:         to AS16509 185.1.47.48 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS16509 2001:7f8:36::407d:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 2001:7f8:36::407d:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS16509 2001:7f8:36::407d:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 2001:7f8:36::407d:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS16509 2001:7f8:36::407d:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 2001:7f8:36::407d:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS16509 2001:7f8:36::407d:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 2001:7f8:36::407d:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS20804 185.1.47.123 at 185.1.47.252 accept AS-EXATEL-INT
+export:         to AS20804 185.1.47.123 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS20804 185.1.47.123 at 185.1.47.253 accept AS-EXATEL-INT
+export:         to AS20804 185.1.47.123 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS20804 2001:7f8:36::5144:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-EXATEL-INT
+mp-export:      afi ipv6.unicast to AS20804 2001:7f8:36::5144:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS20804 2001:7f8:36::5144:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-EXATEL-INT
+mp-export:      afi ipv6.unicast to AS20804 2001:7f8:36::5144:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS20928 185.1.47.86 at 185.1.47.252 accept AS-NOOR
+export:         to AS20928 185.1.47.86 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS20928 185.1.47.86 at 185.1.47.253 accept AS-NOOR
+export:         to AS20928 185.1.47.86 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS20928 2001:7f8:36::51c0:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-NOOR
+mp-export:      afi ipv6.unicast to AS20928 2001:7f8:36::51c0:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS20928 2001:7f8:36::51c0:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-NOOR
+mp-export:      afi ipv6.unicast to AS20928 2001:7f8:36::51c0:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS21056 185.1.47.117 at 185.1.47.252 accept AS-WELCOMEITALIA
+export:         to AS21056 185.1.47.117 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS21056 185.1.47.117 at 185.1.47.253 accept AS-WELCOMEITALIA
+export:         to AS21056 185.1.47.117 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS21056 2001:7f8:36::5240:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-WELCOMEITALIA
+mp-export:      afi ipv6.unicast to AS21056 2001:7f8:36::5240:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS21056 2001:7f8:36::5240:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-WELCOMEITALIA
+mp-export:      afi ipv6.unicast to AS21056 2001:7f8:36::5240:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS21320 185.1.47.34 at 185.1.47.252 accept AS-GEANT-EUPEER
+export:         to AS21320 185.1.47.34 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS21320 185.1.47.34 at 185.1.47.253 accept AS-GEANT-EUPEER
+export:         to AS21320 185.1.47.34 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS21320 2001:7f8:36::51e5:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-GEANT-EUPEER
+mp-export:      afi ipv6.unicast to AS21320 2001:7f8:36::51e5:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS21320 2001:7f8:36::51e5:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-GEANT-EUPEER
+mp-export:      afi ipv6.unicast to AS21320 2001:7f8:36::51e5:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS21859 185.1.47.102 at 185.1.47.252 accept AS-ZENLAYER
+export:         to AS21859 185.1.47.102 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS21859 185.1.47.102 at 185.1.47.253 accept AS-ZENLAYER
+export:         to AS21859 185.1.47.102 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS21859 2001:7f8:36::5563:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ZENLAYER
+mp-export:      afi ipv6.unicast to AS21859 2001:7f8:36::5563:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS21859 2001:7f8:36::5563:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ZENLAYER
+mp-export:      afi ipv6.unicast to AS21859 2001:7f8:36::5563:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS23344 185.1.47.146 at 185.1.47.252 accept AS-DSS-ALL
+export:         to AS23344 185.1.47.146 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS23344 185.1.47.146 at 185.1.47.253 accept AS-DSS-ALL
+export:         to AS23344 185.1.47.146 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS23344 185.1.47.62 at 185.1.47.252 accept AS-DSS-ALL
+export:         to AS23344 185.1.47.62 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS23344 185.1.47.62 at 185.1.47.253 accept AS-DSS-ALL
+export:         to AS23344 185.1.47.62 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS23344 2001:7f8:36::584c:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-DSS-ALL
+mp-export:      afi ipv6.unicast to AS23344 2001:7f8:36::584c:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS23344 2001:7f8:36::584c:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-DSS-ALL
+mp-export:      afi ipv6.unicast to AS23344 2001:7f8:36::584c:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS23344 2001:7f8:36::584c:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-DSS-ALL
+mp-export:      afi ipv6.unicast to AS23344 2001:7f8:36::584c:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS23344 2001:7f8:36::584c:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-DSS-ALL
+mp-export:      afi ipv6.unicast to AS23344 2001:7f8:36::584c:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS23889 185.1.47.46 at 185.1.47.252 accept AS-MAURITIUSTELECOM
+export:         to AS23889 185.1.47.46 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS23889 185.1.47.46 at 185.1.47.253 accept AS-MAURITIUSTELECOM
+export:         to AS23889 185.1.47.46 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS23889 2001:7f8:36::5d51:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-MAURITIUSTELECOM
+mp-export:      afi ipv6.unicast to AS23889 2001:7f8:36::5d51:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS23889 2001:7f8:36::5d51:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-MAURITIUSTELECOM
+mp-export:      afi ipv6.unicast to AS23889 2001:7f8:36::5d51:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS24429 185.1.47.135 at 185.1.47.252 accept AS24429
+export:         to AS24429 185.1.47.135 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS24429 185.1.47.135 at 185.1.47.253 accept AS24429
+export:         to AS24429 185.1.47.135 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS24429 2001:7f8:36::282a:0:2 at 2001:7f8:36::50ed:fc:1 accept AS24429
+mp-export:      afi ipv6.unicast to AS24429 2001:7f8:36::282a:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS24429 2001:7f8:36::282a:0:2 at 2001:7f8:36::50ed:fd:1 accept AS24429
+mp-export:      afi ipv6.unicast to AS24429 2001:7f8:36::282a:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS24482 185.1.47.101 at 185.1.47.252 accept AS-SGGS
+export:         to AS24482 185.1.47.101 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS24482 185.1.47.101 at 185.1.47.253 accept AS-SGGS
+export:         to AS24482 185.1.47.101 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS24482 2001:7f8:36::5fa2:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-SGGS
+mp-export:      afi ipv6.unicast to AS24482 2001:7f8:36::5fa2:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS24482 2001:7f8:36::5fa2:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-SGGS
+mp-export:      afi ipv6.unicast to AS24482 2001:7f8:36::5fa2:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS24940 185.1.47.15 at 185.1.47.252 accept AS-HETZNER
+export:         to AS24940 185.1.47.15 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS24940 185.1.47.15 at 185.1.47.253 accept AS-HETZNER
+export:         to AS24940 185.1.47.15 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS24940 2001:7f8:36::616c:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-HETZNER
+mp-export:      afi ipv6.unicast to AS24940 2001:7f8:36::616c:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS24940 2001:7f8:36::616c:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-HETZNER
+mp-export:      afi ipv6.unicast to AS24940 2001:7f8:36::616c:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS25091 185.1.47.80 at 185.1.47.252 accept AS-IP-MAX
+export:         to AS25091 185.1.47.80 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS25091 185.1.47.80 at 185.1.47.253 accept AS-IP-MAX
+export:         to AS25091 185.1.47.80 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS25091 2001:7f8:36::6203:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-IP-MAX-V6
+mp-export:      afi ipv6.unicast to AS25091 2001:7f8:36::6203:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS25091 2001:7f8:36::6203:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-IP-MAX-V6
+mp-export:      afi ipv6.unicast to AS25091 2001:7f8:36::6203:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS25818 185.1.47.99 at 185.1.47.252 accept AS-CMCNETWORKS
+export:         to AS25818 185.1.47.99 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS25818 185.1.47.99 at 185.1.47.253 accept AS-CMCNETWORKS
+export:         to AS25818 185.1.47.99 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS25818 2001:7f8:36::64da:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-CMCNETWORKS
+mp-export:      afi ipv6.unicast to AS25818 2001:7f8:36::64da:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS25818 2001:7f8:36::64da:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-CMCNETWORKS
+mp-export:      afi ipv6.unicast to AS25818 2001:7f8:36::64da:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS28283 185.1.47.140 at 185.1.47.252 accept AS-ADYLNET
+export:         to AS28283 185.1.47.140 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS28283 185.1.47.140 at 185.1.47.253 accept AS-ADYLNET
+export:         to AS28283 185.1.47.140 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS28283 2001:7f8:36::6e7b:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ADYLNET
+mp-export:      afi ipv6.unicast to AS28283 2001:7f8:36::6e7b:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS28283 2001:7f8:36::6e7b:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ADYLNET
+mp-export:      afi ipv6.unicast to AS28283 2001:7f8:36::6e7b:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS28917 185.1.47.75 at 185.1.47.252 accept AS-FIORD
+export:         to AS28917 185.1.47.75 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS28917 185.1.47.75 at 185.1.47.253 accept AS-FIORD
+export:         to AS28917 185.1.47.75 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS28917 2001:7f8:36::70f5:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-FIORD-V6
+mp-export:      afi ipv6.unicast to AS28917 2001:7f8:36::70f5:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS28917 2001:7f8:36::70f5:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-FIORD-V6
+mp-export:      afi ipv6.unicast to AS28917 2001:7f8:36::70f5:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS29357 185.1.47.139 at 185.1.47.252 accept AS-OOREDOOKW
+export:         to AS29357 185.1.47.139 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS29357 185.1.47.139 at 185.1.47.253 accept AS-OOREDOOKW
+export:         to AS29357 185.1.47.139 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS29357 2001:7f8:36::72ad:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-OOREDOOKW
+mp-export:      afi ipv6.unicast to AS29357 2001:7f8:36::72ad:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS29357 2001:7f8:36::72ad:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-OOREDOOKW
+mp-export:      afi ipv6.unicast to AS29357 2001:7f8:36::72ad:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS30781 185.1.47.134 at 185.1.47.252 accept AS-JAGUAR
+export:         to AS30781 185.1.47.134 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS30781 185.1.47.134 at 185.1.47.253 accept AS-JAGUAR
+export:         to AS30781 185.1.47.134 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS30781 2001:7f8:36::783d:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-JAGUAR-V6
+mp-export:      afi ipv6.unicast to AS30781 2001:7f8:36::783d:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS30781 2001:7f8:36::783d:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-JAGUAR-V6
+mp-export:      afi ipv6.unicast to AS30781 2001:7f8:36::783d:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS30844 185.1.47.38 at 185.1.47.252 accept AS-LIQUID
+export:         to AS30844 185.1.47.38 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS30844 185.1.47.38 at 185.1.47.253 accept AS-LIQUID
+export:         to AS30844 185.1.47.38 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS30844 2001:7f8:36::787c:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-LIQUID
+mp-export:      afi ipv6.unicast to AS30844 2001:7f8:36::787c:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS30844 2001:7f8:36::787c:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-LIQUID
+mp-export:      afi ipv6.unicast to AS30844 2001:7f8:36::787c:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS30990 185.1.47.25 at 185.1.47.252 accept AS-ADJIB
+export:         to AS30990 185.1.47.25 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS30990 185.1.47.25 at 185.1.47.253 accept AS-ADJIB
+export:         to AS30990 185.1.47.25 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS30990 2001:7f8:36::790e:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ADJIB
+mp-export:      afi ipv6.unicast to AS30990 2001:7f8:36::790e:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS30990 2001:7f8:36::790e:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ADJIB
+mp-export:      afi ipv6.unicast to AS30990 2001:7f8:36::790e:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS30999 185.1.47.88 at 185.1.47.252 accept AS-30999
+export:         to AS30999 185.1.47.88 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS30999 185.1.47.88 at 185.1.47.253 accept AS-30999
+export:         to AS30999 185.1.47.88 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS30999 2001:7f8:36::7917:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-30999
+mp-export:      afi ipv6.unicast to AS30999 2001:7f8:36::7917:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS30999 2001:7f8:36::7917:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-30999
+mp-export:      afi ipv6.unicast to AS30999 2001:7f8:36::7917:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS31133 185.1.47.79 at 185.1.47.252 accept AS-MF-MGSM
+export:         to AS31133 185.1.47.79 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS31133 185.1.47.79 at 185.1.47.253 accept AS-MF-MGSM
+export:         to AS31133 185.1.47.79 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS31133 2001:7f8:36::799d:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-MF-MGSM
+mp-export:      afi ipv6.unicast to AS31133 2001:7f8:36::799d:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS31133 2001:7f8:36::799d:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-MF-MGSM
+mp-export:      afi ipv6.unicast to AS31133 2001:7f8:36::799d:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS31529 185.1.47.77 at 185.1.47.252 accept AS-DENIC
+export:         to AS31529 185.1.47.77 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS31529 185.1.47.77 at 185.1.47.253 accept AS-DENIC
+export:         to AS31529 185.1.47.77 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS31529 2001:7f8:36::223b:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-DENIC
+mp-export:      afi ipv6.unicast to AS31529 2001:7f8:36::223b:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS31529 2001:7f8:36::223b:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-DENIC
+mp-export:      afi ipv6.unicast to AS31529 2001:7f8:36::223b:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS32035 185.1.47.126 at 185.1.47.252 accept AS-NETFORTRIS
+export:         to AS32035 185.1.47.126 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS32035 185.1.47.126 at 185.1.47.253 accept AS-NETFORTRIS
+export:         to AS32035 185.1.47.126 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS32035 2001:7f8:36::7d23:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-NETFORTRIS
+mp-export:      afi ipv6.unicast to AS32035 2001:7f8:36::7d23:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS32035 2001:7f8:36::7d23:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-NETFORTRIS
+mp-export:      afi ipv6.unicast to AS32035 2001:7f8:36::7d23:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS32934 185.1.47.26 at 185.1.47.252 accept AS-FACEBOOK
+export:         to AS32934 185.1.47.26 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS32934 185.1.47.26 at 185.1.47.253 accept AS-FACEBOOK
+export:         to AS32934 185.1.47.26 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS32934 185.1.47.9 at 185.1.47.252 accept AS-FACEBOOK
+export:         to AS32934 185.1.47.9 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS32934 185.1.47.9 at 185.1.47.253 accept AS-FACEBOOK
+export:         to AS32934 185.1.47.9 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS32934 2001:7f8:36::80a6:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 2001:7f8:36::80a6:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS32934 2001:7f8:36::80a6:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 2001:7f8:36::80a6:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS32934 2001:7f8:36::80a6:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 2001:7f8:36::80a6:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS32934 2001:7f8:36::80a6:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 2001:7f8:36::80a6:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS33763 185.1.47.13 at 185.1.47.252 accept AS-PARATUS-CUSTOMERS
+export:         to AS33763 185.1.47.13 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS33763 185.1.47.13 at 185.1.47.253 accept AS-PARATUS-CUSTOMERS
+export:         to AS33763 185.1.47.13 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS33763 2001:7f8:36::83e3:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-PARATUS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS33763 2001:7f8:36::83e3:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS33763 2001:7f8:36::83e3:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-PARATUS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS33763 2001:7f8:36::83e3:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS34549 185.1.47.103 at 185.1.47.252 accept AS-MEER
+export:         to AS34549 185.1.47.103 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS34549 185.1.47.103 at 185.1.47.253 accept AS-MEER
+export:         to AS34549 185.1.47.103 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS34549 2001:7f8:36::86f5:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-MEER
+mp-export:      afi ipv6.unicast to AS34549 2001:7f8:36::86f5:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS34549 2001:7f8:36::86f5:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-MEER
+mp-export:      afi ipv6.unicast to AS34549 2001:7f8:36::86f5:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS35297 185.1.47.31 at 185.1.47.252 accept AS-DL-WORLD
+export:         to AS35297 185.1.47.31 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS35297 185.1.47.31 at 185.1.47.253 accept AS-DL-WORLD
+export:         to AS35297 185.1.47.31 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS35297 2001:7f8:36::89e1:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-DL-WORLD
+mp-export:      afi ipv6.unicast to AS35297 2001:7f8:36::89e1:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS35297 2001:7f8:36::89e1:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-DL-WORLD
+mp-export:      afi ipv6.unicast to AS35297 2001:7f8:36::89e1:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS35432 185.1.47.14 at 185.1.47.252 accept AS-WAVESPEED
+export:         to AS35432 185.1.47.14 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS35432 185.1.47.14 at 185.1.47.253 accept AS-WAVESPEED
+export:         to AS35432 185.1.47.14 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS35432 2001:7f8:36::8a68:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-WAVESPEED
+mp-export:      afi ipv6.unicast to AS35432 2001:7f8:36::8a68:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS35432 2001:7f8:36::8a68:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-WAVESPEED
+mp-export:      afi ipv6.unicast to AS35432 2001:7f8:36::8a68:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS35625 185.1.47.136 at 185.1.47.252 accept AS35625:AS-EUROFIBER-FR
+export:         to AS35625 185.1.47.136 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS35625 185.1.47.136 at 185.1.47.253 accept AS35625:AS-EUROFIBER-FR
+export:         to AS35625 185.1.47.136 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS35625 2001:7f8:36::8b29:0:1 at 2001:7f8:36::50ed:fc:1 accept AS35625:AS-EUROFIBER-FR
+mp-export:      afi ipv6.unicast to AS35625 2001:7f8:36::8b29:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS35625 2001:7f8:36::8b29:0:1 at 2001:7f8:36::50ed:fd:1 accept AS35625:AS-EUROFIBER-FR
+mp-export:      afi ipv6.unicast to AS35625 2001:7f8:36::8b29:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS35819 185.1.47.89 at 185.1.47.252 accept AS-MOBILY
+export:         to AS35819 185.1.47.89 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS35819 185.1.47.89 at 185.1.47.253 accept AS-MOBILY
+export:         to AS35819 185.1.47.89 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS35819 2001:7f8:36::8beb:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-MOBILY
+mp-export:      afi ipv6.unicast to AS35819 2001:7f8:36::8beb:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS35819 2001:7f8:36::8beb:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-MOBILY
+mp-export:      afi ipv6.unicast to AS35819 2001:7f8:36::8beb:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS35838 185.1.47.47 at 185.1.47.252 accept AS-CCANET
+export:         to AS35838 185.1.47.47 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS35838 185.1.47.47 at 185.1.47.253 accept AS-CCANET
+export:         to AS35838 185.1.47.47 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS35838 2001:7f8:36::8bfe:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-CCANET
+mp-export:      afi ipv6.unicast to AS35838 2001:7f8:36::8bfe:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS35838 2001:7f8:36::8bfe:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-CCANET
+mp-export:      afi ipv6.unicast to AS35838 2001:7f8:36::8bfe:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS36994 185.1.47.70 at 185.1.47.252 accept AS-VB-TRANSIT
+export:         to AS36994 185.1.47.70 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS36994 185.1.47.70 at 185.1.47.253 accept AS-VB-TRANSIT
+export:         to AS36994 185.1.47.70 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS36994 2001:7f8:36::9082:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-VB-TRANSIT
+mp-export:      afi ipv6.unicast to AS36994 2001:7f8:36::9082:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS36994 2001:7f8:36::9082:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-VB-TRANSIT
+mp-export:      afi ipv6.unicast to AS36994 2001:7f8:36::9082:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS37100 185.1.47.6 at 185.1.47.252 accept AS-SET-SEACOM
+export:         to AS37100 185.1.47.6 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS37100 185.1.47.6 at 185.1.47.253 accept AS-SET-SEACOM
+export:         to AS37100 185.1.47.6 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS37100 2001:7f8:36::90ec:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-SET-SEACOM
+mp-export:      afi ipv6.unicast to AS37100 2001:7f8:36::90ec:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS37100 2001:7f8:36::90ec:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-SET-SEACOM
+mp-export:      afi ipv6.unicast to AS37100 2001:7f8:36::90ec:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS37282 185.1.47.108 at 185.1.47.252 accept AS-MAINONE
+export:         to AS37282 185.1.47.108 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS37282 185.1.47.108 at 185.1.47.253 accept AS-MAINONE
+export:         to AS37282 185.1.47.108 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS37282 2001:7f8:36::91a2:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-MAINONE
+mp-export:      afi ipv6.unicast to AS37282 2001:7f8:36::91a2:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS37282 2001:7f8:36::91a2:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-MAINONE
+mp-export:      afi ipv6.unicast to AS37282 2001:7f8:36::91a2:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS37473 185.1.47.131 at 185.1.47.252 accept AS-TELESOM
+export:         to AS37473 185.1.47.131 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS37473 185.1.47.131 at 185.1.47.253 accept AS-TELESOM
+export:         to AS37473 185.1.47.131 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS37473 2001:7f8:36::9261:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-TELESOM
+mp-export:      afi ipv6.unicast to AS37473 2001:7f8:36::9261:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS37473 2001:7f8:36::9261:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-TELESOM
+mp-export:      afi ipv6.unicast to AS37473 2001:7f8:36::9261:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS37558 185.1.47.111 at 185.1.47.252 accept AS37558:AS-LITC
+export:         to AS37558 185.1.47.111 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS37558 185.1.47.111 at 185.1.47.253 accept AS37558:AS-LITC
+export:         to AS37558 185.1.47.111 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS37558 2001:7f8:36::92b6:0:1 at 2001:7f8:36::50ed:fc:1 accept AS37558:AS-LITC
+mp-export:      afi ipv6.unicast to AS37558 2001:7f8:36::92b6:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS37558 2001:7f8:36::92b6:0:1 at 2001:7f8:36::50ed:fd:1 accept AS37558:AS-LITC
+mp-export:      afi ipv6.unicast to AS37558 2001:7f8:36::92b6:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS37721 185.1.47.95 at 185.1.47.252 accept AS-VTS-SET
+export:         to AS37721 185.1.47.95 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS37721 185.1.47.95 at 185.1.47.253 accept AS-VTS-SET
+export:         to AS37721 185.1.47.95 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS37721 2001:7f8:36::9359:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-VTS-SET
+mp-export:      afi ipv6.unicast to AS37721 2001:7f8:36::9359:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS37721 2001:7f8:36::9359:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-VTS-SET
+mp-export:      afi ipv6.unicast to AS37721 2001:7f8:36::9359:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS39063 185.1.47.119 at 185.1.47.252 accept AS-LEITWERT-IXP
+export:         to AS39063 185.1.47.119 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS39063 185.1.47.119 at 185.1.47.253 accept AS-LEITWERT-IXP
+export:         to AS39063 185.1.47.119 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS39063 2001:7f8:36::9897:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-LEITWERT-IXP
+mp-export:      afi ipv6.unicast to AS39063 2001:7f8:36::9897:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS39063 2001:7f8:36::9897:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-LEITWERT-IXP
+mp-export:      afi ipv6.unicast to AS39063 2001:7f8:36::9897:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS39180 185.1.47.33 at 185.1.47.252 accept AS-LASOTEL
+export:         to AS39180 185.1.47.33 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS39180 185.1.47.33 at 185.1.47.253 accept AS-LASOTEL
+export:         to AS39180 185.1.47.33 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS39180 2001:7f8:36::990c:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-LASOTEL
+mp-export:      afi ipv6.unicast to AS39180 2001:7f8:36::990c:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS39180 2001:7f8:36::990c:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-LASOTEL
+mp-export:      afi ipv6.unicast to AS39180 2001:7f8:36::990c:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS39386 185.1.47.83 at 185.1.47.252 accept AS-IGW-SET
+export:         to AS39386 185.1.47.83 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS39386 185.1.47.83 at 185.1.47.253 accept AS-IGW-SET
+export:         to AS39386 185.1.47.83 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS39386 2001:7f8:36::99da:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-IGW-SET
+mp-export:      afi ipv6.unicast to AS39386 2001:7f8:36::99da:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS39386 2001:7f8:36::99da:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-IGW-SET
+mp-export:      afi ipv6.unicast to AS39386 2001:7f8:36::99da:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS39405 185.1.47.18 at 185.1.47.252 accept AS-FULLSAVE
+export:         to AS39405 185.1.47.18 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS39405 185.1.47.18 at 185.1.47.253 accept AS-FULLSAVE
+export:         to AS39405 185.1.47.18 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS39405 2001:7f8:36::99ed:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-FULLSAVE
+mp-export:      afi ipv6.unicast to AS39405 2001:7f8:36::99ed:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS39405 2001:7f8:36::99ed:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-FULLSAVE
+mp-export:      afi ipv6.unicast to AS39405 2001:7f8:36::99ed:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS41095 185.1.47.35 at 185.1.47.252 accept AS-IPTP
+export:         to AS41095 185.1.47.35 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS41095 185.1.47.35 at 185.1.47.253 accept AS-IPTP
+export:         to AS41095 185.1.47.35 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS41095 2001:7f8:36::a087:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-IPTP
+mp-export:      afi ipv6.unicast to AS41095 2001:7f8:36::a087:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS41095 2001:7f8:36::a087:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-IPTP
+mp-export:      afi ipv6.unicast to AS41095 2001:7f8:36::a087:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS41327 185.1.47.100 at 185.1.47.252 accept AS41327:AS-CUSTOMERS
+export:         to AS41327 185.1.47.100 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS41327 185.1.47.100 at 185.1.47.253 accept AS41327:AS-CUSTOMERS
+export:         to AS41327 185.1.47.100 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS41327 2001:7f8:36::a16f:0:1 at 2001:7f8:36::50ed:fc:1 accept AS41327:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS41327 2001:7f8:36::a16f:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS41327 2001:7f8:36::a16f:0:1 at 2001:7f8:36::50ed:fd:1 accept AS41327:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS41327 2001:7f8:36::a16f:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS42473 185.1.47.10 at 185.1.47.252 accept AS-ANEXIA
+export:         to AS42473 185.1.47.10 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS42473 185.1.47.10 at 185.1.47.253 accept AS-ANEXIA
+export:         to AS42473 185.1.47.10 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS42473 2001:7f8:36::a5e9:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ANEXIA
+mp-export:      afi ipv6.unicast to AS42473 2001:7f8:36::a5e9:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS42473 2001:7f8:36::a5e9:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ANEXIA
+mp-export:      afi ipv6.unicast to AS42473 2001:7f8:36::a5e9:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS43996 185.1.47.65 at 185.1.47.252 accept AS-BOOKING
+export:         to AS43996 185.1.47.65 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS43996 185.1.47.65 at 185.1.47.253 accept AS-BOOKING
+export:         to AS43996 185.1.47.65 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS43996 2001:7f8:36::abdc:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-BOOKING
+mp-export:      afi ipv6.unicast to AS43996 2001:7f8:36::abdc:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS43996 2001:7f8:36::abdc:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-BOOKING
+mp-export:      afi ipv6.unicast to AS43996 2001:7f8:36::abdc:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS45489 185.1.47.114 at 185.1.47.252 accept AS-SLT-GLOBAL
+export:         to AS45489 185.1.47.114 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS45489 185.1.47.114 at 185.1.47.253 accept AS-SLT-GLOBAL
+export:         to AS45489 185.1.47.114 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS45489 185.1.47.87 at 185.1.47.252 accept AS-SLT-GLOBAL
+export:         to AS45489 185.1.47.87 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS45489 185.1.47.87 at 185.1.47.253 accept AS-SLT-GLOBAL
+export:         to AS45489 185.1.47.87 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS45489 2001:7f8:36::b1b1:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-SLT-GLOBAL
+mp-export:      afi ipv6.unicast to AS45489 2001:7f8:36::b1b1:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS45489 2001:7f8:36::b1b1:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-SLT-GLOBAL
+mp-export:      afi ipv6.unicast to AS45489 2001:7f8:36::b1b1:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS45489 2001:7f8:36::b1b1:0:3 at 2001:7f8:36::50ed:fc:1 accept AS-SLT-GLOBAL
+mp-export:      afi ipv6.unicast to AS45489 2001:7f8:36::b1b1:0:3 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS45489 2001:7f8:36::b1b1:0:3 at 2001:7f8:36::50ed:fd:1 accept AS-SLT-GLOBAL
+mp-export:      afi ipv6.unicast to AS45489 2001:7f8:36::b1b1:0:3 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS47794 185.1.47.32 at 185.1.47.252 accept AS-ATHEEB-PEERS
+export:         to AS47794 185.1.47.32 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS47794 185.1.47.32 at 185.1.47.253 accept AS-ATHEEB-PEERS
+export:         to AS47794 185.1.47.32 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS47794 2001:7f8:36::bab2:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ATHEEB-PEERS
+mp-export:      afi ipv6.unicast to AS47794 2001:7f8:36::bab2:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS47794 2001:7f8:36::bab2:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ATHEEB-PEERS
+mp-export:      afi ipv6.unicast to AS47794 2001:7f8:36::bab2:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS49028 185.1.47.144 at 185.1.47.252 accept AS-D-LAKE
+export:         to AS49028 185.1.47.144 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS49028 185.1.47.144 at 185.1.47.253 accept AS-D-LAKE
+export:         to AS49028 185.1.47.144 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS49028 2001:7f8:36::bf84:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-D-LAKE
+mp-export:      afi ipv6.unicast to AS49028 2001:7f8:36::bf84:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS49028 2001:7f8:36::bf84:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-D-LAKE
+mp-export:      afi ipv6.unicast to AS49028 2001:7f8:36::bf84:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS49088 185.1.47.129 at 185.1.47.252 accept AS-TKN
+export:         to AS49088 185.1.47.129 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS49088 185.1.47.129 at 185.1.47.253 accept AS-TKN
+export:         to AS49088 185.1.47.129 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS49088 2001:7f8:36::bfc0:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-TKN
+mp-export:      afi ipv6.unicast to AS49088 2001:7f8:36::bfc0:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS49088 2001:7f8:36::bfc0:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-TKN
+mp-export:      afi ipv6.unicast to AS49088 2001:7f8:36::bfc0:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS51185 185.1.47.41 at 185.1.47.252 accept AS51185:AS-CUSTOMERS
+export:         to AS51185 185.1.47.41 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS51185 185.1.47.41 at 185.1.47.253 accept AS51185:AS-CUSTOMERS
+export:         to AS51185 185.1.47.41 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS51185 185.1.47.43 at 185.1.47.252 accept AS51185:AS-CUSTOMERS
+export:         to AS51185 185.1.47.43 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS51185 185.1.47.43 at 185.1.47.253 accept AS51185:AS-CUSTOMERS
+export:         to AS51185 185.1.47.43 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS51185 2001:7f8:36::c7f1:0:1 at 2001:7f8:36::50ed:fc:1 accept AS51185:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS51185 2001:7f8:36::c7f1:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS51185 2001:7f8:36::c7f1:0:1 at 2001:7f8:36::50ed:fd:1 accept AS51185:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS51185 2001:7f8:36::c7f1:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS51185 2001:7f8:36::c7f1:0:2 at 2001:7f8:36::50ed:fc:1 accept AS51185:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS51185 2001:7f8:36::c7f1:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS51185 2001:7f8:36::c7f1:0:2 at 2001:7f8:36::50ed:fd:1 accept AS51185:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS51185 2001:7f8:36::c7f1:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS51254 185.1.47.8 at 185.1.47.252 accept AS-GIANTS
+export:         to AS51254 185.1.47.8 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS51254 185.1.47.8 at 185.1.47.253 accept AS-GIANTS
+export:         to AS51254 185.1.47.8 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS51254 2001:7f8:36::c836:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-GIANTS
+mp-export:      afi ipv6.unicast to AS51254 2001:7f8:36::c836:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS51254 2001:7f8:36::c836:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-GIANTS
+mp-export:      afi ipv6.unicast to AS51254 2001:7f8:36::c836:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS54113 185.1.47.121 at 185.1.47.252 accept AS-FASTLY
+export:         to AS54113 185.1.47.121 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS54113 185.1.47.121 at 185.1.47.253 accept AS-FASTLY
+export:         to AS54113 185.1.47.121 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS54113 2001:7f8:36::d361:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-FASTLY
+mp-export:      afi ipv6.unicast to AS54113 2001:7f8:36::d361:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS54113 2001:7f8:36::d361:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-FASTLY
+mp-export:      afi ipv6.unicast to AS54113 2001:7f8:36::d361:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS56418 185.1.47.138 at 185.1.47.252 accept AS56418:AS-OPERATIONRANGE
+export:         to AS56418 185.1.47.138 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS56418 185.1.47.138 at 185.1.47.253 accept AS56418:AS-OPERATIONRANGE
+export:         to AS56418 185.1.47.138 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS56418 2001:7f8:36::dc62:0:1 at 2001:7f8:36::50ed:fc:1 accept AS56418:AS-OPERATIONRANGE
+mp-export:      afi ipv6.unicast to AS56418 2001:7f8:36::dc62:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS56418 2001:7f8:36::dc62:0:1 at 2001:7f8:36::50ed:fd:1 accept AS56418:AS-OPERATIONRANGE
+mp-export:      afi ipv6.unicast to AS56418 2001:7f8:36::dc62:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS56630 185.1.47.64 at 185.1.47.252 accept AS-MELBICOM
+export:         to AS56630 185.1.47.64 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS56630 185.1.47.64 at 185.1.47.253 accept AS-MELBICOM
+export:         to AS56630 185.1.47.64 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS56630 2001:7f8:36::dd36:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-MELBICOM-V6
+mp-export:      afi ipv6.unicast to AS56630 2001:7f8:36::dd36:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS56630 2001:7f8:36::dd36:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-MELBICOM-V6
+mp-export:      afi ipv6.unicast to AS56630 2001:7f8:36::dd36:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS57463 185.1.47.142 at 185.1.47.252 accept AS-NETIX-NET
+export:         to AS57463 185.1.47.142 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS57463 185.1.47.142 at 185.1.47.253 accept AS-NETIX-NET
+export:         to AS57463 185.1.47.142 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS57463 2001:7f8:36::e077:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-NETIX-NET
+mp-export:      afi ipv6.unicast to AS57463 2001:7f8:36::e077:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS57463 2001:7f8:36::e077:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-NETIX-NET
+mp-export:      afi ipv6.unicast to AS57463 2001:7f8:36::e077:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS58715 185.1.47.109 at 185.1.47.252 accept AS-58715
+export:         to AS58715 185.1.47.109 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS58715 185.1.47.109 at 185.1.47.253 accept AS-58715
+export:         to AS58715 185.1.47.109 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS58715 2001:7f8:36::e55b:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-58715
+mp-export:      afi ipv6.unicast to AS58715 2001:7f8:36::e55b:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS58715 2001:7f8:36::e55b:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-58715
+mp-export:      afi ipv6.unicast to AS58715 2001:7f8:36::e55b:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS58717 185.1.47.82 at 185.1.47.252 accept AS58717:AS-SUMMITCOMMUNICATIONS-BD
+export:         to AS58717 185.1.47.82 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS58717 185.1.47.82 at 185.1.47.253 accept AS58717:AS-SUMMITCOMMUNICATIONS-BD
+export:         to AS58717 185.1.47.82 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS58717 2001:7f8:36::e55d:0:1 at 2001:7f8:36::50ed:fc:1 accept AS58717:AS-SUMMITCOMMUNICATIONS-BD
+mp-export:      afi ipv6.unicast to AS58717 2001:7f8:36::e55d:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS58717 2001:7f8:36::e55d:0:1 at 2001:7f8:36::50ed:fd:1 accept AS58717:AS-SUMMITCOMMUNICATIONS-BD
+mp-export:      afi ipv6.unicast to AS58717 2001:7f8:36::e55d:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS60427 185.1.47.1 at 185.1.47.252 accept AS-SYSTEM-NET
+export:         to AS60427 185.1.47.1 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS60427 185.1.47.1 at 185.1.47.253 accept AS-SYSTEM-NET
+export:         to AS60427 185.1.47.1 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS60427 2001:7f8:36::ec0b:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-SYSTEM-NET
+mp-export:      afi ipv6.unicast to AS60427 2001:7f8:36::ec0b:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS60427 2001:7f8:36::ec0b:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-SYSTEM-NET
+mp-export:      afi ipv6.unicast to AS60427 2001:7f8:36::ec0b:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS61438 185.1.47.91 at 185.1.47.252 accept AS-IP-IT
+export:         to AS61438 185.1.47.91 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS61438 185.1.47.91 at 185.1.47.253 accept AS-IP-IT
+export:         to AS61438 185.1.47.91 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS61438 2001:7f8:36::effe:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-IP-IT
+mp-export:      afi ipv6.unicast to AS61438 2001:7f8:36::effe:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS61438 2001:7f8:36::effe:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-IP-IT
+mp-export:      afi ipv6.unicast to AS61438 2001:7f8:36::effe:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS62597 185.1.47.127 at 185.1.47.252 accept AS-NSONE
+export:         to AS62597 185.1.47.127 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS62597 185.1.47.127 at 185.1.47.253 accept AS-NSONE
+export:         to AS62597 185.1.47.127 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS62597 2001:7f8:36::f485:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-NSONE
+mp-export:      afi ipv6.unicast to AS62597 2001:7f8:36::f485:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS62597 2001:7f8:36::f485:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-NSONE
+mp-export:      afi ipv6.unicast to AS62597 2001:7f8:36::f485:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS62955 185.1.47.51 at 185.1.47.252 accept AS-EBAYMTBB
+export:         to AS62955 185.1.47.51 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS62955 185.1.47.51 at 185.1.47.253 accept AS-EBAYMTBB
+export:         to AS62955 185.1.47.51 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS62955 2001:7f8:36::f5eb:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-EBAYMTBB
+mp-export:      afi ipv6.unicast to AS62955 2001:7f8:36::f5eb:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS62955 2001:7f8:36::f5eb:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-EBAYMTBB
+mp-export:      afi ipv6.unicast to AS62955 2001:7f8:36::f5eb:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS63927 185.1.47.73 at 185.1.47.252 accept AS63927:AS-CUSTOMERS
+export:         to AS63927 185.1.47.73 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS63927 185.1.47.73 at 185.1.47.253 accept AS63927:AS-CUSTOMERS
+export:         to AS63927 185.1.47.73 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS63927 2001:7f8:36::f9b7:0:1 at 2001:7f8:36::50ed:fc:1 accept AS63927:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS63927 2001:7f8:36::f9b7:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS63927 2001:7f8:36::f9b7:0:1 at 2001:7f8:36::50ed:fd:1 accept AS63927:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS63927 2001:7f8:36::f9b7:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS64049 185.1.47.23 at 185.1.47.252 accept AS-RJIL-ILD-IN
+export:         to AS64049 185.1.47.23 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS64049 185.1.47.23 at 185.1.47.253 accept AS-RJIL-ILD-IN
+export:         to AS64049 185.1.47.23 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS64049 185.1.47.50 at 185.1.47.252 accept AS-RJIL-ILD-IN
+export:         to AS64049 185.1.47.50 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS64049 185.1.47.50 at 185.1.47.253 accept AS-RJIL-ILD-IN
+export:         to AS64049 185.1.47.50 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS64049 2001:7f8:36::fa31:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-RJIL-ILD-IN
+mp-export:      afi ipv6.unicast to AS64049 2001:7f8:36::fa31:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS64049 2001:7f8:36::fa31:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-RJIL-ILD-IN
+mp-export:      afi ipv6.unicast to AS64049 2001:7f8:36::fa31:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS64049 2001:7f8:36::fa31:0:2 at 2001:7f8:36::50ed:fc:1 accept AS-RJIL-ILD-IN
+mp-export:      afi ipv6.unicast to AS64049 2001:7f8:36::fa31:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS64049 2001:7f8:36::fa31:0:2 at 2001:7f8:36::50ed:fd:1 accept AS-RJIL-ILD-IN
+mp-export:      afi ipv6.unicast to AS64049 2001:7f8:36::fa31:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS137409 185.1.47.74 at 185.1.47.252 accept AS137409:AS-ALL
+export:         to AS137409 185.1.47.74 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS137409 185.1.47.74 at 185.1.47.253 accept AS137409:AS-ALL
+export:         to AS137409 185.1.47.74 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS137409 2001:7f8:36:0:2:18c1:0:1 at 2001:7f8:36::50ed:fc:1 accept AS137409:AS-ALL
+mp-export:      afi ipv6.unicast to AS137409 2001:7f8:36:0:2:18c1:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS137409 2001:7f8:36:0:2:18c1:0:1 at 2001:7f8:36::50ed:fd:1 accept AS137409:AS-ALL
+mp-export:      afi ipv6.unicast to AS137409 2001:7f8:36:0:2:18c1:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS138915 185.1.47.133 at 185.1.47.252 accept AS138915:AS-CUSTOMER
+export:         to AS138915 185.1.47.133 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS138915 185.1.47.133 at 185.1.47.253 accept AS138915:AS-CUSTOMER
+export:         to AS138915 185.1.47.133 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS138915 2001:7f8:36:0:2:1ea3:0:1 at 2001:7f8:36::50ed:fc:1 accept AS138915:AS-CUSTOMER
+mp-export:      afi ipv6.unicast to AS138915 2001:7f8:36:0:2:1ea3:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS138915 2001:7f8:36:0:2:1ea3:0:1 at 2001:7f8:36::50ed:fd:1 accept AS138915:AS-CUSTOMER
+mp-export:      afi ipv6.unicast to AS138915 2001:7f8:36:0:2:1ea3:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS139901 185.1.47.137 at 185.1.47.252 accept AS-DTLIIG-139901
+export:         to AS139901 185.1.47.137 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS139901 185.1.47.137 at 185.1.47.253 accept AS-DTLIIG-139901
+export:         to AS139901 185.1.47.137 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS139901 2001:7f8:36:0:2:227d:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-DTLIIG-139901
+mp-export:      afi ipv6.unicast to AS139901 2001:7f8:36:0:2:227d:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS139901 2001:7f8:36:0:2:227d:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-DTLIIG-139901
+mp-export:      afi ipv6.unicast to AS139901 2001:7f8:36:0:2:227d:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS199524 185.1.47.113 at 185.1.47.252 accept AS-GCORE
+export:         to AS199524 185.1.47.113 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS199524 185.1.47.113 at 185.1.47.253 accept AS-GCORE
+export:         to AS199524 185.1.47.113 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS199524 2001:7f8:36:0:3:b64:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-GCORE
+mp-export:      afi ipv6.unicast to AS199524 2001:7f8:36:0:3:b64:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS199524 2001:7f8:36:0:3:b64:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-GCORE
+mp-export:      afi ipv6.unicast to AS199524 2001:7f8:36:0:3:b64:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS205529 185.1.47.249 at 185.1.47.252 accept AS-NADA
+export:         to AS205529 185.1.47.249 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS205529 185.1.47.249 at 185.1.47.253 accept AS-NADA
+export:         to AS205529 185.1.47.249 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS205529 2001:7f8:36::50ed:f9:1 at 2001:7f8:36::50ed:fc:1 accept AS-NADA
+mp-export:      afi ipv6.unicast to AS205529 2001:7f8:36::50ed:f9:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS205529 2001:7f8:36::50ed:f9:1 at 2001:7f8:36::50ed:fd:1 accept AS-NADA
+mp-export:      afi ipv6.unicast to AS205529 2001:7f8:36::50ed:f9:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS205530 185.1.47.112 at 185.1.47.252 accept AS-DECIX-RND
+export:         to AS205530 185.1.47.112 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS205530 185.1.47.112 at 185.1.47.253 accept AS-DECIX-RND
+export:         to AS205530 185.1.47.112 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS205530 2001:7f8:36:0:3:22da:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-DECIX-RND
+mp-export:      afi ipv6.unicast to AS205530 2001:7f8:36:0:3:22da:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS205530 2001:7f8:36:0:3:22da:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-DECIX-RND
+mp-export:      afi ipv6.unicast to AS205530 2001:7f8:36:0:3:22da:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS205845 185.1.47.143 at 185.1.47.252 accept AS-PLANISWARE
+export:         to AS205845 185.1.47.143 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS205845 185.1.47.143 at 185.1.47.253 accept AS-PLANISWARE
+export:         to AS205845 185.1.47.143 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS205845 2001:7f8:36:0:3:2415:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-PLANISWARE
+mp-export:      afi ipv6.unicast to AS205845 2001:7f8:36:0:3:2415:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS205845 2001:7f8:36:0:3:2415:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-PLANISWARE
+mp-export:      afi ipv6.unicast to AS205845 2001:7f8:36:0:3:2415:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS209823 185.1.47.147 at 185.1.47.252 accept AS-ENKI
+export:         to AS209823 185.1.47.147 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS209823 185.1.47.147 at 185.1.47.253 accept AS-ENKI
+export:         to AS209823 185.1.47.147 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS209823 2001:7f8:36:0:3:339:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ENKI
+mp-export:      afi ipv6.unicast to AS209823 2001:7f8:36:0:3:339:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS209823 2001:7f8:36:0:3:339:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ENKI
+mp-export:      afi ipv6.unicast to AS209823 2001:7f8:36:0:3:339:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS212232 185.1.47.63 at 185.1.47.252 accept AS212232
+export:         to AS212232 185.1.47.63 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS212232 185.1.47.63 at 185.1.47.253 accept AS212232
+export:         to AS212232 185.1.47.63 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS212232 2001:7f8:36:0:3:3d08:0:1 at 2001:7f8:36::50ed:fc:1 accept AS212232
+mp-export:      afi ipv6.unicast to AS212232 2001:7f8:36:0:3:3d08:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS212232 2001:7f8:36:0:3:3d08:0:1 at 2001:7f8:36::50ed:fd:1 accept AS212232
+mp-export:      afi ipv6.unicast to AS212232 2001:7f8:36:0:3:3d08:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS212795 185.1.47.120 at 185.1.47.252 accept AS-ATHENE
+export:         to AS212795 185.1.47.120 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS212795 185.1.47.120 at 185.1.47.253 accept AS-ATHENE
+export:         to AS212795 185.1.47.120 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS212795 2001:7f8:36:0:3:3f3b:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-ATHENE
+mp-export:      afi ipv6.unicast to AS212795 2001:7f8:36:0:3:3f3b:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS212795 2001:7f8:36:0:3:3f3b:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-ATHENE
+mp-export:      afi ipv6.unicast to AS212795 2001:7f8:36:0:3:3f3b:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS215250 2001:7f8:36:0:3:48d2:0:1 at 2001:7f8:36::50ed:fc:1 accept AS215250:AS-V4LESS
+mp-export:      afi ipv6.unicast to AS215250 2001:7f8:36:0:3:48d2:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS215250 2001:7f8:36:0:3:48d2:0:1 at 2001:7f8:36::50ed:fd:1 accept AS215250:AS-V4LESS
+mp-export:      afi ipv6.unicast to AS215250 2001:7f8:36:0:3:48d2:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS264409 185.1.47.141 at 185.1.47.252 accept AS-HUGENET-CUSTOMERS
+export:         to AS264409 185.1.47.141 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS264409 185.1.47.141 at 185.1.47.253 accept AS-HUGENET-CUSTOMERS
+export:         to AS264409 185.1.47.141 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS264409 2001:7f8:36:0:4:8d:0:1 at 2001:7f8:36::50ed:fc:1 accept AS-HUGENET-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS264409 2001:7f8:36:0:4:8d:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS264409 2001:7f8:36:0:4:8d:0:1 at 2001:7f8:36::50ed:fd:1 accept AS-HUGENET-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS264409 2001:7f8:36:0:4:8d:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS396986 185.1.47.69 at 185.1.47.252 accept AS396986
+export:         to AS396986 185.1.47.69 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS396986 185.1.47.69 at 185.1.47.253 accept AS396986
+export:         to AS396986 185.1.47.69 at 185.1.47.253 announce AS-DECIX-MRS
+import:         from AS396986 185.1.47.92 at 185.1.47.252 accept AS396986
+export:         to AS396986 185.1.47.92 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS396986 185.1.47.92 at 185.1.47.253 accept AS396986
+export:         to AS396986 185.1.47.92 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS396986 2001:7f8:36:0:6:eba:0:1 at 2001:7f8:36::50ed:fc:1 accept AS396986
+mp-export:      afi ipv6.unicast to AS396986 2001:7f8:36:0:6:eba:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS396986 2001:7f8:36:0:6:eba:0:1 at 2001:7f8:36::50ed:fd:1 accept AS396986
+mp-export:      afi ipv6.unicast to AS396986 2001:7f8:36:0:6:eba:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS396986 2001:7f8:36:0:6:eba:0:2 at 2001:7f8:36::50ed:fc:1 accept AS396986
+mp-export:      afi ipv6.unicast to AS396986 2001:7f8:36:0:6:eba:0:2 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS396986 2001:7f8:36:0:6:eba:0:2 at 2001:7f8:36::50ed:fd:1 accept AS396986
+mp-export:      afi ipv6.unicast to AS396986 2001:7f8:36:0:6:eba:0:2 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+import:         from AS397601 185.1.47.124 at 185.1.47.252 accept AS397601
+export:         to AS397601 185.1.47.124 at 185.1.47.252 announce AS-DECIX-MRS
+import:         from AS397601 185.1.47.124 at 185.1.47.253 accept AS397601
+export:         to AS397601 185.1.47.124 at 185.1.47.253 announce AS-DECIX-MRS
+mp-import:      afi ipv6.unicast from AS397601 2001:7f8:36:0:6:112:0:1 at 2001:7f8:36::50ed:fc:1 accept AS397601
+mp-export:      afi ipv6.unicast to AS397601 2001:7f8:36:0:6:112:0:1 at 2001:7f8:36::50ed:fc:1 announce AS-DECIX-MRS-V6
+mp-import:      afi ipv6.unicast from AS397601 2001:7f8:36:0:6:112:0:1 at 2001:7f8:36::50ed:fd:1 accept AS397601
+mp-export:      afi ipv6.unicast to AS397601 2001:7f8:36:0:6:112:0:1 at 2001:7f8:36::50ed:fd:1 announce AS-DECIX-MRS-V6
+created:        2015-08-03T14:00:45Z
+last-modified:  2025-08-20T06:08:48Z
+source:         RIPE # Filtered
+
+organisation:   ORG-DtGI1-RIPE
+org-name:       DE-CIX Management GmbH
+country:        DE
+org-type:       LIR
+address:        Lichtstrasse 43i
+address:        50825
+address:        Köln
+address:        GERMANY
+phone:          +496917309020
+mnt-ref:        DECIX-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DECIX-MNT
+admin-c:        DXSU6695-RIPE
+admin-c:        INF6695-RIPE
+admin-c:        RND6695-RIPE
+tech-c:         DXSU6695-RIPE
+tech-c:         INF6695-RIPE
+tech-c:         RND6695-RIPE
+abuse-c:        DXSU6695-RIPE
+created:        2004-04-17T11:06:04Z
+last-modified:  2020-12-16T13:23:58Z
+source:         RIPE # Filtered
+
+role:           DE-CIX Customer Service
+address:        DE-CIX Management GmbH
+address:        Lindleystrasse 12
+address:        60314 Frankfurt
+address:        Germany
+nic-hdl:        DXSU6695-RIPE
+phone:          +49 69 1730 902 11
+org:            ORG-DtGI1-RIPE
+admin-c:        TN6695-RIPE
+tech-c:         TN6695-RIPE
+tech-c:         CF6695-RIPE
+tech-c:         DH6695-RIPE
+abuse-mailbox:  abuse@de-cix.net
+mnt-by:         DECIX-MNT
+created:        2013-04-17T09:30:06Z
+last-modified:  2019-02-15T07:39:10Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+%  No entries found for the selected source(s).
+
+

@@ -1,0 +1,2546 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8903'
+
+% Abuse contact for 'AS8903' is 'abuse@lyntia.com'
+
+aut-num:        AS8903
+as-name:        AS8903
+descr:          Lyntia Networks. Peering AS.
+org:            ORG-DDCS1-RIPE
+admin-c:        ADM8903-RIPE
+tech-c:         TECH8903-RIPE
+remarks:        *********************************************************
+remarks:        PROVIDERS (v4 and v6, Uni and Multicast)
+remarks:        *********************************************************
+remarks:        < DTAG >
+remarks:        <IPV4 , IPV6>
+import:         from AS3320 action pref=100; accept ANY
+export:         to AS3320 announce AS-LYNTIA
+remarks:        ---------------------------------------------------------
+remarks:        < Hurricane Electric >
+remarks:        <IPV6 Unicast Transit, tunnelled>
+import:         from AS6939 action pref=100; accept ANY
+export:         to AS6939 announce AS-LYNTIA
+mp-import:      afi ipv6.multicast from AS6939 accept ANY
+mp-export:      afi ipv6.multicast to AS6939 announce AS-LYNTIA
+remarks:        *********************************************************
+remarks:        PEERINGS
+remarks:        *********************************************************
+remarks:        < ESPANIX > (Espanix)
+remarks:        IPv4 Unicast, and Native (not tunnelled) IPv6
+import:         from AS6895 action pref=100; accept AS6895
+export:         to AS6895 announce AS-BTTEL
+mp-import:      afi ipv4.unicast from AS6895 accept AS6895
+mp-export:      afi ipv4.unicast to AS6895 announce AS-BTTEL
+mp-import:      afi ipv6.unicast from AS3948 accept AS6895
+mp-export:      afi ipv6.unicast to AS3948 announce AS-BTTEL6
+remarks:        ---------------------------------------------------------
+remarks:        < ACENS > (Espanix)
+import:         from AS16371 action pref=100; accept AS16371
+import:         from AS16371 action pref=100; accept AS29109
+import:         from AS16371 action pref=100; accept AS42083
+import:         from AS16371 action pref=100; accept AS51718
+import:         from AS16371 action pref=100; accept AS21468
+import:         from AS16371 action pref=100; accept AS46281
+export:         to AS16371 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < SARENET > (Espanix)
+import:         from AS3262 action pref=100; accept AS3262
+export:         to AS3262 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < JIPPII > (Espanix)
+import:         from AS8782 action pref=100; accept AS8782
+export:         to AS8782 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < COLT TELECOM > (Espanix)
+import:         from AS8220 action pref=100; accept AS-COLT
+export:         to AS8220 announce AS-LYNTIA
+remarks:        ---------------------------------------------------------
+remarks:        < EASYNET > (Espanix)
+import:         from AS4589 action pref=100; accept AS4589
+export:         to AS4589 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < ONO > (Espanix)
+import:         from AS6739 action pref=100; accept AS-ONO-UPS
+export:         to AS6739 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < COMUNITEL > (Espanix)
+import:         from AS12357 action pref=100; accept AS12357
+export:         to AS13457 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < GLOBAL-ONE-PORTUGAL > (Espanix)
+import:         from AS6853 action pref=100; accept AS6853
+export:         to AS6853 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < UNI2 > (Espanix)
+import:         from AS12479 action pref=100; accept AS12479
+export:         to AS12479 announce AS-LYNTIA
+remarks:        ---------------------------------------------------------
+remarks:        < AT&T GLOBAL NETWORK SERVICES > (Espanix)
+import:         from AS2686 action pref=100; accept AS2686
+export:         to AS2686 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < TELEFONICA > (Espanix)
+import:         from AS3352 action pref=100; accept AS3352
+export:         to AS3352 announce AS-LYNTIA
+mp-import:      afi ipv4.unicast from AS3352 accept AS3352
+mp-export:      afi ipv4.unicast to AS3352 announce AS-LYNTIA
+mp-import:      afi ipv6.unicast from AS3352 accept AS3352
+mp-export:      afi ipv6.unicast to AS3352 announce AS-LYNTIA
+remarks:        ---------------------------------------------------------
+remarks:        < INTELIDEAS > (Espanix)
+import:         from AS12359 action pref=100; accept AS12359
+export:         to AS12359 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < DATAGRAMA > (Espanix)
+import:         from AS9019 action pref=100; accept AS9019
+export:         to AS9019 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < FUJITSU > (Espanix)
+import:         from AS3324 action pref=100; accept AS3324
+export:         to AS3324 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < JAZZTEL > (Espanix)
+import:         from AS12715 action pref=100; accept AS12715
+export:         to AS12715 announce AS-LYNTIA
+remarks:        ---------------------------------------------------------
+remarks:        < WORLDCOM > (Espanix)
+import:         from AS702 action pref=100; accept AS702
+export:         to AS702 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < REDIRIS > (Espanix)
+remarks:        IPV4 and Native IPv6 and Multicast IPv4
+remarks:        ---
+import:         from AS766 action pref=100; accept ANY
+export:         to AS766 announce AS-BTTEL AND AS-BTTEL6
+mp-import:      afi ipv4.unicast from AS766 accept AS766
+mp-export:      afi ipv4.unicast to AS766 announce AS-BTTEL
+mp-import:      afi ipv4.multicast from AS766 accept AS766
+mp-export:      afi ipv4.multicast to AS766 announce AS-BTTEL
+mp-import:      afi ipv6.unicast from AS766 accept AS766
+mp-export:      afi ipv6.unicast to AS766 announce AS-BTTEL6
+remarks:        ---------------------------------------------------------
+remarks:        < TISCALI > (Espanix)
+import:         from AS3257 action pref=100; accept AS3257
+export:         to AS3257 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < YA.COM INTERNET FACTORY > (Espanix)
+import:         from AS20838 action pref=100; accept AS20838
+export:         to AS20838 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < COGENT COMMUNICATIONS > (Espanix)
+import:         from AS174 action pref=100; accept AS174
+export:         to AS174 announce AS-LYNTIA
+remarks:        ---------------------------------------------------------
+remarks:        < ARSYS > (Espanix)
+import:         from AS20718 action pref=100; accept AS20718
+export:         to AS20718 announce AS-LYNTIA
+remarks:        ---------------------------------------------------------
+remarks:        < INTEROUTE > (Espanix)
+import:         from AS8928 action pref=100; accept AS-INTEROUTE
+export:         to AS8928 announce AS-LYNTIA
+remarks:        ---------------------------------------------------------
+remarks:        < NTT Verio > (Espanix v6)
+remarks:        <IPV6 native>
+import:         from AS2914 action pref=100; accept AS-VERIO
+export:         to AS2914 announce AS-LYNTIA
+mp-import:      afi ipv6.unicast from AS2914 accept AS2914
+mp-export:      afi ipv6.unicast to AS2914 announce AS-LYNTIA
+remarks:        ---------------------------------------------------------
+remarks:        < GENETSIS > (Espanix)
+remarks:        <IPV4 Unicast>
+remarks:        ---
+import:         from AS16168 action pref=100; accept AS-GENETSISES
+export:         to AS16168 announce AS-BTTEL
+mp-import:      afi ipv4.unicast from AS16168 accept AS-GENETSISES
+mp-export:      afi ipv4.unicast to AS16168 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < HISPAWEB > (Espanix)
+remarks:        <IPV4 Unicast>
+remarks:        ---
+import:         from AS45037 action pref=100; accept AS-HISPAWEB
+export:         to AS45037 announce AS-BTTEL
+mp-import:      afi ipv4.unicast from AS45037 accept AS-HISPAWEB
+mp-export:      afi ipv4.unicast to AS45037 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < COMVIVE > (Espanix)
+remarks:        <IPV4 Unicast>
+remarks:        ---
+import:         from AS39020 action pref=100; accept AS-COMVIVE
+export:         to AS39020 announce AS-BTTEL
+mp-import:      afi ipv4.unicast from AS39020 accept AS-COMVIVE
+mp-export:      afi ipv4.unicast to AS39020 announce AS-BTTEL
+remarks:        ---------------------------------------------------------
+remarks:        < AMAZON > (Espanix)
+remarks:        <IPV4 Unicast>
+remarks:        ---
+import:         from AS16509 action pref=100; accept AS-AMAZON-NA
+export:         to AS16509 announce AS-LYNTIA
+mp-import:      afi ipv4.unicast from AS16509 accept AS-AMAZON-NA
+mp-export:      afi ipv4.unicast to AS16509 announce AS-LYNTIA
+remarks:        ----------------------------------------------
+remarks:        Aire Networks
+import:         from AS29119 accept AS-SERVIHOSTING
+export:         to AS29119  announce ANY
+import:         from AS56882 accept AS-LCR
+export:         to AS56882  announce ANY
+remarks:        *********************************************************
+remarks:        CUSTOMERS
+remarks:        *********************************************************
+remarks:        < Customer Flumotion >
+import:         from AS42816 accept AS42816
+export:         to AS42816 announce ANY
+remarks:        < CECA >
+import:         from AS20784 accept AS20784
+export:         to AS20784 announce ANY
+remarks:        < EDICOM >
+import:         from AS31262 accept AS31262
+export:         to AS31262 announce any
+remarks:        DXC Technology Servicios Espana, S.L.U.
+import:         from AS29397 accept AS29397
+export:         to AS29397 announce any
+remarks:        Accelya World SLU
+import:         from AS199272 accept AS199272
+export:         to AS199272 announce any
+remarks:        ENA Operador de Telecomunicaciones
+import:         from AS209344 accept AS209344
+export:         to AS209344 announce any
+remarks:        Roca Sanitario, S.A.
+import:         from AS203404 accept AS203404
+export:         to AS203404 announce any
+remarks:        Partido Socialista Obrero Espanol (PSOE)
+import:         from AS207122 accept AS207122
+export:         to AS207122 announce any
+remarks:        IBERIA
+import:         from AS25261 accept AS25261
+export:         to AS25261 announce any
+remarks:        ENAIRE
+import:         from AS206046 accept AS206046
+export:         to AS206046 announce any
+remarks:        J&A GARRIGUES S.L.
+import:         from AS44127 accept AS44127
+export:         to AS44127 announce any
+remarks:        FACTORIA PRISA NOTICIAS
+import:         from AS24772 accept AS24772
+export:         to AS24772 announce any
+remarks:        Colegio de Registradores
+import:         from AS25267 accept AS25267
+export:         to AS25267 announce any
+remarks:        < ARRAKIS >
+import:         from AS8239 action pref=100; accept AS8239
+export:         to AS8239 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < BTIGS >
+import:         from AS12541 action pref=100; accept AS12541
+export:         to AS12541 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Accenture >
+import:         from AS16225 action pref=100; accept AS16225
+export:         to AS16225 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Infobolsa >
+import:         from AS16085 action pref=100; accept AS16085
+export:         to AS16085 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        Evolutio Cloud Enabler. Barcelona Datacenter
+import:         from AS13186 action pref=100; accept AS13186
+export:         to AS13186 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        Evolutio Cloud Enabler. Madrid Datacenter
+remarks:        from AS12462 action pref=100; accept AS12462
+remarks:        to AS12462 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Renfe >
+import:         from AS15937 action pref=100; accept AS15937
+export:         to AS15937 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Infoglobal >
+import:         from AS28871 action pref=100; accept AS28871
+export:         to AS28871 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Ferrovial >
+import:         from AS20944 action pref=100; accept AS20944
+export:         to AS20944 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Banco Espana >
+import:         from AS20905 action pref=100; accept AS20905
+export:         to AS20905 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Indra >
+import:         from AS20966 action pref=100; accept AS20966
+export:         to AS20966 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < ITP >
+import:         from AS31332 action pref=100; accept AS31332
+export:         to AS31332 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Acens >
+import:         from AS16371 action pref=100; accept AS16371
+export:         to AS16371 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Servicom 2000 >
+import:         from AS9165 action pref=100; accept AS9165
+export:         to AS9165 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Ibercom >
+import:         from AS15915 action pref=100; accept AS15915
+export:         to AS15915 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Fabrica Nacional Moneda y Timbre >
+import:         from AS41072 action pref=100; accept AS41072
+export:         to AS41072 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < NUMINTEC >
+import:         from AS57365 action pref=100; accept AS57365
+export:         to AS57365 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < BTWWIDC-H Autonomous System >
+import:         from AS13205 action pref=100; accept AS13205
+export:         to AS13205 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < CONSULINTEL >
+remarks:        <IPV6 only>
+import:         from AS31701 action pref=100; accept AS31701
+export:         to AS31701 announce ANY
+mp-import:      afi ipv6.unicast from AS31701 accept AS31701
+mp-export:      afi ipv6.unicast to AS31701 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < MINISTERIO DE DEFENSA >
+import:         from AS42211 action pref=100; accept AS42211
+export:         to AS42211 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        Acciona
+import:         from AS35461 accept AS35461
+export:         to AS35461 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        FIBANC
+import:         from AS199329 accept AS199329
+export:         to AS199329 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        # FUNCIONALIA
+import:         from AS213909 accept AS213909
+export:         to AS213909 announce ANY
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         LYNTIA-MNT
+created:        2002-09-05T07:58:03Z
+last-modified:  2025-04-01T10:37:37Z
+source:         RIPE # Filtered
+
+organisation:   ORG-DDCS1-RIPE
+org-name:       LYNTIA NETWORKS S.A.
+country:        ES
+org-type:       LIR
+address:        AVENIDA DE BRUSELAS, 24. Planta 1
+address:        28108
+address:        ALCOBENDAS
+address:        SPAIN
+phone:          +34679164706
+fax-no:         +34915893161
+abuse-c:        ABS12541-RIPE
+admin-c:        ADM8903-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        LYNTIA-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         LYNTIA-MNT
+created:        2007-01-17T11:11:06Z
+last-modified:  2025-01-18T12:08:22Z
+source:         RIPE # Filtered
+
+role:           ADMIN for AS8903 AS12541 AS8239
+address:        Avenida de Bruselas 24, Planta 1, 28108 Alcobendas
+nic-hdl:        ADM8903-RIPE
+admin-c:        TPR3-RIPE
+admin-c:        JFR82-RIPE
+admin-c:        JDP86-RIPE
+mnt-by:         LYNTIA-MNT
+created:        2020-04-12T22:37:27Z
+last-modified:  2024-10-14T19:12:47Z
+source:         RIPE # Filtered
+
+role:           TECH ADM for AS8903 AS12541 AS8239
+address:        Isabel Colbrand 6-8 28050 Madrid
+tech-c:         TPR3-RIPE
+tech-c:         RM13024-RIPE
+tech-c:         JDP86-RIPE
+tech-c:         JFR82-RIPE
+tech-c:         JCPE2-RIPE
+nic-hdl:        TECH8903-RIPE
+mnt-by:         EVOLUTIO-MNT
+created:        2020-04-12T22:41:21Z
+last-modified:  2021-02-17T19:47:15Z
+source:         RIPE # Filtered
+
+% Information related to 'ADM8903-RIPE'
+
+role:           ADMIN for AS8903 AS12541 AS8239
+address:        Avenida de Bruselas 24, Planta 1, 28108 Alcobendas
+nic-hdl:        ADM8903-RIPE
+admin-c:        TPR3-RIPE
+admin-c:        JFR82-RIPE
+admin-c:        JDP86-RIPE
+mnt-by:         LYNTIA-MNT
+created:        2020-04-12T22:37:27Z
+last-modified:  2024-10-14T19:12:47Z
+source:         RIPE # Filtered
+
+person:         Julian del Pozo
+address:        Av Bruselas, 24. 1st Floor
+phone:          +34 91 589 25 05
+nic-hdl:        JDP86-RIPE
+mnt-by:         LYNTIA-MNT
+created:        2020-12-03T17:13:33Z
+last-modified:  2025-08-25T23:36:46Z
+source:         RIPE # Filtered
+
+person:         Juan Francisco Ruiz
+address:        Av Bruselas, 24. 1st Floor
+phone:          +34 91 589 25 05
+nic-hdl:        JFR82-RIPE
+mnt-by:         LYNTIA-MNT
+created:        2021-01-14T08:35:41Z
+last-modified:  2025-08-25T23:37:54Z
+source:         RIPE # Filtered
+
+person:         Tomas Pellicer
+address:        Lyntia Networks
+address:        Av. Bruselas, 24 1st Floor
+phone:          +34 91 589 25 05
+nic-hdl:        TPR3-RIPE
+mnt-by:         LYNTIA-MNT
+created:        2015-02-24T10:57:44Z
+last-modified:  2025-08-25T23:35:32Z
+source:         RIPE # Filtered
+
+% Information related to 'TECH8903-RIPE'
+
+role:           TECH ADM for AS8903 AS12541 AS8239
+address:        Isabel Colbrand 6-8 28050 Madrid
+tech-c:         TPR3-RIPE
+tech-c:         RM13024-RIPE
+tech-c:         JDP86-RIPE
+tech-c:         JFR82-RIPE
+tech-c:         JCPE2-RIPE
+nic-hdl:        TECH8903-RIPE
+mnt-by:         EVOLUTIO-MNT
+created:        2020-04-12T22:41:21Z
+last-modified:  2021-02-17T19:47:15Z
+source:         RIPE # Filtered
+
+person:         Juan Carlos Perez Eugercios
+address:        Evolutio Cloud Enabler
+address:        Isabel Colbrand 6, 0 pl
+address:        28050 Madrid
+address:        Spain
+phone:          +34 912706164
+fax-no:         +34 912706310
+nic-hdl:        JCPE2-RIPE
+mnt-by:         EVOLUTIO-MNT
+created:        2007-09-20T10:13:00Z
+last-modified:  2021-02-17T19:45:36Z
+source:         RIPE # Filtered
+
+person:         Julian del Pozo
+address:        Av Bruselas, 24. 1st Floor
+phone:          +34 91 589 25 05
+nic-hdl:        JDP86-RIPE
+mnt-by:         LYNTIA-MNT
+created:        2020-12-03T17:13:33Z
+last-modified:  2025-08-25T23:36:46Z
+source:         RIPE # Filtered
+
+person:         Juan Francisco Ruiz
+address:        Av Bruselas, 24. 1st Floor
+phone:          +34 91 589 25 05
+nic-hdl:        JFR82-RIPE
+mnt-by:         LYNTIA-MNT
+created:        2021-01-14T08:35:41Z
+last-modified:  2025-08-25T23:37:54Z
+source:         RIPE # Filtered
+
+person:         Raul Mateo
+address:        Evolutio Cloud Enabler S.A.U.
+address:        Isabel Colbrand, 8
+address:        28050 MADRID
+address:        SPAIN
+phone:          +34 91 270 6234
+fax-no:         +34 91 270 6310
+nic-hdl:        RM13024-RIPE
+mnt-by:         BTTEL-MNT
+created:        2012-03-07T14:40:19Z
+last-modified:  2023-03-15T17:30:13Z
+source:         RIPE # Filtered
+
+person:         Tomas Pellicer
+address:        Lyntia Networks
+address:        Av. Bruselas, 24 1st Floor
+phone:          +34 91 589 25 05
+nic-hdl:        TPR3-RIPE
+mnt-by:         LYNTIA-MNT
+created:        2015-02-24T10:57:44Z
+last-modified:  2025-08-25T23:35:32Z
+source:         RIPE # Filtered
+
+% Information related to 'ZONE8903-RIPE'
+
+role:           ZONE ADMIN for AS8903 AS12541 AS8239
+address:        Evolutio Cloud Enabler
+address:        Isabel Colbrand, 6-8. 28050-Madrid.
+admin-c:        ADM8903-RIPE
+tech-c:         TECH8903-RIPE
+nic-hdl:        ZONE8903-RIPE
+mnt-by:         EVOLUTIO-MNT
+created:        2020-06-08T16:22:24Z
+last-modified:  2021-01-21T21:57:41Z
+source:         RIPE # Filtered
+
+role:           ADMIN for AS8903 AS12541 AS8239
+address:        Avenida de Bruselas 24, Planta 1, 28108 Alcobendas
+nic-hdl:        ADM8903-RIPE
+admin-c:        TPR3-RIPE
+admin-c:        JFR82-RIPE
+admin-c:        JDP86-RIPE
+mnt-by:         LYNTIA-MNT
+created:        2020-04-12T22:37:27Z
+last-modified:  2024-10-14T19:12:47Z
+source:         RIPE # Filtered
+
+role:           TECH ADM for AS8903 AS12541 AS8239
+address:        Isabel Colbrand 6-8 28050 Madrid
+tech-c:         TPR3-RIPE
+tech-c:         RM13024-RIPE
+tech-c:         JDP86-RIPE
+tech-c:         JFR82-RIPE
+tech-c:         JCPE2-RIPE
+nic-hdl:        TECH8903-RIPE
+mnt-by:         EVOLUTIO-MNT
+created:        2020-04-12T22:41:21Z
+last-modified:  2021-02-17T19:47:15Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          45.83.50.0/23
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-31T08:51:34Z
+last-modified:  2024-07-31T08:51:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.83.50.0/24
+origin:         AS8903
+created:        2024-07-26T13:23:23Z
+last-modified:  2024-07-26T13:23:23Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.83.51.0/24
+origin:         AS8903
+created:        2024-07-26T13:22:44Z
+last-modified:  2024-07-26T13:22:44Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.112.0/23
+origin:         AS8903
+created:        2024-07-26T12:47:05Z
+last-modified:  2024-07-26T12:47:05Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.114.0/24
+origin:         AS8903
+created:        2024-07-26T13:16:51Z
+last-modified:  2024-07-26T13:16:51Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.115.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:02:35Z
+last-modified:  2024-07-26T13:02:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.117.0/24
+origin:         AS8903
+created:        2024-07-26T13:17:49Z
+last-modified:  2024-07-26T13:17:49Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.118.0/24
+origin:         AS8903
+created:        2024-07-26T13:19:12Z
+last-modified:  2024-07-26T13:19:12Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.119.0/24
+origin:         AS8903
+created:        2024-07-26T13:19:41Z
+last-modified:  2024-07-26T13:19:41Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.120.0/23
+origin:         AS8903
+created:        2024-07-26T12:48:01Z
+last-modified:  2024-07-26T12:48:01Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.120.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-31T09:01:45Z
+last-modified:  2024-07-31T09:01:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.121.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-31T09:02:16Z
+last-modified:  2024-07-31T09:02:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.122.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:25:31Z
+last-modified:  2024-07-26T13:25:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.123.0/24
+origin:         AS8903
+created:        2024-07-26T13:18:16Z
+last-modified:  2024-07-26T13:18:16Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.124.0/24
+origin:         AS8903
+created:        2024-07-26T13:18:44Z
+last-modified:  2024-07-26T13:18:44Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.126.0/24
+origin:         AS8903
+created:        2024-07-26T13:21:30Z
+last-modified:  2024-07-26T13:21:30Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.66.127.0/24
+origin:         AS8903
+created:        2024-07-26T13:22:05Z
+last-modified:  2024-07-26T13:22:05Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.18.0.0/19
+descr:          Multihomed ISP
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2019-05-30T14:37:52Z
+last-modified:  2020-11-18T00:30:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.18.0.0/24
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2023-05-05T09:42:34Z
+last-modified:  2023-05-05T09:42:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.18.1.0/24
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2023-05-05T09:43:51Z
+last-modified:  2023-05-05T09:43:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.209.72.0/22
+origin:         AS8903
+created:        2024-07-26T12:46:27Z
+last-modified:  2024-07-26T12:46:27Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.42.70.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:06:59Z
+last-modified:  2024-07-26T13:06:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.44.150.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:06:27Z
+last-modified:  2024-07-26T13:06:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.44.151.0/24
+origin:         AS8903
+created:        2024-07-26T13:20:59Z
+last-modified:  2024-07-26T13:20:59Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.45.208.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:08:10Z
+last-modified:  2024-07-26T13:08:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.132.28.0/23
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2025-06-05T08:14:20Z
+last-modified:  2025-06-05T08:14:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.132.31.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:04:23Z
+last-modified:  2024-07-26T13:04:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.60.160.0/20
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2021-06-28T10:48:27Z
+last-modified:  2025-07-09T13:08:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.60.171.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-07-09T13:05:21Z
+last-modified:  2025-07-09T13:05:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.60.173.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2021-06-28T11:04:11Z
+last-modified:  2025-07-09T13:11:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.60.174.0/24
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2021-06-28T11:05:23Z
+last-modified:  2021-06-28T11:05:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.198.47.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:05:55Z
+last-modified:  2024-07-26T13:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          136.238.21.0/24
+origin:         AS8903
+descr:          Schindler, S.A.
+admin-c:        SIANS-ARIN
+tech-c:         SIANS-ARIN
+mnt-by:         MNT-SIA-6
+created:        2022-07-25T08:26:37Z
+last-modified:  2022-07-25T09:23:05Z
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          136.238.211.0/24
+origin:         AS8903
+descr:          Schindler, S.A.
+admin-c:        SIANS-ARIN
+tech-c:         SIANS-ARIN
+mnt-by:         MNT-SIA-6
+created:        2022-07-25T08:28:11Z
+last-modified:  2022-07-25T09:23:24Z
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.172.140.0/23
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T12:48:49Z
+last-modified:  2024-07-26T12:48:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.172.142.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:03:32Z
+last-modified:  2024-07-26T13:03:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.98.220.0/22
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-04-01T18:39:41Z
+last-modified:  2025-04-01T18:39:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.98.220.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T10:38:35Z
+last-modified:  2024-07-29T10:38:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          176.98.223.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-04-01T18:53:15Z
+last-modified:  2025-04-01T18:53:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.19.34.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:09:55Z
+last-modified:  2024-07-26T13:09:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.19.35.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:10:26Z
+last-modified:  2024-07-26T13:10:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.19.44.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:07:33Z
+last-modified:  2024-07-26T13:07:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.19.45.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T12:50:41Z
+last-modified:  2024-07-26T12:50:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.19.47.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:11:30Z
+last-modified:  2024-07-26T13:11:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.66.60.0/22
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2021-08-16T11:58:43Z
+last-modified:  2025-04-01T19:21:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.71.28.0/24
+origin:         AS8903
+created:        2024-07-26T13:13:13Z
+last-modified:  2024-07-26T13:13:13Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.123.120.0/22
+descr:          Evolutio Cloud Enabler
+origin:         AS8903
+mnt-by:         EVOLUTIOCLOUD-MNT
+created:        2021-08-16T12:01:09Z
+last-modified:  2023-06-05T14:18:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.155.64.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T11:20:32Z
+last-modified:  2024-07-29T11:20:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.155.67.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T11:19:11Z
+last-modified:  2024-07-29T11:19:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.173.44.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T11:22:09Z
+last-modified:  2024-07-29T11:22:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.173.46.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T11:50:35Z
+last-modified:  2024-07-29T11:50:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.187.180.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-04-01T19:07:09Z
+last-modified:  2025-04-01T19:07:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.187.181.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-04-01T19:07:41Z
+last-modified:  2025-04-01T19:07:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.187.182.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-04-01T19:08:20Z
+last-modified:  2025-04-01T19:08:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.203.20.0/22
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2025-03-21T11:24:38Z
+last-modified:  2025-03-21T11:24:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.203.20.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2025-03-21T11:25:21Z
+last-modified:  2025-03-21T11:25:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.203.21.0/24
+origin:         AS8903
+created:        2024-07-26T13:25:05Z
+last-modified:  2024-07-26T13:25:05Z
+source:         RIPE
+mnt-by:         mnt-ipbroker
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.203.22.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:24:31Z
+last-modified:  2024-07-26T13:24:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.203.23.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:23:57Z
+last-modified:  2024-07-26T13:23:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.224.76.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T12:10:01Z
+last-modified:  2024-07-29T12:10:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.224.77.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T12:10:59Z
+last-modified:  2024-07-29T12:10:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.224.78.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T12:11:51Z
+last-modified:  2024-07-29T12:11:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.224.79.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T12:12:45Z
+last-modified:  2024-07-29T12:12:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.229.215.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2025-06-05T08:13:03Z
+last-modified:  2025-06-05T08:13:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.242.175.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:11:01Z
+last-modified:  2024-07-26T13:11:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.34.240.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T12:17:54Z
+last-modified:  2024-07-29T12:17:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.34.241.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T12:18:51Z
+last-modified:  2024-07-29T12:18:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.34.242.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-07-29T12:19:44Z
+last-modified:  2024-07-29T12:19:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.178.212.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-28T20:41:50Z
+last-modified:  2024-07-28T20:41:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.178.218.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-28T20:46:02Z
+last-modified:  2024-07-28T20:46:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.186.1.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-28T20:47:23Z
+last-modified:  2024-07-28T20:47:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.186.11.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-28T20:52:28Z
+last-modified:  2024-07-28T20:52:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.15.140.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T12:59:45Z
+last-modified:  2024-07-26T12:59:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.15.146.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:00:54Z
+last-modified:  2024-07-26T13:00:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.15.182.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:01:32Z
+last-modified:  2024-07-26T13:01:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.15.195.0/24
+origin:         AS8903
+mnt-by:         mnt-ipbroker
+created:        2024-07-26T13:02:04Z
+last-modified:  2024-07-26T13:02:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.64.0/19
+descr:          Multihomed ISP
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2019-05-30T14:40:47Z
+last-modified:  2024-10-13T09:58:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.64.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-02-20T11:59:10Z
+last-modified:  2025-02-20T11:59:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.65.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-02-20T12:00:02Z
+last-modified:  2025-02-20T12:00:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.66.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-02-20T12:01:01Z
+last-modified:  2025-02-20T12:01:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.67.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-02-20T12:03:14Z
+last-modified:  2025-02-20T12:03:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.78.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-02-20T11:55:54Z
+last-modified:  2025-02-20T11:55:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.79.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-02-20T11:54:24Z
+last-modified:  2025-02-20T11:54:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.84.0/22
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-05-12T07:19:00Z
+last-modified:  2025-05-12T07:19:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.84.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-03-07T10:53:39Z
+last-modified:  2025-03-07T10:53:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.85.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-05-12T07:19:00Z
+last-modified:  2025-05-12T07:19:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.86.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-05-12T07:19:00Z
+last-modified:  2025-05-12T07:19:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.5.87.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-05-12T07:19:00Z
+last-modified:  2025-05-12T07:19:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.49.128.0/18
+descr:          Evolutio Cloud Enabler PA Block 0
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+mnt-lower:      LYNTIA-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-11-16T21:47:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.49.128.0/19
+descr:          BT Telecomunicaciones PA Block 1
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+mnt-routes:     LYNTIA-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-11-16T21:43:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.49.128.0/23
+descr:          Evolutio Cloud Enabler
+descr:          NETWORK-INFRA
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2005-03-22T07:46:22Z
+last-modified:  2024-10-12T11:39:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.49.160.0/19
+descr:          Evolutio Business Connectivity PA Block 2
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-06-23T11:54:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.49.189.0/24
+descr:          EVOLUTIO-CORPORATE-ACCESS
+notify:         IT.Comms.L2.Support@evolutio.com
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2014-06-03T06:03:08Z
+last-modified:  2021-01-25T18:25:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.66.160.0/19
+descr:          Evolutio Cloud Enabler
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2021-08-16T11:53:48Z
+last-modified:  2021-08-16T11:53:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.66.160.0/24
+descr:          EVOLUTIO-DNS-NET
+origin:         AS8903
+mnt-by:         EVOLUTIOCLOUD-MNT
+created:        2021-08-17T11:51:40Z
+last-modified:  2023-06-05T13:34:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.66.163.0/24
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2021-08-17T11:58:52Z
+last-modified:  2021-08-17T11:58:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.80.160.0/19
+descr:          Evolutio Cloud Enabler
+descr:          Datacenter Block 1
+origin:         AS8903
+mnt-by:         EVOLUTIOCLOUD-MNT
+created:        2021-08-16T11:51:21Z
+last-modified:  2023-06-05T20:58:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.80.168.0/22
+origin:         AS8903
+mnt-by:         EVOLUTIOCLOUD-MNT
+created:        2021-08-17T12:32:12Z
+last-modified:  2023-06-05T20:58:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.0.0/16
+descr:          Lyntia Networks PA Block 3
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+mnt-lower:      LYNTIA-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-02-18T17:59:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.0.0/17
+descr:          LYNTIA Networks
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+mnt-lower:      LYNTIA-MNT
+created:        2005-09-13T10:54:25Z
+last-modified:  2025-02-18T18:02:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.1.0/24
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-12T14:23:54Z
+last-modified:  2020-11-18T00:28:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.31.0/24
+descr:          ALSA customer specific route
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2012-10-17T10:15:45Z
+last-modified:  2020-11-18T00:29:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.37.0/24
+descr:          MERIDIAN
+origin:         AS8903
+mnt-by:         CIP-MNT
+mnt-by:         EVOLUTIO-MNT
+created:        2002-08-09T11:16:05Z
+last-modified:  2020-11-18T00:29:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.38.0/24
+descr:          Colegio Oficial de Arquitectos de Galicia
+origin:         AS8903
+mnt-by:         CIP-MNT
+mnt-by:         EVOLUTIO-MNT
+created:        2002-08-09T11:16:06Z
+last-modified:  2020-11-18T00:29:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.64.0/18
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2020-02-13T10:43:20Z
+last-modified:  2020-11-18T00:29:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.80.0/20
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-12T14:26:01Z
+last-modified:  2020-11-18T00:29:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.130.0/24
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-12T15:06:59Z
+last-modified:  2020-11-18T00:28:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.227.0/24
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-12T15:07:18Z
+last-modified:  2020-11-18T00:28:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.232.0/21
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-12T15:07:35Z
+last-modified:  2020-11-18T00:28:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.163.240.0/21
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-12T15:07:51Z
+last-modified:  2020-11-18T00:28:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.9.128.0/17
+descr:          Evolutio Cloud Enabler PA Block 5
+origin:         AS8903
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-11-17T11:58:46Z
+source:         RIPE
+mnt-by:         LYNTIA-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.9.217.0/24
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2024-11-17T13:47:42Z
+last-modified:  2024-11-17T13:47:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.9.221.0/24
+descr:          PA Route aggregated BT ES
+origin:         AS8903
+remarks:        Contingency route
+mnt-by:         EVOLUTIO-MNT
+created:        2012-10-17T11:22:20Z
+last-modified:  2020-11-18T00:30:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.9.225.0/24
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-13T10:44:13Z
+last-modified:  2020-11-18T00:30:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.9.233.0/24
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-13T10:44:33Z
+last-modified:  2020-11-18T00:30:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.9.244.0/24
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-13T10:44:56Z
+last-modified:  2020-11-18T00:30:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.9.246.0/24
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-13T10:45:18Z
+last-modified:  2020-11-18T00:30:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.9.247.0/24
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-13T10:45:38Z
+last-modified:  2020-11-18T00:30:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.9.248.0/24
+descr:          BT Telecomunicaciones
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2005-09-19T08:53:32Z
+last-modified:  2020-11-18T00:30:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.170.32.0/19
+descr:          Evolutio Cloud Enabler
+descr:          Datacenter Block 2
+origin:         AS8903
+mnt-by:         EVOLUTIOCLOUD-MNT
+created:        2021-08-16T11:48:10Z
+last-modified:  2023-06-05T22:00:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.192.192.0/18
+descr:          Evolutio Business Connectivity
+descr:          Datacenter block
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2021-08-16T11:41:33Z
+last-modified:  2023-08-30T17:15:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.192.196.0/24
+descr:          TPR-DEMO-NET
+origin:         AS8903
+created:        2022-06-21T11:52:24Z
+last-modified:  2024-10-11T18:13:36Z
+source:         RIPE
+mnt-by:         LYNTIA-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.192.252.0/23
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-04-01T21:00:38Z
+last-modified:  2025-04-01T21:00:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:ac0::/29
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2022-08-03T06:56:13Z
+last-modified:  2022-08-03T06:56:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:ac0::/32
+descr:          AS8903 ipv6 1st assignment
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2016-03-16T11:34:55Z
+last-modified:  2020-11-16T13:00:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:ac0:30fd::/48
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2022-03-15T13:40:59Z
+last-modified:  2022-03-15T13:40:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:ac0:c800::/48
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2022-03-15T13:37:15Z
+last-modified:  2022-03-15T13:37:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:ac0:c880::/48
+origin:         AS8903
+mnt-by:         EVOLUTIO-MNT
+created:        2022-03-15T13:31:37Z
+last-modified:  2022-03-15T13:31:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0d:59c0::/29
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-06-04T11:19:43Z
+last-modified:  2025-06-04T11:19:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0d:59c1::/32
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-06-04T11:17:14Z
+last-modified:  2025-06-04T11:17:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0d:59c7::/32
+origin:         AS8903
+mnt-by:         LYNTIA-MNT
+created:        2025-06-04T11:17:52Z
+last-modified:  2025-06-04T11:17:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

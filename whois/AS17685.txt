@@ -1,0 +1,85 @@
+[ JPNIC database provides information regarding IP address and ASN. Its use   ]
+[ is restricted to network administration purposes. For further information,  ]
+[ use 'whois -h whois.nic.ad.jp help'. To only display English output,        ]
+[ add '/e' at the end of command, e.g. 'whois -h whois.nic.ad.jp xxx/e'.      ]
+
+Autonomous System Information:
+a. [AS Number]                  17685
+b. [AS Name]                    PLAYONLINE
+g. [Organization]               SQUARE ENIX CO., LTD.
+m. [Administrative Contact]     MT10731JP
+n. [Technical Contact]          TM16287JP
+n. [Technical Contact]          JP00011953
+q. [Abuse]                      
+o. [IMPORT]                     from AS7680 100 accept ANY
+o. [IMPORT]                     from AS9612 100 accept ANY
+o. [IMPORT]                     from AS7682 100 accept ANY
+p. [EXPORT]                     to AS7680 announce AS17685
+p. [EXPORT]                     to AS9612 announce AS17685
+p. [EXPORT]                     to AS7682 announce AS17685
+[Assigned Date]                 2001/06/18
+[Last Update]                   2020/10/29 22:20:03(JST)
+
+route:          61.195.48.0/20
+descr:          PACNET (proxy-registered route object)
+origin:         AS17685
+remarks:        This route object is for a PACNET customer route which is
+                being exported under this origin AS.
+	               +
+	               This route object was created because no existing route
+                object with the same origin was found, and since some
+                PACNET peers filter based on these objects this route
+                may be rejected if this object is not created.
+                +
+                Please contact abuse@pacnet.net if you have any
+                Concerns regarding Spam/Abuses related to this object
+	               +
+                Please contact ip-noc@pacnet.net if you have any other
+                Questions regarding this object.
+notify:         ip-noc@pacnet.net
+mnt-by:         MAINT-AS4637
+changed:        ip-noc@pacnet.net 20100201
+source:         RADB
+last-modified:  2023-11-13T15:58:52Z
+rpki-ov-state:  valid
+
+route:          61.195.48.0/20
+descr:          REACH (Customer Route)
+tech-c:         RRNOC1-REACH
+origin:         AS17685
+notify:         irr@team.telstra.com
+mnt-by:         MAINT-REACH-NOC
+remarks:        This auto-generated route object was created
+remarks:        for a REACH customer route
+remarks:
+remarks:        This route object was created because
+remarks:        some REACH peers filter based on these objects
+remarks:        and this route may be rejected
+remarks:        if this object is not created.
+remarks:
+remarks:        Please contact irr@team.telstra.com if you have any
+remarks:        questions regarding this object.
+source:         REACH
+changed:        irr@team.telstra.com 20170207
+rpki-ov-state:  valid
+
+route:          61.195.48.0/20
+descr:          SQUARE-POL
+origin:         AS17685
+notify:         peering@square-enix.com
+mnt-by:         MAINT-AS17685
+changed:        tateoka@square-enix.com 20080508
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          61.195.48.0/20
+descr:          SQUARE-POL
+                X-Keiro:    peering@square-enix.com
+origin:         AS17685
+notify:         peering@square-enix.com
+mnt-by:         MAINT-AS17685
+changed:        tanryo@square-enix.com 20250806
+source:         JPIRR
+rpki-ov-state:  valid
+
+

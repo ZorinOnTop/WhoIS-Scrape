@@ -1,0 +1,143 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6867'
+
+% Abuse contact for 'AS6867' is 'abuse@uoc.gr'
+
+aut-num:        AS6867
+as-name:        UCnet
+org:            ORG-UoC8-RIPE
+import:         from AS5408
+                action pref=100;
+                accept AS5408 AS2546 AS3323 AS5470 AS6744
+import:         from AS1241
+                action pref=100;
+                accept AS1241 AS5470
+export:         to AS5408
+                announce AS6867
+export:         to AS1241
+                announce AS6867
+default:        to AS5408
+                action pref=100;
+                networks ANY
+default:        to AS5408
+                action pref=200;
+                networks ANY
+admin-c:        GF262-RIPE
+tech-c:         MK16248-RIPE
+status:         ASSIGNED
+mnt-by:         AS6867-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:12:47Z
+source:         RIPE
+sponsoring-org: ORG-GRaT1-RIPE
+
+organisation:   ORG-UoC8-RIPE
+org-name:       University of Crete
+country:        GR
+org-type:       OTHER
+address:        Crete, Greece
+abuse-c:        AR22632-RIPE
+mnt-ref:        GRNET-NOC
+mnt-by:         GRNET-NOC
+mnt-by:         AS6867-MNT
+created:        2010-05-04T15:01:28Z
+last-modified:  2024-06-20T11:06:48Z
+source:         RIPE # Filtered
+
+person:         Giannis Fragiadakis
+address:        University of Crete
+address:        Knossou Str,Ampelokhpoi,Heraclion
+address:        PO BOX 71409
+phone:          +30 81 393307
+phone:          +30 81 393312
+fax-no:         +30 81 393318
+nic-hdl:        GF262-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-04-05T19:10:10Z
+mnt-by:         RIPE-NCC-LOCKED-MNT
+source:         RIPE # Filtered
+
+person:         Michalis Kalogirou
+address:        N203, UCnet, University of Crete
+address:        Knossos Ave
+address:        71409 - Heraclion, Crete, Greece
+phone:          +302810393316
+fax-no:         +302810393318
+nic-hdl:        MK16248-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-04-05T19:10:32Z
+mnt-by:         RIPE-NCC-LOCKED-MNT
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          147.52.0.0/16
+descr:          University of Crete
+origin:         AS6867
+mnt-by:         AS6867-MNT
+created:        2002-02-04T16:16:50Z
+last-modified:  2024-06-18T15:11:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.103.20.0/24
+descr:          UOFCRETE1
+origin:         AS6867
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:648:2c00::/48
+descr:          University of Crete
+origin:         AS6867
+mnt-by:         AS6867-MNT
+created:        2010-05-19T07:10:11Z
+last-modified:  2010-05-19T07:10:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,129 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20742'
+
+% Abuse contact for 'AS20742' is 'abuse@ahol.com'
+
+aut-num:        AS20742
+as-name:        AHOL
+remarks:        Budapest
+import:         from AS50261 action pref=99; accept ANY;
+import:         from AS41075 action pref=90; accept ANY;
+import:         from AS5507 action pref=500; accept ANY AND not { 0.0.0.0/0^0};
+import:         from AS6939 action pref=550; accept ANY AND not { 0.0.0.0/0^0};
+import:         from AS16509 action pref=550; accept ANY AND not { 0.0.0.0/0^0};
+import:         from AS32787 action pref=550; accept ANY AND not { 0.0.0.0/0^0};
+export:         to AS50261 announce AS-AHOL
+export:         to  AS41075 announce AS-AHOL
+export:         to AS5507 announce AS-AHOL
+export:         to AS6939 announce AS-AHOL
+export:         to AS16509 announce AS-AHOL
+export:         to AS32787 announce AS-AHOL
+mp-import:      afi ipv6.unicast from AS32787 action pref=550; accept ANY AND not { ::/0^0};
+mp-import:      afi ipv6.unicast from AS5507 action pref=500; accept ANY AND not { ::/0^0};
+mp-import:      afi ipv6.unicast from AS6939 action pref=550; accept ANY AND not { ::/0^0};
+mp-import:      afi ipv6.unicast from AS50261 action pref=99; accept ANY;
+mp-import:      afi ipv6.unicast from AS41075 action pref=90; accept ANY;
+mp-import:      afi ipv6.unicast from AS16509 action pref=550; accept ANY AND not { ::/0^0};
+mp-export:      afi ipv6.unicast to AS32787 announce AS-AHOL
+mp-export:      afi ipv6.unicast to AS5507 announce AS-AHOL
+mp-export:      afi ipv6.unicast to AS6939 announce AS-AHOL
+mp-export:      afi ipv6.unicast to AS50261 action aspath.prepend(AS20742) ;announce AS-AHOL
+mp-export:      afi ipv6.unicast to AS41075 action aspath.prepend(AS20742) ;announce AS-AHOL
+mp-export:      afi ipv6.unicast to AS16509 announce AS-AHOL
+org:            ORG-HHN1-RIPE
+admin-c:        REPA-RIPE
+tech-c:         REPA-RIPE
+status:         ASSIGNED
+mnt-by:         AHOL-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-02-26T16:43:46Z
+source:         RIPE
+
+organisation:   ORG-HHN1-RIPE
+org-name:       Internet4U Kereskedelmi es Szolgaltato Kft.
+country:        HU
+org-type:       LIR
+address:        Victor Hugo u. 18-22.
+address:        1132
+address:        Budapest
+address:        HUNGARY
+phone:          +3619993333
+fax-no:         +3619993339
+admin-c:        REPA-RIPE
+mnt-ref:        AHOL-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AHOL-MNT
+abuse-c:        AHAB-RIPE
+created:        2004-04-17T11:25:42Z
+last-modified:  2023-06-30T07:38:52Z
+source:         RIPE # Filtered
+
+person:         Sandor R Repas
+address:        Internet4U LTD
+address:        Victor Hugo 18-22.
+address:        H-1132 Budapest, Hungary
+phone:          +36 1 999 3333
+fax-no:         +36 1 999 3339
+nic-hdl:        REPA-RIPE
+mnt-by:         AHOL-MNT
+created:        2006-01-04T15:14:22Z
+last-modified:  2017-10-30T21:47:17Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          185.143.48.0/23
+origin:         AS20742
+mnt-by:         AHOL-MNT
+created:        2017-01-03T13:08:55Z
+last-modified:  2017-01-03T13:08:55Z
+source:         RIPE
+notify:         repa@ahol.com
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:a50::/32
+descr:          Internet4U LTD
+origin:         AS20742
+mnt-by:         AHOL-MNT
+created:        2010-02-18T10:45:51Z
+last-modified:  2011-02-19T13:57:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

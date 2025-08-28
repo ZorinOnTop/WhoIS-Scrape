@@ -1,0 +1,2522 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5537 - AS5631'
+
+as-block:       AS5537 - AS5631
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5577'
+
+% Abuse contact for 'AS5577' is 'abuse@as5577.net'
+
+aut-num:        AS5577
+as-name:        ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | UPSTREAM |
+remarks:        +------------------------------------+
+import:         from AS1299 accept ANY
+import:         from AS3549 accept ANY
+export:         to AS1299 announce AS-ROOT
+export:         to AS3549 announce AS-ROOT
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-import:      afi ipv6.unicast from AS3549 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3549 announce AS-ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | DOWNSTREAM |
+remarks:        +------------------------------------+
+import:         from AS2602 accept AS-RESTENA
+import:         from AS6647 accept AS-BITNAMES
+import:         from AS8632 accept AS-LOL
+import:         from AS16309 accept AS16309
+import:         from AS20144 accept AS20144
+import:         from AS24611 accept AS-DCLUX
+import:         from AS34769 accept AS34769
+import:         from AS43134 accept AS-COMPLIFE
+import:         from AS44042 accept AS44042
+import:         from AS47936 accept AS-STRONG
+import:         from AS49624 accept AS-LUCIX
+import:         from AS50763 accept AS-MCKAY
+import:         from AS51405 accept AS-VOIPGATE
+import:         from AS51430 accept AS51430
+import:         from AS56421 accept AS56421
+import:         from AS197219 accept AS197219
+import:         from AS2917 accept AS2917
+import:         from AS53667 accept AS53667
+import:         from AS200840 accept AS200840
+import:         from AS49121 accept AS49121
+import:         from AS11325 accept AS11325
+export:         to AS2602 announce ANY
+export:         to AS6647 announce ANY
+export:         to AS8632 announce ANY
+export:         to AS16309 announce ANY
+export:         to AS20144 announce ANY
+export:         to AS24611 announce ANY
+export:         to AS34769 announce ANY
+export:         to AS43134 announce ANY
+export:         to AS44042 announce ANY
+export:         to AS47936 announce ANY
+export:         to AS49624 announce ANY
+export:         to AS50763 announce ANY
+export:         to AS51405 announce ANY
+export:         to AS51430 announce ANY
+export:         to AS56421 announce ANY
+export:         to AS197219 announce ANY
+export:         to AS2917 announce ANY
+export:         to AS53667 announce ANY
+export:         to AS200840 announce ANY
+export:         to AS49121 announce ANY
+export:         to AS11325 announce ANY
+mp-import:      afi ipv6.unicast from AS2602 accept AS-RESTENA
+mp-import:      afi ipv6.unicast from AS6647 accept AS-BITNAMES
+mp-import:      afi ipv6.unicast from AS20144 accept AS20144
+mp-import:      afi ipv6.unicast from AS24611 accept AS-DCLUX
+mp-import:      afi ipv6.unicast from AS47936 accept AS-STRONG
+mp-import:      afi ipv6.unicast from AS49624 accept AS-LUCIX
+mp-import:      afi ipv6.unicast from AS51405 accept AS-VOIPGATE
+mp-import:      afi ipv6.unicast from AS51430 accept AS51430
+mp-import:      afi ipv6.unicast from AS197219 accept AS197219
+mp-import:      afi ipv6.unicast from AS53667 accept AS53667
+mp-import:      afi ipv6.unicast from AS200840 accept AS200840
+mp-export:      afi ipv6.unicast to AS2602 announce ANY
+mp-export:      afi ipv6.unicast to AS6647 announce ANY
+mp-export:      afi ipv6.unicast to AS20144 announce ANY
+mp-export:      afi ipv6.unicast to AS24611 announce ANY
+mp-export:      afi ipv6.unicast to AS47936 announce ANY
+mp-export:      afi ipv6.unicast to AS49624 announce ANY
+mp-export:      afi ipv6.unicast to AS51405 announce ANY
+mp-export:      afi ipv6.unicast to AS51430 announce ANY
+mp-export:      afi ipv6.unicast to AS197219 announce ANY
+mp-export:      afi ipv6.unicast to AS53667 announce ANY
+mp-export:      afi ipv6.unicast to AS200840 announce ANY
+remarks:
+remarks:        +------------------------------------+
+remarks:        | PRIVATE PEERING |
+remarks:        +------------------------------------+
+import:         from AS6661 accept AS-PTLU
+export:         to AS6661 announce AS-ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | PUBLIC PEERING - LU-CIX |
+remarks:        | @ Luxembourg Windhof / eBRC |
+remarks:        | IPv4: 188.93.170.1 |
+remarks:        | IPv6: 2001:7F8:4C::AC0A:1 |
+remarks:        +------------------------------------+
+import:         from AS2602 accept AS-RESTENA
+import:         from AS3347 accept AS3347
+import:         from AS6661 accept AS-PTLU
+import:         from AS8632 accept AS-LOL
+import:         from AS8648 accept AS-KAMP
+import:         from AS9008 accept AS-VO
+import:         from AS12312 accept AS-NACAMAR
+import:         from AS12431 accept AS12431
+import:         from AS12684 accept AS-ASTRA-NET
+import:         from AS13226 accept AS-CYBERNET
+import:         from AS15965 accept AS-CEGECOM
+import:         from AS16265 accept AS-LEASEWEB
+import:         from AS20501 accept AS20501
+import:         from AS24611 accept AS-DCLUX
+import:         from AS25273 accept AS-BCELU
+import:         from AS34683 accept AS-NETLUX
+import:         from AS34769 accept AS34769
+import:         from AS42652 accept AS-DELUNET
+import:         from AS44295 accept AS44295
+import:         from AS49624 accept AS-LUCIX
+import:         from AS56665 accept AS56665
+import:         from AS196763 accept AS-KEY-SYSTEMS
+import:         from AS197264 accept AS197264
+export:         to AS2602 announce AS-ROOT
+export:         to AS3347 announce AS-ROOT
+export:         to AS6661 announce AS-ROOT
+export:         to AS8632 announce AS-ROOT
+export:         to AS8648 announce AS-ROOT
+export:         to AS9008 announce AS-ROOT
+export:         to AS12312 announce AS-ROOT
+export:         to AS12431 announce AS-ROOT
+export:         to AS12684 announce AS-ROOT
+export:         to AS13226 announce AS-ROOT
+export:         to AS15965 announce AS-ROOT
+export:         to AS16265 announce AS-ROOT
+export:         to AS20501 announce AS-ROOT
+export:         to AS24611 announce AS-ROOT
+export:         to AS25273 announce AS-ROOT
+export:         to AS34683 announce AS-ROOT
+export:         to AS34769 announce AS-ROOT
+export:         to AS42652 announce AS-ROOT
+export:         to AS44295 announce AS-ROOT
+export:         to AS49624 announce AS-ROOT
+export:         to AS56665 announce AS-ROOT
+export:         to AS196763 announce AS-ROOT
+export:         to AS197264 announce AS-ROOT
+mp-import:      afi ipv6.unicast from AS2602 accept AS-RESTENA
+mp-import:      afi ipv6.unicast from AS3347 accept AS3347
+mp-import:      afi ipv6.unicast from AS6661 accept AS-PTLU
+mp-import:      afi ipv6.unicast from AS8648 accept AS-KAMP
+mp-import:      afi ipv6.unicast from AS9008 accept AS-VO
+mp-import:      afi ipv6.unicast from AS12312 accept AS-NACAMAR
+mp-import:      afi ipv6.unicast from AS12684 accept AS-ASTRA-NET
+mp-import:      afi ipv6.unicast from AS16265 accept AS-LEASEWEB
+mp-import:      afi ipv6.unicast from AS34683 accept AS-NETLUX
+mp-import:      afi ipv6.unicast from AS42652 accept AS-DELUNET
+mp-import:      afi ipv6.unicast from AS196763 accept AS-KEY-SYSTEMS
+mp-export:      afi ipv6.unicast to AS2602 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3347 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6661 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8648 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9008 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12312 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12684 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS16265 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34683 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS42652 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS196763 announce AS-ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | PUBLIC PEERING - LIX |
+remarks:        | @ Luxembourg Kirchberg / BCE |
+remarks:        | IPv4: 193.168.127.19 |
+remarks:        | IPv6: 2001:7F8:11::19 |
+remarks:        +------------------------------------+
+import:         from AS2602 accept AS-RESTENA
+import:         from AS3347 accept AS3347
+import:         from AS5463 accept AS-PERCEVAL
+import:         from AS8632 accept AS-LOL
+import:         from AS9008 accept AS-VO
+import:         from AS12008 accept AS12008
+import:         from AS15965 accept AS-CEGECOM
+import:         from AS25273 accept AS-BCELU
+import:         from AS26415 accept AS-GTLD
+import:         from AS34683 accept AS-NETLUX
+export:         to AS2602 announce AS-ROOT
+export:         to AS3347 announce AS-ROOT
+export:         to AS5463 announce AS-ROOT
+export:         to AS8632 announce AS-ROOT
+export:         to AS9008 announce AS-ROOT
+export:         to AS12008 announce AS-ROOT
+export:         to AS15965 announce AS-ROOT
+export:         to AS25273 announce AS-ROOT
+export:         to AS26415 announce AS-ROOT
+export:         to AS34683 announce AS-ROOT
+mp-import:      afi ipv6.unicast from AS2602 accept AS-RESTENA
+mp-import:      afi ipv6.unicast from AS9008 accept AS-VO
+mp-import:      afi ipv6.unicast from AS34683 accept AS-NETLUX
+mp-export:      afi ipv6.unicast to AS2602 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9008 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34683 announce AS-ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | PUBLIC PEERING - AMS-IX |
+remarks:        | @ Amsterdam / SARA |
+remarks:        | IPv4: 195.69.145.240 |
+remarks:        | IPv6: 2001:7F8:1::A504:4042:1 |
+remarks:        +------------------------------------+
+import:         from AS42 accept AS-PCH
+import:         from AS1103 accept AS-SURFNET
+import:         from AS1200 accept AS1200
+import:         from AS1836 accept AS-GREEN
+import:         from AS2119 accept AS-TELENOR
+import:         from AS2603 accept AS-NORDUNET
+import:         from AS2611 accept AS-BELNET
+import:         from AS2686 accept AS-IGNEMEA
+import:         from AS3216 accept AS-SOVAM
+import:         from AS3249 accept AS-ESTPAK
+import:         from AS3255 accept AS-UARNET
+import:         from AS3265 accept AS-ACCESSFORALL
+import:         from AS3267 accept AS-RUNNET
+import:         from AS3303 accept AS-SWCMGLOBAL
+import:         from AS3304 accept AS-UBNBE
+import:         from AS3856 accept AS-PCH
+import:         from AS4589 accept AS-EASYNET
+import:         from AS4739 accept AS4739
+import:         from AS4788 accept AS-4788
+import:         from AS5390 accept AS-EURONETNL
+import:         from AS5410 accept AS-BOUYGTEL-ISP
+import:         from AS5430 accept AS-FREENETDE
+import:         from AS5524 accept AS-BREEDBANDARNHEM
+import:         from AS5552 accept AS-REDSTONE-CUSTOMERS
+import:         from AS5580 accept AS-ATRATO
+import:         from AS5615 accept AS-TELFORT
+import:         from AS6327 accept AS-BIGPIPE
+import:         from AS6661 accept AS-PTLU
+import:         from AS6663 accept AS-STARNETSRO
+import:         from AS6667 accept AS-EUNETIP
+import:         from AS6730 accept AS-GLOBAL
+import:         from AS6760 accept AS-ITELSI
+import:         from AS6777 accept AS6777
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS8068 accept AS-MICROSOFT
+import:         from AS8190 accept AS-VIATEL
+import:         from AS8218 accept AS-NEOT
+import:         from AS8359 accept AS-MTU
+import:         from AS8365 accept AS-MANDA
+import:         from AS8368 accept AS-BENESOL
+import:         from AS8422 accept AS-NETCOLOGNE
+import:         from AS8426 accept AS-CLARANET
+import:         from AS8473 accept AS-BAHNHOF
+import:         from AS8492 accept AS-ORBIT
+import:         from AS8560 accept AS-1AND1
+import:         from AS8586 accept AS-OBSL
+import:         from AS8587 accept AS-INFRACOMNL
+import:         from AS8608 accept AS-QINIP
+import:         from AS8657 accept AS-CPRM
+import:         from AS8708 accept AS-RDSNET
+import:         from AS8732 accept AS-COMCOR
+import:         from AS8781 accept AS-QTEL-SET
+import:         from AS8881 accept AS-VT-TRANSIT
+import:         from AS8897 accept AS-MISTRAL
+import:         from AS8966 accept AS-EMIX
+import:         from AS9002 accept AS-RETN
+import:         from AS9009 accept AS-GBXS
+import:         from AS9031 accept AS-EDPNET
+import:         from AS9121 accept AS-TTNET
+import:         from AS9143 accept AS-BENELUX
+import:         from AS9150 accept AS-INTERCONNECT
+import:         from AS9505 accept AS-TWIG
+import:         from AS12322 accept AS-PROXAD
+import:         from AS12329 accept AS-TMR
+import:         from AS12350 accept AS-VTX
+import:         from AS12389 accept AS-ROSTELECOM
+import:         from AS12414 accept AS-SOLCON
+import:         from AS12573 accept AS-WIDEXS
+import:         from AS12634 accept AS-SCARLET
+import:         from AS12695 accept AS-DINET
+import:         from AS12759 accept AS-SOCO
+import:         from AS12859 accept AS-BIT
+import:         from AS12989 accept AS-HIGHWINDS
+import:         from AS13030 accept AS-INIT7
+import:         from AS13127 accept AS-VERSATEL
+import:         from AS13193 accept AS-NERIM
+import:         from AS13237 accept AS-LAMBDANET
+import:         from AS13285 accept AS-OPAL
+import:         from AS13680 accept AS-HGTN
+import:         from AS13768 accept AS13768:AS-CUSTOMERS
+import:         from AS15133 accept AS-EDGECAST
+import:         from AS15169 accept AS-GOOGLE
+import:         from AS15542 accept AS-ZEELANDNET
+import:         from AS15557 accept AS-LDCOMNET
+import:         from AS15600 accept AS-LAN
+import:         from AS15670 accept AS15670
+import:         from AS15879 accept AS-IS-NL
+import:         from AS16131 accept AS16131:AS-AMS-IX-PEERS
+import:         from AS16150 accept AS16150:AS-CUSTOMERS
+import:         from AS16265 accept AS-LEASEWEB
+import:         from AS16276 accept AS-OVH
+import:         from AS16298 accept AS-INTERBOX
+import:         from AS16509 accept AS-AMAZON
+import:         from AS19151 accept AS-WVFIBER
+import:         from AS20495 accept AS-WEDARE
+import:         from AS20500 accept AS-GRIFFIN
+import:         from AS20504 accept AS-RTL
+import:         from AS20562 accept AS-OPENPEERINGPEERS
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS21011 accept AS21011:AS-EXT
+import:         from AS21263 accept AS-TELEDATA
+import:         from AS21345 accept AS-MESSAGELABSEUROPE
+import:         from AS21478 accept AS-PLEX
+import:         from AS22212 accept AS-INTERNAP
+import:         from AS22822 accept AS-LLNW
+import:         from AS23148 accept AS-TWW
+import:         from AS24642 accept AS-CAVEO
+import:         from AS24724 accept AS24724:AS-FOREIGN
+import:         from AS24875 accept AS-ISPSERVICES
+import:         from AS24963 accept AS-YACAST
+import:         from AS25137 accept AS-NFSI
+import:         from AS25148 accept AS-BASEFARM
+import:         from AS25151 accept AS-CYSO
+import:         from AS25286 accept AS-IPERCAST
+import:         from AS25466 accept AS-LIDERONET
+import:         from AS26496 accept AS26496
+import:         from AS28685 accept AS-ROUTIT
+import:         from AS28717 accept AS-ZENSYSTEMS
+import:         from AS28788 accept AS-UNILOGICNET
+import:         from AS28878 accept AS-SIGNET
+import:         from AS29073 accept AS-ECATEL
+import:         from AS29076 accept AS-CITYTELECOM
+import:         from AS29791 accept AS29791
+import:         from AS30094 accept AS-GIGANEWS-ALL
+import:         from AS30781 accept AS-JAGUAR
+import:         from AS30890 accept AS-EVOLVA
+import:         from AS30925 accept AS-SPEEDXS
+import:         from AS31027 accept AS-NIANET
+import:         from AS31252 accept AS-STARNET
+import:         from AS31500 accept AS-GLOBAL-NET
+import:         from AS31529 accept AS31529
+import:         from AS31661 accept AS-COMX
+import:         from AS32748 accept AS-STEADFAST
+import:         from AS33891 accept AS-CORE-BACKBONE
+import:         from AS33915 accept AS-TNF
+import:         from AS34309 accept AS-LINK11
+import:         from AS34695 accept AS34695:AS-TRANSIT
+import:         from AS35260 accept AS-NL-IU-SET
+import:         from AS35366 accept AS-ISPPRO
+import:         from AS36351 accept AS-SOFTLAYER
+import:         from AS39326 accept AS-GOSCOMB
+import:         from AS39591 accept AS-GLOBAL-E
+import:         from AS39637 accept AS-NETLOGICS
+import:         from AS39704 accept AS39704
+import:         from AS41095 accept AS-IPTP
+import:         from AS41445 accept AS-NETGROUND
+import:         from AS41552 accept AS41552
+import:         from AS41692 accept AS-OPENCARRIER
+import:         from AS42708 accept AS-PORTLANE
+import:         from AS43303 accept AS-CDNETWORKS-EU
+import:         from AS43350 accept AS-NFORCE
+import:         from AS44654 accept AS-MNS
+import:         from AS44788 accept AS-CRITEO-EU
+import:         from AS47143 accept AS-TODAYHOST
+import:         from AS47195 accept AS-GAMEFORGE
+import:         from AS47869 accept AS-NETROUTING
+import:         from AS48173 accept AS-UNBELIEVABLE
+import:         from AS49544 accept AS49544
+import:         from AS49562 accept AS49562
+import:         from AS50384 accept AS-W-IX
+export:         to AS42 announce AS-ROOT
+export:         to AS1103 announce AS-ROOT
+export:         to AS1200 announce AS-ROOT
+export:         to AS1836 announce AS-ROOT
+export:         to AS2119 announce AS-ROOT
+export:         to AS2603 announce AS-ROOT
+export:         to AS2611 announce AS-ROOT
+export:         to AS2686 announce AS-ROOT
+export:         to AS3216 announce AS-ROOT
+export:         to AS3249 announce AS-ROOT
+export:         to AS3255 announce AS-ROOT
+export:         to AS3265 announce AS-ROOT
+export:         to AS3267 announce AS-ROOT
+export:         to AS3303 announce AS-ROOT
+export:         to AS3304 announce AS-ROOT
+export:         to AS3856 announce AS-ROOT
+export:         to AS4589 announce AS-ROOT
+export:         to AS4739 announce AS-ROOT
+export:         to AS4788 announce AS-ROOT
+export:         to AS5390 announce AS-ROOT
+export:         to AS5410 announce AS-ROOT
+export:         to AS5430 announce AS-ROOT
+export:         to AS5524 announce AS-ROOT
+export:         to AS5552 announce AS-ROOT
+export:         to AS5580 announce AS-ROOT
+export:         to AS5615 announce AS-ROOT
+export:         to AS6327 announce AS-ROOT
+export:         to AS6661 announce AS-ROOT
+export:         to AS6663 announce AS-ROOT
+export:         to AS6667 announce AS-ROOT
+export:         to AS6730 announce AS-ROOT
+export:         to AS6760 announce AS-ROOT
+export:         to AS6777 announce AS-ROOT
+export:         to AS6939 announce AS-ROOT
+export:         to AS8068 announce AS-ROOT
+export:         to AS8190 announce AS-ROOT
+export:         to AS8218 announce AS-ROOT
+export:         to AS8359 announce AS-ROOT
+export:         to AS8365 announce AS-ROOT
+export:         to AS8368 announce AS-ROOT
+export:         to AS8422 announce AS-ROOT
+export:         to AS8426 announce AS-ROOT
+export:         to AS8473 announce AS-ROOT
+export:         to AS8492 announce AS-ROOT
+export:         to AS8560 announce AS-ROOT
+export:         to AS8586 announce AS-ROOT
+export:         to AS8587 announce AS-ROOT
+export:         to AS8608 announce AS-ROOT
+export:         to AS8657 announce AS-ROOT
+export:         to AS8708 announce AS-ROOT
+export:         to AS8732 announce AS-ROOT
+export:         to AS8781 announce AS-ROOT
+export:         to AS8881 announce AS-ROOT
+export:         to AS8897 announce AS-ROOT
+export:         to AS8966 announce AS-ROOT
+export:         to AS9002 announce AS-ROOT
+export:         to AS9009 announce AS-ROOT
+export:         to AS9031 announce AS-ROOT
+export:         to AS9121 announce AS-ROOT
+export:         to AS9143 announce AS-ROOT
+export:         to AS9150 announce AS-ROOT
+export:         to AS9505 announce AS-ROOT
+export:         to AS12322 announce AS-ROOT
+export:         to AS12329 announce AS-ROOT
+export:         to AS12350 announce AS-ROOT
+export:         to AS12389 announce AS-ROOT
+export:         to AS12414 announce AS-ROOT
+export:         to AS12573 announce AS-ROOT
+export:         to AS12634 announce AS-ROOT
+export:         to AS12695 announce AS-ROOT
+export:         to AS12759 announce AS-ROOT
+export:         to AS12859 announce AS-ROOT
+export:         to AS12989 announce AS-ROOT
+export:         to AS13030 announce AS-ROOT
+export:         to AS13127 announce AS-ROOT
+export:         to AS13193 announce AS-ROOT
+export:         to AS13237 announce AS-ROOT
+export:         to AS13285 announce AS-ROOT
+export:         to AS13680 announce AS-ROOT
+export:         to AS13768 announce AS-ROOT
+export:         to AS15133 announce AS-ROOT
+export:         to AS15169 announce AS-ROOT
+export:         to AS15542 announce AS-ROOT
+export:         to AS15557 announce AS-ROOT
+export:         to AS15600 announce AS-ROOT
+export:         to AS15670 announce AS-ROOT
+export:         to AS15879 announce AS-ROOT
+export:         to AS16131 announce AS-ROOT
+export:         to AS16150 announce AS-ROOT
+export:         to AS16265 announce AS-ROOT
+export:         to AS16276 announce AS-ROOT
+export:         to AS16298 announce AS-ROOT
+export:         to AS16509 announce AS-ROOT
+export:         to AS19151 announce AS-ROOT
+export:         to AS20495 announce AS-ROOT
+export:         to AS20500 announce AS-ROOT
+export:         to AS20504 announce AS-ROOT
+export:         to AS20562 announce AS-ROOT
+export:         to AS20940 announce AS-ROOT
+export:         to AS21011 announce AS-ROOT
+export:         to AS21263 announce AS-ROOT
+export:         to AS21345 announce AS-ROOT
+export:         to AS21478 announce AS-ROOT
+export:         to AS22212 announce AS-ROOT
+export:         to AS22822 announce AS-ROOT
+export:         to AS23148 announce AS-ROOT
+export:         to AS24642 announce AS-ROOT
+export:         to AS24724 announce AS-ROOT
+export:         to AS24875 announce AS-ROOT
+export:         to AS24963 announce AS-ROOT
+export:         to AS25137 announce AS-ROOT
+export:         to AS25148 announce AS-ROOT
+export:         to AS25151 announce AS-ROOT
+export:         to AS25286 announce AS-ROOT
+export:         to AS25466 announce AS-ROOT
+export:         to AS26496 announce AS-ROOT
+export:         to AS28685 announce AS-ROOT
+export:         to AS28717 announce AS-ROOT
+export:         to AS28788 announce AS-ROOT
+export:         to AS28878 announce AS-ROOT
+export:         to AS29073 announce AS-ROOT
+export:         to AS29076 announce AS-ROOT
+export:         to AS29791 announce AS-ROOT
+export:         to AS30094 announce AS-ROOT
+export:         to AS30781 announce AS-ROOT
+export:         to AS30890 announce AS-ROOT
+export:         to AS30925 announce AS-ROOT
+export:         to AS31027 announce AS-ROOT
+export:         to AS31252 announce AS-ROOT
+export:         to AS31500 announce AS-ROOT
+export:         to AS31529 announce AS-ROOT
+export:         to AS31661 announce AS-ROOT
+export:         to AS32748 announce AS-ROOT
+export:         to AS33891 announce AS-ROOT
+export:         to AS33915 announce AS-ROOT
+export:         to AS34309 announce AS-ROOT
+export:         to AS34695 announce AS-ROOT
+export:         to AS35260 announce AS-ROOT
+export:         to AS35366 announce AS-ROOT
+export:         to AS36351 announce AS-ROOT
+export:         to AS39326 announce AS-ROOT
+export:         to AS39591 announce AS-ROOT
+export:         to AS39637 announce AS-ROOT
+export:         to AS39704 announce AS-ROOT
+export:         to AS41095 announce AS-ROOT
+export:         to AS41445 announce AS-ROOT
+export:         to AS41552 announce AS-ROOT
+export:         to AS41692 announce AS-ROOT
+export:         to AS42708 announce AS-ROOT
+export:         to AS43303 announce AS-ROOT
+export:         to AS43350 announce AS-ROOT
+export:         to AS44654 announce AS-ROOT
+export:         to AS44788 announce AS-ROOT
+export:         to AS47143 announce AS-ROOT
+export:         to AS47195 announce AS-ROOT
+export:         to AS47869 announce AS-ROOT
+export:         to AS48173 announce AS-ROOT
+export:         to AS49544 announce AS-ROOT
+export:         to AS49562 announce AS-ROOT
+export:         to AS50384 announce AS-ROOT
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS1103 accept AS-SURFNET
+mp-import:      afi ipv6.unicast from AS1836 accept AS-GREEN
+mp-import:      afi ipv6.unicast from AS2119 accept AS-TELENOR
+mp-import:      afi ipv6.unicast from AS2603 accept AS-NORDUNET
+mp-import:      afi ipv6.unicast from AS2611 accept AS-BELNET
+mp-import:      afi ipv6.unicast from AS2686 accept AS-IGNEMEA
+mp-import:      afi ipv6.unicast from AS3249 accept AS-ESTPAK
+mp-import:      afi ipv6.unicast from AS3265 accept AS-ACCESSFORALL
+mp-import:      afi ipv6.unicast from AS3303 accept AS-SWCMGLOBAL
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS4589 accept AS-EASYNET
+mp-import:      afi ipv6.unicast from AS4739 accept AS4739
+mp-import:      afi ipv6.unicast from AS4788 accept AS-4788
+mp-import:      afi ipv6.unicast from AS5410 accept AS-BOUYGTEL-ISP
+mp-import:      afi ipv6.unicast from AS5430 accept AS-FREENETDE6
+mp-import:      afi ipv6.unicast from AS5580 accept AS-ATRATO6
+mp-import:      afi ipv6.unicast from AS6661 accept AS-PTLU
+mp-import:      afi ipv6.unicast from AS6730 accept AS-GLOBAL
+mp-import:      afi ipv6.unicast from AS6760 accept AS-ITELSI
+mp-import:      afi ipv6.unicast from AS6777 accept AS6777
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-import:      afi ipv6.unicast from AS8218 accept AS-NEOT6
+mp-import:      afi ipv6.unicast from AS8359 accept AS-MTU
+mp-import:      afi ipv6.unicast from AS8365 accept AS-MANDA
+mp-import:      afi ipv6.unicast from AS8368 accept AS-BENESOL
+mp-import:      afi ipv6.unicast from AS8422 accept AS-NETCOLOGNE
+mp-import:      afi ipv6.unicast from AS8426 accept AS-CLARANET
+mp-import:      afi ipv6.unicast from AS8560 accept AS-1AND1
+mp-import:      afi ipv6.unicast from AS8586 accept AS-OBSL
+mp-import:      afi ipv6.unicast from AS8587 accept AS-INFRACOMNL
+mp-import:      afi ipv6.unicast from AS8657 accept AS-CPRM
+mp-import:      afi ipv6.unicast from AS8708 accept AS-RDSNET6
+mp-import:      afi ipv6.unicast from AS8781 accept AS-QTEL-SET
+mp-import:      afi ipv6.unicast from AS8881 accept AS-VERSATEL-V6
+mp-import:      afi ipv6.unicast from AS8897 accept AS-MISTRAL
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-import:      afi ipv6.unicast from AS9009 accept AS-GBXS
+mp-import:      afi ipv6.unicast from AS9031 accept AS-EDPNET-V6
+mp-import:      afi ipv6.unicast from AS9150 accept AS-INTERCONNECT
+mp-import:      afi ipv6.unicast from AS12322 accept AS-PROXAD
+mp-import:      afi ipv6.unicast from AS12329 accept AS-TMR-V6
+mp-import:      afi ipv6.unicast from AS12389 accept AS-ROSTELECOM
+mp-import:      afi ipv6.unicast from AS12414 accept AS-SOLCON6
+mp-import:      afi ipv6.unicast from AS12573 accept AS-WIDEXS
+mp-import:      afi ipv6.unicast from AS12634 accept AS-SCARLET
+mp-import:      afi ipv6.unicast from AS12759 accept AS-SOCO
+mp-import:      afi ipv6.unicast from AS12859 accept AS-BIT
+mp-import:      afi ipv6.unicast from AS12989 accept AS-HIGHWINDS
+mp-import:      afi ipv6.unicast from AS13030 accept AS-INIT7
+mp-import:      afi ipv6.unicast from AS13193 accept AS-NERIM
+mp-import:      afi ipv6.unicast from AS13237 accept AS-LAMBDANET
+mp-import:      afi ipv6.unicast from AS13680 accept AS-HGTN
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-import:      afi ipv6.unicast from AS15879 accept AS-IS-NL
+mp-import:      afi ipv6.unicast from AS16131 accept AS16131:AS-AMS-IX-PEERS
+mp-import:      afi ipv6.unicast from AS16150 accept AS16150:AS-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS16265 accept AS-LEASEWEB
+mp-import:      afi ipv6.unicast from AS16276 accept AS-OVH
+mp-import:      afi ipv6.unicast from AS19151 accept AS-WVFIBER
+mp-import:      afi ipv6.unicast from AS20495 accept AS-WEDARE
+mp-import:      afi ipv6.unicast from AS20562 accept AS-OPENPEERINGPEERS
+mp-import:      afi ipv6.unicast from AS21011 accept AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS21263 accept AS-TELEDATA-IPV6
+mp-import:      afi ipv6.unicast from AS24724 accept AS24724:AS-FOREIGN
+mp-import:      afi ipv6.unicast from AS24875 accept AS-ISPSERVICES
+mp-import:      afi ipv6.unicast from AS24963 accept AS-YACAST
+mp-import:      afi ipv6.unicast from AS25137 accept AS-NFSI
+mp-import:      afi ipv6.unicast from AS25148 accept AS-BASEFARM
+mp-import:      afi ipv6.unicast from AS25286 accept AS-IPERCAST
+mp-import:      afi ipv6.unicast from AS25466 accept AS-LIDERONET
+mp-import:      afi ipv6.unicast from AS26496 accept AS26496
+mp-import:      afi ipv6.unicast from AS28717 accept AS-ZENSYSTEMS6
+mp-import:      afi ipv6.unicast from AS28788 accept AS-UNILOGICNET
+mp-import:      afi ipv6.unicast from AS28878 accept AS-SIGNET
+mp-import:      afi ipv6.unicast from AS29073 accept AS-ECATEL
+mp-import:      afi ipv6.unicast from AS30781 accept AS-JAGUAR-V6
+mp-import:      afi ipv6.unicast from AS30890 accept AS-EVOLVA6
+mp-import:      afi ipv6.unicast from AS30925 accept AS-SPEEDXS
+mp-import:      afi ipv6.unicast from AS31027 accept AS-NIANET
+mp-import:      afi ipv6.unicast from AS31252 accept AS-STARNETV6
+mp-import:      afi ipv6.unicast from AS31529 accept AS31529
+mp-import:      afi ipv6.unicast from AS31661 accept AS-COMX
+mp-import:      afi ipv6.unicast from AS32748 accept AS-STEADFAST
+mp-import:      afi ipv6.unicast from AS33891 accept AS-CORE-BACKBONE
+mp-import:      afi ipv6.unicast from AS34309 accept AS-LINK11-V6
+mp-import:      afi ipv6.unicast from AS34695 accept AS34695:AS-TRANSIT
+mp-import:      afi ipv6.unicast from AS35260 accept AS-NL-IU-SET
+mp-import:      afi ipv6.unicast from AS36351 accept AS-SOFTLAYER
+mp-import:      afi ipv6.unicast from AS39326 accept AS-GOSCOMB-V6
+mp-import:      afi ipv6.unicast from AS39637 accept AS-NETLOGICS
+mp-import:      afi ipv6.unicast from AS39704 accept AS39704
+mp-import:      afi ipv6.unicast from AS41692 accept AS-OPENCARRIER
+mp-import:      afi ipv6.unicast from AS42708 accept AS-PORTLANE
+mp-import:      afi ipv6.unicast from AS44654 accept AS-MNS
+mp-import:      afi ipv6.unicast from AS44788 accept AS-CRITEO-EU
+mp-import:      afi ipv6.unicast from AS48173 accept AS-UNBELIEVABLE
+mp-import:      afi ipv6.unicast from AS50384 accept AS-W-IX-IPVSIX
+mp-export:      afi ipv6.unicast to AS42 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS1103 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS1836 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2119 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2603 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2611 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2686 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3249 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3265 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3303 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3856 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS4589 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS4739 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS4788 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5410 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5430 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5580 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6661 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6730 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6760 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6777 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8218 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8359 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8365 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8368 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8422 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8426 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8560 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8586 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8587 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8657 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8708 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8781 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8881 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8897 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9002 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9009 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9031 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9150 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12322 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12329 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12389 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12414 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12573 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12634 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12759 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12859 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12989 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13030 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13193 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13237 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13680 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS15169 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS15879 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS16131 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS16150 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS16265 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS16276 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS19151 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS20495 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS20562 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS21011 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS21263 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS24724 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS24875 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS24963 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25137 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25148 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25286 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25466 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS26496 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS28717 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS28788 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS28878 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29073 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS30781 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS30890 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS30925 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31027 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31252 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31529 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31661 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS32748 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS33891 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34309 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34695 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS35260 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS36351 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS39326 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS39637 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS39704 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS41692 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS42708 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS44654 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS44788 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS48173 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS50384 announce AS-ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | PUBLIC PEERING - DE-CIX |
+remarks:        | @ Frankfurt am Main / InterXion |
+remarks:        | IPv4: 80.81.194.12 |
+remarks:        | IPv6: 2001:7F8::AC0A:0:1 |
+remarks:        +------------------------------------+
+import:         from AS42 accept AS-PCH
+import:         from AS553 accept AS-BELWUE
+import:         from AS680 accept AS-DFNTOWINISP
+import:         from AS1267 accept AS-INFOSTRADA
+import:         from AS1764 accept AS-NEXTLAYER
+import:         from AS2119 accept AS-TELENOR
+import:         from AS2686 accept AS-IGNEMEA
+import:         from AS2818 accept AS-BBC
+import:         from AS2857 accept AS-RLP-NET
+import:         from AS3216 accept AS-SOVAM
+import:         from AS3249 accept AS-ESTPAK
+import:         from AS3255 accept AS-UARNET
+import:         from AS3303 accept AS-SWCMGLOBAL
+import:         from AS3856 accept AS-PCH
+import:         from AS4589 accept AS-EASYNET
+import:         from AS4788 accept AS-4788
+import:         from AS5089 accept AS-NTLI
+import:         from AS5410 accept AS-BOUYGTEL-ISP
+import:         from AS5427 accept AS-PRTL-EU
+import:         from AS5430 accept AS-FREENETDE
+import:         from AS5466 accept AS-EIRCOM
+import:         from AS5580 accept AS-ATRATO
+import:         from AS5588 accept AS-GTS-CE
+import:         from AS5605 accept AS-NETUSE
+import:         from AS6661 accept AS-PTLU
+import:         from AS6663 accept AS-STARNETSRO
+import:         from AS6667 accept AS-EUNETIP
+import:         from AS6695 accept AS-DECIX
+import:         from AS6724 accept AS-STRATORZ
+import:         from AS6730 accept AS-GLOBAL
+import:         from AS6760 accept AS-ITELSI
+import:         from AS6805 accept AS-TDE
+import:         from AS6854 accept AS-SYNTERRA
+import:         from AS6900 accept AS-EDS
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS8068 accept AS-MICROSOFT
+import:         from AS8075 accept AS8075
+import:         from AS8190 accept AS-VIATEL
+import:         from AS8218 accept AS-NEOT
+import:         from AS8220 accept AS-COLT
+import:         from AS8222 accept AS-NETPLACE
+import:         from AS8262 accept AS-EVOLINK
+import:         from AS8319 accept AS-IXNETHINKS
+import:         from AS8342 accept AS-RTCOMM-DECIX-EXP
+import:         from AS8359 accept AS-MTU
+import:         from AS8365 accept AS-MANDA
+import:         from AS8422 accept AS-NETCOLOGNE
+import:         from AS8426 accept AS-CLARANET
+import:         from AS8442 accept AS-DIG
+import:         from AS8447 accept AS-PTA
+import:         from AS8468 accept AS-ENTANET
+import:         from AS8469 accept AS-PIRONETNDH
+import:         from AS8492 accept AS-ORBIT
+import:         from AS8513 accept AS-SKYVISION
+import:         from AS8544 accept AS-NSP
+import:         from AS8551 accept AS-BEZEQINT
+import:         from AS8560 accept AS-1AND1
+import:         from AS8582 accept AS-SUPPORT
+import:         from AS8586 accept AS-OBSL
+import:         from AS8591 accept AS-AMIS
+import:         from AS8648 accept AS-KAMP
+import:         from AS8657 accept AS-CPRM
+import:         from AS8708 accept AS-RDSNET
+import:         from AS8717 accept AS-SPNET
+import:         from AS8732 accept AS-COMCOR
+import:         from AS8763 accept AS-DENIC
+import:         from AS8767 accept AS-MNET
+import:         from AS8781 accept AS-QTEL-SET
+import:         from AS8859 accept AS-OSN
+import:         from AS8866 accept AS-BTC-UP
+import:         from AS8879 accept AS-DTS
+import:         from AS8881 accept AS-VT-TRANSIT
+import:         from AS8966 accept AS-EMIX
+import:         from AS8972 accept AS-PLUSSERVER
+import:         from AS9002 accept AS-RETN
+import:         from AS9009 accept AS-GBXS
+import:         from AS9031 accept AS-EDPNET
+import:         from AS9044 accept AS-SOLNET
+import:         from AS9063 accept AS-SAARGATE
+import:         from AS9070 accept AS-ITDOUT
+import:         from AS9116 accept AS-GOLDEN
+import:         from AS9119 accept AS-SOFTNET
+import:         from AS9121 accept AS-TTNET
+import:         from AS9145 accept AS-EWETEL
+import:         from AS9189 accept AS-ACCOM
+import:         from AS9211 accept AS-WORK
+import:         from AS9505 accept AS-TWIG
+import:         from AS10310 accept AS-YAHOO
+import:         from AS12041 accept AS-AFILIAS
+import:         from AS12301 accept AS12301:AS-ROUTES
+import:         from AS12306 accept AS-PLUSLINE
+import:         from AS12322 accept AS-PROXAD
+import:         from AS12329 accept AS-TMR
+import:         from AS12348 accept AS-ODNDE
+import:         from AS12355 accept AS-HELINET-V4
+import:         from AS12389 accept AS-ROSTELECOM
+import:         from AS12399 accept AS-SPXS
+import:         from AS12611 accept AS-RKOM
+import:         from AS12695 accept AS-DINET
+import:         from AS12713 accept AS-OTEGLOBE
+import:         from AS12714 accept AS-TI
+import:         from AS12731 accept AS-IPHH
+import:         from AS12859 accept AS-BIT
+import:         from AS12874 accept AS-FASTWEB
+import:         from AS12989 accept AS-HIGHWINDS
+import:         from AS13030 accept AS-INIT7
+import:         from AS13122 accept AS-MANX
+import:         from AS13184 accept AS-HANSENET
+import:         from AS13237 accept AS-LAMBDANET
+import:         from AS13238 accept AS-YANDEX
+import:         from AS13249 accept AS-ITS-DECIX
+import:         from AS13285 accept AS-OPAL
+import:         from AS13301 accept AS-UNITEDCOLO
+import:         from AS15133 accept AS-EDGECAST
+import:         from AS15169 accept AS-GOOGLE
+import:         from AS15366 accept AS-DNSNET
+import:         from AS15444 accept AS-NETSERVICES
+import:         from AS15557 accept AS-LDCOMNET
+import:         from AS15594 accept AS-NQ
+import:         from AS15598 accept AS-IPX
+import:         from AS15600 accept AS-LAN
+import:         from AS15606 accept AS-NASK
+import:         from AS15703 accept AS-TRUE
+import:         from AS15743 accept AS-IPH
+import:         from AS15772 accept AS-WNET
+import:         from AS15830 accept AS-TELECITYLON
+import:         from AS15857 accept AS-DIALOG
+import:         from AS15935 accept AS-HA-VEL-DECIX
+import:         from AS16097 accept AS-HLKOMM
+import:         from AS16276 accept AS-OVH
+import:         from AS16509 accept AS-AMAZON
+import:         from AS19151 accept AS-WVFIBER
+import:         from AS20495 accept AS-WEDARE
+import:         from AS20504 accept AS-RTL
+import:         from AS20640 accept AS-TITANNET
+import:         from AS20764 accept AS-RASCOM
+import:         from AS20773 accept AS-HOSTEUROPE
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS21011 accept AS21011:AS-EXT
+import:         from AS21013 accept AS-ITANDTEL
+import:         from AS21021 accept AS-MULTIMEDIA
+import:         from AS21219 accept AS-FF-TRANSIT
+import:         from AS21263 accept AS-TELEDATA
+import:         from AS21336 accept AS-IR
+import:         from AS21345 accept AS-MESSAGELABSEUROPE
+import:         from AS21385 accept AS-TNIB
+import:         from AS21414 accept AS-RCNET
+import:         from AS22212 accept AS-INTERNAP
+import:         from AS22822 accept AS-LLNW
+import:         from AS23148 accept AS-TWW
+import:         from AS24724 accept AS24724:AS-FOREIGN
+import:         from AS24739 accept AS-SEVEREN-TELECOM
+import:         from AS24940 accept AS-HETZNER
+import:         from AS24963 accept AS-YACAST
+import:         from AS24989 accept AS-EQUINIX-DE
+import:         from AS25192 accept AS-CZNIC
+import:         from AS25279 accept AS-TREML-STURM
+import:         from AS25286 accept AS-IPERCAST
+import:         from AS25478 accept AS-IHOME
+import:         from AS28753 accept AS-NETDIRECT
+import:         from AS28917 accept AS-FIORD
+import:         from AS29066 accept AS-VELIANET
+import:         from AS29140 accept AS-HOSTSERVER
+import:         from AS29208 accept AS-DIALTELECOM
+import:         from AS29413 accept AS-KOMRO
+import:         from AS29610 accept AS-BREISNET
+import:         from AS29632 accept AS-NETASSIST
+import:         from AS29686 accept AS-PROBENETWORKS
+import:         from AS30094 accept AS-GIGANEWS-ALL
+import:         from AS30751 accept AS-EUROTEL
+import:         from AS30890 accept AS-EVOLVA
+import:         from AS31027 accept AS-NIANET
+import:         from AS31242 accept AS-TKPSA-UP
+import:         from AS31252 accept AS-STARNET
+import:         from AS31400 accept AS-ACCELERATED
+import:         from AS31500 accept AS-GLOBAL-NET
+import:         from AS31529 accept AS31529
+import:         from AS32934 accept AS32934
+import:         from AS33873 accept AS-ARVATO
+import:         from AS33891 accept AS-CORE-BACKBONE
+import:         from AS34305 accept AS-EUROACCESS
+import:         from AS34309 accept AS-LINK11
+import:         from AS34655 accept AS-DOCLER
+import:         from AS34695 accept AS34695:AS-TRANSIT
+import:         from AS34953 accept AS-RELAIX
+import:         from AS35254 accept AS-BALTCOMIP
+import:         from AS35366 accept AS-ISPPRO
+import:         from AS36351 accept AS-SOFTLAYER
+import:         from AS36408 accept AS-PANTHER
+import:         from AS36622 accept AS36622
+import:         from AS39257 accept AS-INC
+import:         from AS39792 accept AS-ANDERS
+import:         from AS39912 accept AS-I3B
+import:         from AS41289 accept AS-DWD
+import:         from AS41690 accept AS-DAILYMOTION
+import:         from AS41692 accept AS-OPENCARRIER
+import:         from AS42366 accept AS-TERRATRANSIT
+import:         from AS42416 accept AS42416
+import:         from AS42456 accept AS-CHMURTZ-DECIX
+import:         from AS43303 accept AS-CDNETWORKS-EU
+import:         from AS44066 accept AS-FIRSTCOLO
+import:         from AS44654 accept AS-MNS
+import:         from AS44788 accept AS-CRITEO-EU
+import:         from AS47195 accept AS-GAMEFORGE
+import:         from AS47869 accept AS-NETROUTING
+import:         from AS50384 accept AS-W-IX
+export:         to AS42 announce AS-ROOT
+export:         to AS553 announce AS-ROOT
+export:         to AS680 announce AS-ROOT
+export:         to AS1267 announce AS-ROOT
+export:         to AS1764 announce AS-ROOT
+export:         to AS2119 announce AS-ROOT
+export:         to AS2686 announce AS-ROOT
+export:         to AS2818 announce AS-ROOT
+export:         to AS2857 announce AS-ROOT
+export:         to AS3216 announce AS-ROOT
+export:         to AS3249 announce AS-ROOT
+export:         to AS3255 announce AS-ROOT
+export:         to AS3303 announce AS-ROOT
+export:         to AS3856 announce AS-ROOT
+export:         to AS4589 announce AS-ROOT
+export:         to AS4788 announce AS-ROOT
+export:         to AS5089 announce AS-ROOT
+export:         to AS5410 announce AS-ROOT
+export:         to AS5427 announce AS-ROOT
+export:         to AS5430 announce AS-ROOT
+export:         to AS5466 announce AS-ROOT
+export:         to AS5580 announce AS-ROOT
+export:         to AS5588 announce AS-ROOT
+export:         to AS5605 announce AS-ROOT
+export:         to AS6661 announce AS-ROOT
+export:         to AS6663 announce AS-ROOT
+export:         to AS6667 announce AS-ROOT
+export:         to AS6695 announce AS-ROOT
+export:         to AS6724 announce AS-ROOT
+export:         to AS6730 announce AS-ROOT
+export:         to AS6760 announce AS-ROOT
+export:         to AS6805 announce AS-ROOT
+export:         to AS6854 announce AS-ROOT
+export:         to AS6900 announce AS-ROOT
+export:         to AS6939 announce AS-ROOT
+export:         to AS8068 announce AS-ROOT
+export:         to AS8075 announce AS-ROOT
+export:         to AS8190 announce AS-ROOT
+export:         to AS8218 announce AS-ROOT
+export:         to AS8220 announce AS-ROOT
+export:         to AS8222 announce AS-ROOT
+export:         to AS8262 announce AS-ROOT
+export:         to AS8319 announce AS-ROOT
+export:         to AS8342 announce AS-ROOT
+export:         to AS8359 announce AS-ROOT
+export:         to AS8365 announce AS-ROOT
+export:         to AS8422 announce AS-ROOT
+export:         to AS8426 announce AS-ROOT
+export:         to AS8442 announce AS-ROOT
+export:         to AS8447 announce AS-ROOT
+export:         to AS8468 announce AS-ROOT
+export:         to AS8469 announce AS-ROOT
+export:         to AS8492 announce AS-ROOT
+export:         to AS8513 announce AS-ROOT
+export:         to AS8544 announce AS-ROOT
+export:         to AS8551 announce AS-ROOT
+export:         to AS8560 announce AS-ROOT
+export:         to AS8582 announce AS-ROOT
+export:         to AS8586 announce AS-ROOT
+export:         to AS8591 announce AS-ROOT
+export:         to AS8648 announce AS-ROOT
+export:         to AS8657 announce AS-ROOT
+export:         to AS8708 announce AS-ROOT
+export:         to AS8717 announce AS-ROOT
+export:         to AS8732 announce AS-ROOT
+export:         to AS8763 announce AS-ROOT
+export:         to AS8767 announce AS-ROOT
+export:         to AS8781 announce AS-ROOT
+export:         to AS8859 announce AS-ROOT
+export:         to AS8866 announce AS-ROOT
+export:         to AS8879 announce AS-ROOT
+export:         to AS8881 announce AS-ROOT
+export:         to AS8966 announce AS-ROOT
+export:         to AS8972 announce AS-ROOT
+export:         to AS9002 announce AS-ROOT
+export:         to AS9009 announce AS-ROOT
+export:         to AS9031 announce AS-ROOT
+export:         to AS9044 announce AS-ROOT
+export:         to AS9063 announce AS-ROOT
+export:         to AS9070 announce AS-ROOT
+export:         to AS9116 announce AS-ROOT
+export:         to AS9119 announce AS-ROOT
+export:         to AS9121 announce AS-ROOT
+export:         to AS9145 announce AS-ROOT
+export:         to AS9189 announce AS-ROOT
+export:         to AS9211 announce AS-ROOT
+export:         to AS9505 announce AS-ROOT
+export:         to AS10310 announce AS-ROOT
+export:         to AS12041 announce AS-ROOT
+export:         to AS12301 announce AS-ROOT
+export:         to AS12306 announce AS-ROOT
+export:         to AS12322 announce AS-ROOT
+export:         to AS12329 announce AS-ROOT
+export:         to AS12348 announce AS-ROOT
+export:         to AS12355 announce AS-ROOT
+export:         to AS12389 announce AS-ROOT
+export:         to AS12399 announce AS-ROOT
+export:         to AS12611 announce AS-ROOT
+export:         to AS12695 announce AS-ROOT
+export:         to AS12713 announce AS-ROOT
+export:         to AS12714 announce AS-ROOT
+export:         to AS12731 announce AS-ROOT
+export:         to AS12859 announce AS-ROOT
+export:         to AS12874 announce AS-ROOT
+export:         to AS12989 announce AS-ROOT
+export:         to AS13030 announce AS-ROOT
+export:         to AS13122 announce AS-ROOT
+export:         to AS13184 announce AS-ROOT
+export:         to AS13237 announce AS-ROOT
+export:         to AS13238 announce AS-ROOT
+export:         to AS13249 announce AS-ROOT
+export:         to AS13285 announce AS-ROOT
+export:         to AS13301 announce AS-ROOT
+export:         to AS15133 announce AS-ROOT
+export:         to AS15169 announce AS-ROOT
+export:         to AS15366 announce AS-ROOT
+export:         to AS15444 announce AS-ROOT
+export:         to AS15557 announce AS-ROOT
+export:         to AS15594 announce AS-ROOT
+export:         to AS15598 announce AS-ROOT
+export:         to AS15600 announce AS-ROOT
+export:         to AS15606 announce AS-ROOT
+export:         to AS15703 announce AS-ROOT
+export:         to AS15743 announce AS-ROOT
+export:         to AS15772 announce AS-ROOT
+export:         to AS15830 announce AS-ROOT
+export:         to AS15857 announce AS-ROOT
+export:         to AS15935 announce AS-ROOT
+export:         to AS16097 announce AS-ROOT
+export:         to AS16276 announce AS-ROOT
+export:         to AS16509 announce AS-ROOT
+export:         to AS19151 announce AS-ROOT
+export:         to AS20495 announce AS-ROOT
+export:         to AS20504 announce AS-ROOT
+export:         to AS20640 announce AS-ROOT
+export:         to AS20764 announce AS-ROOT
+export:         to AS20773 announce AS-ROOT
+export:         to AS20940 announce AS-ROOT
+export:         to AS21011 announce AS-ROOT
+export:         to AS21013 announce AS-ROOT
+export:         to AS21021 announce AS-ROOT
+export:         to AS21219 announce AS-ROOT
+export:         to AS21263 announce AS-ROOT
+export:         to AS21336 announce AS-ROOT
+export:         to AS21345 announce AS-ROOT
+export:         to AS21385 announce AS-ROOT
+export:         to AS21414 announce AS-ROOT
+export:         to AS22212 announce AS-ROOT
+export:         to AS22822 announce AS-ROOT
+export:         to AS23148 announce AS-ROOT
+export:         to AS24724 announce AS-ROOT
+export:         to AS24739 announce AS-ROOT
+export:         to AS24940 announce AS-ROOT
+export:         to AS24963 announce AS-ROOT
+export:         to AS24989 announce AS-ROOT
+export:         to AS25192 announce AS-ROOT
+export:         to AS25279 announce AS-ROOT
+export:         to AS25286 announce AS-ROOT
+export:         to AS25478 announce AS-ROOT
+export:         to AS28753 announce AS-ROOT
+export:         to AS28917 announce AS-ROOT
+export:         to AS29066 announce AS-ROOT
+export:         to AS29140 announce AS-ROOT
+export:         to AS29208 announce AS-ROOT
+export:         to AS29413 announce AS-ROOT
+export:         to AS29610 announce AS-ROOT
+export:         to AS29632 announce AS-ROOT
+export:         to AS29686 announce AS-ROOT
+export:         to AS30094 announce AS-ROOT
+export:         to AS30751 announce AS-ROOT
+export:         to AS30890 announce AS-ROOT
+export:         to AS31027 announce AS-ROOT
+export:         to AS31242 announce AS-ROOT
+export:         to AS31252 announce AS-ROOT
+export:         to AS31400 announce AS-ROOT
+export:         to AS31500 announce AS-ROOT
+export:         to AS31529 announce AS-ROOT
+export:         to AS32934 announce AS-ROOT
+export:         to AS33873 announce AS-ROOT
+export:         to AS33891 announce AS-ROOT
+export:         to AS34305 announce AS-ROOT
+export:         to AS34309 announce AS-ROOT
+export:         to AS34655 announce AS-ROOT
+export:         to AS34695 announce AS-ROOT
+export:         to AS34953 announce AS-ROOT
+export:         to AS35254 announce AS-ROOT
+export:         to AS35366 announce AS-ROOT
+export:         to AS36351 announce AS-ROOT
+export:         to AS36408 announce AS-ROOT
+export:         to AS36622 announce AS-ROOT
+export:         to AS39257 announce AS-ROOT
+export:         to AS39792 announce AS-ROOT
+export:         to AS39912 announce AS-ROOT
+export:         to AS41289 announce AS-ROOT
+export:         to AS41690 announce AS-ROOT
+export:         to AS41692 announce AS-ROOT
+export:         to AS42366 announce AS-ROOT
+export:         to AS42416 announce AS-ROOT
+export:         to AS42456 announce AS-ROOT
+export:         to AS43303 announce AS-ROOT
+export:         to AS44066 announce AS-ROOT
+export:         to AS44654 announce AS-ROOT
+export:         to AS44788 announce AS-ROOT
+export:         to AS47195 announce AS-ROOT
+export:         to AS47869 announce AS-ROOT
+export:         to AS50384 announce AS-ROOT
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS553 accept AS-BELWUE
+mp-import:      afi ipv6.unicast from AS680 accept AS-DFNTOWINISP
+mp-import:      afi ipv6.unicast from AS1764 accept AS-NEXTLAYER-V6
+mp-import:      afi ipv6.unicast from AS2119 accept AS-TELENOR
+mp-import:      afi ipv6.unicast from AS2686 accept AS-IGNEMEA
+mp-import:      afi ipv6.unicast from AS2857 accept AS-RLP-NET
+mp-import:      afi ipv6.unicast from AS3249 accept AS-ESTPAK
+mp-import:      afi ipv6.unicast from AS3303 accept AS-SWCMGLOBAL
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS4589 accept AS-EASYNET
+mp-import:      afi ipv6.unicast from AS4788 accept AS-4788
+mp-import:      afi ipv6.unicast from AS5410 accept AS-BOUYGTEL-ISP
+mp-import:      afi ipv6.unicast from AS5430 accept AS-FREENETDE6
+mp-import:      afi ipv6.unicast from AS5580 accept AS-ATRATO6
+mp-import:      afi ipv6.unicast from AS6661 accept AS-PTLU
+mp-import:      afi ipv6.unicast from AS6667 accept AS-EUNETIP
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-import:      afi ipv6.unicast from AS6724 accept AS-STRATORZ
+mp-import:      afi ipv6.unicast from AS6730 accept AS-GLOBAL
+mp-import:      afi ipv6.unicast from AS6760 accept AS-ITELSI
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-import:      afi ipv6.unicast from AS8068 accept AS-MICROSOFT
+mp-import:      afi ipv6.unicast from AS8075 accept AS8075
+mp-import:      afi ipv6.unicast from AS8218 accept AS-NEOT6
+mp-import:      afi ipv6.unicast from AS8220 accept AS-COLT
+mp-import:      afi ipv6.unicast from AS8262 accept AS-EVOLINK
+mp-import:      afi ipv6.unicast from AS8319 accept AS-NETHINKS-V6
+mp-import:      afi ipv6.unicast from AS8359 accept AS-MTU-V6
+mp-import:      afi ipv6.unicast from AS8365 accept AS-MANDA
+mp-import:      afi ipv6.unicast from AS8422 accept AS-NETCOLOGNE-V6
+mp-import:      afi ipv6.unicast from AS8426 accept AS-CLARANET
+mp-import:      afi ipv6.unicast from AS8442 accept AS-DIG-IPV6
+mp-import:      afi ipv6.unicast from AS8468 accept AS-ENTANET
+mp-import:      afi ipv6.unicast from AS8469 accept AS-PIRONETNDH
+mp-import:      afi ipv6.unicast from AS8551 accept AS-BEZEQINT
+mp-import:      afi ipv6.unicast from AS8560 accept AS-1AND1
+mp-import:      afi ipv6.unicast from AS8586 accept AS-OBSL
+mp-import:      afi ipv6.unicast from AS8591 accept AS-AMIS6
+mp-import:      afi ipv6.unicast from AS8648 accept AS-KAMP
+mp-import:      afi ipv6.unicast from AS8708 accept AS-RDSNET6
+mp-import:      afi ipv6.unicast from AS8717 accept AS-SPNET
+mp-import:      afi ipv6.unicast from AS8763 accept AS-DENIC
+mp-import:      afi ipv6.unicast from AS8781 accept AS-QTEL-SET
+mp-import:      afi ipv6.unicast from AS8879 accept AS-DTS
+mp-import:      afi ipv6.unicast from AS8881 accept AS-VERSATEL-V6
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-import:      afi ipv6.unicast from AS9009 accept AS-GBXS
+mp-import:      afi ipv6.unicast from AS9031 accept AS-EDPNET-V6
+mp-import:      afi ipv6.unicast from AS9044 accept AS-SOLNET
+mp-import:      afi ipv6.unicast from AS9063 accept AS-SAARGATE
+mp-import:      afi ipv6.unicast from AS9070 accept AS-ITDOUT
+mp-import:      afi ipv6.unicast from AS9211 accept AS-WORK
+mp-import:      afi ipv6.unicast from AS12041 accept AS-AFILIAS
+mp-import:      afi ipv6.unicast from AS12301 accept AS12301:AS-ROUTES
+mp-import:      afi ipv6.unicast from AS12306 accept AS-PLUSLINE
+mp-import:      afi ipv6.unicast from AS12312 accept AS-NACAMAR
+mp-import:      afi ipv6.unicast from AS12322 accept AS-PROXAD
+mp-import:      afi ipv6.unicast from AS12329 accept AS-TMR-V6
+mp-import:      afi ipv6.unicast from AS12355 accept AS-HELINET-V6
+mp-import:      afi ipv6.unicast from AS12389 accept AS-ROSTELECOM
+mp-import:      afi ipv6.unicast from AS12611 accept AS-RKOM
+mp-import:      afi ipv6.unicast from AS12695 accept AS-DINET
+mp-import:      afi ipv6.unicast from AS12714 accept AS-TI
+mp-import:      afi ipv6.unicast from AS12731 accept AS-IPHH-V6
+mp-import:      afi ipv6.unicast from AS12859 accept AS-BIT6
+mp-import:      afi ipv6.unicast from AS12989 accept AS-HIGHWINDS
+mp-import:      afi ipv6.unicast from AS13030 accept AS-INIT7
+mp-import:      afi ipv6.unicast from AS13184 accept AS-HANSENET
+mp-import:      afi ipv6.unicast from AS13237 accept AS-LAMBDANET
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-import:      afi ipv6.unicast from AS15598 accept AS-IPX-6
+mp-import:      afi ipv6.unicast from AS15600 accept AS-LAN
+mp-import:      afi ipv6.unicast from AS15606 accept AS-NASK
+mp-import:      afi ipv6.unicast from AS16097 accept AS-HLKOMM
+mp-import:      afi ipv6.unicast from AS16276 accept AS-OVH
+mp-import:      afi ipv6.unicast from AS19151 accept AS-WVFIBER
+mp-import:      afi ipv6.unicast from AS20640 accept AS-TITANNET
+mp-import:      afi ipv6.unicast from AS20773 accept AS-HOSTEUROPE
+mp-import:      afi ipv6.unicast from AS21011 accept AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS21263 accept AS-TELEDATA-V6
+mp-import:      afi ipv6.unicast from AS21385 accept AS-TNIB
+mp-import:      afi ipv6.unicast from AS24724 accept AS24724:AS-FOREIGN
+mp-import:      afi ipv6.unicast from AS24739 accept AS-SEVEREN-TELECOM
+mp-import:      afi ipv6.unicast from AS24940 accept AS-HETZNER
+mp-import:      afi ipv6.unicast from AS25192 accept AS-CZNIC
+mp-import:      afi ipv6.unicast from AS25279 accept AS-TREML-STURM
+mp-import:      afi ipv6.unicast from AS25286 accept AS-IPERCAST
+mp-import:      afi ipv6.unicast from AS28753 accept AS-NETDIRECT
+mp-import:      afi ipv6.unicast from AS29066 accept AS-VELIANET-V6
+mp-import:      afi ipv6.unicast from AS29140 accept AS-HOSTSERVER
+mp-import:      afi ipv6.unicast from AS29208 accept AS-DIALTELECOM
+mp-import:      afi ipv6.unicast from AS29632 accept AS-NETASSIST
+mp-import:      afi ipv6.unicast from AS29686 accept AS-PROBENETWORKS
+mp-import:      afi ipv6.unicast from AS30890 accept AS-EVOLVA6
+mp-import:      afi ipv6.unicast from AS31027 accept AS-NIANET
+mp-import:      afi ipv6.unicast from AS31252 accept AS-STARNETV6
+mp-import:      afi ipv6.unicast from AS31529 accept AS31529
+mp-import:      afi ipv6.unicast from AS32934 accept AS32934
+mp-import:      afi ipv6.unicast from AS33891 accept AS-CORE-BACKBONE
+mp-import:      afi ipv6.unicast from AS34305 accept AS-EUROACCESS-V6
+mp-import:      afi ipv6.unicast from AS34309 accept AS-LINK11-V6
+mp-import:      afi ipv6.unicast from AS34695 accept AS34695:AS-TRANSIT
+mp-import:      afi ipv6.unicast from AS34953 accept AS-RELAIXV6
+mp-import:      afi ipv6.unicast from AS36351 accept AS-SOFTLAYER
+mp-import:      afi ipv6.unicast from AS39792 accept AS-ANDERS-V6
+mp-import:      afi ipv6.unicast from AS39912 accept AS-I3B
+mp-import:      afi ipv6.unicast from AS41692 accept AS-OPENCARRIER6
+mp-import:      afi ipv6.unicast from AS44654 accept AS-MNS
+mp-import:      afi ipv6.unicast from AS44788 accept AS-CRITEO-EU
+mp-import:      afi ipv6.unicast from AS47869 accept AS-NETROUTING
+mp-import:      afi ipv6.unicast from AS50384 accept AS-W-IX-IPVSIX
+mp-export:      afi ipv6.unicast to AS42 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS553 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS680 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS1764 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2119 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2686 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2857 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3249 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3303 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3856 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS4589 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS4788 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5410 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5430 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5580 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6661 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6667 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6695 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6724 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6730 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6760 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8068 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8075 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8218 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8220 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8262 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8319 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8359 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8365 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8422 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8426 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8442 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8468 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8469 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8551 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8560 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8586 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8591 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8648 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8708 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8717 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8763 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8781 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8879 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8881 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9002 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9009 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9031 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9044 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9063 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9070 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9211 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12041 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12301 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12306 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12312 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12322 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12329 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12355 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12389 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12611 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12695 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12714 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12731 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12859 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12989 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13030 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13184 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13237 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS15169 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS15598 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS15600 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS15606 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS16097 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS16276 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS19151 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS20640 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS20773 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS21011 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS21263 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS21385 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS24724 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS24739 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS24940 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25192 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25279 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25286 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS28753 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29066 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29140 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29208 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29632 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29686 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS30890 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31027 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31252 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31529 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS32934 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS33891 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34305 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34309 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34695 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34953 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS36351 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS39792 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS39912 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS41692 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS44654 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS44788 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS47869 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS50384 announce AS-ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | PUBLIC PEERING - LINX |
+remarks:        | @ London / TeleCity HEX 8&9 |
+remarks:        | IPv4: 195.66.225.90 |
+remarks:        | IPv6: 2001:7F8:4::AC0A:1 |
+remarks:        +------------------------------------+
+import:         from AS42 accept AS-PCH
+import:         from AS786 accept AS-JANETPLUS
+import:         from AS855 accept AS-BELL-ALIANT
+import:         from AS1267 accept AS-INFOSTRADA
+import:         from AS2119 accept AS-TELENOR
+import:         from AS2529 accept AS-DEMON
+import:         from AS2603 accept AS-NORDUNET
+import:         from AS2611 accept AS-BELNET
+import:         from AS2686 accept AS-IGNEMEA
+import:         from AS2818 accept AS-BBC
+import:         from AS2856 accept AS-BTGB
+import:         from AS3213 accept AS-BOGONS
+import:         from AS3216 accept AS-SOVAM
+import:         from AS3249 accept AS-ESTPAK
+import:         from AS3303 accept AS-SWCMGLOBAL
+import:         from AS3741 accept AS-IS
+import:         from AS3856 accept AS-PCH
+import:         from AS4589 accept AS-EASYNET
+import:         from AS4739 accept AS4739
+import:         from AS4788 accept AS-4788
+import:         from AS5089 accept AS-NTLI
+import:         from AS5410 accept AS-BOUYGTEL-ISP
+import:         from AS5459 accept AS-LINX
+import:         from AS5466 accept AS-EIRCOM
+import:         from AS5564 accept AS-SOL
+import:         from AS5580 accept AS-ATRATO
+import:         from AS5588 accept AS-GTS-CE
+import:         from AS6327 accept AS-BIGPIPE
+import:         from AS6656 accept AS-STG
+import:         from AS6661 accept AS-PTLU
+import:         from AS6663 accept AS-STARNETSRO
+import:         from AS6667 accept AS-EUNETIP
+import:         from AS6677 accept AS-ICENET
+import:         from AS6730 accept AS-GLOBAL
+import:         from AS6805 accept AS-TDE
+import:         from AS6854 accept AS-SYNTERRA
+import:         from AS6871 accept AS-PLUSNETUK
+import:         from AS6894 accept AS-KDDIEU
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS8001 accept AS-NAC
+import:         from AS8068 accept AS-MICROSOFT
+import:         from AS8190 accept AS-VIATEL
+import:         from AS8218 accept AS-NEOT
+import:         from AS8359 accept AS-MTU
+import:         from AS8422 accept AS-NETCOLOGNE
+import:         from AS8426 accept AS-CLARANET
+import:         from AS8447 accept AS-PTA
+import:         from AS8468 accept AS-ENTANET
+import:         from AS8492 accept AS-ORBIT
+import:         from AS8551 accept AS-BEZEQINT
+import:         from AS8553 accept AS-AVENSYS
+import:         from AS8560 accept AS-1AND1
+import:         from AS8586 accept AS-OBSL
+import:         from AS8607 accept AS-TIMICO
+import:         from AS8657 accept AS-CPRM
+import:         from AS8681 accept AS-JERSEYTELECOM
+import:         from AS8708 accept AS-RDSNET
+import:         from AS8714 accept AS8714
+import:         from AS8732 accept AS-COMCOR
+import:         from AS8781 accept AS-QTEL-SET
+import:         from AS8844 accept AS-COMMUNITY
+import:         from AS8851 accept AS-EDGE
+import:         from AS8881 accept AS-VT-TRANSIT
+import:         from AS8897 accept AS-MISTRAL
+import:         from AS8912 accept AS-NETBENEFIT
+import:         from AS8966 accept AS-EMIX
+import:         from AS9002 accept AS-RETN
+import:         from AS9009 accept AS-GBXS
+import:         from AS9031 accept AS-EDPNET
+import:         from AS9044 accept AS-SOLNET
+import:         from AS9116 accept AS-GOLDEN
+import:         from AS9121 accept AS-TTNET
+import:         from AS9145 accept AS-EWETEL
+import:         from AS9153 accept AS-BURSTFIRE
+import:         from AS9191 accept AS-NEWNET
+import:         from AS9318 accept AS-HANARO
+import:         from AS9505 accept AS-TWIG
+import:         from AS10310 accept AS-YAHOO
+import:         from AS10474 accept AS10474
+import:         from AS11666 accept AS-NEXICOM
+import:         from AS11845 accept AS11845
+import:         from AS12008 accept AS12008
+import:         from AS12322 accept AS-PROXAD
+import:         from AS12350 accept AS-VTX
+import:         from AS12389 accept AS-ROSTELECOM
+import:         from AS12399 accept AS-SPXS
+import:         from AS12513 accept AS-ECLIPSE
+import:         from AS12552 accept AS-IPO
+import:         from AS12715 accept AS-JAZZTRANS
+import:         from AS12859 accept AS-BIT
+import:         from AS12874 accept AS-FASTWEB
+import:         from AS12989 accept AS-HIGHWINDS
+import:         from AS13030 accept AS-INIT7
+import:         from AS13037 accept AS-ZEN
+import:         from AS13122 accept AS-MANX
+import:         from AS13193 accept AS-NERIM
+import:         from AS13285 accept AS-OPAL
+import:         from AS13680 accept AS-HGTN
+import:         from AS13768 accept AS13768:AS-CUSTOMERS
+import:         from AS14076 accept AS-FAT
+import:         from AS15133 accept AS-EDGECAST
+import:         from AS15444 accept AS-NETSERVICES
+import:         from AS15703 accept AS-TRUE
+import:         from AS16082 accept AS-SPITFIRE
+import:         from AS16150 accept AS16150:AS-CUSTOMERS
+import:         from AS16276 accept AS-OVH
+import:         from AS16353 accept AS-MERULA
+import:         from AS16509 accept AS-AMAZON
+import:         from AS17451 accept AS17451
+import:         from AS19151 accept AS-WVFIBER
+import:         from AS20485 accept AS-TTK
+import:         from AS20500 accept AS-GRIFFIN
+import:         from AS20547 accept AS-UKS
+import:         from AS20799 accept AS-DATANET
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS21099 accept AS-GAMEGROUP-LINX
+import:         from AS21345 accept AS-MESSAGELABSEUROPE
+import:         from AS21371 accept AS-EQUINIX-EU
+import:         from AS21844 accept AS-THEPLANET
+import:         from AS22212 accept AS-INTERNAP
+import:         from AS22822 accept AS-LLNW
+import:         from AS23148 accept AS-TWW
+import:         from AS24724 accept AS24724:AS-FOREIGN
+import:         from AS24931 accept AS-DEDIPOWER
+import:         from AS24963 accept AS-YACAST
+import:         from AS25061 accept AS-ANLX
+import:         from AS25286 accept AS-IPERCAST
+import:         from AS25369 accept AS-KILLERCREATION
+import:         from AS25577 accept AS-C4L
+import:         from AS27822 accept AS27822
+import:         from AS28968 accept AS-EUT
+import:         from AS29009 accept AS-UKBB
+import:         from AS29017 accept AS-GYRON
+import:         from AS29131 accept AS-RAPIDSWITCH
+import:         from AS29169 accept AS-GANDI
+import:         from AS29208 accept AS-DIALTELECOM
+import:         from AS29527 accept AS-OTHELLOTECH
+import:         from AS29550 accept AS-BLUECONNEX
+import:         from AS29611 accept AS-ELITE
+import:         from AS29668 accept AS-QUBE
+import:         from AS30094 accept AS-GIGANEWS-ALL
+import:         from AS30740 accept AS-EXA
+import:         from AS30827 accept AS-XTRAORDINARY
+import:         from AS30890 accept AS-EVOLVA
+import:         from AS30914 accept AS-IOKO
+import:         from AS31122 accept AS-DIGIWEB
+import:         from AS31196 accept AS-GLOBALMIX
+import:         from AS31252 accept AS-STARNET
+import:         from AS31290 accept AS-MURPHX
+import:         from AS31458 accept AS-SMART
+import:         from AS31500 accept AS-GLOBAL-NET
+import:         from AS31708 accept AS-COREIX
+import:         from AS31715 accept AS-NETRINO
+import:         from AS32748 accept AS-STEADFAST
+import:         from AS32787 accept AS-PROLE
+import:         from AS32934 accept AS32934
+import:         from AS33081 accept AS33081
+import:         from AS33891 accept AS-CORE-BACKBONE
+import:         from AS34066 accept AS-TELAPPLIANT
+import:         from AS34245 accept AS-MAGNETLOCAL
+import:         from AS34270 accept AS-INETC
+import:         from AS34305 accept AS-EUROACCESS
+import:         from AS34309 accept AS-LINK11
+import:         from AS34442 accept AS-XIFOS
+import:         from AS34655 accept AS-DOCLER
+import:         from AS34695 accept AS34695:AS-TRANSIT
+import:         from AS34816 accept AS-AEG
+import:         from AS35028 accept AS-MULTIPLAY
+import:         from AS35228 accept AS35228
+import:         from AS35432 accept AS-WAVESPEED
+import:         from AS35662 accept AS-REDSTATION
+import:         from AS35916 accept AS35916
+import:         from AS36351 accept AS-SOFTLAYER
+import:         from AS36408 accept AS-PANTHER
+import:         from AS36692 accept AS-OPENDNS
+import:         from AS36944 accept AS-TERTIARY
+import:         from AS37179 accept AS37179
+import:         from AS38082 accept AS38082
+import:         from AS39326 accept AS-GOSCOMB
+import:         from AS40009 accept AS-BITGRAVITY
+import:         from AS41197 accept AS-SWITCHMEDIA
+import:         from AS41230 accept AS-ASK4
+import:         from AS41552 accept AS41552
+import:         from AS42689 accept AS-INUK
+import:         from AS43013 accept AS43013
+import:         from AS44444 accept AS-WHS-EU
+import:         from AS44654 accept AS-MNS
+import:         from AS46786 accept AS-IPTRANSIT
+import:         from AS47480 accept AS-BTS
+import:         from AS48961 accept AS-WARWICKNET
+import:         from AS49375 accept AS-TRUNKNETWORKS
+import:         from AS50384 accept AS-W-IX
+import:         from AS51377 accept AS-BURSTNET
+export:         to AS42 announce AS-ROOT
+export:         to AS786 announce AS-ROOT
+export:         to AS855 announce AS-ROOT
+export:         to AS1267 announce AS-ROOT
+export:         to AS2119 announce AS-ROOT
+export:         to AS2529 announce AS-ROOT
+export:         to AS2603 announce AS-ROOT
+export:         to AS2611 announce AS-ROOT
+export:         to AS2686 announce AS-ROOT
+export:         to AS2818 announce AS-ROOT
+export:         to AS2856 announce AS-ROOT
+export:         to AS3213 announce AS-ROOT
+export:         to AS3216 announce AS-ROOT
+export:         to AS3249 announce AS-ROOT
+export:         to AS3303 announce AS-ROOT
+export:         to AS3741 announce AS-ROOT
+export:         to AS3856 announce AS-ROOT
+export:         to AS4589 announce AS-ROOT
+export:         to AS4739 announce AS-ROOT
+export:         to AS4788 announce AS-ROOT
+export:         to AS5089 announce AS-ROOT
+export:         to AS5410 announce AS-ROOT
+export:         to AS5459 announce AS-ROOT
+export:         to AS5466 announce AS-ROOT
+export:         to AS5564 announce AS-ROOT
+export:         to AS5580 announce AS-ROOT
+export:         to AS5588 announce AS-ROOT
+export:         to AS6327 announce AS-ROOT
+export:         to AS6656 announce AS-ROOT
+export:         to AS6661 announce AS-ROOT
+export:         to AS6663 announce AS-ROOT
+export:         to AS6667 announce AS-ROOT
+export:         to AS6677 announce AS-ROOT
+export:         to AS6730 announce AS-ROOT
+export:         to AS6805 announce AS-ROOT
+export:         to AS6854 announce AS-ROOT
+export:         to AS6871 announce AS-ROOT
+export:         to AS6894 announce AS-ROOT
+export:         to AS6939 announce AS-ROOT
+export:         to AS8001 announce AS-ROOT
+export:         to AS8068 announce AS-ROOT
+export:         to AS8190 announce AS-ROOT
+export:         to AS8218 announce AS-ROOT
+export:         to AS8359 announce AS-ROOT
+export:         to AS8422 announce AS-ROOT
+export:         to AS8426 announce AS-ROOT
+export:         to AS8447 announce AS-ROOT
+export:         to AS8468 announce AS-ROOT
+export:         to AS8492 announce AS-ROOT
+export:         to AS8551 announce AS-ROOT
+export:         to AS8553 announce AS-ROOT
+export:         to AS8560 announce AS-ROOT
+export:         to AS8586 announce AS-ROOT
+export:         to AS8607 announce AS-ROOT
+export:         to AS8657 announce AS-ROOT
+export:         to AS8681 announce AS-ROOT
+export:         to AS8708 announce AS-ROOT
+export:         to AS8714 announce AS-ROOT
+export:         to AS8732 announce AS-ROOT
+export:         to AS8781 announce AS-ROOT
+export:         to AS8844 announce AS-ROOT
+export:         to AS8851 announce AS-ROOT
+export:         to AS8881 announce AS-ROOT
+export:         to AS8897 announce AS-ROOT
+export:         to AS8912 announce AS-ROOT
+export:         to AS8966 announce AS-ROOT
+export:         to AS9002 announce AS-ROOT
+export:         to AS9009 announce AS-ROOT
+export:         to AS9031 announce AS-ROOT
+export:         to AS9044 announce AS-ROOT
+export:         to AS9116 announce AS-ROOT
+export:         to AS9121 announce AS-ROOT
+export:         to AS9145 announce AS-ROOT
+export:         to AS9153 announce AS-ROOT
+export:         to AS9191 announce AS-ROOT
+export:         to AS9318 announce AS-ROOT
+export:         to AS9505 announce AS-ROOT
+export:         to AS10310 announce AS-ROOT
+export:         to AS10474 announce AS-ROOT
+export:         to AS11666 announce AS-ROOT
+export:         to AS11845 announce AS-ROOT
+export:         to AS12008 announce AS-ROOT
+export:         to AS12322 announce AS-ROOT
+export:         to AS12350 announce AS-ROOT
+export:         to AS12389 announce AS-ROOT
+export:         to AS12399 announce AS-ROOT
+export:         to AS12513 announce AS-ROOT
+export:         to AS12552 announce AS-ROOT
+export:         to AS12715 announce AS-ROOT
+export:         to AS12859 announce AS-ROOT
+export:         to AS12874 announce AS-ROOT
+export:         to AS12989 announce AS-ROOT
+export:         to AS13030 announce AS-ROOT
+export:         to AS13037 announce AS-ROOT
+export:         to AS13122 announce AS-ROOT
+export:         to AS13193 announce AS-ROOT
+export:         to AS13285 announce AS-ROOT
+export:         to AS13680 announce AS-ROOT
+export:         to AS13768 announce AS-ROOT
+export:         to AS14076 announce AS-ROOT
+export:         to AS15133 announce AS-ROOT
+export:         to AS15444 announce AS-ROOT
+export:         to AS15703 announce AS-ROOT
+export:         to AS16082 announce AS-ROOT
+export:         to AS16150 announce AS-ROOT
+export:         to AS16276 announce AS-ROOT
+export:         to AS16353 announce AS-ROOT
+export:         to AS16509 announce AS-ROOT
+export:         to AS17451 announce AS-ROOT
+export:         to AS19151 announce AS-ROOT
+export:         to AS20485 announce AS-ROOT
+export:         to AS20500 announce AS-ROOT
+export:         to AS20547 announce AS-ROOT
+export:         to AS20799 announce AS-ROOT
+export:         to AS20940 announce AS-ROOT
+export:         to AS21099 announce AS-ROOT
+export:         to AS21345 announce AS-ROOT
+export:         to AS21371 announce AS-ROOT
+export:         to AS21844 announce AS-ROOT
+export:         to AS22212 announce AS-ROOT
+export:         to AS22822 announce AS-ROOT
+export:         to AS23148 announce AS-ROOT
+export:         to AS24724 announce AS-ROOT
+export:         to AS24931 announce AS-ROOT
+export:         to AS24963 announce AS-ROOT
+export:         to AS25061 announce AS-ROOT
+export:         to AS25286 announce AS-ROOT
+export:         to AS25369 announce AS-ROOT
+export:         to AS25577 announce AS-ROOT
+export:         to AS27822 announce AS-ROOT
+export:         to AS28968 announce AS-ROOT
+export:         to AS29009 announce AS-ROOT
+export:         to AS29017 announce AS-ROOT
+export:         to AS29131 announce AS-ROOT
+export:         to AS29169 announce AS-ROOT
+export:         to AS29208 announce AS-ROOT
+export:         to AS29527 announce AS-ROOT
+export:         to AS29550 announce AS-ROOT
+export:         to AS29611 announce AS-ROOT
+export:         to AS29668 announce AS-ROOT
+export:         to AS30094 announce AS-ROOT
+export:         to AS30740 announce AS-ROOT
+export:         to AS30827 announce AS-ROOT
+export:         to AS30890 announce AS-ROOT
+export:         to AS30914 announce AS-ROOT
+export:         to AS31122 announce AS-ROOT
+export:         to AS31196 announce AS-ROOT
+export:         to AS31252 announce AS-ROOT
+export:         to AS31290 announce AS-ROOT
+export:         to AS31458 announce AS-ROOT
+export:         to AS31500 announce AS-ROOT
+export:         to AS31708 announce AS-ROOT
+export:         to AS31715 announce AS-ROOT
+export:         to AS32748 announce AS-ROOT
+export:         to AS32787 announce AS-ROOT
+export:         to AS32934 announce AS-ROOT
+export:         to AS33081 announce AS-ROOT
+export:         to AS33891 announce AS-ROOT
+export:         to AS34066 announce AS-ROOT
+export:         to AS34245 announce AS-ROOT
+export:         to AS34270 announce AS-ROOT
+export:         to AS34305 announce AS-ROOT
+export:         to AS34309 announce AS-ROOT
+export:         to AS34442 announce AS-ROOT
+export:         to AS34655 announce AS-ROOT
+export:         to AS34695 announce AS-ROOT
+export:         to AS34816 announce AS-ROOT
+export:         to AS35028 announce AS-ROOT
+export:         to AS35228 announce AS-ROOT
+export:         to AS35432 announce AS-ROOT
+export:         to AS35662 announce AS-ROOT
+export:         to AS35916 announce AS-ROOT
+export:         to AS36351 announce AS-ROOT
+export:         to AS36408 announce AS-ROOT
+export:         to AS36692 announce AS-ROOT
+export:         to AS36944 announce AS-ROOT
+export:         to AS37179 announce AS-ROOT
+export:         to AS38082 announce AS-ROOT
+export:         to AS39326 announce AS-ROOT
+export:         to AS40009 announce AS-ROOT
+export:         to AS41197 announce AS-ROOT
+export:         to AS41230 announce AS-ROOT
+export:         to AS41552 announce AS-ROOT
+export:         to AS42689 announce AS-ROOT
+export:         to AS43013 announce AS-ROOT
+export:         to AS44444 announce AS-ROOT
+export:         to AS44654 announce AS-ROOT
+export:         to AS46786 announce AS-ROOT
+export:         to AS47480 announce AS-ROOT
+export:         to AS48961 announce AS-ROOT
+export:         to AS49375 announce AS-ROOT
+export:         to AS50384 announce AS-ROOT
+export:         to AS51377 announce AS-ROOT
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS786 accept AS-JANETPLUS
+mp-import:      afi ipv6.unicast from AS2119 accept AS-TELENOR
+mp-import:      afi ipv6.unicast from AS2603 accept AS-NORDUNET
+mp-import:      afi ipv6.unicast from AS2611 accept AS-BELNET
+mp-import:      afi ipv6.unicast from AS2686 accept AS-IGNEMEA
+mp-import:      afi ipv6.unicast from AS3213 accept AS-BOGONS
+mp-import:      afi ipv6.unicast from AS3249 accept AS-ESTPAK
+mp-import:      afi ipv6.unicast from AS3303 accept AS-SWCMGLOBAL
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS4589 accept AS-EASYNET
+mp-import:      afi ipv6.unicast from AS4739 accept AS4739
+mp-import:      afi ipv6.unicast from AS4788 accept AS-4788
+mp-import:      afi ipv6.unicast from AS5410 accept AS-BOUYGTEL-ISP
+mp-import:      afi ipv6.unicast from AS5459 accept AS-LINX
+mp-import:      afi ipv6.unicast from AS5580 accept AS-ATRATO6
+mp-import:      afi ipv6.unicast from AS6661 accept AS-PTLU
+mp-import:      afi ipv6.unicast from AS6667 accept AS-EUNETIP
+mp-import:      afi ipv6.unicast from AS6730 accept AS-GLOBAL
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-import:      afi ipv6.unicast from AS7473 accept AS7473
+mp-import:      afi ipv6.unicast from AS8001 accept AS-NAC
+mp-import:      afi ipv6.unicast from AS8218 accept AS-NEOT6
+mp-import:      afi ipv6.unicast from AS8359 accept AS-MTU-V6
+mp-import:      afi ipv6.unicast from AS8422 accept AS-NETCOLOGNE
+mp-import:      afi ipv6.unicast from AS8426 accept AS-CLARANET
+mp-import:      afi ipv6.unicast from AS8468 accept AS-ENTANET
+mp-import:      afi ipv6.unicast from AS8551 accept AS-BEZEQINT
+mp-import:      afi ipv6.unicast from AS8560 accept AS-1AND1
+mp-import:      afi ipv6.unicast from AS8607 accept AS-TIMICO
+mp-import:      afi ipv6.unicast from AS8681 accept AS-JERSEYTELECOM
+mp-import:      afi ipv6.unicast from AS8708 accept AS-RDSNET6
+mp-import:      afi ipv6.unicast from AS8714 accept AS8714
+mp-import:      afi ipv6.unicast from AS8881 accept AS-VERSATEL-V6
+mp-import:      afi ipv6.unicast from AS8897 accept AS-MISTRAL
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-import:      afi ipv6.unicast from AS9009 accept AS-GBXS
+mp-import:      afi ipv6.unicast from AS9031 accept AS-EDPNET-V6
+mp-import:      afi ipv6.unicast from AS9044 accept AS-SOLNET
+mp-import:      afi ipv6.unicast from AS9121 accept AS-TTNET
+mp-import:      afi ipv6.unicast from AS11666 accept AS-NEXICOM
+mp-import:      afi ipv6.unicast from AS12008 accept AS12008
+mp-import:      afi ipv6.unicast from AS12322 accept AS-PROXAD
+mp-import:      afi ipv6.unicast from AS12389 accept AS-ROSTELECOM
+mp-import:      afi ipv6.unicast from AS12552 accept AS-IPO
+mp-import:      afi ipv6.unicast from AS12859 accept AS-BIT6
+mp-import:      afi ipv6.unicast from AS12989 accept AS-HIGHWINDS
+mp-import:      afi ipv6.unicast from AS13030 accept AS-INIT7
+mp-import:      afi ipv6.unicast from AS13193 accept AS-NERIM
+mp-import:      afi ipv6.unicast from AS13680 accept AS-HGTN
+mp-import:      afi ipv6.unicast from AS13768 accept AS13768:AS-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS16150 accept AS16150:AS-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS19151 accept AS-WVFIBER
+mp-import:      afi ipv6.unicast from AS20547 accept AS-UKS
+mp-import:      afi ipv6.unicast from AS21371 accept AS-EQUINIX-EU
+mp-import:      afi ipv6.unicast from AS24724 accept AS24724:AS-FOREIGN
+mp-import:      afi ipv6.unicast from AS24963 accept AS-YACAST
+mp-import:      afi ipv6.unicast from AS25061 accept AS-ANLX
+mp-import:      afi ipv6.unicast from AS25286 accept AS-IPERCAST
+mp-import:      afi ipv6.unicast from AS29169 accept AS-GANDI
+mp-import:      afi ipv6.unicast from AS29208 accept AS-DIALTELECOM
+mp-import:      afi ipv6.unicast from AS29527 accept AS-OTHELLOTECH
+mp-import:      afi ipv6.unicast from AS29611 accept AS-ELITE
+mp-import:      afi ipv6.unicast from AS30890 accept AS-EVOLVA6
+mp-import:      afi ipv6.unicast from AS31122 accept AS-DIGIWEB
+mp-import:      afi ipv6.unicast from AS31252 accept AS-STARNETV6
+mp-import:      afi ipv6.unicast from AS31458 accept AS-SMART
+mp-import:      afi ipv6.unicast from AS31708 accept AS-COREIX
+mp-import:      afi ipv6.unicast from AS32748 accept AS-STEADFAST
+mp-import:      afi ipv6.unicast from AS32934 accept AS32934
+mp-import:      afi ipv6.unicast from AS33081 accept AS33081
+mp-import:      afi ipv6.unicast from AS33891 accept AS-CORE-BACKBONE
+mp-import:      afi ipv6.unicast from AS34305 accept AS-EUROACCESS-V6
+mp-import:      afi ipv6.unicast from AS34309 accept AS-LINK11-V6
+mp-import:      afi ipv6.unicast from AS34695 accept AS34695:AS-TRANSIT
+mp-import:      afi ipv6.unicast from AS34816 accept AS-AEG
+mp-import:      afi ipv6.unicast from AS35028 accept AS-MULTIPLAY
+mp-import:      afi ipv6.unicast from AS36351 accept AS-SOFTLAYER
+mp-import:      afi ipv6.unicast from AS36692 accept AS-OPENDNS
+mp-import:      afi ipv6.unicast from AS37179 accept AS37179
+mp-import:      afi ipv6.unicast from AS38082 accept AS38082
+mp-import:      afi ipv6.unicast from AS39326 accept AS-GOSCOMB-V6
+mp-import:      afi ipv6.unicast from AS42689 accept AS-INUK
+mp-import:      afi ipv6.unicast from AS44444 accept AS-WHS-EU
+mp-import:      afi ipv6.unicast from AS44654 accept AS-MNS
+mp-import:      afi ipv6.unicast from AS50384 accept AS-W-IX-IPVSIX
+mp-import:      afi ipv6.unicast from AS51377 accept AS-BURSTNET
+mp-export:      afi ipv6.unicast to AS42 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS786 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2119 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2603 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2611 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS2686 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3213 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3249 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3303 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS3856 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS4589 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS4739 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS4788 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5410 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5459 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5580 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6661 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6667 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6730 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS7473 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8001 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8218 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8359 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8422 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8426 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8468 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8551 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8560 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8607 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8681 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8708 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8714 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8881 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8897 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9002 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9009 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9031 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9044 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9121 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS11666 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12008 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12322 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12389 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12552 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12859 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12989 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13030 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13193 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13680 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13768 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS16150 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS19151 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS20547 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS21371 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS24724 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS24963 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25061 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25286 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29169 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29208 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29527 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29611 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS30890 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31122 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31252 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31458 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31708 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS32748 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS32934 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS33081 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS33891 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34305 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34309 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34695 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34816 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS35028 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS36351 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS36692 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS37179 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS38082 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS39326 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS42689 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS44444 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS44654 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS50384 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS51377 announce AS-ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | PUBLIC PEERING - FRANCEIX |
+remarks:        | @ Paris / TeleHouse 2 |
+remarks:        | IPv4: 193.105.232.66 |
+remarks:        | IPv6: 2001:7F8:54::66 |
+remarks:        +------------------------------------+
+import:         from AS3303 accept AS-SWCMGLOBAL
+import:         from AS5410 accept AS-BOUYGTEL-ISP
+import:         from AS5580 accept AS-ATRATO
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS8068 accept AS-MICROSOFT
+import:         from AS8218 accept AS-NEOT
+import:         from AS8304 accept AS-ECRITEL
+import:         from AS8426 accept AS-CLARANET
+import:         from AS8560 accept AS-1AND1
+import:         from AS9002 accept AS-RETN
+import:         from AS9031 accept AS-EDPNET
+import:         from AS13237 accept AS-LAMBDANET
+import:         from AS15169 accept AS-GOOGLE
+import:         from AS16509 accept AS-AMAZON
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS22822 accept AS-LLNW
+import:         from AS24963 accept AS-YACAST
+import:         from AS29608 accept AS-W2MY
+import:         from AS31688 accept AS-SPLIO
+import:         from AS34006 accept AS34006
+import:         from AS34019 accept AS-HIVANE
+import:         from AS34695 accept AS34695:AS-TRANSIT
+import:         from AS35189 accept AS-KAZAR
+import:         from AS39326 accept AS-GOSCOMB
+import:         from AS44141 accept AS-DEVCLIC
+import:         from AS44788 accept AS-CRITEO-EU
+export:         to AS3303 announce AS-ROOT
+export:         to AS5410 announce AS-ROOT
+export:         to AS5580 announce AS-ROOT
+export:         to AS6939 announce AS-ROOT
+export:         to AS8068 announce AS-ROOT
+export:         to AS8218 announce AS-ROOT
+export:         to AS8304 announce AS-ROOT
+export:         to AS8426 announce AS-ROOT
+export:         to AS8560 announce AS-ROOT
+export:         to AS9002 announce AS-ROOT
+export:         to AS9031 announce AS-ROOT
+export:         to AS13237 announce AS-ROOT
+export:         to AS15169 announce AS-ROOT
+export:         to AS16509 announce AS-ROOT
+export:         to AS20940 announce AS-ROOT
+export:         to AS22822 announce AS-ROOT
+export:         to AS24963 announce AS-ROOT
+export:         to AS29608 announce AS-ROOT
+export:         to AS31688 announce AS-ROOT
+export:         to AS34006 announce AS-ROOT
+export:         to AS34019 announce AS-ROOT
+export:         to AS34695 announce AS-ROOT
+export:         to AS35189 announce AS-ROOT
+export:         to AS39326 announce AS-ROOT
+export:         to AS44141 announce AS-ROOT
+export:         to AS44788 announce AS-ROOT
+mp-import:      afi ipv6.unicast from AS3303 accept AS-SWCMGLOBAL
+mp-import:      afi ipv6.unicast from AS5410 accept AS-BOUYGTEL-ISP
+mp-import:      afi ipv6.unicast from AS5580 accept AS-ATRATO6
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-import:      afi ipv6.unicast from AS8218 accept AS-NEOT6
+mp-import:      afi ipv6.unicast from AS8426 accept AS-CLARANET
+mp-import:      afi ipv6.unicast from AS8560 accept AS-1AND1
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-import:      afi ipv6.unicast from AS9031 accept AS-EDPNET-V6
+mp-import:      afi ipv6.unicast from AS13237 accept AS-LAMBDANET
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-import:      afi ipv6.unicast from AS24963 accept AS-YACAST
+mp-import:      afi ipv6.unicast from AS31688 accept AS-SPLIO
+mp-import:      afi ipv6.unicast from AS34006 accept AS34006
+mp-import:      afi ipv6.unicast from AS34019 accept AS-HIVANE
+mp-import:      afi ipv6.unicast from AS34695 accept AS34695:AS-TRANSIT
+mp-import:      afi ipv6.unicast from AS35189 accept AS-KAZAR
+mp-import:      afi ipv6.unicast from AS39326 accept AS-GOSCOMB-V6
+mp-import:      afi ipv6.unicast from AS44788 accept AS-CRITEO-EU
+mp-export:      afi ipv6.unicast to AS3303 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5410 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5580 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8218 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8426 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8560 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9002 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS9031 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13237 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS15169 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS24963 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31688 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34006 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34019 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34695 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS35189 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS39326 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS44788 announce AS-ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | PUBLIC PEERING - EQUINIX-PARIS |
+remarks:        | @ Paris / TeleHouse 2 |
+remarks:        | IPv4: 195.42.144.115 |
+remarks:        | IPv6: 2001:7F8:43::5577:1 |
+remarks:        +------------------------------------+
+import:         from AS4651 accept AS-THIX
+import:         from AS5580 accept AS-ATRATO
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS8426 accept AS-CLARANET
+import:         from AS8554 accept AS-TAS
+import:         from AS12350 accept AS-VTX
+import:         from AS12989 accept AS-HIGHWINDS
+import:         from AS13030 accept AS-INIT7
+import:         from AS15422 accept AS-PPR
+import:         from AS15826 accept AS-NFRANCE
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS25358 accept AS-NOVSO
+import:         from AS29075 accept AS-IELO
+import:         from AS29169 accept AS-GANDI
+import:         from AS31688 accept AS-SPLIO
+import:         from AS34006 accept AS34006
+import:         from AS35625 accept AS-ATE
+import:         from AS36408 accept AS-PANTHER
+import:         from AS37958 accept AS37958
+import:         from AS39326 accept AS-GOSCOMB
+import:         from AS43100 accept AS43100:AS-MEMBERS
+import:         from AS44444 accept AS-WHS-EU
+import:         from AS47841 accept AS47841
+import:         from AS50234 accept AS-EULERIAN
+import:         from AS50620 accept AS-BLUENETECH
+import:         from AS50858 accept AS50858
+export:         to AS4651 announce AS-ROOT
+export:         to AS5580 announce AS-ROOT
+export:         to AS6939 announce AS-ROOT
+export:         to AS8426 announce AS-ROOT
+export:         to AS8554 announce AS-ROOT
+export:         to AS12350 announce AS-ROOT
+export:         to AS12989 announce AS-ROOT
+export:         to AS13030 announce AS-ROOT
+export:         to AS15422 announce AS-ROOT
+export:         to AS15826 announce AS-ROOT
+export:         to AS20940 announce AS-ROOT
+export:         to AS25358 announce AS-ROOT
+export:         to AS29075 announce AS-ROOT
+export:         to AS29169 announce AS-ROOT
+export:         to AS31688 announce AS-ROOT
+export:         to AS34006 announce AS-ROOT
+export:         to AS35625 announce AS-ROOT
+export:         to AS36408 announce AS-ROOT
+export:         to AS37958 announce AS-ROOT
+export:         to AS39326 announce AS-ROOT
+export:         to AS43100 announce AS-ROOT
+export:         to AS44444 announce AS-ROOT
+export:         to AS47841 announce AS-ROOT
+export:         to AS50234 announce AS-ROOT
+export:         to AS50620 announce AS-ROOT
+export:         to AS50858 announce AS-ROOT
+mp-import:      afi ipv6.unicast from AS4651 accept AS-THIX
+mp-import:      afi ipv6.unicast from AS5580 accept AS-ATRATO6
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-import:      afi ipv6.unicast from AS8426 accept AS-CLARANET
+mp-import:      afi ipv6.unicast from AS8554 accept AS-TAS
+mp-import:      afi ipv6.unicast from AS12989 accept AS-HIGHWINDS
+mp-import:      afi ipv6.unicast from AS13030 accept AS-INIT7
+mp-import:      afi ipv6.unicast from AS15826 accept AS-NFRANCE
+mp-import:      afi ipv6.unicast from AS25358 accept AS-NOVSO
+mp-import:      afi ipv6.unicast from AS29075 accept AS-IELO
+mp-import:      afi ipv6.unicast from AS29169 accept AS-GANDI
+mp-import:      afi ipv6.unicast from AS31688 accept AS-SPLIO
+mp-import:      afi ipv6.unicast from AS34006 accept AS34006
+mp-import:      afi ipv6.unicast from AS35625 accept AS-ATE
+mp-import:      afi ipv6.unicast from AS39326 accept AS-GOSCOMB-V6
+mp-import:      afi ipv6.unicast from AS43100 accept AS43100:AS-MEMBERS
+mp-import:      afi ipv6.unicast from AS44444 accept AS-WHS-EU
+mp-import:      afi ipv6.unicast from AS50234 accept AS-EULERIAN
+mp-import:      afi ipv6.unicast from AS50620 accept AS-BLUENETECH
+mp-export:      afi ipv6.unicast to AS4651 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS5580 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8426 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS8554 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12989 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS13030 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS15826 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS25358 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29075 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS29169 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS31688 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS34006 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS35625 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS39326 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS43100 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS44444 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS50234 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS50620 announce AS-ROOT
+remarks:
+remarks:        +------------------------------------+
+remarks:        | PUBLIC PEERING - ECIX-DUSSELDORF |
+remarks:        | @ D?sseldorf / InterXion |
+remarks:        | IPv4: 194.146.118.98 |
+remarks:        | IPv6: 2001:7F8:8::15C9:0:1 |
+remarks:        +------------------------------------+
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS12329 accept AS-TMR
+import:         from AS22822 accept AS-LLNW
+export:         to AS6939 announce AS-ROOT
+export:         to AS12329 announce AS-ROOT
+export:         to AS22822 announce AS-ROOT
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-import:      afi ipv6.unicast from AS12329 accept AS-TMR-V6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ROOT
+mp-export:      afi ipv6.unicast to AS12329 announce AS-ROOT
+remarks:
+remarks:
+remarks:        --------------------------------------------------------------
+remarks:        ---( Contacts )-----------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:
+remarks:        Peering Requests: ......................... peering@as5577.net
+remarks:        Abuse & Spam Reports: ....................... abuse@as5577.net
+remarks:        Network & Operational Issues: ................. noc@as5577.net
+remarks:
+remarks:        --------------------------------------------------------------
+remarks:        ---( Useful Data )--------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:
+remarks:        Looking Glass: .......................... http://lg.as5577.net
+remarks:        BGP Communities: ....................... http://bgp.as5577.net
+remarks:        Route Server: ......................... telnet://rs.as5577.net
+remarks:        Peering Information: ............. http://as5577.peeringdb.com
+remarks:
+remarks:        --------------------------------------------------------------
+remarks:        ---( Last Update: Thu, Feb 16 2012 @ 18:02:45 CET )-----------
+remarks:        --------------------------------------------------------------
+remarks:
+remarks:
+admin-c:        ROOT5-RIPE
+tech-c:         ROOT5-RIPE
+org:            ORG-RE8-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ROOT-MNT
+created:        2009-05-15T09:45:00Z
+last-modified:  2018-11-30T09:51:00Z
+source:         RIPE # Filtered
+
+organisation:   ORG-RE8-RIPE
+org-name:       root SA
+country:        LU
+org-type:       LIR
+address:        3, op der Poukewiss
+address:        7795
+address:        Roost - Bissen
+address:        LUXEMBOURG
+phone:          +35220500500
+fax-no:         +35220500900
+admin-c:        MARC6-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ROOT-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ROOT-MNT
+abuse-c:        RE655-RIPE
+created:        2007-11-05T13:04:52Z
+last-modified:  2020-12-16T12:42:17Z
+source:         RIPE # Filtered
+
+person:         ROOT IP Manager
+address:        3, op der Poukewiss
+address:        7795 Roost
+address:        Luxembourg
+phone:          +35220500500
+fax-no:         +35220500900
+nic-hdl:        ROOT5-RIPE
+mnt-by:         ROOT-MNT
+created:        2015-06-16T16:35:19Z
+last-modified:  2017-10-30T22:51:51Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          83.243.8.0/21
+descr:          root SA
+origin:         AS5577
+mnt-by:         ROOT-MNT
+notify:         noc@as5577.net
+created:        2009-10-19T07:44:58Z
+last-modified:  2010-05-19T11:43:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.243.8.0/21
+descr:          root SA
+origin:         AS5577
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        sao@iptransit.com 20161118  #11:28:06Z
+source:         RADB
+last-modified:  2023-11-13T15:49:57Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.243.8.0/24
+origin:         AS5577
+descr:          root SA
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20200827  #16:28:06Z
+source:         RADB
+last-modified:  2023-11-13T16:01:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.243.9.0/24
+origin:         AS5577
+descr:          root SA
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20200827  #16:28:06Z
+source:         RADB
+last-modified:  2023-11-13T16:01:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.243.10.0/24
+origin:         AS5577
+descr:          root SA
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20200827  #16:28:06Z
+source:         RADB
+last-modified:  2023-11-13T16:01:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.243.11.0/24
+origin:         AS5577
+descr:          root SA
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20200827  #16:28:06Z
+source:         RADB
+last-modified:  2023-11-13T16:01:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.243.12.0/24
+origin:         AS5577
+descr:          root SA
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20200827  #16:28:06Z
+source:         RADB
+last-modified:  2023-11-13T16:01:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.243.13.0/24
+origin:         AS5577
+descr:          root SA
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20200827  #16:28:06Z
+source:         RADB
+last-modified:  2023-11-13T16:01:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.243.14.0/24
+origin:         AS5577
+descr:          root SA
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20200827  #16:28:06Z
+source:         RADB
+last-modified:  2023-11-13T16:01:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.243.15.0/24
+origin:         AS5577
+descr:          root SA
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20200827  #16:28:06Z
+source:         RADB
+last-modified:  2023-11-13T16:01:35Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.5.45.0/24
+descr:          Netalia IP Range
+origin:         AS5577
+mnt-by:         ROOT-MNT
+created:        2013-03-22T13:11:55Z
+last-modified:  2013-03-22T13:11:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.68.32.0/24
+descr:          root SA
+origin:         AS5577
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        sao@iptransit.com 20161118  #11:28:06Z
+source:         RADB
+last-modified:  2023-11-13T15:49:57Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.24.72.0/21
+descr:          root SA
+origin:         AS5577
+mnt-by:         ROOT-MNT
+notify:         noc@as5577.net
+created:        2009-10-19T07:44:57Z
+last-modified:  2010-05-19T11:47:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.24.72.0/21
+descr:          root SA
+origin:         AS5577
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        sao@iptransit.com 20161118  #11:28:06Z
+source:         RADB
+last-modified:  2023-11-13T15:49:57Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.26.4.0/23
+descr:          root SA
+origin:         AS5577
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        sao@iptransit.com 20161118  #11:28:06Z
+source:         RADB
+last-modified:  2023-11-13T15:49:57Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.26.4.0/23
+descr:          root SA
+origin:         AS5577
+mnt-by:         ROOT-MNT
+notify:         noc@as5577.net
+created:        2009-10-19T07:36:39Z
+last-modified:  2010-05-19T11:47:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.28.160.0/23
+origin:         AS5577
+descr:          root SA CUSTOMER
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20190524  #08:48:35Z
+source:         RADB
+last-modified:  2023-11-13T15:56:25Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          198.175.15.0/24
+origin:         AS5577
+descr:          Testing purposes
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20201214  #02:14:50Z
+source:         RADB
+last-modified:  2023-11-13T16:03:08Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:15a3::/48
+descr:          Excello s.r.o.
+origin:         AS5577
+mnt-by:         ROOT-MNT
+notify:         noc@as5577.net
+created:        2013-06-03T09:24:25Z
+last-modified:  2013-06-03T09:24:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:15a3::/48
+descr:          root SA
+origin:         AS5577
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        sao@iptransit.com 20161118  #11:28:06Z
+source:         RADB
+last-modified:  2023-11-13T15:49:57Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a01:608::/32
+descr:          root SA
+origin:         AS5577
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        sao@iptransit.com 20161118  #11:28:06Z
+source:         RADB
+last-modified:  2023-11-13T15:49:57Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a01:608::/32
+descr:          root SA
+origin:         AS5577
+mnt-by:         ROOT-MNT
+notify:         noc@as5577.net
+created:        2009-11-20T14:44:23Z
+last-modified:  2011-01-06T20:40:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a0e:1b40::/29
+origin:         AS5577
+descr:          root SA
+admin-c:        BK5536-RIPE
+tech-c:         KV1670-RIPE
+mnt-by:         MAINT-AS46786
+changed:        noc@iptransit.com 20191024  #11:37:09Z
+source:         RADB
+last-modified:  2023-11-13T15:58:33Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

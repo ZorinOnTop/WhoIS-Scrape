@@ -1,0 +1,478 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5387'
+
+% Abuse contact for 'AS5387' is 'abuse@ct-consulting.ru'
+
+aut-num:        AS5387
+as-name:        NSC
+remarks:        Akademgorodok Internet Project
+remarks:        Siberian Branch of Russian Academy of Sciences and
+remarks:        International Science Foundation
+remarks:        Novosibirsk, Russia
+org:            ORG-TCL93-RIPE
+remarks:
+remarks:
+remarks:        =====================================================
+remarks:        IPv4 Routing Policy
+remarks:        =====================================================
+remarks:        -----------------------------------------------------
+remarks:        UPSTREAM
+remarks:        -----------------------------------------------------
+import:         from AS48858 action pref=50; accept ANY;
+export:         to AS48858 announce AS-NSC-SET;
+import:         from AS20485 action pref=50; accept ANY;
+export:         to AS20485 announce AS-NSC-SET;
+import:         from AS56405 action pref=50; accept ANY;
+export:         to AS56405 announce AS-NSC-SET;
+import:         from AS43314 action pref=50; accept ANY;
+export:         to AS43314 announce AS-NSC-SET;
+remarks:        -----------------------------------------------------
+remarks:        CUSTOMERS
+remarks:        -----------------------------------------------------
+import:         from AS43552 action pref=250; accept AS43552;
+export:         to AS43552 announce ANY;
+remarks:        -----------------------------------------------------
+remarks:        PRIVATE PEERS
+remarks:        -----------------------------------------------------
+import:         from AS21127 action pref=100; accept AS-ZSTTK-SET;
+export:         to AS21127 announce AS-NSC-SET;
+import:         from AS34017 action pref=250; accept AS34017;
+export:         to AS34017 announce AS-NSC-IX-SET;
+import:         from AS3058 action pref=250; accept AS-RASNET;
+export:         to AS3058 announce AS-NSC-IX-SET;
+import:         from AS3335 action pref=250; accept AS3335;
+export:         to AS3335 announce AS-NSC-IX-SET;
+import:         from AS8506 action pref=250; accept AS8506;
+export:         to AS8506 announce AS-NSC-IX-SET;
+remarks:        -----------------------------------------------------
+remarks:        PEERING AT NSK-IX
+remarks:        -----------------------------------------------------
+import:         { from AS3267 action pref=100; accept AS-RUNNET; from AS8711 action pref=100; accept AS-MAGTEL; from AS9107 action pref=100; accept AS-CIS; from AS13238 action pref=100; accept AS-YANDEX; from AS21311 action pref=100; accept AS21311; from AS31200 action pref=100; accept AS-RUNTK-SET; from AS31738 action pref=100; accept AS-NSTU; from AS34757 action pref=100; accept AS-SIBSET; from AS41440 action pref=100; accept AS-SIBNET; from AS42403 action pref=100; accept AS-NSKROUTESERVER; from AS44310 action pref=100; accept AS44310; }
+export:         { to AS3267 announce AS-NSC-NSKIX-SET; to AS8711 announce AS-NSC-NSKIX-SET; to AS9107 announce AS-NSC-NSKIX-SET; to AS13238 announce AS-NSC-NSKIX-SET; to AS21311 announce AS-NSC-NSKIX-SET; to AS31200 announce AS-NSC-NSKIX-SET; to AS31738 announce AS-NSC-NSKIX-SET; to AS34757 announce AS-NSC-NSKIX-SET; to AS41440 announce AS-NSC-NSKIX-SET; to AS42403 announce AS-NSC-NSKIX-SET; to AS44310 announce AS-NSC-NSKIX-SET; }
+remarks:
+remarks:
+remarks:        =====================================================
+remarks:        IPv6 Routing Policy
+remarks:        =====================================================
+remarks:        -----------------------------------------------------
+remarks:        UPSTREAM
+remarks:
+remarks:        -----------------------------------------------------
+mp-import:      afi ipv6.unicast from AS20485 action pref=50; accept ANY;
+mp-export:      afi ipv6.unicast to AS20485 announce AS-NSC6-SET;
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        PRIVATE PEERS
+remarks:        -----------------------------------------------------
+mp-import:      afi ipv6.unicast from AS21127 action pref=100; accept AS-ZSTTK6-SET;
+mp-export:      afi ipv6.unicast to AS21127 announce AS-NSC6-SET;
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        PEERING AT NSK-IX
+remarks:        -----------------------------------------------------
+mp-import:      afi ipv6.unicast from AS42403 action pref=100; accept AS-NSKROUTESERVER;
+mp-export:      afi ipv6.unicast to AS42403 announce AS-NSC6-SET;
+remarks:
+remarks:
+admin-c:        AG28623-RIPE
+tech-c:         AG28623-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         CT-C-MNT
+created:        2002-01-23T12:22:01Z
+last-modified:  2025-07-01T05:35:47Z
+source:         RIPE # Filtered
+
+organisation:   ORG-TCL93-RIPE
+org-name:       "Computational technologies - consulting" LLC
+country:        RU
+org-type:       LIR
+address:        Ilicha st., 6, p.o. box 15
+address:        630090
+address:        Novosibirsk
+address:        RUSSIAN FEDERATION
+phone:          +79139017787
+admin-c:        AG28623-RIPE
+tech-c:         AG28623-RIPE
+abuse-c:        AR78005-RIPE
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         CT-C-MNT
+created:        2025-03-29T03:30:42Z
+last-modified:  2025-04-10T12:15:24Z
+source:         RIPE # Filtered
+mnt-ref:        CT-C-MNT
+
+role:           Andrei Gavenko
+address:        RUSSIAN FEDERATION
+address:        Novosibirsk
+address:        630090
+address:        Ilicha st., 6, p.o. box 15
+phone:          +79139017787
+nic-hdl:        AG28623-RIPE
+mnt-by:         lir-ru-ct-c-1-MNT
+created:        2025-03-29T03:30:41Z
+last-modified:  2025-04-10T12:29:54Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          84.237.0.0/17
+descr:          NSCNET-4
+descr:          RU.SBRAS address space for regional networks
+origin:         AS5387
+notify:         noc@nsc.ru
+mnt-by:         CT-C-MNT
+created:        2004-12-03T08:39:29Z
+last-modified:  2025-06-28T12:00:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.16.0/20
+descr:          Irkutsk Scientific Center SB RAS
+origin:         AS5387
+notify:         noc@sbras.ru
+notify:         taras@icc.ru
+mnt-by:         CT-C-MNT
+mnt-routes:     ISDCT-MNT-RIPE
+mnt-lower:      ISDCT-MNT-RIPE
+created:        2009-03-31T04:20:38Z
+last-modified:  2025-06-28T12:04:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.32.0/24
+descr:          Barnaul SC SB RAS
+origin:         AS5387
+notify:         noc@sbras.ru
+mnt-by:         CT-C-MNT
+created:        2010-03-31T07:26:51Z
+last-modified:  2025-06-28T12:04:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.33.0/24
+descr:          Kemerovo SC SB RAS
+origin:         AS5387
+notify:         noc@sbras.ru
+mnt-by:         CT-C-MNT
+created:        2010-03-31T07:26:36Z
+last-modified:  2025-06-28T12:04:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.40.0/22
+descr:          Budker Institute of Nuclear Physics
+descr:          Siberian Branch of Russian Academy of Sciences
+descr:          Novosibirsk, Russia
+origin:         AS5387
+mnt-by:         CT-C-MNT
+mnt-routes:     BINP-MNT
+mnt-lower:      BINP-MNT
+notify:         noc@sbras.ru
+notify:         belov@inp.nsk.su
+created:        2011-11-23T04:33:33Z
+last-modified:  2025-06-28T12:06:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.62.0/24
+descr:          NSC-NET-6
+origin:         AS5387
+mnt-by:         CT-C-MNT
+created:        2014-12-15T08:00:58Z
+last-modified:  2025-06-28T12:07:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.63.0/24
+descr:          nsc-84.237.63.0
+origin:         AS5387
+mnt-by:         CT-C-MNT
+notify:         noc@sbras.ru
+created:        2012-12-27T06:48:35Z
+last-modified:  2025-06-28T12:07:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.64.0/20
+descr:          NSCNET-4.7
+descr:          RU.SBRAS
+origin:         AS5387
+notify:         noc@sbras.ru
+mnt-by:         CT-C-MNT
+created:        2011-05-20T09:18:43Z
+last-modified:  2025-06-28T12:09:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.80.0/20
+descr:          NSCNET-4.6
+descr:          RU.SBRAS
+origin:         AS5387
+notify:         noc@sbras.ru
+mnt-by:         CT-C-MNT
+created:        2010-05-19T05:40:31Z
+last-modified:  2025-06-28T12:10:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.104.0/21
+descr:          Institute of Cosmophysical Research and Aeronomy
+descr:          Siberian Branch of Russian Academy of Science
+descr:          Maintainer of Yakutsk Scientific Centre Network
+descr:          31 Lenin Ave., 677980, Yakutsk, Russia
+origin:         AS5387
+notify:         noc@sbras.ru
+mnt-by:         CT-C-MNT
+created:        2010-03-26T03:35:39Z
+last-modified:  2025-06-28T12:02:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.112.0/22
+descr:          Tyumen scientific centre SB RAS
+descr:          Tyumen, Russia
+origin:         AS5387
+notify:         noc@sbras.ru
+mnt-by:         CT-C-MNT
+created:        2009-04-03T06:26:42Z
+last-modified:  2025-06-28T12:02:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.116.0/22
+descr:          NSCNET-4.8.b
+descr:          RU.SBRAS
+origin:         AS5387
+notify:         noc@sbras.ru
+mnt-by:         CT-C-MNT
+created:        2010-05-19T05:40:49Z
+last-modified:  2025-06-28T12:03:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.237.122.0/23
+descr:          NSCNET-4.8.c
+descr:          RU.SBRAS
+origin:         AS5387
+notify:         noc@sbras.ru
+mnt-by:         CT-C-MNT
+created:        2010-05-19T05:41:05Z
+last-modified:  2025-06-28T12:04:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.85.127.0/24
+descr:          KINET
+origin:         AS5387
+mnt-by:         ROSNIIROS-MNT
+created:        2023-01-19T06:51:22Z
+last-modified:  2023-01-19T06:51:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.79.48.0/22
+descr:          Krasnoyarsk scientific centre SB RAS
+origin:         AS5387
+notify:         noc@sbras.ru
+notify:         noc@krasn.ru
+mnt-by:         CT-C-MNT
+mnt-routes:     KRSC-MNT
+mnt-lower:      KRSC-MNT
+created:        2009-03-31T04:54:53Z
+last-modified:  2025-06-28T11:57:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.79.52.0/22
+descr:          OMSK-SBRAS
+origin:         AS5387
+notify:         noc@nsc.ru
+notify:         noc@okno.ru
+mnt-by:         CT-C-MNT
+created:        2004-02-19T05:11:37Z
+last-modified:  2025-06-28T11:58:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.79.58.0/23
+origin:         AS5387
+mnt-by:         CT-C-MNT
+created:        2017-07-17T03:02:04Z
+last-modified:  2025-06-28T11:59:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.79.60.0/22
+descr:          NSC BB
+origin:         AS5387
+mnt-by:         CT-C-MNT
+notify:         noc@sbras.ru
+created:        2012-04-06T04:17:56Z
+last-modified:  2025-06-28T11:59:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:bf00::/32
+descr:          RU-SBRAS-20110217
+origin:         AS5387
+mnt-by:         CT-C-MNT
+created:        2011-02-21T05:44:32Z
+last-modified:  2025-06-28T12:43:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

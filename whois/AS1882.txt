@@ -1,0 +1,109 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS1877 - AS1903'
+
+as-block:       AS1877 - AS1903
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:14Z
+last-modified:  2018-11-22T15:27:14Z
+source:         RIPE
+
+% Information related to 'AS1882'
+
+% Abuse contact for 'AS1882' is 'abuse@stupi.se'
+
+aut-num:        AS1882
+as-name:        STUPI
+org:            ORG-STPA1-RIPE
+remarks:        STUPI-NET UUnet Peering
+import:         from AS1883
+                action pref=200;
+                accept AS1755 AS1653 AS1257 AS1883 AS1880 AS1881
+import:         from AS1880
+                action pref=100;
+                accept AS1755 AS1653 AS1257 AS1883 AS1880 AS1881
+export:         to AS1883
+                announce ANY
+export:         to AS1880
+                announce ANY
+default:        to AS1880
+                action pref=100;
+                networks AS1755 AS690
+default:        to AS1883
+                action pref=200;
+                networks AS1755 AS690
+admin-c:        US465-RIPE        # was 'Ulla Sandberg'
+tech-c:         US465-RIPE        # was 'Ulla Sandberg'
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         STUPI-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:12:34Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-SA58-RIPE
+
+organisation:   ORG-STPA1-RIPE
+org-name:       Svensk Teleutveckling & Produktinnovation, STUPI AB
+country:        SE
+org-type:       OTHER
+descr:          STUPI LLC
+address:        Anders Reimers Vag 17, 2tr
+address:        c/o Sanberg, unit 1303
+address:        S-117 50 Stockholm
+admin-c:        LPL43-RIPE
+admin-c:        LPL
+tech-c:         LPL43-RIPE
+tech-c:         LPL
+abuse-c:        SAR138-RIPE
+mnt-ref:        SUNET-MNT
+mnt-by:         SUNET-MNT
+created:        2010-02-08T17:02:13Z
+last-modified:  2025-05-16T13:05:03Z
+source:         RIPE # Filtered
+
+person:         Ulla Sandberg
+remarks:        This object has been created in
+remarks:        an automated process of replacing
+remarks:        all inconsistent references with
+remarks:        valid references. For more information,
+remarks:        please see http://www.ripe.net/db/refs-by-name-cleanup.html
+remarks:        The NIC handle of this object will
+remarks:        replace the reference 'Ulla Sandberg'.
+address:        No Address     # unknown address
+phone:          +00 00         # unknown phone number
+nic-hdl:        US465-RIPE
+mnt-by:         RIPE-NCC-AN-MNT
+created:        2003-01-16T12:07:49Z
+last-modified:  2003-01-16T12:07:49Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          192.36.42.0/24
+descr:          NREN-CUST
+origin:         AS1882
+mnt-by:         SUNET-MNT
+created:        2022-01-27T14:13:01Z
+last-modified:  2022-01-27T14:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

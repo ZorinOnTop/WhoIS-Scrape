@@ -1,0 +1,310 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15835 - AS15963'
+
+as-block:       AS15835 - AS15963
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15930'
+
+% Abuse contact for 'AS15930' is 'support@wipline.ru'
+
+aut-num:        AS15930
+as-name:        WIPLINE-AS
+org:            ORG-WC6-RIPE
+admin-c:        RUS123-RIPE
+admin-c:        ENK37-RIPE
+tech-c:         RUS123-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         ENK37-RIPE
+mnt-by:         WPL-MNT
+created:        2006-07-25T08:45:06Z
+last-modified:  2020-06-16T10:06:21Z
+source:         RIPE
+import:         from AS8631 accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-SET-WPL
+import:         from AS43727 accept ANY
+export:         to AS43727 announce AS-SET-WPL
+import:         from AS31133 accept ANY
+export:         to AS31133 announce AS-SET-WPL
+import:         from AS3216 accept ANY
+export:         to AS3216 announce AS-SET-WPL
+import:         from AS12389 accept ANY
+export:         to AS12389 announce AS-SET-WPL
+import:         from AS48366 accept AS-SETInforoom
+export:         to AS48366 announce ANY
+mp-import:      afi ipv6 from AS43727 action pref=300; accept ANY
+mp-export:      afi ipv6 to AS43727 announce AS-SET-WPL
+mp-import:      afi ipv6 from AS3216 action pref=300; accept ANY
+mp-export:      afi ipv6 to AS3216 announce AS-SET-WPL
+mp-import:      afi ipv6 from AS6939 action aspath.prepend(AS15930,AS15930); accept ANY
+mp-export:      afi ipv6 to AS6939 announce AS-SET-WPL
+
+organisation:   ORG-WC6-RIPE
+org-name:       WIPLINE, LLC
+country:        RU
+org-type:       LIR
+address:        Moskovsky Prospect 97
+address:        394077
+address:        Voronezh
+address:        RUSSIAN FEDERATION
+phone:          +7 4732 399911
+phone:          +7 4732 399912
+phone:          +7 4732 748616
+phone:          +7 4732 748854
+fax-no:         +7 4732 748616
+admin-c:        RUS123-RIPE
+admin-c:        ENK37-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        WPL-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         WPL-MNT
+abuse-c:        WD1154-RIPE
+created:        2006-07-17T10:11:05Z
+last-modified:  2020-12-16T12:21:06Z
+source:         RIPE # Filtered
+
+person:         Eugene N Khabarov
+address:        Moskovsky pr., 97, Voronezh, Russia, 394077
+phone:          +7 4732 748854
+phone:          +7 4732 748616
+phone:          +7 4732 522522
+fax-no:         +7 4732 748616
+nic-hdl:        ENK37-RIPE
+mnt-by:         WPL-MNT
+created:        2007-06-15T10:05:44Z
+last-modified:  2017-10-30T21:55:31Z
+source:         RIPE # Filtered
+
+person:         Ruslan V Denisov
+address:        Moskovsky pr., 97, Voronezh, Russia, 394077
+phone:          +7 4732 748854
+phone:          +7 4732 748616
+phone:          +7 4732 522522
+phone:          +7 4732 399911
+phone:          +7 4732 399912
+fax-no:         +7 4732 748616
+nic-hdl:        RUS123-RIPE
+mnt-by:         WPL-MNT
+created:        2009-09-14T10:55:28Z
+last-modified:  2017-10-30T22:06:31Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          89.18.128.0/19
+descr:          WIPLINE, Corp.
+origin:         AS15930
+notify:         khabarov@wipline.ru
+notify:         denisov-rv@wipline.ru
+mnt-by:         WPL-MNT
+remarks:        major blocks
+created:        2006-08-14T09:49:03Z
+last-modified:  2015-07-14T14:34:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.128.0/21
+descr:          WIPLINE, Corp.
+origin:         AS15930
+notify:         denisov-rv@wipline.ru
+notify:         khabarov@wipline.ru
+mnt-by:         WPL-MNT
+created:        2009-02-25T14:52:11Z
+last-modified:  2009-09-14T11:04:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.136.0/21
+descr:          WIPLINE, Corp.
+origin:         AS15930
+notify:         denisov-rv@wipline.ru
+notify:         khabarov@wipline.ru
+mnt-by:         WPL-MNT
+created:        2009-02-25T14:52:46Z
+last-modified:  2009-09-14T11:06:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.143.0/24
+descr:          WIPLINE, Corp.
+origin:         AS15930
+notify:         denisov-rv@wipline.ru
+notify:         khabarov@wipline.ru
+mnt-by:         WPL-MNT
+created:        2019-04-13T13:29:38Z
+last-modified:  2019-04-13T13:29:38Z
+source:         RIPE
+remarks:
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.144.0/21
+descr:          WIPLINE, Corp.
+origin:         AS15930
+notify:         denisov-rv@wipline.ru
+notify:         khabarov@wipline.ru
+mnt-by:         WPL-MNT
+created:        2009-02-25T14:53:19Z
+last-modified:  2009-09-14T11:16:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.152.0/21
+descr:          WIPLINE, Corp.
+origin:         AS15930
+notify:         denisov-rv@wipline.ru
+notify:         khabarov@wipline.ru
+mnt-by:         WPL-MNT
+created:        2009-02-25T14:53:42Z
+last-modified:  2009-09-14T11:18:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.156.0/24
+descr:          WIPLINE, Corp.
+origin:         AS15930
+notify:         denisov-rv@wipline.ru
+notify:         khabarov@wipline.ru
+mnt-by:         WPL-MNT
+created:        2019-04-15T19:21:08Z
+last-modified:  2019-04-15T19:21:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.18.159.0/24
+descr:          WIPLINE, Corp. PPPOE-pool ple
+origin:         AS15930
+notify:         khabarov@wipline.ru
+notify:         denisov-rv@wipline.ru
+mnt-by:         WPL-MNT
+created:        2014-06-10T13:18:54Z
+last-modified:  2014-06-10T13:18:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.24.180.0/22
+descr:          WIPLINE, Corp.
+origin:         AS15930
+notify:         denisov-rv@wipline.ru
+notify:         khabarov@wipline.ru
+mnt-by:         WPL-MNT
+created:        2013-04-23T11:31:08Z
+last-modified:  2013-04-23T11:31:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.24.180.0/24
+descr:          WIPLINE, Corp.
+origin:         AS15930
+notify:         denisov-rv@wipline.ru
+notify:         khabarov@wipline.ru
+mnt-by:         WPL-MNT
+created:        2017-01-30T19:08:44Z
+last-modified:  2017-01-30T19:08:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:65a0::/32
+descr:          WIPLINE, LLC.
+origin:         AS15930
+notify:         khabarov@wipline.ru
+notify:         denisov-rv@wipline.ru
+mnt-by:         WPL-MNT
+created:        2015-02-13T14:57:49Z
+last-modified:  2015-02-13T14:57:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

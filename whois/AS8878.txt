@@ -1,0 +1,302 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8878'
+
+% Abuse contact for 'AS8878' is 'abuse@nfon.com'
+
+aut-num:        AS8878
+as-name:        NFON-AS
+org:            ORG-nA340-RIPE
+remarks:        +----------------------------------------+
+remarks:        | transit uplinks |
+remarks:        +----------------------------------------+
+import:         from AS12312 accept ANY # ECOTEL
+export:         to AS12312 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS12312 accept ANY
+mp-export:      afi ipv6.unicast to AS12312 announce AS-NFON
+import:         from AS3320 accept ANY # DTAG
+export:         to AS3320 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS3320 accept ANY
+mp-export:      afi ipv6.unicast to AS3320 announce AS8878
+import:         from AS1299 accept ANY # Telia
+export:         to AS1299 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-NFON
+import:         from AS12337 accept Any # noris
+export:         to AS12337 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS12337 accept ANY
+mp-export:      afi ipv6.unicast to AS12337 announce AS-NFON
+import:         from AS20546 accept Any # SOPRADO
+export:         to AS20546 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS20546 accept ANY
+mp-export:      afi ipv6.unicast to AS20546 announce AS-NFON
+import:         from AS33891 accept Any # Core-Backbone
+export:         to AS33891 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS33891 accept ANY
+mp-export:      afi ipv6.unicast to AS33891 announce AS-NFON
+remarks:        +----------------------------------------+
+remarks:        | Peerings at DE-CIX |
+remarks:        | Loc: DE, Frankfurt, Interxion |
+remarks:        | IPv4: 80.81.193.177 |
+remarks:        | IPv6: 2001:7f8::22ae:0:1 |
+remarks:        +----------------------------------------+
+import:         from AS-NFON-DECIX-PEERS-v4 accept ANY
+export:         to AS-NFON-DECIX-PEERS-v4 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS-NFON-DECIX-PEERS-v6 accept ANY
+mp-export:      afi ipv6.unicast to AS-NFON-DECIX-PEERS-v6 announce AS-NFON
+remarks:        +----------------------------------------+
+remarks:        | Peerings at LINX |
+remarks:        | Loc: EN, London, LON1 |
+remarks:        | IPv4: 195.66.227.76 |
+remarks:        | IPv6: 2001:7f8:4::22ae:1 |
+remarks:        +----------------------------------------+
+import:         from AS-NFON-LINX-PEERS-v4 accept ANY
+export:         to AS-NFON-LINX-PEERS-v4 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS-NFON-LINX-PEERS-v6 accept ANY
+mp-export:      afi ipv6.unicast to AS-NFON-LINX-PEERS-v6 announce AS-NFON
+remarks:        +----------------------------------------+
+remarks:        | private peerings |
+remarks:        +----------------------------------------+
+import:         from AS680 accept AS-DFNTOWINISP # DFN
+export:         to AS680 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS680 accept ANY
+mp-export:      afi ipv6.unicast to AS680 announce AS-NFON
+import:         from AS6805 accept AS-TDDE # TDE
+export:         to AS6805 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS6805 accept AS-TDDE
+mp-export:      afi ipv6.unicast to AS6805 announce AS-NFON
+import:         from AS8767 accept AS-MNETDE # MNET
+export:         to AS8767 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS8767 accept AS-MNETDE
+mp-export:      afi ipv6.unicast to AS8767 announce AS-NFON
+import:         from AS8881 accept AS-VT-TRANSIT # VERSATEL
+export:         to AS8881 announce AS-NFON
+mp-import:      afi ipv6.unicast from AS8881 accept AS-VT-TRANSIT
+mp-export:      afi ipv6.unicast to AS8881 announce AS-NFON
+remarks:        --------------------------------------------------------
+remarks:        -----------( Informations & Contacts )------------------
+remarks:        --------------------------------------------------------
+remarks:        Peering Information: ....... http://as8878.peeringdb.net
+remarks:        Peering Requests: .................... peeering@nfon.com
+remarks:        Network & Operational Issues: ............. noc@nfon.com
+admin-c:        NET8878-RIPE
+tech-c:         NET8878-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NFON-MNT
+created:        2009-09-25T14:01:43Z
+last-modified:  2022-03-16T20:59:44Z
+source:         RIPE # Filtered
+
+organisation:   ORG-nA340-RIPE
+org-name:       nfon AG
+country:        DE
+org-type:       LIR
+address:        Zielstattstr. 36
+address:        81379
+address:        Muenchen
+address:        GERMANY
+phone:          +4989453000
+fax-no:         +498945300100
+abuse-c:        NABH-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        NFON-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NFON-MNT
+created:        2009-09-08T11:49:48Z
+last-modified:  2023-12-20T07:30:22Z
+source:         RIPE # Filtered
+
+role:           AS8878 Network Management
+address:        NFON AG
+address:        Zielstattstraße 36
+address:        81379 Muenchen
+tech-c:         DEB-RIPE
+tech-c:         HCD20-RIPE
+tech-c:         GERT-RIPE
+tech-c:         MAEX
+nic-hdl:        NET8878-RIPE
+mnt-by:         NFON-MNT
+created:        2017-04-05T09:48:11Z
+last-modified:  2025-07-02T12:01:09Z
+source:         RIPE # Filtered
+
+% Information related to 'NET8878-RIPE'
+
+role:           AS8878 Network Management
+address:        NFON AG
+address:        Zielstattstraße 36
+address:        81379 Muenchen
+tech-c:         DEB-RIPE
+tech-c:         HCD20-RIPE
+tech-c:         GERT-RIPE
+tech-c:         MAEX
+nic-hdl:        NET8878-RIPE
+mnt-by:         NFON-MNT
+created:        2017-04-05T09:48:11Z
+last-modified:  2025-07-02T12:01:09Z
+source:         RIPE # Filtered
+
+person:         Deniz Beskoek
+address:        thinxx GmbH
+address:        Kiefernweg 5
+address:        63110 Rodgau
+address:        Germany
+phone:          +49 (0)6106 2779850
+fax-no:         +49 (0)6106 2779859
+nic-hdl:        DEB-RIPE
+mnt-by:         THINXX-MNT
+created:        2016-03-15T10:24:07Z
+last-modified:  2017-04-05T09:35:26Z
+source:         RIPE
+
+person:         Gert Doering
+address:        EDV-Beratung Gert Doering
+address:        Steindlstr. 3a
+address:        D-80935 Muenchen
+address:        Germany
+phone:          +49 89 35655024
+fax-no:         +49 89 35655025
+nic-hdl:        GERT-RIPE
+mnt-by:         SPACENET-P
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-08-18T08:47:37Z
+source:         RIPE # Filtered
+
+person:         Hans-Christoph Deeken
+address:        NFON AG
+address:        Machtlfinger Strasse 7
+address:        81379 Muenchen
+address:        Germany
+phone:          +49 89 45300 444
+nic-hdl:        HCD20-RIPE
+mnt-by:         NFON-MNT
+created:        2016-07-12T13:05:12Z
+last-modified:  2017-01-18T08:38:05Z
+source:         RIPE
+
+person:         Markus Stumpf
+address:        NFON AG
+address:        Zielstattstr. 36
+address:        81379 Muenchen
+address:        Germany
+phone:          +49 89 45300 410
+fax-no:         +49 89 45300 100
+nic-hdl:        MAEX
+mnt-by:         NFON-MNT
+created:        2016-07-26T13:07:20Z
+last-modified:  2024-07-24T12:16:19Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          109.68.96.0/21
+descr:          DE-NFON-109-68-96
+descr:          nfon AG, Munich
+origin:         AS8878
+mnt-by:         NFON-MNT
+created:        2009-10-15T17:43:04Z
+last-modified:  2009-10-15T17:43:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          109.68.98.0/24
+descr:          REACH (Customer Route)
+tech-c:         RRNOC1-REACH
+origin:         AS8878
+notify:         irr@team.telstra.com
+mnt-by:         MAINT-REACH-NOC
+remarks:        This auto-generated route object was created
+remarks:        for a REACH customer route
+remarks:
+remarks:        This route object was created because
+remarks:        some REACH peers filter based on these objects
+remarks:        and this route may be rejected
+remarks:        if this object is not created.
+remarks:
+remarks:        Please contact irr@team.telstra.com if you have any
+remarks:        questions regarding this object.
+source:         REACH
+changed:        irr@team.telstra.com 20170330
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          109.68.99.0/24
+descr:          REACH (Customer Route)
+tech-c:         RRNOC1-REACH
+origin:         AS8878
+notify:         irr@team.telstra.com
+mnt-by:         MAINT-REACH-NOC
+remarks:        This auto-generated route object was created
+remarks:        for a REACH customer route
+remarks:
+remarks:        This route object was created because
+remarks:        some REACH peers filter based on these objects
+remarks:        and this route may be rejected
+remarks:        if this object is not created.
+remarks:
+remarks:        Please contact irr@team.telstra.com if you have any
+remarks:        questions regarding this object.
+source:         REACH
+changed:        irr@team.telstra.com 20170330
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.58.171.0/24
+origin:         AS8878
+descr:          NFON DTS Cloud Services Network
+mnt-by:         MNT-DTST
+created:        2021-11-12T11:08:00Z
+last-modified:  2021-11-12T11:08:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:1338::/32
+descr:          DE-NFON-2a00-1338
+descr:          nfon AG, Munich
+origin:         AS8878
+mnt-by:         NFON-MNT
+created:        2009-10-15T17:43:04Z
+last-modified:  2009-10-15T17:43:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

@@ -1,0 +1,673 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8462'
+
+% Abuse contact for 'AS8462' is 'abuse@tolna.net'
+
+aut-num:        AS8462
+as-name:        TARR1
+remarks:        == IPv4 ========================================
+remarks:        ---- BIX, Budapest -----------------------------
+import:         from  AS1299                  accept   ANY
+export:         to    AS1299                  announce AS-TARR AS-SAT-TRAKT
+import:         from  AS5507 action pref=100; accept   AS-BIX
+export:         to    AS5507                  announce AS-TARR AS-SAT-TRAKT
+import:         from  AS6777 action pref=100; accept   ANY
+export:         to    AS6777                  announce AS-TARR AS-SAT-TRAKT
+import:         from  AS6939 action pref=100; accept   AS-HURRICANE
+export:         to    AS6939                  announce AS-TARR AS-SAT-TRAKT
+import:         from  AS9002                  accept   ANY
+export:         to    AS9002                  announce AS-TARR AS-SAT-TRAKT
+import:         from AS35311 action pref=100; accept   ANY
+export:         to   AS35311                  announce AS-TARR
+import:         from AS47169 action pref=100; accept   ANY
+export:         to   AS47169                  announce AS-TARR
+import:         from   AS174                  accept   ANY
+export:         to     AS174                  announce AS-TARR AS-SAT-TRAKT
+default:        to   AS35311 action pref=100; networks ANY
+remarks:        ---- AMSIX, Amsterdam --------------------------
+import:         from  AS-TARR-AMSIX-peers-V4  accept   ANY
+export:         to    AS-TARR-AMSIX-peers-V4  announce AS-TARR
+remarks:        ---- DE-CIX, Frankfurt -------------------------
+import:         from  AS6695                  accept   AS-DECIX
+export:         to    AS6695                  announce AS-TARR
+remarks:        ---- Customers ---------------------------------
+import:         from AS41897                  accept   AS-SAT-TRAKT AS-SOX
+export:         to   AS41897                  announce AS-TARR AS-BIX
+import:         from AS42367                  accept   AS42367
+export:         to   AS42367                  announce ANY
+remarks:        == IPv6 ========================================
+remarks:        ---- BIX, Budapest -----------------------------
+mp-import:      afi ipv6.unicast from  AS1299 accept ANY
+mp-export:      afi ipv6.unicast to    AS1299 announce AS-TARR AS-SAT-TRAKT-V6
+mp-import:      afi ipv6.unicast from  AS5507 accept AS-BIX
+mp-export:      afi ipv6.unicast to    AS5507 announce AS-TARR AS-SAT-TRAKT-V6
+mp-import:      afi ipv6.unicast from  AS6777 accept AS6777
+mp-export:      afi ipv6.unicast to    AS6777 announce AS-TARR AS-SAT-TRAKT-V6
+mp-import:      afi ipv6.unicast from  AS6939 accept AS-HURRICANE-V6
+mp-export:      afi ipv6.unicast to    AS6939 announce AS-TARR AS-SAT-TRAKT-V6
+mp-import:      afi ipv6.unicast from  AS9002 accept AS-HURRICANE-V6
+mp-export:      afi ipv6.unicast to    AS9002 announce AS-TARR AS-SAT-TRAKT-V6
+mp-import:      afi ipv6.unicast from AS35311 accept AS35311
+mp-export:      afi ipv6.unicast to   AS35311 announce AS-TARR
+mp-import:      afi ipv6.unicast from   AS174 accept ANY
+mp-export:      afi ipv6.unicast to     AS174 announce AS-TARR AS-SAT-TRAKT-V6
+mp-default:     afi ipv6.unicast to   AS35311 networks ANY
+remarks:        ---- AMSIX, Amsterdam --------------------------
+mp-import:      afi ipv6.unicast from AS-TARR-AMSIX-peers-V6 accept   ANY
+mp-export:      afi ipv6.unicast to   AS-TARR-AMSIX-peers-V6 announce AS-TARR
+remarks:        ---- DE-CIX, Frankfurt -------------------------
+mp-import:      afi ipv6.unicast from  AS6695 accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to    AS6695 announce AS-TARR
+remarks:        ---- Customers ---------------------------------
+mp-import:      afi ipv6.unicast from AS41897 accept AS-SAT-TRAKT-V6 AS-SOX
+mp-export:      afi ipv6.unicast to   AS41897 announce AS-TARR AS-BIX
+remarks:        ================================================
+org:            ORG-TK9-RIPE
+admin-c:        PG76-RIPE
+tech-c:         PG76-RIPE
+status:         ASSIGNED
+mnt-by:         AS8462-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-01-09T13:05:00Z
+last-modified:  2017-03-21T21:17:45Z
+source:         RIPE
+
+organisation:   ORG-TK9-RIPE
+org-name:       Tarr Kft.
+country:        HU
+org-type:       LIR
+address:        Tartsay u. 8.
+address:        H7100
+address:        SZEKSZARD
+address:        HUNGARY
+phone:          +36305384546
+fax-no:         +3674415255
+admin-c:        PG76-RIPE
+admin-c:        GZ1257-RIPE
+abuse-c:        AR15487-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        CORYNET-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         CORYNET-MNT
+created:        2006-07-17T09:52:50Z
+last-modified:  2020-12-16T12:28:34Z
+source:         RIPE # Filtered
+
+person:         Peter Gervai
+address:        Zsak u. 7.
+address:        H-4026 Debrecen
+address:        Hungary
+phone:          +36 20 215698
+phone:          +36 21 3456010
+fax-no:         +36 21 3456011
+nic-hdl:        PG76-RIPE
+mnt-by:         CORYNET-MNT
+mnt-by:         mnt-grin
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-08-24T16:50:41Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          46.249.128.0/19
+descr:          Tarr Ltd.
+descr:          Cable internet provider
+descr:          Szekszard, Hungary
+descr:          HU
+origin:         AS8462
+mnt-by:         CORYNET-MNT
+created:        2011-01-11T14:27:47Z
+last-modified:  2011-01-11T14:27:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.110.128.0/19
+descr:          TARR Ltd.
+descr:          Cable internet provider
+descr:          HU
+origin:         AS8462
+mnt-lower:      CORYNET-MNT
+mnt-by:         CORYNET-MNT
+created:        2018-08-09T08:44:48Z
+last-modified:  2018-08-09T08:44:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.110.160.0/19
+descr:          TARR Ltd.
+descr:          Cable internet provider
+descr:          Szekszard, Hungary
+descr:          HU
+origin:         AS8462
+mnt-by:         CORYNET-MNT
+created:        2014-04-11T08:32:46Z
+last-modified:  2014-04-11T08:32:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.111.128.0/18
+descr:          TARR Ltd.
+descr:          Cable internet provider
+descr:          HU
+origin:         AS8462
+mnt-lower:      CORYNET-MNT
+mnt-by:         CORYNET-MNT
+created:        2010-11-04T17:25:41Z
+last-modified:  2017-01-02T12:59:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.121.104.0/21
+descr:          TARR Ltd.
+descr:          Cable internet provider
+descr:          Szekszard, Hungary
+origin:         AS8462
+mnt-routes:     CORYNET-MNT
+mnt-by:         CORYNET-MNT
+notify:         grin@grin.hu
+created:        2015-09-30T12:06:56Z
+last-modified:  2016-02-15T11:58:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.121.112.0/21
+descr:          TARR Ltd.
+descr:          Cable internet provider
+descr:          Szekszard, Hungary
+origin:         AS8462
+remarks:
+mnt-routes:     CORYNET-MNT
+mnt-by:         AS8462-MNT
+created:        2018-01-07T22:59:05Z
+last-modified:  2018-01-07T22:59:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.146.128.0/18
+descr:          TARR Ltd.
+descr:          Cable internet provider
+descr:          Szekszard, Hungary
+descr:          HU
+notify:         grin@tolna.net
+origin:         AS8462
+mnt-by:         CORYNET-MNT
+created:        2007-06-14T21:17:57Z
+last-modified:  2007-06-14T21:17:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.168.32.0/19
+descr:          TARR Ltd.
+descr:          Cable internet provider
+descr:          Szekszard, Hungary
+descr:          HU
+origin:         AS8462
+mnt-by:         CORYNET-MNT
+created:        2009-01-05T20:01:03Z
+last-modified:  2009-01-05T20:01:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.168.64.0/19
+descr:          Tarr Ltd.
+descr:          Szekszard, Hungary
+origin:         AS8462
+org:            ORG-TK9-RIPE
+notify:         grin@grin.hu
+mnt-by:         AS8462-MNT
+mnt-by:         CORYNET-MNT
+created:        2017-02-21T11:00:49Z
+last-modified:  2017-02-21T11:00:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          102.46.0.0/18
+descr:          Telecom-Egypt-Data
+origin:         AS8462
+mnt-by:         GEGA-MNT
+changed:        ***@tedata.net 20190729
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          102.46.64.0/18
+descr:          Telecom-Egypt-Data
+origin:         AS8462
+mnt-by:         GEGA-MNT
+changed:        ***@tedata.net 20190729
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          102.46.128.0/18
+descr:          Telecom-Egypt-Data
+origin:         AS8462
+mnt-by:         GEGA-MNT
+changed:        ***@tedata.net 20190729
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          102.46.192.0/18
+descr:          Telecom-Egypt-Data
+origin:         AS8462
+mnt-by:         GEGA-MNT
+changed:        ***@tedata.net 20190729
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.3.136.0/22
+descr:          TARR Ltd.
+descr:          Cable internet provider
+descr:          Szekszard, Hungary
+descr:          HU
+origin:         AS8462
+mnt-by:         CORYNET-MNT
+created:        2012-09-21T16:13:55Z
+last-modified:  2012-09-21T16:13:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.165.108.0/22
+descr:          Cable-20160826
+origin:         AS8462
+remarks:
+mnt-by:         AS8462-MNT
+mnt-by:         hu-net96-1-mnt
+mnt-by:         CORYNET-MNT
+created:        2016-08-26T18:10:43Z
+last-modified:  2016-08-26T18:10:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.166.132.0/22
+descr:          Cable-20160906a
+origin:         AS8462
+mnt-by:         AS8462-MNT
+mnt-by:         CORYNET-MNT
+created:        2016-09-06T09:00:53Z
+last-modified:  2016-09-06T09:00:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.166.136.0/22
+descr:          Cable-20160906b
+origin:         AS8462
+mnt-by:         AS8462-MNT
+mnt-by:         CORYNET-MNT
+created:        2016-09-06T09:08:27Z
+last-modified:  2016-09-06T09:08:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.170.84.0/22
+descr:          Cable-20161004a
+org:            org-tk9-ripe
+origin:         AS8462
+mnt-by:         AS8462-MNT
+mnt-by:         CORYNET-MNT
+created:        2016-10-04T21:56:13Z
+last-modified:  2016-10-04T21:56:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.172.44.0/22
+descr:          Cable-20161010a
+org:            org-tk9-ripe
+origin:         AS8462
+mnt-by:         AS8462-MNT
+mnt-by:         CORYNET-MNT
+created:        2016-10-10T14:28:39Z
+last-modified:  2016-10-10T14:28:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.187.248.0/22
+descr:          Tarr Ltd.
+descr:          Szekszard, Hungary
+origin:         AS8462
+org:            ORG-TK9-RIPE
+notify:         grin@grin.hu
+mnt-by:         AS8462-MNT
+mnt-by:         CORYNET-MNT
+created:        2017-02-21T10:51:07Z
+last-modified:  2017-02-21T10:51:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.195.52.0/22
+descr:          net20170922-ztp
+origin:         AS8462
+mnt-by:         AS8462-MNT
+mnt-by:         CORYNET-MNT
+created:        2017-09-22T11:32:32Z
+last-modified:  2017-09-22T11:32:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.202.136.0/22
+origin:         AS8462
+descr:          TARR Ltd.
+descr:          Internet provider
+descr:          Szekszard, Hungary
+mnt-by:         CORYNET-MNT
+created:        2024-09-06T08:56:40Z
+last-modified:  2024-09-06T08:56:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.214.28.0/22
+descr:          TARR Ltd.
+descr:          Internet provider
+descr:          Szekszard, Hungary
+origin:         AS8462
+mnt-by:         CORYNET-MNT
+created:        2024-09-06T08:52:43Z
+last-modified:  2024-09-06T08:52:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.235.112.0/22
+descr:          net20180514-per
+origin:         AS8462
+mnt-by:         AS8462-MNT
+mnt-by:         CORYNET-MNT
+created:        2018-05-14T09:48:34Z
+last-modified:  2018-05-14T09:48:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.151.116.0/22
+descr:          Tarr Ltd.
+descr:          Public internet provider
+descr:          Szekszard, Hungary
+descr:          HU
+origin:         AS8462
+notify:         grin@tolna.net
+notify:         support@tolna.net
+mnt-by:         AS8462-MNT
+created:        2004-05-18T10:12:55Z
+last-modified:  2013-04-10T15:54:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.218.98.0/24
+descr:          Tarr Ltd.
+descr:          Public internet provider
+descr:          Szekszard, Hungary
+descr:          HU
+origin:         AS8462
+notify:         grin@grin.hu
+mnt-by:         AS8462-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2013-04-10T15:54:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.227.196.0/22
+descr:          Tarr Ltd.
+descr:          Public internet provider
+descr:          Szekszard, Hungary
+descr:          HU
+origin:         AS8462
+notify:         grin@tolna.net
+notify:         support@tolna.net
+mnt-by:         AS8462-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2013-04-10T15:54:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.37.88.0/22
+descr:          TARR Ltd.
+descr:          Cable internet provider
+descr:          HU
+origin:         AS8462
+mnt-lower:      CORYNET-MNT
+mnt-by:         CORYNET-MNT
+created:        2018-08-09T08:44:49Z
+last-modified:  2018-08-09T08:44:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.128.232.0/23
+descr:          Tarr Ltd.
+descr:          Public internet provider
+descr:          HU
+remarks:        ** For abuse issues please contact abuse@tolna.net **
+origin:         AS8462
+notify:         grin@tolna.net
+mnt-by:         AS8462-MNT
+mnt-by:         CORYNET-MNT
+created:        2005-02-17T11:31:17Z
+last-modified:  2023-10-06T14:54:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.16.128.0/19
+descr:          Tarr Ltd.
+descr:          Cable internet provider
+descr:          Szekszard, Hungary
+origin:         AS8462
+mnt-by:         CORYNET-MNT
+created:        2007-11-08T22:33:36Z
+last-modified:  2007-11-08T22:33:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:5d0::/32
+descr:          TARR Ltd. IPv6 Network
+origin:         AS8462
+mnt-by:         CORYNET-MNT
+created:        2007-11-08T22:21:18Z
+last-modified:  2007-11-08T22:21:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

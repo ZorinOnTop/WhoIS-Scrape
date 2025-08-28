@@ -1,0 +1,165 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15707 - AS15717'
+
+as-block:       AS15707 - AS15717
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2024-02-13T15:18:50Z
+last-modified:  2024-02-13T15:18:50Z
+source:         RIPE
+
+% Information related to 'AS15716'
+
+% Abuse contact for 'AS15716' is 'abuse@adfinis.com'
+
+aut-num:        AS15716
+as-name:        SYGROUP
+descr:          https://adfinis.com/
+org:            ORG-SG56-RIPE
+remarks:        Peering point presence:
+remarks:        - NTS Colo Bern Sued, Switzerland
+remarks:        - SwissIX
+remarks:
+remarks:        We have an open peering policy, please send requests
+remarks:        to noc@adfinis.com.
+remarks:
+remarks:        NOC: noc@adfinis.com
+remarks:        Abuse: abuse@adfinis.com
+remarks:
+remarks:        Transits
+remarks:        ========
+remarks:
+remarks:        nts workspace AG colo Bern Sued
+import:         from AS15576 accept ANY
+mp-import:      afi ipv6.unicast from AS15576 accept ANY
+import:         from AS39040 accept ANY
+mp-import:      afi ipv6.unicast from AS39040 accept ANY
+export:         to AS30940 announce AS15716:AS-SYGROUP
+mp-export:      afi ipv6.unicast to AS30940 announce AS15716:AS-SYGROUP
+export:         to AS15576 announce AS15716:AS-SYGROUP
+mp-export:      afi ipv6.unicast to AS15576 announce AS15716:AS-SYGROUP
+remarks:
+remarks:        Peerings
+remarks:        ========
+remarks:
+remarks:        SwissIX Route Server
+import:         from AS42476 accept AS-SWISSIX-RS
+mp-import:      afi ipv6.unicast from AS42476 accept AS-SWISSIX-RS
+export:         to AS42476 announce AS15716:AS-SYGROUP
+mp-export:      afi ipv6.unicast to AS42476 announce AS15716:AS-SYGROUP
+remarks:
+remarks:        GGA Maur, Interxion Zurich + Colozueri
+import:         from AS21232 accept AS-GGAMAUR
+mp-import:      afi ipv6.unicast from AS21232 accept AS21232
+export:         to AS21232 announce AS15716:AS-SYGROUP
+mp-export:      afi ipv6.unicast to AS21232 announce AS15716:AS-SYGROUP
+remarks:
+remarks:        VTX, equinix Zuerich 1
+import:         from AS12350 accept AS-VTX
+mp-import:      afi ipv6.unicast from AS12350 accept AS-VTX
+export:         to AS12350 announce AS15716:AS-SYGROUP
+mp-export:      afi ipv6.unicast to AS12350 announce AS15716:AS-SYGROUP
+remarks:
+admin-c:        AA45316-RIPE
+tech-c:         AA45316-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ADFINIS-MNT
+created:        2009-01-15T12:16:32Z
+last-modified:  2025-07-10T08:58:33Z
+source:         RIPE
+
+organisation:   ORG-SG56-RIPE
+org-name:       Adfinis AG
+country:        CH
+org-type:       LIR
+address:        Giessereiweg 5
+address:        3007
+address:        Bern
+address:        SWITZERLAND
+phone:          +41315503131
+admin-c:        PH9492-RIPE
+admin-c:        NICU23-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ADFINIS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ADFINIS-MNT
+abuse-c:        ADSY-RIPE
+created:        2008-12-18T09:26:02Z
+last-modified:  2025-07-10T10:11:10Z
+source:         RIPE # Filtered
+
+role:           ADFINIS-Tech
+address:        Adfinis AG, Giessereiweg 5, CH-3007 Bern
+nic-hdl:        AA45316-RIPE
+mnt-by:         ADFINIS-MNT
+created:        2025-07-09T12:29:04Z
+last-modified:  2025-07-10T10:10:45Z
+source:         RIPE # Filtered
+org:            ORG-SG56-RIPE
+admin-c:        PH9492-RIPE
+tech-c:         PH9492-RIPE
+abuse-mailbox:  noc@adfinis.com
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          91.234.189.0/24
+descr:          Adfinis AG, Bern
+origin:         AS15716
+mnt-by:         ADFINIS-MNT
+created:        2012-07-03T14:10:07Z
+last-modified:  2025-07-10T08:47:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.128.32.0/21
+descr:          Adfinis-SyGroup AG, Basel
+origin:         AS15716
+mnt-by:         ADFINIS-MNT
+created:        2009-07-01T17:09:58Z
+last-modified:  2025-07-10T09:11:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:618::/32
+descr:          Adfinis-SyGroup AG IPv6 network
+origin:         AS15716
+mnt-by:         ADFINIS-MNT
+created:        2009-02-19T13:38:53Z
+last-modified:  2025-07-10T09:34:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

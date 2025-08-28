@@ -1,0 +1,133 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5489'
+
+% Abuse contact for 'AS5489' is 'abuse@teithe.gr'
+
+aut-num:        AS5489
+as-name:        TEI-THES
+org:            ORG-IHU1-RIPE
+import:         from AS5408
+                action pref=100;
+                accept AS-GRNET AS-AIX
+import:         from AS1241
+                action pref=100;
+                accept AS1241 AS8313 AS8253
+import:         from AS1241
+                action pref=150;
+                accept AS5470 AS6867
+export:         to AS5408
+                announce AS5489
+export:         to AS1241
+                announce AS5489
+default:        to AS5408
+                action pref=100;
+                networks ANY
+default:        to AS1241
+                action pref=150;
+                networks ANY
+admin-c:        AV551-RIPE
+tech-c:         AV551-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS5489-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-11-18T12:23:17Z
+source:         RIPE
+sponsoring-org: ORG-GRaT1-RIPE
+
+organisation:   ORG-IHU1-RIPE
+org-name:       International Hellenic University
+country:        GR
+org-type:       OTHER
+address:        14km Thessalonikis-N.Moudanion
+abuse-c:        AR20830-RIPE
+mnt-ref:        GRNET-NOC
+mnt-by:         GRNET-NOC
+created:        2010-10-12T13:50:23Z
+last-modified:  2022-11-18T12:23:27Z
+source:         RIPE # Filtered
+
+person:         Antonis Vafiadis
+address:        Technological Educational Institute of Thessaloniki
+address:        Department of informatics
+address:        B.O Box 14561
+address:        54 101 Thessaloniki Greece
+phone:          +30 31 791 299
+fax-no:         +30 31 791 290
+nic-hdl:        AV551-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-04-05T15:56:07Z
+mnt-by:         RIPE-NCC-LOCKED-MNT
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          195.251.120.0/22
+descr:          TEI-THES
+origin:         AS5489
+mnt-by:         GRNET-NOC
+created:        2002-07-02T14:31:53Z
+last-modified:  2002-07-02T14:31:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.238.0/23
+descr:          TEI THESSALONIKHS
+origin:         AS5489
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.251.240.0/22
+descr:          TEI THESSALONIKHS
+origin:         AS5489
+mnt-by:         GRNET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

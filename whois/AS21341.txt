@@ -1,0 +1,1429 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21281 - AS21390'
+
+as-block:       AS21281 - AS21390
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21341'
+
+% Abuse contact for 'AS21341' is 'ripencc@sinet.ir'
+
+aut-num:        AS21341
+as-name:        SINET-AS
+descr:          Access Service Provider
+descr:          Tehran, Iran
+org:            ORG-SAVC1-RIPE
+descr:          IPM
+import:         from AS-IRANET-IPM action pref=120; accept any AND NOT fltr-bogons
+import:         from AS25306 action pref=120; accept AS25306 AND NOT fltr-bogons
+descr:          Sepanta
+import:         from AS39074 accept any AND NOT fltr-bogons
+import:         from AS43343 accept AS21341:RS-ROUTES:AS43343 AND NOT fltr-bogons
+import:         from AS201227 accept any AND NOT fltr-bogons
+import:         from AS42586 accept any AND NOT fltr-bogons
+import:         from AS60315 accept AS21341:RS-ROUTES:AS60315 AND NOT fltr-bogons
+import:         from AS43135 accept any AND NOT fltr-bogons
+import:         from AS15611 accept any AND NOT fltr-bogons
+import:         from AS51777 accept any AND NOT fltr-bogons
+import:         from AS43395 accept any AND NOT fltr-bogons
+import:         from AS56796 accept AS21341:RS-ROUTES:AS56796 AND NOT fltr-bogons
+import:         from AS62367 accept any AND NOT fltr-bogons
+import:         from AS59961 accept any AND NOT fltr-bogons
+import:         from AS25184 accept any AND NOT fltr-bogons
+export:         to AS6736 announce any AND NOT fltr-bogons
+export:         to AS25113 announce AS-SINET AND NOT fltr-bogons
+export:         to AS286 announce AS-SINET AND NOT fltr-bogons
+export:         to AS-IRANET-IPM announce Any AND NOT fltr-bogons
+export:         to AS25306 announce Any AND NOT fltr-bogons
+export:         to AS12880 announce Any AND NOT fltr-bogons
+export:         to as43343 announce any AND NOT fltr-bogons
+export:         to AS44889 announce any AND NOT fltr-bogons
+export:         to AS60315 announce any AND NOT fltr-bogons
+export:         to AS43135 announce any AND NOT fltr-bogons
+export:         to AS15611 announce any AND NOT fltr-bogons
+export:         to AS34918 announce any AND NOT fltr-bogons
+export:         to AS49100 announce any AND NOT fltr-bogons
+export:         to AS56796 announce any AND NOT fltr-bogons
+export:         to AS51777 announce any AND NOT fltr-bogons
+export:         to AS62367 announce any AND NOT fltr-bogons
+export:         to AS59961 announce any AND NOT fltr-bogons
+export:         to AS56687 announce any AND NOT fltr-bogons
+export:         to AS25184 announce any AND NOT fltr-bogons
+descr:          Asiatech-FCP
+export:         to AS43754 announce any AND NOT fltr-bogons
+export:         to AS41881 announce any AND NOT fltr-bogons
+export:         to AS24631 announce any AND NOT fltr-bogons
+remarks:        +----------------------------------------------------------
+remarks:        | Cummunities schema:
+remarks:        |
+remarks:        |
+remarks:        | The Following BGP communities can be set by
+remarks:        | SINET Customers/Peers to affect BGP announcments.
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | Communities to control Local preference
+remarks:        | 21341:50 Set Local Pref 50 within AS21341
+remarks:        | 21341:80 Set Local Pref 80 within AS21341
+remarks:        | 21341:100 Set Local Pref 100 within AS21341
+remarks:        | 21341:120 Set Local Pref 120 within AS21341
+remarks:        | 21341:150 Set Local Pref 150 within AS21341
+remarks:        |
+remarks:        | Default for Transit Peers routes: 80
+remarks:        | Default for Customers-Peers routes: 120
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | Communities to control outbound routing announcements
+remarks:        | 21341:200 Don't announce to Transit Peers.
+remarks:        | 21341:201 Prepend AS21341 once at the Edge of SINET to Transit Peers.
+remarks:        | 21341:202 Prepend AS21341 twice at the Edge of SINET to Transit Peers.
+remarks:        | 21341:203 Prepend AS21341 thrice at the Edge of SINET to Transit Peers.
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | Other Communities
+remarks:        |
+remarks:        | 21341:9XXXXX Don't Advertise to ASXXXXX peer.
+remarks:        | 21341:NO_EXPORT Do not advertise to any neighbor of AS21341. (Well known)
+remarks:        | 21341:NO_ADVERTISE Do not advertise beyond the AS21341-router receiving the advertisement. (Well known)
+remarks:        |
+remarks:        | Example: 21341:900001 Don't Advertise the route to AS1 peer!
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | Communities to distingushe Route Origin - NOT SETTABLE BY CUSTOMERS
+remarks:        | 21341:400 Local Customers/Peers routes
+remarks:        | 21341:410 Transit Peers routes.
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | NOTE - Filtering on /24 boundary is applied - we do not
+remarks:        | reannounce any route more specific than a /24.
+remarks:        +----------------------------------------------------------
+remarks:        | Send trouble queries or problems to noc at tehran.sinet.ir
+remarks:        +----------------------------------------------------------
+remarks:        | SPAM or net abuse please mail to abuse@sinet.ir
+remarks:        +----------------------------------------------------------
+remarks:        | Last Community Change: 2004/06/15
+remarks:        +----------------------------------------------------------
+status:         ASSIGNED
+admin-c:        SAMH3-RIPE
+tech-c:         SAMH3-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SINET-MNT
+descr:          cto@sinet.ir
+created:        2002-07-29T15:43:02Z
+last-modified:  2022-11-01T08:37:01Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SAVC1-RIPE
+org-name:       Soroush Rasanheh Company Ltd
+country:        IR
+org-type:       LIR
+address:        1 5th East St. Seoul St.
+address:        19959-63451
+address:        Tehran
+address:        IRAN, ISLAMIC REPUBLIC OF
+phone:          +982122618700
+phone:          +982184371111
+fax-no:         +982184371000
+abuse-c:        AR13606-RIPE
+admin-c:        SAMH3-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SINET-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SINET-MNT
+created:        2004-04-17T11:28:28Z
+last-modified:  2023-03-04T15:50:58Z
+source:         RIPE # Filtered
+
+person:         Amir Ziaei
+address:        1 East 5th Alley North Seoul St. Tehran Iran
+address:        4 Firooze Dead end Dr. Shariati St. Tehran Iran
+phone:          +982184371111
+phone:          +982122618700
+nic-hdl:        SAMH3-RIPE
+mnt-by:         SINET-MNT
+created:        2018-01-10T13:10:25Z
+last-modified:  2022-10-13T06:07:45Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          62.220.96.0/19
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.220.96.0/20
+descr:          Proxy-registered route object
+origin:         AS21341
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20080416
+source:         RADB
+last-modified:  2025-03-28T16:00:56Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.220.96.0/21
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2020-09-06T05:47:25Z
+last-modified:  2020-09-06T05:47:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.220.98.0/23
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          62.220.98.0/24
+origin:         AS21341
+mnt-by:         Soroush-mnt
+mnt-by:         SINET-MNT
+created:        2023-04-16T11:07:46Z
+last-modified:  2023-04-16T11:07:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.220.100.0/22
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          62.220.100.0/24
+descr:          Proxy-registered route object
+origin:         AS21341
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20050717
+source:         RADB
+last-modified:  2025-03-28T16:00:56Z
+rpki-ov-state:  valid
+
+route:          62.220.102.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          62.220.104.0/22
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2020-09-06T05:47:55Z
+last-modified:  2020-09-06T05:47:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.220.104.0/24
+descr:          Proxy-registered route object
+origin:         AS21341
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20050801
+source:         RADB
+last-modified:  2025-03-28T16:00:56Z
+rpki-ov-state:  valid
+
+route:          62.220.105.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          62.220.110.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-10-05T12:24:07Z
+last-modified:  2019-10-05T12:24:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.220.110.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-10-05T12:24:28Z
+last-modified:  2019-10-05T12:24:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.220.111.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-10-05T12:24:56Z
+last-modified:  2019-10-05T12:24:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.220.112.0/20
+descr:          Proxy-registered route object
+origin:         AS21341
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20080416
+source:         RADB
+last-modified:  2025-03-28T16:00:56Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.220.120.0/22
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-06-24T08:17:42Z
+last-modified:  2019-06-24T08:17:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.220.124.0/22
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.220.124.0/23
+origin:         AS21341
+mnt-by:         Soroush-mnt
+mnt-by:         SINET-MNT
+created:        2023-03-01T07:50:07Z
+last-modified:  2023-03-01T07:50:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.0.0/18
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.12.0.0/19
+descr:          Proxy-registered route object
+origin:         AS21341
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20080416
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.12.8.0/21
+descr:          Soroush Rasaneh
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-07-24T07:01:36Z
+last-modified:  2019-07-24T07:01:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.12.8.0/22
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-05-28T14:55:39Z
+last-modified:  2019-05-28T14:55:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.12.0/22
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-05-28T14:56:53Z
+last-modified:  2019-05-28T14:56:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.16.0/21
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-05-28T14:57:24Z
+last-modified:  2019-05-28T14:57:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.48.0/22
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-10-12T17:07:14Z
+last-modified:  2019-10-12T17:07:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.48.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2023-06-13T09:37:08Z
+last-modified:  2023-06-13T09:37:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.48.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:26Z
+last-modified:  2018-06-09T14:04:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.48.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          81.12.49.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          81.12.49.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:26Z
+last-modified:  2018-06-09T14:04:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.50.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:26Z
+last-modified:  2018-06-09T14:04:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.51.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:26Z
+last-modified:  2018-06-09T14:04:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.58.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-10-12T17:02:53Z
+last-modified:  2019-10-12T17:02:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.12.58.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:27Z
+last-modified:  2018-06-09T14:04:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.58.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          81.12.59.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:28Z
+last-modified:  2018-06-09T14:04:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.12.59.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          87.107.0.0/17
+descr:          Proxy-registered route object
+origin:         AS21341
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20050828
+source:         RADB
+last-modified:  2025-03-28T16:01:03Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.0.0/19
+descr:          Proxy-registered route object
+origin:         AS21341
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20080416
+source:         RADB
+last-modified:  2025-03-28T16:01:03Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.14.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2025-07-20T07:06:30Z
+last-modified:  2025-07-20T07:06:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.24.0/22
+descr:          Soroush Rasaneh
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-07-24T06:12:28Z
+last-modified:  2019-07-24T06:12:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.34.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-10-20T13:48:09Z
+last-modified:  2019-10-20T13:48:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.40.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-06-15T14:13:33Z
+last-modified:  2021-06-15T14:13:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.40.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-06-20T12:36:56Z
+last-modified:  2021-06-20T12:36:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.41.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-06-20T12:37:19Z
+last-modified:  2021-06-20T12:37:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.42.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-06-20T10:05:21Z
+last-modified:  2021-06-20T10:05:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.48.0/21
+descr:          Soroush Rasaneh
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-07-24T06:54:13Z
+last-modified:  2019-07-24T06:54:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.50.0/23
+origin:         AS21341
+mnt-by:         Soroush-mnt
+mnt-by:         SINET-MNT
+created:        2023-02-14T21:55:37Z
+last-modified:  2023-02-14T21:55:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.51.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-04-07T06:51:35Z
+last-modified:  2021-04-07T06:51:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.52.0/22
+descr:          Soroush Rasaneh
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-07-24T06:23:08Z
+last-modified:  2019-07-24T06:23:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.52.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-10-09T08:10:27Z
+last-modified:  2021-10-09T08:10:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.68.0/22
+descr:          Soroush Rasaneh
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-07-24T06:24:49Z
+last-modified:  2019-07-24T06:24:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.68.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          87.107.68.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2011-03-02T13:17:35Z
+last-modified:  2018-06-09T14:04:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.69.0/24
+descr:          Soroush Rasaneh Institute
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2011-03-02T13:20:13Z
+last-modified:  2011-03-02T13:20:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.70.0/23
+descr:          Soroush Rasaneh Institute
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2011-03-02T13:22:38Z
+last-modified:  2011-03-02T13:22:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.88.0/22
+descr:          Soroush Rasaneh
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-07-24T06:27:21Z
+last-modified:  2019-07-24T06:27:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.96.0/22
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-08-19T16:31:38Z
+last-modified:  2019-08-19T16:31:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.98.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2023-06-13T09:44:43Z
+last-modified:  2023-06-13T09:44:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.98.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2022-10-15T05:58:38Z
+last-modified:  2022-10-15T05:58:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.99.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-06-28T06:33:52Z
+last-modified:  2021-06-28T06:33:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.106.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2023-07-31T19:35:58Z
+last-modified:  2023-07-31T19:35:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.112.0/20
+descr:          Soroush Rasaneh
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-07-24T06:41:18Z
+last-modified:  2019-07-24T06:41:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.116.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2020-08-10T07:47:08Z
+last-modified:  2020-08-10T07:47:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.118.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-10-12T17:35:36Z
+last-modified:  2019-10-12T17:35:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.118.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:29Z
+last-modified:  2018-06-09T14:04:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.118.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.120.0/21
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2019-08-27T09:27:11Z
+last-modified:  2019-08-27T09:27:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.121.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:23Z
+last-modified:  2018-06-09T14:04:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.121.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          87.107.122.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-09-15T07:34:37Z
+last-modified:  2021-09-15T07:34:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.123.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:30Z
+last-modified:  2018-06-09T14:04:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.123.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          87.107.124.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          87.107.124.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:19Z
+last-modified:  2018-06-09T14:04:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.126.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-04-25T08:28:19Z
+last-modified:  2018-04-25T08:28:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.128.0/19
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.107.132.0/22
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-06-08T11:54:22Z
+last-modified:  2021-06-08T11:54:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.132.0/23
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:18Z
+last-modified:  2018-06-09T14:04:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.132.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          87.107.133.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-09T14:04:30Z
+last-modified:  2018-06-09T14:04:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.133.0/24
+descr:          GBI via EMIX
+origin:         AS21341
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20160831  #11:45:13Z
+source:         RADB
+last-modified:  2023-11-13T15:49:50Z
+rpki-ov-state:  valid
+
+route:          87.107.173.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2021-02-21T15:55:23Z
+last-modified:  2021-02-21T15:55:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.107.192.0/18
+descr:          Proxy-registered route object
+origin:         AS21341
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20050828
+source:         RADB
+last-modified:  2025-03-28T16:01:03Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.60.136.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-14T06:55:25Z
+last-modified:  2018-06-14T06:55:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.60.137.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-14T06:55:25Z
+last-modified:  2018-06-14T06:55:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.60.138.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-14T06:55:26Z
+last-modified:  2018-06-14T06:55:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.60.139.0/24
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2018-06-14T06:55:26Z
+last-modified:  2018-06-14T06:55:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1198::/32
+origin:         AS21341
+mnt-by:         SINET-MNT
+created:        2024-12-29T12:56:07Z
+last-modified:  2024-12-29T12:56:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,215 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15693'
+
+% Abuse contact for 'AS15693' is 'abuse@theregistrarcompany.com'
+
+aut-num:        AS15693
+as-name:        BUSINESSCONNECT
+org:            ORG-TIB2-RIPE
+remarks:        +---------------------------------------------------------+
+remarks:        | Transit IPv4 |
+remarks:        +---------------------------------------------------------+
+remarks:        Jointtransit
+import:         from AS24785 action pref=100; accept ANY
+export:         to AS24785 announce AS15693:AS-BUSINESSCONNECT
+remarks:        OpenPeering
+import:         from AS20562 action pref=100; accept ANY
+export:         to AS20562 announce AS15693:AS-BUSINESSCONNECT
+remarks:        Nextpertise
+import:         from AS41960 action pref=100; accept ANY
+export:         to AS41960 announce AS15693:AS-BUSINESSCONNECT
+remarks:        +-------------+
+remarks:        | NL-IX IPv4 |
+remarks:        +-------------+
+remarks:        RS1 - RS2
+import:         from AS34307 193.239.116.255 action pref=150; accept ANY
+export:         to AS34307 193.239.116.255 announce AS15693:AS-BUSINESSCONNECT
+import:         from AS34307 193.239.117.0 action pref=150; accept ANY
+export:         to AS34307 193.239.117.0 announce AS15693:AS-BUSINESSCONNECT
+remarks:        +-------------+
+remarks:        | Equinix-IX IPv4 |
+remarks:        +-------------+
+remarks:        RS1 - RS2
+import:         from AS24115 185.1.112.251 action pref=150; accept ANY
+export:         to AS24115 185.1.112.251 announce AS15693:AS-BUSINESSCONNECT
+import:         from AS24115 185.1.112.252 action pref=150; accept ANY
+export:         to AS24115 185.1.112.252 announce AS15693:AS-BUSINESSCONNECT
+remarks:        +-----------------+
+remarks:        | Transit IPv6 |
+remarks:        +-----------------+
+remarks:        Jointtransit
+mp-import:      afi ipv6.unicast from AS24785 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS24785 announce AS15693:AS-BUSINESSCONNECT
+remarks:        OpenPeering
+mp-import:      afi ipv6.unicast from AS20562 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS20562 announce AS15693:AS-BUSINESSCONNECT
+remarks:        Nextpertise
+mp-import:      afi ipv6.unicast from AS41960 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS41960 announce AS15693:AS-BUSINESSCONNECT
+remarks:        +-------------+
+remarks:        | NL-IX IPv6 |
+remarks:        +-------------+
+remarks:        RS1 - RS2
+mp-import:      afi ipv6.unicast from AS34307 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS34307 announce AS15693:AS-BUSINESSCONNECT
+mp-import:      afi ipv6.unicast from AS34307 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS34307 announce AS15693:AS-BUSINESSCONNECT
+remarks:        +-------------+
+remarks:        | Equinix-IX IPv6 |
+remarks:        +-------------+
+mp-import:      afi ipv6.unicast from AS24115 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS24115 announce AS15693:AS-BUSINESSCONNECT
+mp-import:      afi ipv6.unicast from AS24115 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS24115 announce AS15693:AS-BUSINESSCONNECT
+remarks:        ------------------------------------------------
+remarks:        E-mail is the preferred contact method!
+remarks:        Abuse notifications to: abuse@businessconnect.nl
+remarks:        ------------------------------------------------
+remarks:        Contact for peering requests: peering@as15693.net
+remarks:        Peeringdb: http://as15693.peeringdb.com
+remarks:        ------------------------------------------------
+admin-c:        RW2193-RIPE
+tech-c:         RW2193-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TODAYISP-MNT
+created:        2009-07-31T09:02:58Z
+last-modified:  2025-04-23T09:05:52Z
+source:         RIPE
+
+organisation:   ORG-TIB2-RIPE
+org-name:       Today Concepts B.V.
+country:        NL
+org-type:       LIR
+address:        Jan Campertlaan 2
+address:        3201 AX
+address:        Spijkenisse
+address:        NETHERLANDS
+phone:          +31887507000
+fax-no:         +31887507005
+abuse-c:        AR16289-RIPE
+mnt-ref:        TODAYISP-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TODAYISP-MNT
+admin-c:        RW2193-RIPE
+created:        2009-01-09T11:42:53Z
+last-modified:  2022-12-01T17:25:25Z
+source:         RIPE # Filtered
+
+person:         Robin Waarts
+address:        Jan Campertlaan 2
+address:        3201AX SPIJKENISSE
+address:        Netherlands
+phone:          +31887507000
+nic-hdl:        RW2193-RIPE
+mnt-by:         TODAYISP-MNT
+created:        2009-01-12T12:24:13Z
+last-modified:  2025-02-14T09:58:39Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          46.183.248.0/21
+descr:          BUSINESSCONNECT
+origin:         AS15693
+mnt-by:         EM12689-MNT
+mnt-lower:      EM12689-MNT
+mnt-routes:     EM12689-MNT
+created:        2010-12-16T13:05:22Z
+last-modified:  2010-12-16T13:05:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.29.60.0/24
+origin:         AS15693
+descr:          NL-BUSINESSCONNECT-BROADBAND
+mnt-by:         EM12689-MNT
+created:        2021-04-27T11:25:07Z
+last-modified:  2021-04-27T11:25:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.29.62.0/23
+origin:         AS15693
+mnt-by:         EM12689-MNT
+created:        2021-04-27T11:26:43Z
+last-modified:  2021-04-27T11:26:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.191.120.0/23
+descr:          BusinessConnect
+origin:         AS15693
+mnt-by:         EM12689-MNT
+mnt-lower:      EM12689-MNT
+mnt-routes:     EM12689-MNT
+created:        2010-02-06T17:11:45Z
+last-modified:  2014-03-12T11:10:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:8800::/29
+origin:         AS15693
+mnt-by:         EM12689-MNT
+created:        2021-04-27T11:18:06Z
+last-modified:  2021-04-27T11:18:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

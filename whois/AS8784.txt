@@ -1,0 +1,831 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8771 - AS8795'
+
+as-block:       AS8771 - AS8795
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8784'
+
+% Abuse contact for 'AS8784' is 'so-saas-practice-network.odigo@odigo.com'
+
+aut-num:        AS8784
+as-name:        AS8784
+org:            ORG-OS305-RIPE
+descr:          Managed Services Provider
+descr:          France
+remarks:        -----------------------------IPv4------------------------------
+remarks:        ---------------------------------------------------------------
+remarks:        ---------------------- Upstream Imports -----------------------
+import:         from AS61231 accept { 0.0.0.0/0 }
+import:         from AS8220 action pref=900; accept { 0.0.0.0/0 }
+import:         from AS174 action pref=900; accept ANY AND { 0.0.0.0/0 }
+import:         from AS1299 action pref=900; accept ANY AND { 0.0.0.0/0 }
+import:         from AS3257 action pref=900; accept ANY AND { 0.0.0.0/0 }
+import:         from AS3356 action pref=900; accept ANY AND { 0.0.0.0/0 }
+remarks:        ---------------------- Upstream Exports -----------------------
+export:         to AS61231 announce AS8784
+export:         to AS8220 announce AS-MGN
+export:         to AS174 announce AS-MGN
+export:         to AS1299 announce AS-MGN
+export:         to AS3257 announce AS-MGN
+export:         to AS3356 announce AS-MGN
+remarks:        ---------------------------------------------------------------
+remarks:        -----------------------------IPv6------------------------------
+remarks:        ---------------------- Upstream Imports -----------------------
+mp-import:      afi ipv6.unicast from AS174 action pref=880; accept ANY
+mp-import:      afi ipv6.unicast from AS1299 action pref=880; accept ANY
+mp-import:      afi ipv6.unicast from AS3257 action pref=880; accept ANY
+mp-import:      afi ipv6.unicast from AS3356 action pref=880; accept ANY
+mp-import:      afi ipv6.unicast from AS6939 action pref=880; accept ANY
+remarks:        ---------------------- Upstream Exports -----------------------
+mp-export:      afi ipv6.unicast to AS174 announce AS-MGN
+mp-export:      afi ipv6.unicast to AS1299 announce AS-MGN
+mp-export:      afi ipv6.unicast to AS3257 announce AS-MGN
+mp-export:      afi ipv6.unicast to AS3356 announce AS-MGN
+mp-export:      afi ipv6.unicast to AS6939 announce AS-MGN
+remarks:        ---------------------------------------------------------------
+admin-c:        OA3038-RIPE
+tech-c:         OA3038-RIPE
+status:         ASSIGNED
+remarks:        ---------------------------------------------------------------
+remarks:        The policy in this object is a simplified view of our routing
+remarks:        policy, we will filter inbound all :
+remarks:        - Defaults
+remarks:        - Private AS
+remarks:        - Bogons and Martians
+remarks:        - any network shorter than /8 and longer than /24
+remarks:        - pref = 1000 - localpref
+remarks:
+remarks:        Prosodie accepts peering requests for IPv6 at the SFINX, FranceIX
+remarks:        and Equinix, we have a strict filtering policy:
+remarks:        - IPv6 bogons
+remarks:        - any net shorter than /12 and longer than /48
+remarks:
+remarks:        Prosodie is present at the SFINX, FranceIX and Equinix exchange
+remarks:        points in Paris. We maintain an open peering policy, Please send
+remarks:        all peering requests/info/updates to :
+remarks:        peering at prosodie.com
+remarks:        please view our peering policy at:
+remarks:        http://www.prosodie.com/peering
+remarks:        ---------------------------------------------------------------
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MGN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-01-20T07:29:47Z
+source:         RIPE
+
+organisation:   ORG-OS305-RIPE
+org-name:       Odigo SASU
+country:        FR
+org-type:       LIR
+address:        145 Quai DU PRESIDENT ROOSEVELT
+address:        92130
+address:        ISSY LES MOULINEAUX
+address:        FRANCE
+phone:          +33 149673000
+admin-c:        OA3038-RIPE
+tech-c:         MVI92-RIPE
+abuse-c:        AR61471-RIPE
+mnt-ref:        MGN-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MGN-MNT
+created:        2020-12-08T08:24:13Z
+last-modified:  2025-02-12T11:07:07Z
+source:         RIPE # Filtered
+
+role:           Odigo-admin
+address:        145 Quai DU PRESIDENT ROOSEVELT
+address:        92130
+address:        ISSY LES MOULINEAUX
+address:        FRANCE
+phone:          +33 149673000
+nic-hdl:        OA3038-RIPE
+mnt-by:         MGN-MNT
+created:        2020-12-08T08:24:12Z
+last-modified:  2020-12-08T08:24:12Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          83.169.64.0/18
+descr:          Prosodie
+origin:         AS8784
+notify:         ripe@mgn.net
+mnt-by:         MGN-MNT
+mnt-by:         COLT-FR-MNT
+created:        2012-04-20T13:52:28Z
+last-modified:  2022-07-07T21:07:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.64.0/23
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:29:27Z
+last-modified:  2022-09-02T13:29:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.66.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2023-04-18T08:37:59Z
+last-modified:  2023-04-18T08:37:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.67.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2023-04-18T08:37:38Z
+last-modified:  2023-04-18T08:37:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.69.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-12-01T14:43:20Z
+last-modified:  2022-12-01T14:43:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.70.0/23
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:29:54Z
+last-modified:  2022-09-02T13:29:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.72.0/24
+origin:         AS8784
+mnt-by:         MGN-MNT
+created:        2025-06-25T09:04:36Z
+last-modified:  2025-06-25T09:04:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.73.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:31:07Z
+last-modified:  2022-09-02T13:31:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.74.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2025-02-10T10:01:24Z
+last-modified:  2025-02-10T10:01:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.80.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-12-01T14:43:03Z
+last-modified:  2022-12-01T14:43:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.81.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-12-02T13:29:28Z
+last-modified:  2022-12-02T13:29:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.83.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:31:39Z
+last-modified:  2022-09-02T13:31:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.84.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-11-16T08:51:24Z
+last-modified:  2022-11-16T08:51:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.85.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-11-16T08:55:36Z
+last-modified:  2022-11-16T08:55:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.89.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-11-10T08:47:41Z
+last-modified:  2022-11-10T08:47:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.92.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-12-07T08:42:29Z
+last-modified:  2022-12-07T08:42:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.99.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:32:04Z
+last-modified:  2022-09-02T13:32:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.100.0/22
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:32:46Z
+last-modified:  2022-09-02T13:32:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.114.0/23
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:39:01Z
+last-modified:  2022-09-02T13:39:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.116.0/22
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:39:30Z
+last-modified:  2022-09-02T13:39:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.120.0/22
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:40:18Z
+last-modified:  2022-09-02T13:40:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.124.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-09-02T13:40:36Z
+last-modified:  2022-09-02T13:40:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.169.125.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2023-03-28T14:14:54Z
+last-modified:  2023-03-28T14:14:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.22.152.0/21
+descr:          Prosodie
+origin:         AS8784
+mnt-by:         MGN-MNT
+mnt-by:         COLT-FR-MNT
+created:        2010-04-09T14:10:28Z
+last-modified:  2022-07-04T21:16:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.117.208.0/20
+descr:          Prosodie
+origin:         AS8784
+notify:         ripe@mgn.net
+mnt-by:         MGN-MNT
+mnt-by:         COLT-FR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-07-04T21:17:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.117.208.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-08-25T15:21:01Z
+last-modified:  2022-08-25T15:21:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.117.211.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-08-30T09:34:32Z
+last-modified:  2022-08-30T09:34:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.117.216.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-08-25T15:21:30Z
+last-modified:  2022-08-25T15:21:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.117.219.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-08-23T10:20:01Z
+last-modified:  2022-08-23T10:20:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.153.214.0/24
+descr:          Prosodie
+origin:         AS8784
+mnt-by:         MGN-MNT
+mnt-by:         COLT-FR-MNT
+created:        2010-04-09T08:49:06Z
+last-modified:  2022-06-30T21:22:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.153.214.0/24
+descr:          Proxy-registered route object
+origin:         AS8784
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  valid
+
+route:          195.46.192.0/19
+descr:          Prosodie
+origin:         AS8784
+notify:         ripe@mgn.net
+mnt-by:         MGN-MNT
+mnt-by:         COLT-FR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-07-04T21:18:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.46.213.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-08-29T12:44:02Z
+last-modified:  2022-08-29T12:44:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.46.214.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-08-30T09:30:06Z
+last-modified:  2022-08-30T09:30:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.46.216.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-08-23T10:21:11Z
+last-modified:  2022-08-23T10:21:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.37.192.0/19
+descr:          Prosodie
+origin:         AS8784
+notify:         ripe@mgn.net
+mnt-by:         MGN-MNT
+mnt-by:         COLT-FR-MNT
+created:        2012-04-20T13:48:49Z
+last-modified:  2022-06-30T21:22:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.139.96.0/19
+descr:          Prosodie
+origin:         AS8784
+notify:         ripe@mgn.net
+mnt-by:         MGN-MNT
+mnt-by:         COLT-FR-MNT
+created:        2002-06-24T12:43:50Z
+last-modified:  2022-07-04T21:17:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.139.111.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-06-29T12:24:51Z
+last-modified:  2022-06-29T12:24:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.139.123.0/24
+origin:         AS8784
+mnt-by:         MNT-MVI92
+mnt-by:         MGN-MNT
+mnt-by:         INTFR-MNT
+created:        2022-08-23T10:21:49Z
+last-modified:  2022-08-23T10:21:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:4b90::/32
+descr:          Prosodie
+origin:         AS8784
+notify:         ripe@mgn.net
+mnt-by:         MGN-MNT
+mnt-by:         COLT-FR-MNT
+created:        2012-05-23T22:44:26Z
+last-modified:  2022-06-30T21:19:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:d50::/32
+descr:          Prosodie
+origin:         AS8784
+mnt-by:         MGN-MNT
+mnt-by:         COLT-FR-MNT
+created:        2012-08-22T10:43:14Z
+last-modified:  2022-06-30T21:21:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

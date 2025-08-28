@@ -1,0 +1,254 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16059 - AS16213'
+
+as-block:       AS16059 - AS16213
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16066'
+
+% Abuse contact for 'AS16066' is 'hostmaster@triacom.ua'
+
+aut-num:        AS16066
+as-name:        TEST-UA
+org:            ORG-CJ1-RIPE
+remarks:        ==== IPv4 =================================================
+remarks:        ==== Uplinks ==============================================
+import:         from AS9002 action pref=100; accept ANY
+export:         to AS9002 announce AS-TESTUA
+import:         from AS13249 action pref=100; accept ANY
+export:         to AS13249 announce AS-TESTUA
+import:         from AS50952 action pref=100; accept AS-DATAIX
+export:         to AS50952 announce AS-TESTUA
+import:         from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-TESTUA
+remarks:        ==== IX ===================================================
+import:         from AS15645 action pref=200; accept AS-UAIX
+export:         to AS15645 announce AS-TESTUA
+import:         from AS31210 action pref=100; accept AS-DTEL-IX
+export:         to AS31210 announce AS-TESTUA
+remarks:        ===== Bilateral Peers ======
+import:         from AS6939 action pref=250; accept AS-HURRICANE
+export:         to AS6939 announce AS-TESTUA
+remarks:        ==== Clients ==============================================
+import:         from AS48644 action pref=300; accept AS48644
+export:         to AS48644 announce ANY
+import:         from AS51943 action pref=300; accept AS51943
+export:         to AS51943 announce ANY
+import:         from AS42379 action pref=300; accept AS42379
+export:         to AS42379 announce ANY
+import:         from AS197373 action pref=300; accept AS197373
+export:         to AS197373 announce ANY
+import:         from AS38961 action pref=300; accept AS-CIG
+export:         to AS38961 announce ANY
+import:         from AS60990 action pref=300; accept AS60990
+export:         to AS60990 announce ANY
+import:         from AS29130 action pref=300; accept AS29130
+export:         to AS29130 announce ANY
+import:         from AS56944 action pref=300; accept AS56944
+export:         to AS56944 announce ANY
+import:         from AS47170 action pref=300; accept AS47170
+export:         to AS47170 announce ANY
+import:         from AS34776 action pref=300; accept AS34776
+export:         to AS34776 announce ANY
+import:         from AS24733 action pref=300; accept AS24733
+export:         to AS24733 announce ANY
+import:         from AS208971 action pref=300; accept AS208971
+export:         to AS208971 announce ANY
+import:         from AS41027 action pref=300; accept AS-NETEX
+export:         to AS41027 announce ANY
+import:         from AS44390 action pref=300; accept AS44390
+export:         to AS44390 announce ANY
+import:         from AS209213 action pref=300; accept AS209213
+export:         to AS209213 announce ANY
+import:         from AS197341 action pref=300; accept AS197341
+export:         to AS197341 announce ANY
+import:         from AS43361 action pref=300; accept AS43361
+export:         to AS43361 announce ANY
+remarks:        ==== IPv6 ==========================================
+remarks:        == Uplinks ==
+mp-import:      afi ipv6.unicast from AS9002 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-TESTUA6
+remarks:        == IX ==
+mp-import:      afi ipv6.unicast from AS15645 action pref=100; accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-CITYNET6
+mp-import:      afi ipv6.unicast from AS31210 action pref=100; accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-TESTUA6
+remarks:        ===== Bilateral Peers 6 ======
+mp-import:      afi ipv6.unicast from AS6939 action pref=250; accept AS-HURRICANEv6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-TESTUA6
+remarks:        ===========================================================
+remarks:        == Clients ==
+mp-import:      afi ipv6.unicast from AS34776 action pref=300; accept AS34776
+mp-export:      afi ipv6.unicast to AS34776 announce ANY
+remarks:        ===========================================================
+remarks:        Informational BGP communities advertised to customers:
+remarks:        Upstreams:
+remarks:        16066:4030 - RETN AS9002
+remarks:        16066:4040 - DATA-IX AS50952
+remarks:        16066:4050 - Cogent AS174
+remarks:        IX:
+remarks:        16066:4800 - UA-IX AS15645
+remarks:        16066:4810 - DTEL-IX AS31210
+remarks:        Community attributes accepted from customers
+remarks:        Upstreams:
+remarks:        16066:503x - announces to RETN AS9002
+remarks:        16066:504x - announces to DATA-IX AS50952
+remarks:        16066:590x - announces to All Upstreams
+remarks:        IX:
+remarks:        16066:580x - announces to UA-IX AS15645
+remarks:        16066:581x - announces to DTEL-IX AS31210
+remarks:        16066:598x - announces to IX
+remarks:        16066:599x - announces to ALL
+remarks:        16066:584x - announces to Hurricane Electric AS6939
+remarks:        x = 1 - prepend 1
+remarks:        x = 2 - prepend 2
+remarks:        x = 3 - prepend 3
+remarks:        x = 4 - prepend 4
+remarks:        x = 9 - do not announce
+admin-c:        TSAD1-RIPE
+tech-c:         TSNC-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-TESTUA
+created:        2002-09-04T09:52:55Z
+last-modified:  2025-01-10T09:21:09Z
+source:         RIPE
+
+organisation:   ORG-CJ1-RIPE
+org-name:       T.E.S.T. Ltd
+country:        UA
+org-type:       LIR
+address:        6, Tulchinskaya str.
+address:        04080
+address:        Kiev
+address:        UKRAINE
+phone:          +380445911121
+fax-no:         +380445911125
+admin-c:        CITY1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-TESTUA
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-TESTUA
+tech-c:         TSNC-RIPE
+abuse-c:        TSNC-RIPE
+created:        2004-04-17T12:08:45Z
+last-modified:  2022-10-21T09:07:15Z
+source:         RIPE # Filtered
+
+role:           T.E.S.T. Admin
+address:        6, Tulchinskaya str. 04080, Kiev, Ukraine
+nic-hdl:        TSAD1-RIPE
+mnt-by:         MNT-TESTUA
+created:        2015-12-07T13:54:49Z
+last-modified:  2015-12-07T13:54:49Z
+source:         RIPE # Filtered
+
+role:           T.E.S.T NOC
+address:        6, Tulchinskaya str. 04080, Kiev, Ukraine
+admin-c:        TSAD1-RIPE
+tech-c:         VS10808-RIPE
+nic-hdl:        TSNC-RIPE
+mnt-by:         MNT-TESTUA
+abuse-mailbox:  hostmaster@triacom.ua
+created:        2012-01-31T23:00:34Z
+last-modified:  2022-11-28T17:26:46Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          93.170.81.0/24
+origin:         AS16066
+mnt-by:         RIPE-DB-MNT
+created:        2025-07-02T16:25:04Z
+last-modified:  2025-07-02T16:25:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.237.80.0/20
+descr:          T.E.S.T. Ltd
+origin:         AS16066
+mnt-by:         MNT-TESTUA
+created:        2010-10-11T13:43:18Z
+last-modified:  2012-03-03T23:34:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          109.237.95.0/24
+descr:          Servers Net
+origin:         AS16066
+mnt-by:         MNT-TESTUA
+created:        2013-10-02T16:55:07Z
+last-modified:  2013-10-02T16:55:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.76.192.0/20
+descr:          T.E.S.T. Ltd
+origin:         AS16066
+notify:         noc@citynet.ua
+mnt-by:         MNT-TESTUA
+created:        2002-05-14T12:57:50Z
+last-modified:  2012-03-03T23:31:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:ec00::/32
+descr:          CityNet JSC IPv6
+origin:         AS16066
+mnt-by:         UA-CITYNET
+created:        2011-05-23T22:10:40Z
+last-modified:  2011-05-23T22:10:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

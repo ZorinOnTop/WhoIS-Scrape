@@ -1,0 +1,488 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16285 - AS16314'
+
+as-block:       AS16285 - AS16314
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-01-25T16:07:47Z
+last-modified:  2021-01-25T16:07:47Z
+source:         RIPE
+
+% Information related to 'AS16302'
+
+% Abuse contact for 'AS16302' is 'hostmaster@suomicommunications.com'
+
+aut-num:        AS16302
+as-name:        SUOMICOMMUNICATIONS
+remarks:        SuomiCom AS16302
+org:            ORG-SCO1-RIPE
+remarks:        ----------------------------------------
+remarks:        Transits
+remarks:        ----------------------------------------
+import:         from AS24940 accept ANY;
+import:         from AS12552 accept ANY;
+import:         from AS1299 accept ANY;
+import:         from AS6667 accept ANY;
+import:         from AS174 accept ANY;
+export:         to AS24940 announce AS-SUOMICOM;
+export:         to AS12552 announce AS-SUOMICOM;
+export:         to AS1299 announce AS-SUOMICOM;
+export:         to AS6667 announce AS-SUOMICOM;
+export:         to AS174 announce AS-SUOMICOM;
+remarks:        ----------------------------------------
+remarks:        Customers
+remarks:        ----------------------------------------
+import:         from AS51311 accept AS51311;
+import:         from AS203195 accept AS203195;
+import:         from AS203296 accept AS203296;
+import:         from AS203817 accept AS203817;
+import:         from AS203034 accept AS203034;
+import:         from AS207202 accept AS207202;
+import:         from AS51765 accept AS-CREANOVA;
+import:         from AS60156 accept AS60156;
+import:         from AS203602 accept AS203602;
+import:         from AS51726 accept AS51726;
+import:         from AS12630 accept AS-OTAVERKKO;
+import:         from AS209325 accept AS209325;
+import:         from AS41369 accept AS-SET-DCF;
+import:         from AS208281 accept AS208281;
+import:         from AS207729 accept AS207729;
+import:         from AS39857 accept AS39857;
+import:         from AS61074 accept AS61074;
+import:         from AS49283 accept AS49283;
+import:         from AS207797 accept AS207797;
+import:         from AS48755 accept AS-ILJOJA;
+import:         from AS58003 accept AS58003:AS-ALL;
+import:         from AS35382 accept AS35382:AS-TO-SUOMICOM;
+import:         from AS51571 accept AS-ALPIT;
+import:         from AS216421 accept AS216421;
+import:         from AS1342 accept AS1342;
+import:         from AS57043 accept AS57043;
+import:         from AS41242 accept AS41242;
+import:         from AS49866 accept AS49866:AS-CUST;
+import:         from AS202509 accept AS-CLOUDCITYFI;
+import:         from AS213547 accept AS213547;
+import:         from AS208987 accept AS208987;
+import:         from AS207038 accept AS207038;
+import:         from AS210536 accept AS210536;
+export:         to AS51311 announce ANY;
+export:         to AS203195 announce ANY;
+export:         to AS203296 announce ANY;
+export:         to AS203817 announce ANY;
+export:         to AS203034 announce ANY;
+export:         to AS207202 announce ANY;
+export:         to AS51765 announce ANY;
+export:         to AS60156 announce ANY;
+export:         to AS203602 announce ANY;
+export:         to AS51726 announce ANY;
+export:         to AS12630 announce ANY;
+export:         to AS209325 announce {0.0.0.0/0};
+export:         to AS41369 announce ANY;
+export:         to AS208281 announce ANY;
+export:         to AS207729 announce {0.0.0.0/0};
+export:         to AS39857 announce {0.0.0.0/0};
+export:         to AS61074 announce ANY;
+export:         to AS49283 announce ANY;
+export:         to AS207797 announce {0.0.0.0/0};
+export:         to AS48755 announce ANY;
+export:         to AS58003 announce ANY;
+export:         to AS35382 announce ANY;
+export:         to AS51571 announce {0.0.0.0/0};
+export:         to AS216421 announce ANY;
+export:         to AS1342 announce ANY;
+export:         to AS57043 announce ANY;
+export:         to AS41242 announce ANY;
+export:         to AS49866 announce ANY;
+export:         to AS202509 announce ANY;
+export:         to AS213547 announce ANY;
+export:         to AS208987 announce {0.0.0.0/0};
+export:         to AS207038 announce ANY;
+export:         to AS210536 announce ANY;
+remarks:        ----------------------------------------
+remarks:        FICIX peering
+remarks:        ----------------------------------------
+import:         from AS41194 accept ANY;
+import:         from AS13335 ACCEPT AS13335;
+import:         from AS8359 ACCEPT AS-MTU;
+import:         from AS6939 accept AS6939;
+import:         from AS8075 accept AS8075;
+import:         from AS29422 accept AS-NBLNETFI;
+import:         from AS30798 accept AS30798;
+import:         from AS2906 accept AS2906;
+import:         from AS8674 accept AS-NETNOD-ANYCAST;
+import:         from AS24751 accept AS24751;
+import:         from AS60116 accept AS60116;
+import:         from AS51728 accept AS51728;
+import:         from AS43558 accept AS43558;
+import:         from AS16086 accept AS16086;
+import:         from AS20904 accept AS-NETPLAZA;
+import:         from AS39699 accept AS-LOUNEA;
+import:         from AS202053 accept AS-UPCLOUD;
+import:         from AS13170 accept AS13170;
+import:         from AS12630 accept AS12630;
+import:         from AS1342 accept AS1342;
+import:         from AS12552 accept AS-IPO;
+import:         from AS26415 accept AS-GTLD;
+import:         from AS32934 accept AS-FACEBOOK;
+import:         from AS2603 accept AS-NORDUNET;
+import:         from AS15830 accept AS-EQUINIX;
+import:         from AS1759 accept AS-TSF-CUSTOMERS;
+import:         from AS6667 accept AS-EUNETIP;
+import:         from AS719 accept AS-ELISAFI;
+import:         from AS204779 accept AS-LOCALNETFI;
+export:         to AS8075 announce AS-SUOMICOM;
+export:         to AS29422 announce AS-SUOMICOM;
+export:         to AS41194 announce AS-SUOMICOM;
+export:         to AS30798 announce AS-SUOMICOM;
+export:         to AS2906 announce AS-SUOMICOM;
+export:         to AS8674 announce AS-SUOMICOM;
+export:         to AS24751 announce AS-SUOMICOM;
+export:         to AS60116 announce AS-SUOMICOM;
+export:         to AS51728 announce AS-SUOMICOM;
+export:         to AS43558 announce AS-SUOMICOM;
+export:         to AS6939 announce AS-SUOMICOM;
+export:         to AS8359 announce AS-SUOMICOM;
+export:         to AS13335 announce AS-SUOMICOM;
+export:         to AS16086 announce AS-SUOMICOM;
+export:         to AS39699 announce AS-SUOMICOM;
+export:         to AS20904 announce AS-SUOMICOM;
+export:         to AS202053 announce AS-SUOMICOM;
+export:         to AS13170 announce AS-SUOMICOM;
+export:         to AS12630 announce AS-SUOMICOM;
+export:         to AS1342 announce AS-SUOMICOM;
+export:         to AS12552 announce AS-SUOMICOM;
+export:         to AS26415 announce AS-SUOMICOM;
+export:         to AS32934 announce AS-SUOMICOM;
+export:         to AS2603 announce AS-SUOMICOM;
+export:         to AS15830 announce AS-SUOMICOM;
+export:         to AS1759 announce AS-SUOMICOM;
+export:         to AS6667 announce AS-SUOMICOM;
+export:         to AS719 announce AS-SUOMICOM;
+export:         to AS204779 announce AS-SUOMICOM;
+remarks:        ----------------------------------------
+remarks:        TREX peering
+remarks:        ----------------------------------------
+import:         from AS197032 accept AS197032:AS-ALL;
+export:         to AS197032 announce AS-SUOMICOM;
+import:         from AS42 accept AS42;
+import:         from AS3856 accept AS3856;
+import:         from AS1741 accept AS-FUNET;
+import:         from AS35382 accept AS35382;
+import:         from AS29243 accept AS-MMD;
+import:         from AS29432 accept AS29432;
+import:         from AS24751 accept AS-MULTIFI;
+import:         from AS39242 accept AS39242;
+export:         to AS1741 announce AS-SUOMICOM;
+export:         to AS35382 announce AS-SUOMICOM;
+export:         to AS29243 announce AS-SUOMICOM;
+export:         to AS29432 announce AS-SUOMICOM;
+export:         to AS24751 announce AS-SUOMICOM;
+export:         to AS39242 announce AS-SUOMICOM;
+export:         to AS42 announce AS-SUOMICOM;
+export:         to AS3856 announce AS-SUOMICOM;
+remarks:        ----------------------------------------
+remarks:        PNI peering
+remarks:        ----------------------------------------
+import:         from AS15169 accept AS-GOOGLE;
+import:         from AS16509 accept AS-AMAZON;
+export:         to AS15169 announce AS-SUOMICOM;
+export:         to AS16509 announce AS-SUOMICOM;
+remarks:        ----------------------------------------
+admin-c:        SCH2-RIPE
+tech-c:         SCH2-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         FORMUS-FI-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-04-25T11:48:45Z
+source:         RIPE
+
+organisation:   ORG-SCO1-RIPE
+org-name:       Suomi Communications Oy
+country:        FI
+org-type:       LIR
+address:        Upseerinkatu 3 A
+address:        02600
+address:        Espoo
+address:        FINLAND
+phone:          +358 9 4342 1700
+fax-no:         +358 9 4342 1701
+admin-c:        AS33640-RIPE
+abuse-c:        SCH2-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        FORMUS-FI-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         FORMUS-FI-MNT
+created:        2004-04-17T11:19:39Z
+last-modified:  2020-12-16T12:38:18Z
+source:         RIPE # Filtered
+
+role:           Suomi Communications Hostmasters
+address:        Suomi Communications Oy
+address:        Upseerinkatu 3 A
+address:        FI-02600 ESPOO
+address:        Finland
+phone:          +358 9 4342 1700
+remarks:        trouble: helpdesk@suomicom.fi
+admin-c:        HH6029-RIPE
+abuse-mailbox:  hostmaster@suomicommunications.com
+tech-c:         HH6029-RIPE
+nic-hdl:        SCH2-RIPE
+mnt-by:         FORMUS-FI-MNT
+created:        2002-07-09T08:06:40Z
+last-modified:  2019-04-02T10:50:11Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          77.246.192.0/20
+descr:          Suomi Communications Oy
+origin:         AS16302
+mnt-by:         FORMUS-FI-MNT
+created:        2007-05-29T07:37:50Z
+last-modified:  2007-05-29T07:37:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.134.96.0/19
+descr:          Suomi Communications Oy
+origin:         AS16302
+mnt-by:         FORMUS-FI-MNT
+created:        2007-10-22T08:59:02Z
+last-modified:  2007-10-22T08:59:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.248.240.0/20
+descr:          Suomi Communications Oy
+origin:         AS16302
+mnt-by:         FORMUS-FI-MNT
+created:        2006-01-02T09:07:15Z
+last-modified:  2006-01-02T09:07:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.142.72.0/21
+origin:         AS16302
+mnt-by:         FORMUS-FI-MNT
+created:        2019-12-03T14:09:17Z
+last-modified:  2024-04-16T05:53:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.9.8.0/22
+origin:         AS16302
+mnt-by:         FORMUS-FI-MNT
+created:        2017-02-21T07:28:23Z
+last-modified:  2017-02-21T07:28:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.163.14.0/23
+origin:         AS16302
+mnt-by:         FORMUS-FI-MNT
+created:        2021-05-05T05:35:26Z
+last-modified:  2021-05-05T05:35:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.127.192.0/19
+descr:          Suomi Communications Oy
+origin:         AS16302
+mnt-by:         FORMUS-FI-MNT
+created:        2009-08-06T12:25:56Z
+last-modified:  2009-08-06T12:25:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.138.126.0/24
+descr:          Frantic Oy
+origin:         AS16302
+mnt-by:         FRC-MNT
+mnt-by:         FORMUS-FI-MNT
+created:        2019-12-04T12:48:16Z
+last-modified:  2019-12-04T12:50:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.161.205.0/24
+origin:         AS16302
+mnt-by:         EUHOSTFI-MNT
+mnt-by:         CREANOVA-HKI-MNT
+created:        2021-12-29T08:01:01Z
+last-modified:  2021-12-29T08:01:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.110.23.0/24
+descr:          Henet Finland
+origin:         AS16302
+mnt-by:         HENET-ADMIN
+mnt-by:         FORMUS-FI-MNT
+created:        2011-09-09T09:00:15Z
+last-modified:  2011-09-09T09:00:15Z
+source:         ripe
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.116.231.0/24
+origin:         AS16302
+mnt-by:         lir-fi-locotech-1-MNT
+created:        2021-06-11T10:23:31Z
+last-modified:  2021-06-11T10:23:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.119.32.0/20
+descr:          Suomi Communications Oy
+origin:         AS16302
+mnt-by:         FORMUS-FI-MNT
+created:        2005-01-20T06:24:06Z
+last-modified:  2008-11-24T13:14:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:2d6c::/48
+descr:          Frantic Oy
+origin:         AS16302
+mnt-by:         FRC-MNT
+mnt-by:         FORMUS-FI-MNT
+created:        2019-12-03T14:14:43Z
+last-modified:  2019-12-03T14:14:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:1190::/32
+descr:          SuomiCommunications Oy ipv6 object
+origin:         AS16302
+mnt-by:         FORMUS-FI-MNT
+notify:         noc@suomicom.fi
+created:        2010-10-25T17:12:14Z
+last-modified:  2010-10-25T17:12:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:e900::/32
+origin:         AS16302
+mnt-by:         lir-fi-locotech-1-MNT
+created:        2021-06-11T10:23:59Z
+last-modified:  2021-06-11T10:23:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

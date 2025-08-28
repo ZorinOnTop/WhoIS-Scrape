@@ -1,0 +1,282 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15835 - AS15963'
+
+as-block:       AS15835 - AS15963
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15945'
+
+% Abuse contact for 'AS15945' is 'abuse@pfalzkom.de'
+
+aut-num:        AS15945
+org:            ORG-PGfT1-RIPE
+as-name:        PfalzKom-Net
+descr:          Koschatplatz 1
+descr:          67061 Ludwigshafen
+remarks:        ---------------------------------------
+remarks:        Upstream Providers
+remarks:        ---------------------------------------
+export:         to AS33891 announce AS-PKOM
+import:         from AS33891 action pref=200; accept ANY
+export:         to AS174 action aspath.prepend(AS15945); announce AS-PKOM
+import:         from AS174 action pref=200; aspath.prepend(AS15945); accept ANY
+remarks:        ---------------------------------------
+remarks:        Private Peerings
+remarks:        ---------------------------------------
+export:         to AS21473 announce AS-PKOM
+import:         from AS21473 action pref=200; accept AS-MANET
+remarks:        ---------------------------------------
+remarks:        Customers
+remarks:        ---------------------------------------
+export:         to AS-PKOM announce ANY
+import:         from AS-PKOM action pref=400; accept AS-PKOM
+remarks:        ---------------------------------------------
+admin-c:        PKOM-RIPE
+tech-c:         PKOM-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2002-04-29T09:45:37Z
+last-modified:  2021-02-22T13:55:39Z
+source:         RIPE
+member-of:      AS3320:AS-AUTH-PILOT-ROUTEPRIO-FROM-AS15945
+
+organisation:   ORG-PGfT1-RIPE
+org-name:       PFALZKOM GmbH
+country:        DE
+org-type:       LIR
+address:        Wredestr 35
+address:        67059
+address:        Ludwigshafen
+address:        GERMANY
+phone:          +49 621 585 3300
+fax-no:         +49 621 585 3303
+admin-c:        KY67-Ripe
+admin-c:        JB7098-RIPE
+admin-c:        nvt-ripe
+remarks:        formerly known as PfalzKom Gesellschaft fuer Telekommunikation mbH
+abuse-c:        AR14695-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        PFALZKOM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2004-04-17T11:11:11Z
+last-modified:  2023-08-03T06:40:27Z
+source:         RIPE # Filtered
+
+role:           PKom NOC
+address:        PfalzKom Internet Service Provider
+address:        Ludwigshafen
+address:        Wredestr 35
+address:        D-67059 Ludwigshafen
+phone:          +49 621 585 3300
+fax-no:         +49 621 585 3303
+remarks:        trouble: Information: http://www.pfalzkom.de
+remarks:        trouble: mailto:hostmaster@noc.pfalzkom.de
+admin-c:        JB7098-RIPE
+tech-c:         KY67-RIPE
+tech-c:         nvt-ripe
+tech-c:         TK10084-RIPE
+nic-hdl:        PKom-RIPE
+mnt-by:         PFALZKOM-MNT
+created:        2001-12-05T10:52:30Z
+last-modified:  2025-05-14T15:24:10Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          45.148.216.0/23
+origin:         AS15945
+mnt-by:         ISPEG-MNT
+mnt-by:         MNT-EDNT
+created:        2020-01-24T15:51:47Z
+last-modified:  2020-01-24T15:51:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.240.77.0/24
+descr:          DE-HORNBACH-PI-NET1
+origin:         AS15945
+mnt-by:         PFALZKOM-MNT
+created:        2013-02-13T13:52:54Z
+last-modified:  2013-02-13T13:52:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          109.232.128.0/21
+descr:          Tegro Kabelbau GmbH
+descr:          route PI Range via Pfalzkom
+origin:         AS15945
+mnt-by:         PFALZKOM-MNT
+created:        2010-09-20T13:01:36Z
+last-modified:  2010-09-20T13:01:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.8.228.0/23
+descr:          HDPnet via Pfalzkom
+origin:         AS15945
+mnt-by:         PFALZKOM-MNT
+created:        2012-12-06T14:01:46Z
+last-modified:  2012-12-06T14:01:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.21.28.0/22
+origin:         AS15945
+descr:          Tegro Upstream
+mnt-by:         PFALZKOM-MNT
+created:        2018-05-25T11:51:16Z
+last-modified:  2018-05-25T11:51:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.21.28.0/23
+descr:          PFALZKOM|MANET
+origin:         AS15945
+mnt-by:         PFALZKOM-MNT
+created:        2015-10-06T14:33:34Z
+last-modified:  2015-10-06T14:33:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.16.128.0/20
+descr:          DE-GKM-LAN
+descr:          PfalzKom Internet Service Provider
+origin:         AS15945
+mnt-by:         PFALZKOM-MNT
+mnt-by:         MANET-RIPE-MNT
+created:        2002-10-25T14:22:34Z
+last-modified:  2007-07-24T07:16:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.31.52.0/22
+origin:         AS15945
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+created:        2020-01-27T10:50:46Z
+last-modified:  2020-01-27T10:50:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.31.52.0/24
+origin:         AS15945
+mnt-by:         MANET-RIPE-MNT
+mnt-by:         PFALZKOM-MNT
+mnt-by:         nvt-mnt
+created:        2020-02-24T17:14:24Z
+last-modified:  2020-02-24T17:14:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:2e04::/48
+descr:          Hornbach  IPv6 SpacePI
+origin:         AS15945
+mnt-by:         PFALZKOM-MNT
+created:        2017-02-22T12:14:11Z
+last-modified:  2017-02-22T12:14:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:24d8:ffff::/48
+origin:         AS15945
+mnt-by:         PFALZKOM-MNT
+created:        2020-08-17T15:04:49Z
+last-modified:  2020-08-17T15:04:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

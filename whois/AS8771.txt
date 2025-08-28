@@ -1,0 +1,328 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8771 - AS8795'
+
+as-block:       AS8771 - AS8795
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8771'
+
+% Abuse contact for 'AS8771' is 'abuse@yu.net'
+
+aut-num:        AS8771
+as-name:        YUNET-AS
+remarks:        ------------------
+remarks:        | IPv4 UPSTREAMS |
+remarks:        ------------------
+import:         from AS8400 action pref=100; accept ANY
+export:         to AS8400 announce AS-YUNET
+import:         from AS15958 action pref=100; accept ANY
+export:         to AS15958 announce AS-YUNET
+remarks:        ------------------
+remarks:        | IPv6 UPSTREAMS |
+remarks:        ------------------
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-YUNET
+mp-import:      afi ipv6.unicast from AS8400 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS8400 announce AS-YUNET
+mp-import:      afi ipv6.unicast from AS15958 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS15958 announce AS-YUNET
+remarks:        ------------------
+remarks:        | IPv4 EXCHANGES |
+remarks:        ------------------
+import:         from AS13004 action pref=100; accept ANY
+export:         to AS13004 announce AS-YUNET
+remarks:        ------------------
+remarks:        | IPv4 PEERINGS |
+remarks:        ------------------
+import:         from AS6700 action pref=300; accept AS-BEOTELNET
+export:         to AS6700 announce AS-YUNET
+import:         from AS6701 action pref=300; accept AS6701
+export:         to AS6701 announce AS-YUNET
+import:         from AS9125 action pref=300; accept AS-ORIONTELEKOM
+export:         to AS9125 announce AS-YUNET
+import:         from AS13091 action pref=300; accept AS-PTT-SRBIJA-NET
+export:         to AS13091 announce AS-YUNET
+import:         from AS15982 action pref=300; accept AS-VERATNET
+export:         to AS15982 announce AS-YUNET
+import:         from AS31042 action pref=300; accept AS-SBB
+export:         to AS31042 announce AS-YUNET
+import:         from AS35573 action pref=300; accept AS35573
+export:         to AS35573 announce AS-YUNET
+import:         from AS41937 action pref=300; accept AS-VEKTOR
+export:         to AS41937 announce AS-YUNET
+remarks:        ------------------
+remarks:        | IPv6 PEERINGS |
+remarks:        ------------------
+mp-import:      afi ipv6.unicast from AS9125 action pref=300; accept AS-ORIONTELEKOM
+mp-export:      afi ipv6.unicast to AS9125 announce AS-YUNET
+mp-import:      afi ipv6.unicast from AS15982 action pref=300; accept AS-VERATNET
+mp-export:      afi ipv6.unicast to AS15982 announce AS-YUNET
+remarks:        ------------------
+remarks:        | IPv4 CUSTOMERS |
+remarks:        ------------------
+import:         from AS8295 action pref=300; accept AS8295
+export:         to AS8295 announce ANY
+import:         from AS8534 action pref=300; accept AS-INFOSKY
+export:         to AS8534 announce ANY
+import:         from AS35796 action pref=300; accept AS35796
+export:         to AS35796 announce ANY
+import:         from AS42646 action pref=300; accept AS42646
+export:         to AS42646 announce ANY
+import:         from AS43125 action pref=300; accept AS43125
+export:         to AS43125 announce ANY
+import:         from AS43191 action pref=300; accept AS43191
+export:         to AS43191 announce ANY
+import:         from AS43608 action pref=300; accept AS-IT011
+export:         to AS43608 announce ANY
+import:         from AS47267 action pref=300; accept AS47267
+export:         to AS47267 announce ANY
+import:         from AS59737 action pref=300; accept AS59737
+export:         to AS59737 announce ANY
+import:         from AS62012 action pref=300; accept AS62012
+export:         to AS62012 announce ANY
+remarks:        ------------------
+remarks:        | IPv6 CUSTOMERS |
+remarks:        ------------------
+mp-import:      afi ipv6.unicast from AS43191 action pref=300; accept AS43191
+mp-export:      afi ipv6.unicast to AS43191 announce ANY
+org:            ORG-YI2-RIPE
+admin-c:        YIRT1-RIPE
+tech-c:         YIRT1-RIPE
+status:         ASSIGNED
+mnt-by:         AS8771-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-09-11T18:57:21Z
+last-modified:  2016-04-14T10:49:16Z
+source:         RIPE
+
+organisation:   ORG-YI2-RIPE
+org-name:       YUnet International d.o.o.
+country:        RS
+org-type:       LIR
+address:        Dubrovacka 35/III
+address:        11000
+address:        Beograd
+address:        SERBIA
+phone:          +381 11 3305678
+fax-no:         +381 11 3305650
+mnt-ref:        EUNETYU-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         EUNETYU-MNT
+admin-c:        MM48930-RIPE
+admin-c:        DP3756-RIPE
+abuse-c:        YIRT1-RIPE
+created:        2004-04-17T12:24:55Z
+last-modified:  2020-12-16T12:18:33Z
+source:         RIPE # Filtered
+
+role:           YUnet International RIPE Team
+address:        YUnet International
+address:        Dubrovacka 35/III
+address:        11000 Beograd
+address:        Serbia
+phone:          +381 11 3119901
+fax-no:         +381 11 3119901
+admin-c:        MM48930-RIPE
+admin-c:        DP3756-RIPE
+tech-c:         MM48930-RIPE
+tech-c:         DP3756-RIPE
+nic-hdl:        YIRT1-RIPE
+abuse-mailbox:  abuse@yu.net
+mnt-by:         AS8771-MNT
+created:        2007-06-25T10:55:22Z
+last-modified:  2018-07-23T13:16:04Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          78.30.128.0/18
+descr:          YUnet International
+origin:         AS8771
+mnt-by:         AS8771-MNT
+created:        2007-10-16T11:42:16Z
+last-modified:  2013-08-07T10:41:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.121.64.0/19
+origin:         AS8771
+mnt-by:         EUNETYU-MNT
+created:        2023-12-13T11:35:50Z
+last-modified:  2023-12-13T11:35:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.121.96.0/20
+origin:         AS8771
+mnt-by:         EUNETYU-MNT
+created:        2023-12-13T11:36:18Z
+last-modified:  2023-12-13T11:36:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.247.192.0/19
+descr:          YUnet International
+origin:         AS8771
+mnt-by:         AS8771-MNT
+created:        2002-08-20T20:37:38Z
+last-modified:  2013-08-07T10:26:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.198.192.0/18
+descr:          YUnet International
+origin:         AS8771
+mnt-by:         AS8771-MNT
+created:        2002-10-10T15:32:36Z
+last-modified:  2013-08-07T10:39:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.240.0.0/19
+origin:         AS8771
+mnt-by:         AS8771-MNT
+mnt-by:         EUNETYU-MNT
+created:        2022-02-24T08:42:54Z
+last-modified:  2022-02-24T08:42:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.240.36.0/22
+origin:         AS8771
+mnt-by:         AS8771-MNT
+mnt-by:         EUNETYU-MNT
+created:        2022-02-24T08:44:23Z
+last-modified:  2022-02-24T08:44:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.240.40.0/21
+origin:         AS8771
+mnt-by:         AS8771-MNT
+mnt-by:         EUNETYU-MNT
+created:        2022-02-24T08:45:10Z
+last-modified:  2022-02-24T08:45:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.240.40.0/23
+descr:          YUnet International
+origin:         AS8771
+mnt-by:         AS8771-MNT
+created:        2013-08-07T10:21:36Z
+last-modified:  2013-08-07T10:40:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.240.48.0/20
+origin:         AS8771
+mnt-by:         AS8771-MNT
+mnt-by:         EUNETYU-MNT
+created:        2022-02-24T08:45:43Z
+last-modified:  2022-02-24T08:45:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1108::/32
+descr:          YUnet International
+origin:         AS8771
+mnt-by:         AS8771-MNT
+created:        2009-07-15T10:27:00Z
+last-modified:  2013-08-07T10:42:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

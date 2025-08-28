@@ -1,0 +1,328 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15562'
+
+% Abuse contact for 'AS15562' is 'job@instituut.net'
+
+aut-num:        AS15562
+as-name:        SNIJDERS
+remarks:        -----------------------------------------------------------------------
+remarks:        NTT - AS2914
+remarks:        -----------------------------------------------------------------------
+mp-import:      afi ipv6.unicast { from AS2914 action community.delete(15562:1100, 15562:1101,15562:1102, 15562:1200,15562:1201, 15562:1300,15562:1301,15562:1302, 15562:2100,15562:2101,15562:2102); community.append(15562:1300); accept fltr-iana-allocated-v6 AND NOT fltr-martian-v6 AND NOT fltr-bogons-v6 AND NOT AS-SNIJDERS^+; } REFINE afi ipv6.unicast { from AS2914 2001:9e0:810:1::10 at 2a02:898:52:ffff::204 action community.append(15562:1301); accept ANY; from AS2914 2001:9e0:411:1::10 at 2a02:898:52:ffff::204 action community.append(15562:1302); accept ANY; }
+mp-export:      afi ipv6.unicast { to AS2914 announce AS-SNIJDERS AND NOT community(NO_EXPORT); } REFINE afi ipv6.unicast { to AS2914 2001:9e0:810:1::10 at 2a02:898:52:ffff::204 action community.append(15562:1301); announce ANY; to AS2914 2001:9e0:411:1::10 at 2a02:898:52:ffff::204 action community.append(15562:1302); announce ANY; }
+remarks:        =======================================================================
+org:            ORG-JS177-RIPE
+admin-c:        JWJS1-RIPE
+tech-c:         JWJS1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SNIJDERS-MNT
+created:        2002-05-04T15:17:39Z
+last-modified:  2021-01-26T14:05:07Z
+source:         RIPE
+
+organisation:   ORG-JS177-RIPE
+org-name:       Job Snijders
+country:        NL
+org-type:       LIR
+address:        Theodorus Majofskistraat 100
+address:        1065 SZ
+address:        Amsterdam
+address:        NETHERLANDS
+phone:          +31654942365
+admin-c:        JWJS1-RIPE
+tech-c:         JWJS1-RIPE
+abuse-c:        AR54599-RIPE
+mnt-ref:        SNIJDERS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SNIJDERS-MNT
+created:        2019-08-07T08:09:35Z
+last-modified:  2020-12-16T13:05:15Z
+source:         RIPE # Filtered
+
+person:         Job Snijders
+address:        Theodorus Majofskistraat 100
+address:        1065 SZ Amsterdam
+address:        The Netherlands
+remarks:        PGP key is PGPKEY-7E5BEC10
+phone:          +31-6-54942365
+nic-hdl:        JWJS1-RIPE
+mnt-by:         SNIJDERS-MNT
+created:        2004-02-04T21:54:28Z
+last-modified:  2015-07-13T15:21:39Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          67.221.245.0/24
+descr:          anycasted https redirection
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@instituut.net 20170929
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          136.144.22.0/24
+descr:          BGP monitoring testbed infrastructure
+origin:         AS15562
+mnt-by:         NIELS-MNT
+created:        2019-08-22T10:08:16Z
+last-modified:  2019-08-22T10:08:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          165.254.225.0/24
+descr:          Job Snijders #2
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20180313
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          165.254.255.0/24
+descr:          Job Snijders2
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20170726
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          165.254.255.0/26
+descr:          Job Snijders amstnl02
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20180214
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          165.254.255.26/32
+descr:          instituut.net
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20160202
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          165.254.255.64/26
+descr:          Job Snijders dllstx09
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20180214
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          165.254.255.132/32
+descr:          NLNOG IRC / irc.nlnog.net
+remarks:        Open IRCNet server
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20160131
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          165.254.255.133/32
+descr:          IRC / eris.us.ircnet.net
+remarks:        Open IRCNet server
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20160406
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          165.254.255.144/28
+descr:          Job Snijders / mlpsca01.us.bb
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20160405
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          165.254.255.149/32
+descr:          PeeringDB
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20161011
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          165.254.255.160/28
+descr:          Job Snijders
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20161004
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          192.147.168.0/24
+descr:          Job Snijders
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20180726
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          198.58.2.0/24
+descr:          route object for 198.58.3.0/24
+origin:         AS15562
+mnt-by:         MAINT-JOB
+changed:        job@instituut.net 20190731
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          198.58.3.0/24
+descr:          One of Jobs test prefixes
+origin:         AS15562
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20190731
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          204.2.30.0/23
+descr:          SNIJDERS-OFFNET-1
+origin:         AS15562
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20180221
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          209.24.0.0/16
+descr:          BGP Path Attribute Scanner Project
+remarks:        Contact person: Job Snijders
+origin:         AS15562
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20170204
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.24.5.0/24
+descr:          TEST59
+origin:         AS15562
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20180823
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route:          209.24.12.0/24
+descr:          DPS Test Prefix
+remarks:        contact person raymondh
+origin:         AS15562
+mnt-by:         MAINT-NTTCOM-RA
+changed:        raymondh@ntt.net 20200822
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:418:144e::/47
+descr:          SNIJDERS-OFFNET-2
+origin:         AS15562
+mnt-by:         MAINT-JOB
+changed:        job@ntt.net 20180221
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route6:         2001:67c:208c::/48
+descr:          NL-SNIJDERS-IT
+origin:         AS15562
+mnt-by:         SNIJDERS-MNT
+created:        2015-08-31T14:16:27Z
+last-modified:  2015-08-31T14:16:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:728:1808::/48
+descr:          Job Snijders
+origin:         AS15562
+mnt-by:         SNIJDERS-MNT
+created:        2014-10-20T15:01:53Z
+last-modified:  2014-10-20T15:01:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2607:fae0:245::/48
+descr:          anycasted https redirection
+origin:         AS15562
+notify:         job@instituut.net
+mnt-by:         MAINT-JOB
+changed:        job@instituut.net 20170929
+source:         NTTCOM
+rpki-ov-state:  valid
+
+route6:         2607:fae0:245::/48
+descr:          Proxy route object registered by AS38195
+origin:         AS15562
+remarks:        This route object was created by Superloop on behalf of a customer.
+notify:         peering@superloop.com
+mnt-by:         MAINT-AS38195
+changed:        peering@superloop.com 20190918
+source:         RADB
+last-modified:  2023-11-13T16:18:14Z
+rpki-ov-state:  valid
+
+route6:         2a0e:b240:118::/48
+origin:         AS15562
+mnt-by:         SNIJDERS-MNT
+created:        2024-04-07T19:07:57Z
+last-modified:  2024-04-07T19:07:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

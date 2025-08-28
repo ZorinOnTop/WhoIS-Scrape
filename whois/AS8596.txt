@@ -1,0 +1,417 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8596'
+
+% Abuse contact for 'AS8596' is 'abuse@hotze.com'
+
+aut-num:        AS8596
+as-name:        HOTZE-AS
+descr:          hotze.com GmbH
+org:            ORG-IMH1-RIPE
+remarks:
+remarks:        == transit ============================================
+remarks:
+remarks:        -- Nextlayer - AS1764 ------------------------INN/v4+v6
+import:         from AS1764 action pref=100; accept ANY
+export:         to AS1764 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS1764 accept ANY
+mp-export:      afi ipv6.unicast to AS1764 announce AS-HOTZE-V6
+remarks:
+remarks:        -- Magenta - AS6830/AS8412 -------------------INN/v4+v6
+import:         from AS6830 action pref=100; accept ANY
+export:         to AS6830 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS6830 accept ANY
+mp-export:      afi ipv6.unicast to AS6830 announce AS-HOTZE-V6
+remarks:
+import:         from AS8412 action pref=100; accept ANY
+export:         to AS8412 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS8412 accept ANY
+mp-export:      afi ipv6.unicast to AS8412 announce AS-HOTZE-V6
+remarks:
+remarks:        == end transit ========================================
+remarks:
+remarks:
+remarks:        == customers ==========================================
+remarks:
+remarks:        -- web-crossing - AS202516 -----------------------v4+v6
+import:         from AS202516 action pref=500; accept AS202516
+export:         to AS202516 announce ANY
+mp-import:      afi ipv6.unicast from AS202516 accept AS202516
+mp-export:      afi ipv6.unicast to AS202516 announce ANY
+remarks:
+remarks:        == end customers ======================================
+remarks:
+remarks:        == peering Tirol-IX, IPv4 213.47.212.246/28 ======IBK==
+remarks:
+remarks:        -- University of Innsbruck - AS1110 -----------------v4
+import:         from AS1110 action pref=300; accept AS1110
+export:         to AS1110 announce AS-HOTZE
+remarks:
+remarks:        -- CNH/Stadtwerke Hall i.T. - AS34347 ---------------v4
+import:         from AS34347 action pref=300; accept AS-CNHAT
+export:         to AS34347 announce AS-HOTZE
+remarks:
+remarks:        -- Tiroler Tageszeitung (tirol.com) -----------------v4
+remarks:        private AS65110
+remarks:
+remarks:        -- myNET - AS31543 -------------------------------v4+v6
+import:         from AS31543 action pref=300; accept AS31543
+export:         to AS31543 announce AS-HOTZE
+remarks:        v6 via VIX
+remarks:
+remarks:        -- Stadtwerke Woergl- AS34694 -----------------------v4
+import:         from AS34694 action pref=300; accept AS34694
+export:         to AS34694 announce AS-HOTZE
+remarks:
+remarks:        -- Stadtwerke Feldkirch - AS48362 ----------------v4+v6
+import:         from AS48362 action pref=300; accept AS-TKSWF
+export:         to AS48362 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS48362 accept AS-TKSWF6
+mp-export:      afi ipv6.unicast to AS48362 announce AS-HOTZE-V6
+remarks:
+remarks:        -- Brennercom - AS20811 --------------------------v4+v6
+import:         from AS20811 action pref=300; accept AS-BCOMIT
+export:         to AS20811 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS20811 accept AS-BCOMIT
+mp-export:      afi ipv6.unicast to AS20811 announce AS-HOTZE-V6
+remarks:
+remarks:        -- DVT/Tiroler Landesregierung - AS39057 ---------v4+v6
+import:         from AS39057 action pref=300; accept AS39057
+export:         to AS39057 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS39057 accept AS39057
+mp-export:      afi ipv6.unicast to AS39057 announce AS-HOTZE-V6
+remarks:
+remarks:        -- IKB - AS31510 ------------------------------------v4
+import:         from AS31510 action pref=300; accept AS31510
+export:         to AS31510 announce AS-HOTZE
+remarks:
+remarks:        == end peering Tirol-IX ==========================IBK==
+remarks:
+remarks:
+remarks:        == peering VIX, IPv4 193.203.0.130/24 =====VIE/remote==
+remarks:        == IPv6: 2001:7F8:30:0:2:1:0:8596 =====================
+remarks:
+remarks:        -- VIX Route Server - AS1121 ---------------------v4+v6
+import:         from AS1121 action pref=250; accept AS-VIX-RS
+export:         to AS1121 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS1121 accept AS-VIX-RS-V6
+mp-export:      afi ipv6.unicast to AS1121 announce AS-HOTZE-V6
+remarks:        see http://www.vix.at/vix_routeserver.html
+remarks:
+remarks:        -- ACOnet Backbone - AS1853 ----------------------v4+v6
+import:         from AS1853 action pref=250; accept AS-ACONETTOVIX
+export:         to AS1853 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS1853 accept AS-ACONET-V6
+mp-export:      afi ipv6.unicast to AS1853 announce AS-HOTZE-V6
+remarks:
+remarks:        -- ACOnet Services - AS1120 ----------------------v4+v6
+import:         from AS1120 action pref=250; accept AS-ACOSERV
+export:         to AS1120 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS1120 accept AS-ACOSERV
+mp-export:      afi ipv6.unicast to AS1120 announce AS-HOTZE-V6
+remarks:
+remarks:        -- ONE - AS12635 ------------------------------------v4
+import:         from AS12635 action pref=250; accept AS12635
+export:         to AS12635 announce AS-HOTZE
+remarks:
+remarks:        -- Linznet - AS28889 --------------------------------v4
+import:         from AS28889 action pref=250; accept AS-LINZNET
+export:         to AS28889 announce AS-HOTZE
+remarks:
+remarks:        -- Wiener Krankenanstaltenverbund (KAV) - AS16314 ---v4
+import:         from AS16314 action pref=250; accept AS16314
+export:         to AS16314 announce AS-HOTZE
+remarks:
+remarks:        -- Sunrise - AS6730 ---------------------------------v4
+import:         from AS6730 action pref=250; accept AS-GLOBAL
+export:         to AS6730 announce AS-HOTZE
+remarks:
+remarks:        -- INIT7 - AS13030 -------------------------------v4+v6
+import:         from AS13030 action pref=250; accept AS-INIT7
+export:         to AS13030 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS13030 accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 announce AS-HOTZE-V6
+remarks:
+remarks:        -- Cnet - AS13064 -----------------------------------v4
+import:         from AS13064 action pref=250; accept AS-CNET
+export:         to AS13064 announce AS-HOTZE
+remarks:
+remarks:        -- Amis - AS8591 ---------------------------------v4+v6
+import:         from AS8591 action pref=250; accept AS-AMIS
+export:         to AS8591 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS8591 accept AS-AMIS6
+mp-export:      afi ipv6.unicast to AS8591 announce AS-HOTZE-V6
+remarks:
+remarks:        -- T-Mobile Austria - AS8412 ---------------------v4+v6
+import:         from AS8412 action pref=250; accept AS-TMA2VIX
+export:         to AS8412 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS8412 accept AS-TMA2VIX
+mp-export:      afi ipv6.unicast to AS8412 announce AS-HOTZE-V6
+remarks:
+remarks:        -- Salzburg Online - AS8445 -------------------------v4
+import:         from AS8445 action pref=250; accept AS-SALZBURG-AG
+export:         to AS8445 announce AS-HOTZE
+remarks:
+remarks:        -- Telekom Austria / AON - AS8447 ----------------v4+v6
+import:         from AS8447 action pref=250; accept AS-PTA
+export:         to AS8447 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS8447 accept AS-TA6
+mp-export:      afi ipv6.unicast to AS8447 announce AS-HOTZE-V6
+remarks:
+remarks:        -- Net4You - AS6798 ---------------------------------v4
+import:         from AS6798 action pref=250; accept AS-NET4YOU
+export:         to AS6798 announce AS-HOTZE
+remarks:
+remarks:        -- Ixbone - AS16195 ---------------------------------v4
+import:         from AS16195 action pref=250; accept AS-IXBONE
+export:         to AS16195 announce AS-HOTZE
+remarks:
+remarks:        -- Vodafone (was: Arcor) - AS3209 -------------------v4
+import:         from AS3209 action pref=250; accept AS-ARCORGLOBAL
+export:         to AS3209 announce AS-HOTZE
+remarks:
+remarks:        -- MMC - AS12577 ------------------------------------v4
+import:         from AS12577 action pref=250; accept AS-MMC-AT
+export:         to AS12577 announce AS-HOTZE
+remarks:
+remarks:        -- PXP Software - AS33890 ---------------------------v4
+import:         from AS33890 action pref=250; accept AS-PXPAT
+export:         to AS33890 announce AS-HOTZE
+remarks:
+remarks:        -- nic.at - AS30971 ---------------------------------v4
+import:         from AS30971 action pref=250; accept AS-NICAT
+export:         to AS30971 announce AS-HOTZE
+remarks:
+remarks:        -- GTSCE - AS5588 -----------------------------------v4
+import:         from AS5588 action pref=250; accept AS-GTS-CE
+export:         to AS5588 announce AS-HOTZE
+remarks:
+remarks:        -- Kabel Baden-Wuerttemberg - AS29562 ---------------v4
+import:         from AS29562 action pref=250; accept AS-KABELBW
+export:         to AS29562 announce AS-HOTZE
+remarks:
+remarks:        -- Onstage - AS15702 --------------------------------v4
+import:         from AS15702 action pref=250; accept AS-ONSTAGE
+export:         to AS15702 announce AS-HOTZE
+remarks:
+remarks:        -- Akton - AS25467 ----------------------------------v4
+import:         from AS25467 action pref=250; accept AS-AKTON
+export:         to AS25467 announce AS-HOTZE
+remarks:
+remarks:        -- Teleport (VOL) - AS5385 --------------------------v4
+import:         from AS5385 action pref=250; accept AS-TELEPORT
+export:         to AS5385 announce AS-HOTZE
+remarks:
+remarks:        -- Cyberservice - AS21213 ------------------------v4+v6
+import:         from AS21213 action pref=250; accept AS-CYBERSERVICE
+export:         to AS21213 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS21213 accept AS-CYBERSERVICE6
+mp-export:      afi ipv6.unicast to AS21213 announce AS-HOTZE-V6
+remarks:
+remarks:        -- ReTN - AS9002 ---------------------------------v4+v6
+import:         from AS9002 action pref=250; accept AS-RETN
+export:         to AS9002 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-export:      afi ipv6.unicast to AS9002 announce AS-HOTZE-V6
+remarks:
+remarks:        -- Core-Backbone - AS33891 -----------------------v4+v6
+import:         from AS33891 action pref=250; accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS33891 accept AS-CORE-BACKBONE
+mp-export:      afi ipv6.unicast to AS33891 announce AS-HOTZE-V6
+remarks:
+remarks:        -- OVH - AS16276 ------------------------------------v4
+import:         from AS16276 action pref=250; accept AS-OVH
+export:         to AS16276 announce AS-HOTZE
+remarks:
+remarks:        -- Invitel - AS12301 --------------------------------v4
+import:         from AS12301 action pref=250; accept AS12301:AS-ROUTES
+export:         to AS12301 announce AS-HOTZE
+remarks:
+remarks:        -- Noris Network - AS12337 --------------------------v4
+import:         from AS12337 action pref=250; accept AS-NORIS
+export:         to AS12337 announce AS-HOTZE
+remarks:
+remarks:        -- AKAMAI - AS20940 ---------------------------------v4
+import:         from AS20940 action pref=250; accept AS-AKAMAI
+export:         to AS20940 announce AS-HOTZE
+remarks:
+remarks:        -- ISPpro - AS35366 ------------------------------v4+v6
+import:         from AS35366 action pref=250; accept AS-ISPPRO
+export:         to AS35366 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS35366 accept AS-ISPPRO
+mp-export:      afi ipv6.unicast to AS35366 announce AS-HOTZE-V6
+remarks:
+remarks:        -- Microsoft - AS12076 ------------------------------v4
+import:         from AS12076 action pref=250; accept AS-MICROSOFT
+export:         to AS12076 announce AS-HOTZE
+remarks:
+remarks:        -- E4A s.r.l. - AS34695 --------------------------v4+v6
+remarks:        also peering at DE-CIX
+import:         from AS34695 action pref=250; accept AS34695:AS-TRANSIT
+export:         to AS34695 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS34695 accept AS34695:AS-TRANSIT
+mp-export:      afi ipv6.unicast to AS34695 announce AS-HOTZE-V6
+remarks:
+remarks:        -- Salzburg AG/CableLink - AS8445 ----------------v4+v6
+remarks:        also peering at DE-CIX
+import:         from AS8445 action pref=250; accept AS-SALZBURG-AG
+export:         to AS8445 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS8445 accept AS-SALZBURG-AG
+mp-export:      afi ipv6.unicast to AS8445 announce AS-HOTZE-V6
+remarks:
+remarks:        -- Hurricane Electric - AS6939 -------------------v4+v6
+import:         from AS6939 action pref=250; accept AS-HURRICANE
+export:         to AS6939 announce AS-HOTZE
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS-HOTZE-V6
+remarks:
+remarks:        == end peering VIX ===============================VIE==
+remarks:
+remarks:
+remarks:        =======================================================
+remarks:        peering welcome at:
+remarks:        VIX - Vienna, Austria (remote)
+remarks:        Tirol-IX - Innsbruck, Austria
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remarks:        Please use the following addresses for contacts:
+remarks:        peering*hotze.com noc*hotze.com abuse*hotze.com
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remarks:        We have an open peering policy (for IPv4 and for IPv6),
+remarks:        but we do reserve the right to decline a peering for
+remarks:        any reason.
+remarks:        =======================================================
+remarks:
+remarks:        last changes: removed amazon peering VIX, customer AS8832
+remarks:
+admin-c:        MH1939-RIPE
+tech-c:         hN1230-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         HOTZE-MNT
+created:        2003-08-27T15:13:12Z
+last-modified:  2024-05-22T10:21:38Z
+source:         RIPE
+
+organisation:   ORG-IMH1-RIPE
+org-name:       hotze.com GmbH
+country:        AT
+org-type:       LIR
+address:        Eduard-Bodem-Gasse 6
+address:        6020
+address:        Innsbruck
+address:        AUSTRIA
+phone:          +43 512 353640
+fax-no:         +4300000000
+mnt-ref:        HOTZE-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         HOTZE-MNT
+admin-c:        MH1939-RIPE
+tech-c:         hN1230-RIPE
+abuse-c:        HGAR1-RIPE
+created:        2004-04-17T10:58:44Z
+last-modified:  2022-08-30T12:28:01Z
+source:         RIPE # Filtered
+
+role:           hotze.com NOC
+address:        Eduard-Bodem-Gasse 6
+address:        A-6020 Innsbruck
+address:        Austria
+admin-c:        MH1939-RIPE
+tech-c:         TK4492-RIPE
+nic-hdl:        hN1230-RIPE
+mnt-by:         HOTZE-MNT
+created:        2011-12-28T11:12:42Z
+last-modified:  2011-12-28T11:12:42Z
+source:         RIPE # Filtered
+
+person:         Martin Hotze
+address:        hotze.com GmbH
+address:        Eduard-Bodem-Gasse 6
+address:        A-6020 Innsbruck
+address:        Austria
+phone:          +43 512 353640 0
+fax-no:         +43 512 353640 50
+nic-hdl:        MH1939-RIPE
+mnt-by:         HOTZE-MNT
+mnt-by:         HOTZE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-11-09T15:06:10Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          82.150.192.0/19
+descr:          Provider Local Registry Block
+descr:          hotze.com GmbH
+origin:         AS8596
+notify:         hostmaster@hotze.com
+mnt-by:         HOTZE-MNT
+created:        2003-08-28T12:04:30Z
+last-modified:  2008-07-08T15:48:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.74.0.0/22
+descr:          Provider Local Registry Block
+descr:          hotze.com GmbH
+origin:         AS8596
+mnt-by:         HOTZE-MNT
+created:        2014-10-22T09:58:15Z
+last-modified:  2014-10-22T09:58:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:5d8::/32
+descr:          Provider Local Registry Block
+descr:          hotze.com GmbH
+origin:         AS8596
+notify:         hostmaster@hotze.com
+mnt-by:         HOTZE-MNT
+created:        2009-06-22T11:54:47Z
+last-modified:  2009-06-22T11:54:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

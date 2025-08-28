@@ -1,0 +1,124 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS9071'
+
+% Abuse contact for 'AS9071' is 'abuse@bezeqint.net'
+
+aut-num:        AS9071
+as-name:        ORBOTECH-AS
+org:            ORG-OL55-RIPE
+import:         from AS1680
+                action pref=100;
+                accept ANY
+import:         from AS701
+                action pref=100;
+                accept ANY
+export:         to AS1680
+                announce AS9071
+export:         to AS701
+                announce AS9071
+admin-c:        YG111-RIPE
+tech-c:         AN872-RIPE
+status:         ASSIGNED
+mnt-by:         AS9071-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:13:12Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-IL9-RIPE
+
+organisation:   ORG-OL55-RIPE
+org-name:       ORBOTECH LTD.
+country:        IL
+org-type:       OTHER
+address:        Shderot Hasanhedrin.
+address:        Yavne 81102 Israel
+phone:          +972 8 9423888
+fax-no:         +972 8 9423999
+abuse-c:        AR25409-RIPE
+admin-c:        BHT2-RIPE
+tech-c:         YG111-RIPE
+mnt-ref:        AS8551-MNT
+mnt-by:         AS8551-MNT
+created:        2009-12-03T11:16:04Z
+last-modified:  2022-12-01T17:21:57Z
+source:         RIPE # Filtered
+
+person:         Avi Nagar
+address:        ADM DataComm. consultants
+address:        16 Levontin st.
+address:        Tel-Aviv 65112 Israel
+phone:          +972 3 5605222
+fax-no:         +972 3 5664755
+nic-hdl:        AN872-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-04-05T20:17:32Z
+mnt-by:         RIPE-NCC-LOCKED-MNT
+source:         RIPE # Filtered
+
+person:         Yossi Gross
+address:        Orbotech Ltd.
+address:        POB 215
+address:        Yavne 81102
+address:        Israel
+phone:          +972 8 9423888
+fax-no:         +972 8 9423866
+nic-hdl:        YG111-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-04-05T16:35:03Z
+mnt-by:         RIPE-NCC-LOCKED-MNT
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          192.118.24.0/22
+descr:          Orbotech
+origin:         AS9071
+notify:         avi_n@adm.co.il
+notify:         noc-team@netvision.net.il
+mnt-by:         AS9071-MNT
+mnt-by:         ORBK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-01-24T10:06:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.118.26.0/24
+descr:          Comcast Cable Communications, Inc.
+                1800 Bishops Gate Blvd
+                Mt Laurel, NJ  08054
+origin:         AS9071
+remarks:        Proxy add for customer Orbotech
+mnt-by:         MAINT-AS7922
+changed:        chris_johnson8@cable.comcast.com 20170414
+source:         RADB
+last-modified:  2023-11-13T15:54:23Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

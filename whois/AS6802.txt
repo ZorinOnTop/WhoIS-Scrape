@@ -1,0 +1,925 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6802'
+
+% Abuse contact for 'AS6802' is 'abuse@acad.bg'
+
+aut-num:        AS6802
+org:            ORG-UBAa1-RIPE
+as-name:        UNICOM-B-AS
+descr:          NREN - Bulgaria
+import:         from AS5421 action pref=300; accept AS5421
+import:         from AS8262 action pref=200; accept ANY
+import:         from AS8745 action pref=300; accept AS8745
+import:         from AS8866 action pref=200; accept ANY
+import:         from AS20965 action pref=100; accept ANY
+import:         from AS28949 action pref=300; accept AS28949
+import:         from AS41352 action pref=300; accept AS41352
+import:         from AS47174 action pref=300; accept AS47174
+import:         from AS48155 action pref=300; accept AS48155
+import:         from AS49704 action pref=300; accept AS49704
+export:         to AS5421 announce ANY
+export:         to AS8262 announce AS-ISTF
+export:         to AS8745 announce ANY
+export:         to AS8866 announce AS-ISTF
+export:         to AS20965 announce AS-ISTF
+export:         to AS28949 announce ANY
+export:         to AS41352 announce ANY
+export:         to AS47174 announce ANY
+export:         to AS48155 announce ANY
+export:         to AS49704 announce ANY
+default:        to AS20965 action pref=100; networks ANY
+remarks:        =========================================================
+remarks:        BGP COMMUNITY SUPPORT FOR AS6802 TRANSIT CUSTOMERS
+remarks:        ---------------------------------------------------------
+remarks:        Communities applied at ingress
+remarks:        Community Action
+remarks:        --------- ------
+remarks:        6802:200 Added to routes learned from AS8262 and AS8866
+remarks:        6802:300 Added to routes learned from AS6802's customers
+remarks:        ---------------------------------------------------------
+remarks:        Communities accepted from customers
+remarks:        Community Action
+remarks:        --------- ------
+remarks:        6802:x0 Prepend 6802 x times (x = 1,2,3,4,5,6,7,8,9)
+remarks:        ....... on routes announced to AS20965
+remarks:        =========================================================
+admin-c:        OK1850-RIPE
+tech-c:         OK1850-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS6802-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-07-12T13:22:19Z
+source:         RIPE
+
+organisation:   ORG-UBAa1-RIPE
+org-name:       Bulgarian Research and Education Network Association (BREN)
+country:        BG
+org-type:       LIR
+address:        Acad. G. Bonchev Str. Bldg. 25-A
+address:        BG-1113
+address:        Sofia
+address:        BULGARIA
+phone:          +359888627190
+phone:          +359889233586
+phone:          +35929796617
+fax-no:         +35928707273
+abuse-c:        AR14227-RIPE
+admin-c:        SS7493-RIPE
+admin-c:        KB16-RIPE
+admin-c:        HT247-RIPE
+mnt-ref:        AS6802-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS6802-MNT
+created:        2004-04-17T11:01:24Z
+last-modified:  2024-01-17T15:30:14Z
+source:         RIPE # Filtered
+
+person:         Orlin Kouzov
+address:        ICT Development Agency
+address:        6 Gourko St
+address:        BG-1000 Sofia
+address:        Bulgaria
+phone:          +359 2 949 21 52
+nic-hdl:        OK1850-RIPE
+mnt-by:         AS6802-MNT
+created:        2002-02-04T13:27:48Z
+last-modified:  2003-02-18T14:52:46Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          194.141.0.0/16
+descr:          bg.unicom-b, aggregated Provider Local Registry Block
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2004-05-27T13:36:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.0.0/24
+descr:          IICT - BAS
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:14:39Z
+last-modified:  2022-09-12T10:14:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.1.0/24
+descr:          Net 1
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:16:58Z
+last-modified:  2022-09-12T10:16:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.2.0/24
+descr:          Civil Engineering Higher School - Bulgaria
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:19:34Z
+last-modified:  2022-09-12T10:19:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.3.0/24
+descr:          Orak Plovdiv
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:22:41Z
+last-modified:  2022-09-12T10:22:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.4.0/24
+descr:          GATE-Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2025-01-15T18:12:00Z
+last-modified:  2025-01-15T18:12:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.8.0/24
+descr:          UNIBIT Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:05:04Z
+last-modified:  2022-09-12T10:05:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.9.0/24
+descr:          UNIBIT Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:05:58Z
+last-modified:  2022-09-12T10:05:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.12.0/24
+descr:          Medical University Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T09:47:21Z
+last-modified:  2022-09-12T09:47:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.15.0/24
+descr:          Technical University - Gabrovo
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:08:45Z
+last-modified:  2022-09-12T10:08:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.22.0/24
+descr:          Naval Academy "N.Y. Vaptsarov" Varna
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:26:14Z
+last-modified:  2022-09-12T10:26:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.32.0/22
+descr:          NREN - Bulgaria
+descr:          University of National and World Economy
+descr:          Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2021-02-26T11:25:04Z
+last-modified:  2021-02-26T11:25:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.37.0/24
+descr:          Agricultural University of Plovdiv
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:41:55Z
+last-modified:  2022-09-12T10:41:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.40.0/24
+descr:          Agricultural University of Plovdiv
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:43:19Z
+last-modified:  2022-09-12T10:43:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.41.0/24
+descr:          Technical University of Plovdiv
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:46:45Z
+last-modified:  2022-09-12T10:46:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.43.0/24
+descr:          Medical University Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T09:49:34Z
+last-modified:  2022-09-12T09:49:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.47.0/24
+descr:          University of Shumen
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:51:07Z
+last-modified:  2022-09-12T10:51:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.51.0/24
+descr:          UNational Military University of Shumen
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T10:52:47Z
+last-modified:  2022-09-12T10:52:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.52.0/22
+descr:          Agricultural University of Plovdiv
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T17:04:38Z
+last-modified:  2022-09-12T17:04:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.56.0/23
+descr:          Agricultural University of Plovdiv
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T17:05:37Z
+last-modified:  2022-09-12T17:05:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.66.0/24
+descr:          Veliko Tarnovo University "St. St. Cyril and Methodius"
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2021-02-26T11:20:02Z
+last-modified:  2021-02-26T11:20:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.67.0/24
+descr:          Medical University - Pleven
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T11:02:32Z
+last-modified:  2022-09-12T11:02:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.68.0/24
+descr:          Medical University - Pleven
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T11:03:14Z
+last-modified:  2022-09-12T11:03:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.69.0/24
+descr:          Medical University - Pleven
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T11:04:22Z
+last-modified:  2022-09-12T11:04:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.72.0/22
+descr:          MilitaryAcademy-Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2025-01-15T18:13:34Z
+last-modified:  2025-01-15T18:13:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.78.0/24
+descr:          Institute for Higher Teaching Qualifications "Dr Peter Beron" - Varna
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T11:06:52Z
+last-modified:  2022-09-12T11:06:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.79.0/24
+descr:          University of Economics - Varna
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2021-07-08T09:14:06Z
+last-modified:  2021-07-08T09:14:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.84.0/24
+descr:          VVVU Dolna Mitropolia, Bulgaria
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T11:11:11Z
+last-modified:  2022-09-12T11:11:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.86.0/24
+descr:          South West University "Neofit Rilski"
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T11:20:46Z
+last-modified:  2022-09-12T11:20:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.88.0/21
+descr:          Uni-Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2025-01-15T18:14:40Z
+last-modified:  2025-01-15T18:14:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.104.0/21
+descr:          Higher School of Transport "Todor Kableshkov" VTU
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:05:41Z
+last-modified:  2022-09-12T15:05:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.112.0/24
+descr:          TechnoPark-Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:20:14Z
+last-modified:  2022-09-12T15:20:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.113.0/24
+descr:          TechnoPark-Sofia
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:21:28Z
+last-modified:  2022-09-12T15:21:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.116.0/22
+descr:          National Institut of Meteorology and Hydrology
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:25:38Z
+last-modified:  2022-09-12T15:25:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.116.0/23
+descr:          National Institut of Meteorology and Hydrology
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-14T10:52:26Z
+last-modified:  2022-09-14T10:52:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.118.0/24
+descr:          National Institut of Meteorology and Hydrology
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:28:36Z
+last-modified:  2022-09-12T15:28:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.119.0/24
+descr:          National Institut of Meteorology and Hydrology
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:29:28Z
+last-modified:  2022-09-12T15:29:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.221.0/24
+descr:          IICT-BAS
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:32:50Z
+last-modified:  2022-09-12T15:32:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.222.0/24
+descr:          IICT-BAS
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:33:54Z
+last-modified:  2022-09-12T15:33:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.225.0/24
+descr:          IICT-BAS
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:35:53Z
+last-modified:  2022-09-12T15:35:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.226.0/24
+descr:          IICT-BAS
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:37:47Z
+last-modified:  2022-09-12T15:37:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.227.0/24
+descr:          IICT-BAS
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:38:17Z
+last-modified:  2022-09-12T15:38:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.228.0/22
+descr:          IICT-BAS
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:39:51Z
+last-modified:  2022-09-12T15:39:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.141.232.0/21
+descr:          Technical University of Plovdiv
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2022-09-12T15:43:01Z
+last-modified:  2022-09-12T15:43:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:4b58::/32
+descr:          BREN IPv6
+origin:         AS6802
+mnt-by:         AS6802-MNT
+mnt-lower:      AS6802-MNT
+mnt-routes:     AS6802-MNT
+created:        2005-02-01T16:24:03Z
+last-modified:  2024-07-12T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

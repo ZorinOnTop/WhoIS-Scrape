@@ -1,0 +1,302 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20516'
+
+% Abuse contact for 'AS20516' is 'abuse@skyvision.net.ua'
+
+aut-num:        AS20516
+as-name:        SVUA
+org:            ORG-ISU1-RIPE
+remarks:        --------------------------------------------------------
+remarks:        * For network services see https://skyvision.net.ua *
+remarks:        --------------------------------------------------------
+remarks:        --- IPv4 Uplinks ---
+remarks:        *** DTEL-IX ***
+import:         from AS31210 accept AS-DTEL-IX
+export:         to AS31210 announce AS-SVUA
+remarks:        *** Dataline ***
+import:         from AS35297 action pref=100 ; accept ANY
+export:         to AS35297 announce AS-SVUA
+remarks:        *** A-Class telecom ***
+import:         from AS1820 action pref=100 ; accept ANY
+export:         to AS1820 announce AS-SVUA
+remarks:        *** Datapark ***
+import:         from AS61297 action pref=100 ; accept ANY
+export:         to AS61297 announce AS-SVUA
+remarks:        *** Bignet ***
+import:         from AS43668 action pref=100 ; accept ANY
+export:         to AS43668 announce AS-SVUA
+remarks:        --- IPv4 Peering ---
+remarks:        *** GOOGLE ***
+import:         from AS15169 action pref=50; accept AS-GOOGLE
+export:         to AS15169 announce AS-SVUA
+remarks:        *** Cloudflare ***
+import:         from AS13335 action pref=50; accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-SVUA
+remarks:        *** UA-IX ***
+import:         from AS15645 action pref=50; accept AS-UAIX
+export:         to AS15645 announce AS-SVUA
+remarks:        *** Giganet ***
+import:         from AS59613 action pref=50; accept AS-UBNIX
+export:         to AS59613 announce AS-SVUA
+remarks:        --- IPv4 Downlinks ---
+remarks:        *** Stozhary ***
+import:         from AS41791 action pref=50 ; accept {193.39.69.0/24}
+export:         to AS41791 announce ANY
+remarks:        *** 1PLUS1 ***
+import:         from AS39928 action pref=50 ; accept AS-1PLUS1
+export:         to AS39928 announce AS-UAIX
+remarks:        *** GOLDENNET ***
+import:         from AS210092 action pref=50 ; accept AS210092
+export:         to AS210092 announce AS-UAIX
+remarks:        --- IPv6 Uplinks ---
+remarks:        *** DTEL-IX v6 ***
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS20516
+remarks:        --- IPv6 Downlinks ---
+remarks:        --------------------------------------------------------
+remarks:        * SPAM and security issues : abuse at skyvision.net.ua *
+remarks:        * Routing issues : noc at skyvision.net.ua *
+remarks:        --------------------------------------------------------
+admin-c:        SVU-RIPE
+tech-c:         SVU-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SVUA-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-12-25T12:40:02Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-LW50-RIPE
+
+organisation:   ORG-ISU1-RIPE
+org-name:       Sky Vision Ukraine Ltd
+country:        UA
+remarks:        ISP SkyVision Ukraine
+org-type:       OTHER
+address:        Kiev, Ukraine
+remarks:        --------------------------------------------------------
+remarks:        * For network services see https://skyvision.net.ua *
+remarks:        * SPAM and security issues : abuse at skyvision.net.ua *
+remarks:        * Routing issues : noc at skyvision.net.ua *
+remarks:        --------------------------------------------------------
+admin-c:        SVU-RIPE
+tech-c:         SVU-RIPE
+abuse-c:        SVU-RIPE
+mnt-ref:        SVUA-MNT
+mnt-by:         SVUA-MNT
+created:        2004-11-17T07:18:00Z
+last-modified:  2022-12-01T16:31:49Z
+source:         RIPE # Filtered
+
+role:           Sky Vision Ukraine Network Coordination Center
+address:        Sky Vision Ukraine Ltd
+address:        9, Leontovicha Str.
+address:        01030, Kyiv, Ukraine
+phone:          +380 44 3695925
+abuse-mailbox:  abuse@skyvision.net.ua
+admin-c:        YM1958-RIPE
+tech-c:         YM1958-RIPE
+nic-hdl:        SVU-RIPE
+mnt-by:         SVUA-MNT
+created:        2013-03-26T13:25:01Z
+last-modified:  2020-11-03T18:26:28Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          83.142.232.0/21
+descr:          SVUA-ROUTE-21
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2005-04-20T13:16:41Z
+last-modified:  2013-03-26T14:40:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.142.232.0/24
+descr:          SVUA-ROUTE-24-1
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2005-11-10T22:29:10Z
+last-modified:  2013-03-26T14:52:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.142.233.0/24
+descr:          SVUA-ROUTE-24-2
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2005-11-10T22:30:36Z
+last-modified:  2013-03-26T14:53:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.142.234.0/24
+descr:          SVUA-ROUTE-24-3
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2005-11-10T22:31:07Z
+last-modified:  2013-03-26T14:53:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.142.235.0/24
+descr:          SVUA-ROUTE-24-4
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2005-11-10T22:32:16Z
+last-modified:  2013-03-26T14:54:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.142.236.0/24
+descr:          SVUA-ROUTE-24-5
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2005-11-10T22:32:53Z
+last-modified:  2013-03-26T14:54:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.142.237.0/24
+descr:          SVUA-ROUTE-24-6
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2005-11-10T22:34:14Z
+last-modified:  2013-03-26T14:55:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.142.238.0/24
+descr:          SVUA-ROUTE-24-7
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2005-11-10T22:34:39Z
+last-modified:  2013-03-26T14:55:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.142.239.0/24
+descr:          SVUA-ROUTE-24-8
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2005-11-10T22:36:07Z
+last-modified:  2013-03-26T14:56:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.39.69.0/24
+origin:         AS20516
+descr:          SVUA-2-ROUTE-24
+mnt-by:         SVUA-MNT
+created:        2024-10-08T16:42:09Z
+last-modified:  2024-10-08T16:42:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:678:7c0::/48
+descr:          SVUA-BLOCK-IPv6-48
+origin:         AS20516
+mnt-by:         SVUA-MNT
+created:        2018-09-18T15:48:17Z
+last-modified:  2020-11-04T19:00:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

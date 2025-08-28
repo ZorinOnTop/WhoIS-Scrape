@@ -1,0 +1,1356 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8540'
+
+% Abuse contact for 'AS8540' is 'abuse@ama-networx.net'
+
+aut-num:        AS8540
+as-name:        AMANET-AS
+remarks:        ********************************************************************************
+remarks:        **************************** AS8540 - IP-Transits ******************************
+remarks:        ********************************************************************************
+remarks:        **** Oja.at ****
+import:         from AS39912 accept ANY
+export:         to AS39912 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS39912 accept ANY
+mp-export:      afi ipv6.unicast to AS39912 announce AS-AMANET
+remarks:        **** Level3/CenturyLink/Lumen ****
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-AMANET
+remarks:        **** CoreBackbone ****
+import:         from AS33891 accept ANY
+export:         to AS33891 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS33891 accept ANY
+mp-export:      afi ipv6.unicast to AS33891 announce AS-AMANET
+remarks:        **** ZET / Interkvm ****
+import:         from AS6204 accept ANY
+export:         to AS6204 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS6204 accept ANY
+mp-export:      afi ipv6.unicast to AS6204 announce AS-AMANET
+import:         from AS25198 accept ANY
+export:         to AS25198 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS25198 accept ANY
+mp-export:      afi ipv6.unicast to AS25198 announce AS-AMANET
+remarks:        **** NTT ****
+import:         from AS2914 accept ANY
+export:         to AS2914 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS2914 accept ANY
+mp-export:      afi ipv6.unicast to AS2914 announce AS-AMANET
+remarks:        **** Cogent ****
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-AMANET
+remarks:        **** Hurricane Electric ****
+import:         from AS6939 accept ANY
+export:         to AS6939 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-AMANET
+remarks:        **** RETN ****
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS9002 accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-AMANET
+remarks:        **** Telia / Arelion ****
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-AMANET
+remarks:        ********************************************************************************
+remarks:        **************************** AS8540 - Peerings *********************************
+remarks:        ********************************************************************************
+remarks:        **** VIX Route-Server ****
+import:         from AS1121 accept AS-VIX-RS
+export:         to AS1121 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS1121 accept AS-VIX-RS-V6
+mp-export:      afi ipv6.unicast to AS1121 announce AS-AMANET
+remarks:        **** DE-CIX Route-Server ****
+import:         from AS6695 accept AS-DECIX
+export:         to AS6695 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-AMANET
+remarks:        **** AAIX Route-Server ****
+import:         from AS57106 accept AS-AAIX
+export:         to AS57106 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS57106 accept AS-AAIX
+mp-export:      afi ipv6.unicast to AS57106 announce AS-AMANET
+remarks:        **** GNM-IX Route-Server ****
+import:         from AS50952 accept AS-DATAIX
+export:         to AS50952 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS50952 accept AS-DATAIX
+mp-export:      afi ipv6.unicast to AS50952 announce AS-AMANET
+remarks:        **** Peers ****
+remarks:        ***** PCH *****
+import:         from AS42 accept AS-PCH
+export:         to AS42 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS41 announce AS-AMANET
+remarks:        ***** Apple *****
+import:         from AS714 accept AS-APPLE
+export:         to AS714 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS714 accept AS-APPLE
+mp-export:      afi ipv6.unicast to AS714 announce AS-AMANET
+remarks:        ***** ACOServ *****
+import:         from AS1120 accept AS-ACOSERV
+export:         to AS1120 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS1120 accept AS-ACOSERV
+mp-export:      afi ipv6.unicast to AS1120 announce AS-AMANET
+remarks:        ***** Nextlayer *****
+import:         from AS1764 accept AS-NEXTLAYER
+export:         to AS1764 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS1764 accept AS-NEXTLAYER
+mp-export:      afi ipv6.unicast to AS1764 announce AS-AMANET
+remarks:        ***** Unitas Global *****
+import:         from AS1828 accept AS-UNITAS
+export:         to AS1828 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS1828 accept AS-UNITAS
+mp-export:      afi ipv6.unicast to AS1828 announce AS-AMANET
+remarks:        ***** ACOnet *****
+import:         from AS1853 accept AS-ACONET
+export:         to AS1853 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS1853 accept AS-ACONET-V6
+mp-export:      afi ipv6.unicast to AS1853 announce AS-AMANET
+remarks:        ***** Netflix *****
+import:         from AS2906 accept AS-NFLX
+export:         to AS2906 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS2906 accept AS-NFLX
+mp-export:      afi ipv6.unicast to AS2906 announce AS-AMANET
+remarks:        ***** XTOM *****
+import:         from AS3214 accept AS-XTOM
+export:         to AS3214 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS3214 accept AS-XTOM
+mp-export:      afi ipv6.unicast to AS3214 announce AS-AMANET
+remarks:        ***** PCH *****
+import:         from AS3856 accept AS-PCH
+export:         to AS3856 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 announce AS-AMANET
+remarks:        ***** Zenlayer *****
+import:         from AS4229 accept AS-ZENLAYER
+export:         to AS4229 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS4229 accept AS-ZENLAYER
+mp-export:      afi ipv6.unicast to AS4229 announce AS-AMANET
+remarks:        ***** AS5398 SA - C41 - InternetONE *****
+import:         from AS5398 accept AS-5398
+export:         to AS5398 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS5398 accept AS-5398
+mp-export:      afi ipv6.unicast to AS5398 announce AS-AMANET
+remarks:        ***** APA *****
+import:         from AS5403 accept AS-APA
+export:         to AS5403 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS5403 accept AS-APAV6
+mp-export:      afi ipv6.unicast to AS5403 announce AS-AMANET
+remarks:        ***** Telekom Slovenije *****
+import:         from AS5603 accept AS-SIOL
+export:         to AS5603 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS5603 accept AS-SIOL
+mp-export:      afi ipv6.unicast to AS5603 announce AS-AMANET
+remarks:        ***** EDGOO NETWORKS *****
+import:         from AS6424 accept AS-EDGOO
+export:         to AS6424 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS6424 accept AS-EDGOO
+mp-export:      afi ipv6.unicast to AS6424 announce AS-AMANET
+remarks:        ***** RIOTGAMES *****
+import:         from AS6507 accept AS-RIOT
+export:         to AS6507 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS6507 accept AS-RIOT
+mp-export:      afi ipv6.unicast to AS6507 announce AS-AMANET
+remarks:        ***** Magistrat Wien *****
+import:         from AS6720 accept AS-MAGWIEN
+export:         to AS6720 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS6720 accept AS-MAGWIEN
+mp-export:      afi ipv6.unicast to AS6720 announce AS-AMANET
+remarks:        ***** NET4YOU *****
+import:         from AS6798 accept AS-NET4YOU
+export:         to AS6798 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS6798 accept AS-NET4YOU
+mp-export:      afi ipv6.unicast to AS6798 announce AS-AMANET
+remarks:        ***** Microsoft *****
+import:         from AS8075 accept AS-MICROSOFT
+export:         to AS8075 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8075 accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 announce AS-AMANET
+remarks:        ***** Coloclue *****
+import:         from AS8283 accept AS8283:AS-COLOCLUE
+export:         to AS8283 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8283 accept AS8283:AS-COLOCLUE
+mp-export:      afi ipv6.unicast to AS8283 announce AS-AMANET
+remarks:        ***** iPNG / Pim van Pelt *****
+import:         from AS8298 accept AS8298:AS-IPNG
+export:         to AS8298 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8298 accept AS8298:AS-IPNG
+mp-export:      afi ipv6.unicast to AS8298 announce AS-AMANET
+remarks:        ***** MANDA *****
+import:         from AS8365 accept AS-MANDA
+export:         to AS8365 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8365 accept AS-MANDA
+mp-export:      afi ipv6.unicast to AS8365 announce AS-AMANET
+remarks:        ***** Magenta Telekom *****
+import:         from AS8412 accept AS-TMA
+export:         to AS8412 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8412 accept AS-TMA
+mp-export:      afi ipv6.unicast to AS8412 announce AS-AMANET
+remarks:        ***** A1 *****
+import:         from AS8447 accept AS-PTA
+export:         to AS8447 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8447 accept AS-TA6
+mp-export:      afi ipv6.unicast to AS8447 announce AS-AMANET
+remarks:        ***** Zain Omantel International (ZOI) *****
+import:         from AS8529 accept AS8529:AS-ZOI
+export:         to AS8529 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8529 accept AS8529:AS-ZOI
+mp-export:      afi ipv6.unicast to AS8529 announce AS-AMANET
+remarks:        ***** IONOS SE *****
+import:         from AS8560 accept AS-IONOS
+export:         to AS8560 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8560 accept AS-IONOS
+mp-export:      afi ipv6.unicast to AS8560 announce AS-AMANET
+remarks:        ***** KAMP Netzwerkdienste GmbH *****
+import:         from AS8648 accept AS-KAMP
+export:         to AS8648 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8648 accept AS-KAMP
+mp-export:      afi ipv6.unicast to AS8648 announce AS-AMANET
+remarks:        ***** ETISALAT *****
+import:         from AS8966 accept AS-EMIX
+export:         to AS8966 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS8966 accept AS-EMIX
+mp-export:      afi ipv6.unicast to AS8966 announce AS-AMANET
+remarks:        ***** M247 Ltd *****
+import:         from AS9009 accept AS-GBXS
+export:         to AS9009 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS9009 accept AS-GBXS6
+mp-export:      afi ipv6.unicast to AS9009 announce AS-AMANET
+remarks:        ***** BIT.nl *****
+import:         from AS12859 accept AS12859:AS-BIT
+export:         to AS12859 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS12859 accept AS12859:AS-BIT
+mp-export:      afi ipv6.unicast to AS12859 announce AS-AMANET
+remarks:        ***** CATO NETWORKS *****
+import:         from AS13150 accept AS-CATONETWORKS-ASNS
+export:         to AS13150 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS13150 accept AS-CATONETWORKS-ASNS
+mp-export:      afi ipv6.unicast to AS13150 announce AS-AMANET
+remarks:        ***** Cloudflare *****
+import:         from AS13335 accept AS13335:AS-CLOUDFLARE
+export:         to AS13335 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS13335 accept AS13335:AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 announce AS-AMANET
+remarks:        ***** Edgeio/Edgecast *****
+import:         from AS15133 accept AS-EDGECAST
+export:         to AS15133 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS15133 accept AS-EDGECAST
+mp-export:      afi ipv6.unicast to AS15133 announce AS-AMANET
+remarks:        ***** OVH *****
+import:         from AS16276 accept AS-OVH
+export:         to AS16276 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS16276 accept AS-OVH
+mp-export:      afi ipv6.unicast to AS16276 announce AS-AMANET
+remarks:        ***** Amazon *****
+import:         from AS16509 accept AS16509:AS-AMAZON
+export:         to AS16509 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS16509 accept AS16509:AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 announce AS-AMANET
+remarks:        ***** AKAMAI *****
+import:         from AS20940 accept AS-AKAMAI
+export:         to AS20940 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS20940 accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 announce AS-AMANET
+remarks:        ***** TeleData GmbH *****
+import:         from AS21263 accept AS-TELEDATA
+export:         to AS21263 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS21263 accept AS-TELEDATA
+mp-export:      afi ipv6.unicast to AS21263 announce AS-AMANET
+remarks:        ***** Alibaba CDN *****
+import:         from AS24429 accept AS-ALIBABA-CLOUD-CDN
+export:         to AS24429 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS24429 accept AS-ALIBABA-CLOUD-CDN
+mp-export:      afi ipv6.unicast to AS24429 announce AS-AMANET
+remarks:        ***** SG.GS *****
+import:         from AS24482 accept AS-SGGS
+export:         to AS24482 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS24482 accept AS-SGGS
+mp-export:      afi ipv6.unicast to AS24482 announce AS-AMANET
+remarks:        ***** Hetzner Online *****
+import:         from AS24940 accept AS-HETZNER
+export:         to AS24940 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS24960 accept AS-HETZNER
+mp-export:      afi ipv6.unicast to AS24940 announce AS-AMANET
+remarks:        ***** WIIT AG *****
+import:         from AS24961 accept AS-MYLOC
+export:         to AS24961 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS24961 accept AS-MYLOC
+mp-export:      afi ipv6.unicast to AS24961 announce AS-AMANET
+remarks:        ***** IP-MAX SA *****
+import:         from AS25091 accept AS-IP-MAX
+export:         to AS25091 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS25091 accept AS-IP-MAX-V6
+mp-export:      afi ipv6.unicast to AS25091 announce AS-AMANET
+remarks:        ***** equada network GmbH / GlobalNOC *****
+import:         from AS25220 accept AS-GLOBALNOC
+export:         to AS25220 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS25220 accept AS-GLOBALNOC
+mp-export:      afi ipv6.unicast to AS25220 announce AS-AMANET
+remarks:        ***** MK Netzdienste *****
+import:         from AS25394 accept AS-MK-NETZDIENSTE
+export:         to AS25394 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS25394 accept AS-MK-NETZDIENSTE
+mp-export:      afi ipv6.unicast to AS25394 announce AS-AMANET
+remarks:        ***** Hostserver GmbH *****
+import:         from AS29140 accept AS-HOSTSERVER
+export:         to AS29140 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS29140 accept AS-HOSTSERVER
+mp-export:      afi ipv6.unicast to AS29140 announce AS-AMANET
+remarks:        ***** GANDI *****
+import:         from AS29169 accept AS-GANDI
+export:         to AS29169 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS29169 accept AS-GANDI
+mp-export:      afi ipv6.unicast to AS29169 announce AS-AMANET
+remarks:        ***** Cachefly.com *****
+import:         from AS30081 accept AS-CACHENETWORKS
+export:         to AS30081 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS30081 accept AS-CACHENETWORKS
+mp-export:      afi ipv6.unicast to AS30081 announce AS-AMANET
+remarks:        ***** ITNS GLOBAL EOOD *****
+import:         from AS31293 accept AS-QOSS
+export:         to AS31293 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS31293 accept AS-QOSS
+mp-export:      afi ipv6.unicast to AS31293 announce AS-AMANET
+remarks:        ***** Valve Corporation *****
+import:         from AS32590 accept AS-VALVE
+export:         to AS32590 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS32590 accept AS-VALVE
+mp-export:      afi ipv6.unicast to AS32590 announce AS-AMANET
+remarks:        ***** Facebook/Meta *****
+import:         from AS32934 accept AS-FACEBOOK
+export:         to AS32934 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS32934 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 announce AS-AMANET
+remarks:        ***** HIVANE *****
+import:         from AS34019 accept AS34019:AS-HIVANE
+export:         to AS34019 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS34019 accept AS34019:AS-HIVANE
+mp-export:      afi ipv6.unicast to AS34019 announce AS-AMANET
+remarks:        ***** Kantonsschule Zug *****
+import:         from AS34288 accept AS34288:AS-DEFAULT
+export:         to AS34288 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS34288 accept AS34288:AS-DEFAULT
+mp-export:      afi ipv6.unicast to AS34288 announce AS-AMANET
+remarks:        ***** RBCC *****
+import:         from AS34966 accept AS-RBCC
+export:         to AS34966 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS34966 accept AS-RBCC
+mp-export:      afi ipv6.unicast to AS34966 announce AS-AMANET
+remarks:        ***** LINZ AG TELEKOM *****
+import:         from AS35369 accept AS-LAGIS
+export:         to AS35369 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS35369 accept AS-LAGIS6
+mp-export:      afi ipv6.unicast to AS35369 announce AS-AMANET
+remarks:        ***** Verein FunkFeuer Wien *****
+import:         from AS35492 accept AS35492:AS-FUNKFEUER
+export:         to AS35492 announce AS-AMANET
+import:         from AS35492 accept AS-FUNKFEUER
+mp-import:      afi ipv6.unicast from AS35492 accept AS35492:AS-FUNKFEUER
+mp-export:      afi ipv6.unicast to AS35492 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS35492 accept AS-FUNKFEUER
+remarks:        ***** Provecotor *****
+import:         from AS35745 accept AS35745:AS-PROVECTOR
+export:         to AS35745 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS35745 accept AS35745:AS-PROVECTOR
+mp-export:      afi ipv6.unicast to AS35745 announce AS-AMANET
+remarks:        ***** Netactuate *****
+import:         from AS36236 accept AS36236:AS-NETACTUATE
+export:         to AS36236 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS36236 accept AS36236:AS-NETACTUATE
+mp-export:      afi ipv6.unicast to AS36236 announce AS-AMANET
+remarks:        ***** VTS *****
+import:         from AS37721 accept AS-VTS-SET
+export:         to AS37721 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS37721 accept AS-VTS-SET
+mp-export:      afi ipv6.unicast to AS37721 announce AS-AMANET
+remarks:        ***** 31173 Services AB *****
+import:         from AS39351 accept AS-ESAB
+export:         to AS39351 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS39351 accept AS-ESAB
+mp-export:      afi ipv6.unicast to AS39351 announce AS-AMANET
+remarks:        ***** Hohl IT e.U. / Alwyzon *****
+import:         from AS40994 accept AS40994:AS-ALWYZON
+export:         to AS40994 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS40994 accept AS40994:AS-ALWYZON
+mp-export:      afi ipv6.unicast to AS40994 announce AS-AMANET
+remarks:        ***** TKRZ Stadtwerke GmbH *****
+import:         from AS42184 accept AS-TKRZ
+export:         to AS42184 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS42184 accept AS-TKRZ
+mp-export:      afi ipv6.unicast to AS42184 announce AS-AMANET
+remarks:        ***** BELCLOUD Ltd. *****
+import:         from AS44901 accept AS-BELCLOUD
+export:         to AS44901 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS44901 accept AS-BELCLOUD
+mp-export:      afi ipv6.unicast to AS44901 announce AS-AMANET
+remarks:        ***** Alibaba Cloud *****
+import:         from AS45102 accept AS-ALIBABA-CN-NET
+export:         to AS45102 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS45102 accept AS-ALIBABA-CN-NET
+mp-export:      afi ipv6.unicast to AS45102 announce AS-AMANET
+remarks:        ***** TWITCH *****
+import:         from AS46489 accept AS-TWITCH
+export:         to AS46489 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS46489 accept AS-TWITCH
+mp-export:      afi ipv6.unicast to AS46489 announce AS-AMANET
+remarks:        ***** Anexia *****
+import:         from AS47147 accept AS-ANX
+export:         to AS47147 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS47147 accept AS-ANX
+mp-export:      afi ipv6.unicast to AS47147 announce AS-AMANET
+remarks:        ***** Wifiweb srl *****
+import:         from AS47927 accept AS-WIFIWEB-SET
+export:         to AS47927 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS47927 accept AS-WIFIWEB-SET
+mp-export:      afi ipv6.unicast to AS47927 announce AS-AMANET
+remarks:        ***** Neocarrier Communications SARL *****
+import:         from AS48885 accept AS-NEOCARRIER
+export:         to AS48885 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS48885 accept AS-NEOCARRIER
+mp-export:      afi ipv6.unicast to AS48885 announce AS-AMANET
+remarks:        ***** UACITY Ltd. *****
+import:         from AS48919 accept AS-UACITY
+export:         to AS48919 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS48919 accept AS-UACITY
+mp-export:      afi ipv6.unicast to AS48919 announce AS-AMANET
+remarks:        ***** IN8INITY *****
+import:         from AS49121 accept AS-INFTELE
+export:         to AS49121 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS49121 accept AS-INFTELE
+mp-export:      afi ipv6.unicast to AS49121 announce AS-AMANET
+remarks:        ***** Global Layer BV *****
+import:         from AS49453 accept AS-49453
+export:         to AS49453 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS49453 accept AS-49453
+mp-export:      afi ipv6.unicast to AS49453 announce AS-AMANET
+remarks:        ***** I3D.net *****
+import:         from AS49544 accept AS-INTERACTIVE3D
+export:         to AS49544 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS49544 accept AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to AS49544 announce AS-AMANET
+remarks:        ***** AVUR *****
+import:         from AS50272 accept AS-AVUR
+export:         to AS50272 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS50272 accept AS-AVUR
+mp-export:      afi ipv6.unicast to AS50272 announce AS-AMANET
+remarks:        ***** fonira Telekom GmbH *****
+import:         from AS51184 accept AS-MEDIAINVENT
+export:         to AS51184 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS51184 accept AS-MEDIAINVENT
+mp-export:      afi ipv6.unicast to AS51184 announce AS-AMANET
+remarks:        ***** WK Kaernten *****
+import:         from AS51413 accept AS51413
+export:         to AS51413 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS51413 accept AS51413
+mp-export:      afi ipv6.unicast to AS51413 announce AS-AMANET
+remarks:        ***** INNETRA *****
+import:         from AS58349 accept AS-INNETRA
+export:         to AS58349 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS58349 accept AS-INNETRA
+mp-export:      afi ipv6.unicast to AS58349 announce AS-AMANET
+remarks:        ***** ZAIN Omantel International (ZOI) *****
+import:         from AS59605 accept AS8529:AS-ZOI
+export:         to AS59605 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS59605 accept AS8529:AS-ZOI
+mp-export:      afi ipv6.unicast to AS59605 announce AS-AMANET
+remarks:        ***** Kabel-TV Lampert *****
+import:         from AS59890 accept AS-LAMPERT
+export:         to AS59890 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS59890 accept AS-LAMPERT
+mp-export:      afi ipv6.unicast to AS59890 announce AS-AMANET
+remarks:        ***** HTL Klagenfurt *****
+import:         from AS61201 accept AS-HTL-KLU
+export:         to AS61201 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS61201 accept AS-HTL-KLU
+mp-export:      afi ipv6.unicast to AS61201 announce AS-AMANET
+remarks:        ***** JMP *****
+import:         from AS61423 accept AS-JMP
+export:         to AS61423 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS61423 accept AS-JMP
+mp-export:      afi ipv6.unicast to AS61423 announce AS-AMANET
+remarks:        ***** SERVERD SAS *****
+import:         from AS62000 accept AS-NETRIX
+export:         to AS62000 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS62000 accept AS-NETRIX
+mp-export:      afi ipv6.unicast to AS62000 announce AS-AMANET
+remarks:        ***** Kaopu Cloud HK Limited *****
+import:         from AS138915 accept AS138915:AS-CUSTOMER
+export:         to AS138915 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS138915 accept AS138915:AS-CUSTOMER
+mp-export:      afi ipv6.unicast to AS138915 announce AS-AMANET
+remarks:        ***** Startrek Telecom Ltd. *****
+import:         from AS139901 accept AS-DTLIIG-139901
+export:         to AS139901 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS139901 accept AS-DTLIIG-139901
+mp-export:      afi ipv6.unicast to AS139901 announce AS-AMANET
+remarks:        ***** G-CORE Labs *****
+import:         from AS199524 accept AS-GCORE
+export:         to AS199524 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS199524 accept AS-GCORE
+mp-export:      afi ipv6.unicast to AS199524 announce AS-AMANET
+remarks:        ***** Netzwerge GmbH *****
+import:         from AS199938 accept AS-NETZWERGE
+export:         to AS199938 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS199938 accept AS-NETZWERGE
+mp-export:      afi ipv6.unicast to AS199938 announce AS-AMANET
+remarks:        ***** IP Volume Inc *****
+import:         from AS202425 accept AS-IPV
+export:         to AS202425 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS202425 accept AS-IPV
+mp-export:      afi ipv6.unicast to AS202425 announce AS-AMANET
+remarks:        ***** Enki Multimedia EURL *****
+import:         from AS209823 accept AS-ENKI
+export:         to AS209823 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS209823 accept AS-ENKI
+mp-export:      afi ipv6.unicast to AS209823 announce AS-AMANET
+remarks:        ***** Ben Cartwright-Cox / BGP.tools *****
+import:         from AS212232 accept AS212232
+export:         to AS212232 announce ANY
+mp-import:      afi ipv6.unicast from AS212232 accept AS212232
+mp-export:      afi ipv6.unicast to AS212232 announce ANY
+remarks:        ***** WAICORE LTD *****
+import:         from AS213887 accept AS-WAICORE
+export:         to AS213887 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS213887 accept AS-WAICORE
+mp-export:      afi ipv6.unicast to AS213887 announce AS-AMANET
+remarks:        ***** Evolus IT Solutions GmbH *****
+import:         from AS215120 accept AS215120:AS-EVOLUS
+export:         to AS215120 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS215120 accept AS215120:AS-EVOLUS
+mp-export:      afi ipv6.unicast to AS215120 announce AS-AMANET
+remarks:        ***** Xenox IT & Kommunikations GmbH *****
+import:         from AS215628 accept AS215628
+export:         to AS215628 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS215628 accept AS215628
+mp-export:      afi ipv6.unicast to AS215628 announce AS-AMANET
+remarks:        ***** NTG / FusionFlare *****
+import:         from AS215787 accept AS215787:AS-FUSIONFLARE
+export:         to AS215787 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS215787 accept AS215787:AS-FUSIONFLARE
+mp-export:      afi ipv6.unicast to AS215787 announce AS-AMANET
+remarks:        ***** Hurricane Electric LLC / Lookingglass *****
+import:         from AS393338 accept AS393338
+export:         to AS393338 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS393338 accept AS393338
+mp-export:      afi ipv6.unicast to AS393338 announce AS-AMANET
+remarks:        ********************************************************************************
+remarks:        ****************************** AS8540 - PNI ************************************
+remarks:        ********************************************************************************
+remarks:        **** Google ****
+import:         from AS15169 accept AS-GOOGLE
+export:         to AS15169 announce AS-AMANET
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 announce AS-AMANET
+remarks:        ********************************************************************************
+remarks:        ****************************** AS8540 - Customers ******************************
+remarks:        ********************************************************************************
+import:         from AS41905 accept AS41905
+export:         to AS41905 announce ANY
+import:         from AS41905 accept AS-PHORUS
+export:         to AS41905 announce ANY
+mp-import:      afi ipv6.unicast from AS41905 accept AS41905
+mp-export:      afi ipv6.unicast to AS41905 announce ANY
+mp-import:      afi ipv6.unicast from AS41905 accept AS-PHORUS
+mp-export:      afi ipv6.unicast to AS41905 announce ANY
+import:         from AS205584 accept AS-CASHPOINT
+export:         to AS205584 announce ANY
+mp-import:      afi ipv6.unicast from AS205584 accept AS-CASHPOINT
+mp-export:      afi ipv6.unicast to AS205584 announce ANY
+import:         from AS199637 accept AS199637:AS-SPATIALLY
+export:         to AS199637 announce ANY
+mp-import:      afi ipv6.unicast from AS199637 accept AS199637:AS-SPATIALLY
+mp-export:      afi ipv6.unicast to AS199637 announce ANY
+import:         from AS60587 accept AS-XINON-CARRIER-V4
+export:         to AS60587 announce ANY
+mp-import:      afi ipv6.unicast from AS60587 accept AS-XINON-CARRIER-V6
+mp-export:      afi ipv6.unicast to AS60587 announce ANY
+import:         from AS205629 accept AS205629:AS-AMANET-EDU
+export:         to AS205629 announce ANY
+mp-import:      afi ipv6.unicast from AS205629 accept AS205629:AS-AMANET-EDU
+mp-export:      afi ipv6.unicast to AS205629 announce ANY
+import:         from AS39912 accept AS-I3B
+export:         to AS39912 announce ANY
+mp-import:      afi ipv6.unicast from AS39912 accept AS-I3B
+mp-export:      afi ipv6.unicast to AS39912 announce ANY
+import:         from AS39560 accept AS-KT-NET
+export:         to AS39560 announce ANY
+mp-import:      afi ipv6.unicast from AS39560 accept AS-KT-NET
+mp-export:      afi ipv6.unicast to AS39560 announce ANY
+import:         from AS39560 accept AS39560
+mp-import:      afi ipv6.unicast from AS39560 accept AS39560
+import:         from AS35579 accept AS-KELAG-CONNECT
+export:         to AS35579 announce ANY
+mp-import:      afi ipv6.unicast from AS35579 accept AS-KELAG-CONNECT
+mp-export:      afi ipv6.unicast to AS35579 announce ANY
+import:         from AS12453 accept AS-KRAFTCOM
+export:         to AS12453 announce ANY
+mp-import:      afi ipv6.unicast from AS12453 accept AS-KRAFTCOM
+mp-export:      afi ipv6.unicast to AS12453 announce ANY
+import:         from AS51413 accept AS51413
+export:         to AS51413 announce ANY
+mp-import:      afi ipv6.unicast from AS51413 accept AS51413
+mp-export:      afi ipv6.unicast to AS51413 announce ANY
+import:         from AS61438 accept AS-IP-IT
+export:         to AS61438 announce ANY
+mp-import:      afi ipv6.unicast from AS61438 accept AS-IP-IT
+mp-export:      afi ipv6.unicast to AS61438 announce ANY
+import:         from AS207131 accept AS-LEOBEN
+export:         to AS207131 announce ANY
+mp-import:      afi ipv6.unicast from AS207131 accept AS-LEOBEN
+mp-export:      afi ipv6.unicast to AS207131 announce ANY
+import:         from AS212640 accept AS-NEO-IT
+export:         to AS212640 announce ANY
+mp-import:      afi ipv6.unicast from AS212640 accept AS-NEO-IT
+mp-export:      afi ipv6.unicast to AS212640 announce ANY
+import:         from AS212131 accept AS-PSMEDIA
+export:         to AS212131 announce ANY
+mp-import:      afi ipv6.unicast from AS212131 accept AS-PSMEDIA
+mp-export:      afi ipv6.unicast to AS212131 announce ANY
+import:         from AS59456 accept AS-CLOUDBROKERS
+export:         to AS59456 announce ANY
+mp-import:      afi ipv6.unicast from AS59456 accept AS-CLOUDBROKERS
+mp-export:      afi ipv6.unicast to AS59456 announce ANY
+import:         from AS212901 accept AS212901:AS-KELAG-KNG
+export:         to AS212901 announce ANY
+mp-import:      afi ipv6.unicast from AS212901 accept AS212901:AS-KELAG-KNG
+mp-export:      afi ipv6.unicast to AS212901 announce ANY
+org:            ORG-ANG4-RIPE
+admin-c:        BOFH7-RIPE
+tech-c:         BOFH7-RIPE
+status:         ASSIGNED
+mnt-by:         AMANET-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-08-23T07:45:18Z
+source:         RIPE # Filtered
+
+organisation:   ORG-ANG4-RIPE
+org-name:       AMA netwoRX GmbH
+country:        AT
+org-type:       LIR
+address:        Edenstraße 1
+address:        9346
+address:        Glödnitz
+address:        AUSTRIA
+phone:          +43676848267706
+admin-c:        BOFH7-RIPE
+tech-c:         BOFH7-RIPE
+abuse-c:        ANGA3-RIPE
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AMANET-MNT
+created:        2017-07-05T12:28:40Z
+last-modified:  2020-12-16T13:39:09Z
+source:         RIPE # Filtered
+mnt-ref:        AMANET-MNT
+
+person:         Andrae Marx
+address:        Edenstrasse 1
+address:        A-9346 Gloednitz
+address:        AUSTRIA
+phone:          +43 676 848 267 706
+fax-no:         +43 463 287 032 100
+org:            ORG-ANG4-RIPE
+nic-hdl:        BOFH7-RIPE
+mnt-by:         AMANET-MNT
+created:        2017-11-22T14:56:39Z
+last-modified:  2017-11-22T15:06:20Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          37.186.5.0/24
+origin:         AS8540
+mnt-by:         KELAG-MNT
+created:        2022-09-05T06:54:38Z
+last-modified:  2022-09-05T06:54:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.155.184.0/22
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:12:17Z
+last-modified:  2022-09-04T11:12:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.155.184.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:26:28Z
+last-modified:  2022-09-04T11:26:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.155.185.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:27:17Z
+last-modified:  2022-09-04T11:27:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.155.186.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:28:09Z
+last-modified:  2022-09-04T11:28:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.155.187.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:28:55Z
+last-modified:  2022-09-04T11:28:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.220.109.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         i3B-MNT
+mnt-by:         AMANET-MNT
+mnt-by:         OJA-MNT
+created:        2022-09-05T21:43:53Z
+last-modified:  2022-09-05T21:43:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.94.55.0/24
+origin:         AS8540
+mnt-by:         KELAG-MNT
+created:        2022-09-05T06:54:57Z
+last-modified:  2022-09-05T06:54:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          146.19.52.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:52:11Z
+last-modified:  2022-09-04T11:52:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.151.20.0/22
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:10:52Z
+last-modified:  2022-09-04T11:10:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.151.20.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:22:39Z
+last-modified:  2022-09-04T11:22:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.151.21.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:23:31Z
+last-modified:  2022-09-04T11:23:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.151.22.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:24:32Z
+last-modified:  2022-09-04T11:24:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.151.23.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:25:22Z
+last-modified:  2022-09-04T11:25:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.209.204.0/22
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:33:00Z
+last-modified:  2023-12-12T16:35:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.209.204.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:34:01Z
+last-modified:  2023-12-12T16:35:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.209.205.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:36:08Z
+last-modified:  2023-12-12T16:35:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.209.206.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:37:08Z
+last-modified:  2023-12-12T16:36:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.209.207.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:38:02Z
+last-modified:  2023-12-12T16:36:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.211.216.0/22
+origin:         AS8540
+mnt-by:         AMANET-MNT
+created:        2018-02-08T22:09:48Z
+last-modified:  2018-02-08T22:09:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.211.216.0/24
+origin:         AS8540
+mnt-by:         AMANET-MNT
+created:        2023-12-03T21:39:51Z
+last-modified:  2023-12-03T21:39:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.211.217.0/24
+origin:         AS8540
+mnt-by:         AMANET-MNT
+created:        2023-12-03T21:40:40Z
+last-modified:  2023-12-03T21:40:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.211.218.0/24
+origin:         AS8540
+mnt-by:         AMANET-MNT
+created:        2023-12-03T21:41:00Z
+last-modified:  2023-12-03T21:41:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.211.219.0/24
+origin:         AS8540
+mnt-by:         AMANET-MNT
+created:        2023-12-03T21:41:19Z
+last-modified:  2023-12-03T21:41:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.227.88.0/22
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:39:49Z
+last-modified:  2023-12-12T16:36:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.227.88.0/23
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:40:21Z
+last-modified:  2023-12-12T16:33:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.227.88.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:40:47Z
+last-modified:  2023-12-12T16:36:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.227.89.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:41:06Z
+last-modified:  2023-12-12T16:36:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.227.91.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:41:23Z
+last-modified:  2023-12-12T16:33:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.228.32.0/22
+origin:         AS8540
+mnt-by:         AMANET-MNT
+created:        2018-02-08T22:11:24Z
+last-modified:  2018-02-08T22:11:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.228.32.0/23
+origin:         AS8540
+mnt-by:         AMANET-MNT
+created:        2023-10-12T10:01:06Z
+last-modified:  2023-10-12T10:01:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.228.34.0/24
+origin:         AS8540
+mnt-by:         AMANET-MNT
+created:        2023-10-12T10:01:36Z
+last-modified:  2023-10-12T10:01:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.236.164.0/23
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:09:31Z
+last-modified:  2022-09-04T11:09:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.236.164.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:17:46Z
+last-modified:  2022-09-04T11:18:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.236.165.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:19:03Z
+last-modified:  2022-09-04T11:19:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.236.166.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:08:10Z
+last-modified:  2022-09-04T11:08:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.128.151.0/24
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:53:41Z
+last-modified:  2022-09-04T11:53:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:470:26b::/48
+origin:         AS8540
+descr:          NET-2001-470-26b---48-AS8540
+admin-c:        ZH17-ARIN
+tech-c:         ZH17-ARIN
+mnt-by:         MNT-HURC
+source:         ARIN
+created:        2024-01-10T14:45:13Z
+last-modified:  2024-01-10T14:45:13Z
+rpki-ov-state:  valid
+
+route6:         2a07:7540::/29
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-04T11:06:47Z
+last-modified:  2022-09-04T11:06:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0b:4c40::/29
+descr:          TeleTronic Network
+origin:         AS8540
+mnt-by:         TELETRONIC-MNT
+mnt-by:         AMANET-MNT
+created:        2022-09-05T21:42:44Z
+last-modified:  2023-12-12T16:36:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0b:6c40::/29
+origin:         AS8540
+mnt-by:         AMANET-MNT
+created:        2018-02-08T22:10:23Z
+last-modified:  2018-02-08T22:10:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

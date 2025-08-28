@@ -1,0 +1,973 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5421'
+
+% Abuse contact for 'AS5421' is '123@ucc.uni-sofia.bg'
+
+aut-num:        AS5421
+as-name:        SU-NET-AS
+org:            ORG-UoS32-RIPE
+remarks:
+remarks:        ====================================================================
+remarks:        We can offer private *non-commercial* interconnects in Sofia through
+remarks:        MAN (Spectrum NET). Send questions/requests to 123@ucc.uni-sofia.bg
+remarks:        ====================================================================
+remarks:
+remarks:        **************************************************************
+remarks:
+remarks:        ***********           GLOBAL CONNECTIVITY         ************
+remarks:
+import:         from AS6802 194.141.252.21 at 194.141.252.22 accept ANY
+import:         from AS6802 194.141.252.93 at 194.141.252.94 accept ANY
+import:         from AS8717 62.44.96.234 at 62.44.96.233 accept ANY
+import:         from AS8717 62.44.96.238 at 62.44.96.237 accept ANY
+import:         from AS8717 62.44.96.214 at 62.44.96.213 accept ANY
+export:         to AS6802 194.141.252.21 at 194.141.252.22 announce AS5421 AS112
+export:         to AS6802 194.141.252.93 at 194.141.252.94 announce AS5421
+export:         to AS8717 62.44.96.234 at 62.44.96.233 announce AS5421
+export:         to AS8717 62.44.96.238 at 62.44.96.237 announce AS5421
+export:         to AS8717 62.44.96.214 at 62.44.96.213 announce AS5421
+mp-import:      afi ipv4.unicast from AS6802 194.141.252.21 at 194.141.252.22 accept ANY; # GEANT
+mp-import:      afi ipv4.unicast from AS6802 194.141.252.93 at 194.141.252.94 accept ANY; # GEANT
+mp-import:      afi ipv4.unicast from AS8717 62.44.96.234 at 62.44.96.233 accept ANY; # Spectrum NET
+mp-import:      afi ipv4.unicast from AS8717 62.44.96.238 at 62.44.96.237 accept ANY; # Spectrum NET
+mp-import:      afi ipv4.unicast from AS8717 62.44.96.214 at 62.44.96.213 accept ANY; # Spectrum NET
+mp-import:      afi ipv6.unicast from AS6802 2001:4b58:acad:252::25 at 2001:4b58:acad:252::26 accept ANY; # GEANT
+mp-import:      afi ipv6.unicast from AS6802 2001:4b58:acad:252::2d at 2001:4b58:acad:252::2e accept ANY; # GEANT
+mp-import:      afi ipv6.unicast from AS8717 2001:67c:20d0:fffe:ffff:ffff:ffff:fffe at 2001:67c:20d0:fffe:ffff:ffff:ffff:fffd accept ANY; # Spectrum NET
+mp-import:      afi ipv6.unicast from AS8717 2001:67c:20d1:fff:ffff:ffff:ffff:fffe at 2001:67c:20d1:fff:ffff:ffff:ffff:fffd accept ANY; # Spectrum NET
+mp-import:      afi ipv6.unicast from AS8717 2001:67c:20d1:1fff:ffff:ffff:ffff:fffe at 2001:67c:20d1:1fff:ffff:ffff:ffff:fffd accept ANY; # Spectrum NET
+mp-export:      afi ipv4.unicast to AS6802 194.141.252.21 at 194.141.252.22 announce AS5421 AS112; # GEANT
+mp-export:      afi ipv4.unicast to AS6802 194.141.252.93 at 194.141.252.94 announce AS5421; # GEANT
+mp-export:      afi ipv6.unicast to AS6802 2001:4b58:acad:252::25 at 2001:4b58:acad:252::26 announce AS5421; # GEANT
+mp-export:      afi ipv6.unicast to AS6802 2001:4b58:acad:252::2d at 2001:4b58:acad:252::2e announce AS5421; # GEANT
+mp-export:      afi ipv6.unicast to AS8717 2001:67c:20d0:fffe:ffff:ffff:ffff:fffe at 2001:67c:20d0:fffe:ffff:ffff:ffff:fffd announce AS5421; # Spectrum NET
+mp-export:      afi ipv6.unicast to AS8717 2001:67c:20d1:fff:ffff:ffff:ffff:fffe at 2001:67c:20d1:fff:ffff:ffff:ffff:fffd announce AS5421; # Spectrum NET
+mp-export:      afi ipv6.unicast to AS8717 2001:67c:20d1:1fff:ffff:ffff:ffff:fffe at 2001:67c:20d1:1fff:ffff:ffff:ffff:fffd announce AS5421; # Spectrum NET
+remarks:
+remarks:        **************************************************************
+remarks:
+remarks:        ***********          PEERING CONNECTIVITY         ************
+remarks:
+import:         from AS3245 62.44.96.210 at 62.44.96.209 accept ANY
+import:         from AS3245 62.44.108.94 at 62.44.108.93 accept ANY
+import:         from AS8262 62.44.96.254 at 62.44.96.253 accept ANY
+import:         from AS8262 62.44.108.74 at 62.44.108.73 accept ANY
+import:         from AS8717 62.44.96.250 at 62.44.96.249 accept ANY
+import:         from AS8717 62.44.96.242 at 62.44.96.241 accept ANY
+import:         from AS8717 62.44.96.246 at 62.44.96.245 accept ANY
+import:         from AS9070 62.44.108.70 at 62.44.108.69 accept ANY
+import:         from AS9070 62.44.108.66 at 62.44.108.65 accept ANY
+import:         from AS9127 212.72.192.221 at 212.72.192.222 accept ANY
+import:         from AS20657 62.44.108.78 at 62.44.108.77 accept ANY
+import:         from AS20657 62.44.108.82 at 62.44.108.81 accept ANY
+import:         from AS34224 62.44.96.158 at 62.44.96.157 accept ANY
+import:         from AS34224 62.44.96.154 at 62.44.96.153 accept ANY
+mp-import:      afi ipv4.unicast from AS3245 62.44.96.210 at 62.44.96.209 accept ANY; # DIGSYS
+mp-import:      afi ipv4.unicast from AS3245 62.44.108.94 at 62.44.108.93 accept ANY; # DIGSYS
+mp-import:      afi ipv4.unicast from AS8262 62.44.96.254 at 62.44.96.253 accept ANY; # LIREXNET-AS
+mp-import:      afi ipv4.unicast from AS8262 62.44.108.74 at 62.44.108.73 accept ANY; # LIREXNET-AS
+mp-import:      afi ipv4.unicast from AS8717 62.44.96.250 at 62.44.96.249 accept ANY; # SPECTRUMNET
+mp-import:      afi ipv4.unicast from AS8717 62.44.96.242 at 62.44.96.241 accept ANY; # SPECTRUMNET
+mp-import:      afi ipv4.unicast from AS8717 62.44.96.246 at 62.44.96.245 accept ANY; # SPECTRUMNET
+mp-import:      afi ipv4.unicast from AS9070 62.44.108.70 at 62.44.108.69 accept ANY; # ITD
+mp-import:      afi ipv4.unicast from AS9070 62.44.108.66 at 62.44.108.65 accept ANY; # ITD
+mp-import:      afi ipv4.unicast from AS9127 212.72.192.221 at 212.72.192.222 accept ANY; # NETISSAT-AS
+mp-import:      afi ipv4.unicast from AS20657 62.44.108.78 at 62.44.108.77 accept ANY; # ATLANTIS
+mp-import:      afi ipv4.unicast from AS20657 62.44.108.82 at 62.44.108.81 accept ANY; # ATLANTIS
+mp-import:      afi ipv4.unicast from AS34224 62.44.96.158 at 62.44.96.157 accept ANY; # NETERRA-AS
+mp-import:      afi ipv4.unicast from AS34224 62.44.96.154 at 62.44.96.153 accept ANY; # NETERRA-AS
+mp-import:      afi ipv6.unicast from AS3245 2001:67c:20d0:fffe:ffff:ffff:ffff:ff92 at 2001:67c:20d0:fffe:ffff:ffff:ffff:ff91 accept ANY; # DIGSYS
+mp-import:      afi ipv6.unicast from AS3245 2001:67c:20d1:fff:ffff:ffff:ffff:ff92 at 2001:67c:20d1:fff:ffff:ffff:ffff:ff91 accept ANY; # DIGSYS
+mp-import:      afi ipv6.unicast from AS8262 2001:67c:20d0:fffe:ffff:ffff:ffff:fffa at 2001:67c:20d0:fffe:ffff:ffff:ffff:fff9 accept ANY; # LIREXNET-AS
+mp-import:      afi ipv6.unicast from AS8262 2001:67c:20d1:fff:ffff:ffff:ffff:fffa at 2001:67c:20d1:fff:ffff:ffff:ffff:fff9 accept ANY; # LIREXNET-AS
+mp-import:      afi ipv6.unicast from AS8717 2001:67c:20d0:fffe:ffff:ffff:ffff:fffe at 2001:67c:20d0:fffe:ffff:ffff:ffff:fffd accept ANY; # SPECTRUMNET
+mp-import:      afi ipv6.unicast from AS8717 2001:67c:20d1:fff:ffff:ffff:ffff:fffe at 2001:67c:20d1:fff:ffff:ffff:ffff:fffd accept ANY; # SPECTRUMNET
+mp-import:      afi ipv6.unicast from AS8717 2001:67c:20d1:1fff:ffff:ffff:ffff:fffe at 2001:67c:20d1:1fff:ffff:ffff:ffff:fffd accept ANY; # SPECTRUMNET
+mp-import:      afi ipv6.unicast from AS9070 2001:67c:20d0:fffe:ffff:ffff:ffff:fff6 at 2001:67c:20d0:fffe:ffff:ffff:ffff:fff5 accept ANY; # ITD
+mp-import:      afi ipv6.unicast from AS9070 2001:67c:20d1:fff:ffff:ffff:ffff:fff6 at 2001:67c:20d1:fff:ffff:ffff:ffff:fff5 accept ANY; # ITD
+mp-import:      afi ipv6.unicast from AS9127 2001:67c:20d0:fffe:ffff:ffff:ffff:ff96 at 2001:67c:20d0:fffe:ffff:ffff:ffff:ff95 accept ANY; # NETISSAT-AS
+mp-import:      afi ipv6.unicast from AS34224 2001:67c:20d0:fffe:ffff:ffff:0:24 at 2001:67c:20d0:fffe:ffff:ffff:0:22 accept ANY; # NETERRA-AS
+mp-import:      afi ipv6.unicast from AS34224 2001:67c:20d0:fffe:ffff:ffff:0:23 at 2001:67c:20d0:fffe:ffff:ffff:0:21 accept ANY; # NETERRA-AS
+export:         to AS3245 62.44.96.210 at 62.44.96.209 announce AS-SU-LOCAL
+export:         to AS3245 62.44.108.94 at 62.44.108.93 announce AS-SU-LOCAL
+export:         to AS8262 62.44.108.74 at 62.44.108.73 announce AS-SU-LOCAL
+export:         to AS8262 62.44.96.254 at 62.44.96.253 announce AS-SU-LOCAL
+export:         to AS8717 62.44.96.250 at 62.44.96.249 announce AS-SU-LOCAL
+export:         to AS8717 62.44.96.242 at 62.44.96.241 announce AS-SU-LOCAL
+export:         to AS8717 62.44.96.246 at 62.44.96.245 announce AS-SU-LOCAL
+export:         to AS9070 62.44.108.70 at 62.44.108.69 announce AS-SU-LOCAL
+export:         to AS9070 62.44.108.66 at 62.44.108.65 announce AS-SU-LOCAL
+export:         to AS9127 212.72.192.221 at 212.72.192.222 announce AS-SU-LOCAL
+export:         to AS20657 62.44.108.78 at 62.44.108.77 announce AS-SU-LOCAL
+export:         to AS20657 62.44.108.82 at 62.44.108.81 announce AS-SU-LOCAL
+export:         to AS34224 62.44.96.158 at 62.44.96.157 announce AS-SU-LOCAL
+export:         to AS34224 62.44.96.154 at 62.44.96.153 announce AS-SU-LOCAL
+mp-export:      afi ipv4.unicast to AS3245 62.44.96.210 at 62.44.96.209 announce AS-SU-LOCAL; # DIGSYS
+mp-export:      afi ipv4.unicast to AS3245 62.44.108.94 at 62.44.108.93 announce AS-SU-LOCAL; # DIGSYS
+mp-export:      afi ipv4.unicast to AS8262 62.44.108.74 at 62.44.108.73 announce AS-SU-LOCAL; # LIREXNET-AS
+mp-export:      afi ipv4.unicast to AS8262 62.44.96.254 at 62.44.96.253 announce AS-SU-LOCAL; # LIREXNET-AS
+mp-export:      afi ipv4.unicast to AS8717 62.44.96.250 at 62.44.96.249 announce AS-SU-LOCAL; # SPECTRUMNET
+mp-export:      afi ipv4.unicast to AS8717 62.44.96.242 at 62.44.96.241 announce AS-SU-LOCAL; # SPECTRUMNET
+mp-export:      afi ipv4.unicast to AS8717 62.44.96.246 at 62.44.96.245 announce AS-SU-LOCAL; # SPECTRUMNET
+mp-export:      afi ipv4.unicast to AS9070 62.44.108.70 at 62.44.108.69 announce AS-SU-LOCAL; # ITD
+mp-export:      afi ipv4.unicast to AS9070 62.44.108.66 at 62.44.108.65 announce AS-SU-LOCAL; # ITD
+mp-export:      afi ipv4.unicast to AS9127 212.72.192.221 at 212.72.192.222 announce AS-SU-LOCAL; # NETISSAT-AS
+mp-export:      afi ipv4.unicast to AS20657 62.44.108.78 at 62.44.108.77 announce AS-SU-LOCAL; # ATLANTIS
+mp-export:      afi ipv4.unicast to AS20657 62.44.108.82 at 62.44.108.81 announce AS-SU-LOCAL; # ATLANTIS
+mp-export:      afi ipv4.unicast to AS34224 62.44.96.158 at 62.44.96.157 announce AS-SU-LOCAL; # NETERRA-AS
+mp-export:      afi ipv4.unicast to AS34224 62.44.96.154 at 62.44.96.153 announce AS-SU-LOCAL; # NETERRA-AS
+mp-export:      afi ipv6.unicast to AS3245 2001:67c:20d0:fffe:ffff:ffff:ffff:ff92 at 2001:67c:20d0:fffe:ffff:ffff:ffff:ff91 announce AS-SU-LOCAL; # DIGSYS
+mp-export:      afi ipv6.unicast to AS3245 2001:67c:20d1:fff:ffff:ffff:ffff:ff92 at 2001:67c:20d1:fff:ffff:ffff:ffff:ff91 announce AS-SU-LOCAL; # DIGSYS
+mp-export:      afi ipv6.unicast to AS8262 2001:67c:20d0:fffe:ffff:ffff:ffff:fffa at 2001:67c:20d0:fffe:ffff:ffff:ffff:fff9 announce AS-SU-LOCAL; # LIREXNET-AS
+mp-export:      afi ipv6.unicast to AS8262 2001:67c:20d1:fff:ffff:ffff:ffff:fffa at  2001:67c:20d1:fff:ffff:ffff:ffff:fff9 announce AS-SU-LOCAL; # LIREXNET-AS
+mp-export:      afi ipv6.unicast to AS8717 2001:67c:20d0:fffe:ffff:ffff:ffff:fffe at 2001:67c:20d0:fffe:ffff:ffff:ffff:fffd announce AS-SU-LOCAL; # SPECTRUMNET
+mp-export:      afi ipv6.unicast to AS8717 2001:67c:20d1:fff:ffff:ffff:ffff:fffe at 2001:67c:20d1:fff:ffff:ffff:ffff:fffd announce AS-SU-LOCAL; # SPECTRUMNET
+mp-export:      afi ipv6.unicast to AS8717 2001:67c:20d1:1fff:ffff:ffff:ffff:fffe at 2001:67c:20d1:1fff:ffff:ffff:ffff:fffd announce AS-SU-LOCAL; # SPECTRUMNET
+mp-export:      afi ipv6.unicast to AS9070 2001:67c:20d0:fffe:ffff:ffff:ffff:fff6 at 2001:67c:20d0:fffe:ffff:ffff:ffff:fff5 announce AS-SU-LOCAL; # ITD
+mp-export:      afi ipv6.unicast to AS9070 2001:67c:20d1:fff:ffff:ffff:ffff:fff6 at 2001:67c:20d1:fff:ffff:ffff:ffff:fff5 announce AS-SU-LOCAL; # ITD
+mp-export:      afi ipv6.unicast to AS9127 2001:67c:20d0:fffe:ffff:ffff:ffff:ff96 at 2001:67c:20d0:fffe:ffff:ffff:ffff:ff95 announce AS-SU-LOCAL; # NETISSAT-AS
+mp-export:      afi ipv6.unicast to AS34224 2001:67c:20d0:fffe:ffff:ffff:0:24 at 2001:67c:20d0:fffe:ffff:ffff:0:22 announce AS-SU-LOCAL; # NETERRA-AS
+mp-export:      afi ipv6.unicast to AS34224 2001:67c:20d0:fffe:ffff:ffff:0:23 at 2001:67c:20d0:fffe:ffff:ffff:0:21 announce AS-SU-LOCAL; # NETERRA-AS
+remarks:
+remarks:        **************************************************************
+remarks:
+admin-c:        NCC123-RIPE
+tech-c:         NCC123-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS5421-MNT
+remarks:
+remarks:        ===============================================================
+remarks:        In case of SPAM, DoS, etc. please contact: 123@ucc.uni-sofia.bg
+remarks:        For technical and other questions contact: 123@ucc.uni-sofia.bg
+remarks:        ===============================================================
+remarks:
+created:        2001-10-25T11:04:15Z
+last-modified:  2019-12-04T11:17:02Z
+source:         RIPE
+sponsoring-org: ORG-MN1-RIPE
+
+organisation:   ORG-UoS32-RIPE
+org-name:       Sofia University "St. Kliment Ohridski"
+country:        BG
+org-type:       OTHER
+address:        5, James Bourchier Ave.
+address:        1164 Sofia
+address:        Bulgaria
+admin-c:        NCC123-RIPE
+tech-c:         NCC123-RIPE
+abuse-c:        NCC123-RIPE
+mnt-ref:        AS5421-MNT
+mnt-by:         AS5421-MNT
+created:        2006-07-18T16:52:21Z
+last-modified:  2022-12-01T16:57:29Z
+source:         RIPE # Filtered
+
+role:           Sofia University St. Kliment Ohridski NCC
+address:        5, James Bourchier Blvd.
+address:        1164 Sofia
+address:        Bulgaria
+phone:          +35928161579
+org:            ORG-UoS32-RIPE
+admin-c:        VESS-RIPE
+admin-c:        MP24687-RIPE
+tech-c:         VESS-RIPE
+tech-c:         MP24687-RIPE
+nic-hdl:        NCC123-RIPE
+abuse-mailbox:  123@ucc.uni-sofia.bg
+mnt-by:         AS5421-MNT
+created:        2013-11-12T14:18:16Z
+last-modified:  2018-02-24T21:56:48Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          62.44.96.0/19
+descr:          University of Sofia
+descr:          Main Allocation
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T09:30:27Z
+last-modified:  2006-09-19T09:53:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.96.0/20
+descr:          St. Kliment Ohridski University of Sofia
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-06-13T11:02:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.96.0/21
+descr:          University of Sofia
+descr:          Campus Lozenetz - NetBlock-1
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2008-02-08T14:45:34Z
+last-modified:  2008-02-08T14:45:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.96.0/24
+descr:          St. Kliment Ohridski University of Sofia Research Network
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2005-06-13T10:58:30Z
+last-modified:  2005-06-13T10:58:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.97.0/24
+descr:          University of Sofia
+descr:          Dual-up
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:44:07Z
+last-modified:  2006-09-19T13:44:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.98.0/24
+descr:          University of Sofia
+descr:          Faculty of Physics
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:44:07Z
+last-modified:  2006-09-19T13:44:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.99.0/24
+descr:          University of Sofia
+descr:          Faculty of Physics
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:48:01Z
+last-modified:  2006-09-19T13:48:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.100.0/23
+descr:          University of Sofia
+descr:          Faculty of Mathematics and Informatics (FMI)
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2008-02-08T14:33:42Z
+last-modified:  2008-02-08T14:33:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.102.0/24
+descr:          University of Sofia
+descr:          Faculty of Chemistry
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:48:01Z
+last-modified:  2006-09-19T13:48:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.103.0/24
+descr:          University of Sofia
+descr:          Various subnets
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-05T13:57:58Z
+last-modified:  2007-03-13T16:56:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.104.0/22
+descr:          University of Sofia
+descr:          External Faculties - Block 1
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2008-02-08T14:53:45Z
+last-modified:  2008-06-25T13:27:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.104.0/24
+descr:          University of Sofia
+descr:          Faculty of Biology
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:48:02Z
+last-modified:  2008-06-25T13:28:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.105.0/24
+descr:          University of Sofia
+descr:          Faculty of Pre-school and Primary School Education
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:48:02Z
+last-modified:  2006-09-19T13:48:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.106.0/24
+descr:          University of Sofia
+descr:          Faculty of Theology
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:48:02Z
+last-modified:  2006-09-19T13:48:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.107.0/24
+descr:          University of Sofia
+descr:          Department for Information and In-service Training of Teachers
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:48:02Z
+last-modified:  2006-09-19T13:48:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.108.0/23
+descr:          University of Sofia
+descr:          Campus Lozenetz - NetBlock-2
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2008-02-08T14:56:52Z
+last-modified:  2008-02-08T14:56:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.108.0/24
+descr:          University of Sofia
+descr:          Various subnets
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:48:02Z
+last-modified:  2007-03-13T14:43:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.109.0/24
+descr:          University of Sofia
+descr:          University Computer Center
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T10:21:48Z
+last-modified:  2006-09-19T13:48:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.110.0/23
+descr:          University of Sofia
+descr:          Campus Rectorate
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2011-01-14T10:30:30Z
+last-modified:  2011-01-14T10:30:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.110.0/24
+descr:          University of Sofia
+descr:          Campus Rectorate Backbone
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:48:03Z
+last-modified:  2006-09-19T13:48:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.111.0/24
+descr:          University of Sofia
+descr:          University Library
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-19T13:48:03Z
+last-modified:  2006-09-19T13:48:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.112.0/21
+descr:          University of Sofia
+descr:          External Faculties - Block 2
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2008-06-25T13:29:56Z
+last-modified:  2008-06-25T13:29:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.112.0/24
+descr:          University of Sofia
+descr:          Central Administration
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:56Z
+last-modified:  2006-09-20T09:59:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.113.0/24
+descr:          University of Sofia
+descr:          Faculty of Philosophy
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:57Z
+last-modified:  2006-09-20T09:59:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.114.0/24
+descr:          University of Sofia
+descr:          Faculty of Geology and Geography
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:57Z
+last-modified:  2006-09-20T09:59:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.115.0/24
+descr:          University of Sofia
+descr:          Faculty of History
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:57Z
+last-modified:  2006-09-20T09:59:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.116.0/24
+descr:          University of Sofia
+descr:          Faculty of Slavonic Studies
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:57Z
+last-modified:  2006-09-20T09:59:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.117.0/24
+descr:          University of Sofia
+descr:          Faculty of Classical and Modern Philology
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:58Z
+last-modified:  2006-09-20T09:59:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.118.0/24
+descr:          University of Sofia
+descr:          Faculty of Law
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:58Z
+last-modified:  2006-09-20T09:59:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.119.0/24
+descr:          University of Sofia
+descr:          Faculty of Journalism and Mass Communication
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:58Z
+last-modified:  2006-09-20T09:59:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.120.0/22
+descr:          University of Sofia
+descr:          Shared block
+descr:          Campus IVKM
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2008-06-25T13:31:49Z
+last-modified:  2010-10-01T09:19:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.120.0/24
+descr:          University of Sofia
+descr:          Campus IV km Backbone
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:58Z
+last-modified:  2006-09-20T09:59:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.121.0/24
+descr:          University of Sofia
+descr:          Faculty of Economics and Business Administration
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:58Z
+last-modified:  2006-09-20T09:59:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.122.0/24
+descr:          University of Sofia
+descr:          Faculty of Philosophy ? Department of Sociology
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:58Z
+last-modified:  2006-09-20T09:59:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.123.0/24
+descr:          University of Sofia
+descr:          Faculty of Education
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:59Z
+last-modified:  2006-09-20T09:59:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.124.0/23
+descr:          University of Sofia
+descr:          External Faculties - Block 4
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2008-06-25T13:33:49Z
+last-modified:  2008-06-25T13:33:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.124.0/24
+descr:          University of Sofia
+descr:          Shared block
+descr:          subroutes:
+descr:          62.44.124.0/25
+descr:          62.44.124.128/25
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T10:11:55Z
+last-modified:  2006-09-20T10:16:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.124.0/25
+descr:          University of Sofia
+descr:          Insitute Germanicum
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:59Z
+last-modified:  2006-09-20T10:24:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.124.128/25
+descr:          University of Sofia
+descr:          Faculty of Philosophy
+descr:          Department of History and Theory of Culture
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:59Z
+last-modified:  2006-09-20T10:18:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.125.0/24
+descr:          University of Sofia
+descr:          Faculty of Mathematics and Informatics
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:59Z
+last-modified:  2006-09-20T09:59:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.126.0/24
+descr:          University of Sofia
+descr:          Experimental
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:59Z
+last-modified:  2006-09-20T09:59:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.44.127.0/24
+descr:          University of Sofia
+descr:          Campus Lozenetz Backbone
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2006-09-20T09:59:59Z
+last-modified:  2006-09-20T09:59:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:20d0::/47
+descr:          Sofia University "St. Kliment Ohrisdki"
+descr:          Major aggregated prefix
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2011-02-18T14:18:07Z
+last-modified:  2011-02-18T14:18:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:20d0::/48
+descr:          Sofia University "St. Kliment Ohrisdki"
+descr:          Campus "Lozenets" networks
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2011-02-18T14:21:08Z
+last-modified:  2011-02-18T14:21:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:20d1::/48
+descr:          Sofia University "St. Kliment Ohrisdki"
+descr:          Campus "Rectorate" and external networks
+origin:         AS5421
+mnt-by:         AS5421-MNT
+created:        2011-02-18T14:22:31Z
+last-modified:  2011-02-18T14:22:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

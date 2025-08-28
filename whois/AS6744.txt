@@ -1,0 +1,98 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6744'
+
+% Abuse contact for 'AS6744' is 'noc@cti.gr'
+
+aut-num:        AS6744
+as-name:        RACTI-NET
+org:            ORG-RACT1-RIPE
+import:         from AS5408 action pref=100; accept AS5408 AS5400
+import:         from AS5408 action pref=150; accept AS2546 AS3323
+import:         from AS2546 action pref=100; accept AS2546
+import:         from AS2546 action pref=150; accept AS5408 AS5400 AS3323 AS5470
+export:         to AS5408 announce AS6744
+export:         to AS2546 announce AS6744
+default:        to AS5408 action pref=50; networks ANY
+default:        to AS2546 action pref=100; networks ANY
+admin-c:        CNOC1-RIPE
+tech-c:         CNOC1-RIPE
+remarks:        The core of PATRASnet is CTInet (the CTI Wide Area Network)
+remarks:        which provides the gateways to national and international
+remarks:        computer networks.
+status:         ASSIGNED
+mnt-by:         AS6744-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:13:22Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-GRaT1-RIPE
+
+organisation:   ORG-RACT1-RIPE
+org-name:       Computer Technology Institute and Press "Diophantus"
+country:        GR
+org-type:       OTHER
+address:        N. Kazantzaki Str.
+address:        University of Patras Campus
+address:        GR-26500 Rio, Hellas
+mnt-ref:        GRNET-NOC
+mnt-by:         GRNET-NOC
+created:        2010-07-28T11:33:13Z
+last-modified:  2023-07-24T09:32:10Z
+source:         RIPE # Filtered
+abuse-c:        AR22630-RIPE
+
+person:         CTI NET NOC
+address:        Network Operations Center (NOC)
+                Research Academic
+                Computer Technology Institute (CTI)
+                N. Kazantzaki Str.,
+                University of Patras Campus,
+                GR-26500 Rio, Hellas
+phone:          +30 2610 960330
+fax-no:         +30 2610 960389
+nic-hdl:        CNOC1-RIPE
+mnt-by:         CTINET-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-10-30T21:44:44Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          150.140.0.0/17
+descr:          CTINet
+remarks:        Research Academic Computer Technology Institute
+origin:         AS6744
+mnt-by:         CTINET-NOC
+created:        2006-07-20T08:55:17Z
+last-modified:  2006-07-20T08:55:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

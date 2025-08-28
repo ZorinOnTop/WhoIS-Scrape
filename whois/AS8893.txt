@@ -1,0 +1,1137 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8893'
+
+% Abuse contact for 'AS8893' is 'abuse@artfiles.de'
+
+aut-num:        AS8893
+as-name:        ARTFILES-AS
+org:            ORG-ANMG1-RIPE
+descr:          Artfiles New Media GmbH
+descr:          Global Routing Policy
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Action pref == local_pref, not RFC2622 compliant
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        ===>               Upstream
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        Transit DTAG
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS3320 action pref=50; accept AS3320:AS-DTAG
+mp-export:      afi any.unicast to AS3320 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Transit Arelion
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS1299 action pref=100; accept ANY
+mp-export:      afi any.unicast to AS1299 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Transit Lumen
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS3356 action pref=100; accept ANY
+mp-export:      afi any.unicast to AS3356 announce AS-ARTFILES
+remarks:
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        ===>            Private Peering
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        OMCnet Internet Service GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS15388 action pref=250; accept AS-OMC
+mp-export:      afi any.unicast to AS15388 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        n@work Internet Informationssysteme GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS9211 action pref=250; accept AS-WORK
+mp-export:      afi any.unicast to AS9211 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        wilhelm.tel GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS15943 action pref=250; accept AS-WTNET
+mp-export:      afi any.unicast to AS15943 announce AS-ARTFILES
+remarks:
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        ===>  Peering Point ECIX-HAM
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Telefonica Germany GmbH & Co.OHG
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS6805 action pref=200; accept AS-TDDE
+mp-export:      afi any.unicast to AS6805 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Telefonica Germany GmbH & Co.OHG
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS6805 action pref=200; accept AS-TDDE
+mp-export:      afi any.unicast to AS6805 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Hurricane Electric LLC
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS6939 action pref=50; accept ANY
+mp-export:      afi any.unicast to AS6939 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        IPHH Internet Port Hamburg GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS12731 action pref=200; accept AS-IPHH
+mp-export:      afi any.unicast to AS12731 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Cloudflare, Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS13335 action pref=200; accept AS-CLOUDFLARE
+mp-export:      afi any.unicast to AS13335 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Plusnet GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS20676 action pref=200; accept AS-QSC
+mp-export:      afi any.unicast to AS20676 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Akamai Technologies
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS20940 action pref=200; accept AS-AKAMAI
+mp-export:      afi any.unicast to AS20940 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        LWLcom GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS50629 action pref=200; accept AS-LWL
+mp-export:      afi any.unicast to AS50629 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Exaring AG
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS51324 action pref=200; accept AS-EXARING
+mp-export:      afi any.unicast to AS51324 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        ECIX-HAM Routeserver
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS9033 action pref=200; accept ANY
+mp-export:      afi any.unicast to AS9033 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        ECIX-HAM Routeserver
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS9033 action pref=200; accept ANY
+mp-export:      afi any.unicast to AS9033 announce AS-ARTFILES
+remarks:
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        ===>  Peering Point DE-CIX HAM
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:
+remarks:        ------------------------------------------------
+remarks:        DFN Deutsches Forschungsnetz e.V.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS680 action pref=205; accept AS-DFNTOWINISP
+mp-export:      afi any.unicast to AS680 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Microsoft Corporation
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8075 action pref=205; accept AS-MICROSOFT
+mp-export:      afi any.unicast to AS8075 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Microsoft Corporation
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8075 action pref=205; accept AS-MICROSOFT
+mp-export:      afi any.unicast to AS8075 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Amazon.com, Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS16509 action pref=205; accept AS16509:AS-AMAZON
+mp-export:      afi any.unicast to AS16509 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Amazon.com, Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS16509 action pref=205; accept AS16509:AS-AMAZON
+mp-export:      afi any.unicast to AS16509 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        GlobalConnect Group
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS31027 action pref=205; accept AS-GCNET
+mp-export:      afi any.unicast to AS31027 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Facebook, Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS32934 action pref=205; accept AS-FACEBOOK
+mp-export:      afi any.unicast to AS32934 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Facebook, Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS32934 action pref=205; accept AS-FACEBOOK
+mp-export:      afi any.unicast to AS32934 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        DE-CIX HAM Routeserver
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS43252 action pref=205; accept ANY
+mp-export:      afi any.unicast to AS43252 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        DE-CIX HAM Routeserver
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS43252 action pref=205; accept ANY
+mp-export:      afi any.unicast to AS43252 announce AS-ARTFILES
+remarks:
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        ===>  Peering Point DE-CIX FRA (RemotePeering)
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Apple Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS714 action pref=201; accept AS-APPLE
+mp-export:      afi any.unicast to AS714 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Apple Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS714 action pref=201; accept AS-APPLE
+mp-export:      afi any.unicast to AS714 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Apple Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS714 action pref=201; accept AS-APPLE
+mp-export:      afi any.unicast to AS714 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Apple Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS714 action pref=201; accept AS-APPLE
+mp-export:      afi any.unicast to AS714 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Netflix Streaming Services Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS2906 action pref=201; accept AS-NFLX
+mp-export:      afi any.unicast to AS2906 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Netflix Streaming Services Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS2906 action pref=201; accept AS-NFLX
+mp-export:      afi any.unicast to AS2906 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Vodafone GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS3209 action pref=201; accept AS-ARCORGLOBAL
+mp-export:      afi any.unicast to AS3209 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Vodafone GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS3209 action pref=201; accept AS-ARCORGLOBAL
+mp-export:      afi any.unicast to AS3209 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Telefonica Germany GmbH & Co.OHG
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS6805 action pref=201; accept AS-TDDE
+mp-export:      afi any.unicast to AS6805 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Telefonica Germany GmbH & Co.OHG
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS6805 action pref=201; accept AS-TDDE
+mp-export:      afi any.unicast to AS6805 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Microsoft Corporation
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8075 action pref=201; accept AS-MICROSOFT
+mp-export:      afi any.unicast to AS8075 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Microsoft Corporation
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8075 action pref=201; accept AS-MICROSOFT
+mp-export:      afi any.unicast to AS8075 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Colt Technology Services Group
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8220 action pref=201; accept AS-COLT
+mp-export:      afi any.unicast to AS8220 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Colt Technology Services Group
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8220 action pref=201; accept AS-COLT
+mp-export:      afi any.unicast to AS8220 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Man-da.de GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8365 action pref=201; accept AS-MANDA
+mp-export:      afi any.unicast to AS8365 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        1&1 IONOS SE
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8560 action pref=201; accept AS-1AND1
+mp-export:      afi any.unicast to AS8560 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        1&1 IONOS SE
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8560 action pref=201; accept AS-1AND1
+mp-export:      afi any.unicast to AS8560 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        M-net Telekommunikations GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8767 action pref=201; accept AS-MNETDE
+mp-export:      afi any.unicast to AS8767 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Emirates Telecommunications Corporation
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS8966 action pref=201; accept AS-EMIX
+mp-export:      afi any.unicast to AS8966 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Amazon.com, Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS16509 action pref=201; accept AS16509:AS-AMAZON
+mp-export:      afi any.unicast to AS16509 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Amazon.com, Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS16509 action pref=201; accept AS16509:AS-AMAZON
+mp-export:      afi any.unicast to AS16509 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Akamai Technologies
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS20940 action pref=201; accept AS-AKAMAI
+mp-export:      afi any.unicast to AS20940 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Akamai Technologies
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS20940 action pref=201; accept AS-AKAMAI
+mp-export:      afi any.unicast to AS20940 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Limelight Networks, Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS22822 action pref=201; accept AS-LLNW
+mp-export:      afi any.unicast to AS22822 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        Limelight Networks, Inc.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS22822 action pref=201; accept AS-LLNW
+mp-export:      afi any.unicast to AS22822 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        GlobalConnect Group
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS31027 action pref=201; accept AS-GCNET
+mp-export:      afi any.unicast to AS31027 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        DE-CIX FRA Routeserver
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS6695 action pref=201; accept ANY
+mp-export:      afi any.unicast to AS6695 announce AS-ARTFILES
+remarks:        ------------------------------------------------
+remarks:        DE-CIX FRA Routeserver
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS6695 action pref=201; accept ANY
+mp-export:      afi any.unicast to AS6695 announce AS-ARTFILES
+remarks:
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        ===>              BGP Customer
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        Corpex Internet GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS39227 action pref=300; accept AS-CORPEX
+mp-export:      afi any.unicast to AS39227 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        InnoGames GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS208058 action pref=300; accept AS208058
+mp-export:      afi any.unicast to AS208058 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        CompuNet Systems GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210236 action pref=300; accept { 194.110.160.0/22, 212.48.109.96/27, 212.48.110.40/29, 212.48.110.48/29, 212.48.111.144/29, 212.48.111.152/29, 212.48.114.64/26, 212.53.147.0/24, 212.53.158.0/27, 212.53.158.128/28, 212.53.170.0/24, 212.53.178.0/24, 212.53.181.0/26, 212.53.181.64/28, 212.53.193.0/24, 212.72.166.0/25, 80.252.100.232/29, 80.252.108.96/28, 2a05:3a40::/32 }
+mp-export:      afi any.unicast to AS210236 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        Freifunk Rheinland e.V.
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS49009 action pref=300; accept AS49009
+mp-export:      afi any.unicast to AS49009 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        Luiz Fernando Ribeiro Amaral
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS209114 action pref=300; accept AS-LFRAM
+mp-export:      afi any.unicast to AS209114 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        Grotrian IT-Consulting
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS52001 action pref=300; accept { 91.221.182.0/23 }
+mp-export:      afi any.unicast to AS52001 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        Corpex Internet GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS39227 action pref=300; accept AS-CORPEX
+mp-export:      afi any.unicast to AS39227 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        InnoGames GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS208058 action pref=300; accept AS208058
+mp-export:      afi any.unicast to AS208058 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        CompuNet Systems GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210236 action pref=300; accept { 194.110.160.0/22, 212.48.109.96/27, 212.48.110.40/29, 212.48.110.48/29, 212.48.111.144/29, 212.48.111.152/29, 212.48.114.64/26, 212.53.147.0/24, 212.53.158.0/27, 212.53.158.128/28, 212.53.170.0/24, 212.53.178.0/24, 212.53.181.0/26, 212.53.181.64/28, 212.53.193.0/24, 212.72.166.0/25, 80.252.100.232/29, 80.252.108.96/28, 2a05:3a40::/32 }
+mp-export:      afi any.unicast to AS210236 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        CompuNet Systems GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210236 action pref=300; accept { 194.110.160.0/22, 212.48.109.96/27, 212.48.110.40/29, 212.48.110.48/29, 212.48.114.64/26, 212.53.147.0/24, 212.53.158.0/27, 212.53.158.128/28, 212.53.170.0/24, 212.53.178.0/24, 212.53.181.0/26, 212.53.181.64/28, 212.53.193.0/24, 212.72.166.0/26, 212.72.166.64/26, 80.252.100.232/29, 80.252.108.96/28, 2a05:3a40::/32 }
+mp-export:      afi any.unicast to AS210236 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        InnoGames GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS208058 action pref=300; accept AS208058
+mp-export:      afi any.unicast to AS208058 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        InnoGames GmbH
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS208058 action pref=300; accept AS208058
+mp-export:      afi any.unicast to AS208058 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        mioso - IT
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210336 action pref=300; accept { 195.242.90.0/23, 195.242.90.0/24, 195.242.91.0/24, 212.48.105.64/26 }
+mp-export:      afi any.unicast to AS210336 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        mioso - IT
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210336 action pref=300; accept { 195.242.90.0/23, 195.242.90.0/24, 195.242.91.0/24, 212.48.105.64/26 }
+mp-export:      afi any.unicast to AS210336 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        mioso - IT
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210336 action pref=300; accept { 195.242.90.0/23, 195.242.90.0/24, 195.242.91.0/24, 212.48.105.64/26 }
+mp-export:      afi any.unicast to AS210336 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        mioso - IT
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210336 action pref=300; accept { 195.242.90.0/23, 195.242.90.0/24, 195.242.91.0/24, 212.48.105.64/26 }
+mp-export:      afi any.unicast to AS210336 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        mioso - IT
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210336 action pref=300; accept { 195.242.90.0/23, 195.242.90.0/24, 195.242.91.0/24, 212.48.105.128/26 }
+mp-export:      afi any.unicast to AS210336 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        mioso - IT
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210336 action pref=300; accept { 195.242.90.0/23, 195.242.90.0/24, 195.242.91.0/24, 212.48.105.128/26 }
+mp-export:      afi any.unicast to AS210336 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        mioso - IT
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210336 action pref=300; accept { 195.242.90.0/23, 195.242.90.0/24, 195.242.91.0/24, 212.48.105.128/26 }
+mp-export:      afi any.unicast to AS210336 announce ANY
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        mioso - IT
+remarks:        ------------------------------------------------
+mp-import:      afi any.unicast from AS210336 action pref=300; accept { 195.242.90.0/23, 195.242.90.0/24, 195.242.91.0/24, 212.48.105.128/26 }
+mp-export:      afi any.unicast to AS210336 announce ANY
+remarks:        ------------------------------------------------
+remarks:
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        ===>                 Other
+remarks:        ------------------------------------------------
+remarks:
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:        ===>       BGP Communities for customers
+remarks:        ------------------------------------------------
+remarks:        ------------------------------------------------
+remarks:
+remarks:        8893:444     Export to Path
+remarks:        ------------------------------------------------
+remarks:        8893:702     Do not export to Arelion
+remarks:        8893:703     Do not export to DTAG
+remarks:        8893:706     Do not export to Lumen
+remarks:        8893:741     Do not export to ECIX-HAM
+remarks:        8893:750     Do not export to DE-CIX HAM
+remarks:        8893:751     Do not export to DE-CIX FRA
+remarks:        8893:770     Do not export to Customers
+remarks:        8893:777     Do not export to All
+remarks:        ------------------------------------------------
+remarks:        8893:50      Set local prefrence to  50
+remarks:        8893:100     Set local prefrence to 100
+remarks:        8893:150     Set local prefrence to 150
+remarks:        8893:200     Set local prefrence to 200
+remarks:        8893:250     Set local prefrence to 250
+remarks:        8893:300     Set local prefrence to 300
+remarks:        8893:350     Set local prefrence to 350
+remarks:        8893:450     Set local prefrence to 450
+remarks:        ------------------------------------------------
+remarks:        65001:0      Prepend 1x to all Upstreams
+remarks:        65002:0      Prepend 2x to all Upstreams
+remarks:        65003:0      Prepend 3x to all Upstreams
+remarks:        65004:0      Prepend 4x to all Upstreams
+remarks:        65001:1299   Prepend 1x to AS1299/Arelion
+remarks:        65002:1299   Prepend 2x to AS1299/Arelion
+remarks:        65003:1299   Prepend 3x to AS1299/Arelion
+remarks:        65004:1299   Prepend 4x to AS1299/Arelion
+remarks:        65001:3320   Prepend 1x to AS3320/DTAG
+remarks:        65002:3320   Prepend 2x to AS3320/DTAG
+remarks:        65003:3320   Prepend 3x to AS3320/DTAG
+remarks:        65004:3320   Prepend 4x to AS3320/DTAG
+remarks:        65001:3356   Prepend 1x to AS3356/Lumen
+remarks:        65002:3356   Prepend 2x to AS3356/Lumen
+remarks:        65003:3356   Prepend 3x to AS3356/Lumen
+remarks:        65004:3356   Prepend 4x to AS3356/Lumen
+remarks:
+remarks:        ------------------------------------------------
+remarks:        For peering requests contact peering@artfiles.de
+remarks:        PeeringDB: https://peeringdb.com/net/2170
+remarks:        ------------------------------------------------
+admin-c:        AR21092-RIPE
+tech-c:         AR21092-RIPE
+status:         ASSIGNED
+mnt-by:         ARTFILES-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-08-06T20:17:21Z
+last-modified:  2025-02-20T20:24:38Z
+source:         RIPE
+
+organisation:   ORG-ANMG1-RIPE
+org-name:       Artfiles New Media GmbH
+country:        DE
+org-type:       LIR
+address:        Wendenstraße 408
+address:        20537
+address:        Hamburg
+address:        GERMANY
+phone:          +494032027290
+fax-no:         +494032027295
+admin-c:        AR21092-RIPE
+mnt-ref:        ARTFILES-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ARTFILES-MNT
+abuse-c:        AAD80-RIPE
+tech-c:         AR21092-RIPE
+created:        2004-04-17T11:05:23Z
+last-modified:  2023-07-07T09:37:23Z
+source:         RIPE # Filtered
+
+role:           ARTFILES HOSTMASTER
+address:        Artfiles New Media GmbH
+address:        Wendenstraße 408
+address:        20537 Hamburg
+address:        Germany
+admin-c:        ANW5-RIPE
+tech-c:         ANW5-RIPE
+admin-c:        JM13768-RIPE
+tech-c:         JM13768-RIPE
+admin-c:        TE701-RIPE
+tech-c:         TE701-RIPE
+nic-hdl:        AR21092-RIPE
+abuse-mailbox:  abuse@artfiles.de
+mnt-by:         ARTFILES-MNT
+created:        2014-06-10T19:06:24Z
+last-modified:  2023-07-06T11:57:17Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          80.252.96.0/20
+descr:          Artfiles New Media GmbH
+origin:         AS8893
+notify:         hostmaster@artfiles.de
+mnt-by:         ARTFILES-MNT
+created:        2001-12-11T15:33:05Z
+last-modified:  2001-12-11T15:33:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.101.47.0/24
+origin:         AS8893
+mnt-by:         ARTFILES-MNT
+created:        2016-09-22T07:52:57Z
+last-modified:  2016-09-22T07:52:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.105.146.0/23
+descr:          MMG-Media UG (haftungsbeschraenkt)
+origin:         AS8893
+mnt-by:         ARTFILES-MNT
+created:        2008-07-10T14:40:51Z
+last-modified:  2017-07-20T12:15:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.48.96.0/19
+descr:          Artfiles New Media GmbH
+origin:         AS8893
+notify:         ripe-registry@artfiles.de
+mnt-by:         ARTFILES-MNT
+created:        2002-02-25T15:50:58Z
+last-modified:  2008-12-01T11:06:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.128.0/17
+descr:          Artfiles New Media GmbH
+origin:         AS8893
+notify:         hostmaster@artfiles.de
+mnt-by:         ARTFILES-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2009-06-18T12:01:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.132.0/24
+descr:          Artfiles Webserver Network
+origin:         AS8893
+org:            ORG-ANMG1-RIPE
+mnt-by:         ARTFILES-MNT
+created:        2021-11-08T15:27:55Z
+last-modified:  2021-11-08T15:27:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.132.0/24
+origin:         AS8893
+descr:          Path Network, Inc. - Anycasted Proxy-Route for AS8893
+mnt-by:         MAINT-AS396998
+notify:         noc@path.net
+changed:        noc+irr-automation@path.net 20230912
+source:         RADB
+last-modified:  2023-11-13T16:18:34Z
+rpki-ov-state:  valid
+
+route:          212.53.139.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2012-01-25T11:54:22Z
+last-modified:  2023-01-17T15:17:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.141.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2012-01-25T11:55:45Z
+last-modified:  2023-01-17T15:17:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.143.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2012-01-25T11:56:35Z
+last-modified:  2023-01-17T15:17:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.146.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2012-01-25T11:57:16Z
+last-modified:  2023-01-17T15:18:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.152.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2012-01-25T11:58:07Z
+last-modified:  2023-01-17T15:18:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.154.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2012-01-25T11:55:03Z
+last-modified:  2023-01-17T15:18:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.161.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2015-07-31T07:56:37Z
+last-modified:  2023-01-17T15:19:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.164.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2015-07-31T08:00:28Z
+last-modified:  2023-01-17T15:19:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.172.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2022-06-14T08:33:45Z
+last-modified:  2023-01-17T15:20:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.174.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2022-06-14T08:33:57Z
+last-modified:  2023-01-17T15:20:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.194.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2015-07-31T08:00:58Z
+last-modified:  2023-01-17T15:20:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.196.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2015-07-31T08:01:48Z
+last-modified:  2023-01-17T15:21:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.204.0/24
+descr:          Innogames Webserver Network
+origin:         AS8893
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2015-07-31T08:02:57Z
+last-modified:  2023-01-17T15:21:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.208.0/23
+descr:          Skyfillers GmbH Network
+origin:         AS8893
+mnt-by:         ARTFILES-MNT
+created:        2022-06-14T08:35:42Z
+last-modified:  2022-06-14T08:35:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.213.0/24
+origin:         AS8893
+descr:          Path Network, Inc. - Anycasted Proxy-Route for AS8893
+mnt-by:         MAINT-AS396998
+notify:         alex.hristov@path.net
+changed:        alex.hristov@path.net 20230818
+source:         RADB
+last-modified:  2023-11-13T16:18:16Z
+rpki-ov-state:  valid
+
+route:          212.53.223.0/24
+descr:          Artfiles Webserver Network
+origin:         AS8893
+org:            ORG-ANMG1-RIPE
+mnt-by:         ARTFILES-MNT
+created:        2022-12-16T09:56:45Z
+last-modified:  2022-12-16T09:56:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.53.223.0/24
+origin:         AS8893
+descr:          Path Network, Inc. - Anycasted Proxy-Route for AS8893
+mnt-by:         MAINT-AS396998
+notify:         noc@path.net
+changed:        noc+irr-automation@path.net 20230912
+source:         RADB
+last-modified:  2023-11-13T16:18:34Z
+rpki-ov-state:  valid
+
+route:          212.72.160.0/19
+descr:          Artfiles New Media GmbH
+origin:         AS8893
+notify:         ripe-registry@artfiles.de
+mnt-by:         ARTFILES-MNT
+created:        2002-05-03T10:12:28Z
+last-modified:  2008-12-01T11:03:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.72.128.0/20
+origin:         AS8893
+mnt-by:         NETGATE-MNT
+created:        2025-02-11T00:43:43Z
+last-modified:  2025-02-11T00:47:07Z
+source:         RIPE
+remarks:        Abuse issues should be reported to abuse@netgate.de
+descr:          DE-NETGATE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:2064::/48
+descr:          Anton Scharnowski - IPv6 PI
+origin:         AS8893
+mnt-by:         ARTFILES-MNT
+created:        2023-06-16T14:45:46Z
+last-modified:  2023-06-16T14:45:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1f78::/32
+descr:          Artfiles New Media GmbH - IPv6
+origin:         AS8893
+mnt-by:         ARTFILES-MNT
+created:        2013-12-16T17:57:50Z
+last-modified:  2023-01-18T13:28:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1f78:cd::/48
+descr:          Artfiles New Media GmbH - IPv6
+origin:         AS8893
+mnt-by:         ARTFILES-MNT
+created:        2025-03-04T13:24:51Z
+last-modified:  2025-03-04T13:24:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1f78:f007::/48
+descr:          Skyfillers GmbH Network
+origin:         AS8893
+org:            ORG-SG245-RIPE
+mnt-by:         ARTFILES-MNT
+created:        2022-06-14T08:40:15Z
+last-modified:  2022-06-14T08:40:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1f78:fffb::/48
+descr:          InnoGames GmbH Network
+origin:         AS8893
+org:            ORG-IG131-RIPE
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2022-06-14T08:41:19Z
+last-modified:  2023-01-17T15:23:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1f78:fffc::/48
+descr:          InnoGames GmbH Network
+origin:         AS8893
+org:            ORG-IG131-RIPE
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2022-06-14T08:41:31Z
+last-modified:  2023-01-17T15:23:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1f78:fffd::/48
+descr:          InnoGames GmbH Network
+origin:         AS8893
+org:            ORG-IG131-RIPE
+mnt-by:         INNOGAMES-MNT
+mnt-by:         ARTFILES-MNT
+created:        2022-06-14T08:41:41Z
+last-modified:  2023-01-17T15:23:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:d6a0::/30
+origin:         AS8893
+mnt-by:         NETGATE-MNT
+created:        2025-02-11T00:44:37Z
+last-modified:  2025-02-11T00:45:49Z
+source:         RIPE
+remarks:        Abuse issues should be reported to abuse@netgate.de
+descr:          DE-NETGATE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0d:51c0::/29
+descr:          Artfiles GmbH - IPv6 Network
+origin:         AS8893
+org:            ORG-ANMG1-RIPE
+mnt-by:         ARTFILES-MNT
+created:        2023-06-14T10:12:52Z
+last-modified:  2023-06-14T10:12:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

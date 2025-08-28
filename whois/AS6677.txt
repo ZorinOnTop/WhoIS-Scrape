@@ -1,0 +1,464 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6656 - AS6684'
+
+as-block:       AS6656 - AS6684
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2025-08-20T13:58:23Z
+last-modified:  2025-08-20T13:58:23Z
+source:         RIPE
+
+% Information related to 'AS6677'
+
+% Abuse contact for 'AS6677' is 'abuse@mila.is'
+
+aut-num:        AS6677
+as-name:        ICENET-AS1
+org:            ORG-MH183-RIPE
+admin-c:        NO2082-RIPE
+tech-c:         NO2082-RIPE
+remarks:        *********************************
+remarks:        * Mila hf. Autonomous system *
+remarks:        * Mila hf *
+remarks:        * Storhofdi 22-30 *
+remarks:        * 110 Reykjavik *
+remarks:        * Iceland *
+remarks:        *********************************
+remarks:        --------------------------------------
+remarks:        --- IP transit peers import policy ---
+remarks:        --------------------------------------
+import:         from AS174 action pref=101; accept ANY AND NOT {0.0.0.0/0};
+import:         from AS1299 action pref=101; accept ANY AND NOT {0.0.0.0/0};
+remarks:        --------------------------------------
+remarks:        --- IP transit peers export policy ---
+remarks:        --------------------------------------
+export:         to AS174 announce AS-ICENET
+export:         to AS1299 announce AS-ICENET
+remarks:        ----------------------------------
+remarks:        --- Direct peers import policy ---
+remarks:        ----------------------------------
+import:         from AS48685 action pref=100; accept AS-OKH
+import:         from AS15389 action pref=100; accept AS15389 AS24636
+import:         from AS21051 action pref=100; accept AS21051
+import:         from AS15474 action pref=100; accept AS-RHNET
+import:         from AS2603 action pref=100; accept AS-NORDUNET
+import:         from AS12969 action pref=100; accept AS12969:AS-VFIS
+import:         from AS25509 action pref=100; accept AS25509
+import:         from AS25152 action pref=100; accept AS25152
+import:         from AS44432 action pref=100; accept AS44432
+import:         from AS43571 action pref=100; accept AS43571
+import:         from AS24743 action pref=100; accept AS24743
+import:         from AS25244 action pref=100; accept AS25244
+import:         from AS1850 action pref=200; accept AS-ISNIC
+import:         from AS29689 action pref=100; accept AS-NYHERJI
+import:         from AS31410 action pref=100; accept AS31410
+import:         from AS25152 action pref=100; accept AS25152
+import:         from AS35834 action pref=100; accept AS35834
+import:         from AS39472 action pref=100; accept AS39472
+import:         from AS39418 action pref=100; accept AS39418 AS29689
+import:         from AS25509 action pref=100; accept AS25509 AS34678
+import:         from AS15474 action pref=100; accept AS15474
+import:         from AS31236 action pref=100; accept AS31236
+import:         from AS44644 action pref=100; accept AS44644
+import:         from AS44275 action pref=100; accept AS44275
+import:         from AS39532 action pref=100; accept AS39532
+import:         from AS47828 action pref=100; accept AS47828 AS204588
+import:         from AS47545 action pref=100; accept AS47545
+import:         from AS42888 action pref=100; accept AS42888
+import:         from AS43892 action pref=100; accept AS43892:AS-BASIS
+import:         from AS44735 action pref=100; accept AS-SIP
+import:         from AS51896 action pref=100; accept AS-HRINGDU
+import:         from AS44432 action pref=100; accept AS44432
+import:         from AS197973 action pref=100; accept AS197973
+import:         from AS197403 action pref=100; accept AS197403
+import:         from AS57508 action pref=100; accept AS57508
+import:         from AS198815 action pref=100; accept AS198815
+import:         from AS51296 action pref=100; accept AS51296
+import:         from AS60300 action pref=100; accept AS60300
+import:         from AS30818 action pref=100; accept AS-ADVANIA
+import:         from AS200432 action pref=100; accept AS200432
+import:         from AS199844 action pref=100; accept AS199844
+import:         from AS203715 action pref=100; accept AS203715
+import:         from AS202030 action pref=100; accept AS202030
+import:         from AS206010 action pref=100; accept AS206010
+import:         from AS57759 action pref=100; accept AS57759
+import:         from AS31441 action pref=100; accept AS31441
+import:         from AS203176 action pref=100; accept AS-RB
+import:         from AS34309 action pref=100; accept AS-LINK11
+import:         from AS210747 action pref=100; accept AS210747
+import:         from AS203566 action pref=100; accept AS203566
+import:         from AS212926 action pref=100; accept AS212926
+import:         from AS59396 action pref=100; accept AS59396
+import:         from AS57043 action pref=100; accept AS57043
+import:         from AS44477 action pref=100; accept AS44477:AS-DOWNSTREAMS
+import:         from AS215793 action pref=100; accept AS215793
+import:         from AS216293 action pref=100; accept AS216293
+import:         from AS214687 action pref=100; accept AS214687
+import:         from AS200632 action pref=100; accept AS200632:AS-NEBIUS-KEF
+import:         from AS396246 action pref=100; accept AS396246
+import:         from AS214144 action pref=100; accept AS214144
+remarks:        ----------------------------------
+remarks:        --- Direct peers export policy ---
+remarks:        ----------------------------------
+export:         to AS15474 announce AS-ICENET-RIX
+export:         to AS15605 announce AS-ICENET-RIX
+export:         to AS12969 announce AS-ICENET-RIX
+export:         to AS25152 announce AS-ICENET-RIX
+export:         to AS15389 announce ANY
+export:         to AS24743 announce ANY
+export:         to AS1850 announce ANY
+export:         to AS29689 announce ANY
+export:         to AS35834 announce ANY
+export:         to AS39472 announce ANY
+export:         to AS39418 announce ANY
+export:         to AS25509 announce ANY
+export:         to AS15474 announce ANY
+export:         to AS31236 announce ANY
+export:         to AS44644 announce ANY
+export:         to AS44275 announce ANY
+export:         to AS39532 announce ANY
+export:         to AS47828 announce ANY
+export:         to AS47545 announce ANY
+export:         to AS42888 announce ANY
+export:         to AS48685 announce ANY
+export:         to AS43892 announce ANY
+export:         to AS44735 announce ANY
+export:         to AS51896 announce ANY
+export:         to AS44432 announce AS-ICENET-RIX
+export:         to AS197973 announce ANY
+export:         to AS197403 announce ANY
+export:         to AS57508 announce ANY
+export:         to AS198815 announce ANY
+export:         to AS51296 announce ANY
+export:         to AS60300 announce AS-ICENET-RIX
+export:         to AS30818 announce AS-ICENET-RIX
+export:         to AS200432 announce ANY
+export:         to AS199844 announce ANY
+export:         to AS203715 announce ANY
+export:         to AS202030 announce ANY
+export:         to AS206010 announce ANY
+export:         to AS57759 announce ANY
+export:         to AS31441 announce AS-ICENET-RIX
+export:         to AS203176 announce ANY
+export:         to AS34309 announce AS-ICENET-LINK11
+export:         to AS210747 announce ANY
+export:         to AS203566 announce ANY
+export:         to AS212926 announce ANY
+export:         to AS59396 announce ANY
+export:         to AS57043 announce ANY
+export:         to AS44477 announce ANY
+export:         to AS215793 announce ANY
+export:         to AS216293 announce ANY
+export:         to AS214687 announce ANY
+export:         to AS200632 announce ANY
+export:         to AS396246 announce ANY
+export:         to AS214144 announce ANY
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MILAHF-MNT
+created:        2002-09-20T13:46:27Z
+last-modified:  2025-05-22T15:55:35Z
+source:         RIPE
+
+organisation:   ORG-MH183-RIPE
+org-name:       Mila hf
+country:        IS
+org-type:       LIR
+address:        Storhofdi 22-30
+address:        110
+address:        Reykjavik
+address:        ICELAND
+phone:          +354 585 6000
+admin-c:        NO2082-RIPE
+tech-c:         NO2082-RIPE
+abuse-c:        AR69339-RIPE
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MILAHF-MNT
+created:        2022-11-14T09:32:14Z
+last-modified:  2022-11-17T13:11:29Z
+source:         RIPE # Filtered
+mnt-ref:        MILAHF-MNT
+
+role:           Mila - Network Operations
+address:        ICELAND
+address:        Reykjavik
+address:        110
+address:        Storhofdi 22-30
+phone:          +354 585 6000
+admin-c:        STT7-RIPE
+admin-c:        OB2003-RIPE
+tech-c:         OB2003-RIPE
+nic-hdl:        NO2082-RIPE
+mnt-by:         MILAHF-MNT
+created:        2022-11-14T09:32:12Z
+last-modified:  2024-02-16T15:29:20Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          31.209.144.0/20
+descr:          Residential Customers
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2011-05-20T08:13:44Z
+last-modified:  2023-12-13T17:24:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.209.192.0/18
+descr:          Residential Customers
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2011-05-18T08:33:04Z
+last-modified:  2023-12-13T17:24:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.220.0.0/17
+descr:          Mila Residential Customers
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2005-02-08T10:31:09Z
+last-modified:  2023-12-13T17:24:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          157.157.0.0/16
+descr:          MILA Customers
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-12-13T17:22:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          157.157.2.0/24
+descr:          IS-SIMINN-IPTV
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2021-02-05T10:24:48Z
+last-modified:  2023-12-13T17:21:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          157.157.4.0/24
+descr:          IS-SIMINN-IPTV
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2021-02-05T10:25:23Z
+last-modified:  2023-12-13T17:21:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          157.157.136.0/24
+descr:          Islensk Getspa
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2024-03-03T14:42:38Z
+last-modified:  2024-03-03T14:42:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.147.34.0/24
+descr:          Mila hf.
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-12-13T17:22:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.105.224.0/19
+descr:          Mila hf.
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-12-13T17:23:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.105.224.0/24
+descr:          Siminn Hosting
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2015-12-17T10:27:09Z
+last-modified:  2023-12-13T17:23:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.30.192.0/19
+descr:          Mila hf.
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-12-13T17:23:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.30.212.0/24
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2024-04-26T10:41:17Z
+last-modified:  2024-04-26T10:41:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.167.128.0/19
+descr:          Mila Customers
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-12-13T17:23:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.167.152.0/24
+descr:          Mila hf.
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2024-03-03T14:41:44Z
+last-modified:  2024-03-03T14:41:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1a98::/29
+descr:          Mila hf.
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2013-04-11T11:01:41Z
+last-modified:  2023-03-10T14:27:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:1a98::/32
+origin:         AS6677
+mnt-by:         MILAHF-MNT
+created:        2023-12-13T11:28:32Z
+last-modified:  2023-12-13T11:28:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

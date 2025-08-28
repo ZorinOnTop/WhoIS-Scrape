@@ -1,0 +1,927 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15835 - AS15963'
+
+as-block:       AS15835 - AS15963
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15935'
+
+% Abuse contact for 'AS15935' is 'servis@ha-vel.cz'
+
+aut-num:        AS15935
+as-name:        HA-VEL-LOCAL-AS
+descr:          Czech republic
+descr:          e-mail: servis@ha-vel.cz
+remarks:        ======== TRANSIT UPSTREAM ========
+remarks:        -- Cogent --
+import:         from AS174 action pref=900; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS174 announce AS-HA-VEL-COMPLETE
+remarks:        ----------------------------------
+remarks:        -- TeliaSonera --
+import:         from AS1299 action pref=910; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS1299 announce AS-HA-VEL-COMPLETE
+remarks:        ----------------------------------
+remarks:        -- RETN --
+import:         from AS9002 action pref=920; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS9002 announce AS-HA-VEL-COMPLETE
+remarks:        -------- ha-vel internet transit AS --------
+import:         from AS28755 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS28755 announce ANY
+remarks:        ======== TRANSIT CUSTOMERS ========
+remarks:        -- Jablonka --
+import:         from AS51744 action pref=100; accept AS-JABLONKACZ
+export:         to AS51744 announce ANY
+remarks:        -----------------------------------
+remarks:        -- Neos --
+import:         from AS51968 action pref=100; accept AS51968
+export:         to AS51968 announce ANY
+remarks:        -----------------------------------
+remarks:        -- Trinity --
+import:         from AS56360 action pref=100; accept AS-MSTRCZ
+export:         to AS56360 announce ANY
+remarks:        -----------------------------------
+remarks:        -- Mesto Velka Bystrice --
+import:         from AS198284 action pref=100; accept AS198284
+export:         to AS198284 announce ANY
+remarks:        -----------------------------------
+remarks:        -- GE Money Bank --
+import:         from AS25238 action pref=100; accept AS25238
+export:         to AS25238 announce ANY
+remarks:        -----------------------------------
+remarks:        -- Altnet --
+import:         from AS50163 action pref=100; accept AS50163
+export:         to AS50163 announce ANY
+remarks:        -----------------------------------
+remarks:        -- VUT v Brne --
+import:         from AS197451 action pref=100; accept AS-VUTBR
+export:         to AS197451 announce ANY
+remarks:        -----------------------------------
+remarks:        -- Nelson Services --
+import:         from AS56747 action pref=100; accept AS56747
+export:         to AS56747 announce ANY
+remarks:        -----------------------------------
+remarks:        -- OFX --
+import:         from AS33877 action pref=100; accept AS33877
+export:         to AS33877 announce ANY
+remarks:        -----------------------------------
+remarks:        -- Freenet Liberec --
+import:         from AS29504 action pref=100; accept AS29504
+export:         to AS29504 announce ANY
+remarks:        -----------------------------------
+remarks:        -- NUKIB --
+import:         from AS199711 action pref=100; accept AS199711
+export:         to AS199711 announce ANY
+remarks:        -----------------------------------
+remarks:        -- DATASYS Trnava --
+import:         from AS202819 action pref=100; accept AS202819
+export:         to AS202819 announce ANY
+remarks:        -----------------------------------
+remarks:        -- Ceska posta --
+import:         from AS198143 action pref=100; accept AS198143
+export:         to AS198143 announce ANY
+remarks:        -----------------------------------
+remarks:        -- bubakov.net --
+import:         from AS201727 action pref=100; accept AS201727 AS202556 AS208387
+export:         to AS201727 announce ANY
+remarks:        -----------------------------------
+remarks:        -- STUDENT AGENCY --
+import:         from AS200844 action pref=100; accept AS200844
+export:         to AS200844 announce ANY
+remarks:        -----------------------------------
+remarks:        -- i2net cz --
+import:         from AS203550 action pref=100; accept AS203550
+export:         to AS203550 announce ANY
+remarks:        -----------------------------------
+remarks:        -- Albert Ceska republika --
+import:         from AS215806 action pref=100; accept AS215806
+export:         to AS215806 announce ANY
+remarks:        ========== NIX.CZ peering ==========
+remarks:        -- NIX: CZ.NIC --
+import:         from AS25192 action pref=200; accept AS25192
+export:         to AS25192 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: CD-Telematika a.s. --
+import:         from AS25512 action pref=200; accept AS-CDT-NETWORKS
+export:         to AS25512 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: T-Mobile Czech Republic a.s. --
+import:         from AS13036 action pref=200; accept AS13036
+export:         to AS13036 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Equant --
+import:         from AS8593 action pref=200; accept AS-EQUANT-CEEUR
+export:         to AS8593 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Casablanca --
+import:         from AS15685 action pref=200; accept AS-CASABLANCA
+export:         to AS15685 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Telefonica O2 Czech Republic, a.s. --
+import:         from AS5610 action pref=200; accept AS-CTIOL
+export:         to AS5610 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: INTERNET CZ --
+import:         from AS24806 action pref=200; accept AS24806
+export:         to AS24806 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: INTERNEXT 2000 --
+import:         from AS25424 action pref=200; accept AS25424
+export:         to AS25424 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Mopos --
+import:         from AS8913 action pref=200; accept AS8913
+export:         to AS8913 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Cesnet --
+import:         from AS2852 action pref=200; accept AS-CESNET
+import:         from AS2852 action pref=200; accept AS-SANET
+export:         to AS2852 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Ceske Radiokomunikace a.s. --
+import:         from AS25248 action pref=200; accept AS-BLUETONE-CUST
+export:         to AS25248 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Gity --
+import:         from AS29086 action pref=200; accept AS29086
+export:         to AS29086 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: ACTIVE 24 --
+import:         from AS25234 action pref=200; accept AS25234
+export:         to AS25234 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: WIA --
+import:         from AS21430 action pref=200; accept AS21430
+export:         to AS21430 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: UPC --
+import:         from AS6830 action pref=200; accept AS-AORTA
+export:         to AS6830 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: IGNUM --
+import:         from AS29134 action pref=200; accept AS29134
+export:         to AS29134 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: MGI --
+import:         from AS20723 action pref=200; accept AS20723
+export:         to AS20723 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: GTS Novera --
+import:         from AS2819 action pref=200; accept AS-GTSCZ-NIX
+export:         to AS2819 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: SELFservis --
+import:         from AS12570 action pref=200; accept AS12570
+export:         to AS12570 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: AT&T --
+import:         from AS2686 action pref=200; accept AS-IGNEMEA
+export:         to AS2686 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Master Internet --
+import:         from AS24971 action pref=200; accept AS-MASTERCZ-CZNIX
+export:         to AS24971 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Dial Telecom --
+import:         from AS29208 action pref=200; accept AS-DIALTELECOM
+export:         to AS29208 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Cesky Mobil --
+import:         from AS16019 action pref=200; accept AS16019
+export:         to AS16019 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Trioptimum --
+import:         from AS33883 action pref=200; accept AS33883
+export:         to AS33883 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: NIX.CZ --
+import:         from AS6881 action pref=200; accept AS6881
+export:         to AS6881 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: NIX.CZ-AS112 --
+import:         from AS112 action pref=200; accept AS112
+export:         to AS112 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: 2 connect a.s. --
+import:         from AS35236 action pref=200; accept AS-2CONNECT-NIX
+export:         to AS35236 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: CoolHousing --
+import:         from AS35592 action pref=200; accept AS35592
+export:         to AS35592 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: OVANET --
+import:         from AS39817 action pref=200; accept AS39817
+export:         to AS39817 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: MIRAMO --
+import:         from AS34080 action pref=200; accept AS34080
+export:         to AS34080 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Global Inspiration --
+import:         from AS42000 action pref=200; accept AS42000
+export:         to AS42000 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: NFX --
+import:         from AS8251 action pref=200; accept AS8251
+export:         to AS8251 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Trestel SK --
+import:         from AS38949 action pref=200; accept AS38949
+export:         to AS38949 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: OXID --
+import:         from AS35214 action pref=200; accept AS35214
+export:         to AS35214 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Coprosys --
+import:         from AS39906 action pref=200; accept AS39906
+export:         to AS39906 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Web4U --
+import:         from AS39790 action pref=200; accept AS39790
+export:         to AS39790 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Telco Pro Services --
+import:         from AS39791 action pref=500; accept AS39791:AS-TPS
+export:         to AS39791 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Visual Connection --
+import:         from AS41711 action pref=200; accept AS41711
+export:         to AS41711 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: LeaseWeb --
+import:         from AS16265 action pref=200; accept AS-LEASEWEB
+export:         to AS16265 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: M-SOFT --
+import:         from AS28972 action pref=200; accept AS28972
+export:         to AS28972 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Mobilkom --
+import:         from AS42908 action pref=200; accept AS42908
+export:         to AS42908 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: VSHosting --
+import:         from AS43541 action pref=200; accept AS-VSHOSTING-CZ
+export:         to AS43541 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Seznam.cz --
+import:         from AS43037 action pref=200; accept AS-SEZNAM-CZ
+export:         to AS43037 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: NEW TELEKOM, s.r.o. --
+import:         from AS43413 action pref=200; accept AS43413
+export:         to AS43413 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: GRAPE SC, a.s. --
+import:         from AS47232 action pref=200; accept AS-GRAPESC-CZ
+export:         to AS47232 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: SUPRO --
+import:         from AS47868 action pref=200; accept AS-SUPRO-CZ
+export:         to AS47868 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: L-ROOT --
+import:         from AS20144 action pref=200; accept AS20144
+export:         to AS20144 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Dragon Internet a.s. --
+import:         from AS15614 action pref=200; accept AS-DRAGON
+export:         to AS15614 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Atrato IP Networks --
+import:         from AS5580 action pref=200; accept AS-ATRATO
+import:         from AS5580 action pref=200; accept AS-ATRATO6
+export:         to AS5580 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Hurricane Electric --
+import:         from AS6939 action pref=200; accept AS-HURRICANE
+export:         to AS6939 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: MERIT GROUP --
+import:         from AS39904 action pref=200; accept AS-MERIT-NIX
+export:         to AS39904 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: TechCom --
+import:         from AS61296 action pref=200; accept AS-TECHCOM
+export:         to AS61296 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: CloudFlare --
+import:         from AS13335 action pref=200; accept AS13335
+export:         to AS13335 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Core-Backbone --
+import:         from AS33891 action pref=200; accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: VimpelCom --
+import:         from AS3216 action pref=200; accept AS-SOVAM
+import:         from AS3216 action pref=200; accept AS-SOVAM-V6
+export:         to AS3216 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: AmigoNet --
+import:         from AS59970 action pref=200; accept AS59970
+export:         to AS59970 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Verisign --
+import:         from AS26415 action pref=200; accept AS-GTLD
+export:         to AS26415 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Prolexic (Akamai) --
+import:         from AS32787 action pref=200; accept AS-PROLE
+export:         to AS32787 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Slovak Telekom --
+import:         from AS6855 action pref=200; accept AS-SLOVAK
+export:         to AS6855 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: i3Dnet --
+import:         from AS49544 action pref=200; accept AS-INTERACTIVE3D
+export:         to AS49544 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Zayo --
+import:         from AS6461 action pref=200; accept AS-MFNX
+export:         to AS6461 announce AS-HA-VEL-CZNIX
+remarks:        ------------------------------------
+remarks:        -- NIX: Sony --
+import:         from AS33353 action pref=200; accept AS-SBS
+export:         to AS33353 announce AS-HA-VEL-CZNIX
+remarks:        ========== NIX.SK peering ==========
+remarks:        -- NIX.SK: NIX.CZ --
+import:         from AS6881 action pref=220; accept AS6881
+export:         to AS6881 announce AS-HA-VEL-NIXSK
+remarks:        ------------------------------------
+remarks:        -- NIX.SK: ANEXIA --
+import:         from AS42473 action pref=220; accept AS-ANEXIA
+export:         to AS42473 announce AS-HA-VEL-NIXSK
+remarks:        ------------------------------------
+remarks:        -- NIX.SK: UPC --
+import:         from AS6830 action pref=220; accept AS-AORTA
+export:         to AS6830 announce AS-HA-VEL-NIXSK
+remarks:        ------------------------------------
+remarks:        -- NIX.SK: Dial Telecom --
+import:         from AS29208 action pref=220; accept AS-DIALTELECOM
+export:         to AS29208 announce AS-HA-VEL-NIXSK
+remarks:        ------------------------------------
+remarks:        -- NIX.SK: Orange --
+import:         from AS15962 action pref=220; accept AS-OSK-DNI
+export:         to AS15962 announce AS-HA-VEL-NIXSK
+remarks:        ------------------------------------
+remarks:        -- NIX.SK: Facebook --
+import:         from AS32934 action pref=220; accept AS32934
+export:         to AS32934 announce AS-HA-VEL-NIXSK
+remarks:        ------------------------------------
+remarks:        -- NIX.SK: i3Dnet --
+import:         from AS49544 action pref=220; accept AS-INTERACTIVE3D
+export:         to AS49544 announce AS-HA-VEL-NIXSK
+remarks:        ------------------------------------
+remarks:        -- NIX.SK: Zayo --
+import:         from AS6461 action pref=220; accept AS-MFNX
+export:         to AS6461 announce AS-HA-VEL-NIXSK
+remarks:        ------------------------------------
+remarks:        -- NIX.SK: Sony --
+import:         from AS33353 action pref=220; accept AS-SBS
+export:         to AS33353 announce AS-HA-VEL-NIXSK
+remarks:        ------------------------------------
+remarks:        -- NIX.SK: CD-Telematika a.s. --
+import:         from AS25512 action pref=220; accept AS-CDT-NETWORKS
+export:         to AS25512 announce AS-HA-VEL-NIXSK
+remarks:        ========== SIX peering ==========
+remarks:        -- SIX: SIX Looking Glass --
+import:         from AS65000 action pref=210; accept AS65000
+export:         to AS65000 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: SANET --
+import:         from AS2607 action pref=210; accept AS-SANET
+import:         from AS2607 action pref=210; accept AS-ACONET
+import:         from AS2607 action pref=210; accept AS-CESNET
+import:         from AS2607 action pref=210; accept AS-PLNET
+export:         to AS2607 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Datalock Rainside --
+import:         from AS12508 action pref=210; accept AS12508
+export:         to AS12508 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: T-Com --
+import:         from AS6855 action pref=210; accept AS-SLOVAK
+export:         to AS6855 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: LightStorm --
+import:         from AS42005 action pref=210; accept AS42005
+export:         to AS42005 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: BENESTRA --
+import:         from AS5578 action pref=210; accept AS-BENESTRA
+export:         to AS5578 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: SWAN --
+import:         from AS16160 action pref=210; accept AS16160
+export:         to AS16160 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: SiNET Telecom --
+import:         from AS24744 action pref=210; accept AS24744
+export:         to AS24744 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Trestel SK --
+import:         from AS38949 action pref=210; accept AS38949
+export:         to AS38949 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: GOVNET --
+import:         from AS25373 action pref=210; accept AS25373
+export:         to AS25373 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Energotel --
+import:         from AS31117 action pref=210; accept AS31117
+export:         to AS31117 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Dial Telecom --
+import:         from AS29208 action pref=210; accept AS-DIALTELECOM-SIX
+export:         to AS29208 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: ACS --
+import:         from AS12905 action pref=210; accept AS12905
+export:         to AS12905 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: ZSR-ZT --
+import:         from AS25496 action pref=210; accept AS25496
+export:         to AS25496 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: SATRO --
+import:         from AS31127 action pref=210; accept AS31127
+export:         to AS31127 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Computel --
+import:         from AS8620 action pref=210; accept AS8620
+export:         to AS8620 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Internet SK --
+import:         from AS24806 action pref=210; accept AS24806
+export:         to AS24806 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: VNET --
+import:         from AS29405 action pref=210; accept AS29405
+export:         to AS29405 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: RadioLAN --
+import:         from AS43451 action pref=210; accept AS43451
+export:         to AS43451 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: BONET Group --
+import:         from AS44185 action pref=210; accept AS44185
+export:         to AS44185 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: DSi data --
+import:         from AS35328 action pref=210; accept AS35328
+export:         to AS35328 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Network technologies --
+import:         from AS44778 action pref=210; accept AS44778
+export:         to AS44778 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Slovanet --
+import:         from AS8778 action pref=210; accept AS-SLOVANET
+export:         to AS8778 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: UPC --
+import:         from AS6830 action pref=210; accept AS6830
+export:         to AS6830 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Invitel --
+import:         from AS12301 action pref=210; accept AS12301:AS-ROUTES
+export:         to AS12301 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: DIGI Slovakia s.r.o. --
+import:         from AS49044 action pref=210; accept AS49044
+export:         to AS49044 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: DataNetworks s.r.o. --
+import:         from AS48326 action pref=210; accept AS48326
+export:         to AS48326 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: S.A. spol. s r.o. --
+import:         from AS21019 action pref=210; accept AS21019
+export:         to AS21019 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: KONFER networks --
+import:         from AS50953 action pref=210; accept AS50953
+export:         to AS50953 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: CNC, a.s. --
+import:         from AS50128 action pref=210; accept AS50128
+export:         to AS50128 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Detronics s.r.o. --
+import:         from AS56656 action pref=210; accept AS56656
+export:         to AS56656 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Antik --
+import:         from AS42841 action pref=210; accept AS42841
+export:         to AS42841 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: IP-Net --
+import:         from AS56349 action pref=210; accept AS56349
+export:         to AS56349 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: E-MAX INTERNET & IT --
+import:         from AS49115 action pref=210; accept AS49115
+export:         to AS49115 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Komnet --
+import:         from AS56926 action pref=210; accept AS56926
+export:         to AS56926 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: GeCom --
+import:         from AS51947 action pref=210; accept AS51947
+export:         to AS51947 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Golem Tech --
+import:         from AS30929 action pref=210; accept AS-GOLEMTECH-SIX
+export:         to AS30929 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Orange --
+import:         from AS15962 action pref=210; accept AS-OSK-DNI
+export:         to AS15962 announce AS-HA-VEL-SKSIX
+remarks:        ------------------------------------
+remarks:        -- SIX: Meta --
+import:         from AS63293 action pref=210; accept AS63293
+export:         to AS63293 announce AS-HA-VEL-SKSIX
+remarks:        ========== Egress BGP Communities ==========
+remarks:        15935:100 exchange points
+remarks:        15935:101 NIX.CZ
+remarks:        15935:102 CBIX
+remarks:        15935:103 SIX
+remarks:        15935:104 NIX.SK
+remarks:        15935:105 BR-IX
+remarks:        15935:106 Peering.cz
+remarks:        15935:199 direct peering
+remarks:        ------------------------------------
+remarks:        15935:200 transit upstreams
+remarks:        15935:201 GGC
+remarks:        15935:202 Cogent
+remarks:        15935:203 TeliaSonera
+remarks:        15935:204 RETN
+remarks:        ------------------------------------
+remarks:        15935:300 ha-vel customers
+remarks:        15935:301 local customers
+remarks:        15935:302 transit customers
+remarks:        15935:303 ix customers
+remarks:        ========== Ingress BGP Communities ==========
+remarks:        15935:100x exchange points
+remarks:        15935:101x NIX.CZ
+remarks:        15935:102x CBIX
+remarks:        15935:103x SIX
+remarks:        15935:104x NIX.SK
+remarks:        15935:105x BR-IX
+remarks:        15935:106x Peering.cz
+remarks:        15935:199x direct peering
+remarks:        ------------------------------------
+remarks:        15935:200x transit upstreams
+remarks:        15935:201x GGC
+remarks:        15935:202x Cogent
+remarks:        15935:203x TeliaSonera
+remarks:        15935:204x RETN
+remarks:        with x = 0,1,2,3 meaning
+remarks:        x = 0 do not announce to peer
+remarks:        x = 1 prepend "AS15935"
+remarks:        x = 2 prepend "AS15935 AS15935"
+remarks:        x = 3 prepend "AS15935 AS15935 AS15935"
+remarks:        ------------------------------------
+remarks:        15935:666 blackhole
+remarks:        ------------------------------------
+admin-c:        MPS111-RIPE
+tech-c:         MPS111-RIPE
+org:            ORG-Mhss1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         CZ-HA-VEL-MNT
+created:        2002-08-30T22:29:53Z
+last-modified:  2025-06-20T07:48:00Z
+source:         RIPE
+abuse-c:        MPS111-RIPE
+
+organisation:   ORG-Mhss1-RIPE
+org-name:       ha-vel internet s.r.o.
+country:        CZ
+org-type:       LIR
+address:        Olesni 587/11A
+address:        71200
+address:        Ostrava
+address:        CZECH REPUBLIC
+phone:          +420552305305
+fax-no:         +420552305306
+admin-c:        KM2408-RIPE
+admin-c:        MK14021-RIPE
+admin-c:        PH456-RIPE
+admin-c:        MS7126-RIPE
+mnt-ref:        CZ-HA-VEL-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         CZ-HA-VEL-MNT
+abuse-c:        MPS111-RIPE
+created:        2004-04-17T11:04:26Z
+last-modified:  2020-12-16T12:56:50Z
+source:         RIPE # Filtered
+
+role:           ha-vel internet technicians
+address:        ha-vel internet s.r.o.
+address:        Ostrava - Muglinov
+phone:          +420 606 77 88 82
+abuse-mailbox:  servis@ha-vel.cz
+admin-c:        PH456-RIPE
+tech-c:         KM2408-RIPE
+tech-c:         MS7126-RIPE
+tech-c:         MK14021-RIPE
+nic-hdl:        MPS111-RIPE
+mnt-by:         CZ-HA-VEL-MNT
+created:        2002-07-04T22:36:06Z
+last-modified:  2017-06-14T11:46:10Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          45.146.108.0/22
+origin:         AS15935
+descr:          ha-vel internet s.r.o.
+mnt-by:         CZ-HA-VEL-MNT
+created:        2019-08-28T12:02:54Z
+last-modified:  2019-08-28T12:02:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.30.224.0/19
+descr:          ha-vel internet s.r.o.
+origin:         AS15935
+mnt-by:         CZ-HA-VEL-MNT
+created:        2004-04-17T19:47:56Z
+last-modified:  2004-04-17T19:47:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.214.156.0/22
+origin:         AS15935
+descr:          MPSV-NET_AGGREGATE
+mnt-by:         CZ-HA-VEL-MNT
+created:        2018-09-06T11:12:14Z
+last-modified:  2018-09-06T11:12:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.214.158.0/23
+origin:         AS15935
+descr:          MPSV-NET_HA-VEL
+mnt-by:         CZ-HA-VEL-MNT
+created:        2018-09-06T11:11:42Z
+last-modified:  2018-09-06T11:11:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.185.48.0/20
+descr:          ha-vel internet s.r.o.
+origin:         AS15935
+mnt-by:         CZ-HA-VEL-MNT
+created:        2008-06-10T08:10:31Z
+last-modified:  2008-06-10T08:10:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          95.173.64.0/19
+descr:          ha-vel internet s.r.o.
+origin:         AS15935
+mnt-by:         CZ-HA-VEL-MNT
+created:        2009-03-05T09:15:38Z
+last-modified:  2009-03-05T09:15:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.238.32.0/20
+descr:          ha-vel internet s.r.o.
+origin:         AS15935
+mnt-by:         CZ-HA-VEL-MNT
+created:        2010-01-20T15:14:57Z
+last-modified:  2010-01-20T15:14:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.188.102.0/24
+origin:         AS15935
+mnt-by:         TLAPNET-MNT
+created:        2023-05-25T12:38:06Z
+last-modified:  2023-05-25T12:38:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.228.234.0/24
+origin:         AS15935
+mnt-by:         VZP-MNT
+created:        2020-05-05T06:48:25Z
+last-modified:  2020-05-05T06:48:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.195.192.0/18
+descr:          ha-vel internet s.r.o.
+origin:         AS15935
+mnt-by:         CZ-HA-VEL-MNT
+created:        2004-04-17T19:48:00Z
+last-modified:  2004-04-17T19:48:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.66.160.0/19
+descr:          ha-vel internet s.r.o.
+origin:         AS15935
+mnt-by:         CZ-HA-VEL-MNT
+created:        2004-04-17T19:47:59Z
+last-modified:  2004-04-17T19:47:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:678:368::/48
+origin:         AS15935
+descr:          UZSVM-CZ
+descr:          Urad pro zastupovani statu ve vecech majetkovych
+mnt-by:         CZ-HA-VEL-MNT
+created:        2019-03-28T14:07:10Z
+last-modified:  2019-03-28T14:07:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:678:1064::/48
+origin:         AS15935
+descr:          Nejvyssi kontrolni urad
+mnt-by:         CZ-HA-VEL-MNT
+created:        2025-04-11T12:16:12Z
+last-modified:  2025-04-11T12:16:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:26c::/48
+origin:         AS15935
+descr:          MPSV-NET_AGGREGATE
+mnt-by:         CZ-HA-VEL-MNT
+created:        2018-09-06T11:12:24Z
+last-modified:  2018-09-06T11:12:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:1314::/48
+origin:         AS15935
+mnt-by:         VZP-MNT
+created:        2020-04-28T10:58:09Z
+last-modified:  2020-04-28T10:58:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:1bc4::/48
+descr:          Urad prumysloveho vlastnictvi
+origin:         AS15935
+mnt-by:         UPV-MNT
+created:        2022-12-20T07:00:05Z
+last-modified:  2022-12-20T07:00:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:570::/32
+descr:          ha-vel internet s.r.o.
+origin:         AS15935
+mnt-by:         CZ-HA-VEL-MNT
+created:        2010-08-27T06:40:25Z
+last-modified:  2010-08-27T06:40:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

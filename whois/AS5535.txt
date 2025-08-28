@@ -1,0 +1,155 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5535'
+
+% Abuse contact for 'AS5535' is 'abuse@fao.org'
+
+aut-num:        AS5535
+as-name:        UNSPECIFIED
+descr:          FAO Headquarters
+org:            ORG-FAO1-RIPE
+descr:          Viale delle Terme di Caracalla
+descr:          IT-00100 Roma
+descr:          IT
+import:         from AS3302 action pref=100; accept ANY
+import:         from AS30722 action pref=100; accept ANY
+import:         from AS8220 action pref=100; accept ANY
+export:         to AS3302 announce AS5535
+export:         to AS30722 announce AS5535
+export:         to AS8220 announce AS5535
+admin-c:        JMS56
+tech-c:         FNT3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS5535-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-07-30T14:45:12Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-ICL2-RIPE
+
+organisation:   ORG-FAO1-RIPE
+abuse-c:        JMS203-RIPE
+org-name:       Food And Agriculture Organization of the United Nations
+country:        IT
+org-type:       OTHER
+admin-c:        JMS56
+tech-c:         JMS56
+address:        Viale delle Terme di Caracalla
+mnt-ref:        AS5535-MNT
+mnt-by:         AS5535-MNT
+created:        2013-04-15T16:01:39Z
+last-modified:  2022-12-01T16:25:22Z
+source:         RIPE # Filtered
+
+role:           FAO Networking Team
+address:        Viale delle Terme di Caracalla
+admin-c:        JMS56
+tech-c:         JMS56
+nic-hdl:        FNT3-RIPE
+mnt-by:         AS5535-MNT
+created:        2012-05-21T09:45:50Z
+last-modified:  2012-05-21T09:45:50Z
+source:         RIPE # Filtered
+
+person:         FAO IP Network Administrator
+address:        Food And Agriculture Organization of the United Nations
+address:        Viale delle Terme di Caracalla
+address:        I-00153 Roma
+address:        Italy
+phone:          +39 06 57050000
+nic-hdl:        JMS56
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-10-30T21:44:20Z
+source:         RIPE # Filtered
+mnt-by:         AS5535-MNT
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          168.202.0.0/16
+descr:          FAO-NET
+origin:         AS5535
+remarks:        FAO Headquartes Local Area Network
+mnt-by:         AS5535-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-09-04T15:33:25Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          168.202.0.0/16
+descr:          proxy object for customer to build route filter
+origin:         AS5535
+mnt-by:         MAINT-AS8220
+changed:        mark.borchardt@colt.net 20181015  #08:14:17Z
+source:         RADB
+last-modified:  2023-11-13T15:54:58Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.43.36.0/24
+descr:          NET-FAOFWALL1
+origin:         AS5535
+remarks:        FAO Headquartes Local Area Network
+mnt-by:         AS5535-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          199.46.20.0/23
+descr:          NET-FAOFWALL2
+origin:         AS5535
+mnt-by:         AS5535-MNT
+created:        2012-05-22T08:40:17Z
+last-modified:  2018-09-04T17:10:17Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          199.46.20.0/23
+descr:          proxy object for customer to build route filter
+origin:         AS5535
+mnt-by:         MAINT-AS8220
+changed:        mark.borchardt@colt.net 20181015  #08:14:17Z
+source:         RADB
+last-modified:  2023-11-13T15:54:58Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

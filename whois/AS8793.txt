@@ -1,0 +1,308 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8771 - AS8795'
+
+as-block:       AS8771 - AS8795
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8793'
+
+% Abuse contact for 'AS8793' is 'dbeskoek@thinxx.de'
+
+aut-num:        AS8793
+as-name:        THINXX
+org:            ORG-tG86-RIPE
+remarks:
+remarks:        +----------------------------------------+
+remarks:        | v4 Transit Uplinks |
+remarks:        +----------------------------------------+
+remarks:
+import:         from AS12586 accept ANY
+export:         to AS12586 announce AS-THINXX
+import:         from AS3303 accept ANY
+export:         to AS3303 announce AS-THINXX
+import:         from AS3320 accept ANY
+export:         to AS3320 announce AS-THINXX
+import:         from AS3257 accept ANY
+export:         to AS3257 announce AS-THINXX
+import:         from AS47692 accept ANY
+export:         to AS47692 announce AS-THINXX
+remarks:
+remarks:        +----------------------------------------+
+remarks:        | v6 Transit Uplinks |
+remarks:        +----------------------------------------+
+remarks:
+mp-import:      afi ipv6.unicast from AS12586 accept ANY
+mp-export:      afi ipv6.unicast to AS12586 announce AS-THINXX
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-THINXX
+mp-import:      afi ipv6.unicast from AS3320 accept ANY
+mp-export:      afi ipv6.unicast to AS3320 announce AS-THINXX
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS3257 announce AS-THINXX
+remarks:
+remarks:        +----------------------------------------+
+remarks:        | v4 Private Peerings |
+remarks:        +----------------------------------------+
+remarks:
+import:         from AS24940 accept AS-HETZNER
+export:         to AS24940 announce AS-THINXX
+import:         from AS31142 accept AS-KLEYREX-RS1
+export:         to AS31142 announce AS-THINXX
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-THINXX
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        ---( Informations & Contacts )--------------------------
+remarks:        --------------------------------------------------------
+remarks:
+remarks:        Peering Information: ...... http://as8793.peeringdb.net
+remarks:
+remarks:        Peering Requests: .........................peeering@thinxx.de
+remarks:        Network & Operational Issues: ............. noc@thinxx.de
+remarks:
+admin-c:        NET8793-RIPE
+tech-c:         NET8793-RIPE
+status:         ASSIGNED
+mnt-by:         THINXX-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2011-11-09T15:50:22Z
+last-modified:  2019-10-08T12:34:26Z
+source:         RIPE
+
+organisation:   ORG-TG86-RIPE
+org-name:       Thinxx GmbH
+country:        DE
+org-type:       LIR
+address:        Kiefernweg 5
+address:        63110
+address:        Rodgau
+address:        GERMANY
+phone:          +4961062779850
+fax-no:         +4961062779859
+abuse-c:        AC28866-RIPE
+mnt-ref:        THINXX-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         THINXX-MNT
+created:        2014-05-07T09:42:53Z
+last-modified:  2020-12-16T12:29:15Z
+source:         RIPE # Filtered
+
+role:           AS8793 Network Management
+address:        thinxx GmbH
+address:        Kiefernweg 5
+address:        63110 Rodgau
+admin-c:        DEB-RIPE
+tech-c:         DEB-RIPE
+nic-hdl:        NET8793-RIPE
+mnt-by:         THINXX-MNT
+created:        2017-04-05T09:42:41Z
+last-modified:  2017-04-05T09:43:48Z
+source:         RIPE # Filtered
+
+% Information related to 'NET8793-RIPE'
+
+role:           AS8793 Network Management
+address:        thinxx GmbH
+address:        Kiefernweg 5
+address:        63110 Rodgau
+admin-c:        DEB-RIPE
+tech-c:         DEB-RIPE
+nic-hdl:        NET8793-RIPE
+mnt-by:         THINXX-MNT
+created:        2017-04-05T09:42:41Z
+last-modified:  2017-04-05T09:43:48Z
+source:         RIPE # Filtered
+
+person:         Deniz Beskoek
+address:        thinxx GmbH
+address:        Kiefernweg 5
+address:        63110 Rodgau
+address:        Germany
+phone:          +49 (0)6106 2779850
+fax-no:         +49 (0)6106 2779859
+nic-hdl:        DEB-RIPE
+mnt-by:         THINXX-MNT
+created:        2016-03-15T10:24:07Z
+last-modified:  2017-04-05T09:35:26Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          185.58.0.0/22
+descr:          THINXX-NET
+origin:         AS8793
+mnt-by:         THINXX-MNT
+created:        2014-05-19T12:10:34Z
+last-modified:  2014-05-19T12:10:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.58.1.0/24
+descr:          COMPAX-VIA-THINXX
+origin:         AS8793
+mnt-by:         THINXX-MNT
+created:        2019-10-08T12:31:39Z
+last-modified:  2019-10-08T12:32:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.58.2.0/24
+descr:          COMPAX-VIA-THINXX
+origin:         AS8793
+mnt-by:         THINXX-MNT
+created:        2014-10-21T16:01:23Z
+last-modified:  2014-10-21T16:01:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.58.3.0/24
+descr:          COMPAX-VIA-THINXX
+origin:         AS8793
+mnt-by:         THINXX-MNT
+created:        2014-10-21T16:01:15Z
+last-modified:  2014-10-21T16:01:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.109.222.0/24
+descr:          metalab via thinxx GmbH
+origin:         AS8793
+mnt-by:         THINXX-MNT
+mnt-by:         METALAB-MNT
+created:        2013-10-01T13:16:56Z
+last-modified:  2013-10-01T13:29:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.168.6.0/23
+descr:          Thinxx-NET
+origin:         AS8793
+mnt-by:         THINXX-MNT
+created:        2012-01-25T10:29:10Z
+last-modified:  2012-01-25T10:34:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.200.240.0/24
+descr:          THINXX-NET-VOIP
+origin:         AS8793
+mnt-by:         THINXX-MNT
+created:        2012-01-25T10:43:14Z
+last-modified:  2012-01-25T10:43:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:60a0::/32
+descr:          THINXX-NET-V6
+origin:         AS8793
+mnt-by:         THINXX-MNT
+created:        2014-05-19T12:09:31Z
+last-modified:  2014-05-19T12:09:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:60a0:101::/48
+descr:          COMPAX
+origin:         AS8793
+mnt-by:         THINXX-MNT
+created:        2016-03-14T20:13:52Z
+last-modified:  2016-03-14T20:13:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:60a0:102::/48
+descr:          COMPAX-V6-AT
+origin:         AS8793
+mnt-by:         THINXX-MNT
+created:        2016-03-15T19:49:13Z
+last-modified:  2016-03-15T19:49:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

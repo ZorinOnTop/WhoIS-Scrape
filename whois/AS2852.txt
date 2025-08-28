@@ -1,0 +1,1524 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS2830 - AS2879'
+
+as-block:       AS2830 - AS2879
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:18Z
+last-modified:  2018-11-22T15:27:18Z
+source:         RIPE
+
+% Information related to 'AS2852'
+
+% Abuse contact for 'AS2852' is 'abuse@cesnet.cz'
+
+aut-num:        AS2852
+as-name:        CESNET2
+org:            ORG-CA9-RIPE
+remarks:        Transit networks
+remarks:        --------------------------
+import:         from AS6762 action pref=100; accept ANY
+export:         to AS6762 announce AS2852:AS-CESNET
+mp-import:      afi ipv6 from AS6762 action pref=100; accept ANY
+mp-export:      afi ipv6 to AS6762 announce AS2852:AS-CESNET
+import:         from AS20965 action pref=100; accept ANY
+export:         to AS20965 announce AS2852:AS-CESNET
+export:         to AS20965 announce AS61110
+mp-import:      afi ipv6 from AS20965 action pref=100; accept ANY
+mp-export:      afi ipv6 to AS20965 announce AS2852:AS-CESNET
+remarks:        GEANT_IAS_VRF
+remarks:        --------------------------
+import:         from AS21320 action pref=150; accept ANY
+export:         to AS21320 announce AS2852:AS-CESNET
+mp-import:      afi ipv6 from AS21320 action pref=150; accept any
+mp-export:      afi ipv6 to AS21320 announce AS2852:AS-CESNET
+remarks:        CBF peerings
+remarks:        --------------------------
+import:         from AS2607 action pref=150; accept AS-SANET AS-SIXSK-SETS
+export:         to AS2607 announce AS2852:AS-CESNET AS-CESNET-NIX-PEERS
+export:         to AS2607 announce AS199711 AS197451
+mp-import:      afi ipv6 from AS2607 action pref=150; accept AS-SANET AS-SIXSK-SETS
+mp-export:      afi ipv6 to AS2607 announce AS2852:AS-CESNET AS-CESNET-NIX-PEERS
+mp-export:      afi ipv6 to AS2607 announce AS2852:AS-CESNET AS-CESNET-NIX-PEERS
+import:         from AS8501 action pref=150; accept AS-PLNET
+export:         to AS8501 announce AS2852:AS-CESNET AS-CESNET-NIX-PEERS
+mp-import:      afi ipv6 from AS8501 action pref=150; accept AS-PLNET
+mp-export:      afi ipv6 to AS8501 announce AS2852:AS-CESNET AS-CESNET-NIX-PEERS
+import:         from AS1853 action pref=150; accept ANY
+export:         to AS1853 announce AS2852:AS-CESNET AS-CESNET-NIX-PEERS
+mp-import:      afi ipv6 from AS1853 action pref=150; accept AS-ACONET-V6
+mp-export:      afi ipv6 to AS1853 announce AS2852:AS-CESNET AS-CESNET-NIX-PEERS
+remarks:        GEANT connection
+remarks:        --------------------------
+import:         from AS20965 action pref=150; accept any
+export:         to AS20965 announce AS2852:AS-CESNET
+mp-import:      afi ipv6 from AS20965 action pref=150; accept any
+mp-export:      afi ipv6 to AS20965 announce AS2852:AS-CESNET
+remarks:        --------------------------
+remarks:        RIPE89 meeting in Prague
+import:         from AS2121 accept AS2121
+export:         to AS2121 announce any
+mp-import:      afi ipv6 from AS2121 action pref=150; accept AS2121
+mp-export:      afi ipv6 to AS2121 announce any
+remarks:        --------------------------
+remarks:        AMS-IX peerings
+remarks:        ColocationIX GmbH
+import:         from AS61955 accept AS-COLOCATIONIX
+export:         to AS61955 announce AS2852:AS-CESNET
+remarks:        Packet Clearing House
+import:         from AS42 action pref=150; accept AS42
+export:         to AS42 announce AS2852:AS-CESNET
+remarks:        CCBill
+import:         from AS1408 action pref=150; accept AS1408
+export:         to AS1408 announce AS2852:AS-CESNET
+remarks:        Telenor
+import:         from AS2119 action pref=150; accept AS2119
+export:         to AS2119 announce AS2852:AS-CESNET
+remarks:        BBC
+import:         from AS2818 action pref=150; accept AS2818
+export:         to AS2818 announce AS2852:AS-CESNET
+remarks:        NTT Communications
+mp-import:      afi ipv6 from AS2914 action pref=150; accept AS2914
+mp-export:      afi ipv6 to AS2914 announce AS2852:AS-CESNET
+remarks:        Golden telecom Moscow
+import:         from AS3216 action pref=150; accept AS3216
+export:         to AS3216 announce AS2852:AS-CESNET
+remarks:        RUNNET
+import:         from AS3267 action pref=150; accept AS-RUNNETIX
+export:         to AS3267 announce AS2852:AS-CESNET
+remarks:        Swisscom/IP-Plus
+import:         from AS3303 action pref=150; accept AS3303
+export:         to AS3303 announce AS2852:AS-CESNET
+remarks:        Packet Clearing House - peer
+import:         from AS3856 action pref=200; accept AS3856
+export:         to AS3856 announce AS2852:AS-CESNET
+remarks:        Virgin Media
+import:         from AS5089 action pref=150; accept AS5089
+export:         to AS5089 announce AS2852:AS-CESNET
+remarks:        Euronet NL
+import:         from AS5390 action pref=150; accept AS5390
+export:         to AS5390 announce AS2852:AS-CESNET
+remarks:        Atrato IP Networks
+import:         from AS5580 action pref=150; accept AS-ATRATO
+export:         to AS5580 announce AS2852:AS-CESNET
+remarks:        Atrato IP Networks - IPv6
+mp-import:      afi ipv6 from AS5580 action pref=150; accept AS-ATRATO
+mp-export:      afi ipv6 to AS5580 announce AS2852:AS-CESNET
+remarks:        Shaw Cablesystems
+import:         from AS6327 action pref=150; accept AS6327
+export:         to AS6327 announce AS2852:AS-CESNET
+remarks:        EPT-LU
+import:         from AS6661 action pref=150; accept AS-PTLU
+export:         to AS6661 announce AS2852:AS-CESNET
+remarks:        Euroweb Romania SA
+import:         from AS6663 action pref=150; accept AS-STARNETSRO
+export:         to AS6663 announce AS2852:AS-CESNET
+remarks:        EunetIP
+import:         from AS6667 action pref=150; accept AS-EUNETIP RS-EUNETIP
+export:         to AS6667 announce AS2852:AS-CESNET
+remarks:        EunetIP - IPv6
+mp-import:      afi ipv6 from AS6667 action pref=150; accept AS-EUNETIP RS-EUNETIP
+mp-export:      afi ipv6 to AS6667 announce AS2852:AS-CESNET
+remarks:        Belgacom-ICS
+import:         from AS6774 action pref=150; accept AS6774
+export:         to AS6774 announce AS2852:AS-CESNET
+remarks:        Belgacom-ICS IPv6
+mp-import:      afi ipv6 from AS6774 action pref=150; accept AS6774
+mp-export:      afi ipv6 to AS6774 announce AS2852:AS-CESNET
+remarks:        Telefonica Deutschland
+import:         from AS6805 action pref=150; accept AS-TDDE
+export:         to AS6805 announce AS2852:AS-CESNET
+remarks:        Hurricane Electric, CA
+import:         from AS6939 action pref=150; accept AS6939
+export:         to AS6939 announce AS2852:AS-CESNET
+remarks:        Hurricane Electric, CA IPv6
+mp-import:      afi ipv6 from AS6939 action pref=150; accept AS6939
+mp-export:      afi ipv6 to AS6939 announce AS2852:AS-CESNET
+remarks:        Microsoft
+import:         from AS8068 action pref=150; accept AS8068
+export:         to AS8068 announce AS2852:AS-CESNET
+remarks:        Viatel
+import:         from AS8190 action pref=150; accept AS-VIATEL
+export:         to AS8190 announce AS2852:AS-CESNET
+remarks:        NEOT
+import:         from AS8218 action pref=150; accept AS-NEOT
+export:         to AS8218 announce AS2852:AS-CESNET
+remarks:        NEOT IPv6
+mp-import:      afi ipv6 from AS8218 action pref=150; accept AS-NEOT
+mp-export:      afi ipv6 to AS8218 announce AS2852:AS-CESNET
+remarks:        COMSTAR
+import:         from AS8359 action pref=150; accept AS8359
+export:         to AS8359 announce AS2852:AS-CESNET
+remarks:        COMSTAR IPv6
+mp-import:      afi ipv6 from AS8359 action pref=150; accept AS8359
+mp-export:      afi ipv6 to AS8359 announce AS2852:AS-CESNET
+remarks:        MANDA
+import:         from AS8365 action pref=150; accept AS-MANDA
+export:         to AS8365 announce AS2852:AS-CESNET
+remarks:        MANDA IPv6
+mp-import:      afi ipv6 from AS8365 action pref=150; accept AS-MANDA
+mp-export:      afi ipv6 to AS8365 announce AS2852:AS-CESNET
+remarks:        Belgian Network Solution
+import:         from AS8368 action pref=150; accept AS-BENESOL
+export:         to AS8368 announce AS2852:AS-CESNET
+remarks:        Belgian Network Solution IPv6
+mp-import:      afi ipv6 from AS8368 action pref=150; accept AS-BENESOL
+mp-export:      afi ipv6 to AS8368 announce AS2852:AS-CESNET
+remarks:        ENTANET
+import:         from AS8468 action pref=150; accept AS-ENTANET
+export:         to AS8468 announce AS2852:AS-CESNET
+remarks:        ENTANET IPv6
+mp-import:      afi ipv6 from AS8468 action pref=150; accept AS-ENTANET
+mp-export:      afi ipv6 to AS8468 announce AS2852:AS-CESNET
+remarks:        OBIT
+import:         from AS8492 action pref=150; accept AS-OBIT
+export:         to AS8492 announce AS2852:AS-CESNET
+remarks:        Kingston Communications
+import:         from AS8897 action pref=150; accept AS-KCOMSPN
+export:         to AS8897 announce AS2852:AS-CESNET
+remarks:        Kingston Communications IPv6
+mp-import:      afi ipv6 from AS8897 action pref=150; accept AS-KCOMSPN
+mp-export:      afi ipv6 to AS8897 announce AS2852:AS-CESNET
+remarks:        EMIX
+import:         from AS8966 action pref=200; accept AS-EMIX
+export:         to AS8966 announce AS2852:AS-CESNET
+remarks:        @Home
+import:         from AS9143 action pref=150; accept AS-BENELUX
+export:         to AS9143 announce AS2852:AS-CESNET
+remarks:        InterConnect Services BV
+import:         from AS9150 action pref=150; accept AS-INTERCONNECT
+export:         to AS9150 announce AS2852:AS-CESNET
+remarks:        InterConnect Services BV IPv6
+mp-import:      afi ipv6 from AS9150 action pref=150; accept AS-INTERCONNECT
+mp-export:      afi ipv6 to AS9150 announce AS2852:AS-CESNET
+remarks:        Yahoo
+import:         from AS10310 action pref=150; accept AS10310
+export:         to AS10310 announce AS2852:AS-CESNET
+remarks:        Yahoo IPv6
+mp-import:      afi ipv6 from AS10310 action pref=150; accept AS10310
+mp-export:      afi ipv6 to AS10310 announce AS2852:AS-CESNET
+remarks:        SOLCON
+import:         from AS12414 action pref=150; accept AS-SOLCON
+export:         to AS12414 announce AS2852:AS-CESNET
+remarks:        SOLCON IPv6
+mp-import:      afi ipv6 from AS12414 action pref=150; accept AS-SOLCON
+mp-export:      afi ipv6 to AS12414 announce AS2852:AS-CESNET
+remarks:        WideXS
+import:         from AS12573 action pref=150; accept AS-WIDEXS
+export:         to AS12573 announce AS2852:AS-CESNET
+remarks:        WideXS IPv6
+mp-import:      afi ipv6 from AS12573 action pref=150; accept AS-WIDEXS
+mp-export:      afi ipv6 to AS12573 announce AS2852:AS-CESNET
+remarks:        NL-CONCEPTS
+import:         from AS12871 action pref=200; accept AS-CONCEPTS
+export:         to AS12871 announce AS2852:AS-CESNET
+remarks:        NL_CONCEPTS IPv6
+mp-import:      afi ipv6 from AS12871 action pref=200; accept AS-CONCEPTS
+mp-export:      afi ipv6 to AS12871 announce AS2852:AS-CESNET
+remarks:        Highwinds Network Group, Inc.
+import:         from AS12989 action pref=150; accept AS12989
+export:         to AS12989 announce AS2852:AS-CESNET
+remarks:        Highwinds Network Group, Inc. IPv6
+mp-import:      afi ipv6 from AS12989 action pref=150; accept AS12989
+mp-export:      afi ipv6 to AS12989 announce AS2852:AS-CESNET
+remarks:        Init Seven AG
+import:         from AS13030 action pref=150; accept AS-PEERS
+export:         to AS13030 announce AS2852:AS-CESNET
+remarks:        Init Seven AG IPv6
+mp-import:      afi ipv6 from AS13030 action pref=150; accept AS-PEERS
+mp-export:      afi ipv6 to AS13030 announce AS2852:AS-CESNET
+remarks:        Tele2 NL
+import:         from AS13127 action pref=150; accept AS-VERSATEL
+export:         to AS13127 announce AS2852:AS-CESNET
+remarks:        City-Guide Internet Services
+import:         from AS13680 action pref=150; accept AS13680
+export:         to AS13680 announce AS2852:AS-CESNET
+remarks:        City-Guide Internet Services IPv6
+mp-import:      afi ipv6 from AS13680 action pref=150; accept AS13680
+mp-export:      afi ipv6 to AS13680 announce AS2852:AS-CESNET
+remarks:        EdgeCast networks
+import:         from AS15133 action pref=150; accept AS15133
+export:         to AS15133 announce AS2852:AS-CESNET
+remarks:        Google Inc.
+import:         from AS15169 action pref=200; accept AS15169
+export:         to AS15169 announce AS2852:AS-CESNET
+remarks:        Google Inc. IPv6
+mp-import:      afi ipv6 from AS15169 action pref=200; accept AS15169
+mp-export:      afi ipv6 to AS15169 announce AS2852:AS-CESNET
+remarks:        Allstream Corp.
+import:         from AS15290 action pref=200; accept AS15290
+export:         to AS15290 announce AS2852:AS-CESNET
+remarks:        ZeelandNet BV
+import:         from AS15542 action pref=200; accept AS-ZEELANDNET
+export:         to AS15542 announce AS2852:AS-CESNET
+remarks:        Neuf Telecom
+import:         from AS15557 action pref=150; accept AS-LDCOMNET
+export:         to AS15557 announce AS2852:AS-CESNET
+remarks:        TrueServer BV
+import:         from AS15703 action pref=150; accept AS-TRUESERVER
+export:         to AS15703 announce AS2852:AS-CESNET
+remarks:        IS Internet Services BV
+import:         from AS15879 action pref=150; accept AS-IS-NL
+export:         to AS15879 announce AS2852:AS-CESNET
+remarks:        IS Internet Services BV IPv6
+mp-import:      afi ipv6 from AS15879 action pref=150; accept AS-IS-NL
+mp-export:      afi ipv6 to AS15879 announce AS2852:AS-CESNET
+remarks:        GrafiX Internet B.V.
+import:         from AS16131 action pref=150; accept AS-GRAFIX-TRANSIT
+export:         to AS16131 announce AS2852:AS-CESNET
+remarks:        GrafiX Internet B.V. IPv6
+mp-import:      afi ipv6 from AS16131 action pref=150; accept AS-GRAFIX-TRANSIT
+mp-export:      afi ipv6 to AS16131 announce AS2852:AS-CESNET
+remarks:        Rix|Port80
+import:         from AS16150 action pref=150; accept AS-CUSTOMERS
+export:         to AS16150 announce AS2852:AS-CESNET
+remarks:        Rix|Port80 IPv6
+mp-import:      afi ipv6 from AS16150 action pref=150; accept AS-CUSTOMERS
+mp-export:      afi ipv6 to AS16150 announce AS2852:AS-CESNET
+remarks:        OVH
+import:         from AS16276 action pref=150; accept AS-OVH
+export:         to AS16276 announce AS2852:AS-CESNET
+remarks:        WV Fiber
+import:         from AS19151 action pref=150; accept AS19151
+export:         to AS19151 announce AS2852:AS-CESNET
+remarks:        WV Fiber IPv6
+mp-import:      afi ipv6 from AS19151 action pref=150; accept AS19151
+mp-export:      afi ipv6 to AS19151 announce AS2852:AS-CESNET
+remarks:        Griffin
+import:         from AS20500 action pref=150; accept AS-GRIFFIN
+export:         to AS20500 announce AS2852:AS-CESNET
+remarks:        Akamai Technologies EU
+import:         from AS20940 action pref=150; accept AS-AKAMAI
+export:         to AS20940 announce AS2852:AS-CESNET
+remarks:        Akamai Technologies Mapping AS
+import:         from AS21357 action pref=150; accept AS21357
+export:         to AS21357 announce AS2852:AS-CESNET
+remarks:        Limelight Networks
+import:         from AS22822 action pref=150; accept AS22822
+export:         to AS22822 announce AS2852:AS-CESNET
+remarks:        Terremark
+import:         from AS23148 action pref=150; accept AS-TWW
+export:         to AS23148 announce AS2852:AS-CESNET
+remarks:        ASGCNet
+import:         from AS24167 action pref=150; accept AS24167
+export:         to AS24167 announce AS2852:AS-CESNET
+remarks:        ASGCNet IPv6
+mp-import:      afi ipv6 from AS24167 action pref=150; accept AS24167
+mp-export:      afi ipv6 to AS24167 announce AS2852:AS-CESNET
+remarks:        Caveo Internet BV
+import:         from AS24642 action pref=150; accept AS-CAVEO
+export:         to AS24642 announce AS2852:AS-CESNET
+remarks:        Caveo Internet BV IPv6
+mp-import:      afi ipv6 from AS24642 action pref=150; accept AS-CAVEO
+mp-export:      afi ipv6 to AS24642 announce AS2852:AS-CESNET
+remarks:        Netholding NL
+import:         from AS24730 action pref=120; accept AS-NETHOLDING
+export:         to AS24730 announce AS2852:AS-CESNET
+remarks:        Publieke Omroep
+import:         from AS25182 action pref=150; accept AS-PUBLIEKEOMROEP
+export:         to AS25182 announce AS2852:AS-CESNET
+remarks:        NEDZONE
+import:         from AS25459 action pref=150; accept AS-NEDZONE
+export:         to AS25459 announce AS2852:AS-CESNET
+remarks:        CAMBRIUM BV.
+import:         from AS25596 action pref=150; accept AS-CAMBRIUM
+export:         to AS25596 announce AS2852:AS-CESNET
+remarks:        CAMBRIUM BV. IPv6
+mp-import:      afi ipv6 from AS25596 action pref=150; accept AS-CAMBRIUM
+mp-export:      afi ipv6 to AS25596 announce AS2852:AS-CESNET
+remarks:        Routit B.V.
+import:         from AS28685 action pref=150; accept AS-ROUTIT
+export:         to AS28685 announce AS2852:AS-CESNET
+remarks:        Zen Systems
+import:         from AS28717 action pref=150; accept AS-ZENSYSTEMS
+export:         to AS28717 announce AS2852:AS-CESNET
+remarks:        Zen Systems IPv6
+mp-import:      afi ipv6 from AS28717 action pref=150; accept AS-ZENSYSTEMS6
+mp-export:      afi ipv6 to AS28717 announce AS2852:AS-CESNET
+remarks:        UnilogicNet
+import:         from AS28788 action pref=150; accept AS-UNILOGICNET
+export:         to AS28788 announce AS2852:AS-CESNET
+remarks:        UnilogicNet IPv6
+mp-import:      afi ipv6 from AS28788 action pref=150; accept AS-UNILOGICNET
+mp-export:      afi ipv6 to AS28788 announce AS2852:AS-CESNET
+remarks:        Signet BV
+import:         from AS28878 action pref=150; accept AS-SIGNET
+export:         to AS28878 announce AS2852:AS-CESNET
+remarks:        Signet BV IPv6
+mp-import:      afi ipv6 from AS28878 action pref=150; accept AS-SIGNET
+mp-export:      afi ipv6 to AS28878 announce AS2852:AS-CESNET
+remarks:        Citytelecom.ru
+import:         from AS29076 action pref=150; accept AS-CITYTELECOM
+export:         to AS29076 announce AS2852:AS-CESNET
+remarks:        UNET
+import:         from AS29396 action pref=150; accept AS-UNET
+export:         to AS29396 announce AS2852:AS-CESNET
+remarks:        Evolva Telecom
+import:         from AS30890 action pref=150; accept AS-EVOLVA
+export:         to AS30890 announce AS2852:AS-CESNET
+remarks:        Evolva Telecom IPv6
+mp-import:      afi ipv6 from AS30890 action pref=150; accept AS-EVOLVA6
+mp-export:      afi ipv6 to AS30890 announce AS2852:AS-CESNET
+remarks:        Duocast B.V.
+import:         from AS31477 action pref=150; accept AS31477
+export:         to AS31477 announce AS2852:AS-CESNET
+remarks:        Etelecom.ru
+import:         from AS31500 action pref=150; accept AS-GLOBAL-NET
+export:         to AS31500 announce AS2852:AS-CESNET
+remarks:        DENIC eG
+import:         from AS31529 action pref=150; accept AS31529
+export:         to AS31529 announce AS2852:AS-CESNET
+remarks:        DENIC eG IPv6
+mp-import:      afi ipv6 from AS31529 action pref=150; accept AS31529
+mp-export:      afi ipv6 to AS31529 announce AS2852:AS-CESNET
+remarks:        COMX.DK
+remarks:        EuroTransit GmbH
+import:         from AS33926 action pref=150; accept AS-EUROTRANSIT
+export:         to AS33926 announce AS2852:AS-CESNET
+remarks:        Euroaccess Enterprises
+import:         from AS34305 action pref=150; accept AS-EUROACCESS
+export:         to AS34205 announce AS2852:AS-CESNET
+remarks:        Vodafone
+import:         from AS34419 action pref=200; accept AS-VODAFONE
+export:         to AS34419 announce AS2852:AS-CESNET
+remarks:        Vodafone IPv6
+mp-import:      afi ipv6 from AS34419 action pref=200; accept AS-VODAFONE-V6
+mp-export:      afi ipv6 to AS34419 announce AS2852:AS-CESNET
+remarks:        Docler Networks
+import:         from AS34655 action pref=150; accept AS-DOCLER
+export:         to AS34655 announce AS2852:AS-CESNET
+remarks:        Verisign
+import:         from AS36623 action pref=150; accept AS36623
+export:         to AS36623 announce AS2852:AS-CESNET
+remarks:        Easyhosting.nl
+import:         from AS39556 action pref=150; accept AS-EASYHOSTING
+export:         to AS39556 announce AS2852:AS-CESNET
+remarks:        Easyhosting.nl. IPv6
+mp-import:      afi ipv6 from AS39556 action pref=150; accept AS-EASYHOSTING
+mp-export:      afi ipv6 to AS39556 announce AS2852:AS-CESNET
+remarks:        Netlogics BV
+import:         from AS39637 action pref=150; accept AS-NETLOGICS
+export:         to AS39637 announce AS2852:AS-CESNET
+remarks:        Netlogics BV IPv6
+mp-import:      afi ipv6 from AS39637 action pref=150; accept AS-NETLOGICS
+mp-export:      afi ipv6 to AS39637 announce AS2852:AS-CESNET
+remarks:        Anders.ru
+import:         from AS39792 action pref=150; accept AS39792
+export:         to AS39792 announce AS2852:AS-CESNET
+remarks:        Anders.ru IPv6
+mp-import:      afi ipv6 from AS39792 action pref=150; accept AS39792
+mp-export:      afi ipv6 to AS39792 announce AS2852:AS-CESNET
+remarks:        IPTP
+import:         from AS41095 action pref=150; accept AS-IPTP
+export:         to AS41095 announce AS2852:AS-CESNET
+remarks:        Net Ground B.V.
+import:         from AS41445 action pref=150; accept AS-NETGROUND
+export:         to AS41445 announce AS2852:AS-CESNET
+remarks:        Opencarrier.eu
+import:         from AS41692 action pref=150; accept AS-OPENCARRIER
+export:         to AS41692 announce AS2852:AS-CESNET
+remarks:        Opencarrier.eu IPv6
+mp-import:      afi ipv6 from AS41692 action pref=150; accept AS-OPENCARRIER
+mp-export:      afi ipv6 to AS41692 announce AS2852:AS-CESNET
+remarks:        LocalPhone Ltd. UK
+import:         from AS42884 action pref=150; accept AS42884
+export:         to AS42884 announce AS2852:AS-CESNET
+remarks:        NForce Entertainment BV
+import:         from AS43350 action pref=150; accept AS-NFORCE
+export:         to AS43350 announce AS2852:AS-CESNET
+remarks:        Hispaweb-Network
+import:         from AS45037 action pref=150; accept AS-Hispaweb
+export:         to AS45037 announce AS2852:AS-CESNET
+remarks:        Transit Data Hyper Network
+import:         from AS47143 action pref=150; accept AS47143
+export:         to AS47143 announce AS2852:AS-CESNET
+remarks:        INTERFIBER
+import:         from AS48268 action pref=50; accept AS-INTERFIBER
+export:         to AS48268 announce AS2852:AS-CESNET
+remarks:        Xtra Media Services
+import:         from AS49562 action pref=150; accept AS-INTERFIBER
+export:         to AS49562 announce AS2852:AS-CESNET
+remarks:        IC-Hosting
+import:         from AS49625 action pref=150; accept AS49625
+export:         to AS49625 announce AS2852:AS-CESNET
+remarks:        Pictura Database Publishing
+import:         from AS49820 action pref=150; accept AS49820
+export:         to AS49820 announce AS2852:AS-CESNET
+remarks:        Peerings at NIX.CZ
+remarks:        --------------------------
+import:         from AS47200 accept any
+export:         to AS47200 announce AS2852:AS-CESNET-NIX
+mp-export:      afi ipv6 to AS47200 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS47200 accept any
+import:         from AS112 action pref=150; accept AS112
+export:         to AS112 announce AS2852:AS-CESNET-NIX
+export:         to AS112 announce AS2852:AS-CESNET-NIX
+import:         from AS702 action pref=150; accept AS702
+export:         to AS702 announce AS2852:AS-CESNET-NIX
+import:         from AS1257 action pref=150; accept AS-TELE2
+export:         to AS1257 announce AS2852:AS-CESNET-NIX
+import:         from AS2686 action pref=150; accept AS-IGNEMEA
+export:         to AS2686 announce AS2852:AS-CESNET-NIX
+import:         from AS2819 action pref=150; accept AS-GTSCZ-NIX
+export:         to AS2819 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS2819 action pref=150; accept AS-GTSCZ-NIX
+mp-export:      afi ipv6 to AS2819 announce AS2852:AS-CESNET-NIX
+import:         from AS3257 action pref=150; accept AS-TISCALI
+export:         to AS3257 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS3257 action pref=150; accept AS-TISCALI
+mp-export:      afi ipv6 to AS3257 announce AS2852:AS-CESNET-NIX
+import:         from AS5400 action pref=150; accept AS-BT-EU
+export:         to AS5400 announce AS2852:AS-CESNET-NIX
+import:         from AS5610 action pref=150; accept AS-CTIOL
+export:         to AS5610 announce AS2852:AS-CESNET-NIX
+import:         from AS6830 action pref=150; accept AS-AORTACZ
+export:         to AS6830 announce AS2852:AS-CESNET-NIX
+import:         from AS8251 action pref=150; accept AS-NFX-NIX
+export:         to AS8251 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS8251 action pref=150; accept AS-NFX-NIX
+mp-export:      afi ipv6 to AS8251 announce AS2852:AS-CESNET-NIX
+import:         from AS6881 action pref=150; accept AS-NIX
+export:         to AS8881 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS6881 action pref=150; accept AS-NIX
+mp-export:      afi ipv6 to AS8881 announce AS2852:AS-CESNET-NIX
+import:         from AS8422 action pref=150; accept AS-NETCOLOGNE
+export:         to AS8422 announce AS2852:AS-CESNET-NIX
+import:         from AS891 action pref=150; accept AS8913
+export:         to AS8913 announce AS2852:AS-CESNET-NIX
+import:         from AS8928 action pref=150; accept AS-INTEROUTE
+export:         to AS8928 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS8928 action pref=150; accept AS-INTEROUTE
+mp-export:      afi ipv6 to AS8928 announce AS2852:AS-CESNET-NIX
+import:         from AS9002 action pref=150; accept AS-RETN
+export:         to AS9002 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS9002 action pref=150; accept AS-GIN-NIX
+mp-export:      afi ipv6 to AS9002 announce AS2852:AS-CESNET-NIX
+import:         from AS9080 action pref=150; accept AS-GIN-NIX
+export:         to AS9080 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS9080 action pref=150; accept AS-GIN-NIX
+mp-export:      afi ipv6 to AS9080 announce AS2852:AS-CESNET-NIX
+import:         from AS12301 action pref=150; accept AS12301:AS-ROUTES
+export:         to AS12301 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS12301 action pref=150; accept AS12301:AS-ROUTES
+mp-export:      afi ipv6 to AS12301 announce AS2852:AS-CESNET-NIX
+import:         from AS12306 action pref=150; accept AS-PLUSLINE
+export:         to AS12306 announce AS2852:AS-CESNET-NIX
+import:         from AS12570 action pref=150; accept AS12570
+export:         to AS12570 announce AS2852:AS-CESNET-NIX
+import:         from AS12767 action pref=150; accept AS-PRAGONET-NIX
+export:         to AS12767 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS12767 action pref=150; accept AS-PRAGONET-NIX
+mp-export:      afi ipv6 to AS12767 announce AS2852:AS-CESNET-NIX
+import:         from AS13036 action pref=150; accept AS13036
+export:         to AS13036 announce AS2852:AS-CESNET-NIX
+import:         from AS13237 action pref=150; accept AS-LAMBDANET
+export:         to AS13237 announce AS2852:AS-CESNET-NIX
+import:         from AS15169 action pref=150; accept AS15169
+export:         to AS15169 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS15169 action pref=150; accept AS15169
+mp-export:      afi ipv6 to AS15169 announce AS2852:AS-CESNET-NIX
+import:         from AS15598 action pref=150; accept AS-IPX
+export:         to AS15598 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS15598 action pref=150; accept AS-IPX-6
+mp-export:      afi ipv6 to AS15598 announce AS2852:AS-CESNET-NIX
+import:         from AS15614 action pref=150; accept AS-DRAGON
+export:         to AS15614 announce AS2852:AS-CESNET-NIX
+import:         from AS15685 action pref=150; accept AS-CASABLANCA
+export:         to AS15685 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS15685 action pref=150; accept AS-CASABLANCA
+mp-export:      afi ipv6 to AS15685 announce AS2852:AS-CESNET-NIX
+import:         from AS15935 action pref=150; accept AS-HA-VEL-CZNIX
+export:         to AS15935 announce AS2852:AS-CESNET-NIX
+import:         from AS16019 action pref=150; accept AS16019
+export:         to AS16019 announce AS2852:AS-CESNET-NIX
+import:         from AS16246 action pref=150; accept AS16246
+export:         to AS16246 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS16246 action pref=150; accept AS16246
+mp-export:      afi ipv6 to AS16246 announce AS2852:AS-CESNET-NIX
+import:         from AS16265 action pref=150; accept AS-LEASEWEB
+export:         to AS16265 announce AS2852:AS-CESNET-NIX
+import:         from AS16276 action pref=150; accept AS-OVH
+export:         to AS16276 announce AS2852:AS-CESNET-NIX
+import:         from AS20144 action pref=150; accept AS20144
+export:         to AS20144 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS20144 action pref=150; accept AS20144
+mp-export:      afi ipv6 to AS20144 announce AS2852:AS-CESNET-NIX
+import:         from AS20723 action pref=150; accept AS20723
+export:         to AS20723 announce AS2852:AS-CESNET-NIX
+import:         from AS21430 action pref=150; accept AS21430
+export:         to AS21430 announce AS2852:AS-CESNET-NIX
+import:         from AS24806 action pref=150; accept AS24806
+export:         to AS24806 announce AS2852:AS-CESNET-NIX
+import:         from AS24971 action pref=150; accept AS-MASTERCZ-CZNIX
+export:         to AS24971 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS24971 action pref=150; accept AS-MASTERCZ-CZNIX
+mp-export:      afi ipv6 to AS24971 announce AS2852:AS-CESNET-NIX
+import:         from AS25036 action pref=150; accept AS25036
+export:         to AS25036 announce AS2852:AS-CESNET-NIX
+import:         from AS25192 action pref=150; accept AS25192
+export:         to AS25192 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS25192 action pref=150; accept AS25192
+mp-export:      afi ipv6 to AS25192 announce AS2852:AS-CESNET-NIX
+import:         from AS25234 action pref=150; accept AS25234
+export:         to AS25234 announce AS2852:AS-CESNET-NIX
+import:         from AS25248 action pref=150; accept AS-BLUETONE-CUST
+export:         to AS25248 announce AS2852:AS-CESNET-NIX
+import:         from AS25424 action pref=150; accept AS25424
+export:         to AS25424 announce AS2852:AS-CESNET-NIX
+import:         from AS25512 action pref=150; accept AS25512
+export:         to AS25512 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS25512 action pref=150; accept AS25512
+mp-export:      afi ipv6 to AS25512 announce AS2852:AS-CESNET-NIX
+import:         from AS26415 action pref=150; accept AS26415
+export:         to AS26415 announce AS2852:AS-CESNET-NIX
+import:         from AS28725 action pref=150; accept AS28725
+export:         to AS28725 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS28725 action pref=150; accept AS28725
+mp-export:      afi ipv6 to AS28725 announce AS2852:AS-CESNET-NIX
+import:         from AS28972 action pref=150; accept AS28972
+export:         to AS28972 announce AS2852:AS-CESNET-NIX
+import:         from AS29086 action pref=150; accept AS29086
+export:         to AS29086 announce AS2852:AS-CESNET-NIX
+import:         from AS29113 action pref=150; accept AS-SLOANE-NIX
+export:         to AS29113 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS29113 action pref=150; accept AS-SLOANE-NIX
+mp-export:      afi ipv6 to AS29113 announce AS2852:AS-CESNET-NIX
+import:         from AS29134 action pref=150; accept AS29134
+export:         to AS29134 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS29134 action pref=150; accept AS29134
+mp-export:      afi ipv6 to AS29134 announce AS2852:AS-CESNET-NIX
+import:         from AS29208 action pref=150; accept as-dialtelecom
+export:         to AS29208 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS29208 action pref=150; accept as-dialtelecom
+mp-export:      afi ipv6 to AS29208 announce AS2852:AS-CESNET-NIX
+import:         from AS29321 action pref=150; accept AS-CentroNet
+export:         to AS29321 announce AS2852:AS-CESNET-NIX
+import:         from AS30134 action pref=150; accept AS30134 AS3557
+export:         to AS30134 announce AS2852:AS-CESNET-NIX
+import:         from AS31246 action pref=150; accept AS-NETBOX-CZNIX
+export:         to AS31246 announce AS2852:AS-CESNET-NIX
+import:         from AS33883 action pref=150; accept AS33883
+export:         to AS33883 announce AS2852:AS-CESNET-NIX
+import:         from AS34080 action pref=150; accept AS34080
+export:         to AS34080 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS34080 action pref=150; accept AS34080
+mp-export:      afi ipv6 to AS34080 announce AS2852:AS-CESNET-NIX
+import:         from AS34315 action pref=150; accept AS34315
+export:         to AS34315 announce AS2852:AS-CESNET-NIX
+import:         from AS34692 action pref=150; accept AS-FREEBONE
+export:         to AS34692 announce AS2852:AS-CESNET-NIX
+import:         from AS35214 action pref=150; accept AS35214
+export:         to AS35214 announce AS2852:AS-CESNET-NIX
+import:         from AS35236 action pref=150; accept AS-NETWAYCZ-NIX
+export:         to AS35236 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS35236 action pref=150; accept AS-NETWAYCZ-NIX
+mp-export:      afi ipv6 to AS35236 announce AS2852:AS-CESNET-NIX
+import:         from AS35361 action pref=150; accept AS35361
+export:         to AS35361 announce AS2852:AS-CESNET-NIX
+import:         from AS35592 action pref=150; accept AS-COOLHOUSING
+export:         to AS35592 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS35592 action pref=150; accept AS-COOLHOUSING
+mp-export:      afi ipv6 to AS35592 announce AS2852:AS-CESNET-NIX
+import:         from AS38949 action pref=150; accept AS38949
+export:         to AS38949 announce AS2852:AS-CESNET-NIX
+import:         from AS38952 action pref=150; accept AS38952
+export:         to AS38952 announce AS2852:AS-CESNET-NIX
+import:         from AS39392 action pref=150; accept AS-SUPERNETWORK
+export:         to AS39392 announce AS2852:AS-CESNET-NIX
+import:         from AS39790 action pref=150; accept AS39790
+export:         to AS39790 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6.unicast from AS39790 action pref=150; accept AS39790
+mp-export:      afi ipv6 to AS39790 announce AS2852:AS-CESNET-NIX
+import:         from AS39791 action pref=150; accept AS39791:AS-TPS
+export:         to AS39791 announce AS2852:AS-CESNET-NIX
+import:         from AS39817 action pref=150; accept AS-OVANET-NIX
+export:         to AS39817 announce AS2852:AS-CESNET-NIX
+import:         from AS39906 action pref=150; accept AS-COPROSYS-NIXCZ
+export:         to AS39906 announce AS2852:AS-CESNET-NIX
+import:         from AS41088 action pref=150; accept AS-NSYS-NIX
+export:         to AS41088 announce AS2852:AS-CESNET-NIX
+import:         from AS41711 action pref=150; accept AS41711
+export:         to AS41711 announce AS2852:AS-CESNET-NIX
+import:         from AS41711 action pref=150; accept AS41711
+export:         to AS41711 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS41711 action pref=150; accept AS41711
+mp-export:      afi ipv6 to AS41711 announce AS2852:AS-CESNET-NIX
+import:         from AS41824 action pref=150; accept AS41824
+export:         to AS41824 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS41711 action pref=150; accept AS41711
+mp-export:      afi ipv6 to AS41711 announce AS2852:AS-CESNET-NIX
+import:         from AS42000 action pref=150; accept AS-STREAMCZ
+export:         to AS42000 announce AS2852:AS-CESNET-NIX
+mp-import:      afi ipv6 from AS42000 action pref=150; accept AS-STREAMCZ
+mp-export:      afi ipv6 to AS42000 announce AS2852:AS-CESNET-NIX
+import:         from AS42306 action pref=150; accept AS42306
+export:         to AS42306 announce AS2852:AS-CESNET-NIX
+import:         from AS42908 action pref=150; accept AS42908
+export:         to AS42908 announce AS2852:AS-CESNET-NIX
+import:         from AS43037 action pref=150; accept AS43037
+export:         to AS43037 announce AS2852:AS-CESNET-NIX
+import:         from AS43070 action pref=150; accept AS-JAW
+export:         to AS43070 announce AS2852:AS-CESNET-NIX
+import:         from AS43413 action pref=150; accept AS43413
+export:         to AS43413 announce AS2852:AS-CESNET-NIX
+import:         from AS43541 action pref=150; accept AS-VSHOSTING-CZ
+export:         to AS43541 announce AS2852:AS-CESNET-NIX
+import:         from AS43708 action pref=150; accept AS43708
+export:         to AS43708 announce AS2852:AS-CESNET-NIX
+import:         from AS47232 action pref=150; accept AS47232
+export:         to AS47232 announce AS2852:AS-CESNET-NIX
+import:         from AS47493 action pref=150; accept AS47493
+export:         to AS47493 announce AS2852:AS-CESNET-NIX
+import:         from AS47868 action pref=150; accept AS47868
+export:         to AS47868 announce AS2852:AS-CESNET-NIX
+import:         from AS48268 action pref=150; accept AS-INTERFIBER
+export:         to AS48268 announce AS2852:AS-CESNET-NIX
+import:         from AS48298 action pref=150; accept AS48298
+export:         to AS48298 announce AS2852:AS-CESNET-NIX
+import:         from AS48926 action pref=150; accept AS-PE3NY-NIX
+export:         to AS48926 announce AS2852:AS-CESNET-NIX
+import:         from AS50495 action pref=150; accept AS50495
+export:         to AS50495 announce AS2852:AS-CESNET-NIX
+import:         from AS50698 action pref=150; accept AS50698
+export:         to AS50698 announce AS2852:AS-CESNET-NIX
+remarks:        CESNET2 Members
+remarks:        --------------------------
+import:         from AS197451 accept AS197451
+export:         to AS197451 announce ANY
+mp-import:      afi ipv6 from AS197451 accept AS197451
+mp-export:      afi ipv6 to AS197451 announce ANY
+import:         from AS199711 accept AS199711
+export:         to AS199711 announce AS2852
+mp-import:      afi ipv6 from AS199711 accept AS199711
+mp-export:      afi ipv6 to AS199711 announce ANY
+import:         from AS199604 accept AS199604
+export:         to AS199604 announce any
+mp-import:      afi ipv6 from AS199604 accept AS199604
+mp-export:      afi ipv6 to AS199604 announce any
+import:         from AS48091 accept AS48091
+export:         to AS48091 announce any
+mp-import:      afi ipv6 from AS48091 accept AS48091
+mp-export:      afi ipv6 to AS48091 announce any
+import:         from AS204772 accept AS204772
+export:         to AS204772 announce any
+mp-import:      afi ipv6 from AS204772 accept AS204772
+mp-export:      afi ipv6 to AS204772 announce any
+import:         from AS213152 accept AS213152
+export:         to AS213152 announce any
+mp-import:      afi ipv6 from AS213152 accept AS213152
+mp-export:      afi ipv6 to AS213152 announce any
+import:         from AS198500 action pref=50; accept AS198500
+export:         to AS198500 announce any
+mp-export:      afi ipv6 to AS198500 announce any
+mp-import:      afi ipv6 from AS198500 action pref=50; accept AS198500
+import:         from AS212876 accept AS212876
+export:         to AS212876 announce any
+mp-import:      afi ipv6 from AS212876 accept AS212876
+mp-export:      afi ipv6 to AS212876 announce any
+import:         from AS51727 accept AS51727
+export:         to AS51727 announce any
+import:         from AS197277 accept AS197277
+export:         to AS197277 announce any
+mp-import:      afi ipv6 from AS197277 accept AS197277
+mp-export:      afi ipv6 to AS197277 announce any
+import:         from AS201648 accept AS201648
+export:         to AS201648 announce any
+mp-import:      afi ipv6 from AS201648 accept AS201648
+import:         from AS200874 accept AS200874
+export:         to AS200874 announce any
+mp-import:      afi ipv6 from AS200874 accept AS200874
+mp-export:      afi ipv6 to AS200874 announce any
+import:         from AS208093 accept AS208093
+export:         to AS208093 announce any
+mp-import:      afi ipv6 from AS208093 accept AS208093
+mp-export:      afi ipv6 to AS208093 announce any
+import:         from AS61110 accept AS61110
+export:         to AS61110 announce any
+mp-import:      afi ipv6 from AS61110 accept AS61110
+mp-export:      afi ipv6 to AS61110 announce any
+import:         from AS208093 accept AS208093
+export:         to AS208093 announce any
+mp-import:      afi ipv6 from AS208093 accept AS208093
+mp-export:      afi ipv6 to AS208093 announce any
+import:         from AS210367 accept AS210367
+export:         to AS210367 announce any
+mp-import:      afi ipv6 from AS210367 accept AS210367
+mp-export:      afi ipv6 to AS210367 announce any
+import:         from AS210498 accept AS210498
+export:         to AS210498 announce any
+mp-import:      afi ipv6 from AS210498 accept AS210498
+mp-export:      afi ipv6 to AS210498 announce any
+admin-c:        VN2-RIPE
+tech-c:         VN2-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS2852-MNT
+created:        2002-06-22T23:41:57Z
+last-modified:  2025-07-25T22:09:44Z
+source:         RIPE
+
+organisation:   ORG-CA9-RIPE
+org-name:       CESNET z.s.p.o.
+country:        CZ
+org-type:       LIR
+address:        Generála Píky 430/26, Dejvice
+address:        160 00
+address:        Praha 6
+address:        CZECH REPUBLIC
+phone:          +420 602 252 531
+phone:          +420 234 680 222
+admin-c:        CNIC1-RIPE
+admin-c:        PK2565-RIPE
+tech-c:         CZNA1-RIPE
+abuse-c:        CZNA1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TENCZ-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TENCZ-MNT
+created:        2004-04-17T11:04:52Z
+last-modified:  2023-05-02T09:38:20Z
+source:         RIPE # Filtered
+
+person:         Vaclav Novak
+address:        CESNET, z.s.p.o.
+address:        Generala Piky 430/26
+address:        Praha 6
+address:        160 00
+address:        The Czech Republic
+phone:          +420 234 680 200
+nic-hdl:        VN2-RIPE
+mnt-by:         TENCZ-MNT
+created:        2002-09-20T15:22:53Z
+last-modified:  2023-07-11T19:01:57Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          78.128.128.0/17
+descr:          auto-generated route object for 78.128.128.0/17
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route:          78.128.128.0/17
+descr:          CESNET-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@cesnet.cz
+created:        2007-06-15T11:12:33Z
+last-modified:  2007-06-15T11:12:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          146.102.0.0/16
+descr:          auto-generated route object for 146.102.0.0/16
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route:          146.102.0.0/16
+descr:          VSE-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@vse.cz and abuse@cesnet.cz
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-06-26T13:44:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          147.32.0.0/16
+origin:         AS2852
+descr:          CVUT
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20240410 # 1457Z
+source:         RADB
+last-modified:  2024-04-10T14:57:53Z
+rpki-ov-state:  valid
+
+route:          147.32.0.0/16
+origin:         AS2852
+mnt-by:         TENCZ-RPKI-MNT
+mnt-by:         AS2852-MNT
+created:        2024-04-07T19:47:18Z
+last-modified:  2024-04-07T19:47:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          147.33.0.0/16
+origin:         AS2852
+descr:          VSCHT
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20240410 # 1458Z
+source:         RADB
+last-modified:  2024-04-10T14:58:31Z
+rpki-ov-state:  valid
+
+route:          147.33.0.0/16
+origin:         AS2852
+mnt-by:         TENCZ-RPKI-MNT
+mnt-by:         AS2852-MNT
+created:        2024-04-07T19:48:06Z
+last-modified:  2024-04-07T19:48:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          147.228.0.0/16
+descr:          ZCU
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20120831  #19:43:06Z
+source:         RADB
+last-modified:  2023-11-13T15:43:22Z
+rpki-ov-state:  valid
+
+route:          147.228.0.0/16
+descr:          ZCU-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+created:        2012-08-31T14:11:19Z
+last-modified:  2012-08-31T14:11:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          147.230.0.0/16
+origin:         AS2852
+mnt-by:         TENCZ-RPKI-MNT
+mnt-by:         AS2852-MNT
+created:        2024-04-07T19:54:17Z
+last-modified:  2024-04-07T19:54:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          147.230.0.0/16
+origin:         AS2852
+descr:          TUL
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20240410 # 1459Z
+source:         RADB
+last-modified:  2024-04-10T14:59:50Z
+rpki-ov-state:  valid
+
+route:          147.231.0.0/16
+origin:         AS2852
+mnt-by:         TENCZ-RPKI-MNT
+mnt-by:         AS2852-MNT
+created:        2024-04-07T19:54:59Z
+last-modified:  2024-04-07T19:54:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          147.231.0.0/16
+origin:         AS2852
+descr:          CAS
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20240410 # 1500Z
+source:         RADB
+last-modified:  2024-04-10T15:00:27Z
+rpki-ov-state:  valid
+
+route:          147.251.0.0/16
+descr:          auto-generated route object for 147.251.0.0/16
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route:          147.251.0.0/16
+descr:          MUNI-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@muni.cz and abuse@cesnet.cz
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-06-26T14:03:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.194.0.0/16
+descr:          auto-generated route object for 158.194.0.0/16
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route:          158.194.0.0/16
+descr:          UPOL-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@upol.cz and abuse@cesnet.cz
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-06-26T14:05:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.196.0.0/16
+descr:          VSB-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@vsb.cz and abuse@cesnet.cz
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-06-26T14:08:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          158.196.0.0/16
+descr:          auto-generated route object for 158.196.0.0/16
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route:          160.216.0.0/16
+origin:         AS2852
+descr:          UNOB
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20240410 # 1514Z
+source:         RADB
+last-modified:  2024-04-10T15:14:29Z
+rpki-ov-state:  valid
+
+route:          160.216.0.0/16
+origin:         AS2852
+mnt-by:         TENCZ-RPKI-MNT
+mnt-by:         AS2852-MNT
+created:        2024-04-07T19:56:08Z
+last-modified:  2024-04-07T19:56:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          160.217.0.0/16
+origin:         AS2852
+descr:          JCU
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20240410 # 1515Z
+source:         RADB
+last-modified:  2024-04-10T15:15:12Z
+rpki-ov-state:  valid
+
+route:          160.217.0.0/16
+origin:         AS2852
+mnt-by:         TENCZ-RPKI-MNT
+mnt-by:         AS2852-MNT
+created:        2024-04-07T19:56:33Z
+last-modified:  2024-04-07T19:56:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.8.160.0/22
+descr:          CESNET-TCZ
+origin:         AS2852
+org:            ORG-CA9-RIPE
+mnt-by:         AS2852-MNT
+mnt-by:         TENCZ-MNT
+remarks:        Please report abuse -> abuse@cesnet.cz
+created:        2016-05-02T19:26:46Z
+last-modified:  2016-05-02T19:40:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.8.160.0/22
+descr:          CESNET z.s.p.o.
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20160601  #12:24:31Z
+source:         RADB
+last-modified:  2023-11-13T15:49:31Z
+rpki-ov-state:  valid
+
+route:          193.84.32.0/20
+descr:          auto-generated route object for 193.84.32.0/20
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route:          193.84.32.0/20
+descr:          CZU-T34CZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@czu.cz and abuse@cesnet.cz
+created:        2013-12-12T16:02:40Z
+last-modified:  2013-12-12T16:02:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.53.0/24
+descr:          CUNI-PI1-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@cuni.cz
+created:        2013-04-17T15:51:04Z
+last-modified:  2013-04-17T15:51:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.53.0/24
+descr:          CUNI-PI1-TCZ
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20130418  #11:10:49Z
+source:         RADB
+last-modified:  2023-11-13T15:45:23Z
+rpki-ov-state:  valid
+
+route:          193.84.55.0/24
+descr:          CUNI-PI2-TCZ
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20130418  #11:12:05Z
+source:         RADB
+last-modified:  2023-11-13T15:45:23Z
+rpki-ov-state:  valid
+
+route:          193.84.55.0/24
+descr:          CUNI-PI2-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@cuni.cz
+created:        2013-04-17T15:51:04Z
+last-modified:  2013-04-17T15:51:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.56.0/21
+descr:          CUNI-PI2-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@cuni.cz
+created:        2013-04-17T15:51:05Z
+last-modified:  2013-04-17T15:51:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.56.0/21
+descr:          CUNI-PI2-TCZ
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20130418  #11:12:56Z
+source:         RADB
+last-modified:  2023-11-13T15:45:23Z
+rpki-ov-state:  valid
+
+route:          193.84.80.0/22
+descr:          TEST-NET-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+mnt-by:         TENCZ-MNT
+remarks:        Please report abuse -> abuse@cesnet.cz
+created:        2013-05-07T14:32:31Z
+last-modified:  2013-05-07T14:32:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.80.0/22
+descr:          TEST-NET
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20130418  #11:14:08Z
+source:         RADB
+last-modified:  2023-11-13T15:45:23Z
+rpki-ov-state:  valid
+
+route:          193.84.104.0/22
+origin:         AS2852
+descr:          Czech Technical University
+admin-c:        CVUT1-RIPE
+tech-c:         CVUT1-RIPE
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20210320  #21:55:32Z
+source:         RADB
+last-modified:  2023-11-13T16:05:25Z
+rpki-ov-state:  valid
+
+route:          193.84.104.0/22
+descr:          SFA-CTU
+origin:         AS2852
+mnt-by:         AS2852-MNT
+mnt-by:         TENCZ-RPKI-MNT
+created:        2021-03-20T20:33:24Z
+last-modified:  2024-08-01T14:58:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.116.0/23
+descr:          CAV
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20140325  #13:45:15Z
+source:         RADB
+last-modified:  2023-11-13T15:46:17Z
+rpki-ov-state:  valid
+
+route:          193.84.116.0/23
+descr:          Institute of Chemical Process Fundamentals of the CAS, v.v.i.
+descr:          Prague 6
+org:            ORG-IOCP5-RIPE
+origin:         AS2852
+mnt-by:         AS2852-MNT
+created:        2014-03-04T09:29:13Z
+last-modified:  2016-06-09T07:44:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.160.0/20
+descr:          NRI-T34CZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@nri.cz, abuse@ujv.cz, abuse@cesnet.cz
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-06-26T14:21:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.160.0/20
+descr:          auto-generated route object for 193.84.160.0/20
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route:          193.84.192.0/19
+descr:          OPF_SLU-T34CZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@cesnet.cz
+created:        1970-01-01T00:00:00Z
+last-modified:  2013-05-30T14:31:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.192.0/19
+descr:          auto-generated route object for 193.84.192.0/19
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route:          193.84.192.0/20
+origin:         AS2852
+mnt-by:         TENCZ-RPKI-MNT
+mnt-by:         AS2852-MNT
+created:        2024-04-07T19:58:33Z
+last-modified:  2024-04-07T19:58:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.192.0/20
+origin:         AS2852
+descr:          OPF_SLU
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20240410 # 1516Z
+source:         RADB
+last-modified:  2024-04-10T15:16:10Z
+rpki-ov-state:  valid
+
+route:          193.84.208.0/20
+origin:         AS2852
+mnt-by:         TENCZ-RPKI-MNT
+mnt-by:         AS2852-MNT
+created:        2024-04-07T19:59:05Z
+last-modified:  2024-04-07T19:59:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.208.0/20
+origin:         AS2852
+descr:          OPF_SLU
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20240410 # 1517Z
+source:         RADB
+last-modified:  2024-04-10T15:17:27Z
+rpki-ov-state:  valid
+
+route:          195.113.0.0/16
+descr:          CESNET-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@cesnet.cz
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-06-26T14:36:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.113.0.0/16
+descr:          auto-generated route object for 195.113.0.0/16
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route:          195.178.64.0/19
+descr:          CESNET-T34CZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+remarks:        Please report abuse -> abuse@cesnet.cz
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-06-26T14:36:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.178.64.0/19
+descr:          auto-generated route object for 195.178.64.0/19
+origin:         AS2852
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20110527  #12:28:14Z
+source:         RADB
+last-modified:  2023-11-13T15:41:18Z
+rpki-ov-state:  valid
+
+route6:         2001:718::/29
+origin:         AS2852
+mnt-by:         AS2852-MNT
+created:        2022-02-26T20:43:04Z
+last-modified:  2022-02-26T20:43:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:718::/32
+descr:          CESNET6-TCZ
+origin:         AS2852
+mnt-by:         AS2852-MNT
+created:        2010-04-08T07:28:28Z
+last-modified:  2010-04-08T07:28:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:718::/32
+origin:         AS2852
+descr:          CZ-TEN-34-20010521
+admin-c:        PV2-RIPE
+tech-c:         CNIC1-RIPE
+notify:         abuse@cesnet.cz
+mnt-by:         MAINT-AS2852
+changed:        novakv@cesnet.cz 20220312  #20:03:27Z
+source:         RADB
+last-modified:  2023-11-13T16:10:08Z
+rpki-ov-state:  valid
+
+

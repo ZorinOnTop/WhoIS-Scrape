@@ -1,0 +1,1744 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6871'
+
+% Abuse contact for 'AS6871' is 'abuse@bt.com'
+
+aut-num:        AS6871
+org:            ORG-BPIS1-RIPE
+as-name:        Plusnet
+descr:          UK Internet Service Provider
+descr:          DSL, Unmetered, PAYG and Internet Services
+remarks:
+remarks:        ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:        |               **** Transit Links ****              |
+remarks:        ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+import:         from AS3356 at 195.50.122.129 action pref = 40; accept ANY;
+export:         to AS3356 at pcl-gw02.plus.net announce AS-PLUSNETUK;
+import:         from AS3356 at 217.163.45.181 action pref = 40; accept ANY;
+export:         to AS3356 at thn-gw2.plus.net announce AS-PLUSNETUK;
+import:         from AS5400 at 166.49.166.216 action pref = 40; accept ANY;
+export:         to AS5400 at thn-gw2.plus.net announce AS-PLUSNETUK;
+import:         from AS5400 at 166.49.211.45 action pref = 40; accept ANY;
+export:         to AS5400 at ptn-gw01.plus.net announce AS-PLUSNETUK;
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:        |        **** Private Peering Agreements ****       |
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+import:         from AS2818 at 212.58.239.25 action pref = 200; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS2818 at thn-gw2.plus.net announce AS-PLUSNETUK;
+import:         from AS35180 at 212.159.1.182 action pref = 200; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS35180 at pte-gw1.plus.net announce AS-PLUSNETUK;
+import:         from AS15169 at 72.14.223.32 action pref = 200; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS15169 at ptn-gw01.plus.net announce AS-PLUSNETUK;
+import:         from AS20940 at 212.159.2.13 action pref = 200; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS20940 at ptn-gw02.plus.net announce AS-PLUSNETUK;
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:        |                  **** LINX ****                   |
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+import:         from AS-PLUSNETUK:AS-LINX-PEERS-PRI at linx-gw1.plus.net action pref = 160; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS-PLUSNETUK:AS-LINX-PEERS-PRI announce AS-PLUSNETUK AND NOT {0.0.0.0/0};
+import:         from AS-PLUSNETUK:AS-LINX-PEERS-SEC at linx-gw2.plus.net action pref = 160; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS-PLUSNETUK:AS-LINX-PEERS-SEC announce AS-PLUSNETUK AND NOT {0.0.0.0/0};
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:        |                  **** LONAP ****                  |
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+import:         from AS-PLUSNETUK:AS-LONAP-PEERS-PRI at lonap-gw1.plus.net action pref = 160; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS-PLUSNETUK:AS-LONAP-PEERS-PRI announce AS-PLUSNETUK AND NOT {0.0.0.0/0};
+import:         from AS-PLUSNETUK:AS-LONAP-PEERS-SEC at lonap-gw2.plus.net action pref = 160; accept ANY AND NOT {0.0.0.0/0};
+export:         to AS-PLUSNETUK:AS-LONAP-PEERS-SEC announce AS-PLUSNETUK AND NOT {0.0.0.0/0};
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:        |           **** Transit Customers ****             |
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+import:         from AS-PLUSNETUK:AS-TRANSIT-CUSTOMERS accept ANY AND NOT {0.0.0.0/0};
+export:         to AS-PLUSNETUK:AS-TRANSIT-CUSTOMERS announce ANY;
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:        |                                                   |
+remarks:        | PlusNet PLC has an open peering policy providing  |
+remarks:        | sessions are MD5'd. Arrange @ peering@plus.net.   |
+remarks:        |                                                   |
+remarks:        | LINX (Foundry)                                    |
+remarks:        | linx-gw1.plus.net 10Gbps Telehouse East           |
+remarks:        | LINX (Extreme)                                    |
+remarks:        | linx-gw2.plus.net 10Gbps Telehouse North          |
+remarks:        |                                                   |
+remarks:        | LONAP                                             |
+remarks:        | lonap-gw1.plus.net 2Gbps  Telehouse East          |
+remarks:        | lonap-gw2.plus.net 10Gbps Telehouse North         |
+remarks:        |                                                   |
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:        | Telephone:                +44 114 220000          |
+remarks:        | 24*7 Support:             +44 845 1400200         |
+remarks:        | Abuse matters to:         abuse@plus.net          |
+remarks:        | Corporate info:           http://www.plus.net/    |
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+admin-c:        PLUS1-RIPE
+tech-c:         PNET2-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         BTNET-INFRA-MNT
+mnt-by:         MAINT-AS6871
+created:        2002-08-08T16:07:08Z
+last-modified:  2018-09-04T09:48:55Z
+source:         RIPE
+
+organisation:   ORG-BPIS1-RIPE
+org-name:       British Telecommunications PLC
+country:        GB
+org-type:       LIR
+address:        PP1, Floor1, Orion, Adastral Park, Martlesham Heath
+address:        IP5 3RE
+address:        Ipswich
+address:        UNITED KINGDOM
+phone:          +44 (0)20 7356 5000
+abuse-c:        AR13878-RIPE
+mnt-ref:        BTNET-MNT
+mnt-ref:        BTNET-INFRA-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         BTNET-INFRA-MNT
+admin-c:        FLS15-RIPE
+admin-c:        MS35380-RIPE
+admin-c:        GF1231-RIPE
+created:        2004-04-17T12:11:50Z
+last-modified:  2025-03-24T17:20:04Z
+source:         RIPE # Filtered
+
+role:           Plusnet Hostmaster
+address:        PlusNet Plc
+address:        The Balance
+address:        2 Pinfold Street
+address:        Sheffield
+address:        S1 2GU
+address:        UK
+phone:          +44 114 2200084
+abuse-mailbox:  abuse@plus.net
+remarks:        ------------------------------------------------
+remarks:        Please do NOT e-mail abuse to the contacts given
+remarks:        here, e-mail them to ABUSE@PLUS.NET instead.
+remarks:        All email sent to other listed addresses will
+remarks:        be deleted!
+remarks:        ------------------------------------------------
+remarks:        Network Status and Information Page:
+remarks:        http://status.plus.net
+remarks:        http://support.plus.net
+remarks:        ------------------------------------------------
+remarks:        Support 24*7 Phone: (UK) 0845 140 0200
+remarks:        ------------------------------------------------
+admin-c:        JW7886-RIPE
+tech-c:         DS3916-RIPE
+nic-hdl:        PNET2-RIPE
+mnt-by:         MAINT-AS6871
+created:        2002-05-16T12:18:00Z
+last-modified:  2018-01-17T15:40:44Z
+source:         RIPE # Filtered
+
+person:         PlusNet Ripe Admin
+address:        Plusnet plc.
+address:        The Balance
+address:        2 Pinfold Street
+address:        Sheffield
+address:        S1 2GU
+address:        GB
+phone:          +44 114 22 00084
+nic-hdl:        PLUS1-RIPE
+mnt-by:         MAINT-AS6871
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-05-02T13:03:37Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          31.108.0.0/14
+origin:         AS6871
+mnt-by:         TMUK-MNT
+mnt-by:         BTNET-MNT
+mnt-by:         AS12576-MNT
+created:        2020-02-26T14:29:34Z
+last-modified:  2020-02-26T14:29:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.125.0.0/16
+origin:         AS6871
+mnt-by:         BTNET-INFRA-MNT
+created:        2019-01-15T09:27:22Z
+last-modified:  2019-01-15T09:27:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.185.32.0/19
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2011-05-13T16:19:17Z
+last-modified:  2011-05-13T16:19:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.185.128.0/17
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2011-05-13T16:19:22Z
+last-modified:  2011-05-13T16:19:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.152.192.0/18
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2012-03-12T13:14:43Z
+last-modified:  2012-03-12T13:14:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          46.208.0.0/16
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2011-01-12T15:55:22Z
+last-modified:  2011-01-12T15:55:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          51.6.0.0/15
+origin:         AS6871
+descr:          PlusNet plc.
+mnt-by:         MAINT-AS6871
+created:        2016-04-11T12:23:56Z
+last-modified:  2016-04-11T12:23:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          51.9.0.0/16
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-12-10T11:53:03Z
+last-modified:  2015-12-10T11:53:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.189.0.0/16
+descr:          Plusnet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2012-01-20T12:11:48Z
+last-modified:  2012-01-20T12:11:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.229.0.0/16
+descr:          Plusnet Technologies Ltd
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2003-10-17T13:49:56Z
+last-modified:  2003-10-17T13:49:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.140.0.0/17
+descr:          BT-MBB
+origin:         AS6871
+mnt-by:         BTNET-INFRA-MNT
+notify:         ip.address.admin@bt.com
+created:        2012-02-15T10:11:08Z
+last-modified:  2014-07-31T08:22:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.140.128.0/19
+descr:          BT-MBB
+origin:         AS6871
+mnt-by:         BTNET-INFRA-MNT
+notify:         ip.address.admin@bt.com
+created:        2012-02-15T10:23:25Z
+last-modified:  2014-07-31T08:25:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.174.128.0/17
+descr:          Plusnet Technologies Ltd
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2003-02-28T15:47:15Z
+last-modified:  2003-09-09T20:22:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.216.128.0/19
+descr:          Plusnet plc.
+origin:         AS6871
+notify:         noc@plus.net
+mnt-by:         MAINT-AS6871
+created:        2009-04-06T14:44:16Z
+last-modified:  2014-08-13T13:33:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          83.216.128.0/19
+descr:          Proxy-registered route object
+origin:         AS6871
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.51.128.0/18
+descr:          Proxy-registered route object
+origin:         AS6871
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.51.128.0/18
+descr:          PARBIN-84-51-128-0-18
+origin:         AS6871
+notify:         noc@plus.net
+mnt-by:         MAINT-AS6871
+mnt-routes:     MAINT-AS6871
+mnt-lower:      MAINT-AS6871
+created:        2009-04-06T14:39:34Z
+last-modified:  2009-04-06T14:39:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.92.0.0/15
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2004-05-19T12:40:35Z
+last-modified:  2005-07-29T13:07:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.92.0.0/21
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2016-08-31T17:03:00Z
+last-modified:  2016-08-31T17:03:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.93.192.0/19
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2016-08-31T17:03:00Z
+last-modified:  2016-08-31T17:03:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.93.224.0/20
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2016-08-31T17:03:00Z
+last-modified:  2016-08-31T17:03:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.93.240.0/22
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2016-08-31T17:03:00Z
+last-modified:  2016-08-31T17:03:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.93.248.0/21
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2016-08-31T17:03:00Z
+last-modified:  2016-08-31T17:03:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.112.0.0/14
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2005-07-29T13:03:26Z
+last-modified:  2005-08-04T15:30:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.112.0.0/16
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2005-08-04T15:27:49Z
+last-modified:  2005-08-04T15:27:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.113.0.0/16
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2005-08-04T15:28:05Z
+last-modified:  2005-08-04T15:28:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.114.0.0/16
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2005-08-04T15:30:52Z
+last-modified:  2005-08-04T15:30:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          87.115.0.0/16
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2005-08-04T15:30:53Z
+last-modified:  2005-08-04T15:30:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.125.0.0/16
+descr:          Pluset plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2012-01-20T12:12:51Z
+last-modified:  2012-01-20T12:12:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.125.0.0/17
+descr:          BV ADSL
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+mnt-routes:     MAINT-AS6871
+created:        2011-08-09T16:41:07Z
+last-modified:  2018-03-23T11:14:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          91.125.128.0/17
+descr:          BV ADSL
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+mnt-routes:     MAINT-AS6871
+created:        2011-08-09T16:43:05Z
+last-modified:  2018-03-23T11:15:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          143.159.0.0/16
+origin:         AS6871
+descr:          Plusnet
+admin-c:        MMB12-ARIN
+tech-c:         AR2-ORG-ARIN
+tech-c:         HOURI23-ARIN
+tech-c:         LAUCH9-ARIN
+tech-c:         MMB12-ARIN
+mnt-by:         MNT-INFO
+created:        2025-07-29T09:21:17Z
+last-modified:  2025-08-01T09:45:46Z
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          146.66.32.0/19
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2011-07-12T09:40:13Z
+last-modified:  2011-07-12T09:40:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          146.90.0.0/16
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2011-07-12T09:38:43Z
+last-modified:  2011-07-12T09:40:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          146.198.0.0/16
+origin:         AS6871
+descr:          Plusnet
+admin-c:        MMB12-ARIN
+tech-c:         AR2-ORG-ARIN
+tech-c:         HOURI23-ARIN
+tech-c:         LAUCH9-ARIN
+tech-c:         MMB12-ARIN
+mnt-by:         MNT-INFO
+created:        2025-07-29T09:20:26Z
+last-modified:  2025-08-01T09:45:46Z
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          146.199.0.0/16
+origin:         AS6871
+descr:          PlusNet
+admin-c:        MMB12-ARIN
+tech-c:         AR2-ORG-ARIN
+tech-c:         HOURI23-ARIN
+tech-c:         LAUCH9-ARIN
+tech-c:         MMB12-ARIN
+mnt-by:         MNT-INFO
+created:        2025-07-29T09:19:49Z
+last-modified:  2025-08-01T09:45:46Z
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          146.200.0.0/16
+origin:         AS6871
+descr:          Plusnet
+admin-c:        MMB12-ARIN
+tech-c:         AR2-ORG-ARIN
+tech-c:         HOURI23-ARIN
+tech-c:         LAUCH9-ARIN
+tech-c:         MMB12-ARIN
+mnt-by:         MNT-INFO
+created:        2025-07-29T09:21:39Z
+last-modified:  2025-08-01T09:45:46Z
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          147.147.0.0/16
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         BTNET-MNT
+created:        2016-01-19T10:33:49Z
+last-modified:  2016-01-19T10:33:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          150.143.0.0/16
+origin:         AS6871
+descr:          Plusnet
+admin-c:        GRH7-ARIN
+tech-c:         ABBOT2-ARIN
+tech-c:         GRH7-ARIN
+tech-c:         HOLME12-ARIN
+tech-c:         WATTS220-ARIN
+mnt-by:         MNT-BA-346
+created:        2025-07-29T13:08:31Z
+last-modified:  2025-07-29T13:08:31Z
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.75.0.0/19
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:08:36Z
+last-modified:  2015-08-26T13:08:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.75.80.0/20
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:09:09Z
+last-modified:  2015-08-26T13:09:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.75.220.0/22
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-07-13T14:23:14Z
+last-modified:  2015-07-13T14:23:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.99.8.0/21
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:10:03Z
+last-modified:  2015-08-26T13:10:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.99.32.0/19
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:10:21Z
+last-modified:  2015-08-26T13:10:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.99.88.0/21
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:11:00Z
+last-modified:  2015-08-26T13:11:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.99.224.0/20
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:11:09Z
+last-modified:  2015-08-26T13:11:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.166.128.0/19
+descr:          Plusnet Technologies Ltd
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        1970-01-01T00:00:00Z
+last-modified:  2003-09-09T20:22:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.213.0.0/16
+descr:          PlusNet
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2018-01-17T14:34:02Z
+last-modified:  2025-08-18T08:00:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          209.93.0.0/16
+origin:         AS6871
+descr:          Plusnet
+admin-c:        MMB12-ARIN
+tech-c:         AR2-ORG-ARIN
+tech-c:         HOURI23-ARIN
+tech-c:         LAUCH9-ARIN
+tech-c:         MMB12-ARIN
+mnt-by:         MNT-INFO
+created:        2025-07-29T09:20:51Z
+last-modified:  2025-08-01T09:45:46Z
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.56.64.0/18
+descr:          Plusnet Technologies Ltd
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        1970-01-01T00:00:00Z
+last-modified:  2003-09-09T20:22:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.140.0.0/19
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+mnt-by:         BTNET-INFRA-MNT
+created:        2016-07-12T08:06:56Z
+last-modified:  2016-07-12T08:06:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.140.32.0/20
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+mnt-by:         BTNET-INFRA-MNT
+created:        2016-07-12T08:06:56Z
+last-modified:  2016-07-12T08:06:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.140.48.0/21
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+mnt-by:         BTNET-INFRA-MNT
+created:        2016-07-12T08:06:56Z
+last-modified:  2016-07-12T08:06:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.159.0.0/17
+descr:          Plusnet customer ranges
+origin:         AS6871
+mnt-by:         BTNET-INFRA-MNT
+mnt-by:         MAINT-AS6871
+created:        2025-07-31T13:59:25Z
+last-modified:  2025-07-31T13:59:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.159.0.0/19
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2002-12-28T11:09:52Z
+last-modified:  2005-07-29T13:05:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.159.0.0/20
+descr:          Plusnet plc
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2016-08-31T17:03:00Z
+last-modified:  2016-10-05T11:43:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.159.8.0/23
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-09-04T13:19:04Z
+last-modified:  2015-09-04T13:19:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.159.32.0/19
+descr:          Plusnet Technologies Ltd
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2002-12-28T11:15:33Z
+last-modified:  2002-12-28T11:15:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.159.64.0/18
+descr:          Plusnet Technologies Ltd.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2003-01-18T11:00:24Z
+last-modified:  2016-10-05T11:44:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.31.0.0/16
+descr:          PlusNet
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2024-10-08T12:29:33Z
+last-modified:  2025-08-18T08:01:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.31.0.0/17
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         CIP-MNT
+mnt-by:         MAINT-AS6871
+created:        2018-04-11T11:28:09Z
+last-modified:  2025-08-18T07:38:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.31.128.0/19
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         CIP-MNT
+created:        2018-04-11T11:28:11Z
+last-modified:  2018-04-11T11:28:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.31.160.0/20
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         CIP-MNT
+created:        2018-04-11T11:28:13Z
+last-modified:  2018-04-11T11:28:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.31.176.0/22
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         CIP-MNT
+created:        2018-04-11T11:28:15Z
+last-modified:  2018-04-11T11:28:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.162.96.0/19
+descr:          PARBIN-213-162-96-0-19
+origin:         AS6871
+notify:         noc@plus.net
+mnt-by:         MAINT-AS6871
+mnt-routes:     MAINT-AS6871
+mnt-lower:      MAINT-AS6871
+created:        2009-04-06T14:48:08Z
+last-modified:  2009-04-06T14:48:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.162.96.0/19
+descr:          Proxy-registered route object
+origin:         AS6871
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.162.96.0/20
+descr:          PARBIN-213-162-96-0-20
+origin:         AS6871
+notify:         noc@plus.net
+mnt-by:         MAINT-AS6871
+mnt-routes:     MAINT-AS6871
+mnt-lower:      MAINT-AS6871
+created:        2009-04-06T14:47:26Z
+last-modified:  2009-04-06T14:47:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.162.96.0/22
+descr:          PARBIN-213-162-96-0-22
+origin:         AS6871
+notify:         noc@plus.net
+mnt-by:         MAINT-AS6871
+mnt-routes:     MAINT-AS6871
+mnt-lower:      MAINT-AS6871
+created:        2009-04-06T14:45:17Z
+last-modified:  2009-04-06T14:45:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.162.112.0/20
+descr:          PARBIN-213-162-112-0-20
+origin:         AS6871
+notify:         noc@plus.net
+mnt-by:         MAINT-AS6871
+mnt-routes:     MAINT-AS6871
+mnt-lower:      MAINT-AS6871
+created:        2009-04-06T14:46:39Z
+last-modified:  2009-04-06T14:46:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.32.30.0/23
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+mnt-by:         BTNET-INFRA-MNT
+created:        2016-07-12T08:01:14Z
+last-modified:  2016-07-12T08:01:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.32.32.0/20
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:11:22Z
+last-modified:  2015-08-26T13:11:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.32.112.0/22
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:11:29Z
+last-modified:  2015-08-26T13:11:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.32.148.0/22
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:11:41Z
+last-modified:  2015-08-26T13:11:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.32.152.0/21
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:11:50Z
+last-modified:  2015-08-26T13:11:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.32.160.0/22
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:11:58Z
+last-modified:  2015-08-26T13:11:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.32.176.0/22
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:12:09Z
+last-modified:  2015-08-26T13:12:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.39.16.0/20
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:12:17Z
+last-modified:  2015-08-26T13:12:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.39.112.0/20
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:12:25Z
+last-modified:  2015-08-26T13:12:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.45.24.0/21
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:12:31Z
+last-modified:  2015-08-26T13:12:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.45.96.0/20
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:12:37Z
+last-modified:  2015-08-26T13:12:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.46.24.0/22
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:12:47Z
+last-modified:  2015-08-26T13:12:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.46.128.0/20
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-08-26T13:12:53Z
+last-modified:  2015-08-26T13:12:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8::/32
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2011-02-14T17:36:00Z
+last-modified:  2011-02-14T17:36:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8::/34
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-10-07T11:11:03Z
+last-modified:  2015-10-07T11:11:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8::/35
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-10-07T11:11:04Z
+last-modified:  2015-10-07T11:11:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:2000::/35
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-10-07T11:11:04Z
+last-modified:  2015-10-07T11:11:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:4000::/34
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-10-07T11:11:04Z
+last-modified:  2015-10-07T11:11:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:4000::/35
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2013-10-08T17:19:40Z
+last-modified:  2013-10-08T17:19:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:6000::/35
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-10-07T11:11:04Z
+last-modified:  2015-10-07T11:11:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:8000::/34
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-10-07T11:11:04Z
+last-modified:  2015-10-07T11:11:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:8000::/35
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2013-10-08T17:19:40Z
+last-modified:  2013-10-08T17:19:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:a000::/35
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-10-07T11:11:04Z
+last-modified:  2015-10-07T11:11:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:c000::/34
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2013-10-08T17:19:40Z
+last-modified:  2013-10-08T17:19:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:c000::/35
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-10-07T11:11:04Z
+last-modified:  2015-10-07T11:11:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:16c8:e000::/35
+descr:          PlusNet plc.
+origin:         AS6871
+mnt-by:         MAINT-AS6871
+created:        2015-10-07T11:11:04Z
+last-modified:  2015-10-07T11:11:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a06:7200::/29
+origin:         AS6871
+mnt-by:         BTNET-INFRA-MNT
+created:        2021-03-24T11:25:59Z
+last-modified:  2021-03-24T12:04:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

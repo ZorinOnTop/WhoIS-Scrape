@@ -1,0 +1,235 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16215 - AS16283'
+
+as-block:       AS16215 - AS16283
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16265'
+
+% Abuse contact for 'AS16265' is 'abuse@fiberring.com'
+
+aut-num:        AS16265
+as-name:        LEASEWEB-NETWORK
+descr:          LeaseWeb Network B.V.
+descr:          Amsterdam, Netherlands
+org:            ORG-FB8-RIPE
+remarks:        -------------------------------------------------
+remarks:        LeaseWeb website: https://www.leaseweb.com
+remarks:        PeeringDB: https://as16265.peeringdb.com
+remarks:        -------------------------------------------------
+remarks:        LeaseWeb Peering Network.
+remarks:        -------------------------------------------------
+descr:          ---- Public peering ----
+import:         from AS-AMS-IX-PEERS action pref=151; accept ANY
+export:         to AS-AMS-IX-PEERS announce AS-LEASEWEB
+import:         from AS-DECIX-CONNECTED action pref=151; accept AS-DECIX
+export:         to AS-DECIX-CONNECTED announce AS-LEASEWEB
+import:         from AS-LINX-CONNECTED action pref=151; accept ANY
+export:         to AS-LINX-CONNECTED announce AS-LEASEWEB
+import:         from AS8545 action pref=151; accept ANY
+export:         to AS8545 announce AS-LEASEWEB
+import:         from AS41441 action pref=151; accept ANY
+export:         to AS41441 announce AS-LEASEWEB
+import:         from AS6895 action pref=151; accept ANY
+export:         to AS6895 announce AS-LEASEWEB
+descr:          ---- Private peering imports ----
+import:         from AS6774 action pref=151; accept AS-BELBONETOPEERS
+export:         to AS6774 announce AS-LEASEWEB
+import:         from AS657 action pref=151; accept AS-CPRM
+export:         to AS8657 announce AS-LEASEWEB
+import:         from AS9002 action pref=151; accept AS-RETN
+export:         to AS9002 announce AS-LEASEWEB
+import:         from AS13237 action pref=151; accept AS-LAMBDANET
+export:         to AS13237 announce AS-LEASEWEB
+import:         from AS20485 action pref=151; accept AS-TTK
+export:         to AS20485 announce AS-LEASEWEB
+import:         from AS20562 action pref=151; accept AS-OPENPEERING
+export:         to AS20562 announce AS-LEASEWEB
+import:         from AS38930 action pref=151; accept AS-FIBERRING
+export:         to AS38930 announce AS-LEASEWEB
+import:         from AS35415 action pref=151; accept AS-WZ-EU
+export:         to AS35415 announce AS-LEASEWEB
+import:         from AS6777 accept ANY AND NOT <^[AS3267]>
+export:         to AS6777 action community .= { 6777:6777, 6777:3267 }; announce AS-LEASEWEB
+import:         from AS61955 accept AS-COLOCATIONIX
+export:         to AS61955 announce AS-LEASEWEB
+remarks:        -------------------------------------------------
+remarks:        localpref table
+remarks:        200 Customer route
+remarks:        150 Peer route
+remarks:        100 Transit route
+remarks:        -------------------------------------------------
+admin-c:        LSW1-RIPE
+tech-c:         LSW1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         FBX-MNT
+member-of:      AS3320:AS-AUTH-PILOT-ROUTEPRIO-FROM-AS16265
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS16265
+created:        2002-09-09T11:23:24Z
+last-modified:  2021-03-31T08:51:01Z
+source:         RIPE
+
+organisation:   ORG-FB8-RIPE
+org-name:       LeaseWeb Network B.V.
+country:        NL
+org-type:       LIR
+address:        Postbus 23136
+address:        1100DP
+address:        Amsterdam
+address:        NETHERLANDS
+phone:          +31 20 4860500
+fax-no:         +31 20 4889458
+abuse-c:        AR16174-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        FBX-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         FBX-MNT
+admin-c:        FBX1-RIPE
+created:        2005-11-03T06:11:21Z
+last-modified:  2020-12-16T13:19:34Z
+source:         RIPE # Filtered
+
+person:         RIP Mean
+address:        P.O. Box 93054
+address:        1090BB AMSTERDAM
+address:        Netherlands
+phone:          +31 20 3162880
+fax-no:         +31 20 3162890
+nic-hdl:        LSW1-RIPE
+mnt-by:         LEASEWEB-NL-MNT
+created:        2005-06-07T14:36:03Z
+last-modified:  2017-10-30T21:46:47Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          31.31.32.0/21
+descr:          LEASEWEB
+origin:         AS16265
+mnt-by:         FBX-MNT
+created:        2011-03-21T11:34:19Z
+last-modified:  2015-10-01T14:19:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          89.255.253.0/24
+origin:         AS16265
+mnt-by:         LEASEWEBCDN-MNT
+created:        2019-03-28T09:36:24Z
+last-modified:  2019-03-28T09:36:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          89.255.253.0/24
+origin:         AS16265
+descr:          LSW-CDN-MAD
+mnt-by:         MAINT-AS16265
+changed:        noc@fiberring.com 20190328  #05:34:32Z
+source:         RADB
+last-modified:  2023-11-13T15:55:46Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.28.71.0/24
+descr:          LEASEWEB-CDN-POP4
+origin:         AS16265
+remarks:        LeaseWeb
+mnt-by:         FBX-MNT
+created:        2013-06-12T11:34:11Z
+last-modified:  2016-01-05T10:14:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:9d20:4::/48
+descr:          LeaseWeb CDN PoP4
+origin:         AS16265
+mnt-by:         LEASEWEBCDN-MNT
+created:        2014-03-05T15:54:49Z
+last-modified:  2015-09-30T08:22:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:9d20:34::/48
+origin:         AS16265
+mnt-by:         LEASEWEBCDN-MNT
+created:        2019-04-15T15:31:17Z
+last-modified:  2019-04-15T15:31:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:9d20:34::/48
+origin:         AS16265
+descr:          LSW-CDN-MAD
+mnt-by:         MAINT-AS16265
+changed:        noc@fiberring.com 20190328  #05:36:19Z
+source:         RADB
+last-modified:  2023-11-13T15:55:46Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:2280::/32
+descr:          LeaseWeb
+origin:         AS16265
+mnt-by:         FBX-MNT
+created:        2012-07-26T08:32:21Z
+last-modified:  2016-01-05T15:05:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

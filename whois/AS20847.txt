@@ -1,0 +1,478 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20847'
+
+% Abuse contact for 'AS20847' is 'abuse@previder.net'
+
+aut-num:        AS20847
+as-name:        PREVIDER-AS
+remarks:        -----------------------------------------------------
+remarks:        Previder peering policy
+remarks:        -----------------------------------------------------
+import:         from AS20847:AS-PREVIDER-PEERS action pref=100; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS20847:AS-PREVIDER-PEERS announce AS20847:AS-PREVIDER
+remarks:        -----------------------------------------------------
+remarks:        AMS-IX routeserver
+remarks:        -----------------------------------------------------
+import:         from AS6777 accept ANY
+export:         to AS6777 action community .= { 6777:6777 }; announce AS20847:AS-PREVIDER
+remarks:        -----------------------------------------------------
+org:            ORG-IB5-RIPE
+admin-c:        PRCR1-RIPE
+tech-c:         PRCR1-RIPE
+remarks:        ======================================================
+remarks:        Peering at AMS-IX (AM7 and (Nikhef)
+remarks:        IPv4 Address: 80.249.208.222
+remarks:        IPv4 Address: 80.249.208.197
+remarks:        IPv6 Address: 2001:7F8:1::A502:847:1/64
+remarks:        IPv6 Address: 2001:7F8:1::A502:847:2/64
+remarks:        Peering at NL-IX (AM7 and Nikhef)
+remarks:        IPv4 Address: 193.239.116.85
+remarks:        IPv4 Address: 193.239.116.86
+remarks:        IPv6 Address: 2001:7F8:13::A502:847:1/48
+remarks:        IPv6 Address: 2001:7F8:13::A502:847:2/48
+remarks:        Peering at NDIX (Equinix and Previder)
+remarks:        IPv4 Address: 193.108.98.241
+remarks:        IPv4 Address: 193.108.98.245
+remarks:        IPv6 Address: 2001:7f8:e::2:847:1
+remarks:        IPv6 Address: 2001:7f8:e::2:847:2
+remarks:        Peering policy: open - requests to: peering@previder.net
+remarks:        ======================================================
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         PREVIDER-MNT
+created:        2002-09-19T11:40:29Z
+last-modified:  2023-01-06T09:05:39Z
+source:         RIPE
+
+organisation:   ORG-IB5-RIPE
+org-name:       Previder B.V.
+country:        NL
+org-type:       LIR
+address:        Postbus 185
+address:        7550 AD
+address:        Hengelo
+address:        NETHERLANDS
+phone:          +31883323333
+fax-no:         +31883323334
+admin-c:        ER233-RIPE
+admin-c:        ND2514-RIPE
+admin-c:        SL12223-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        PREVIDER-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PREVIDER-MNT
+abuse-c:        PRCR1-RIPE
+tech-c:         PRCR1-RIPE
+created:        2004-04-17T11:41:46Z
+last-modified:  2021-06-04T08:40:35Z
+source:         RIPE # Filtered
+
+role:           PREVIDER-NL Contact Role
+address:        Previder BV
+address:        Barnsteenstraat 15
+address:        NL-7554 TC Hengelo
+address:        NETHERLANDS
+phone:          +31 883323333
+fax-no:         +31 883323334
+abuse-mailbox:  abuse@previder.net
+admin-c:        RD9037-RIPE
+tech-c:         NICD
+tech-c:         ER233-RIPE
+tech-c:         SL12223-RIPE
+tech-c:         MO7839-RIPE
+tech-c:         RS27208-RIPE
+nic-hdl:        PRCR1-RIPE
+mnt-by:         PREVIDER-MNT
+created:        2011-07-05T11:57:59Z
+last-modified:  2024-02-16T08:25:27Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          31.7.0.0/22
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2017-09-20T12:55:31Z
+last-modified:  2017-09-20T12:55:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.7.4.0/22
+descr:          NL-PREVIDER - Shock Media IPv4 Network
+origin:         AS20847
+notify:         ripe-lir@previder.net
+mnt-by:         PREVIDER-MNT
+created:        2012-12-27T13:56:49Z
+last-modified:  2012-12-27T13:56:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.165.64.0/18
+descr:          Previder BV - NL
+origin:         AS20847
+mnt-by:         INTROWEB-MNT
+mnt-by:         PREVIDER-MNT
+created:        2002-09-25T13:18:18Z
+last-modified:  2023-05-03T08:04:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.65.96.0/19
+descr:          Previder BV - NL
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2003-03-06T10:26:36Z
+last-modified:  2012-01-31T08:05:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.241.128.0/18
+descr:          Previder BV - NL
+origin:         AS20847
+mnt-by:         INTROWEB-MNT
+mnt-by:         PREVIDER-MNT
+created:        2004-06-29T07:13:43Z
+last-modified:  2023-05-03T08:05:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.217.146.0/24
+descr:          Van Meijel Beheerservice B.V.
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2023-11-06T15:20:27Z
+last-modified:  2023-11-06T15:20:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          141.138.168.0/22
+descr:          NL-ANTAGONIST-20090921
+descr:          Antagonist B.V., Enschede, NL
+origin:         AS20847
+mnt-by:         ANTAGONIST-MNT
+created:        2023-03-17T13:06:44Z
+last-modified:  2023-03-17T13:07:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.144.224.0/23
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2016-07-08T11:47:39Z
+last-modified:  2016-07-08T11:47:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.158.200.0/22
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2016-07-13T13:36:24Z
+last-modified:  2016-07-13T13:36:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.105.12.0/24
+origin:         AS20847
+descr:          Addsoft PI-space
+mnt-by:         PREVIDER-MNT
+created:        2021-06-18T14:13:23Z
+last-modified:  2021-06-18T14:13:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.60.212.0/22
+descr:          NETZOZEKER B.V
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2016-01-04T12:01:10Z
+last-modified:  2016-01-04T12:01:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.62.82.0/23
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2017-01-30T08:34:34Z
+last-modified:  2017-01-30T08:34:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.211.72.0/22
+descr:          NL-ANTAGONIST-20090921
+descr:          Antagonist B.V., Enschede, NL
+origin:         AS20847
+mnt-by:         ANTAGONIST-MNT
+created:        2020-12-11T12:13:20Z
+last-modified:  2020-12-11T12:13:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:678:2f0::/48
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2018-11-28T11:44:53Z
+last-modified:  2018-11-28T11:44:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:67c:78::/48
+descr:          NL-NETZOZEKER-IPV6
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2016-02-03T12:47:06Z
+last-modified:  2016-02-03T12:47:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:67c:1250::/48
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2024-06-03T11:13:06Z
+last-modified:  2024-06-03T11:13:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:1690::/32
+descr:          NL-PREVIDER-IPV6
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2008-03-18T09:26:14Z
+last-modified:  2012-03-07T11:55:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:3c00::/32
+origin:         AS20847
+descr:          NL-ANTAGONIST-20110112
+mnt-by:         ANTAGONIST-MNT
+created:        2020-12-11T12:09:47Z
+last-modified:  2020-12-11T12:09:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:3c00::/33
+origin:         AS20847
+descr:          NL-ANTAGONIST-20230327
+mnt-by:         ANTAGONIST-MNT
+created:        2023-03-27T13:36:06Z
+last-modified:  2023-03-27T13:36:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:3c00:8000::/34
+origin:         AS20847
+descr:          NL-ANTAGONIST-20230327
+mnt-by:         ANTAGONIST-MNT
+created:        2023-03-27T13:37:20Z
+last-modified:  2023-03-27T13:37:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:9700::/33
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2017-09-20T12:59:44Z
+last-modified:  2017-09-20T12:59:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:9700:8000::/33
+descr:          NL-PREVIDER - Shock Media IPv6 Network
+notify:         ripe-lir@previder.net
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2012-12-27T13:56:49Z
+last-modified:  2012-12-27T13:56:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a04:c980::/32
+origin:         AS20847
+mnt-by:         PREVIDER-MNT
+created:        2025-08-14T09:11:25Z
+last-modified:  2025-08-14T09:11:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

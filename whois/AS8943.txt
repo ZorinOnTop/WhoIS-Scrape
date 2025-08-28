@@ -1,0 +1,629 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8943'
+
+% Abuse contact for 'AS8943' is 'abuse@jump.net.uk'
+
+aut-num:        AS8943
+as-name:        JUMP
+org:            ORG-KNL2-RIPE
+remarks:        =========================================================
+remarks:        Upstreams
+mp-import:      afi ipv4 from AS1299 action pref=90; accept AS1299:AS-TWELVE99-V4
+mp-import:      afi ipv6 from AS1299 action pref=90; accept AS1299:AS-TWELVE99-V6
+mp-import:      from AS1299 action pref=40; accept ANY
+mp-export:      to AS1299 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS5405 action pref=90; accept AS5405:AS-INTERDOTLINK
+mp-import:      from AS5405 action pref=40; accept ANY
+mp-export:      to AS5405 announce AS8943:AS-CUSTOMERS
+remarks:        =========================================================
+remarks:        Customers
+mp-import:      from AS8676 action pref=999; accept AS8676 AND AS-PSYS
+mp-export:      to AS8676 announce AS8943:AS-CUSTOMERS AND ANY
+mp-import:      from AS24865 action pref=999; accept AS24865
+mp-export:      to AS24865 announce AS8943:AS-CUSTOMERS AND ANY
+mp-import:      from AS43915 action pref=999; accept AS43915 AND AS-TRUESPEED
+mp-export:      to AS43915 announce AS8943:AS-CUSTOMERS AND ANY
+mp-import:      from AS43950 action pref=999; accept AS43950 AND AS-SPILSBY
+mp-export:      to AS43950 announce AS8943:AS-CUSTOMERS AND ANY
+mp-import:      from AS44671 action pref=999; accept AS44671 AND AS-SKN
+mp-export:      to AS44671 announce AS8943:AS-CUSTOMERS AND ANY
+mp-import:      from AS44934 action pref=999; accept AS44934
+mp-export:      to AS44934 announce AS8943:AS-CUSTOMERS AND ANY
+mp-import:      from AS50763 action pref=999; accept AS50763 AND AS-MCKAY
+mp-export:      to AS50763 announce AS8943:AS-CUSTOMERS AND ANY
+remarks:        =========================================================
+remarks:        Peers
+mp-import:      from AS42 action pref=100; accept AS-PCH
+mp-export:      to AS42 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS714 action pref=100; accept AS-APPLE
+mp-export:      to AS714 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS786 action pref=100; accept AS-JANETPLUS
+mp-export:      to AS786 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS2119 action pref=100; accept AS-TELENOR
+mp-export:      to AS2119 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS2603 action pref=100; accept AS-NORDUNET
+mp-export:      to AS2603 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS2818 action pref=100; accept AS-BBC
+mp-export:      to AS2818 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS2906 action pref=100; accept as-nflx
+mp-export:      to AS2906 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS3213 action pref=100; accept AS-BOGONS
+mp-export:      to AS3213 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS3741 action pref=100; accept AS-IS
+mp-export:      to AS3741 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS3856 action pref=100; accept AS-PCH
+mp-export:      to AS3856 announce AS8943:AS-CUSTOMERS
+import:         from AS5089 action pref=100; accept AS-NTLI
+export:         to AS5089 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS5378 action pref=100; accept AS5378:AS-CWW
+mp-export:      to AS5378 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS5413 action pref=100; accept AS5413:AS-CUSTOMER AS5413:RS-CUSTOMER
+mp-export:      to AS5413 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS5459 action pref=100; accept AS-LINX
+mp-export:      to AS5459 announce AS8943:AS-CUSTOMERS
+import:         from AS5466 action pref=100; accept AS-EIRCOM
+export:         to AS5466 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS5607 action pref=100; accept AS-BSKYB-BROADBAND
+mp-export:      to AS5607 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS6461 action pref=100; accept AS-MFNX
+mp-export:      to AS6461 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS6661 action pref=100; accept AS-PTLU
+mp-export:      to AS6661 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS6894 action pref=100; accept AS-KDDIEU
+mp-export:      to AS6894 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS6939 action pref=100; accept AS-HURRICANE
+mp-export:      to AS6939 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS7342 action pref=100; accept AS-GTLD
+mp-export:      to AS7342 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8075 action pref=100; accept AS-MICROSOFT
+mp-export:      to AS8075 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8282 action pref=100; accept AS-FIDONET
+mp-export:      to AS8282 announce AS8943:AS-CUSTOMERS
+import:         from AS8359 action pref=100; accept AS-MTU
+mp-import:      afi ipv6.unicast from AS8359 action pref=100; accept AS-MTU-V6
+mp-export:      to AS8359 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8426 action pref=100; accept AS-CLARANET
+mp-export:      to AS8426 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8468 action pref=100; accept AS-ENTANET
+mp-export:      to AS8468 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8530 action pref=100; accept AS-EXCELL
+mp-export:      to AS8530 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8560 action pref=100; accept AS-1AND1
+mp-export:      to AS8560 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8607 action pref=100; accept AS-TIMICO
+mp-export:      to AS8607 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8674 action pref=100; accept AS-NETNOD
+mp-export:      to AS8674 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8681 action pref=100; accept AS-JERSEYTELECOM
+mp-export:      to AS8681 announce AS8943:AS-CUSTOMERS
+import:         from AS8683 action pref=100; accept AS-NOMINET
+export:         to AS8683 announce AS8943:AS-CUSTOMERS
+import:         from AS8708 action pref=100; accept AS-RDSNET
+mp-import:      afi ipv6.unicast from AS8708 action pref=100; accept AS-RDSNET6
+mp-export:      to AS8708 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8781 action pref=100; accept AS-QTEL-SET
+mp-export:      to AS8781 announce AS8943:AS-CUSTOMERS
+import:         from AS8851 action pref=100; accept AS-GCICOM
+export:         to AS8851 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS8902 action pref=100; accept AS-IFB
+mp-export:      to AS8902 announce AS8943:AS-CUSTOMERS
+import:         from AS9009 action pref=100; accept AS-GBXS
+mp-import:      afi ipv6.unicast from AS9009 action pref=100; accept AS-GBXS6
+mp-export:      to AS9009 announce AS8943:AS-CUSTOMERS
+import:         from AS9145 action pref=100; accept AS-EWETEL
+export:         to AS9145 announce AS8943:AS-CUSTOMERS
+import:         from AS12390 action pref=100; accept AS-KINGSTONUK
+export:         to AS12390 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS12496 action pref=100; accept AS-IDNET
+mp-export:      to AS12496 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS12552 action pref=100; accept AS-IPO
+mp-export:      to AS12552 announce AS8943:AS-CUSTOMERS
+import:         from AS12703 action pref=100; accept AS-LUMISON
+mp-import:      afi ipv6.unicast from AS12703 action pref=100; accept AS-LUMISON-V6
+mp-export:      to AS12703 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS12713 action pref=100; accept AS-OTEGLOBE
+mp-export:      to AS12713 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS12759 action pref=100; accept AS-SOCO
+mp-export:      to AS12759 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS13009 action pref=100; accept AS-REDCENTRIC
+mp-export:      to AS13009 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS13030 action pref=100; accept AS-INIT7
+mp-export:      to AS13030 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS13037 action pref=100; accept AS-ZEN
+mp-export:      to AS13037 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS13285 action pref=100; accept AS-OPAL
+mp-export:      to AS13285 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS13335 action pref=100; accept AS13335
+mp-export:      to AS13335 announce AS8943:AS-CUSTOMERS
+import:         from AS13445 action pref=100; accept AS13445
+export:         to AS13445 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS14061 action pref=100; accept AS-14061
+mp-export:      to AS14061 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS15169 action pref=100; accept AS-GOOGLE
+mp-export:      to AS15169 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS15830 action pref=100; accept AS-EQUINIX
+mp-export:      to AS15830 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS16247 action pref=100; accept AS-M247
+mp-export:      to AS16247 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS16265 action pref=100; accept AS-LEASEWEB
+mp-export:      to AS16265 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS16276 action pref=100; accept AS-OVH
+mp-export:      to AS16276 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS16509 action pref=100; accept AS-AMAZON
+mp-export:      to AS16509 announce AS8943:AS-CUSTOMERS
+import:         from AS17088 action pref=100; accept AS17088
+export:         to AS17088 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS18106 action pref=100; accept AS18106
+mp-export:      to AS18106 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS19679 action pref=100; accept AS-DROPBOX
+mp-export:      to AS19679 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS20253 action pref=100; accept AS-20253
+mp-export:      to AS20253 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS20562 action pref=100; accept AS-OPENPEERING-EU
+mp-export:      to AS20562 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS20773 action pref=100; accept AS20773:AS-HOSTEUROPE
+mp-export:      to AS20773 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS20799 action pref=100; accept AS-DATANETUK
+mp-export:      to AS20799 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS20860 action pref=100; accept AS-IOMART
+mp-export:      to AS20860 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS20940 action pref=100; accept AS-AKAMAI
+mp-export:      to AS20940 announce AS8943:AS-CUSTOMERS
+import:         from AS21099 action pref=100; accept AS-GAMEGROUP-LINX
+export:         to AS21099 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS21396 action pref=100; accept AS-NETCONNEX
+mp-export:      to AS21396 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS21859 action pref=100; accept AS-ZENLAYER
+mp-export:      to AS21859 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS22697 action pref=100; accept AS-ROBLOX
+mp-export:      to AS22697 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS23344 action pref=100; accept AS-DSS-ALL
+mp-export:      to AS23344 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS24482 action pref=100; accept AS-SGGS
+mp-export:      to AS24482 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS24940 action pref=100; accept AS-HETZNER
+mp-export:      to AS24940 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS25160 action pref=100; accept AS-VORBOSS
+mp-export:      to AS25160 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS25180 action pref=100; accept AS-EXPONENTIAL-e
+mp-export:      to AS25180 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS25369 action pref=100; accept AS-BANDWIDTH
+mp-export:      to AS25369 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS25577 action pref=100; accept AS-C4L
+mp-export:      to AS25577 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS29075 action pref=100; accept AS-IELO
+mp-export:      to AS29075 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS29527 action pref=100; accept AS-OTHELLOTECH
+mp-export:      to AS29527 announce AS8943:AS-CUSTOMERS
+import:         from AS29550 action pref=100; accept AS-AS29550
+mp-import:      afi ipv6.unicast from AS29550 action pref=100; accept AS-AS29550-V6
+mp-export:      to AS29550 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS30844 action pref=100; accept AS-ECS
+mp-export:      to AS30844 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS31084 action pref=100; accept AS-MAGRATHEA
+mp-export:      to AS31084 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS31122 action pref=100; accept AS-DIGIWEB
+mp-export:      to AS31122 announce AS8943:AS-CUSTOMERS
+import:         from AS31459 action pref=100; accept AS31459
+export:         to AS31459 announce AS8943:AS-CUSTOMERS
+import:         from AS31655 action pref=100; accept AS-GAMMATELECOM
+export:         to AS31655 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS31708 action pref=100; accept AS-COREIX
+mp-export:      to AS31708 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS32590 action pref=100; accept AS-VALVE
+mp-export:      to AS32590 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS32787 action pref=100; accept AS-PROLE
+mp-export:      to AS32787 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS32934 action pref=100; accept AS-FACEBOOK
+mp-export:      to AS32934 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS33891 action pref=100; accept AS-CORE-BACKBONE
+mp-export:      to AS33891 announce AS8943:AS-CUSTOMERS
+import:         from AS34066 action pref=100; accept AS-TELAPPLIANT
+export:         to AS34066 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS34224 action pref=100; accept AS-NETERRA-INT
+mp-export:      to AS34224 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS34245 action pref=100; accept AS-MAGNETLOCAL
+mp-export:      to AS34245 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS34288 action pref=100; accept AS34288:AS-IX:AS-LINX
+mp-export:      to AS34288 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS34442 action pref=100; accept AS-XIFOS
+mp-export:      to AS34442 announce AS8943:AS-CUSTOMERS
+import:         from AS34555 action pref=100; accept AS-CCSLEEDS
+export:         to AS34555 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS34790 action pref=100; accept AS-WAVEWORKS
+mp-export:      to AS34790 announce AS8943:AS-CUSTOMERS
+import:         from AS35228 action pref=100; accept AS35228
+export:         to AS35228 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS36351 action pref=100; accept AS-SOFTLAYER
+mp-export:      to AS36351 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS36944 action pref=100; accept AS-TERTIARY
+mp-export:      to AS36944 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS39202 action pref=100; accept AS-GCAP
+mp-export:      to AS39202 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS39351 action pref=100; accept AS-ESAB
+mp-export:      to AS39351 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS39545 action pref=100; accept AS-FLUIDATA
+mp-export:      to AS39545 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS39572 action pref=100; accept AS-ADVANCEDHOSTERS
+mp-export:      to AS39572 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS40027 action pref=100; accept AS40027
+mp-export:      to AS40027 announce AS8943:AS-CUSTOMERS
+import:         from AS41230 action pref=100; accept AS-ASK4
+export:         to AS41230 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS41354 action pref=100; accept AS-ITSTG
+mp-export:      to AS41354 announce AS8943:AS-CUSTOMERS
+import:         from AS41678 action pref=100; accept AS-TIBUS
+export:         to AS41678 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS41695 action pref=100; accept AS-VOSTRON
+mp-export:      to AS41695 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS41811 action pref=100; accept AS41811
+mp-export:      to AS41811 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS42353 action pref=100; accept AS-SIMWOOD
+mp-export:      to AS42353 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS42689 action pref=100; accept AS-INUK
+mp-export:      to AS42689 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS42708 action pref=100; accept AS-PORTLANE
+mp-export:      to AS42708 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS42831 action pref=100; accept AS-UKSERVERS
+mp-export:      to AS42831 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS43996 action pref=100; accept AS-BOOKING
+mp-export:      to AS43996 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS44444 action pref=100; accept AS-WHS-EU
+mp-export:      to AS44444 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS44684 action pref=100; accept AS-MYTHIC
+mp-export:      to AS44684 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS45014 action pref=100; accept AS-HOSTIT-MK
+mp-export:      to AS45014 announce AS8943:AS-CUSTOMERS
+import:         from AS46489 action pref=100; accept AS46489
+export:         to AS46489 announce AS8943:AS-CUSTOMERS
+import:         from AS47480 action pref=100; accept AS-BTS
+export:         to AS47480 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS48101 action pref=100; accept AS-CALLFLOW
+mp-export:      to AS48101 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS49375 action pref=100; accept AS-TRUNKNETWORKS
+mp-export:      to AS49375 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS49544 action pref=100; accept AS-INTERACTIVE3D
+mp-export:      to AS49544 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS50300 action pref=100; accept as-custdc
+mp-export:      to AS50300 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS51561 action pref=100; accept AS-ICUK
+mp-export:      to AS51561 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS54113 action pref=100; accept AS-FASTLY
+mp-export:      to AS54113 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS51918 action pref=100; accept AS-CERBERUSNETWORKS
+mp-export:      to AS51918 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS54825 action pref=100; accept AS-PACKET
+mp-export:      to AS54825 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS56478 action pref=100; accept AS56478
+mp-export:      to AS56478 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS56595 action pref=100; accept AS-FLUENCY
+mp-export:      to AS56595 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS57976 action pref=100; accept AS-BLIZZARD
+mp-export:      to AS57976 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS61012 action pref=100; accept AS-LIVEDRIVE
+mp-export:      to AS61012 announce AS8943:AS-CUSTOMERS
+import:         from AS62044 action pref=100; accept AS-ZSCALER-EMEA
+export:         to AS62044 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS63949 action pref=100; accept AS-LINODE
+mp-export:      to AS63949 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS137409 action pref=100; accept AS137409:AS-ALL
+mp-export:      to AS137409 announce AS8943:AS-CUSTOMERS
+mp-import:      from AS396986 action pref=100; accept AS-BYTEDANCE
+mp-export:      to AS396986 announce AS8943:AS-CUSTOMERS
+remarks:        =========================================================
+admin-c:        JUMP-RIPE
+tech-c:         JUMP-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         JUMP-MNT
+created:        2002-07-04T18:56:46Z
+last-modified:  2025-06-28T11:15:27Z
+source:         RIPE
+
+organisation:   ORG-KNL2-RIPE
+org-name:       Jump Networks Ltd
+country:        GB
+org-type:       LIR
+address:        9 Caxton House,
+                Broad Street
+address:        CB23 6JN
+address:        Cambridge
+address:        UNITED KINGDOM
+phone:          +440000000000
+abuse-c:        JUMP-RIPE
+admin-c:        JUMP-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        JUMP-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         JUMP-MNT
+created:        2004-04-17T12:17:28Z
+last-modified:  2022-11-09T10:23:24Z
+source:         RIPE # Filtered
+
+role:           JUMP TECH
+address:        London
+admin-c:        JMSR-RIPE
+tech-c:         JMSR-RIPE
+tech-c:         NICK-RIPE
+nic-hdl:        JUMP-RIPE
+mnt-by:         JUMP-MNT
+created:        2001-10-20T19:02:48Z
+last-modified:  2018-03-22T03:15:32Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@jump.net.uk
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          46.255.72.0/21
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2018-06-21T16:48:16Z
+last-modified:  2018-06-21T16:48:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.138.62.0/24
+origin:         AS8943
+mnt-by:         mnt-uk-blackbirdvideo-1
+created:        2021-08-17T12:26:12Z
+last-modified:  2021-08-17T12:26:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.119.80.0/21
+descr:          Bitfolk Ltd /21 PA
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2010-03-11T16:57:37Z
+last-modified:  2010-03-11T16:57:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.73.44.0/22
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2014-10-15T14:51:00Z
+last-modified:  2024-03-12T14:00:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.98.212.0/23
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2023-10-20T14:55:17Z
+last-modified:  2023-10-20T14:55:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.33.11.0/24
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2015-09-24T18:32:33Z
+last-modified:  2024-03-12T14:01:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.153.169.0/24
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2024-12-09T20:32:07Z
+last-modified:  2024-12-09T20:32:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          203.11.114.0/24
+origin:         AS8943
+descr:          Australian Public Access Network Association Inc
+                77 Gerzalia Dr.
+mnt-by:         MAINT-APANAI-AU
+last-modified:  2022-05-25T10:54:29Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          212.13.192.0/19
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-03-12T14:00:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:ba8::/32
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2008-02-11T13:45:26Z
+last-modified:  2024-03-12T14:01:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:baa::/32
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2024-03-12T14:02:13Z
+last-modified:  2024-03-12T14:02:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:baf::/32
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2024-11-04T20:18:06Z
+last-modified:  2024-11-04T20:18:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:a400::/32
+descr:          IP6net Ltd IPv6 /32
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2011-01-27T01:10:28Z
+last-modified:  2011-01-27T01:10:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a05:5a40::/32
+origin:         AS8943
+mnt-by:         mnt-uk-blackbirdvideo-1
+created:        2024-01-02T11:42:29Z
+last-modified:  2024-01-02T11:42:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a05:5a42::/32
+origin:         AS8943
+mnt-by:         mnt-uk-blackbirdvideo-1
+created:        2021-08-17T12:21:53Z
+last-modified:  2021-08-17T12:21:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a06:ec0::/32
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2018-06-20T22:47:14Z
+last-modified:  2018-06-20T22:47:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0a:1100::/32
+descr:          Bitfolk Ltd IPv6 /32
+origin:         AS8943
+mnt-by:         JUMP-MNT
+created:        2024-01-31T13:55:46Z
+last-modified:  2024-01-31T13:55:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

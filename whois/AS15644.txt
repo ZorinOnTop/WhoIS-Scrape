@@ -1,0 +1,165 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15644'
+
+% Abuse contact for 'AS15644' is 'info@fresenius.de'
+
+aut-num:        AS15644
+as-name:        FRESENIUS
+org:            ORG-FA460-RIPE
+import:         from AS9132 action pref=100; accept ANY
+mp-import:      afi ipv6.unicast from AS9132 accept ANY
+import:         from AS8220 action pref=200; accept ANY
+mp-import:      afi ipv6.unicast from AS8220 accept ANY
+mp-import:      afi ipv6.unicast from AS3320 accept ANY
+export:         to AS9132 announce AS15644
+mp-export:      afi ipv6.unicast to AS9132 announce AS-FRESENIUS
+mp-export:      afi ipv6.unicast to AS3320 announce AS-FRESENIUS
+export:         to AS8220 announce AS15644
+mp-export:      afi ipv6.unicast to AS8220 announce AS-FRESENIUS
+export:         to AS3491 announce AS15644
+export:         to AS3320 announce AS15644
+export:         to AS7922 announce AS15644
+import:         from AS3491 action pref=300; accept ANY
+import:         from AS7922 action pref=300; accept ANY
+import:         from AS3320 action pref=100; accept ANY
+admin-c:        MS52998-RIPE
+tech-c:         MS52998-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         FRESENIUS-MNT
+created:        2002-08-15T13:37:38Z
+last-modified:  2021-07-21T10:52:06Z
+source:         RIPE
+sponsoring-org: ORG-FNG3-RIPE
+
+organisation:   ORG-FA460-RIPE
+org-name:       Fresenius SE & Co. KGaA
+country:        DE
+org-type:       OTHER
+address:        Fresenius AG
+abuse-c:        AC30921-RIPE
+mnt-ref:        FRESENIUS-MNT
+mnt-by:         FRESENIUS-MNT
+created:        2013-01-08T07:19:33Z
+last-modified:  2025-01-03T14:23:04Z
+source:         RIPE # Filtered
+
+person:         Maximilian Schmidt
+address:        Fresenius Netcare GmbH
+address:        Else-Kroener-Str. 1
+address:        61352 Bad Homburg
+phone:          +49 6172 608 0
+fax-no:         +49 6172 608 7858
+nic-hdl:        MS52998-RIPE
+mnt-by:         FRESENIUS-MNT
+created:        2021-07-21T09:47:38Z
+last-modified:  2021-07-21T09:47:38Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          5.61.64.0/21
+descr:          DE-FRESENIUS
+origin:         AS15644
+mnt-by:         FRESENIUS-MNT
+created:        2012-06-15T10:48:14Z
+last-modified:  2012-06-15T10:48:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.61.70.0/24
+descr:          Comcast Cable Communications, Inc.
+                1800 Bishops Gate Blvd
+                Mt Laurel, NJ  08054
+origin:         AS15644
+remarks:        Proxy add for customer Fenwal Inc.
+mnt-by:         MAINT-AS7922
+changed:        chris_johnson8@cable.comcast.com 20180118
+source:         RADB
+last-modified:  2023-11-13T15:54:23Z
+rpki-ov-state:  valid
+
+route:          5.61.71.0/24
+descr:          Comcast Cable Communications, Inc.
+                1800 Bishops Gate Blvd
+                Mt Laurel, NJ  08054
+origin:         AS15644
+remarks:        Proxy add for customer Fenwal Inc.
+mnt-by:         MAINT-AS7922
+changed:        chris_johnson8@cable.comcast.com 20180118
+source:         RADB
+last-modified:  2023-11-13T15:54:23Z
+rpki-ov-state:  valid
+
+route:          193.41.37.0/24
+descr:          FRESENIUS-PI
+origin:         AS15644
+mnt-by:         FRESENIUS-MNT
+created:        2002-05-21T15:34:19Z
+last-modified:  2023-05-21T23:33:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          208.88.2.0/23
+descr:          Comcast Cable Communications, Inc.
+                1800 Bishops Gate Blvd
+                Mt Laurel, NJ 08054
+origin:         AS15644
+remarks:        Proxy add for EDIA customer Fresenius Kabi Fenwall Inc
+mnt-by:         MAINT-AS7922
+changed:        orin_flaharty@cable.comcast.com 20170809
+source:         RADB
+last-modified:  2023-11-13T15:54:23Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a01:52c0::/32
+descr:          DE-FRESENIUS
+origin:         AS15644
+mnt-by:         FRESENIUS-MNT
+created:        2012-06-15T10:50:28Z
+last-modified:  2012-06-15T10:50:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

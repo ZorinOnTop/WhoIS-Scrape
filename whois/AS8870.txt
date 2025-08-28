@@ -1,0 +1,420 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8870'
+
+% Abuse contact for 'AS8870' is 'noc@ovrtech.com'
+
+aut-num:        AS8870
+as-name:        OVDC-AS
+org:            ORG-OST8-RIPE
+remarks:        -----------------------------------------------------------
+remarks:        -----------------------------------------------------------
+remarks:        Volia:
+import:         from AS25229 action pref=100; accept {0.0.0.0/0}
+export:         to AS25229 announce AS8870:RS-VOLIA
+remarks:        -----------------------------------------------------------
+remarks:        NewTelco:
+remarks:        ------------------------ipv4-------------------------------
+import:         from AS44600 accept ANY
+import:         from AS42896 accept ANY
+import:         from AS50581 accept ANY
+import:         from AS31210 accept AS-DTEL-IX
+import:         from AS13249 accept ANY
+import:         from AS12593 accept ANY
+import:         from AS28917 accept ANY
+import:         from AS50952 accept ANY
+import:         from AS12963 accept ANY
+export:         to AS44600 announce AS-OVOD
+export:         to AS42896 announce AS-OVOD
+export:         to AS50581 announce AS-OVOD
+export:         to AS31210 announce AS-OVOD
+export:         to AS13249 announce AS-OVOD
+export:         to AS12593 announce AS-OVOD
+export:         to AS28917 announce AS-OVOD
+export:         to AS50952 announce AS-OVOD
+export:         to AS12963 announce AS-OVOD
+remarks:        ===========================================================
+import:         from AS57774 accept AS57774
+export:         to AS57774 announce ANY
+remarks:        ------------------------ipv6-------------------------------
+remarks:        it-world-vlan971
+mp-import:      afi ipv6.unicast from AS13249 accept ANY
+mp-export:      afi ipv6.unicast to AS13249 announce AS-OVOD
+remarks:        ===========================================================
+remarks:        For abuse, spam and security reports: abuse@ovdc.com.ua
+remarks:        Network operation center: noc@ovrtech.com
+remarks:        Customers support: abuse@ovdc.com.ua
+remarks:        General information: abuse@ovdc.com.ua
+remarks:        ===========================================================
+admin-c:        OVRT-RIPE
+tech-c:         OVRT-RIPE
+status:         ASSIGNED
+mnt-by:         OVRT-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2007-08-22T08:48:35Z
+last-modified:  2024-07-15T14:56:01Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-ICL20-RIPE
+
+organisation:   ORG-OST8-RIPE
+org-name:       Overseas Technologies LLC
+country:        UA
+org-type:       OTHER
+address:        Murashka St., 4, office 5
+address:        Kyiv, Ukraine, 04050
+remarks:        noc@ovrtech.com
+abuse-c:        AC30910-RIPE
+admin-c:        OVRT-RIPE
+tech-c:         OVRT-RIPE
+mnt-ref:        OVRT-MNT
+mnt-by:         OVRT-MNT
+created:        2015-03-16T10:26:13Z
+last-modified:  2024-07-15T15:00:23Z
+source:         RIPE # Filtered
+
+role:           Overseas Technologies LLC Technical Support Department
+address:        Murashka St., 4, office 5
+address:        Kyiv, Ukraine, 04050
+remarks:        noc@ovrtech.com
+admin-c:        RUL-RIPE
+tech-c:         RUL-RIPE
+nic-hdl:        OVRT-RIPE
+mnt-by:         OVRT-MNT
+created:        2015-03-16T10:12:47Z
+last-modified:  2024-07-15T15:02:21Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          91.197.128.0/23
+descr:          OVDC Volia Route
+origin:         AS8870
+member-of:      AS8870:RS-VOLIA
+mnt-by:         OVDC-MNT
+mnt-routes:     OVDC-MNT
+created:        2010-07-05T10:03:28Z
+last-modified:  2010-09-16T16:25:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.197.130.0/24
+descr:          OVDC Volia Route ( old utel )
+origin:         AS8870
+mnt-by:         OVDC-MNT
+mnt-routes:     OVDC-MNT
+member-of:      AS8870:RS-VOLIA
+created:        2013-05-21T04:16:54Z
+last-modified:  2013-05-21T04:16:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.197.131.0/24
+descr:          Hyper-V customers
+origin:         AS8870
+mnt-by:         OVDC-MNT
+created:        2007-09-11T07:35:51Z
+last-modified:  2019-11-28T08:05:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.222.64.0/23
+origin:         AS8870
+mnt-by:         OVDC-MNT
+mnt-by:         OVRT-MNT
+mnt-by:         RUL-MNT
+created:        2024-12-09T10:29:34Z
+last-modified:  2024-12-09T10:29:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.222.66.0/24
+descr:          Hyper-V customers
+origin:         AS8870
+mnt-by:         OVDC-MNT
+created:        2011-01-06T09:42:50Z
+last-modified:  2019-11-28T07:39:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.222.67.0/24
+descr:          Hyper-V customers
+origin:         AS8870
+mnt-by:         OVDC-MNT
+created:        2012-10-05T08:14:25Z
+last-modified:  2019-11-28T06:59:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.171.240.0/24
+origin:         AS8870
+member-of:      AS8870:RS-TOM
+mnt-by:         RIPE-DB-MNT
+created:        2025-07-03T11:39:09Z
+last-modified:  2025-07-03T15:19:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.171.241.0/24
+origin:         AS8870
+member-of:      AS8870:RS-TOM
+mnt-by:         RIPE-DB-MNT
+created:        2025-07-03T11:39:09Z
+last-modified:  2025-07-03T15:19:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.171.242.0/24
+origin:         AS8870
+member-of:      AS8870:RS-TOM
+mnt-by:         RIPE-DB-MNT
+created:        2025-07-03T11:39:09Z
+last-modified:  2025-07-03T15:19:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.171.243.0/24
+origin:         AS8870
+member-of:      AS8870:RS-TOM
+mnt-by:         RIPE-DB-MNT
+created:        2025-07-03T11:39:09Z
+last-modified:  2025-07-03T15:19:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.171.246.0/24
+origin:         AS8870
+member-of:      AS8870:RS-TOM
+mnt-by:         RIPE-DB-MNT
+created:        2025-07-03T11:39:10Z
+last-modified:  2025-07-03T15:19:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.171.247.0/24
+origin:         AS8870
+member-of:      AS8870:RS-TOM
+mnt-by:         RIPE-DB-MNT
+created:        2025-07-03T11:39:10Z
+last-modified:  2025-07-03T15:19:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.237.72.0/24
+origin:         AS8870
+mnt-by:         K-Link-MNT
+mnt-by:         PROK-MNT
+created:        2022-10-27T18:29:23Z
+last-modified:  2022-10-27T18:29:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.237.73.0/24
+origin:         AS8870
+mnt-by:         K-Link-MNT
+mnt-by:         PROK-MNT
+created:        2022-10-27T18:31:25Z
+last-modified:  2022-10-27T18:31:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.237.74.0/24
+origin:         AS8870
+mnt-by:         K-Link-MNT
+mnt-by:         PROK-MNT
+created:        2018-10-16T16:36:22Z
+last-modified:  2022-10-27T18:32:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.237.75.0/24
+origin:         AS8870
+mnt-by:         K-Link-MNT
+mnt-by:         PROK-MNT
+created:        2018-10-16T16:36:37Z
+last-modified:  2022-10-27T18:34:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.247.60.0/24
+descr:          Kievhosting route
+origin:         AS8870
+mnt-by:         OVDC-MNT
+member-of:      AS8870:RS-VOLIA
+created:        2011-01-06T10:16:15Z
+last-modified:  2011-01-06T10:17:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.66.146.0/23
+descr:          ChP Sokolova Alla Mikhailovna
+origin:         AS8870
+mnt-by:         OVDC-MNT
+member-of:      AS8870:RS-VOLIA
+created:        2011-02-19T11:06:31Z
+last-modified:  2011-02-19T11:06:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.137.218.0/23
+descr:          Kievhosting route
+origin:         AS8870
+mnt-by:         OVDC-MNT
+member-of:      AS8870:RS-VOLIA
+created:        2011-09-16T07:41:33Z
+last-modified:  2011-09-16T07:41:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

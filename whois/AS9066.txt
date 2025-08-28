@@ -1,0 +1,348 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS9066'
+
+% Abuse contact for 'AS9066' is 'abuse@ewetel.de'
+
+aut-num:        AS9066
+as-name:        BCC
+descr:          Hinter dem Turme 12
+descr:          D-38114 Braunschweig
+descr:          Germany
+org:            ORG-ETG2-RIPE
+remarks:        =======================================================================
+import:         FROM AS1299 ACTION pref=80; ACCEPT ANY
+export:         TO AS1299 ANNOUNCE AS-BCC
+import:         FROM AS3745 ACCEPT AS3745
+export:         to AS3745 ANNOUNCE ANY
+import:         FROM AS9145 80.228.235.109 at 80.228.235.110 ACTION pref=80; ACCEPT ANY
+export:         TO AS9145 80.228.235.109 at 80.228.235.110 ANNOUNCE AS-BCC
+remarks:        =======================================================================
+import:         FROM AS12460 ACTION pref=100; ACCEPT AS12460
+export:         TO AS12460 ANNOUNCE ANY
+import:         FROM AS13010 ACTION pref=100; ACCEPT AS13010
+export:         TO AS13010 ANNOUNCE ANY
+import:         FROM AS20810 212.68.66.34 at 212.68.66.33 ACTION pref=100; ACCEPT AS20810
+export:         TO AS20810 212.68.66.34 at 212.68.66.33 ANNOUNCE ANY
+import:         FROM AS24746 212.68.66.58 at 212.68.66.57 ACTION pref=100; ACCEPT AS-REGIOCOM
+export:         TO AS24746 212.68.66.58 at 212.68.66.57 ANNOUNCE ANY
+import:         FROM AS28940 212.68.74.158 at 212.68.74.157 ACTION pref=100; ACCEPT AS28940
+export:         TO AS28940 212.68.74.158 at 212.68.74.157 ANNOUNCE ANY
+import:         FROM AS24956 212.68.66.242 at 212.68.66.241 ACTION pref=100; ACCEPT AS-GAERTNER
+export:         TO AS24956 212.68.66.242 at 212.68.66.241 ANNOUNCE ANY
+import:         FROM AS25481 ACTION pref=210; ACCEPT AS25481
+export:         to AS25481 ANNOUNCE ANY
+import:         FROM AS12460 ACTION pref=100; ACCEPT AS-REGIOWAVE
+export:         to AS12460 ANNOUNCE ANY
+import:         FROM AS9010 ACTION pref=100; ACCEPT AS9010
+export:         TO AS9010 ANNOUNCE ANY
+import:         FROM AS15388 ACTION pref=91; ACCEPT AS-OMC
+export:         TO AS15388 ANNOUNCE AS-BCC
+import:         FROM AS16378 ACTION pref=91; ACCEPT AS-OTTO
+export:         TO AS16378 ANNOUNCE AS-BCC
+import:         FROM AS20694 ACTION pref=91; ACCEPT AS-NMMN
+export:         TO AS20694 ANNOUNCE AS-BCC
+import:         FROM AS12748 ACTION pref=100; ACCEPT AS12748
+export:         TO AS12748 ANNOUNCE ANY
+import:         FROM AS49639 ACTION pref=100; ACCEPT AS-KKHALLIANZ
+export:         TO AS49639 ANNOUNCE ANY
+import:         FROM AS6777 ACCEPT ANY AND NOT <^AS8881 AS9145 AS15169 AS16265 AS20773 AS20940 AS8075 AS12989>
+export:         TO AS6777 ACTION COMMUNITY .= { 6777:6777, 6777:8881, 6777:9145, 6777:15169, 6777:16265, 6777:20773, 6777:20940, 6777:8075, 6777:12989 }; ANNOUNCE AS-BCC
+import:         FROM AS197803 ACCEPT AS197803
+export:         TO AS197803 ANNOUNCE ANY
+remarks:        =======================================================================
+remarks:        ------ ipv6 ------
+mp-import:      afi ipv6.unicast from AS3745 accept AS3745
+mp-export:      afi ipv6.unicast to AS3745 announce ANY
+mp-import:      afi ipv6.unicast from AS28940 accept AS28940
+mp-export:      afi ipv6.unicast to AS28940 announce ANY
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-BCC-V6
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-BCC-V6
+remarks:        =======================================================================
+admin-c:        ETH1-RIPE
+tech-c:         ETH1-RIPE
+remarks:        For peering requests contact peering@ewetel.de
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         EWETEL-MNT
+created:        2002-09-24T14:54:00Z
+last-modified:  2023-05-03T11:15:40Z
+source:         RIPE # Filtered
+
+organisation:   ORG-ETG2-RIPE
+org-name:       EWE TEL GmbH
+country:        DE
+org-type:       LIR
+address:        Cloppenburger Strasse 310
+address:        26133
+address:        Oldenburg
+address:        GERMANY
+phone:          +49 441 8000 2773
+fax-no:         +49 441 8000 2699
+admin-c:        SB6944-RIPE
+admin-c:        GERD1-RIPE
+admin-c:        NOBY-RIPE
+admin-c:        MM6401-RIPE
+admin-c:        DW5948-RIPE
+admin-c:        ETH1-RIPE
+abuse-c:        ETH1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        EWETEL-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         EWETEL-MNT
+created:        2004-04-17T11:07:13Z
+last-modified:  2023-09-14T07:12:47Z
+source:         RIPE # Filtered
+
+role:           EWE TEL Hostmaster
+abuse-mailbox:  abuse@ewetel.de
+address:        EWE TEL GmbH
+address:        Cloppenburger Strasse 310
+address:        D-26133 Oldenburg
+address:        Germany
+phone:          +49 441 8000 0
+fax-no:         +49 441 8000 2799
+remarks:        trouble: abuse@ewetel.de
+admin-c:        GERD1-RIPE
+admin-c:        NOBY-RIPE
+admin-c:        MM6401-RIPE
+admin-c:        DW5948-RIPE
+admin-c:        SB6944-RIPE
+tech-c:         GERD1-RIPE
+tech-c:         MM6401-RIPE
+tech-c:         DW5948-RIPE
+tech-c:         NOBY-RIPE
+tech-c:         SB6944-RIPE
+nic-hdl:        ETH1-RIPE
+mnt-by:         EWETEL-MNT
+created:        2002-05-27T08:10:59Z
+last-modified:  2023-09-14T10:11:25Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          62.89.160.0/19
+descr:          DE-BCC-20030627
+origin:         AS9066
+mnt-by:         EWETEL-MNT
+created:        2003-06-27T13:10:14Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.89.162.0/24
+origin:         AS9066
+mnt-by:         EWETEL-MNT
+created:        2017-04-18T15:32:11Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.89.164.0/24
+origin:         AS9066
+mnt-by:         EWETEL-MNT
+created:        2017-04-18T15:35:09Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.89.165.0/24
+origin:         AS9066
+mnt-by:         EWETEL-MNT
+created:        2017-04-18T15:35:09Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          103.9.183.0/24
+descr:          BCC Business Communication Company - GmbH
+origin:         AS9066
+notify:         net-support@ap.equinix.com
+notify:         ap-noc@ap.equinix.com
+mnt-by:         MAINT-EQUINIXSGW
+changed:        Robertson-madridejos.torres@ap.equinix.com 20120821
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.45.204.0/22
+descr:          DE-BCC-HARZDSL
+origin:         AS9066
+mnt-routes:     LHAS-MNT
+mnt-by:         EWETEL-MNT
+created:        2014-01-27T17:23:40Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.30.64.0/23
+descr:          ITEBS
+origin:         AS9066
+mnt-by:         EWETEL-MNT
+created:        2016-03-01T15:50:58Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.101.32.0/24
+descr:          DELBANCONET
+origin:         AS9066
+mnt-routes:     MNT-LKG
+mnt-by:         EWETEL-MNT
+created:        2001-12-12T10:44:47Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.108.222.0/24
+descr:          DE-BCC-193.108.222.0
+origin:         AS9066
+mnt-by:         EWETEL-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.137.216.0/23
+descr:          PDV-Systeme
+origin:         AS9066
+mnt-routes:     DTAG-RR
+mnt-routes:     mnt-de-pdv-systeme-1
+mnt-by:         EWETEL-MNT
+created:        2003-12-01T13:07:23Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.68.64.0/19
+descr:          DE-BCC-212-68-64
+origin:         AS9066
+mnt-by:         EWETEL-MNT
+created:        2002-01-24T14:29:03Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.252.128.0/18
+descr:          DE-BCC-213-252-128
+origin:         AS9066
+mnt-by:         EWETEL-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:ac00::/32
+descr:          DE-BCC-2A01-AC00
+origin:         AS9066
+mnt-by:         EWETEL-MNT
+created:        2011-06-01T07:26:44Z
+last-modified:  2025-06-25T13:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

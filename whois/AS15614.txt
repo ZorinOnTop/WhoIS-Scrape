@@ -1,0 +1,567 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15614'
+
+% Abuse contact for 'AS15614' is 'abuse@dragon.cz'
+
+aut-num:        AS15614
+as-name:        Dragon
+descr:          Dragon Internet a.s.
+descr:          Pod Loretou 883
+descr:          Kosmonosy
+org:            ORG-TDDE1-RIPE
+admin-c:        DIA883-RIPE
+tech-c:         DIT883-RIPE
+remarks:        For information on "status:" attribute read https://www.ripe.net/data-tools/db/faq/faq-status-values-legacy-resources
+status:         ASSIGNED
+mnt-by:         DRAGON-MNT
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ---------------------------------------------------------------
+remarks:        upstream
+remarks:        ---------------------------------------------------------------
+import:         from AS39392  accept   ANY AND NOT AS15614:RS-BOGUS-DFLT
+export:         to   AS39392  announce AS15614:AS-DRAGON
+import:         from AS21430  accept   ANY AND NOT AS15614:RS-BOGUS-DFLT
+export:         to   AS21430  announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        direct peering
+remarks:        ---------------------------------------------------------------
+import:         from AS9080   accept   AS9080
+export:         to   AS9080   announce AS15614:AS-DRAGON
+import:         from AS12570  accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS12570  announce AS15614:AS-DRAGON
+import:         from AS15169  accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS15169  announce AS15614:AS-DRAGON
+import:         from AS24971  accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS24971  announce AS15614:AS-DRAGON
+import:         from AS32934  accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS32934  announce AS15614:AS-DRAGON
+import:         from AS43708  accept   AS43708:AS-METRONET
+export:         to   AS43708  announce ANY AND NOT AS15614:RS-BOGUS
+import:         from AS198346 accept   AS198346
+export:         to   AS198346 announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        customers
+remarks:        ---------------------------------------------------------------
+import:         from AS197444 accept   AS197444
+export:         to   AS197444 announce { 0.0.0.0/0 }
+import:         from AS211248 accept   AS211248
+export:         to   AS211248 announce { 0.0.0.0/0 }
+remarks:        ---------------------------------------------------------------
+remarks:        NIX.CZ routeservers
+remarks:        ---------------------------------------------------------------
+import:         from AS47200  91.210.16.1     accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS47200  91.210.16.1     announce AS15614:AS-DRAGON
+import:         from AS47200  91.210.16.2     accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS47200  91.210.16.2     announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        NIX.CZ peering
+remarks:        ---------------------------------------------------------------
+import:         from AS112    91.210.16.238   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS112    91.210.16.238   announce AS15614:AS-DRAGON
+import:         from AS2852   91.210.16.190   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS2852   91.210.16.190   announce AS15614:AS-DRAGON
+import:         from AS2852   91.210.16.191   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS2852   91.210.16.191   announce AS15614:AS-DRAGON
+import:         from AS5610   91.210.16.160   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS5610   91.210.16.160   announce AS15614:AS-DRAGON
+import:         from AS5610   91.210.16.161   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS5610   91.210.16.161   announce AS15614:AS-DRAGON
+import:         from AS6461   91.210.16.228   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS6461   91.210.16.228   announce AS15614:AS-DRAGON
+import:         from AS6507   91.210.16.183   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS6507   91.210.16.183   announce AS15614:AS-DRAGON
+import:         from AS6855   91.210.16.23    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS6855   91.210.16.23    announce AS15614:AS-DRAGON
+import:         from AS6855   91.210.16.26    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS6855   91.210.16.26    announce AS15614:AS-DRAGON
+import:         from AS6881   91.210.16.245   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS6881   91.210.16.245   announce AS15614:AS-DRAGON
+import:         from AS6881   91.210.16.246   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS6881   91.210.16.246   announce AS15614:AS-DRAGON
+import:         from AS6939   91.210.16.201   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS6939   91.210.16.201   announce AS15614:AS-DRAGON
+import:         from AS8075   91.210.16.115   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS8075   91.210.16.115   announce AS15614:AS-DRAGON
+import:         from AS8075   91.210.16.116   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS8075   91.210.16.116   announce AS15614:AS-DRAGON
+import:         from AS8251   91.210.16.73    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS8251   91.210.16.73    announce AS15614:AS-DRAGON
+import:         from AS8251   91.210.16.74    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS8251   91.210.16.74    announce AS15614:AS-DRAGON
+import:         from AS13335  91.210.16.171   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS13335  91.210.16.171   announce AS15614:AS-DRAGON
+import:         from AS15935  91.210.16.45    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS15935  91.210.16.45    announce AS15614:AS-DRAGON
+import:         from AS15935  91.210.16.46    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS15935  91.210.16.46    announce AS15614:AS-DRAGON
+import:         from AS16509  91.210.16.120   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS16509  91.210.16.120   announce AS15614:AS-DRAGON
+import:         from AS16509  91.210.16.121   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS16509  91.210.16.121   announce AS15614:AS-DRAGON
+import:         from AS20723  91.210.16.6     accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS20723  91.210.16.6     announce AS15614:AS-DRAGON
+import:         from AS21430  91.210.16.27    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS21430  91.210.16.27    announce AS15614:AS-DRAGON
+import:         from AS21430  91.210.16.28    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS21430  91.210.16.28    announce AS15614:AS-DRAGON
+import:         from AS25192  91.210.16.3     accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS25192  91.210.16.3     announce AS15614:AS-DRAGON
+import:         from AS25192  91.210.16.13    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS25192  91.210.16.13    announce AS15614:AS-DRAGON
+import:         from AS25234  91.210.16.235   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS25234  91.210.16.235   announce AS15614:AS-DRAGON
+import:         from AS25234  91.210.16.236   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS25234  91.210.16.236   announce AS15614:AS-DRAGON
+import:         from AS26415  91.210.16.63    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS26415  91.210.16.63    announce AS15614:AS-DRAGON
+import:         from AS28972  91.210.16.83    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS28972  91.210.16.83    announce AS15614:AS-DRAGON
+import:         from AS28972  91.210.16.84    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS28972  91.210.16.84    announce AS15614:AS-DRAGON
+import:         from AS32787  91.210.16.200   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS32787  91.210.16.200   announce AS15614:AS-DRAGON
+import:         from AS33891  91.210.16.147   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS33891  91.210.16.147   announce AS15614:AS-DRAGON
+import:         from AS35236  91.210.16.139   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS35236  91.210.16.139   announce AS15614:AS-DRAGON
+import:         from AS35592  91.210.16.34    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS35592  91.210.16.34    announce AS15614:AS-DRAGON
+import:         from AS38949  91.210.16.47    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS38949  91.210.16.47    announce AS15614:AS-DRAGON
+import:         from AS42000  91.210.16.41    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS42000  91.210.16.41    announce AS15614:AS-DRAGON
+import:         from AS42000  91.210.16.42    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS42000  91.210.16.42    announce AS15614:AS-DRAGON
+import:         from AS43413  91.210.16.103   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS43413  91.210.16.103   announce AS15614:AS-DRAGON
+import:         from AS43541  91.210.16.151   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS43541  91.210.16.151   announce AS15614:AS-DRAGON
+import:         from AS43541  91.210.16.152   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS43541  91.210.16.152   announce AS15614:AS-DRAGON
+import:         from AS44522  91.210.16.153   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS44522  91.210.16.153   announce AS15614:AS-DRAGON
+import:         from AS47232  91.210.16.109   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS47232  91.210.16.109   announce AS15614:AS-DRAGON
+import:         from AS47232  91.210.16.143   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS47232  91.210.16.143   announce AS15614:AS-DRAGON
+import:         from AS47868  91.210.16.167   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS47868  91.210.16.167   announce AS15614:AS-DRAGON
+import:         from AS49544  91.210.16.59    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS49544  91.210.16.59    announce AS15614:AS-DRAGON
+import:         from AS50698  91.210.16.158   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS50698  91.210.16.158   announce AS15614:AS-DRAGON
+import:         from AS61296  91.210.16.234   accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS61296  91.210.16.234   announce AS15614:AS-DRAGON
+import:         from AS199803 91.210.16.49    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS199803 91.210.16.49    announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        Peering.cz routeservers
+remarks:        ---------------------------------------------------------------
+import:         from AS61195  185.0.20.1      accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS61195  185.0.20.1      announce AS15614:AS-DRAGON
+import:         from AS61195  185.0.20.2      accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS61195  185.0.20.2      announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        Peering.cz peering
+remarks:        ---------------------------------------------------------------
+import:         from AS42     185.0.20.62     accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS42     185.0.20.62     announce AS15614:AS-DRAGON
+import:         from AS714    185.0.20.5      accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS714    185.0.20.5      announce AS15614:AS-DRAGON
+import:         from AS714    185.0.20.6      accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS714    185.0.20.6      announce AS15614:AS-DRAGON
+import:         from AS6939   185.0.20.118    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS6939   185.0.20.118    announce AS15614:AS-DRAGON
+import:         from AS8075   185.0.20.214    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS8075   185.0.20.214    announce AS15614:AS-DRAGON
+import:         from AS8075   185.0.20.215    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS8075   185.0.20.215    announce AS15614:AS-DRAGON
+import:         from AS13335  185.0.20.102    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS13335  185.0.20.102    announce AS15614:AS-DRAGON
+import:         from AS32934  185.0.20.238    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS32934  185.0.20.238    announce AS15614:AS-DRAGON
+import:         from AS32934  185.0.20.239    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS32934  185.0.20.239    announce AS15614:AS-DRAGON
+import:         from AS33891  185.0.20.30     accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS33891  185.0.20.30     announce AS15614:AS-DRAGON
+import:         from AS39392  185.0.20.100    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS39392  185.0.20.100    announce AS15614:AS-DRAGON
+import:         from AS39392  185.0.20.101    accept   ANY AND NOT AS15614:RS-BOGUS
+export:         to   AS39392  185.0.20.101    announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        IPv6 upstream
+remarks:        ---------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS39392  accept   ANY AND NOT AS15614:RS-BOGUS6-DFLT
+mp-export:      afi ipv6.unicast to   AS39392  announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS21430  accept   ANY AND NOT AS15614:RS-BOGUS6-DFLT
+mp-export:      afi ipv6.unicast to   AS21430  announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        direct IPv6 peering
+remarks:        ---------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS15169  accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS15169  announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS24971  accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS24971  announce AS15614
+mp-import:      afi ipv6.unicast from AS32934  accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS32934  announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS43708  accept   AS43708:AS-METRONET
+mp-export:      afi ipv6.unicast to   AS43708  announce ANY AND NOT AS15614:RS-BOGUS6
+remarks:        ---------------------------------------------------------------
+remarks:        IPv6 customers
+remarks:        ---------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS197444 accept   AS197444
+mp-export:      afi ipv6.unicast to   AS197444 announce { ::/0 }
+mp-import:      afi ipv6.unicast from AS211248 accept   AS211248
+mp-export:      afi ipv6.unicast to   AS211248 announce { ::/0 }
+remarks:        ---------------------------------------------------------------
+remarks:        NIX.CZ IPv6 routeservers
+remarks:        ---------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS47200  2001:7f8:14::11 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS47200  2001:7f8:14::11 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS47200  2001:7f8:14::12 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS47200  2001:7f8:14::12 announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        NIX.CZ IPv6 peering
+remarks:        ---------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS112    2001:7f8:14::238  accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS112    2001:7f8:14::238  announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS2852   2001:7f8:14::1:1  accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS2852   2001:7f8:14::1:1  announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS6461   2001:7f8:14::a5:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS6461   2001:7f8:14::a5:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS2852   2001:7f8:14::1:2  accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS2852   2001:7f8:14::1:2  announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS6855   2001:7f8:14::a7:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS6855   2001:7f8:14::a7:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS6855   2001:7f8:14::a8:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS6855   2001:7f8:14::a8:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS6881   2001:7f8:14::2    accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS6881   2001:7f8:14::2    announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS6881   2001:7f8:14::4    accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS6881   2001:7f8:14::4    announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS6939   2001:7f8:14::6e:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS6939   2001:7f8:14::6e:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS8075   2001:7f8:14::6b:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS8075   2001:7f8:14::6b:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS8075   2001:7f8:14::6b:2 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS8075   2001:7f8:14::6b:2 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS13335  2001:7f8:14::81:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS13335  2001:7f8:14::81:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS15935  2001:7f8:14::2c:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS15935  2001:7f8:14::2c:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS15935  2001:7f8:14::2c:2 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS15935  2001:7f8:14::2c:2 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS16509  2001:7f8:14::67:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS16509  2001:7f8:14::67:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS16509  2001:7f8:14::67:2 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS16509  2001:7f8:14::67:2 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS21430  2001:7f8:14::42:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS21430  2001:7f8:14::42:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS21430  2001:7f8:14::42:2 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS21430  2001:7f8:14::42:2 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS25234  2001:7f8:14::1c:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS25234  2001:7f8:14::1c:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS25234  2001:7f8:14::1c:2 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS25234  2001:7f8:14::1c:2 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS26415  2001:7f8:14::65:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS26415  2001:7f8:14::65:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS32787  2001:7f8:14::2f:2 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS32787  2001:7f8:14::2f:2 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS33891  2001:7f8:14::60:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS33891  2001:7f8:14::60:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS35236  2001:7f8:14::24:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS35236  2001:7f8:14::24:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS43541  2001:7f8:14::41:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS43541  2001:7f8:14::41:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS43541  2001:7f8:14::41:2 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS43541  2001:7f8:14::41:2 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS47232  2001:7f8:14::33:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS47232  2001:7f8:14::33:1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS47232  2001:7f8:14::33:2 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS47232  2001:7f8:14::33:2 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS49544  2001:7f8:14::d7:1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS49544  2001:7f8:14::d7:1 announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        Peering.cz IPv6 routeservers
+remarks:        ---------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS61195  2001:7f8:7f::1 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS61195  2001:7f8:7f::1 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS61195  2001:7f8:7f::2 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS61195  2001:7f8:7f::2 announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+remarks:        Peering.cz IPv6 peering
+remarks:        ---------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS42     2001:7f8:7f::62  accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS42     2001:7f8:7f::62  announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS714    2001:7f8:7f::5   accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS714    2001:7f8:7f::5   announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS714    2001:7f8:7f::6   accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS714    2001:7f8:7f::6   announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS6939   2001:7f8:7f::118 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS6939   2001:7f8:7f::118 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS8075   2001:7f8:7f::214 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS8075   2001:7f8:7f::214 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS8075   2001:7f8:7f::215 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS8075   2001:7f8:7f::215 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS13335  2001:7f8:7f::102 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS13335  2001:7f8:7f::102 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS32934  2001:7f8:7f::238 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS32934  2001:7f8:7f::238 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS32934  2001:7f8:7f::239 accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS32934  2001:7f8:7f::239 announce AS15614:AS-DRAGON
+mp-import:      afi ipv6.unicast from AS33891  2001:7f8:7f::30  accept   ANY AND NOT AS15614:RS-BOGUS6
+mp-export:      afi ipv6.unicast to   AS33891  2001:7f8:7f::30  announce AS15614:AS-DRAGON
+remarks:        ---------------------------------------------------------------
+created:        2002-06-01T18:08:50Z
+last-modified:  2025-07-16T10:05:45Z
+source:         RIPE # Filtered
+
+organisation:   ORG-TDDE1-RIPE
+org-name:       Dragon Internet a.s.
+country:        CZ
+org-type:       LIR
+address:        Pod Loretou 883
+address:        293 06
+address:        Kosmonosy
+address:        CZECH REPUBLIC
+phone:          +420326706156
+admin-c:        MV5267-RIPE
+admin-c:        MG840-RIPE
+abuse-c:        DIA883-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DRAGON-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DRAGON-MNT
+created:        2004-04-17T11:04:18Z
+last-modified:  2021-08-18T08:35:34Z
+source:         RIPE # Filtered
+
+role:           Dragon Internet a.s. admin-c
+address:        Dragon Internet a.s.
+                Pod Loretou 883
+                Kosmonosy
+                29306
+                Czech Republic
+abuse-mailbox:  abuse@dragon.cz
+admin-c:        TD1742-RIPE
+admin-c:        MG840-RIPE
+tech-c:         MG840-RIPE
+tech-c:         MV5267-RIPE
+nic-hdl:        DIA883-RIPE
+mnt-by:         DRAGON-MNT
+created:        2009-01-19T12:14:12Z
+last-modified:  2010-12-10T08:34:23Z
+source:         RIPE # Filtered
+
+role:           Dragon Internet a.s. tech-c
+address:        Dragon Internet a.s.
+                Pod Loretou 883
+                Kosmonosy
+                29306
+                Czech Republic
+abuse-mailbox:  abuse@dragon.cz
+admin-c:        MV5267-RIPE
+admin-c:        MG840-RIPE
+tech-c:         MV5267-RIPE
+tech-c:         MG840-RIPE
+nic-hdl:        DIT883-RIPE
+mnt-by:         DRAGON-MNT
+created:        2009-01-19T12:09:54Z
+last-modified:  2009-01-19T12:09:54Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          31.41.200.0/21
+origin:         AS15614
+mnt-by:         DRAGON-MNT
+created:        2025-02-05T06:36:50Z
+last-modified:  2025-02-05T06:36:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.110.208.0/20
+origin:         AS15614
+mnt-by:         DRAGON-MNT
+created:        2025-02-03T11:09:29Z
+last-modified:  2025-02-03T11:09:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.221.2.0/23
+origin:         AS15614
+mnt-by:         DRAGON-MNT
+created:        2025-02-05T11:06:42Z
+last-modified:  2025-02-05T11:06:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.209.128.0/19
+descr:          Dragon Internet
+descr:          http://www.dragon.cz
+origin:         AS15614
+mnt-by:         DRAGON-MNT
+created:        2010-06-03T16:16:22Z
+last-modified:  2010-06-03T16:17:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.24.20.0/22
+origin:         AS15614
+mnt-by:         DRAGON-MNT
+created:        2025-02-05T06:38:59Z
+last-modified:  2025-02-05T06:38:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.8.86.0/23
+descr:          Dragon Internet
+origin:         AS15614
+mnt-by:         DRAGON-MNT
+created:        2025-07-10T09:43:36Z
+last-modified:  2025-07-10T09:43:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.35.44.0/24
+origin:         AS15614
+mnt-by:         lir-cz-artemis4-1-MNT
+created:        2025-03-24T08:42:30Z
+last-modified:  2025-03-24T08:42:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.168.176.0/20
+descr:          Dragon Internet
+descr:          http://www.dragon.cz
+origin:         AS15614
+mnt-by:         DRAGON-MNT
+created:        2003-04-08T14:33:22Z
+last-modified:  2013-06-07T10:19:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:510::/32
+origin:         AS15614
+mnt-by:         DRAGON-MNT
+created:        2025-01-29T12:37:58Z
+last-modified:  2025-01-29T12:37:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:13b8::/29
+descr:          Dragon Internet
+descr:          http://www.dragon.cz
+origin:         AS15614
+mnt-by:         DRAGON-MNT
+created:        2016-06-15T10:09:01Z
+last-modified:  2016-06-15T10:09:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a04:2a40::/29
+origin:         AS15614
+mnt-by:         lir-cz-artemis4-1-MNT
+created:        2025-03-24T08:43:10Z
+last-modified:  2025-03-24T08:43:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

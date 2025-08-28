@@ -1,0 +1,279 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15835 - AS15963'
+
+as-block:       AS15835 - AS15963
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15844'
+
+% Abuse contact for 'AS15844' is 'abuse@tgnet.de'
+
+aut-num:        AS15844
+as-name:        TGC-AS
+remarks:        Oberursel, Germany
+org:            ORG-tgcG1-RIPE
+remarks:
+remarks:        ==== upstream ====
+remarks:
+remarks:        KPN
+import:         from AS286 action pref=100; accept ANY
+export:         to   AS286 announce AS-TGCTOKPN
+remarks:
+remarks:        COGENT
+import:         from AS174 action pref=100; accept ANY
+export:         to   AS174 announce AS-TGCTOCOGENT
+remarks:
+remarks:        TELIA
+import:         from AS1299 action pref=100; accept ANY
+export:         to   AS1299 announce AS-TGCTOTELIA
+mp-import:      afi ipv6.unicast from AS1299 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to   AS1299 announce AS-TGCTOTELIA
+remarks:
+remarks:        ==== peerings ====
+remarks:
+remarks:        KLEYREX
+import:         from AS31142 action pref=50; accept AS-KLEYREX-RS1
+export:         to   AS31142  announce AS-TGCTOKLEYREX
+remarks:
+remarks:        OPENCARRIER
+import:         from AS41692 action pref=100; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-TGCTOOC
+remarks:
+remarks:        PROBE
+import:         from AS29686 action pref=100; accept AS-PROBENETWORKS
+export:         to   AS29686 announce AS-TGCTOKLEYREX
+remarks:
+remarks:        LAXIN
+import:         from AS34549 action pref=100; accept AS-MEER
+export:         to   AS34549 announce AS-TGCTOKLEYREX
+remarks:
+remarks:        PHOTONIUM
+import:         from AS31572 action pref=100; accept AS-PHOTONIUM
+export:         to   AS31572 announce AS-TGCTOKLEYREX
+remarks:
+remarks:        HURRICANE
+import:         from AS6939  action pref=50; accept AS6939
+export:         to   AS6939  announce AS-TGCTOKLEYREX
+remarks:
+admin-c:        TG45
+tech-c:         TGCN1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TGC-MNT
+created:        2002-06-11T19:39:31Z
+last-modified:  2019-02-19T10:54:52Z
+source:         RIPE # Filtered
+
+organisation:   ORG-tgcG1-RIPE
+org-name:       true global communications GmbH
+country:        DE
+org-type:       LIR
+address:        In der Au 25
+address:        61440
+address:        Oberursel
+address:        GERMANY
+phone:          +4961712915200
+fax-no:         +4961719314444
+admin-c:        TG45
+admin-c:        MR7052-RIPE
+abuse-c:        AAC75-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TGC-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TGC-MNT
+created:        2004-04-17T11:12:55Z
+last-modified:  2022-12-14T09:11:40Z
+source:         RIPE # Filtered
+
+role:           TGNET Netmaster
+address:        true global communications GmbH
+address:        In der Au 25
+address:        D-61440 Oberursel
+address:        Germany
+phone:          +4961712915200
+fax-no:         +4961719314444
+admin-c:        TG45
+tech-c:         TG45
+tech-c:         MR7052-RIPE
+nic-hdl:        TGCN1-RIPE
+mnt-by:         TGC-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-12-13T12:14:04Z
+source:         RIPE # Filtered
+
+person:         Thomas Giger
+address:        true global communications GmbH
+address:        In der Au 25
+address:        D-61440 Oberursel
+address:        Germany
+phone:          +4961712915200
+fax-no:         +4961719314444
+nic-hdl:        TG45
+mnt-by:         TGC-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-12-13T12:13:01Z
+source:         RIPE # Filtered
+
+% Information related to 'AAC75-RIPE'
+
+role:           AS15844 abuse contact
+address:        true global communications GmbH
+address:        In der Au 25
+address:        D-61440 Oberursel
+address:        Germany
+phone:          +4961712915202
+fax-no:         +4961719314444
+abuse-mailbox:  abuse@tgnet.de
+nic-hdl:        AAC75-RIPE
+mnt-by:         TGC-MNT
+created:        2013-11-19T12:29:10Z
+last-modified:  2022-12-13T12:12:15Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          46.227.128.0/21
+descr:          true global communications GmbH
+descr:          In der Au 25
+descr:          Oberursel, Germany
+origin:         AS15844
+notify:         guardian@tgc.de
+mnt-by:         TGC-MNT
+created:        2011-05-10T19:27:51Z
+last-modified:  2023-04-14T12:48:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.72.240.0/20
+descr:          true global communications GmbH
+descr:          In der Au 25
+descr:          Oberursel, Germany
+origin:         AS15844
+notify:         guardian@tgc.de
+mnt-by:         TGC-MNT
+created:        2005-01-31T19:39:36Z
+last-modified:  2023-04-14T12:49:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.55.180.0/22
+descr:          true global communications GmbH
+descr:          In der Au 25
+descr:          Oberursel, Germany
+origin:         AS15844
+notify:         guardian@tgc.de
+mnt-by:         TGC-MNT
+created:        2019-02-19T09:45:12Z
+last-modified:  2023-04-14T12:50:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.125.92.0/24
+origin:         AS15844
+created:        2023-04-13T08:12:07Z
+last-modified:  2023-04-13T08:12:07Z
+source:         RIPE
+mnt-by:         MNT-UVENSYS
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.45.26.0/24
+descr:          true global communications GmbH
+descr:          In der Au 25
+descr:          Oberursel, Germany
+origin:         AS15844
+notify:         guardian@tgc.de
+mnt-by:         TGC-MNT
+created:        2002-06-26T05:50:58Z
+last-modified:  2023-04-14T12:46:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.24.0.0/20
+descr:          true global communications GmbH
+descr:          In der Au 25
+descr:          Oberursel, Germany
+origin:         AS15844
+notify:         guardian@tgc.de
+mnt-by:         TGC-MNT
+created:        2002-06-11T19:26:46Z
+last-modified:  2023-04-14T12:49:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:ca00::/29
+descr:          true global communications GmbH
+descr:          In der Au 25
+descr:          Oberursel, Germany
+origin:         AS15844
+notify:         guardian@tgc.de
+mnt-by:         TGC-MNT
+created:        2019-02-19T09:50:58Z
+last-modified:  2023-04-14T12:50:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

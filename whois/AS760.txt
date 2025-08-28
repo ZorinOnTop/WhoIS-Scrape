@@ -1,0 +1,339 @@
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.
+#
+
+
+ASNumber:       760 - 761
+ASName:         RIPE-ASNBLOCK-760
+ASHandle:       AS760
+RegDate:        2002-10-15
+Updated:        2003-04-25
+Comment:        These addresses have been further assigned to users in
+Comment:        the RIPE NCC region. Contact information can be found in
+Comment:        the RIPE database at http://www.ripe.net/whois    
+Ref:            https://rdap.arin.net/registry/autnum/760
+
+ResourceLink:  https://apps.db.ripe.net/db-web-ui/query
+ResourceLink:  whois.ripe.net
+
+
+OrgName:        RIPE Network Coordination Centre
+OrgId:          RIPE
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:      
+PostalCode:     1001EB
+Country:        NL
+RegDate:        
+Updated:        2013-07-29
+Ref:            https://rdap.arin.net/registry/entity/RIPE
+
+ReferralServer:  whois.ripe.net
+ResourceLink:  https://apps.db.ripe.net/db-web-ui/query
+
+OrgAbuseHandle: ABUSE3850-ARIN
+OrgAbuseName:   Abuse Contact
+OrgAbusePhone:  +31205354444 
+OrgAbuseEmail:  abuse@ripe.net
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE3850-ARIN
+
+OrgTechHandle: RNO29-ARIN
+OrgTechName:   RIPE NCC Operations
+OrgTechPhone:  +31 20 535 4444 
+OrgTechEmail:  hostmaster@ripe.net
+OrgTechRef:    https://rdap.arin.net/registry/entity/RNO29-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.
+#
+
+
+
+Found a referral to whois.ripe.net.
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS760 - AS761'
+
+as-block:       AS760 - AS761
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:08Z
+last-modified:  2018-11-22T15:27:08Z
+source:         RIPE
+
+% Information related to 'AS760'
+
+% Abuse contact for 'AS760' is 'security.zid@univie.ac.at'
+
+aut-num:        AS760
+as-name:        UniVie
+org:            ORG-VUCC1-RIPE
+descr:          University of Vienna, Austria
+descr:          AT
+remarks:        =======================================================
+remarks:        Use AS1853 as upstream
+import:         from AS1853 action pref=100; accept ANY
+export:         to AS1853 announce AS-UNIVIE
+default:        to AS1853 action pref=100; networks { 192.153.177.0/24 }
+mp-import:      afi ipv6.unicast from AS1853 accept ANY
+mp-export:      afi ipv6.unicast to AS1853 announce AS-UNIVIE
+remarks:        =======================================================
+remarks:        Use AS1764 (nextlayer.at) as upstream
+mp-import:      afi ipv6.unicast from AS1764 accept ANY
+mp-export:      afi ipv6.unicast to AS1764 announce AS-UNIVIE
+remarks:        =======================================================
+remarks:        Peer Community DNS Anycast Instance
+mp-import:      afi any.unicast from AS42909 accept AS42909
+mp-export:      afi any.unicast to AS42909 announce {}
+remarks:        =======================================================
+remarks:        Peer NICAT-Minicast
+mp-import:      afi any.unicast from AS201612 accept AS201612
+mp-export:      afi any.unicast to AS201612 announce {}
+remarks:        =======================================================
+remarks:        Peer BlizzNet
+import:         from AS29287 accept AS29287 OR { 10.100.22.0/23^24, 10.100.24.0/23^24, 10.0.22.0/24, 10.252.253.0/24, 172.26.0.0/24 }
+export:         to AS29287 announce AS-UNIVIE AND NOT { 193.170.1.0/24^24-32 }
+remarks:        =======================================================
+admin-c:        UK6107-RIPE
+tech-c:         VUN1-RIPE
+status:         LEGACY
+mnt-by:         AS760-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:16:19Z
+source:         RIPE # Filtered
+
+organisation:   ORG-VUCC1-RIPE
+org-name:       Vienna University Computer Center
+country:        AT
+org-type:       OTHER
+address:        Vienna University Computer Center
+address:        Universitaetsstrasse 7 (NIG)
+address:        A-1010 Vienna
+address:        Austria
+phone:          +43 1 4277 14001
+fax-no:         +43 1 4277 9140
+admin-c:        UB1083-RIPE
+tech-c:         VUN1-RIPE
+abuse-c:        VUA4-RIPE
+mnt-ref:        AS760-MNT
+mnt-ref:        ACONET-LIR-MNT
+mnt-by:         ACONET-LIR-MNT
+mnt-by:         AS760-MNT
+created:        2004-08-23T07:36:55Z
+last-modified:  2022-12-01T16:58:42Z
+source:         RIPE # Filtered
+
+role:           Vienna University NOC
+org:            ORG-VUCC1-RIPE
+address:        Vienna University Computer Center
+address:        Universitaetsstrasse 7 (NIG)
+address:        A-1010 Vienna
+address:        Austria
+phone:          +43 1 4277 14042
+fax-no:         +43 1 4277 9140
+admin-c:        UK6107-RIPE
+tech-c:         MB36986-RIPE
+tech-c:         DS6450-RIPE
+tech-c:         TR2010-RIPE
+tech-c:         RH3537-RIPE
+tech-c:         MS31156-RIPE
+tech-c:         AC22781-RIPE
+tech-c:         RK7024-RIPE
+tech-c:         MG16931-RIPE
+tech-c:         JD7252-RIPE
+tech-c:         SC17130-RIPE
+remarks:        Please send abuse reports to security.zid@univie.ac.at
+nic-hdl:        VUN1-RIPE
+mnt-by:         AS760-MNT
+mnt-by:         ACONET-LIR-MNT
+created:        2008-08-04T14:13:33Z
+last-modified:  2015-04-08T11:47:08Z
+source:         RIPE # Filtered
+
+person:         Ulrich Kiermayr
+org:            ORG-VUCC1-RIPE
+address:        Vienna University Computer Center
+address:        Universitaetsstrasse 7 (NIG)
+address:        A-1010 Wien
+address:        Austria
+phone:          +43 1 4277 14020
+fax-no:         +43 1 4277 9140
+nic-hdl:        UK6107-RIPE
+mnt-by:         ACONET-LIR-MNT
+mnt-by:         AS760-MNT
+created:        2002-08-05T13:48:49Z
+last-modified:  2008-08-04T15:07:30Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          77.80.0.0/17
+descr:          UNIVIE-II
+origin:         AS760
+mnt-by:         AS760-MNT
+created:        2009-08-19T12:36:30Z
+last-modified:  2009-08-19T12:36:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          131.130.0.0/16
+descr:          UNIVIE
+origin:         AS760
+mnt-by:         AS760-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:31:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.107.232.0/24
+descr:          UNIVIE
+origin:         AS760
+mnt-by:         AS760-MNT
+created:        2009-03-27T13:44:18Z
+last-modified:  2009-03-27T13:44:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.107.233.0/24
+descr:          UNIVIE
+origin:         AS760
+mnt-by:         AS760-MNT
+created:        2009-03-27T13:44:18Z
+last-modified:  2009-03-27T13:44:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.174.64.0/24
+descr:          UNIVIE-CANCER
+origin:         AS760
+mnt-by:         AS760-MNT
+created:        2002-06-25T12:09:05Z
+last-modified:  2002-06-25T12:09:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.174.65.0/24
+descr:          UNIVIE7
+origin:         AS760
+mnt-by:         AS760-MNT
+created:        2009-04-07T15:44:17Z
+last-modified:  2009-04-07T15:44:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.174.66.0/24
+descr:          UNIVIE8
+origin:         AS760
+mnt-by:         AS760-MNT
+created:        2009-03-27T13:10:18Z
+last-modified:  2009-03-27T13:25:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.174.67.0/24
+descr:          UNIVIE9
+origin:         AS760
+mnt-by:         AS760-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:62a::/31
+descr:          UNIVIE IPv6 Netblock within ACOnet
+origin:         AS760
+mnt-by:         AS760-MNT
+created:        2009-04-01T15:58:44Z
+last-modified:  2009-04-01T15:58:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

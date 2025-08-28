@@ -1,0 +1,243 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16316 - AS16383'
+
+as-block:       AS16316 - AS16383
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-01-25T16:07:47Z
+last-modified:  2021-01-25T16:07:47Z
+source:         RIPE
+
+% Information related to 'AS16316'
+
+% Abuse contact for 'AS16316' is 'abuse@tmt.de'
+
+aut-num:        AS16316
+as-name:        TMT
+remarks:        **** IPv4 ****
+remarks:
+remarks:        === UPSTREAMS ===
+import:         from AS3209   action pref=100;   accept ANY
+export:         to   AS3209                      announce AS-TMT
+import:         from AS8220   action pref=100;   accept ANY
+export:         to   AS8220                      announce AS-TMT
+import:         from AS33891  action pref=100;   accept ANY
+export:         to   AS33891                     announce AS-TMT
+remarks:        === PRIVATE PEERINGS ===
+import:         from AS20676  action pref=400;   accept AS-QSC
+export:         to   AS20676                     announce AS-TMT
+remarks:        === FFM DE-CIX ===
+remarks:        = DECIX-AS =
+import:         from AS6695   action pref=200;   accept AS-DECIX
+export:         to   AS6695                      announce AS-TMT
+remarks:        = APPLE =
+import:         from AS714    action pref=200;   accept AS-APPLE
+export:         to   AS714                       announce AS-TMT
+remarks:        = CLOUDFLARE =
+import:         from AS13335  action pref=200;   accept AS-CLOUDFLARE
+export:         to   AS13335                     announce AS-TMT
+remarks:        = DFN =
+import:         from AS680    action pref=200;   accept AS-DFNTOWINISP
+export:         to   AS680                       announce AS-TMT
+remarks:        = EXARING =
+import:         from AS51324  action pref=200;   accept AS-EXARING
+export:         to   AS51324                     announce AS-TMT
+remarks:        = HE.net =
+import:         from AS6939   action pref=200;   accept AS-HURRICANE
+export:         to   AS6939                      announce AS-TMT
+remarks:        = INIT7 =
+import:         from AS13030  action pref=200;   accept AS-INIT7
+export:         to   AS13030                     announce AS-TMT
+remarks:        = MANDA =
+import:         from AS8365   action pref=200;   accept AS-MANDA
+export:         to   AS8365                      announce AS-TMT
+remarks:        = NETFLIX =
+import:         from AS2906   action pref=200;   accept AS-NFLX
+export:         to   AS2906                      announce AS-TMT
+remarks:
+remarks:        **** IPv6 ****
+remarks:
+remarks:        === UPSTREAMS ===
+mp-import:      afi ipv6.unicast from AS3209   action pref=100;  accept ANY
+mp-export:      afi ipv6.unicast to   AS3209                     announce AS-TMT
+mp-import:      afi ipv6.unicast from AS8220   action pref=100;  accept ANY
+mp-export:      afi ipv6.unicast to   AS8220                     announce AS-TMT
+mp-import:      afi ipv6.unicast from AS33891  action pref=100;  accept ANY
+mp-export:      afi ipv6.unicast to   AS33891                    announce AS-TMT
+remarks:        === PRIVATE PEERINGS ===
+mp-import:      afi ipv6.unicast from AS20676  action pref=400;  accept AS-QSC
+mp-export:      afi ipv6.unicast to   AS20676                    announce AS-TMT
+remarks:        === FFM DE-CIX ===
+remarks:        = DECIX-AS =
+mp-import:      afi ipv6.unicast from AS6695   action pref=200;  accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to   AS6695                     announce AS-TMT
+remarks:        = APPLE =
+mp-import:      afi ipv6.unicast from AS714    action pref=200;  accept AS-APPLE
+mp-export:      afi ipv6.unicast to   AS714                      announce AS-TMT
+remarks:        = CLOUDFLARE =
+mp-import:      afi ipv6.unicast from AS13335  action pref=200;  accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to   AS13335                    announce AS-TMT
+remarks:        = DFN =
+mp-import:      afi ipv6.unicast from AS680    action pref=200;  accept AS-DFNTOWINISP
+mp-export:      afi ipv6.unicast to   AS680                      announce AS-TMT
+remarks:        = EXARING =
+mp-import:      afi ipv6.unicast from AS51324  action pref=200;  accept AS-EXARING
+mp-export:      afi ipv6.unicast to   AS51324                    announce AS-TMT
+remarks:        = HE.net =
+mp-import:      afi ipv6.unicast from AS6939   action pref=200;  accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to   AS6939                     announce AS-TMT
+remarks:        = INIT7 =
+mp-import:      afi ipv6.unicast from AS13030  action pref=200;  accept AS-INIT7
+mp-export:      afi ipv6.unicast to   AS13030                    announce AS-TMT
+remarks:        = MANDA =
+mp-import:      afi ipv6.unicast from AS8365   action pref=200;  accept AS-MANDA
+mp-export:      afi ipv6.unicast to   AS8365                     announce AS-TMT
+remarks:        = NETFLIX =
+mp-import:      afi ipv6.unicast from AS2906   action pref=200;  accept AS-NFLX
+mp-export:      afi ipv6.unicast to   AS2906                     announce AS-TMT
+remarks:
+remarks:        =========================================================
+remarks:        TMT is located at the following exchange points:
+remarks:
+remarks:        Location IPv4           IPv6                    Bandwidth
+remarks:        DE-CIX   80.81.195.86   2001:7f8::3fbc:0:1      10000 Mbps
+remarks:
+remarks:        More info: http://as16316.peeringdb.com
+remarks:
+remarks:        Please send BGP peering requests to peering@tmt.de.
+remarks:        =========================================================
+remarks:        tag - 1493892539
+org:            ORG-TiG1-RIPE
+admin-c:        TMT1
+tech-c:         TMT1
+status:         ASSIGNED
+mnt-by:         TMT-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-09-18T15:42:49Z
+last-modified:  2024-06-21T07:41:45Z
+source:         RIPE # Filtered
+
+organisation:   ORG-TiG1-RIPE
+org-name:       TMT GmbH & Co. KG
+country:        DE
+org-type:       LIR
+address:        Badstrasse 5-7
+address:        95444
+address:        Bayreuth
+address:        GERMANY
+phone:          +49921507200300
+phone:          +499215072000
+fax-no:         +49921507200299
+admin-c:        TMT1
+mnt-ref:        TMT-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TMT-MNT
+abuse-c:        TMTA1337-RIPE
+created:        2004-04-17T11:12:59Z
+last-modified:  2024-06-11T07:52:25Z
+source:         RIPE # Filtered
+
+role:           TMT NOC
+address:        TMT GmbH & Co. KG
+address:        Badstraße 5-7
+address:        D-95444 Bayreuth
+address:        Germany (old Europe)
+phone:          +49 921 507200 0
+fax-no:         +49 921 507200 299
+remarks:        trouble: ***************************************
+remarks:        trouble: *   abuse contact: see abuse-mailbox  *
+remarks:        trouble: * everything else contact: noc@tmt.de *
+remarks:        trouble: *          http://www.tmt.de          *
+remarks:        trouble: *       phone: +49 921 507200 0       *
+remarks:        trouble: *       fax: +49 921 507200 299       *
+remarks:        trouble: ***************************************
+admin-c:        PM1
+admin-c:        MS49517-RIPE
+admin-c:        SOS1
+admin-c:        KS12172-RIPE
+tech-c:         PM1
+tech-c:         WEI1-RIPE
+tech-c:         SOS1
+tech-c:         JW8767-RIPE
+tech-c:         CRT
+nic-hdl:        TMT1
+mnt-by:         TMT-MNT
+created:        2002-09-16T16:23:22Z
+last-modified:  2024-06-17T20:28:50Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@tmt.de
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          88.209.0.0/18
+descr:          TMT-DE-AS16316-88-209-18
+descr:          DE
+origin:         AS16316
+notify:         noc@tmt.de
+mnt-by:         TMT-MNT
+mnt-lower:      TMT-MNT
+mnt-routes:     TMT-MNT
+created:        2005-11-04T10:15:59Z
+last-modified:  2018-08-16T12:58:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.145.96.0/20
+descr:          TMT-DE-AS16316-217_145_96_0_20
+descr:          DE
+origin:         AS16316
+notify:         noc@tmt.de
+mnt-by:         TMT-MNT
+mnt-lower:      TMT-MNT
+mnt-routes:     TMT-MNT
+created:        2004-08-19T11:54:37Z
+last-modified:  2018-08-16T12:58:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:4dc8::/32
+descr:          DE-TMT-2001-4dc8
+descr:          TMT GmbH & Co. KG, Bayreuth
+origin:         AS16316
+mnt-by:         TMT-MNT
+mnt-lower:      TMT-MNT
+mnt-routes:     TMT-MNT
+created:        2005-11-18T15:32:36Z
+last-modified:  2018-08-16T12:43:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

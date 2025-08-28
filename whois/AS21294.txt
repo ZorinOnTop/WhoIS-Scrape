@@ -1,0 +1,493 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21281 - AS21390'
+
+as-block:       AS21281 - AS21390
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21294'
+
+% Abuse contact for 'AS21294' is 'abuse@ip.ro'
+
+aut-num:        AS21294
+as-name:        IDILIS
+org:            ORG-IS110-RIPE
+import:         from AS35638 217.156.85.70 at 217.156.85.69 action pref=100; accept AS-2K
+import:         from AS57535 89.45.183.86 at 89.45.183.85 action pref=100; accept AS57535
+import:         from AS6939 216.66.85.37 at 216.66.85.38 action pref=100; accept ANY
+export:         to AS6939 announce AS-IDILIS
+export:         to AS35638 announce AS-IDILIS
+export:         to AS57535 announce ANY
+admin-c:        IDL2-RIPE
+tech-c:         DL3945-RIPE
+status:         ASSIGNED
+mnt-by:         IDILIS-MNT
+mnt-by:         RIPE-NCC-END-MNT
+remarks:
+remarks:        *********************************************************************
+remarks:        IDILIS filters out inbound and outbound prefixes longer than /24
+remarks:
+remarks:        We also filter the following bogus networks:
+remarks:        *********************************************************************
+remarks:        10.0.0.0/8
+remarks:        127.0.0.0/8
+remarks:        169.254.0.0/16
+remarks:        172.16.0.0/12
+remarks:        192.0.2.0/24
+remarks:        192.168.0.0/16
+remarks:        198.18.0.0/15
+remarks:        224.0.0.0/4
+remarks:        255.0.0.0/8
+remarks:        *********************************************************************
+remarks:        Community Support Definitions
+remarks:        *********************************************************************
+remarks:        Communities to control Local preference by customer
+remarks:
+remarks:        Community Definition
+remarks:        ---------------------------------------------------------------------
+remarks:        21294:80 Local preference = 80
+remarks:        21294:120 Local preference = 120
+remarks:        Default = 100
+remarks:
+remarks:        *********************************************************************
+remarks:        Communities tagged on inbound routes
+remarks:
+remarks:        Community Definition
+remarks:        --------------------------------------------------------------------
+remarks:        21294:100 Routes received from Customer
+remarks:        21294:200 Routes received from Peer
+remarks:        21294:900 Routes received from Upstream
+remarks:
+remarks:        *********************************************************************
+remarks:        Communities to control outbound routing announcements
+remarks:
+remarks:        Community Definition
+remarks:        --------------------------------------------------------------------
+remarks:        21294:201 Prepend 1*21294 when announcing to peers (*)
+remarks:        21294:202 Prepend 2*21294 when announcing to peers (*)
+remarks:        21294:203 Prepend 3*21294 when announcing to peers (*)
+remarks:        --------------------------------------------------------------------
+remarks:        21294:901 Prepend 1*21294 when announcing to upstreams (*)
+remarks:        21294:902 Prepend 2*21294 when announcing to upstreams (*)
+remarks:        21294:903 Prepend 3*21294 when announcing to upstreams (*)
+remarks:
+remarks:        (*) only customers can use this community
+remarks:
+created:        2002-08-15T09:25:03Z
+last-modified:  2022-10-25T13:05:59Z
+source:         RIPE
+sponsoring-org: ORG-IRMS1-RIPE
+
+organisation:   ORG-IS110-RIPE
+org-name:       CLOUDSYS TELECOM SRL
+country:        RO
+org-type:       OTHER
+address:        Bvd. Mircea Eliade, nr. 18
+address:        Eliade Tower, et. 7
+address:        Sector 1
+address:        Bucuresti, Romania
+phone:          +4031 860 08 00
+fax-no:         +4031 860 08 01
+abuse-c:        AR26224-RIPE
+tech-c:         DL3945-RIPE
+admin-c:        IDL2-RIPE
+mnt-by:         IDILIS-MNT
+mnt-ref:        IDILIS-MNT
+created:        2009-12-07T16:01:11Z
+last-modified:  2022-12-01T17:15:30Z
+source:         RIPE # Filtered
+
+role:           IDILIS NOC
+address:        Bvd. Mircea Eliade, nr. 18
+address:        Eliade Tower, et. 7
+address:        Sector 1
+address:        Bucuresti, Romania
+phone:          +4031 860 08 00
+fax-no:         +4031 860 08 01
+tech-c:         DL3945-RIPE
+admin-c:        IDL2-RIPE
+nic-hdl:        IDL2-RIPE
+remarks:        trouble:      +-------------------------------------------
+remarks:        trouble:      | Operational issues:  noc@idilis.net       |
+remarks:        trouble:      | Network Abuse:       abuse@idilis.net     |
+remarks:        trouble:      | Spam Abuse:          spam@idilis.net      |
+remarks:        trouble:      | Support:             support@idilis.net   |
+remarks:        trouble:      | 24x7 HelpDesk:       +4021 204 36 56     |
+remarks:        trouble:      |                      +4021 204 36 57     |
+remarks:        trouble:      +-------------------------------------------
+mnt-by:         IDILIS-MNT
+created:        2002-11-21T10:05:03Z
+last-modified:  2010-11-04T22:09:02Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@idilis.net
+
+person:         Daniel Lazar
+address:        Bvd. Mircea Eliade, nr. 18
+address:        Eliade Tower, et. 7
+address:        Sector 1
+address:        Bucuresti, Romania
+phone:          +4031 860 08 00
+fax-no:         +4031 860 08 01
+nic-hdl:        DL3945-RIPE
+mnt-by:         IDILIS-MNT
+created:        2010-11-04T21:25:14Z
+last-modified:  2010-11-04T22:10:08Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          80.97.0.0/20
+descr:          Idilis SRL
+origin:         AS21294
+remarks:        +--------------------------------------------------+
+remarks:        | Operational issues: noc@idilis.net
+remarks:        | Network Abuse: abuse@idilis.net
+remarks:        | Spam Abuse: spam@idilis.net
+remarks:        | Support: support@idilis.net
+remarks:        | 24x7 HelpDesk: +4031 860 08 00
+remarks:        +-------------------------------------------------+
+notify:         noc@idilis.net
+mnt-by:         IDILIS-MNT
+created:        2002-04-06T21:09:56Z
+last-modified:  2015-12-08T05:41:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.97.12.0/24
+descr:          Idilis SA
+origin:         AS21294
+remarks:
+remarks:        +-------------------------------------------+
+remarks:        | Operational issues:  noc@idilis.net       |
+remarks:        | Network Abuse:       abuse@idilis.net     |
+remarks:        | Spam Abuse:          spam@idilis.net      |
+remarks:        | Support:             support@idilis.net   |
+remarks:        | 24x7 HelpDesk:       +40 21 204 36 56     |
+remarks:        |                      +40 21 204 36 57     |
+remarks:        +-------------------------------------------+
+remarks:
+notify:         noc@idilis.net
+mnt-by:         IDILIS-MNT
+created:        2007-10-26T08:33:05Z
+last-modified:  2007-10-26T08:33:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          84.239.19.0/24
+descr:          Idilis SRL
+remarks:        -------------------------------------
+remarks:        Operational issues: noc@idilis.net
+remarks:        Network Abuse: abuse@idilis.net
+remarks:        Spam Abuse: spam@idilis.net
+remarks:        Support: support@idilis.net
+remarks:        24x7 HelpDesk: +4021 204 36 56 | +4021 204 36 57
+remarks:        -------------------------------------
+origin:         AS21294
+mnt-by:         MNT-ADNET
+mnt-by:         IDILIS-MNT
+created:        2017-09-05T09:17:21Z
+last-modified:  2017-09-05T09:17:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.239.20.0/24
+origin:         AS21294
+descr:          Idilis SRL
+remarks:        -------------------------------------
+remarks:        Operational issues: noc@idilis.net
+remarks:        Network Abuse: abuse@idilis.net
+remarks:        Spam Abuse: spam@idilis.net
+remarks:        Support: support@idilis.net
+remarks:        24x7 HelpDesk: +4021 204 36 56 | +4021 204 36 57
+remarks:        -------------------------------------
+mnt-by:         IDILIS-MNT
+mnt-by:         MNT-ADNET
+created:        2017-12-13T08:05:24Z
+last-modified:  2017-12-13T08:05:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.239.21.0/24
+origin:         AS21294
+descr:          CloudSys SRL
+remarks:        -------------------------------------
+remarks:        Operational issues: noc@cloudsys.ro
+remarks:        Network Abuse: abuse@cloudsys.ro
+remarks:        Spam Abuse: spam@cloudsys.ro
+remarks:        Support: support@cloudsys.ro
+remarks:        24x7 HelpDesk: +4021 204 36 56 | +4021 204 36 57
+remarks:        -------------------------------------
+mnt-by:         IDILIS-MNT
+mnt-by:         MNT-ADNET
+created:        2025-04-29T18:03:48Z
+last-modified:  2025-04-29T18:03:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.239.22.0/24
+origin:         AS21294
+descr:          Idilis SRL
+remarks:        -------------------------------------
+remarks:        Operational issues: noc@idilis.net
+remarks:        Network Abuse: abuse@idilis.net
+remarks:        Spam Abuse: spam@idilis.net
+remarks:        Support: support@idilis.net
+remarks:        24x7 HelpDesk: +4021 204 36 56 | +4021 204 36 57
+remarks:        -------------------------------------
+mnt-by:         MNT-ADNET
+created:        2018-06-20T10:12:23Z
+last-modified:  2018-06-20T10:12:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.239.23.0/24
+origin:         AS21294
+descr:          Idilis SRL
+remarks:        -------------------------------------
+remarks:        Operational issues: noc@idilis.net
+remarks:        Network Abuse: abuse@idilis.net
+remarks:        Spam Abuse: spam@idilis.net
+remarks:        Support: support@idilis.net
+remarks:        24x7 HelpDesk: +4021 204 36 56 | +4021 204 36 57
+remarks:        -------------------------------------
+mnt-by:         MNT-ADNET
+created:        2018-06-20T10:13:12Z
+last-modified:  2018-06-20T10:13:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.239.24.0/24
+origin:         AS21294
+descr:          Idilis SRL
+remarks:        -------------------------------------
+remarks:        Operational issues: noc@idilis.net
+remarks:        Network Abuse: abuse@idilis.net
+remarks:        Spam Abuse: spam@idilis.net
+remarks:        Support: support@idilis.net
+remarks:        24x7 HelpDesk: +4021 204 36 56 | +4021 204 36 57
+remarks:        -------------------------------------
+mnt-by:         MNT-ADNET
+created:        2018-06-20T10:13:12Z
+last-modified:  2018-06-20T10:13:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.239.26.0/24
+origin:         AS21294
+descr:          Idilis SRL
+remarks:        -------------------------------------
+remarks:        Operational issues: noc@idilis.net
+remarks:        Network Abuse: abuse@idilis.net
+remarks:        Spam Abuse: spam@idilis.net
+remarks:        Support: support@idilis.net
+remarks:        24x7 HelpDesk: +4021 204 36 56 | +4021 204 36 57
+remarks:        -------------------------------------
+mnt-by:         MNT-ADNET
+created:        2018-06-20T10:13:12Z
+last-modified:  2018-06-20T10:13:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.239.53.0/24
+origin:         AS21294
+descr:          Idilis SRL
+remarks:        -------------------------------------
+remarks:        Operational issues: noc@idilis.net
+remarks:        Network Abuse: abuse@idilis.net
+remarks:        Spam Abuse: spam@idilis.net
+remarks:        Support: support@idilis.net
+remarks:        24x7 HelpDesk: +4021 204 36 56 | +4021 204 36 57
+remarks:        -------------------------------------
+mnt-by:         MNT-ADNET
+created:        2022-09-15T10:54:26Z
+last-modified:  2022-09-15T10:54:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.220.0/24
+descr:          IIRUC
+origin:         AS21294
+remarks:
+remarks:        +-------------------------------------------+
+remarks:        | Operational issues:  noc@idilis.net       |
+remarks:        | Network Abuse:       abuse@idilis.net     |
+remarks:        | Spam Abuse:          spam@idilis.net      |
+remarks:        | Support:             support@idilis.net   |
+remarks:        | 24x7 HelpDesk:       +40 21 204 36 56     |
+remarks:        |                      +40 21 204 36 57     |
+remarks:        +-------------------------------------------+
+remarks:
+notify:         noc@idilis.net
+mnt-by:         IDILIS-MNT
+created:        2003-01-04T10:20:13Z
+last-modified:  2003-01-04T10:20:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.156.85.0/24
+descr:          Idilis SRL
+origin:         AS21294
+remarks:        +-------------------------------------------+
+remarks:        | Operational issues: noc@idilis.net
+remarks:        | Network Abuse: abuse@idilis.net
+remarks:        | Spam Abuse: spam@idilis.net
+remarks:        | Support: support@idilis.net
+remarks:        | 24x7 HelpDesk: +4031 860 08 00
+remarks:        +-------------------------------------------+
+notify:         noc@idilis.net
+mnt-by:         IDILIS-MNT
+created:        2003-01-04T10:19:31Z
+last-modified:  2015-12-08T06:03:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.156.99.0/24
+descr:          Idilis SRL
+origin:         AS21294
+remarks:
+remarks:        +-------------------------------------------
+remarks:        | Operational issues:  noc@idilis.net       |
+remarks:        | Network Abuse:       abuse@idilis.net     |
+remarks:        | Spam Abuse:          spam@idilis.net      |
+remarks:        | Support:             support@idilis.net   |
+remarks:        | 24x7 HelpDesk:       +4021 204 36 56     |
+remarks:        |                      +4021 204 36 57     |
+remarks:        +-------------------------------------------
+remarks:
+notify:         noc@idilis.net
+mnt-by:         IDILIS-MNT
+created:        2003-01-04T10:19:33Z
+last-modified:  2010-11-04T22:32:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2160:6000::/36
+descr:          Idilis SRL
+remarks:        -------------------------------------
+remarks:        Operational issues: noc@idilis.net
+remarks:        Network Abuse: abuse@idilis.net
+remarks:        Spam Abuse: spam@idilis.net
+remarks:        Support: support@idilis.net
+remarks:        24x7 HelpDesk: +4021 204 36 56 | +4021 204 36 57
+remarks:        -------------------------------------
+origin:         AS21294
+mnt-by:         IDILIS-MNT
+mnt-by:         MNT-ADNET
+created:        2017-11-02T15:05:06Z
+last-modified:  2017-11-02T15:05:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

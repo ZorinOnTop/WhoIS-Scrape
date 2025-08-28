@@ -1,0 +1,208 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16059 - AS16213'
+
+as-block:       AS16059 - AS16213
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16168'
+
+% Abuse contact for 'AS16168' is 'comunicaciones@genetsis.com'
+
+aut-num:        AS16168
+as-name:        GENETSIS
+descr:          Madrid - Spain
+org:            ORG-GIP1-RIPE
+remarks:        ---------- Transit Providers ----------
+import:         from AS174 action pref=1000;
+                accept ANY AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS4589 action pref=1000;
+                accept ANY AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS8928 action pref=1000;
+                accept ANY AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+remarks:        ---------- Clients ----------
+import:         { from AS24592 action pref=500; med=100;
+                accept AS-NEXICA AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0};
+                from AS24592 action pref=90;
+                accept ANY {0.0.0.0/0^25-32, 0.0.0.0/0}; }
+import:         from AS25363 action pref=100;
+                accept AS25363 AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS25458 action pref=100;
+                accept AS25458 AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+remarks:        ---------- Peering ----------
+import:         from AS3262 action pref=500; med=100;
+                accept AS-SARENET AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS3324 action pref=500; med=100;
+                accept AS3324 AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS6895 action pref=500; med=100;
+                accept AS-ESPANIX AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS6901  action pref=500; med=100;
+                accept AS6901 AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS9019 action pref=500; med=100;
+                accept AS-DATAGRAMA AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS9165 action pref=500; med=100;
+                accept AS9165 AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS12540 action pref=500; med=100;
+                accept AS12540 AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS12359 action pref=500; med=100;
+                accept AS-INTELIDEASES
+                AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS12715 action pref=500; med=100;
+                accept AS-JAZZTRANS AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS16371 action pref=500; med=100;
+                accept AS-ACENS AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS20718 action pref=500; med=100;
+                accept AS-ARSYSINTERNET
+                AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS20760 action pref=500; med=100;
+                accept AS-EUROCIBER AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS28842 action pref=500; med=100;
+                accept AS-VELOXIA AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+import:         from AS29558 action pref=500; med=100;
+                accept AS-HOSTALIA AND NOT {0.0.0.0/0^25-32, 0.0.0.0/0}
+remarks:        ---------- Transit Providers ----------
+export:         to AS174 announce AS-GENETSISES
+export:         to AS4589 announce AS-GENETSISES
+export:         to AS8928 announce AS-GENETSISES
+remarks:        ---------- Peering ----------
+export:         to AS3262 announce AS-GENETSISES
+export:         to AS3324 announce AS-GENETSISES
+export:         to AS6895 announce AS-GENETSISES
+export:         to AS6901 announce AS-GENETSISES
+export:         to AS9019 announce AS-GENETSISES
+export:         to AS9165 announce AS-GENETSISES
+export:         to AS12359 announce AS-GENETSISES
+export:         to AS12540 announce AS-GENETSISES
+export:         to AS16371 announce AS-GENETSISES
+export:         to AS20718 announce AS-GENETSISES
+export:         to AS20760 announce AS-GENETSISES
+export:         to AS28842 announce AS-GENETSISES
+export:         to AS29558 announce AS-GENETSISES
+export:         to AS12715 announce AS-GENETSISES
+remarks:        ---------- Transit Clients ----------
+export:         to AS25363 announce ANY
+export:         to AS25458 announce ANY
+export:         to AS24592 announce ANY
+admin-c:        JGG14-RIPE
+tech-c:         GN564-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ---------------------------------------------------
+remarks:        Available for public and private peerings in
+remarks:        Expanix - c/ Mesena, 80 - Madrid  (SPAIN)
+remarks:        ---------------------------------------------------
+remarks:        SPAM issues:      abuse@genetsis.com
+remarks:        Network issues:   noc@genetsis.com
+remarks:        Peering:        peering@genetsis.com
+remarks:        ---------------------------------------------------
+mnt-by:         GENETSIS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:15:21Z
+source:         RIPE
+
+organisation:   ORG-GIP1-RIPE
+org-name:       GENETSIS PARTNERS SL
+country:        ES
+org-type:       LIR
+address:        C/ Comandante Azcárraga n º 3, 5º (Módulo B)
+address:        28016
+address:        Madrid
+address:        SPAIN
+phone:          +34 91 657 41 20
+fax-no:         +34 91 657 41 30
+admin-c:        JGG14-RIPE
+admin-c:        ODM7-RIPE
+admin-c:        CGP28-RIPE
+mnt-by:         GENETSIS-MNT
+mnt-ref:        GENETSIS-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+abuse-c:        AD10841-RIPE
+created:        2004-04-17T11:16:58Z
+last-modified:  2024-11-28T10:37:06Z
+source:         RIPE # Filtered
+
+role:           GENETSIS NOC
+address:        Francisca Delgado, 11 - 3
+address:        28108 Alcobendas - Madrid
+address:        SPAIN
+phone:          +34 916574120
+fax-no:         +34 916574130
+admin-c:        JGG14-RIPE
+tech-c:         MG17785-RIPE
+nic-hdl:        GN564-RIPE
+remarks:        ------------------------------------
+remarks:        SPAM issues:      abuse@genetsis.com
+remarks:        Network issues:   noc@genetsis.com
+remarks:        ------------------------------------
+mnt-by:         GENETSIS-MNT
+created:        2004-03-15T19:28:19Z
+last-modified:  2004-03-15T19:28:19Z
+source:         RIPE # Filtered
+
+person:         Jaime Gomez Garcia
+address:        C/ Francisca Delgado 11, 3
+address:        28108 - Alcobendas - Madrid
+address:        SPAIN
+phone:          +34 916574120
+fax-no:         +34 916574130
+nic-hdl:        JGG14-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-04-05T21:15:29Z
+mnt-by:         RIPE-NCC-LOCKED-MNT
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          82.144.96.0/19
+descr:          Genetsis Partners
+descr:          Service Provider Network
+origin:         AS16168
+notify:         ripe@genetsis.net
+mnt-routes:     CGP28-RIPE
+mnt-by:         CGP28-RIPE
+created:        2003-06-05T09:46:31Z
+last-modified:  2009-08-07T08:44:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.41.240.0/22
+descr:          Genetsis
+descr:          http://www.genetsis.com
+origin:         AS16168
+notify:         tecnicos@genetsis.com
+mnt-by:         GENETSIS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2003-06-06T12:03:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

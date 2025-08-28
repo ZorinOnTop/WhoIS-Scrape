@@ -1,0 +1,494 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20539'
+
+% Abuse contact for 'AS20539' is 'abuse@rs.net.ua'
+
+aut-num:        AS20539
+as-name:        TCRS-AS
+descr:          Sumy, Ukraine
+org:            ORG-TCRS2-RIPE
+descr:          ====Upstream=======================
+import:         from AS13249 accept ANY
+import:         from AS15772 accept ANY
+export:         to AS13249 announce AS20539:AS-CLIENTS
+export:         to AS15772 announce AS20539:AS-RS
+descr:          ====Clients=========================
+import:         from AS13202 accept AS13202
+export:         to AS13202 announce ANY
+import:         from AS16327 accept AS16327
+export:         to AS16327 announce ANY
+import:         from AS60313 accept AS60313
+export:         to AS60313 announce ANY
+descr:          ====SUMY-IX========================
+import:         from AS21312 accept AS-CHEREDA-SMIX
+export:         to AS21312 announce AS-IX-SUMY
+import:         from AS42833 accept AS42833
+export:         to AS42833 announce AS-IX-SUMY
+import:         from AS13202 accept AS13202
+export:         to AS13202 announce AS-IX-SUMY
+import:         from AS16327 accept AS16327
+export:         to AS16327 announce AS-IX-SUMY
+import:         from AS43656 accept AS43656
+export:         to AS43656 announce AS-IX-SUMY
+descr:          ==========================================
+descr:          Informational BGP communities advertised to customers:
+descr:          Community attributes accepted from customers
+descr:          20539:20x - ITSystems
+descr:          .
+descr:          .
+descr:          x = 1 prepend 1
+descr:          x = 2 prepend 2
+descr:          x = 3 prepend 3
+descr:          x = 6 prepend 6
+descr:          x = 0 do not announce
+descr:          .
+descr:          20539:50 - set localpref = 50
+descr:          20539:6666 - Blackhole community, only /32.
+descr:          ==========================================
+descr:          Abuse reports: abuse@rs.net.ua
+descr:          Network Operation Center: noc@rs.net.ua
+descr:          Looking Glass http://lg.rs.net.ua
+descr:          ============================================
+remarks:        Technical support: ....................................valera@rs.net.ua
+remarks:        Network Operation Center: ............................noc@rs.net.ua
+remarks:        Corporate web site:.....................................https://rs.net.ua
+admin-c:        TCRS-CC
+tech-c:         TCRS-CC
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TCRS-MNT
+created:        2002-04-09T13:19:20Z
+last-modified:  2024-06-19T06:43:00Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-MTL10-RIPE
+
+organisation:   ORG-TCRS2-RIPE
+org-name:       Technical Centre Radio Systems Ltd.
+country:        UA
+org-type:       OTHER
+address:        3/5 Voskresenskaya st.,
+address:        Sumy, Ukraine, 40000
+phone:          +380 542 619001
+fax-no:         +380 542 619002
+abuse-c:        TCRS-CC
+mnt-ref:        TCRS-MNT
+mnt-by:         TCRS-MNT
+created:        2008-11-13T14:56:53Z
+last-modified:  2024-06-14T14:59:28Z
+source:         RIPE # Filtered
+
+role:           TC Radio Systems Coordination Center
+address:        TC Radio Systems
+address:        3/5, Voskresenskaya st,
+address:        Sumy, 40000,
+address:        Ukraine
+phone:          +380 542 619001
+phone:          +380 542 619002
+fax-no:         +380 542 619495
+abuse-mailbox:  abuse@rs.net.ua
+admin-c:        VG297-RIPE
+tech-c:         FLAX-RIPE
+nic-hdl:        TCRS-CC
+mnt-by:         TCRS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-06-14T14:32:35Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          31.135.128.0/19
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-07-08T13:34:12Z
+last-modified:  2011-07-08T13:34:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.135.128.0/21
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-09-07T07:40:07Z
+last-modified:  2011-09-07T07:40:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.135.136.0/21
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-09-07T07:41:44Z
+last-modified:  2011-09-07T07:41:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.135.136.0/22
+origin:         AS20539
+descr:          TC Radio Systems
+mnt-by:         TCRS-MNT
+mnt-by:         GUCHENKO-MNT
+created:        2024-08-25T06:08:20Z
+last-modified:  2024-08-25T06:08:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.135.144.0/22
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-09-07T07:43:00Z
+last-modified:  2011-09-07T07:43:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.135.148.0/22
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2012-01-16T14:56:14Z
+last-modified:  2012-01-16T14:56:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.135.152.0/23
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2013-11-08T09:54:46Z
+last-modified:  2013-11-08T09:54:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.135.154.0/23
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2013-01-23T12:06:56Z
+last-modified:  2013-01-23T12:06:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.201.224.0/22
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2008-11-17T14:29:58Z
+last-modified:  2008-11-17T14:29:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.201.224.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-16T07:15:06Z
+last-modified:  2011-03-16T07:15:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.201.225.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-16T07:15:16Z
+last-modified:  2011-03-16T07:15:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.201.226.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-16T07:15:24Z
+last-modified:  2011-03-16T07:15:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.201.227.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-16T07:15:31Z
+last-modified:  2011-03-16T07:15:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.199.160.0/21
+origin:         AS20539
+mnt-by:         MIK-MNT
+created:        2021-11-01T11:49:26Z
+last-modified:  2021-11-01T11:49:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.178.228.0/23
+descr:          TC Radio Systems
+origin:         AS20539
+notify:         ripe-nfy@rs.net.ua
+mnt-by:         TCRS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2008-11-17T14:27:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.178.228.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-16T07:11:38Z
+last-modified:  2011-03-16T07:11:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.178.229.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-15T10:13:12Z
+last-modified:  2011-03-15T10:13:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.146.228.0/22
+descr:          TC Radio Systems
+origin:         AS20539
+notify:         ripe-nfy@rs.net.ua
+mnt-by:         TCRS-MNT
+created:        2003-12-02T15:17:30Z
+last-modified:  2003-12-02T15:17:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.146.228.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-16T07:12:09Z
+last-modified:  2011-03-16T07:12:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.146.229.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-16T07:12:19Z
+last-modified:  2011-03-16T07:12:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.146.230.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-16T07:12:33Z
+last-modified:  2011-03-16T07:12:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.146.231.0/24
+descr:          TC Radio Systems
+origin:         AS20539
+mnt-by:         TCRS-MNT
+created:        2011-03-16T07:12:42Z
+last-modified:  2011-03-16T07:12:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:680:8000::/36
+origin:         AS20539
+notify:         noc@mik.ua
+notify:         noc@rs.net.ua
+mnt-routes:     TCRS-MNT
+mnt-lower:      TCRS-MNT
+mnt-routes:     MIK-MNT
+mnt-by:         MIK-MNT
+mnt-by:         TCRS-MNT
+created:        2019-08-01T11:33:03Z
+last-modified:  2019-08-01T14:22:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

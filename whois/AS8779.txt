@@ -1,0 +1,226 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8771 - AS8795'
+
+as-block:       AS8771 - AS8795
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8779'
+
+% Abuse contact for 'AS8779' is 'abuse@ic.km.ua'
+
+aut-num:        AS8779
+as-name:        INFOCOM-KM
+descr:          Khmelnitsky, Ukraine
+remarks:        ------ IPv4 Peering ------
+import:         from AS3326 action pref=100; accept ANY # JSC "Datagroup"
+import:         from AS3326 action pref=150; accept AS-UAIX # JSC "Datagroup"
+import:         from AS6939 action pref=100; accept ANY # Hurricane Electric
+import:         from AS28681 action pref=200; accept AS-KMIX # Khmelnitskiy internet Exange
+import:         from AS28773 action pref=100; accept AS-MASTER # LLC "GTU"
+import:         from AS29663 action pref=100; accept AS29663 # Secondary.net.ua
+import:         from AS31210 action pref=150; accept AS-DTEL-IX # Digital Telecom IX LLC
+import:         from AS49461 action pref=100; accept AS49461 # PP "Podilsky Intelectualni sistemy"
+import:         from AS56423 action pref=100; accept AS56423 # PE Lisovskiy Dmitro Sergiyovich
+import:         from AS59613 action pref=150; accept AS-UBNIX # Giganet.UA Internet Exchange Network
+export:         to AS3326 announce AS-IC
+export:         to AS6939 announce AS-IC
+export:         to AS28681 announce ANY
+export:         to AS28773 announce ANY
+export:         to AS29663 announce ANY
+export:         to AS31210 announce AS-IC
+export:         to AS49461 announce ANY
+export:         to AS56423 announce ANY
+export:         to AS59613 announce AS-IC
+remarks:        ------ IPv6 Peering ------
+mp-import:      afi ipv6.unicast from AS3326 accept ANY # JSC "Datagroup"
+mp-export:      afi ipv6.unicast to AS3326 announce AS-IC-v6
+mp-import:      afi ipv6.unicast from AS6939 accept ANY # Hurricane Electric
+mp-export:      afi ipv6.unicast to AS6939 announce AS-IC-v6
+mp-import:      afi ipv6.unicast from AS28681 accept AS-KMIX # Khmelnitskiy internet Exange
+mp-export:      afi ipv6.unicast to AS28681 announce AS-IC-v6
+mp-import:      afi ipv6.unicast from AS28773 accept ANY # LLC "GTU"
+mp-export:      afi ipv6.unicast to AS28773 announce AS-IC-v6
+mp-import:      afi ipv6.unicast from AS29663 accept AS29663 # Secondary.net.ua
+mp-export:      afi ipv6.unicast to AS29663 announce AS-IC-v6
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6 # Digital Telecom IX LLC
+mp-export:      afi ipv6.unicast to AS31210 announce AS-IC-v6
+remarks:
+remarks:        ---------------------------------------------
+remarks:        BGP communities support for AS8779 customers:
+remarks:        ---------------------------------------------
+remarks:
+remarks:        1. Community advertised to customers:
+remarks:        8779:100 KM-IX
+remarks:        8779:200 UA-IX
+remarks:        8779:300 Datagroup
+remarks:        8779:500 Downstreams
+remarks:        8779:600 DTEL-IX
+remarks:        8779:900 GTU
+remarks:
+remarks:        2. Communities accepted from customers:
+remarks:        ---------------------------------------
+remarks:        Community Action
+remarks:        --------- ------
+remarks:        8779:102x to Datagroup (AS21219)
+remarks:        8779:103x to GTU (AS28773)
+remarks:
+remarks:
+remarks:        8779:200x to UA-IX (AS15645)
+remarks:        8779:201x to KM-IX (AS28681)
+remarks:        8779:202x to DTEL-IX (AS31210)
+remarks:
+remarks:        Where x is number of prepends (x=1,2,4,6) or do NOT advertise (x=0)
+remarks:
+remarks:        8779:65500 Don't advertise to any peer
+remarks:        8779:65505 Announce to customers but not to upstream
+remarks:        8779:666 Blackhole community
+remarks:
+remarks:        Points of contact for :
+remarks:        SPAM/Network security issues: abuse@ic.km.ua
+remarks:        routing and peering issues: hostmaster@ic.km.ua
+remarks:        general information: office@ic.km.ua
+remarks:
+org:            ORG-KL33-RIPE
+admin-c:        VOVK-RIPE
+tech-c:         VOVK-RIPE
+remarks:
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         IC-MNT
+created:        2002-07-03T07:30:26Z
+last-modified:  2024-04-25T08:39:54Z
+source:         RIPE
+
+organisation:   ORG-KL33-RIPE
+org-name:       KhmelnitskInfocom LTD
+country:        UA
+org-type:       LIR
+address:        Heroiv Maidanu str. 40
+address:        29000
+address:        Khmelnytskyi
+address:        UKRAINE
+phone:          +380382765513
+fax-no:         +380382765501
+admin-c:        old-ripe
+admin-c:        vovk-ripe
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        IC-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         IC-MNT
+abuse-c:        ic-ripe
+created:        2007-06-04T10:11:11Z
+last-modified:  2023-01-24T14:37:41Z
+source:         RIPE # Filtered
+
+person:         Vyacheslav V. Vovk
+address:        KhmelnitskInfocom LLC
+address:        40, Heroiv Maidanu  str.
+address:        29000, Khmelnitskiy
+address:        Ukraine
+phone:          +380-382-765886
+fax-no:         +380-382-765501
+nic-hdl:        VOVK-RIPE
+mnt-by:         IC-MNT
+created:        2003-04-01T07:34:51Z
+last-modified:  2017-10-30T21:45:58Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          46.252.208.0/20
+descr:          KhmelnitskInfocom aggregate block
+origin:         AS8779
+mnt-by:         IC-MNT
+created:        2010-12-23T19:01:18Z
+last-modified:  2010-12-23T19:01:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.152.160.0/19
+descr:          KhmelnitskInfocom aggregate block
+origin:         AS8779
+mnt-by:         IC-MNT
+created:        2007-06-20T14:40:38Z
+last-modified:  2007-06-20T15:45:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.230.192.0/20
+descr:          KhmelnitskInfocom aggregate block
+origin:         AS8779
+mnt-by:         IC-MNT
+created:        2009-01-29T15:27:15Z
+last-modified:  2009-01-29T15:31:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.15.4.0/23
+descr:          KhmelnitskInfocom more specific
+origin:         AS8779
+mnt-by:         IC-MNT
+created:        2013-08-02T08:20:26Z
+last-modified:  2013-08-02T08:20:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:6740::/32
+descr:          KhmelnitskInfocom  ipv6 route
+origin:         AS8779
+mnt-by:         IC-MNT
+created:        2011-12-28T09:46:31Z
+last-modified:  2011-12-28T09:46:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,4301 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8708'
+
+% Abuse contact for 'AS8708' is 'abuse@rcs-rds.ro'
+
+aut-num:        AS8708
+as-name:        RCS-RDS
+descr:          73-75 Dr. Staicovici
+descr:          Bucharest, ROMANIA
+org:            ORG-RA18-RIPE
+admin-c:        GEPU1-RIPE
+tech-c:         RDS-RIPE
+remarks:        ------------------------------------------------
+remarks:        RDS filters out inbound prefixes longer than /24
+remarks:        MEDs are overwritten unless special arrangements have been made
+remarks:
+remarks:        Communities
+remarks:        ------------------------------------------------
+remarks:        8708:80   Set local preference to 80 inside RDS
+remarks:        8708:120  Set local preference to 120 inside RDS
+remarks:
+remarks:        8708:1001 Prepend 1*8708 when advertising to transit providers and international peers
+remarks:        8708:1002 Prepend 2*8708 when advertising to transit providers and international peers
+remarks:        8708:1003 Prepend 3*8708 when advertising to transit providers and international peers
+remarks:        8708:1009 Do not advertise to transit providers
+remarks:
+remarks:        8708:2001 Prepend 1*8708 when announcing to Bucharest peers
+remarks:        8708:2002 Prepend 2*8708 when announcing to Bucharest peers
+remarks:        8708:2003 Prepend 3*8708 when announcing to Bucharest peers
+remarks:        8708:2009 Do not advertise to Bucharest peers
+remarks:
+remarks:        8708:2101 Prepend 1*8708 when announcing to Budapest peers
+remarks:        8708:2102 Prepend 2*8708 when announcing to Budapest peers
+remarks:        8708:2103 Prepend 3*8708 when announcing to Budapest peers
+remarks:        8708:2109 Do not advertise to Budapest peers
+remarks:
+remarks:        8708:2201 Prepend 1*8708 when announcing to Frankfurt peers
+remarks:        8708:2202 Prepend 2*8708 when announcing to Frankfurt peers
+remarks:        8708:2203 Prepend 3*8708 when announcing to Frankfurt peers
+remarks:        8708:2209 Do not advertise to Frankfurt peers
+remarks:
+remarks:        8708:2301 Prepend 1*8708 when announcing to Amsterdam peers
+remarks:        8708:2302 Prepend 2*8708 when announcing to Amsterdam peers
+remarks:        8708:2303 Prepend 3*8708 when announcing to Amsterdam peers
+remarks:        8708:2309 Do not advertise to Amsterdam peers
+remarks:
+remarks:        8708:2401 Prepend 1*8708 when announcing to London peers
+remarks:        8708:2402 Prepend 2*8708 when announcing to London peers
+remarks:        8708:2403 Prepend 3*8708 when announcing to London peers
+remarks:        8708:2409 Do not advertise to London peers
+remarks:
+remarks:        8708:2501 Prepend 1*8708 when announcing to Sofia peers
+remarks:        8708:2502 Prepend 2*8708 when announcing to Sofia peers
+remarks:        8708:2503 Prepend 3*8708 when announcing to Sofia peers
+remarks:        8708:2509 Do not advertise to Sofia peers
+remarks:
+remarks:        8708:100 RDS aggregates and BGP customers
+remarks:        8708:200 Bucharest peers
+remarks:        8708:301 Budapest peers
+remarks:        8708:302 Frankfurt peers
+remarks:        8708:303 Amsterdam peers
+remarks:        8708:304 London peers
+remarks:        8708:305 Sofia peers
+remarks:
+remarks:        8708:9999 Blackhole (discard) traffic (for filtering purposes, only /32 blocks)
+remarks:
+remarks:        Local preference
+remarks:        --------------------------------------------------------
+remarks:        Customer prefer  120
+remarks:        Customer default  110
+remarks:        Customer backup  80
+remarks:        Bucharest peers  75
+remarks:        International peers  [50-70]
+remarks:        Transit providers  [30-40]
+remarks:
+remarks:        BGP customers requests: http://clienti.rcs-rds.ro/net/bgp/
+remarks:        Peering requests: peering@rcs-rds.ro
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        Call center (24x7) +40 31 400 4401
+remarks:        NOC (24x7): nmc@rcs-rds.ro
+remarks:        Peering issues: peering@rcs-rds.ro
+remarks:        --------------------------------------------------------
+remarks:
+export:         to AS5507 announce AS-RDSNET
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8708-MNT
+created:        2002-08-27T06:24:01Z
+last-modified:  2018-08-22T13:22:43Z
+source:         RIPE # Filtered
+
+organisation:   ORG-RA18-RIPE
+org-name:       DIGI ROMANIA S.A.
+country:        RO
+org-type:       LIR
+address:        DR. STAICOVICI NR 75 SECTOR 5
+address:        050557
+address:        Bucharest
+address:        ROMANIA
+phone:          +40 314 004 444
+phone:          +40 314 004 440
+fax-no:         +40 314 004 441
+admin-c:        GEPU1-RIPE
+admin-c:        MANU5-RIPE
+abuse-c:        RDS-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8708-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8708-MNT
+created:        2004-04-17T11:49:55Z
+last-modified:  2025-04-16T06:23:46Z
+source:         RIPE # Filtered
+
+role:           RCS & RDS NOC
+address:        71-75 Dr. Staicovici
+address:        Bucharest / ROMANIA
+phone:          +40 21 30 10 888
+fax-no:         +40 21 30 10 892
+abuse-mailbox:  abuse@rcs-rds.ro
+admin-c:        GEPU1-RIPE
+tech-c:         GEPU1-RIPE
+nic-hdl:        RDS-RIPE
+mnt-by:         RDS-MNT
+remarks:        +------------------------------------------------------------+
+remarks:        | Please use ABUSE@RCS-RDS.RO for complaints and only after  |
+remarks:        | you have tried contacting directly our customers according |
+remarks:        | to the details registered in RIPE database.                |
+remarks:        +------------------------------------------------------------+
+remarks:        | DO NOT CALL, FAX, OR CONTACT US BY ANY OTHER MEANS EXCEPT  |
+remarks:        |                    abuse@rcs-rds.ro                        |
+remarks:        +------------------------------------------------------------+
+created:        1970-01-01T00:00:00Z
+last-modified:  2019-08-21T07:16:42Z
+source:         RIPE # Filtered
+
+person:         Dan Epure
+address:        RCS & RDS S.A
+address:        Forum 2000 Building 71-75 Dr. Staicovici
+address:        Bucharest, ROMANIA
+phone:          +40 31 400 4240
+fax-no:         +40 31 400 4207
+nic-hdl:        GEPU1-RIPE
+mnt-by:         AS8708-MNT
+created:        2002-06-17T10:14:28Z
+last-modified:  2023-10-25T17:57:48Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          2.17.116.0/22
+descr:          Akamai Technologies
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2016-12-15T15:01:07Z
+last-modified:  2016-12-15T15:01:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.2.128.0/17
+descr:          RCS-RDS
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2013-05-29T09:03:32Z
+last-modified:  2013-05-29T09:03:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.12.0.0/14
+descr:          RCS-RDS
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-05-03T12:08:36Z
+last-modified:  2012-05-08T12:14:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.0.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:28Z
+last-modified:  2012-07-26T11:41:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.4.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:28Z
+last-modified:  2012-07-26T11:41:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.8.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:29Z
+last-modified:  2012-07-26T11:41:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.12.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:29Z
+last-modified:  2012-07-26T11:41:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.16.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:30Z
+last-modified:  2012-07-26T11:41:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.20.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:32Z
+last-modified:  2012-07-26T11:41:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.24.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:34Z
+last-modified:  2012-07-26T11:41:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.28.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:35Z
+last-modified:  2012-07-26T11:41:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.32.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:36Z
+last-modified:  2012-07-26T11:41:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.36.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:37Z
+last-modified:  2012-07-26T11:41:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.40.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:39Z
+last-modified:  2012-07-26T11:41:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.44.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:40Z
+last-modified:  2012-07-26T11:41:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.48.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:41Z
+last-modified:  2012-07-26T11:41:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.52.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:42Z
+last-modified:  2012-07-26T11:41:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.56.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:43Z
+last-modified:  2012-07-26T11:41:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.60.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:44Z
+last-modified:  2012-07-26T11:41:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.64.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:46Z
+last-modified:  2012-07-26T11:41:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.68.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:49Z
+last-modified:  2012-07-26T11:41:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.72.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:51Z
+last-modified:  2012-07-26T11:41:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.76.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:52Z
+last-modified:  2012-07-26T11:41:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.80.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:52Z
+last-modified:  2012-07-26T11:41:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.84.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:53Z
+last-modified:  2012-07-26T11:41:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.88.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:54Z
+last-modified:  2012-07-26T11:41:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.92.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:54Z
+last-modified:  2012-07-26T11:41:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.96.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:55Z
+last-modified:  2012-07-26T11:41:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.100.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:55Z
+last-modified:  2012-07-26T11:41:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.104.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:56Z
+last-modified:  2012-07-26T11:41:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.108.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:57Z
+last-modified:  2012-07-26T11:41:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.112.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:58Z
+last-modified:  2012-07-26T11:41:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.116.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:59Z
+last-modified:  2012-07-26T11:41:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.120.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:00Z
+last-modified:  2012-07-26T11:42:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.124.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:01Z
+last-modified:  2012-07-26T11:42:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.128.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:02Z
+last-modified:  2012-07-26T11:42:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.132.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:03Z
+last-modified:  2012-07-26T11:42:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.136.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:04Z
+last-modified:  2012-07-26T11:42:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.140.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:05Z
+last-modified:  2012-07-26T11:42:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.144.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:05Z
+last-modified:  2012-07-26T11:42:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.148.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:06Z
+last-modified:  2012-07-26T11:42:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.152.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:06Z
+last-modified:  2012-07-26T11:42:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.156.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:07Z
+last-modified:  2012-07-26T11:42:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.160.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:07Z
+last-modified:  2012-07-26T11:42:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.164.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:08Z
+last-modified:  2012-07-26T11:42:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.168.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:08Z
+last-modified:  2012-07-26T11:42:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.172.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:09Z
+last-modified:  2012-07-26T11:42:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.176.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:09Z
+last-modified:  2012-07-26T11:42:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.180.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:10Z
+last-modified:  2012-07-26T11:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.184.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:10Z
+last-modified:  2012-07-26T11:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.188.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:11Z
+last-modified:  2012-07-26T11:42:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.192.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:11Z
+last-modified:  2012-07-26T11:42:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.196.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:11Z
+last-modified:  2012-07-26T11:42:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.200.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:12Z
+last-modified:  2012-07-26T11:42:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.204.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:12Z
+last-modified:  2012-07-26T11:42:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.208.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:13Z
+last-modified:  2012-07-26T11:42:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.212.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:13Z
+last-modified:  2012-07-26T11:42:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.216.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:14Z
+last-modified:  2012-07-26T11:42:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.220.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:14Z
+last-modified:  2012-07-26T11:42:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.224.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:14Z
+last-modified:  2012-07-26T11:42:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.228.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:15Z
+last-modified:  2012-07-26T11:42:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.232.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:15Z
+last-modified:  2012-07-26T11:42:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.236.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:16Z
+last-modified:  2012-07-26T11:42:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.240.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:16Z
+last-modified:  2012-07-26T11:42:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.244.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:17Z
+last-modified:  2012-07-26T11:42:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.248.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:17Z
+last-modified:  2012-07-26T11:42:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.14.252.0/22
+descr:          SC Infogate Telecom SRL
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:18Z
+last-modified:  2012-07-26T11:42:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.0.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:28Z
+last-modified:  2012-07-26T11:41:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.4.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:29Z
+last-modified:  2012-07-26T11:41:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.8.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:29Z
+last-modified:  2012-07-26T11:41:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.12.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:30Z
+last-modified:  2012-07-26T11:41:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.16.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:31Z
+last-modified:  2012-07-26T11:41:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.20.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:33Z
+last-modified:  2012-07-26T11:41:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.24.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:35Z
+last-modified:  2012-07-26T11:41:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.28.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:36Z
+last-modified:  2012-07-26T11:41:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.32.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:37Z
+last-modified:  2012-07-26T11:41:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.36.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:38Z
+last-modified:  2012-07-26T11:41:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.40.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:39Z
+last-modified:  2012-07-26T11:41:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.44.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:40Z
+last-modified:  2012-07-26T11:41:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.48.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:41Z
+last-modified:  2012-07-26T11:41:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.52.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:43Z
+last-modified:  2012-07-26T11:41:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.56.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:44Z
+last-modified:  2012-07-26T11:41:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.60.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:45Z
+last-modified:  2012-07-26T11:41:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.64.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:48Z
+last-modified:  2012-07-26T11:41:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.68.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:50Z
+last-modified:  2012-07-26T11:41:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.72.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:51Z
+last-modified:  2012-07-26T11:41:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.76.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:52Z
+last-modified:  2012-07-26T11:41:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.80.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:53Z
+last-modified:  2012-07-26T11:41:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.84.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:53Z
+last-modified:  2012-07-26T11:41:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.88.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:54Z
+last-modified:  2012-07-26T11:41:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.92.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:55Z
+last-modified:  2012-07-26T11:41:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.96.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:55Z
+last-modified:  2012-07-26T11:41:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.100.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:56Z
+last-modified:  2012-07-26T11:41:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.104.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:56Z
+last-modified:  2012-07-26T11:41:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.108.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:57Z
+last-modified:  2012-07-26T11:41:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.112.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:41:59Z
+last-modified:  2012-07-26T11:41:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.116.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:00Z
+last-modified:  2012-07-26T11:42:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.120.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:01Z
+last-modified:  2012-07-26T11:42:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.124.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:02Z
+last-modified:  2012-07-26T11:42:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.128.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:03Z
+last-modified:  2012-07-26T11:42:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.132.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:03Z
+last-modified:  2012-07-26T11:42:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.136.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:04Z
+last-modified:  2012-07-26T11:42:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.140.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:05Z
+last-modified:  2012-07-26T11:42:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.144.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:05Z
+last-modified:  2012-07-26T11:42:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.148.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:06Z
+last-modified:  2012-07-26T11:42:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.152.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:06Z
+last-modified:  2012-07-26T11:42:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.156.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:07Z
+last-modified:  2012-07-26T11:42:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.160.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:07Z
+last-modified:  2012-07-26T11:42:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.164.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:08Z
+last-modified:  2012-07-26T11:42:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.168.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:09Z
+last-modified:  2012-07-26T11:42:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.172.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:09Z
+last-modified:  2012-07-26T11:42:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.176.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:10Z
+last-modified:  2012-07-26T11:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.180.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:10Z
+last-modified:  2012-07-26T11:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.184.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:10Z
+last-modified:  2012-07-26T11:42:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.188.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:11Z
+last-modified:  2012-07-26T11:42:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.192.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:11Z
+last-modified:  2012-07-26T11:42:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.196.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:12Z
+last-modified:  2012-07-26T11:42:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.200.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:12Z
+last-modified:  2012-07-26T11:42:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.204.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:13Z
+last-modified:  2012-07-26T11:42:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.208.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:13Z
+last-modified:  2012-07-26T11:42:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.212.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:13Z
+last-modified:  2012-07-26T11:42:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.216.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:14Z
+last-modified:  2012-07-26T11:42:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.220.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:14Z
+last-modified:  2012-07-26T11:42:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.224.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:15Z
+last-modified:  2012-07-26T11:42:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.228.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:15Z
+last-modified:  2012-07-26T11:42:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.232.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:15Z
+last-modified:  2012-07-26T11:42:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.236.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:16Z
+last-modified:  2012-07-26T11:42:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.240.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:16Z
+last-modified:  2012-07-26T11:42:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.244.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:17Z
+last-modified:  2012-07-26T11:42:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.248.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:17Z
+last-modified:  2012-07-26T11:42:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.15.252.0/22
+descr:          RCS-RDS-3G
+origin:         AS8708
+mnt-by:         RDS-MNT
+created:        2012-07-26T11:42:18Z
+last-modified:  2012-07-26T11:42:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.14.224.0/22
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-07-28T07:08:36Z
+last-modified:  2021-07-28T07:08:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.67.37.0/24
+origin:         AS8708
+mnt-by:         NETSERV-GENERAL-MNT
+created:        2023-02-08T09:13:54Z
+last-modified:  2023-02-08T09:13:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.91.6.0/24
+descr:          RO_UAB
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2024-12-18T13:58:54Z
+last-modified:  2024-12-18T13:59:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.133.152.0/24
+descr:          RO_UAB
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2024-12-18T13:58:54Z
+last-modified:  2024-12-18T13:59:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.145.18.0/23
+descr:          RO_UAB
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2024-12-18T12:53:47Z
+last-modified:  2024-12-18T12:55:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.150.82.0/23
+descr:          RO_UAB
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2024-12-18T12:53:47Z
+last-modified:  2024-12-18T12:55:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.102.175.0/24
+origin:         AS8708
+descr:          RDS-RCS
+created:        2024-01-06T12:35:45Z
+last-modified:  2024-01-06T12:37:03Z
+source:         RIPE
+mnt-by:         ACTIVEMALL-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.231.64.0/18
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2004-03-12T14:30:29Z
+last-modified:  2004-03-12T14:30:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.114.0.0/15
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2024-11-18T21:29:56Z
+last-modified:  2024-11-18T21:29:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.118.0.0/15
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2020-10-27T14:12:15Z
+last-modified:  2020-10-27T14:12:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.12.0/24
+descr:          Verasys International SRL
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-02-14T22:08:10Z
+last-modified:  2022-02-14T22:08:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.43.0/24
+descr:          BIT Software SRL
+origin:         AS8708
+notify:         hostmaster@rotld.ro
+mnt-by:         AS3233-MNT
+created:        2022-12-16T19:54:56Z
+last-modified:  2022-12-16T19:54:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.47.0/24
+descr:          RDSNET
+origin:         AS8708
+notify:         ripe-notifications@rcs-rds.ro
+mnt-by:         AS8708-MNT
+created:        2022-02-14T17:34:02Z
+last-modified:  2022-02-14T17:34:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.51.0/24
+descr:          RDSNET
+origin:         AS8708
+notify:         ripe-notifications@rcs-rds.ro
+mnt-by:         AS8708-MNT
+created:        2022-02-14T17:34:02Z
+last-modified:  2022-02-14T17:34:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.56.0/24
+descr:          RDSNET
+origin:         AS8708
+notify:         ripe-notifications@rcs-rds.ro
+mnt-by:         AS8708-MNT
+created:        2022-02-14T17:34:02Z
+last-modified:  2022-02-14T17:34:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.96.57.0/24
+descr:          eSys Retail SRL
+notify:         hostmaster@rotld.ro
+origin:         AS8708
+mnt-by:         AS3233-MNT
+created:        2025-05-09T09:47:50Z
+last-modified:  2025-05-09T09:47:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.58.0/24
+descr:          RDSNET
+origin:         AS8708
+notify:         ripe-notifications@rcs-rds.ro
+mnt-by:         AS8708-MNT
+created:        2022-02-14T17:34:02Z
+last-modified:  2022-02-14T17:34:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.96.67.0/24
+descr:          RDSNET
+origin:         AS8708
+notify:         ripe-notifications@rcs-rds.ro
+mnt-by:         AS8708-MNT
+created:        2022-02-14T18:55:01Z
+last-modified:  2022-02-14T18:55:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.69.0/24
+descr:          WIRELESS BROADBAND SRL
+origin:         AS8708
+notify:         hostmaster@rotld.ro
+mnt-by:         AS3233-MNT
+created:        2023-01-26T11:54:35Z
+last-modified:  2023-01-26T11:54:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.72.0/24
+descr:          RDSNET
+origin:         AS8708
+notify:         ripe-notifications@rcs-rds.ro
+mnt-by:         AS8708-MNT
+created:        2022-02-14T18:55:01Z
+last-modified:  2022-02-14T18:55:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.79.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2016-03-01T09:53:52Z
+last-modified:  2016-03-01T09:53:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.96.80.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2016-03-01T09:53:52Z
+last-modified:  2016-03-01T09:53:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.96.219.0/24
+descr:          CMTEB-NET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2016-07-20T11:55:32Z
+last-modified:  2021-12-22T14:10:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.97.147.0/24
+descr:          RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-02-07T15:02:08Z
+last-modified:  2022-02-07T15:02:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.97.148.0/24
+descr:          RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-02-07T15:02:08Z
+last-modified:  2022-02-07T15:02:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.97.149.0/24
+descr:          RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-02-07T15:02:08Z
+last-modified:  2022-02-07T15:02:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.18.64.0/19
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+mnt-lower:      AS8708-MNT
+created:        2003-04-05T08:29:39Z
+last-modified:  2003-04-22T15:14:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.180.27.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-10-25T12:35:41Z
+last-modified:  2021-10-25T12:35:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.181.30.0/24
+descr:          Ekonational Distribution SRL
+origin:         AS8708
+notify:         hostmaster@rotld.ro
+mnt-by:         AS3233-MNT
+created:        2023-10-31T17:56:13Z
+last-modified:  2023-10-31T17:56:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.181.112.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-06-28T21:53:37Z
+last-modified:  2021-06-28T21:53:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.181.128.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-06-28T23:09:55Z
+last-modified:  2021-06-28T23:09:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.181.147.0/24
+descr:          While1 Software SRL
+notify:         hostmaster@rotld.ro
+origin:         AS8708
+mnt-by:         AS3233-MNT
+created:        2025-05-10T06:16:37Z
+last-modified:  2025-05-10T06:16:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.181.167.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-02-26T08:25:59Z
+last-modified:  2021-02-26T08:25:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.181.246.0/24
+descr:          Standard Business & Services
+origin:         AS8708
+mnt-by:         RO-SBS-MNT
+created:        2022-06-30T17:51:02Z
+last-modified:  2022-06-30T17:51:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.196.0.0/16
+descr:          RDSNET
+origin:         AS8708
+notify:         notify-ripe@rdsnet.ro
+mnt-by:         AS8708-MNT
+created:        2021-07-05T16:33:28Z
+last-modified:  2021-07-05T16:33:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.76.0.0/14
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2003-07-14T08:23:35Z
+last-modified:  2004-09-09T07:36:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.137.0.0/18
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2020-09-10T17:36:16Z
+last-modified:  2020-09-10T17:36:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.137.0.0/21
+descr:          RCS&RDS S.A.
+origin:         AS8708
+notify:         notify-ripe@rdsnet.ro
+mnt-by:         AS8708-MNT
+created:        2011-03-11T12:06:16Z
+last-modified:  2011-03-11T12:06:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.137.16.0/20
+descr:          RCS&RDS S.A.
+origin:         AS8708
+notify:         notify-ripe@rdsnet.ro
+mnt-by:         AS8708-MNT
+created:        2011-03-11T12:06:16Z
+last-modified:  2011-03-11T12:06:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.137.32.0/19
+descr:          RCS&RDS S.A.
+origin:         AS8708
+notify:         notify-ripe@rdsnet.ro
+mnt-by:         AS8708-MNT
+created:        2011-03-11T12:06:16Z
+last-modified:  2011-03-11T12:06:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.232.128.0/17
+descr:          RCS & RDS S.A.
+origin:         AS8708
+notify:         ripe@nimaci.com
+mnt-by:         AS8708-MNT
+created:        2006-06-09T13:04:06Z
+last-modified:  2006-06-09T13:04:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.120.15.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-06-24T17:45:05Z
+last-modified:  2021-06-24T17:45:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.120.20.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-06-24T18:08:19Z
+last-modified:  2021-06-24T18:08:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.120.23.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-06-24T18:18:27Z
+last-modified:  2021-06-24T18:18:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.120.151.0/24
+descr:          Proxy-registered route object
+origin:         AS8708
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.204.242.0/24
+descr:          RCS-RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2013-06-28T11:14:05Z
+last-modified:  2013-06-28T11:14:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.105.233.0/24
+descr:          RCS&RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2012-07-03T12:50:19Z
+last-modified:  2012-07-03T12:50:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.120.0.0/13
+descr:          RDSNET
+origin:         AS8708
+holes:          86.122.160.0/21
+holes:          86.127.224.0/19
+mnt-by:         AS8708-MNT
+created:        2005-03-16T13:59:02Z
+last-modified:  2019-10-29T10:31:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.34.80.0/21
+descr:          Proxy-registered route object
+origin:         AS8708
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          89.34.178.0/24
+descr:          RCS-RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2013-06-28T11:14:09Z
+last-modified:  2013-06-28T11:14:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.36.32.0/23
+descr:          Proxy-registered route object
+origin:         AS8708
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          89.37.135.0/24
+origin:         AS8708
+mnt-by:         MARILUC-MNT
+created:        2019-02-27T11:53:41Z
+last-modified:  2019-02-27T11:53:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.38.236.0/24
+descr:          RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2015-08-26T09:22:38Z
+last-modified:  2015-08-26T09:22:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.43.53.0/24
+descr:          RCS-RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2013-06-28T11:14:10Z
+last-modified:  2013-06-28T11:14:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.43.63.0/24
+descr:          RCS-RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2013-06-28T11:14:11Z
+last-modified:  2013-06-28T11:14:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.43.180.0/23
+descr:          DIGI-NET-Services
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2023-11-15T10:15:54Z
+last-modified:  2023-11-15T10:15:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.46.93.0/24
+descr:          Metropolitan Services SRL
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2015-11-05T07:32:45Z
+last-modified:  2015-11-05T07:32:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.113.128.0/24
+descr:          Cycomm Communications
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2024-06-29T17:28:29Z
+last-modified:  2024-06-29T17:29:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.114.57.0/24
+descr:          RCS-RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2013-06-28T11:14:11Z
+last-modified:  2013-06-28T11:14:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          103.243.144.0/22
+origin:         AS8708
+descr:          HostRoyale Technologies Pvt Ltd
+                Office Number 11A, City Mall
+                Ganeshkhind Road
+mnt-by:         MAINT-HOSTROYALETECHNOLOGIES-IN
+last-modified:  2024-10-08T09:30:42Z
+source:         APNIC
+rpki-ov-state:  valid
+
+route:          185.129.36.0/22
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-11-16T18:15:21Z
+last-modified:  2022-11-16T18:15:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.133.64.0/24
+descr:          PRO-TV
+origin:         AS8708
+mnt-by:         AS8953-MNT
+created:        2024-10-16T12:31:28Z
+last-modified:  2024-10-28T11:57:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.234.131.0/24
+origin:         AS8708
+mnt-by:         SOFT-EXPERT-MNT
+mnt-by:         SOFT-EXPERT-MNT
+created:        2023-10-02T12:55:54Z
+last-modified:  2023-10-02T12:55:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.24.0.0/14
+descr:          RDSNET
+origin:         AS8708
+holes:          188.26.192.0/19
+mnt-by:         AS8708-MNT
+created:        2009-02-11T14:02:37Z
+last-modified:  2019-10-29T10:31:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.22.173.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2004-04-23T10:54:31Z
+last-modified:  2004-04-23T10:54:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.111.161.0/24
+descr:          Forte Systems
+descr:          Constanta Romania
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2003-01-23T17:25:45Z
+last-modified:  2003-01-23T17:25:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.111.232.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2002-06-20T11:23:17Z
+last-modified:  2002-06-20T11:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.201.20.0/23
+descr:          Lantech International
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2003-01-17T08:01:27Z
+last-modified:  2003-01-17T08:01:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.16.0/24
+descr:          Universitatea de Vest "Vasile Goldis" Arad
+notify:         hostmaster@rotld.ro
+origin:         AS8708
+mnt-by:         AS3233-MNT
+created:        2024-06-25T13:38:28Z
+last-modified:  2024-06-25T13:38:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.116.0/24
+descr:          Netsoft SRL
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-07-28T09:53:59Z
+last-modified:  2021-07-28T09:53:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.125.0/24
+descr:          SINTEC
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.226.127.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2005-03-14T12:31:28Z
+last-modified:  2005-03-14T12:50:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.230.142.0/24
+descr:          Proxy-registered route object
+origin:         AS8708
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.230.155.0/24
+descr:          CRIER-1
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2001-10-24T16:47:44Z
+last-modified:  2001-10-24T16:47:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.230.158.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.230.159.0/24
+descr:          NOW IT WORKS SRL
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-06-23T17:25:10Z
+last-modified:  2021-06-23T17:25:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.230.171.0/24
+origin:         AS8708
+mnt-by:         AS3233-MNT
+created:        2024-09-12T05:22:52Z
+last-modified:  2024-09-12T05:22:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.230.217.0/24
+origin:         AS8708
+mnt-by:         AS3233-MNT
+created:        2022-01-27T14:44:09Z
+last-modified:  2022-01-27T14:44:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.230.229.0/24
+descr:          Anysoft SRL
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-02-28T16:03:01Z
+last-modified:  2022-02-28T16:03:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.231.75.0/24
+descr:          Universitatea Maritima din Constanta
+notify:         hostmaster@rotld.ro
+origin:         AS8708
+mnt-by:         AS3233-MNT
+created:        2022-12-08T12:30:25Z
+last-modified:  2022-12-08T12:30:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.231.108.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.231.184.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-01-13T12:41:37Z
+last-modified:  2022-01-13T12:41:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.231.193.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.231.194.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+notify:         ripe-notifications@rcs-rds.ro
+created:        2022-03-03T10:15:05Z
+last-modified:  2022-03-03T10:15:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.231.236.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-01-14T11:38:27Z
+last-modified:  2022-01-14T11:38:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.231.238.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-01-14T11:36:15Z
+last-modified:  2022-01-14T11:36:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.231.252.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-01-14T11:36:15Z
+last-modified:  2022-01-14T11:36:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.0.173.0/24
+descr:          RDS
+origin:         AS8708
+remarks:
+mnt-by:         GBCEXIM-MNT
+created:        2023-02-11T16:28:42Z
+last-modified:  2023-02-11T16:28:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.36.142.0/24
+origin:         AS8708
+mnt-by:         SOFT-EXPERT-MNT
+created:        2023-03-13T13:56:17Z
+last-modified:  2023-03-13T13:56:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.74.0/24
+descr:          Societatea de Servicii Informatice SA
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2007-04-17T15:00:04Z
+last-modified:  2007-04-17T15:00:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.102.80.0/24
+descr:          RCS & RDS S.A.
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2006-04-13T07:23:37Z
+last-modified:  2006-04-13T07:23:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.81.0/24
+descr:          Romania Data Systems
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2005-07-26T13:55:20Z
+last-modified:  2005-07-26T13:55:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.98.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.102.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2016-01-27T09:24:29Z
+last-modified:  2016-01-27T09:24:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.128.0/24
+descr:          Nextra SRL
+notify:         hostmaster@rotld.ro
+origin:         AS8708
+created:        2022-04-27T16:13:28Z
+last-modified:  2022-04-27T16:13:28Z
+source:         RIPE
+mnt-by:         AS3233-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.129.0/24
+descr:          CYBERNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:34:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.134.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-10-29T16:38:23Z
+last-modified:  2021-10-29T16:38:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.154.0/23
+descr:          Proxy-registered route object
+origin:         AS8708
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070704
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.102.190.0/24
+origin:         AS8708
+mnt-by:         AS3233-MNT
+created:        2017-12-13T19:34:14Z
+last-modified:  2017-12-13T19:34:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.102.229.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2003-02-06T10:02:29Z
+last-modified:  2003-02-06T10:02:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.105.3.0/24
+origin:         AS8708
+mnt-by:         ORIZONT-MNT
+created:        2019-07-01T11:46:41Z
+last-modified:  2019-07-01T11:46:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.105.19.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.113.80.0/23
+descr:          HOSTROYALE
+origin:         AS8708
+notify:         support@keminet.net
+org:            ORG-KL65-RIPE
+mnt-by:         knd1-mnt
+mnt-by:         in-hostroyale-1-mnt
+created:        2024-10-02T11:34:27Z
+last-modified:  2024-10-02T13:08:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.153.224.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2002-10-07T16:05:32Z
+last-modified:  2002-10-07T16:05:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.153.227.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+notify:         ripe-notifications@rcs-rds.ro
+created:        2022-03-03T10:42:05Z
+last-modified:  2022-03-03T10:42:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.153.248.0/24
+descr:          NET-LINK
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-05-12T17:16:40Z
+last-modified:  2022-05-12T17:16:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.176.173.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS3233-MNT
+created:        2017-09-29T17:55:10Z
+last-modified:  2017-09-29T17:55:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.176.191.0/24
+descr:          RCS-RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2020-10-28T09:09:21Z
+last-modified:  2020-10-28T09:09:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.54.96.0/19
+descr:          TotalNet
+origin:         AS8708
+notify:         tech@totalnet.ro
+mnt-by:         AS12632-MNT
+created:        2003-12-22T12:23:04Z
+last-modified:  2004-12-20T15:45:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.93.128.0/19
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.154.128.0/24
+descr:          PCNET Servers
+origin:         AS8708
+notify:         notify-ripe@rdsnet.ro
+mnt-by:         AS8708-MNT
+created:        2006-11-27T09:00:05Z
+last-modified:  2006-11-27T09:00:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.157.160.0/19
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:31:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.156.14.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2006-01-31T11:55:26Z
+last-modified:  2006-01-31T11:55:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.156.20.0/23
+origin:         AS8708
+mnt-by:         STARNET-CONSULTING-MNT
+created:        2024-07-16T18:29:38Z
+last-modified:  2024-07-16T18:29:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.156.41.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.156.92.0/24
+descr:          RDSNET
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2016-02-26T19:10:23Z
+last-modified:  2016-02-26T19:10:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.156.97.0/24
+descr:          RDS
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2021-12-27T08:58:47Z
+last-modified:  2021-12-27T08:58:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:2f00::/28
+descr:          RCS&RDS S.A.
+origin:         AS8708
+mnt-by:         AS8708-MNT
+notify:         ripe-notifications@rcs-rds.ro
+created:        2023-02-03T14:43:01Z
+last-modified:  2023-02-03T14:43:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2f01:100::/48
+descr:          RCS&RDS S.A.
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-07-14T12:09:01Z
+last-modified:  2022-07-14T12:09:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2f09:3100::/48
+descr:          RCS&RDS S.A.
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-07-14T12:10:35Z
+last-modified:  2022-07-14T12:10:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:9c20::/32
+descr:          RCS&RDS S.A.
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-07-14T11:51:37Z
+last-modified:  2022-07-14T11:51:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:9c20:1000::/48
+descr:          RCS&RDS S.A.
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-07-14T11:51:37Z
+last-modified:  2022-07-14T11:51:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:9c20:f000::/48
+descr:          RCS&RDS S.A.
+origin:         AS8708
+mnt-by:         AS8708-MNT
+created:        2022-07-14T11:51:37Z
+last-modified:  2022-07-14T11:51:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a05:91c3:2::/48
+descr:          eSys Retail SRL
+origin:         AS8708
+mnt-by:         AS8708-MNT
+mnt-by:         CHROOT-MNT
+created:        2025-06-24T18:49:17Z
+last-modified:  2025-06-24T18:49:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

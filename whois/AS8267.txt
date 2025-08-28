@@ -1,0 +1,221 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8267'
+
+% Abuse contact for 'AS8267' is 'abuse@cyf-kr.edu.pl'
+
+aut-num:        AS8267
+as-name:        CYFRONET-AS
+org:            ORG-ACCC1-RIPE
+descr:          Metropolitan Area Network Autonomous System
+descr:          Academic Computer Centre, CYFRONET
+descr:          ul. Nawojki 11, 30-950 Krakow
+remarks:
+import:         from AS8501 action pref=150; accept ANY
+export:         to AS8501 announce AS-CYFRONET
+import:         from AS8323 action pref=0; accept ANY
+export:         to AS8323 announce ANY
+remarks:
+import:         from AS6778 action pref=80; accept AS-TELBANK
+import:         from AS12741 action pref=80; accept AS-NETIA
+import:         from AS1887 action pref=50; accept AS8501:AS-NASK
+import:         from AS5550 action pref=50; accept AS8501:AS-TASK
+import:         from AS8508 action pref=50; accept AS-SASK-PEERINGS
+import:         from AS8664 action pref=50; accept AS8501:AS-ICM
+import:         from AS8970 action pref=50; accept AS8501:AS-Wroclaw
+import:         from AS12324 action pref=50; accept AS8501:AS-Lublin
+import:         from AS15373 action pref=50; accept AS8501:AS-Czestochowa
+import:         from AS24848 action pref=50; accept AS8501:AS-Kielce
+import:         from AS25468 action pref=50; accept AS8501:AS-Rzeszow
+export:         to AS8267:AS-Peers announce AS-CYFRONET
+remarks:
+mp-import:      afi ipv6.unicast from AS8501 action pref=150; accept ANY
+mp-export:      afi ipv6.unicast to AS8501 announce AS8267 AS8323
+mp-import:      afi ipv6.unicast from AS786 action pref=150; accept ANY
+mp-export:      afi ipv6.unicast to AS786 announce AS8267 AS8323
+mp-import:      afi ipv6.unicast from AS323 action pref=0; accept ANY
+mp-export:      afi ipv6.unicast to AS8323 announce ANY
+mp-import:      afi ipv6.unicast from AS29155 action pref=80; accept AS29155
+mp-export:      afi ipv6.unicast to AS786 announce AS8267 AS8323
+mp-import:      afi ipv6.unicast from AS9112 action pref=80; accept AS9112
+mp-export:      afi ipv6.unicast to AS786 announce AS8267 AS8323
+remarks:
+admin-c:        JP65-RIPE
+tech-c:         JP65-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8267-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:13:40Z
+source:         RIPE
+
+organisation:   ORG-ACCC1-RIPE
+org-name:       Academic Computer Centre CYFRONET AGH
+country:        PL
+org-type:       LIR
+address:        Nawojki 11
+address:        30-950
+address:        KRAKOW
+address:        POLAND
+phone:          +48126323610
+fax-no:         +48126341084
+admin-c:        JP65-RIPE
+admin-c:        KG15-RIPE
+abuse-c:        ACC78-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8323-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8323-MNT
+created:        2004-04-17T11:46:50Z
+last-modified:  2020-12-16T13:42:24Z
+source:         RIPE # Filtered
+
+person:         Jerzy Pawlus
+address:        Academic Computer Centre "CYFRONET AGH"
+address:        ul. Nawojki 11
+address:        30-950 Krakow
+address:        Poland
+phone:          +48 (12) 632-36-10
+fax-no:         +48 (12) 634-10-84
+nic-hdl:        JP65-RIPE
+mnt-by:         AS8323-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-10-13T12:03:59Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          149.156.0.0/16
+descr:          KRAKPOLIP
+origin:         AS8267
+remarks:        operational since November 1991
+mnt-by:         AS8267-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.92.50.0/24
+descr:          KRAKPOLIP
+origin:         AS8267
+mnt-by:         AS8323-MNT
+created:        2024-07-30T10:02:11Z
+last-modified:  2024-07-30T10:02:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          192.86.14.0/24
+descr:          POLHEP
+origin:         AS8267
+mnt-by:         AS8267-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.245.169.0/24
+descr:          POLHEP2
+origin:         AS8267
+mnt-by:         AS8267-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.193.64.0/21
+descr:          eKrakow address space
+origin:         AS8267
+mnt-by:         AS8267-MNT
+created:        2008-09-26T12:55:35Z
+last-modified:  2008-09-26T12:55:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.150.224.0/19
+descr:          KRAKPOLIP
+origin:         AS8267
+mnt-by:         AS8323-MNT
+created:        2003-10-29T12:02:06Z
+last-modified:  2003-10-29T12:02:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:6d8::/32
+descr:          ACK CYFRONET AGH
+origin:         AS8267
+mnt-by:         AS8323-MNT
+mnt-by:         AS8267-MNT
+created:        2012-09-18T06:54:30Z
+last-modified:  2012-09-18T06:54:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

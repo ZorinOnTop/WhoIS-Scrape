@@ -1,0 +1,1980 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15965 - AS16057'
+
+as-block:       AS15965 - AS16057
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16019'
+
+% Abuse contact for 'AS16019' is 'abuse@vodafone.cz'
+
+aut-num:        AS16019
+as-name:        VODAFONE-CZ-AS
+remarks:        namesti Junkovych 2
+remarks:        155 00 Praha 5
+remarks:        Czech Republic
+remarks:        --------------------------------------------
+remarks:        Import from upstreams
+remarks:        --------------------------------------------
+remarks:        # Cable and Wireless AS1273
+import:         from AS1273 action pref=50; accept ANY AND NOT {0.0.0.0/0}
+remarks:        # Vodanet AS3209
+import:         from AS3209 action pref=50; accept ANY AND NOT {0.0.0.0/0}
+remarks:        -----------------------------------------------
+remarks:        Import from NIX.CZ peers
+remarks:        -----------------------------------------------
+import:         from AS112 action pref=100; accept AS112
+import:         from AS2819 action pref=100; accept AS2819
+import:         from AS2852 action pref=100; accept AS2852
+import:         from AS5580 action pref=100; accept AS5580
+import:         from AS5610 action pref=100; accept AS-CTIOL
+import:         from AS6830 action pref=100; accept AS6830
+import:         from AS6881 action pref=100; accept AS6881
+import:         from AS6939 action pref=100; accept AS6939
+import:         from AS8075 action pref=100; accept AS8075
+import:         from AS8251 action pref=100; accept AS8251
+import:         from AS8518 action pref=100; accept AS8518
+import:         from AS8913 action pref=100; accept AS8913
+import:         from AS8928 action pref=100; accept RS-INTEROUTE
+import:         from AS9002 action pref=100; accept AS9002
+import:         from AS12570 action pref=100; accept AS12570
+import:         from AS12767 action pref=100; accept AS12767
+import:         from AS13036 action pref=100; accept AS13036
+import:         from AS15169 action pref=100; accept AS15169
+import:         from AS15614 action pref=100; accept AS15614
+import:         from AS15685 action pref=100; accept AS15685
+import:         from AS15935 action pref=100; accept AS15935
+import:         from AS16246 action pref=100; accept AS16246
+import:         from AS16265 action pref=100; accept AS16265
+import:         from AS16276 action pref=100; accept AS16276
+import:         from AS20723 action pref=100; accept AS20723
+import:         from AS21430 action pref=100; accept AS21430
+import:         from AS24806 action pref=100; accept AS24806
+import:         from AS24971 action pref=100; accept AS24971
+import:         from AS25036 action pref=100; accept AS25036
+import:         from AS25192 action pref=100; accept AS25192
+import:         from AS25234 action pref=100; accept AS25234
+import:         from AS25248 action pref=100; accept AS25248
+import:         from AS25424 action pref=100; accept AS25424
+import:         from AS25512 action pref=100; accept AS25512
+import:         from AS28972 action pref=100; accept AS28972
+import:         from AS29086 action pref=100; accept AS29086
+import:         from AS29113 action pref=100; accept AS29113
+import:         from AS29134 action pref=100; accept AS29134
+import:         from AS29208 action pref=100; accept as-dialtelecom
+import:         from AS29321 action pref=100; accept AS29321
+import:         from AS29583 action pref=100; accept AS29583
+import:         from AS30764 action pref=100; accept AS30764
+import:         from AS31246 action pref=100; accept AS31246
+import:         from AS33883 action pref=100; accept AS33883
+import:         from AS34080 action pref=100; accept AS34080
+import:         from AS34315 action pref=100; accept AS34315
+import:         from AS35214 action pref=100; accept AS35214
+import:         from AS35236 action pref=100; accept AS35236
+import:         from AS35592 action pref=100; accept AS35592
+import:         from AS38949 action pref=100; accept AS38949
+import:         from AS38952 action pref=100; accept AS38952
+import:         from AS39392 action pref=100; accept AS39392
+import:         from AS39790 action pref=100; accept AS39790
+import:         from AS39791 action pref=100; accept AS39791
+import:         from AS39817 action pref=100; accept AS39817
+import:         from AS39904 action pref=100; accept AS39904
+import:         from AS41088 action pref=100; accept AS41088
+import:         from AS41711 action pref=100; accept AS41711
+import:         from AS42000 action pref=100; accept AS42000
+import:         from AS42306 action pref=100; accept AS42306
+import:         from AS43037 action pref=100; accept AS43037
+import:         from AS43070 action pref=100; accept AS43070
+import:         from AS43413 action pref=100; accept AS43413
+import:         from AS43541 action pref=100; accept AS43541
+import:         from AS43614 action pref=100; accept AS43614
+import:         from AS43708 action pref=100; accept AS43708
+import:         from AS47200 action pref=100; accept AS47200
+import:         from AS47232 action pref=100; accept AS47232
+import:         from AS47868 action pref=100; accept AS47868
+import:         from AS50698 action pref=100; accept AS50698
+import:         from AS51248 action pref=100; accept AS51248
+import:         from AS57279 action pref=100; accept AS57279
+import:         from AS197197 action pref=100; accept AS197197
+remarks:        -----------------------------------------------
+remarks:        Export to upstreams
+remarks:        -----------------------------------------------
+remarks:        # Cable and Wireless AS1273
+export:         to AS1273 announce AS-VODAFONE-CZ
+remarks:        # Vodanet AS3209
+export:         to AS3209 announce AS-VODAFONE-CZ
+remarks:        -----------------------------------------------
+remarks:        Export to NIX.CZ peers
+remarks:        -----------------------------------------------
+export:         to AS112 announce AS-VODAFONE-CZ
+export:         to AS2819 announce AS-VODAFONE-CZ
+export:         to AS2852 announce AS-VODAFONE-CZ
+export:         to AS5580 announce AS-VODAFONE-CZ
+export:         to AS5610 announce AS-VODAFONE-CZ
+export:         to AS6830 announce AS-VODAFONE-CZ
+export:         to AS6881 announce AS-VODAFONE-CZ
+export:         to AS6939 announce AS-VODAFONE-CZ
+export:         to AS8075 announce AS-VODAFONE-CZ
+export:         to AS8251 announce AS-VODAFONE-CZ
+export:         to AS8518 announce AS-VODAFONE-CZ
+export:         to AS8913 announce AS-VODAFONE-CZ
+export:         to AS8928 announce AS-VODAFONE-CZ
+export:         to AS9002 announce AS-VODAFONE-CZ
+export:         to AS12570 announce AS-VODAFONE-CZ
+export:         to AS12767 announce AS-VODAFONE-CZ
+export:         to AS13036 announce AS-VODAFONE-CZ
+export:         to AS15169 announce AS-VODAFONE-CZ
+export:         to AS15614 announce AS-VODAFONE-CZ
+export:         to AS15685 announce AS-VODAFONE-CZ
+export:         to AS15935 announce AS-VODAFONE-CZ
+export:         to AS16246 announce AS-VODAFONE-CZ
+export:         to AS16265 announce AS-VODAFONE-CZ
+export:         to AS16276 announce AS-VODAFONE-CZ
+export:         to AS20723 announce AS-VODAFONE-CZ
+export:         to AS21430 announce AS-VODAFONE-CZ
+export:         to AS24806 announce AS-VODAFONE-CZ
+export:         to AS24971 announce AS-VODAFONE-CZ
+export:         to AS25036 announce AS-VODAFONE-CZ
+export:         to AS25192 announce AS-VODAFONE-CZ
+export:         to AS25234 announce AS-VODAFONE-CZ
+export:         to AS25248 announce AS-VODAFONE-CZ
+export:         to AS25424 announce AS-VODAFONE-CZ
+export:         to AS25512 announce AS-VODAFONE-CZ
+export:         to AS28972 announce AS-VODAFONE-CZ
+export:         to AS29086 announce AS-VODAFONE-CZ
+export:         to AS29113 announce AS-VODAFONE-CZ
+export:         to AS29134 announce AS-VODAFONE-CZ
+export:         to AS29208 announce AS-VODAFONE-CZ
+export:         to AS29321 announce AS-VODAFONE-CZ
+export:         to AS29583 announce AS-VODAFONE-CZ
+export:         to AS30764 announce AS-VODAFONE-CZ
+export:         to AS31246 announce AS-VODAFONE-CZ
+export:         to AS33883 announce AS-VODAFONE-CZ
+export:         to AS34080 announce AS-VODAFONE-CZ
+export:         to AS34315 announce AS-VODAFONE-CZ
+export:         to AS34692 announce AS-VODAFONE-CZ
+export:         to AS35214 announce AS-VODAFONE-CZ
+export:         to AS35236 announce AS-VODAFONE-CZ
+export:         to AS35592 announce AS-VODAFONE-CZ
+export:         to AS38949 announce AS-VODAFONE-CZ
+export:         to AS38952 announce AS-VODAFONE-CZ
+export:         to AS39392 announce AS-VODAFONE-CZ
+export:         to AS39790 announce AS-VODAFONE-CZ
+export:         to AS39791 announce AS-VODAFONE-CZ
+export:         to AS39817 announce AS-VODAFONE-CZ
+export:         to AS39904 announce AS-VODAFONE-CZ
+export:         to AS41088 announce AS-VODAFONE-CZ
+export:         to AS41711 announce AS-VODAFONE-CZ
+export:         to AS42000 announce AS-VODAFONE-CZ
+export:         to AS42306 announce AS-VODAFONE-CZ
+export:         to AS43037 announce AS-VODAFONE-CZ
+export:         to AS43070 announce AS-VODAFONE-CZ
+export:         to AS43413 announce AS-VODAFONE-CZ
+export:         to AS43541 announce AS-VODAFONE-CZ
+export:         to AS43614 announce AS-VODAFONE-CZ
+export:         to AS43708 announce AS-VODAFONE-CZ
+export:         to AS47200 announce AS-VODAFONE-CZ
+export:         to AS47232 announce AS-VODAFONE-CZ
+export:         to AS47868 announce AS-VODAFONE-CZ
+export:         to AS50698 announce AS-VODAFONE-CZ
+export:         to AS51248 announce AS-VODAFONE-CZ
+export:         to AS57279 announce AS-VODAFONE-CZ
+export:         to AS197197 announce AS-VODAFONE-CZ
+remarks:        -----------------------------------
+remarks:        Import from IPv6 upstreams
+remarks:        -----------------------------------
+remarks:        # Cable and Wireless AS1273
+mp-import:      afi ipv6.unicast from AS1273 action pref=100; accept ANY
+remarks:        # Vodanet AS3209
+mp-import:      afi ipv6.unicast from AS3209 action pref=100; accept ANY
+remarks:        ----------------------------------------------------------
+remarks:        Export to IPv6 upstreams
+remarks:        ----------------------------------------------------------
+remarks:        # Cable and Wireless AS1273
+mp-export:      afi ipv6.unicast to AS1273 announce AS-VODAFONE-CZ-V6
+remarks:        # Vodanet AS3209
+mp-export:      afi ipv6.unicast to AS3209 announce AS-VODAFONE-CZ-V6
+remarks:        ----------------------------------------------------------
+remarks:        -----------------------------------------------
+remarks:        peering requests to: peering@vodafone.cz
+remarks:        abuse to" abuse@oskar.cz
+remarks:        -----------------------------------------------
+org:            ORG-CMa1-RIPE
+admin-c:        OSKR-RIPE
+tech-c:         OSKR-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         VFCZ-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-06-09T07:43:26Z
+source:         RIPE
+
+organisation:   ORG-CMa1-RIPE
+org-name:       Vodafone Czech Republic a.s.
+country:        CZ
+org-type:       LIR
+address:        namesti Junkovych 2
+address:        155 00
+address:        Prague 5
+address:        CZECH REPUBLIC
+phone:          +420271171111
+fax-no:         +420776971955
+mnt-ref:        VFCZ-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         VFCZ-MNT
+admin-c:        OSKR-RIPE
+abuse-c:        OSKR-RIPE
+created:        2004-04-17T11:04:44Z
+last-modified:  2020-12-16T13:29:21Z
+source:         RIPE # Filtered
+
+role:           OSKAR LIR
+address:        Vodafone Czech Republic a.s.
+address:        namesti Junkovych 2
+address:        Praha 5
+address:        15500
+address:        Czech Republic
+phone:          +420 271 171 626
+fax-no:         +420 776 971 912
+admin-c:        PG596-RIPE
+tech-c:         PG596-RIPE
+tech-c:         BL54-RIPE
+abuse-mailbox:  abuse@vodafone.cz
+mnt-by:         VFCZ-MNT
+nic-hdl:        OSKR-RIPE
+created:        2002-03-22T08:52:34Z
+last-modified:  2024-03-08T10:59:19Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          31.30.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2011-03-16T08:41:37Z
+last-modified:  2011-03-16T08:41:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.30.0.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2022-11-23T09:26:34Z
+last-modified:  2022-11-23T09:26:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.30.128.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2022-11-23T09:26:34Z
+last-modified:  2022-11-23T09:26:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.169.128.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-05T10:18:34Z
+last-modified:  2021-02-05T10:18:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.169.128.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-05T10:18:34Z
+last-modified:  2021-02-05T10:18:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.169.192.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-05T10:18:34Z
+last-modified:  2021-02-05T10:18:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.135.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2010-11-12T11:41:48Z
+last-modified:  2010-11-12T11:41:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.167.192.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-22T13:56:50Z
+last-modified:  2021-01-22T13:56:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.167.192.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-22T13:56:50Z
+last-modified:  2021-01-22T13:56:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.167.224.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-22T13:56:50Z
+last-modified:  2021-01-22T13:56:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.174.16.0/21
+descr:          NoskaNet
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-24T13:34:36Z
+last-modified:  2021-02-24T13:34:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.183.64.0/21
+descr:          KVE s.r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-10T11:00:14Z
+last-modified:  2021-02-10T11:00:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.24.64.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-lower:      VFCZ-MNT
+mnt-by:         VFCZ-MNT
+created:        2021-01-14T16:47:56Z
+last-modified:  2021-01-14T16:59:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.24.64.0/20
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:48:43Z
+last-modified:  2021-01-29T15:48:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.24.80.0/20
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:48:43Z
+last-modified:  2021-01-29T15:48:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.240.160.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:50:03Z
+last-modified:  2021-01-29T15:50:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.240.160.0/20
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:50:03Z
+last-modified:  2021-01-29T15:50:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.240.176.0/20
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:50:03Z
+last-modified:  2021-01-29T15:50:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.245.64.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-26T14:15:19Z
+last-modified:  2021-01-26T14:15:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.245.64.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-26T14:15:19Z
+last-modified:  2021-01-26T14:15:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.245.96.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-26T14:15:19Z
+last-modified:  2021-01-26T14:15:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.48.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:51:27Z
+last-modified:  2021-01-29T15:51:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.48.0.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:51:27Z
+last-modified:  2021-01-29T15:51:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.48.128.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:51:27Z
+last-modified:  2021-01-29T15:51:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.44.0.0/15
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:53:21Z
+last-modified:  2021-01-29T15:53:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.44.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:53:21Z
+last-modified:  2021-01-29T15:53:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.45.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:53:21Z
+last-modified:  2021-01-29T15:53:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.102.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-26T14:38:37Z
+last-modified:  2021-01-26T14:38:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.102.0.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:55:36Z
+last-modified:  2021-01-29T15:55:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          78.102.128.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:55:36Z
+last-modified:  2021-01-29T15:55:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.95.96.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2011-12-02T08:13:10Z
+last-modified:  2011-12-02T08:13:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.27.192.0/20
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:54:32Z
+last-modified:  2021-01-29T15:54:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.27.192.0/21
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:54:32Z
+last-modified:  2021-01-29T15:54:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.27.200.0/21
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:54:32Z
+last-modified:  2021-01-29T15:54:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          82.142.64.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2011-12-02T08:13:10Z
+last-modified:  2011-12-02T08:13:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.42.128.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-26T14:39:54Z
+last-modified:  2021-01-26T14:39:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.42.128.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:57:29Z
+last-modified:  2021-01-29T15:57:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.42.192.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:57:29Z
+last-modified:  2021-01-29T15:57:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.242.64.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:58:17Z
+last-modified:  2021-01-29T15:58:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.242.64.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:58:17Z
+last-modified:  2021-01-29T15:58:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.242.96.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:58:17Z
+last-modified:  2021-01-29T15:58:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.49.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-26T14:39:54Z
+last-modified:  2021-01-26T14:39:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.49.0.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:59:16Z
+last-modified:  2021-01-29T15:59:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          86.49.128.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T15:59:16Z
+last-modified:  2021-01-29T15:59:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.146.128.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T16:09:42Z
+last-modified:  2021-01-29T16:09:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.146.128.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T16:09:42Z
+last-modified:  2021-01-29T16:09:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.146.192.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-29T16:09:42Z
+last-modified:  2021-01-29T16:09:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.102.0.0/15
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T10:58:46Z
+last-modified:  2021-02-02T10:58:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.102.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T10:58:46Z
+last-modified:  2021-02-02T10:58:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.103.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T10:58:46Z
+last-modified:  2021-02-02T10:58:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.176.0.0/15
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-26T14:39:54Z
+last-modified:  2021-01-26T14:39:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.176.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T10:59:45Z
+last-modified:  2021-02-02T10:59:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.177.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T10:59:45Z
+last-modified:  2021-02-02T10:59:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.220.122.0/24
+descr:          ARENIS s.r.o.
+origin:         AS16019
+mnt-by:         MNT-KompletNET
+mnt-by:         VFCZ-MNT
+created:        2023-01-02T09:02:10Z
+last-modified:  2023-01-02T09:02:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.231.28.0/22
+descr:          Antonin Vymetal - TJ Computers
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-03-01T13:42:05Z
+last-modified:  2021-03-01T13:42:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.90.160.0/20
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2015-10-12T09:59:43Z
+last-modified:  2015-10-12T09:59:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.99.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:00:45Z
+last-modified:  2021-02-02T11:00:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.99.0.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:00:45Z
+last-modified:  2021-02-02T11:00:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.99.128.0/17
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:00:45Z
+last-modified:  2021-02-02T11:00:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.112.0.0/15
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:03:57Z
+last-modified:  2021-02-02T11:03:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.112.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:03:57Z
+last-modified:  2021-02-02T11:03:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.113.0.0/16
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:03:57Z
+last-modified:  2021-02-02T11:03:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.107.192.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2009-10-22T13:39:33Z
+last-modified:  2009-10-22T13:39:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          109.205.240.0/24
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+mnt-by:         MNT-KompletNET
+created:        2023-01-22T01:39:57Z
+last-modified:  2023-02-07T14:55:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          130.193.17.0/24
+descr:          BNV Technologies, s.r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-24T13:34:36Z
+last-modified:  2021-02-24T13:34:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          141.170.128.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:06:08Z
+last-modified:  2021-02-02T11:06:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          141.170.128.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:06:08Z
+last-modified:  2021-02-02T11:06:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          141.170.160.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:06:08Z
+last-modified:  2021-02-02T11:06:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.77.192.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:07:58Z
+last-modified:  2021-02-02T11:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.77.192.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:07:58Z
+last-modified:  2021-04-01T14:34:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.77.224.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:07:58Z
+last-modified:  2021-02-02T11:07:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.211.147.0/24
+descr:          McFiber, s.r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2022-12-06T12:33:48Z
+last-modified:  2022-12-06T12:33:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.213.152.0/21
+descr:          CENTEL s.r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-16T13:43:22Z
+last-modified:  2021-02-16T13:43:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.13.87.0/24
+origin:         AS16019
+mnt-by:         mnt-cz-simpleway-1
+mnt-by:         VFCZ-MNT
+created:        2020-04-21T10:55:19Z
+last-modified:  2020-04-21T11:38:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.31.36.0/22
+descr:          LONGREDI-CZ
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-16T13:33:49Z
+last-modified:  2021-02-16T13:33:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.99.176.0/22
+descr:          Arenis
+origin:         AS16019
+mnt-by:         MNT-KompletNET
+mnt-by:         VFCZ-MNT
+created:        2022-11-25T15:46:32Z
+last-modified:  2023-01-26T11:34:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.168.149.0/24
+descr:          Blue One, s.r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2022-08-09T13:50:39Z
+last-modified:  2022-08-09T13:50:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.189.4.0/22
+descr:          Miracle Network, spol. s r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-10T10:56:18Z
+last-modified:  2021-02-10T10:56:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.241.220.0/22
+origin:         AS16019
+descr:          ARENIS s.r.o.
+mnt-by:         MNT-KompletNET
+mnt-by:         VFCZ-MNT
+created:        2021-06-23T02:15:26Z
+last-modified:  2021-06-23T02:15:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.243.168.0/22
+origin:         AS16019
+mnt-by:         cz-dexnet-1-mnt
+created:        2023-04-05T15:17:38Z
+last-modified:  2023-04-05T15:17:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.94.232.0/21
+descr:          Diadema Internet s.r.o. route
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-03T15:12:49Z
+last-modified:  2021-02-03T15:12:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.95.120.0/21
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2009-07-08T08:45:51Z
+last-modified:  2009-07-08T08:45:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.84.128.0/23
+descr:          Orcave, spol. s r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-16T13:35:42Z
+last-modified:  2021-02-16T13:35:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.192.0.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:56:19Z
+last-modified:  2021-02-02T11:56:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.192.0.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:56:19Z
+last-modified:  2021-02-02T11:56:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.192.32.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:56:19Z
+last-modified:  2021-02-02T11:56:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.220.192.0/18
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-01-26T14:39:54Z
+last-modified:  2021-01-26T14:39:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.220.192.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:57:11Z
+last-modified:  2021-02-02T11:57:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.220.224.0/19
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:57:11Z
+last-modified:  2021-02-02T11:57:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.77.160.0/20
+descr:          VF-CZ
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2021-12-01T08:16:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:678:95c::/48
+origin:         AS16019
+mnt-by:         connectum-cz-mnt
+created:        2023-08-31T10:49:12Z
+last-modified:  2023-08-31T10:49:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:36c0::/32
+origin:         AS16019
+mnt-by:         mnt-cz-diadema-1
+created:        2024-09-16T11:30:39Z
+last-modified:  2024-09-16T11:30:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:11b0::/29
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2018-04-18T08:10:44Z
+last-modified:  2018-04-18T08:10:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:8e80::/29
+descr:          Arenis
+origin:         AS16019
+mnt-by:         MNT-KompletNET
+created:        2022-11-25T15:48:35Z
+last-modified:  2022-11-25T15:48:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:5e0::/32
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:58:20Z
+last-modified:  2021-02-02T11:58:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:5e0::/33
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:59:05Z
+last-modified:  2021-02-02T11:59:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:5e0:8000::/33
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:59:05Z
+last-modified:  2021-02-02T11:59:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:8300::/28
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T11:59:48Z
+last-modified:  2021-02-02T11:59:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:8300::/29
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T12:00:19Z
+last-modified:  2021-02-02T12:00:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:8308::/29
+descr:          Vodafone Czech Republic a.s.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-02T12:00:19Z
+last-modified:  2021-02-02T12:00:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a04:4d40::/29
+descr:          Longredi, spol. s r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-16T13:36:28Z
+last-modified:  2021-02-16T13:36:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0b:c180::/32
+descr:          KVE s.r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-10T11:00:14Z
+last-modified:  2021-02-10T11:00:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0b:d780::/29
+descr:          Miracle Network, spol. s r.o
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2021-02-10T10:57:43Z
+last-modified:  2021-02-10T10:57:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0c:b180::/29
+origin:         AS16019
+descr:          ARENIS s.r.o.
+mnt-by:         MNT-KompletNET
+mnt-by:         VFCZ-MNT
+created:        2021-06-23T02:16:32Z
+last-modified:  2021-06-23T02:16:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0d:1780::/29
+origin:         AS16019
+mnt-by:         cz-dexnet-1-mnt
+created:        2023-04-05T15:22:35Z
+last-modified:  2023-04-05T15:22:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a10:1d00::/32
+origin:         AS16019
+mnt-by:         mnt-cz-simpleway-1
+mnt-by:         VFCZ-MNT
+created:        2020-04-21T10:54:33Z
+last-modified:  2020-04-21T11:37:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a12:b7c0::/29
+descr:          Blue One, s.r.o.
+origin:         AS16019
+mnt-by:         VFCZ-MNT
+created:        2022-08-09T13:50:39Z
+last-modified:  2022-08-09T13:50:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

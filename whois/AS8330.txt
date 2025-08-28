@@ -1,0 +1,766 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8330'
+
+% Abuse contact for 'AS8330' is 'abuse@lonap.net'
+
+aut-num:        AS8330
+as-name:        LONAP
+descr:          LONAP Network AS8330 Policy
+remarks:        -----------------------------------------------------------------
+remarks:        WARNING! DO NOT use this aut-num object to build your LONAP
+remarks:        policy / filters, connected member ASN lists, or similar
+remarks:        automation - IT WILL GO WRONG for you because this is LONAP's
+remarks:        own ASN policy! :-)
+remarks:
+remarks:        Instead, see:
+remarks:
+remarks:        AS-SET-LONAP-CONNECTED  - All LONAP Member AS-SETs
+remarks:        AS-SET-LONAP-MLP        - IPv4 Route Server Participant AS-SETs
+remarks:        AS-SET-LONAP-MLP-v6     - IPv6 Route Server Participant AS-SETs
+remarks:        -----------------------------------------------------------------
+remarks:        :::::: Connected ASNs ONLY:
+remarks:        :::::: Useful for discovering new/gone away peers.
+remarks:        :::::: SHOULD NOT be used for building prefix filters.
+remarks:        AS-LONAP-CONNECTED      - All LONAP Member ASNs
+remarks:        AS-LONAP-MLP            - IPv4 Route Server Connected ASNs
+remarks:        AS-LONAP-MLP-v6         - IPv6 Route Server Connected ASNs
+remarks:        -----------------------------------------------------------------
+remarks:        :::::: Transit Providers
+remarks:        -----------------------------------------------------------------
+import:         from AS6939 accept any # Hurricane Electric
+export:         to   AS6939 announce AS-LONAP
+import:         from AS5413 accept any # Daisy
+export:         to   AS5413 announce AS-LONAP
+import:         from AS39326 accept any # Goscomb
+export:         to   AS39326 announce AS-LONAP
+import:         from AS3213 accept any # Bogons
+export:         to   AS3213 announce AS-LONAP
+import:         from AS44684 accept any # Mythic Beasts
+export:         to   AS44684 announce AS-LONAP
+import:         from AS3170 accept any # VeloxServ
+export:         to   AS3170 announce AS-LONAP
+remarks:        -----------------------------------------------------------------
+remarks:        :::::: Downstream ASNs
+remarks:        -----------------------------------------------------------------
+import:         from AS33073 accept AS33073:AS-SET  # ISC F-Root Management
+export:         to   AS33073 announce any
+import:         from AS57483 accept AS-ICHILTON     # Ian Chilton
+export:         to   AS57483 announce any
+remarks:        -----------------------------------------------------------------
+remarks:        :::::: Peers
+remarks:        -----------------------------------------------------------------
+import:         from AS42 accept AS-PCH # Packet Clearing House AS42
+export:         to   AS42 announce AS-LONAP
+import:         from AS249 accept AS249:AS-CUSTOMERS # PACKETSTAR
+export:         to   AS249 announce AS-LONAP
+import:         from AS714 accept AS-APPLE # Apple Europe Ltd
+export:         to   AS714 announce AS-LONAP
+import:         from AS917 accept AS-MISAKA # Misaka Network, Inc.
+export:         to   AS917 announce AS-LONAP
+import:         from AS1820 accept AS-WTUC # Wnet Telecom USA
+export:         to   AS1820 announce AS-LONAP
+import:         from AS2603 accept AS-NORDUNET # NORDUnet
+export:         to   AS2603 announce AS-LONAP
+import:         from AS2818 accept AS-BBC # BBC
+export:         to   AS2818 announce AS-LONAP
+import:         from AS2906 accept AS-NFLX # Netflix
+export:         to   AS2906 announce AS-LONAP
+import:         from AS3856 accept AS-PCH # Packet Clearing House AS3856
+export:         to   AS3856 announce AS-LONAP
+import:         from AS4455 accept AS-BSO # IXReach
+export:         to   AS4455 announce AS-LONAP
+import:         from AS5378 accept AS5378 # Vodafone
+export:         to   AS5378 announce AS-LONAP
+import:         from AS5463 accept AS-PERCEVAL # Perceval Technologies
+export:         to   AS5463 announce AS-LONAP
+import:         from AS5482 accept AS5482:AS-ORIGIN # AllPoints Fibre Networks
+export:         to   AS5482 announce AS-LONAP
+import:         from AS5503 accept AS-RMIFL # RM Education
+export:         to   AS5503 announce AS-LONAP
+import:         from AS5607 accept AS-BSKYB-BROADBAND # Sky UK Ltd
+export:         to   AS5607 announce AS-LONAP
+import:         from AS5631 accept AS5631:AS-ELEVATE # Elevate
+export:         to   AS5631 announce AS-LONAP
+import:         from AS6204 accept AS-ZETNET # ZET.NET
+export:         to   AS6204 announce AS-LONAP
+import:         from AS6424 accept AS-EDGOO # EDGOO Networks
+export:         to   AS6424 announce AS-LONAP
+import:         from AS6461 accept AS-MFNX # Zayo Group
+export:         to   AS6461 announce AS-LONAP
+import:         from AS6507 accept AS-RIOT # Riot Games
+export:         to   AS6507 announce AS-LONAP
+import:         from AS6774 accept AS6774:AS-BICS-LONAP # Belgacom ICS
+export:         to   AS6774 announce AS-LONAP
+import:         from AS6894 accept AS-KDDIEU # KDDI Europe Ltd
+export:         to   AS6894 announce AS-LONAP
+import:         from AS6908 accept AS-6DG # Six Degrees Technology Group
+export:         to   AS6908 announce AS-LONAP
+import:         from AS8075 accept AS-MICROSOFT # Microsoft UK Ltd
+export:         to   AS8075 announce AS-LONAP
+import:         from AS8218 accept AS-NEOT # Zayo Infrastructure France  SA
+export:         to   AS8218 announce AS-LONAP
+import:         from AS8220 accept AS-COLT # Colt
+export:         to   AS8220 announce AS-LONAP
+import:         from AS8426 accept AS-CLARANET # Claranet
+export:         to   AS8426 announce AS-LONAP
+import:         from AS8468 accept AS-ENTANET # Entanet / CityFibre
+export:         to   AS8468 announce AS-LONAP
+import:         from AS8530 accept AS-EXCELL # Wavenet Limited
+export:         to   AS8530 announce AS-LONAP
+import:         from AS8607 accept AS-TIMICO # Digital Space Group Ltd
+export:         to   AS8607 announce AS-LONAP
+import:         from AS8674 accept AS-NETNOD-ANYCAST # Netnod
+export:         to   AS8674 announce AS-LONAP
+import:         from AS8676 accept AS-PSYS # PRT Systems
+export:         to   AS8676 announce AS-LONAP
+import:         from AS8680 accept AS-CWCI # Sure Guernsey
+export:         to   AS8680 announce AS-LONAP
+import:         from AS8683 accept AS-NOMINET # Nominet
+export:         to   AS8683 announce AS-LONAP
+import:         from AS8801 accept AS8801:AS-ROCKET # Rocket Fibre (AS8801)
+export:         to   AS8801 announce AS-LONAP
+import:         from AS8838 accept AS-Stripe21 # Stripe21 Group
+export:         to   AS8838 announce AS-LONAP
+import:         from AS8851 accept AS-GCICOM # Nasstar
+export:         to   AS8851 announce AS-LONAP
+import:         from AS9009 accept AS-GBXS # M247 Europe
+export:         to   AS9009 announce AS-LONAP
+import:         from AS10310 accept AS-YAHOO # Yahoo Inc.
+export:         to   AS10310 announce AS-LONAP
+import:         from AS12041 accept AS12041:AS-AFILIAS # Afilias
+export:         to   AS12041 announce AS-LONAP
+import:         from AS12200 accept AS-RACKSPACE # Rackspace Ltd
+export:         to   AS12200 announce AS-LONAP
+import:         from AS12390 accept AS-KINGSTONUK # Kcom Group
+export:         to   AS12390 announce AS-LONAP
+import:         from AS12496 accept AS-IDNET # IDnet
+export:         to   AS12496 announce AS-LONAP
+import:         from AS12519 accept AS-FASTNET # Fastnet International
+export:         to   AS12519 announce AS-LONAP
+import:         from AS12654 accept AS12654 # RIPE NCC Routing Information Service (RIS)
+export:         to   AS12654 announce AS-LONAP
+import:         from AS12775 accept AS-JPCI # JPC Infonet
+export:         to   AS12775 announce AS-LONAP
+import:         from AS13009 accept AS-REDCENTRIC # Redcentric
+export:         to   AS13009 announce AS-LONAP
+import:         from AS13030 accept AS-INIT7 # Init7 (Switzerland) Ltd
+export:         to   AS13030 announce AS-LONAP
+import:         from AS13037 accept AS-ZEN # Zen Internet
+export:         to   AS13037 announce AS-LONAP
+import:         from AS13150 accept AS-CATONETWORKS-ASNs # Cato Networks
+export:         to   AS13150 announce AS-LONAP
+import:         from AS13335 accept AS-CLOUDFLARE # Cloudflare
+export:         to   AS13335 announce AS-LONAP
+import:         from AS13414 accept AS-TWITTER # Twitter UK Ltd
+export:         to   AS13414 announce AS-LONAP
+import:         from AS13631 accept AS13631 # Citadel Enterprise Europe
+export:         to   AS13631 announce AS-LONAP
+import:         from AS14061 accept AS-DIGITALOCEAN # DigitalOcean
+export:         to   AS14061 announce AS-LONAP
+import:         from AS14340 accept AS-SALESFORCE # Salesforce
+export:         to   AS14340 announce AS-LONAP
+import:         from AS15169 accept AS-GOOGLE # Google
+export:         to   AS15169 announce AS-LONAP
+import:         from AS15510 accept AS-CWCS-PS # CWCS Managed Hosting
+export:         to   AS15510 announce AS-LONAP
+import:         from AS15692 accept AS-RAZORBLUE # Razorblue Ltd
+export:         to   AS15692 announce AS-LONAP
+import:         from AS15830 accept AS-EQUINIX-EU # Equinix Connect - EMEA
+export:         to   AS15830 announce AS-LONAP
+import:         from AS16164 accept AS-SOHONET-UK # Sohonet Ltd
+export:         to   AS16164 announce AS-LONAP
+import:         from AS16247 accept AS-M247 # M247 (AS16247)
+export:         to   AS16247 announce AS-LONAP
+import:         from AS16353 accept AS-MERULA # Merula
+export:         to   AS16353 announce AS-LONAP
+import:         from AS20253 accept AS-20253 # Qwilt
+export:         to   AS20253 announce AS-LONAP
+import:         from AS20326 accept AS-TERASWITCH # Teraswitch Inc.
+export:         to   AS20326 announce AS-LONAP
+import:         from AS20562 accept AS-OPENPEERING-EU # Open Peering
+export:         to   AS20562 announce AS-LONAP
+import:         from AS20712 accept AS-AA # Andrews & Arnold / AAISP
+export:         to   AS20712 announce AS-LONAP
+import:         from AS20915 accept AS-100PERCENT # Cyberhive
+export:         to   AS20915 announce AS-LONAP
+import:         from AS20940 accept AS-AKAMAI # Akamai AS20940
+export:         to   AS20940 announce AS-LONAP
+import:         from AS21339 accept AS-CONTINGENCY # Contingency Networks
+export:         to   AS21339 announce AS-LONAP
+import:         from AS21396 accept AS-NETCONNEX # NetConnex Broadband Ltd
+export:         to   AS21396 announce AS-LONAP
+import:         from AS21472 accept AS-SERVERHOUSE # ServerHouse
+export:         to   AS21472 announce AS-LONAP
+import:         from AS21991 accept AS-BASEDNETWORKING # BNS Services
+export:         to   AS21991 announce AS-LONAP
+import:         from AS24429 accept AS24429 # Alibaba Cloud CDN
+export:         to   AS24429 announce AS-LONAP
+import:         from AS24482 accept AS-SGGS # SG.GS Pte Ltd
+export:         to   AS24482 announce AS-LONAP
+import:         from AS24594 accept AS-FSYS # Voiceflex Ltd
+export:         to   AS24594 announce AS-LONAP
+import:         from AS24916 accept AS-ORBITAL # OrbitalNet
+export:         to   AS24916 announce AS-LONAP
+import:         from AS25098 accept AS-NETCALIBRE # Netcalibre Ltd
+export:         to   AS25098 announce AS-LONAP
+import:         from AS25152 accept AS-KROOT # RIPE - k.root-servers.net
+export:         to   AS25152 announce AS-LONAP
+import:         from AS25160 accept AS-VORBOSS # Vorboss Ltd
+export:         to   AS25160 announce AS-LONAP
+import:         from AS25180 accept AS-EXPONENTIAL-e # Exponential-e
+export:         to   AS25180 announce AS-LONAP
+import:         from AS25369 accept AS-BANDWIDTH # Hydra Communications
+export:         to   AS25369 announce AS-LONAP
+import:         from AS25460 accept AS-TNP # The Networking People (TNP)
+export:         to   AS25460 announce AS-LONAP
+import:         from AS25577 accept AS-C4L # CloudCoCo Connect
+export:         to   AS25577 announce AS-LONAP
+import:         from AS28792 accept AS-PUBLICINET # Public Internet
+export:         to   AS28792 announce AS-LONAP
+import:         from AS29017 accept AS-GYRON # NTT Global Data Centers EMEA UK Ltd
+export:         to   AS29017 announce AS-LONAP
+import:         from AS29550 accept AS-AS29550 # Team Blue Carrier
+export:         to   AS29550 announce AS-LONAP
+import:         from AS29611 accept AS-ELITE # Elite
+export:         to   AS29611 announce AS-LONAP
+import:         from AS30081 accept AS-CACHENETWORKS # CacheFly
+export:         to   AS30081 announce AS-LONAP
+import:         from AS30740 accept AS-EXA # Exa Networks
+export:         to   AS30740 announce AS-LONAP
+import:         from AS31122 accept AS-DIGIWEB # Viatel
+export:         to   AS31122 announce AS-LONAP
+import:         from AS31459 accept AS31459 # BBC R&D
+export:         to   AS31459 announce AS-LONAP
+import:         from AS31472 accept AS-VOICEHOST # VoiceHost
+export:         to   AS31472 announce AS-LONAP
+import:         from AS31655 accept AS-GAMMATELECOM # Gamma Telecom
+export:         to   AS31655 announce AS-LONAP
+import:         from AS31712 accept AS-GIGASTREAM # Gigastream
+export:         to   AS31712 announce AS-LONAP
+import:         from AS31742 accept AS-SOTACONNECT # Sota Solutions Ltd
+export:         to   AS31742 announce AS-LONAP
+import:         from AS32787 accept AS-PROLE # Akamai Prolexic DDoS Mitigation AS32787
+export:         to   AS32787 announce AS-LONAP
+import:         from AS33920 accept AS-AQNET # AQ Networks (AQL)
+export:         to   AS33920 announce AS-LONAP
+import:         from AS34066 accept AS-TELAPPLIANT # Telappliant Ltd
+export:         to   AS34066 announce AS-LONAP
+import:         from AS34442 accept AS-AMATIS # Amatis Networks
+export:         to   AS34442 announce AS-LONAP
+import:         from AS34555 accept AS-CCSLEEDS # C.C.S (Leeds) Ltd
+export:         to   AS34555 announce AS-LONAP
+import:         from AS34655 accept AS-DDITS # JWE S.a r.l./ Duodecad IT Services Luxembourg
+export:         to   AS34655 announce AS-LONAP
+import:         from AS34746 accept AS-EATONKAYE # AXA Insurance UK Plc
+export:         to   AS34746 announce AS-LONAP
+import:         from AS34790 accept AS34790:AS-CUSTOMER # TFM Networks
+export:         to   AS34790 announce AS-LONAP
+import:         from AS34927 accept AS-IFOG # FogNet - iFog GmbH
+export:         to   AS34927 announce AS-LONAP
+import:         from AS34979 accept AS-39D # 39D Services
+export:         to   AS34979 announce AS-LONAP
+import:         from AS35100 accept AS35100 # as35100.net
+export:         to   AS35100 announce AS-LONAP
+import:         from AS35266 accept AS-EXN # EX Networks
+export:         to   AS35266 announce AS-LONAP
+import:         from AS35313 accept AS-INFONAS # Infonas
+export:         to   AS35313 announce AS-LONAP
+import:         from AS35575 accept AS-VAIONI # Vaioni Group
+export:         to   AS35575 announce AS-LONAP
+import:         from AS35691 accept AS35691 # Plan Communications
+export:         to   AS35691 announce AS-LONAP
+import:         from AS35826 accept AS-NETSERVERS # Netservers
+export:         to   AS35826 announce AS-LONAP
+import:         from AS36692 accept AS-OPENDNS # Cisco OpenDNS
+export:         to   AS36692 announce AS-LONAP
+import:         from AS36924 accept AS-GVA # Group Vivendi Africa
+export:         to   AS36924 announce AS-LONAP
+import:         from AS37271 accept AS-WOLCOMM # Workonline Communications (Pty) Ltd
+export:         to   AS37271 announce AS-LONAP
+import:         from AS39122 accept AS-BLACKNIGHT # Blacknight Internet Solutions
+export:         to   AS39122 announce AS-LONAP
+import:         from AS39175 accept AS-TOUCHTEC # Connective Online
+export:         to   AS39175 announce AS-LONAP
+import:         from AS39351 accept AS-ESAB # 31173 Services AB
+export:         to   AS39351 announce AS-LONAP
+import:         from AS39522 accept AS-CONVERGED-COMMUNICATION-SOLUTIONS # Converged Communication Solutions Ltd
+export:         to   AS39522 announce AS-LONAP
+import:         from AS39545 accept AS-FLUIDATA # FluidOne Ltd
+export:         to   AS39545 announce AS-LONAP
+import:         from AS39875 accept AS-ZYCOMM # Zycomm Electronics
+export:         to   AS39875 announce AS-LONAP
+import:         from AS41000 accept AS-FREETHOUGHT # Freethought Internet
+export:         to   AS41000 announce AS-LONAP
+import:         from AS41103 accept AS-CLEARIP # teleBIZZ
+export:         to   AS41103 announce AS-LONAP
+import:         from AS41230 accept AS-ASK4 # Ask4 Ltd
+export:         to   AS41230 announce AS-LONAP
+import:         from AS41232 accept AS41232 # Beeline Broadband
+export:         to   AS41232 announce AS-LONAP
+import:         from AS41400 accept AS-USICIS # GNOL/USIC Internet Services
+export:         to   AS41400 announce AS-LONAP
+import:         from AS41495 accept AS-FAELIX # FAELIX
+export:         to   AS41495 announce AS-LONAP
+import:         from AS41678 accept AS-TIBUS # Tibus
+export:         to   AS41678 announce AS-LONAP
+import:         from AS41847 accept AS-PIXIE-UK # Pixie Networks Ltd
+export:         to   AS41847 announce AS-LONAP
+import:         from AS42004 accept AS-ULGRP # VoIP Unlimited
+export:         to   AS42004 announce AS-LONAP
+import:         from AS42010 accept AS-ITPS # IT Professional Services
+export:         to   AS42010 announce AS-LONAP
+import:         from AS42228 accept AS-BRIGHTSTAR # BrightStar
+export:         to   AS42228 announce AS-LONAP
+import:         from AS42579 accept AS-SARGASSO-UK # Comtec / Sargasso Networks
+export:         to   AS42579 announce AS-LONAP
+import:         from AS42611 accept AS-ZZOOMM # Zzoomm
+export:         to   AS42611 announce AS-LONAP
+import:         from AS42689 accept AS-GLIDE # Glide Student & Residential
+export:         to   AS42689 announce AS-LONAP
+import:         from AS42831 accept AS-UKSERVERS # UK Dedicated Servers Ltd
+export:         to   AS42831 announce AS-LONAP
+import:         from AS43013 accept AS-COMMUNICATE # Communicate Technology
+export:         to   AS43013 announce AS-LONAP
+import:         from AS43519 accept AS-NOMINET-NS # Nominet Nameservers
+export:         to   AS43519 announce AS-LONAP
+import:         from AS43545 accept AS-TELEDATAUK # Teledata UK Ltd
+export:         to   AS43545 announce AS-LONAP
+import:         from AS43915 accept AS-TRUESPEED # Truespeed Communications
+export:         to   AS43915 announce AS-LONAP
+import:         from AS44324 accept AS-MOEDOVE # MoeDove Global
+export:         to   AS44324 announce AS-LONAP
+import:         from AS44356 accept AS44356 # Epsilon Telecommunications
+export:         to   AS44356 announce AS-LONAP
+import:         from AS44444 accept AS-WHS-EU # Forcepoint UK Limited
+export:         to   AS44444 announce AS-LONAP
+import:         from AS45014 accept AS-HOSTIT-MK # Host-IT
+export:         to   AS45014 announce AS-LONAP
+import:         from AS45102 accept AS45102 # Alibaba
+export:         to   AS45102 announce AS-LONAP
+import:         from AS47272 accept AS-HYEHOST # HYEHOST
+export:         to   AS47272 announce AS-LONAP
+import:         from AS47480 accept AS-BTS # Blue Tiger Solutions
+export:         to   AS47480 announce AS-LONAP
+import:         from AS47638 accept AS-CADENCE # Voneus
+export:         to   AS47638 announce AS-LONAP
+import:         from AS47866 accept AS47866 # iBrowse
+export:         to   AS47866 announce AS-LONAP
+import:         from AS47935 accept AS-QUANTUMUK # Quantum Communications Ltd
+export:         to   AS47935 announce AS-LONAP
+import:         from AS47998 accept AS-OSCAR # Oscar Music & Media
+export:         to   AS47998 announce AS-LONAP
+import:         from AS48070 accept AS48070:AS-DSM # DSM Group
+export:         to   AS48070 announce AS-LONAP
+import:         from AS48101 accept AS-CALLFLOW # Trooli
+export:         to   AS48101 announce AS-LONAP
+import:         from AS48266 accept AS48266:AS-CATIXS # Catixs
+export:         to   AS48266 announce AS-LONAP
+import:         from AS48294 accept AS-SPECTRUM # OGI Networks
+export:         to   AS48294 announce AS-LONAP
+import:         from AS48620 accept AS-BEAMING # Beaming Ltd
+export:         to   AS48620 announce AS-LONAP
+import:         from AS48825 accept AS-FAST2HOST # Fast2host
+export:         to   AS48825 announce AS-LONAP
+import:         from AS49158 accept AS-WIFINITY # Wifinity
+export:         to   AS49158 announce AS-LONAP
+import:         from AS49375 accept AS-NOONEINTERNET # No One Internet Ltd
+export:         to   AS49375 announce AS-LONAP
+import:         from AS49490 accept AS49490 # Circlenet
+export:         to   AS49490 announce AS-LONAP
+import:         from AS49544 accept AS-INTERACTIVE3D # i3d B.V.
+export:         to   AS49544 announce AS-LONAP
+import:         from AS49600 accept AS-NEARIP # NEAR IP
+export:         to   AS49600 announce AS-LONAP
+import:         from AS50023 accept AS-VODAT # VCG Technology Services
+export:         to   AS50023 announce AS-LONAP
+import:         from AS50300 accept AS-CUSTDC # Custodian Datacentre
+export:         to   AS50300 announce AS-LONAP
+import:         from AS50763 accept AS-MCKAY # MCKAYCOM
+export:         to   AS50763 announce AS-LONAP
+import:         from AS51019 accept AS-KJARTAN # Kjartan Hrafnkelsson
+export:         to   AS51019 announce AS-LONAP
+import:         from AS51043 accept AS-ASPIRE # Aspire Technology Solutions Ltd
+export:         to   AS51043 announce AS-LONAP
+import:         from AS51048 accept AS-NEXTCONNEX # Next Connex
+export:         to   AS51048 announce AS-LONAP
+import:         from AS51055 accept AS-BRIDGEFIBRE # Bridge Fibre
+export:         to   AS51055 announce AS-LONAP
+import:         from AS51263 accept AS51263 # County Broadband
+export:         to   AS51263 announce AS-LONAP
+import:         from AS51409 accept AS-SIPSYNERGY # Sipsynergy Limited
+export:         to   AS51409 announce AS-LONAP
+import:         from AS51561 accept AS-ICUK # ICUK Computing Services Ltd
+export:         to   AS51561 announce AS-LONAP
+import:         from AS51918 accept AS-CERBERUSNETWORKS # Cerberus Networks
+export:         to   AS51918 announce AS-LONAP
+import:         from AS51945 accept AS-CONNETU # ConnetU
+export:         to   AS51945 announce AS-LONAP
+import:         from AS52025 accept AS52025:AS-ALL # ParadoxNetworks
+export:         to   AS52025 announce AS-LONAP
+import:         from AS52041 accept AS-SCALEBLADE # Scaleblade
+export:         to   AS52041 announce AS-LONAP
+import:         from AS52075 accept AS-WIFIRST # Wifirst
+export:         to   AS52075 announce AS-LONAP
+import:         from AS53343 accept AS-SCN # sc Network
+export:         to   AS53343 announce AS-LONAP
+import:         from AS54113 accept AS-FASTLY # Fastly
+export:         to   AS54113 announce AS-LONAP
+import:         from AS55195 accept AS-55195 # Canadian Internet Registration Authority
+export:         to   AS55195 announce AS-LONAP
+import:         from AS55256 accept AS-NETSKOPE # Netskope
+export:         to   AS55256 announce AS-LONAP
+import:         from AS56329 accept AS56329 # Gigaclear plc
+export:         to   AS56329 announce AS-LONAP
+import:         from AS56478 accept AS-BCUBE # Hyperoptic
+export:         to   AS56478 announce AS-LONAP
+import:         from AS56595 accept AS-FLUENCY # Fluency Communications Ltd
+export:         to   AS56595 announce AS-LONAP
+import:         from AS56745 accept AS56745 # Tamar Telecommunications
+export:         to   AS56745 announce AS-LONAP
+import:         from AS57099 accept AS-BOUNDLESSCOMMS # Quickline Communications
+export:         to   AS57099 announce AS-LONAP
+import:         from AS57463 accept AS-NETIX-INT # NetIX Communications
+export:         to   AS57463 announce AS-LONAP
+import:         from AS57483 accept AS-ICHILTON # Ian Chilton
+export:         to   AS57483 announce AS-LONAP
+import:         from AS57793 accept AS-1310 # 1310.io
+export:         to   AS57793 announce AS-LONAP
+import:         from AS57976 accept AS-BLIZZARD # Blizzard Entertainment
+export:         to   AS57976 announce AS-LONAP
+import:         from AS59395 accept AS-EFAR # Southern Communications Limited t/a SCG Connected
+export:         to   AS59395 announce AS-LONAP
+import:         from AS59439 accept AS-TVF # EvolveIP
+export:         to   AS59439 announce AS-LONAP
+import:         from AS59659 accept AS-SECURUS # Securus Communications
+export:         to   AS59659 announce AS-LONAP
+import:         from AS59816 accept AS59816:AS-BLYNX # Blynx AIM
+export:         to   AS59816 announce AS-LONAP
+import:         from AS59953 accept AS59953 # Fibre Options
+export:         to   AS59953 announce AS-LONAP
+import:         from AS60022 accept AS-SONA # Sona Business
+export:         to   AS60022 announce AS-LONAP
+import:         from AS60079 accept AS-EMF # Electromagnetic Field
+export:         to   AS60079 announce AS-LONAP
+import:         from AS60193 accept AS-WURZEL # Wurzel
+export:         to   AS60193 announce AS-LONAP
+import:         from AS60255 accept AS-INTERNETTY # Internetty Ltd
+export:         to   AS60255 announce AS-LONAP
+import:         from AS60377 accept AS60377:AS-TOOB # Toob
+export:         to   AS60377 announce AS-LONAP
+import:         from AS60426 accept AS-WIGHTFIBRE # WightFibre
+export:         to   AS60426 announce AS-LONAP
+import:         from AS60793 accept AS-OCEANCLOUD # Cancom Managed Services
+export:         to   AS60793 announce AS-LONAP
+import:         from AS60800 accept AS-NETWISE # Netwise Hosting Ltd
+export:         to   AS60800 announce AS-LONAP
+import:         from AS61012 accept AS-LIVEDRIVE # Livedrive Internet
+export:         to   AS61012 announce AS-LONAP
+import:         from AS61049 accept AS-EXASCALE # Exascale
+export:         to   AS61049 announce AS-LONAP
+import:         from AS61124 accept AS-MARSTONS # Marston's Telecoms Ltd
+export:         to   AS61124 announce AS-LONAP
+import:         from AS61323 accept AS-UKFAST # ANS Group
+export:         to   AS61323 announce AS-LONAP
+import:         from AS62240 accept AS-CLOUVIDER # Clouvider
+export:         to   AS62240 announce AS-LONAP
+import:         from AS62902 accept AS-ASPHERE:AS-ALL # Web3 Technologies Inc
+export:         to   AS62902 announce AS-LONAP
+import:         from AS62955 accept AS-EBAYMTBB # eBay
+export:         to   AS62955 announce AS-LONAP
+import:         from AS63150 accept AS-BAGE # BAGE
+export:         to   AS63150 announce AS-LONAP
+import:         from AS63949 accept AS-LINODE # Akamai Linode AS63949
+export:         to   AS63949 announce AS-LONAP
+import:         from AS64289 accept AS64289:AS-MACARNE # Macarne
+export:         to   AS64289 announce AS-LONAP
+import:         from AS64415 accept AS-CONNECTBIT # Ashgoal Ltd
+export:         to   AS64415 announce AS-LONAP
+import:         from AS64500 accept AS64500 # LONAP Monitoring
+export:         to   AS64500 announce AS-LONAP
+import:         from AS137409 accept AS137409:AS-ALL # GSL Networks
+export:         to   AS137409 announce AS-LONAP
+import:         from AS153176 accept AS153176:AS-LPRM-APIKU-ID # PT LAPAK REGISTAR MURAH
+export:         to   AS153176 announce AS-LONAP
+import:         from AS197000 accept AS197000 # RIPE NCC Authoritative DNS
+export:         to   AS197000 announce AS-LONAP
+import:         from AS197898 accept AS-IDSI # Integrated Digital Services Ltd
+export:         to   AS197898 announce AS-LONAP
+import:         from AS198736 accept AS198736 # Stream Networks Ltd
+export:         to   AS198736 announce AS-LONAP
+import:         from AS199109 accept AS199109:AS-GUYNEWBURY # Guy Fenn-Newbury
+export:         to   AS199109 announce AS-LONAP
+import:         from AS199283 accept AS-SCOMMS # Structured Communications
+export:         to   AS199283 announce AS-LONAP
+import:         from AS199335 accept AS-TALKSTRAIGHT # Talk Straight Group Ltd
+export:         to   AS199335 announce AS-LONAP
+import:         from AS199468 accept AS-GRAIN # Grain Communications Ltd
+export:         to   AS199468 announce AS-LONAP
+import:         from AS199713 accept AS-MLL # MLL Telecom
+export:         to   AS199713 announce AS-LONAP
+import:         from AS199775 accept AS-CONNEXIN # Connexin
+export:         to   AS199775 announce AS-LONAP
+import:         from AS200052 accept AS-FERAL # Feral.IO Ltd
+export:         to   AS200052 announce AS-LONAP
+import:         from AS200260 accept AS200260:AS-DEBUGGED # Debugged
+export:         to   AS200260 announce AS-LONAP
+import:         from AS200612 accept AS-SETGBI # Gulf Bridge International
+export:         to   AS200612 announce AS-LONAP
+import:         from AS201126 accept AS201126 # CDW UK
+export:         to   AS201126 announce AS-LONAP
+import:         from AS201838 accept AS-COMMUNITYFIBRE # Community Fibre
+export:         to   AS201838 announce AS-LONAP
+import:         from AS202282 accept AS-FIBRUS # Fibrus Networks
+export:         to   AS202282 announce AS-LONAP
+import:         from AS202596 accept AS-GNETWORK # G.Network Communications
+export:         to   AS202596 announce AS-LONAP
+import:         from AS203421 accept AS203421 # Baltic Broadband
+export:         to   AS203421 announce AS-LONAP
+import:         from AS203649 accept AS-GOINTERNETUK # Go Internet
+export:         to   AS203649 announce AS-LONAP
+import:         from AS204778 accept AS-PAULLEWIS # Paul Lewis
+export:         to   AS204778 announce AS-LONAP
+import:         from AS205012 accept AS205012 # Giant Communications
+export:         to   AS205012 announce AS-LONAP
+import:         from AS205479 accept AS205479:AS-ANY # Luke Granger-Brown
+export:         to   AS205479 announce AS-LONAP
+import:         from AS205771 accept AS-OCTAPLUSUK # OCTAPLUS
+export:         to   AS205771 announce AS-LONAP
+import:         from AS205975 accept AS205975:AS-TRANSIT # Fibre Assets
+export:         to   AS205975 announce AS-LONAP
+import:         from AS206347 accept AS-RANSTON # Wessex Internet Ltd
+export:         to   AS206347 announce AS-LONAP
+import:         from AS206626 accept AS-PSDGROUP # PSD Group
+export:         to   AS206626 announce AS-LONAP
+import:         from AS207080 accept AS-BASIL # Basil Fillan
+export:         to   AS207080 announce AS-LONAP
+import:         from AS207841 accept AS-INFERNO # Inferno Communications
+export:         to   AS207841 announce AS-LONAP
+import:         from AS207995 accept AS-LIGHTNINGFIBRE # LF Holdco 2 Limited
+export:         to   AS207995 announce AS-LONAP
+import:         from AS208723 accept AS208723:AS-VDX # VDX Networks
+export:         to   AS208723 announce AS-LONAP
+import:         from AS209505 accept AS-UNCHAINED # Unchained ISP
+export:         to   AS209505 announce AS-LONAP
+import:         from AS209552 accept AS209552:AS-SIROKY # Siroky Network
+export:         to   AS209552 announce AS-LONAP
+import:         from AS209735 accept AS-LAGRANGE # Lagrange Cloud Technologies
+export:         to   AS209735 announce AS-LONAP
+import:         from AS210412 accept AS-HF # Hampstead Fibre Ltd
+export:         to   AS210412 announce AS-LONAP
+import:         from AS210619 accept AS210619:AS-MTH-NETWORKS # MTH Networks
+export:         to   AS210619 announce AS-LONAP
+import:         from AS210667 accept AS-AGTECH # Smishcraft Hosting
+export:         to   AS210667 announce AS-LONAP
+import:         from AS210874 accept AS-BOX-BROADBAND # Box Broadband
+export:         to   AS210874 announce AS-LONAP
+import:         from AS210893 accept AS210893 # Layered Technologies
+export:         to   AS210893 announce AS-LONAP
+import:         from AS211029 accept AS-XTX # XTX Markets
+export:         to   AS211029 announce AS-LONAP
+import:         from AS211393 accept AS211393:AS-ORIGIN # Vitrifi AS211393
+export:         to   AS211393 announce AS-LONAP
+import:         from AS211597 accept AS-LITFIBRE # Lit Fibre Ltd
+export:         to   AS211597 announce AS-LONAP
+import:         from AS212027 accept AS-PEBBLEHOST # PebbleHost
+export:         to   AS212027 announce AS-LONAP
+import:         from AS212109 accept AS-SQUIRREL # Squirrel
+export:         to   AS212109 announce AS-LONAP
+import:         from AS212232 accept AS212232 # Port 179
+export:         to   AS212232 announce AS-LONAP
+import:         from AS212263 accept AS-ROCKETFIBRE # Rocket Fibre Ltd
+export:         to   AS212263 announce AS-LONAP
+import:         from AS212396 accept AS212396:AS-FYFEWEB # FyfeWeb Hosting
+export:         to   AS212396 announce AS-LONAP
+import:         from AS212655 accept AS-212655 # YouFibre
+export:         to   AS212655 announce AS-LONAP
+import:         from AS212683 accept AS-OLILO # Olilo UK & Ireland
+export:         to   AS212683 announce AS-LONAP
+import:         from AS212895 accept AS-ROUTE64 # ROUTE64.ORG
+export:         to   AS212895 announce AS-LONAP
+import:         from AS214022 accept AS214022:AS-VIRTNET # VIRTNET
+export:         to   AS214022 announce AS-LONAP
+import:         from AS214240 accept AS214240:AS-SHDW # Shadow IT
+export:         to   AS214240 announce AS-LONAP
+import:         from AS214323 accept AS214323:AS-ALL # Marcus Hughes
+export:         to   AS214323 announce AS-LONAP
+import:         from AS214451 accept AS214451:AS-PEERS # Oliver Reid
+export:         to   AS214451 announce AS-LONAP
+import:         from AS214731 accept AS214731:AS-ETO # ETO Networks
+export:         to   AS214731 announce AS-LONAP
+import:         from AS214783 accept AS-DEDICATEDNODES # DedicatedNodes
+export:         to   AS214783 announce AS-LONAP
+import:         from AS214809 accept AS214809:AS-ALL # Jere Kiitola
+export:         to   AS214809 announce AS-LONAP
+import:         from AS215135 accept AS215135:AS-GARCED # Anthony Garced
+export:         to   AS215135 announce AS-LONAP
+import:         from AS215153 accept AS215153:AS-CONE # Silvio Gabriel Neto da Silva
+export:         to   AS215153 announce AS-LONAP
+import:         from AS215214 accept AS215214:AS-METACRYPT # METACRYPT
+export:         to   AS215214 announce AS-LONAP
+import:         from AS215248 accept AS215248:AS-BASTIAANBRINK # Bastiaan Mathijs Brink
+export:         to   AS215248 announce AS-LONAP
+import:         from AS215313 accept AS215313:AS-LINEAR-NETWORK # Emily Ingalls
+export:         to   AS215313 announce AS-LONAP
+import:         from AS215322 accept AS215322 # ConnectCov Networkls
+export:         to   AS215322 announce AS-LONAP
+import:         from AS215605 accept AS215605:AS-SHAMS-HANNA # Shams Hanna
+export:         to   AS215605 announce AS-LONAP
+import:         from AS215638 accept AS215638:AS-CILIX # Cilix
+export:         to   AS215638 announce AS-LONAP
+import:         from AS215887 accept AS215887:AS-BARA # baragoon networks
+export:         to   AS215887 announce AS-LONAP
+import:         from AS215958 accept AS215958:AS-FENGYE # FENGYE NETWORKS
+export:         to   AS215958 announce AS-LONAP
+import:         from AS216324 accept AS216324:AS-HN-NET # Hyper Group Network
+export:         to   AS216324 announce AS-LONAP
+import:         from AS328748 accept AS-AGILESP # Agile Solutions Provider
+export:         to   AS328748 announce AS-LONAP
+import:         from AS396356 accept AS-MAXIHOST # Latitude.sh LLC
+export:         to   AS396356 announce AS-LONAP
+import:         from AS396986 accept AS-BYTEDANCE # TikTok Information Technologies UK
+export:         to   AS396986 announce AS-LONAP
+import:         from AS396993 accept AS-SORAXUS # Soraxus Networks Inc.
+export:         to   AS396993 announce AS-LONAP
+import:         from AS396998 accept AS-PATH # Path Network, Inc.
+export:         to   AS396998 announce AS-LONAP
+import:         from AS397601 accept AS397601 # Catchpoint Systems Inc
+export:         to   AS397601 announce AS-LONAP
+remarks:        -----------------------------------------------------------------
+org:            ORG-LL117-RIPE
+admin-c:        AS8330-RIPE
+tech-c:         AS8330-RIPE
+mnt-by:         AS8330-MNT
+mnt-by:         AS8330-AUTO-MNT
+mnt-by:         RIPE-NCC-END-MNT
+status:         ASSIGNED
+created:        2002-07-04T18:57:03Z
+last-modified:  2025-08-23T22:40:10Z
+source:         RIPE
+
+organisation:   ORG-LL117-RIPE
+org-name:       LONAP Ltd
+country:        GB
+org-type:       LIR
+address:        2nd Floor Regis House, 45 King William Street
+address:        EC4R 9AN
+address:        London
+address:        UNITED KINGDOM
+phone:          +442031378330
+fax-no:         +442031378331
+admin-c:        AS8330-RIPE
+mnt-ref:        AS8330-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8330-MNT
+abuse-c:        LA8330-RIPE
+created:        2012-04-17T09:07:13Z
+last-modified:  2024-05-14T13:32:54Z
+source:         RIPE # Filtered
+
+role:           LONAP Tech contact
+address:        London
+phone:          +44 20 3137 8330
+tech-c:         ROBL-RIPE
+tech-c:         WILL-RIPE
+tech-c:         GZOW-RIPE
+nic-hdl:        AS8330-RIPE
+remarks:        ****
+remarks:        **** SUPPORT REQUESTS
+remarks:        **** ================
+remarks:        ****
+remarks:        **** THESE MUST BE SENT
+remarks:        **** TO support AT
+remarks:        **** lonap DOT net
+remarks:        ****
+mnt-by:         AS8330-MNT
+created:        2001-10-11T18:21:05Z
+last-modified:  2024-11-19T23:22:17Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          5.57.88.0/21
+descr:          LONAP SERVICES
+origin:         AS8330
+mnt-by:         AS8330-MNT
+created:        2013-03-27T21:49:55Z
+last-modified:  2013-03-27T21:49:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.203.5.0/24
+descr:          LONAP
+origin:         AS8330
+mnt-by:         AS8330-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-12-15T02:38:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:7f8:17::/48
+descr:          LONAP Internet Exchange, Docklands, IPv6 peering
+origin:         AS8330
+mnt-by:         AS8330-MNT
+created:        2008-08-28T10:27:33Z
+last-modified:  2008-08-28T10:27:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:eb20::/32
+descr:          LONAP Internet Exchange - Infrastructure
+origin:         AS8330
+mnt-by:         AS8330-MNT
+created:        2013-11-01T17:48:42Z
+last-modified:  2013-11-01T17:48:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

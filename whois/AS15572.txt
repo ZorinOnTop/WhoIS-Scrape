@@ -1,0 +1,121 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15572'
+
+% Abuse contact for 'AS15572' is 'abuse.emea@verizon.com'
+
+aut-num:        AS15572
+as-name:        Cybertrust
+descr:          former Cybertrust
+descr:          Betrusted
+org:            ORG-UA24-RIPE
+import:         from AS7081
+                action pref=100;
+                accept ANY
+import:         from AS5400
+                action pref=100;
+                accept ANY
+import:         from AS2856
+                action pref=100;
+                accept ANY
+import:         from AS5462
+                action pref=100;
+                accept any
+import:         from AS21371
+                action pref=100;
+                accept any
+export:         to AS7081
+                announce AS15572
+export:         to AS5400
+                announce AS15572
+export:         to AS2856
+                announce AS15572
+export:         to AS5462
+                announce AS15572
+export:         to AS21371
+                announce AS15572
+default:        to AS7081
+                action pref=90;
+                networks ANY
+admin-c:        AK4854-RIPE
+tech-c:         AK4854-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         CYB-GO-MNT
+mnt-by:         AS1849-MNT
+created:        2013-09-16T14:33:45Z
+last-modified:  2017-11-15T12:29:01Z
+source:         RIPE
+
+organisation:   ORG-UA24-RIPE
+org-name:       Verizon UK Limited
+country:        GB
+org-type:       LIR
+address:        Sebrathweg 20
+address:        44149
+address:        Dortmund
+address:        GERMANY
+phone:          +49 231 972 1299
+fax-no:         +49 231 972 2082
+admin-c:        HSVZ-RIPE
+admin-c:        ARK-RIPE
+admin-c:        AW-RIPE
+admin-c:        WERT1-RIPE
+mnt-ref:        AS1849-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS1849-MNT
+abuse-c:        AVE253-RIPE
+created:        2004-04-17T12:20:13Z
+last-modified:  2020-12-16T12:25:25Z
+source:         RIPE # Filtered
+
+person:         Asif Khan
+nic-hdl:        AK4854-RIPE
+mnt-by:         CYB-GO-MNT
+address:        Cybertrust
+                4 New Square
+                Bedfont Lakes
+                Feltham
+                Middlesex
+phone:          +442088312701
+created:        2006-10-12T23:48:16Z
+last-modified:  2006-10-25T23:37:14Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          64.18.30.0/24
+descr:          RIPE Network Coordination Centre
+origin:         AS15572
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+mnt-by:         MAINT-AS19151
+changed:        ipadmin@bboi.net 20080112
+source:         BBOI
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

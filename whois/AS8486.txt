@@ -1,0 +1,530 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8486'
+
+% Abuse contact for 'AS8486' is 'abuse@balt.net'
+
+aut-num:        AS8486
+org:            ORG-BA18-RIPE
+as-name:        BNK-AS
+descr:          BK LT Peering
+descr:          Lithuania
+remarks:        +----------------------------------------------------------+
+remarks:        |                LT Peers (65005:10440)                    |
+remarks:        +----------------------------------------------------------+
+remarks:        //-- Baltneta Customers AS
+mp-import:      afi ipv6 from AS15440 accept AS-ML
+mp-export:      afi ipv6 to AS15440 announce AS-BALT-IX-v6
+import:         from AS15440 action pref=100; accept AS-ML
+export:         to AS15440 announce AS-BALT-IX
+remarks:
+remarks:        //-- Baltneta DC AS
+mp-import:      afi ipv6 from AS42549 accept AS-ML
+mp-export:      afi ipv6 to AS42549 announce AS-BALT-IX-v6
+import:         from AS42549 action pref=100; accept AS-ML
+export:         to AS42549 announce AS-BALT-IX
+remarks:
+remarks:        //-- CGATES
+mp-import:      afi ipv6 from AS21412 accept AS21412
+mp-export:      afi ipv6 to AS21412 announce AS-BALT-IX-v6
+import:         from AS21412 action pref=100; accept AS21412
+export:         to AS21412 announce AS-BALT-IX
+remarks:
+remarks:        //-- 5ci / SKYNET
+import:         from AS21211 action pref=100; accept AS-PENKI
+export:         to AS21211 announce AS-BALT-IX
+remarks:
+remarks:        //-- LITNET
+mp-import:      afi ipv6 from AS2847 accept AS-LITNET-PEER
+mp-export:      afi ipv6 to AS2847 announce AS-BALT-IX-v6
+import:         from AS2847 action pref=100; accept AS-LITNET-PEER
+export:         to AS2847 announce AS-BALT-IX
+remarks:
+remarks:        //-- RACKRAY
+import:         from AS62282 action pref=100; accept AS-RACKRAY-DC
+export:         to AS62282 announce AS-BALT-IX
+remarks:
+remarks:        //-- INIT
+mp-import:      afi ipv6 from AS24852 accept AS-VINITA
+mp-export:      afi ipv6 to AS24852 announce AS-BALT-IX-v6
+import:         from AS24852 action pref=100; accept AS-VINITA
+export:         to AS24852 announce AS-BALT-IX
+remarks:
+remarks:        //-- BITE
+mp-import:      afi ipv6 from AS13194 accept AS-BITE-v6
+mp-export:      afi ipv6 to AS13194 announce AS-BALT-IX-v6
+import:         from AS13194 action pref=100; accept AS-BITE-LT
+export:         to AS13194 announce AS-BALT-IX
+remarks:
+remarks:        //-- LRTC
+mp-import:      afi ipv6 from AS15419 accept AS-TELECENTRAS-v6
+mp-export:      afi ipv6 to AS15419 announce AS-BALT-IX-v6
+import:         from AS15419 action pref=100; accept AS-TELECENTRAS
+export:         to AS15419 announce AS-BALT-IX
+remarks:
+remarks:        //-- FASTLINK
+import:         from AS43700 action pref=100; accept AS43700
+export:         to AS43700 announce AS-BALT-IX
+remarks:
+remarks:        //-- KIS
+import:         from AS25190 action pref=100; accept AS25190
+export:         to AS25190 announce AS-BALT-IX
+remarks:
+remarks:        //-- CSC
+mp-import:      afi ipv6 from AS24645 accept AS24645
+mp-export:      afi ipv6 to AS24645 announce AS-BALT-IX-v6
+import:         from AS24645 action pref=100; accept AS-CSC-LT
+export:         to AS24645 announce AS-BALT-IX
+remarks:
+remarks:        //-- ESNET
+mp-import:      afi ipv6 from AS61053 accept AS61053
+mp-export:      afi ipv6 to AS61053 announce AS-BALT-IX-v6
+import:         from AS61053 action pref=100; accept AS61053
+export:         to AS61053 announce AS-BALT-IX
+remarks:
+remarks:        //-- NTT
+import:         from AS33922 action pref=100; accept AS-NTT-LT
+export:         to AS33922 announce AS-BALT-IX
+remarks:
+remarks:        //-- Etanetas
+import:         from AS39067 action pref=100; accept AS-ETANETAS
+export:         to AS39067 announce AS-BALT-IX
+remarks:
+remarks:        //-- Zaibas
+import:         from AS56847 action pref=100; accept AS56847
+export:         to AS56847 announce AS-BALT-IX
+remarks:
+remarks:        //-- Micronet / Krena
+import:         from AS49602 action pref=100; accept AS49602
+export:         to AS49602 announce AS-BALT-IX
+remarks:
+remarks:        //-- Kvartalas
+mp-import:      afi ipv6 from AS202085 accept AS202085
+mp-export:      afi ipv6 to AS202085 announce AS-BALT-IX-v6
+import:         from AS202085 action pref=100; accept AS202085
+export:         to AS202085 announce AS-BALT-IX
+remarks:
+remarks:        //-- Progmera
+import:         from AS202725 action pref=100; accept AS202725
+export:         to AS202725 announce AS-BALT-IX
+remarks:
+remarks:        //-- Bitosis
+import:         from AS44246 action pref=100; accept AS44246
+export:         to AS44246 announce AS-BALT-IX
+remarks:
+remarks:        //-- Magnetukas
+import:         from AS41228 action pref=100; accept AS41228
+export:         to AS41228 announce AS-BALT-IX
+remarks:
+remarks:        //-- Infostruktura
+import:         from AS6769 action pref=100; accept AS-INFOSTRUKTURA
+export:         to AS6769 announce AS-BALT-IX
+remarks:
+remarks:        //-- Blue Bridge
+import:         from AS42774 action pref=100; accept AS42774
+export:         to AS42774 announce AS-BALT-IX
+remarks:
+remarks:        //-- PARABOLE
+import:         from AS20846 action pref=100; accept AS20846
+export:         to AS20846 announce AS-BALT-IX
+remarks:
+remarks:        //-- BALTICUM-TV
+import:         from AS39007 action pref=100; accept AS39007
+export:         to AS39007 announce AS-BALT-IX
+remarks:
+remarks:        //-- HOSTLINE
+mp-import:      afi ipv6 from AS198651 accept AS-HOSTLINE-LT
+mp-export:      afi ipv6 to AS198651 announce AS-BALT-IX-v6
+import:         from AS198651 action pref=100; accept AS-HOSTLINE-LT
+export:         to AS198651 announce AS-BALT-IX
+remarks:
+remarks:        //-- SATGATE
+mp-import:      afi ipv6 from AS30721 accept AS30721
+mp-export:      afi ipv6 to AS30721 announce AS-BALT-IX-v6
+import:         from AS30721 action pref=100; accept AS-SATGATE-LT
+export:         to AS30721 announce AS-BALT-IX
+remarks:
+remarks:        //-- TELE2
+mp-import:      afi ipv6 from AS1257 accept AS-TELE2-LT
+mp-export:      afi ipv6 to AS1257 announce AS-BALT-IX-v6
+import:         from AS1257 action pref=100; accept AS-TELE2-LT
+export:         to AS1257 announce AS-BALT-IX
+remarks:
+remarks:        //-- NOIA Network
+import:         from AS200372 action pref=100; accept AS200372
+export:         to AS200372 announce AS-BALT-IX
+remarks:
+remarks:        //-- Telia Lietuva
+mp-import:      afi ipv6 from AS8764 accept AS-TEO6
+mp-export:      afi ipv6 to AS8764 announce AS-BALT-IX-v6
+import:         from AS8764 action pref=100; accept AS-LTELECOM
+export:         to AS8764 announce AS-BALT-IX
+remarks:
+remarks:        //-- ICOR / City Service
+import:         from AS34842 action pref=100; accept AS34842
+export:         to AS34842 announce AS-BALT-IX
+remarks:
+remarks:        //-- Lietuvos Bankas
+import:         from AS35135 action pref=100; accept AS35135
+export:         to AS35135 announce AS-BALT-IX
+remarks:
+remarks:        //-- DELFI
+import:         from AS210126 action pref=100; accept AS210126
+export:         to AS210126 announce AS-BALT-IX
+remarks:
+remarks:        //-- Asseco Lietuva
+import:         from AS42181 action pref=100; accept AS42181
+export:         to AS42181 announce AS-BALT-IX
+remarks:
+remarks:        //-- LRT
+import:         from AS209989 action pref=100; accept AS209989
+export:         to AS209989 announce AS-BALT-IX
+remarks:
+remarks:        //-- DOMREG-ANY
+mp-import:      afi ipv6 from AS44358 accept AS44358
+mp-export:      afi ipv6 to AS44358 announce AS-BALT-IX-v6
+import:         from AS44358 action pref=100; accept AS44358
+export:         to AS44358 announce AS-BALT-IX
+remarks:
+remarks:        //-- DOMREG-UNI
+mp-import:      afi ipv6 from AS51172 accept AS51172
+mp-export:      afi ipv6 to AS51172 announce AS-BALT-IX-v6
+import:         from AS51172 action pref=100; accept AS51172
+export:         to AS51172 announce AS-BALT-IX
+remarks:
+remarks:        //-- Verslo Tiltas
+mp-import:      afi ipv6 from AS34120 accept AS34120
+mp-export:      afi ipv6 to AS34120 announce AS-BALT-IX-v6
+import:         from AS34120 action pref=100; accept AS34120
+export:         to AS34120 announce AS-BALT-IX
+remarks:
+remarks:        //-- KLI
+import:         from AS43627 action pref=100; accept AS43627
+export:         to AS43627 announce AS-BALT-IX
+remarks:
+remarks:        //-- HostBaltic / Serverofer.lt
+mp-import:      afi ipv6 from AS133398 accept AS133398
+mp-export:      afi ipv6 to AS133398 announce AS-BALT-IX-v6
+import:         from AS133398 action pref=100; accept AS133398
+export:         to AS133398 announce AS-BALT-IX
+remarks:
+remarks:        //-- Franmax
+import:         from AS47929 action pref=100; accept AS47929
+export:         to AS47929 announce AS-BALT-IX
+remarks:
+remarks:        //-- Ignitis
+import:         from AS24607 action pref=100; accept AS24607
+export:         to AS24607 announce AS-BALT-IX
+remarks:
+remarks:        //-- EKOFON
+mp-import:      afi ipv6 from AS62179 accept AS62179
+mp-export:      afi ipv6 to AS62179 announce AS-BALT-IX-v6
+import:         from AS62179 action pref=100; accept AS62179
+export:         to AS62179 announce AS-BALT-IX
+remarks:
+remarks:        //-- MELBICOM
+mp-import:      afi ipv6 from AS56630 accept AS-MELBICOM
+mp-export:      afi ipv6 to AS56630 announce AS-BALT-IX-v6
+import:         from AS56630 action pref=100; accept AS-MELBICOM
+export:         to AS56630 announce AS-BALT-IX
+remarks:
+remarks:        //-- HOSTINGER
+mp-import:      afi ipv6 from AS47583 accept AS-HOSTINGER
+mp-export:      afi ipv6 to AS47583 announce AS-BALT-IX-v6
+import:         from AS47583 action pref=100; accept AS-HOSTINGER
+export:         to AS47583 announce AS-BALT-IX
+remarks:
+remarks:        //-- Medicinos Bankas
+import:         from AS15908 action pref=100; accept AS15908
+export:         to AS15908 announce AS-BALT-IX
+remarks:
+remarks:        //-- IT Help//Alsycon
+import:         from AS49870 action pref=100; accept AS-49870
+export:         to AS49870 announce AS-BALT-IX
+remarks:
+remarks:        //-- Eltida
+import:         from AS201096 action pref=100; accept AS201096
+export:         to AS201096 announce AS-BALT-IX
+remarks:
+remarks:        //-- Weiss Hosting Services
+mp-import:      afi ipv6 from AS44477 accept AS44477:AS-DOWNSTREAMS
+mp-export:      afi ipv6 to AS44477 announce AS-BALT-IX-v6
+import:         from AS44477 action pref=100; accept AS44477:AS-DOWNSTREAMS
+export:         to AS44477 announce AS-BALT-IX
+remarks:
+remarks:        //-- RETN LV
+mp-import:      afi ipv6 from AS28886 accept AS-RETNLV
+mp-export:      afi ipv6 to AS28886 announce AS-BALT-IX-v6
+import:         from AS28886 action pref=100; accept AS-RETNLV
+export:         to AS28886 announce AS-BALT-IX
+remarks:
+remarks:        +----------------------------------------------------------+
+remarks:        |                LV Peers (65005:10428)                    |
+remarks:        +----------------------------------------------------------+
+remarks:        //-- Globalcom
+mp-import:      afi ipv6 from AS42979 accept AS-GLOBALCOM6
+mp-export:      afi ipv6 to AS42979 announce AS-BALT-IX-v6
+import:         from AS42979 action pref=100; accept AS-GLOBALCOM_LV
+export:         to AS42979 announce AS-BALT-IX
+remarks:
+remarks:        //-- Balticom LV
+mp-import:      afi ipv6 from AS24651 accept AS-BALTICOM
+mp-export:      afi ipv6 to AS24651 announce AS-BALT-IX-v6
+import:         from AS24651 action pref=100; accept AS-BALTICOM
+export:         to AS24651 announce AS-BALT-IX
+remarks:
+remarks:        //-- G-Core Labs S.A.
+mp-import:      afi ipv6 from AS199524 accept AS-GCORE
+mp-export:      afi ipv6 to AS199524 announce AS-BALT-IX-v6
+import:         from AS199524 action pref=100; accept AS-GCORE
+export:         to AS199524 announce AS-BALT-IX
+remarks:
+remarks:        //-- Latvijas Mobilais Telefons
+mp-import:      afi ipv6 from AS12847 accept AS-LMT
+mp-export:      afi ipv6 to AS12847 announce AS-BALT-IX-v6
+import:         from AS12847 action pref=100; accept AS-LMT
+export:         to AS12847 announce AS-BALT-IX
+remarks:
+remarks:        //-- LVRTC
+mp-import:      afi ipv6 from AS8194 accept AS-VITA
+mp-export:      afi ipv6 to AS8194 announce AS-BALT-IX-v6
+import:         from AS8194 action pref=100; accept AS-VITA
+export:         to AS8194 announce AS-BALT-IX
+remarks:
+remarks:        //-- Veesp SIA
+mp-import:      afi ipv6 from AS42532 accept AS-VEESP
+mp-export:      afi ipv6 to AS42532 announce AS-BALT-IX-v6
+import:         from AS42532 action pref=100; accept AS-VEESP
+export:         to AS42532 announce AS-BALT-IX
+remarks:
+remarks:        //-- Veesp AS43317
+mp-import:      afi ipv6 from AS43317 accept AS-VEESP
+mp-export:      afi ipv6 to AS43317 announce AS-BALT-IX-v6
+import:         from AS43317 action pref=100; accept AS-VEESP
+export:         to AS43317 announce AS-BALT-IX
+remarks:
+remarks:        +----------------------------------------------------------+
+remarks:        |                EE Peers (65005:10233)                    |
+remarks:        +----------------------------------------------------------+
+remarks:        //-- STV.ee
+import:         from AS61307 action pref=100; accept AS61307
+export:         to AS61307 announce AS-BALT-IX
+remarks:
+remarks:        //-- INFONET EE
+mp-import:      afi ipv6 from AS8728 accept AS-INFONETDC
+mp-export:      afi ipv6 to AS8728 announce AS-BALT-IX-v6
+import:         from AS8728 action pref=100; accept AS-INFONETDC
+export:         to AS8728 announce AS-BALT-IX
+remarks:
+remarks:        //-- Habr Europe Oy
+mp-import:      afi ipv6 from AS204671 accept AS-HABR
+mp-export:      afi ipv6 to AS204671 announce AS-BALT-IX-v6
+import:         from AS204671 action pref=100; accept AS-HABR
+export:         to AS204671 announce AS-BALT-IX
+remarks:
+remarks:        //-- Compic OU
+mp-import:      afi ipv6 from AS39823 accept AS-COMPIC
+mp-export:      afi ipv6 to AS39823 announce AS-BALT-IX-v6
+import:         from AS39823 action pref=100; accept AS-COMPIC
+export:         to AS39823 announce AS-BALT-IX
+remarks:
+remarks:        //-- BLUEVPS
+mp-import:      afi ipv6 from AS62005 accept AS62005:AS-BLUEVPS
+mp-export:      afi ipv6 to AS62005 announce AS-BALT-IX-v6
+import:         from AS62005 action pref=100; accept AS62005:AS-BLUEVPS
+export:         to AS62005 announce AS-BALT-IX
+remarks:
+remarks:        //-- BRAINOZA OU
+mp-import:      afi ipv6 from AS214790 accept AS214790:AS-BRAINOZA
+mp-export:      afi ipv6 to AS214790 announce AS-BALT-IX-v6
+import:         from AS214790 action pref=100; accept AS214790:AS-BRAINOZA
+export:         to AS214790 announce AS-BALT-IX
+remarks:
+remarks:        //-- EENet
+mp-import:      afi ipv6 from AS3221 accept AS-EENET
+mp-export:      afi ipv6 to AS3221 announce AS-BALT-IX-v6
+import:         from AS3221 action pref=100; accept AS-EENET
+export:         to AS3221 announce AS-BALT-IX
+remarks:
+remarks:        +----------------------------------------------------------+
+remarks:        |               FR5/DE Peers (65005:10276)                 |
+remarks:        +----------------------------------------------------------+
+remarks:        //-- COSMONOVA
+mp-import:      afi ipv6 from AS34867 accept AS-COSMONOVA
+mp-export:      afi ipv6 to AS34867 announce AS-BALT-IX-v6
+import:         from AS34867 action pref=100; accept AS-COSMONOVA
+export:         to AS34867 announce AS-BALT-IX
+remarks:
+remarks:        //-- COSMONOVA BROADCAST AS
+import:         from AS43133 action pref=100; accept AS43133
+export:         to AS43133 announce AS-BALT-IX
+remarks:
+remarks:        //-- Swisscom
+mp-import:      afi ipv6 from AS3303 accept AS-SWCMGLOBAL
+mp-export:      afi ipv6 to AS3303 announce AS-BALT-IX-v6
+import:         from AS3303 action pref=100; accept AS-SWCMGLOBAL
+export:         to AS3303 announce AS-BALT-IX
+remarks:
+remarks:        +----------------------------------------------------------+
+remarks:        |              Global Peers (65000:10000)                  |
+remarks:        +----------------------------------------------------------+
+remarks:        //-- Hurricane Electric
+mp-import:      afi ipv6 from AS6939 accept AS-HURRICANEv6
+mp-export:      afi ipv6 to AS6939 announce AS-BALT-IX-v6
+import:         from AS6939 action pref=100; accept AS-HURRICANE
+export:         to AS6939 announce AS-BALT-IX
+remarks:
+remarks:        //-- Google Inc.
+mp-import:      afi ipv6 from AS15169 accept AS-GOOGLE
+mp-export:      afi ipv6 to AS15169 announce AS-BALT-IX-v6
+import:         from AS15169 action pref=100; accept AS-GOOGLE
+export:         to AS15169 announce AS-BALT-IX
+remarks:
+remarks:        //-- Cloudflare
+mp-import:      afi ipv6 from AS13335 accept AS-CLOUDFLARE
+mp-export:      afi ipv6 to AS13335 announce AS-BALT-IX-v6
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-BALT-IX
+remarks:
+remarks:        //-- VeriSign
+mp-import:      afi ipv6 from AS26415 accept AS-GTLD
+mp-export:      afi ipv6 to AS26415 announce AS-BALT-IX-v6
+import:         from AS26415 action pref=100; accept AS-GTLD
+export:         to AS26415 announce AS-BALT-IX
+remarks:
+remarks:        //-- Facebook
+mp-import:      afi ipv6 from AS63293 accept AS63293
+mp-export:      afi ipv6 to AS63293 announce AS-BALT-IX-v6
+import:         from AS63293 action pref=100; accept AS63293
+export:         to AS63293 announce AS-BALT-IX
+remarks:
+remarks:        //-- NETNOD (I-root DNS)
+mp-import:      afi ipv6 from AS8674 accept AS-NETNOD-ANYCAST
+mp-export:      afi ipv6 to AS8674 announce AS-BALT-IX-v6
+import:         from AS8674 action pref=100; accept AS-NETNOD-ANYCAST
+export:         to AS8674 announce AS-BALT-IX
+remarks:
+remarks:        //-- CITIC Telecom CPC Netherlands
+mp-import:      afi ipv6 from AS3327 accept AS-CITICTEL-CPC
+mp-export:      afi ipv6 to AS3327 announce AS-BALT-IX-v6
+import:         from AS3327 action pref=100; accept AS-CITICTEL-CPC
+export:         to AS3327 announce AS-BALT-IX
+remarks:
+remarks:        ============================================================
+remarks:        # --- BGP Community routing:
+remarks:        Each of route-server does not modify, process or remove
+remarks:        communities received from customers except those communities
+remarks:        which are processed by the route-servers themselves:
+remarks:        //--- Communities affecting announces to other peers:
+remarks:        0:8486       - Do not announce prefix to all peers
+remarks:        0:X          - Do not announce prefix to peer ASX
+remarks:        8486:8486    - Announce prefix to all peers
+remarks:        8486:X       - Announce prefix to peer ASX only
+remarks:
+remarks:        If peer's AS is 32-bit then BGP extended community attribute
+remarks:        should be used:
+remarks:        rt:0:X       - Do not announce prefix to peer ASX
+remarks:        rt:8486:X    - Announce prefix to peer ASX only
+remarks:
+remarks:        //--- Following communities are also applied by RS:
+remarks:
+remarks:        [65000 + <R>]:[10000 + 1000*<X> + <CC>] ~ Where (RFC4384):
+remarks:        .     <R>  is the 5-bit Region Identifier
+remarks:        .     <X>  is the 1-bit satellite link indication
+remarks:        .     <CC> is the 10-bit ISO-3166-2 country code [ISO3166]
+remarks:        .  and <R> takes the values:
+remarks:        .     Africa (AF)                            00001 (1)
+remarks:        .     Oceania (OC)                           00010 (2)
+remarks:        .     Asia (AS)                              00011 (3)
+remarks:        .     Antarctica (AQ)                        00100 (4)
+remarks:        .     Europe (EU)                            00101 (5)
+remarks:        .     Latin America/Caribbean Islands (LAC)  00110 (6)
+remarks:        .     North America (NA)                     00111 (7)
+remarks:
+remarks:        Examples:
+remarks:        .     65000:10000 - Tier1 and Tier2 ISPs
+remarks:        .     65005:10233 - Estonia
+remarks:        .     65005:10428 - Latvia
+remarks:        .     65005:10440 - Lithuania
+remarks:
+remarks:        Note: Communties are set to all prefixes recevied from BGP
+remarks:        peer, based on peer AS country code:
+remarks:        .     whois -h whois.cymru.com " -v PeerAS"
+remarks:        With some exceptions like Tier1 and Tier2 ISPs, and some oth.
+remarks:        +------------------------------------------------------------
+remarks:        RS doesn't insert its own ASN into the AS_PATH by default,
+remarks:        some routers might deny such updates, to solve this behavior
+remarks:        you should specify "no bgp enforce-first-as" (IOS/IOS-XE)
+remarks:        =============================================================
+admin-c:        BNK1-RIPE
+tech-c:         BNK1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8486-MNT
+mnt-by:         BNK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-08-18T06:07:57Z
+source:         RIPE
+
+organisation:   ORG-BA18-RIPE
+org-name:       UAB "Baltnetos komunikacijos"
+country:        LT
+org-type:       LIR
+address:        Rutkausko g. 6
+address:        05132
+address:        Vilnius
+address:        LITHUANIA
+phone:          +370 5 2745444
+fax-no:         +370 5 2745440
+admin-c:        BNK1-RIPE
+tech-c:         BNK1-RIPE
+abuse-c:        BNK1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        BNK-LT-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         BNK-LT-MNT
+created:        2004-04-17T11:37:10Z
+last-modified:  2021-02-22T07:20:38Z
+source:         RIPE # Filtered
+
+role:           BNK Operations
+address:        UAB "Baltnetos komunikacijos"
+address:        Rutkausko 6
+address:        Vilnius, Lithuania
+phone:          +370 5 2745444
+admin-c:        AZ431-RIPE
+admin-c:        DC15897-RIPE
+tech-c:         AR7497-RIPE
+tech-c:         VR886-RIPE
+tech-c:         DC15897-RIPE
+nic-hdl:        BNK1-RIPE
+mnt-by:         BNK-LT-MNT
+abuse-mailbox:  abuse@balt.net
+created:        2002-12-04T13:23:34Z
+last-modified:  2023-02-10T13:06:50Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+%  No entries found for the selected source(s).
+
+

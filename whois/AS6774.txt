@@ -1,0 +1,629 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6774'
+
+% Abuse contact for 'AS6774' is 'abuse@bics.com'
+
+aut-num:        AS6774
+as-name:        ASN-BICS
+import:         { from AS-ANY action community(6774:65231); accept ANY AND NOT AS6774:FLTR-BOGONS; } refine { from AS6774:PRNG-BE-BNIX action community.append(6774:65100); from AS6774:PRNG-DE-DECIX action community.append(6774:65104); from AS6774:PRNG-FR-SFINX action community.append(6774:65102); from AS6774:PRNG-NL-AMSIX action community.append(6774:65101); from AS6774:PRNG-UK-LINX action community.append(6774:65103); accept (PeerAS OR AS6774:AS-PEERS:PeerAS); }
+import:         from AS5432 accept AS-SKYNETBE
+import:         from AS9000 accept AS9000 AS9095
+import:         from AS9208 accept AS9208
+import:         from AS16154 accept AS-TELECOMS
+import:         from AS197676 accept AS197676
+import:         from AS198100 accept AS198100
+import:         from AS37410 accept AS37410
+export:         to AS1273 announce AS-BELBONETOPEERS
+export:         to AS3356 announce AS-BELBONETOPEERS
+export:         to AS5432 to AS9000 to AS9208 to AS16154 to AS197676 announce ANY
+export:         to AS6774:PRNG-BE-BNIX to AS6774:PRNG-DE-DECIX to AS6774:PRNG-FR-SFINX to AS6774:PRNG-NL-AMSIX to AS6774:PRNG-UK-LINX announce AS-BELBONETOPEERS
+export:         to AS6939 announce AS6774:AS-BICS-TRANSIT
+remarks:        -------------------------------------------
+remarks:        PEERING contact is peering@bics.com
+remarks:        ABUSE contact is abuse@bics.com
+remarks:        NOC contact is customer.care@bics.com
+remarks:        -------------------------------------------
+org:            ORG-BICS2-RIPE
+admin-c:        BIHM-RIPE
+tech-c:         BIEO-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-BICS
+created:        2002-09-13T17:51:35Z
+last-modified:  2019-04-10T14:11:18Z
+source:         RIPE
+
+organisation:   ORG-BICS2-RIPE
+org-name:       Belgacom International Carrier Services SA
+country:        BE
+org-type:       LIR
+address:        Boulevard du Roi AlbertII 27 Map, Schaerbeek
+address:        B-1000
+address:        Brussels
+address:        BELGIUM
+phone:          +3225475151
+fax-no:         +3225406885
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-BICS
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-BICS
+admin-c:        MH12797-RIPE
+admin-c:        EL357-RIPE
+admin-c:        BIHM-RIPE
+admin-c:        WS2405-RIPE
+admin-c:        KW3457-RIPE
+admin-c:        YB881-RIPE
+abuse-c:        BIMB-RIPE
+created:        2005-04-05T05:11:09Z
+last-modified:  2021-07-12T11:41:43Z
+source:         RIPE # Filtered
+
+role:           Belgacom ICS Engineering and Operations
+address:        Belgacom International Carrier Services Rue Lebeau 4 B-1000 Brussels Belgium
+phone:          +32 2 547 51 60
+fax-no:         +32 2 540 68 85
+remarks:        24 Hour NOC Call +32 2 547 51 51 opt 1-3
+org:            ORG-BICS2-RIPE
+admin-c:        BIHM-RIPE
+tech-c:         MP897-RIPE
+tech-c:         WS2405-RIPE
+tech-c:         YB881-RIPE
+tech-c:         WDH25-RIPE
+tech-c:         RL6527-RIPE
+tech-c:         VER17-RIPE
+tech-c:         PC13134-RIPE
+tech-c:         KW3457-RIPE
+nic-hdl:        BIEO-RIPE
+remarks:        Peering requests to peering@bics.com
+mnt-by:         MNT-BICS
+created:        2004-12-26T15:33:46Z
+last-modified:  2020-09-16T08:20:42Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@bics.com
+
+role:           Belgacom ICS Hostmaster
+address:        Belgacom International Carrier Services Rue Lebeau 4 B-1000 Brussels Belgium
+remarks:        24 Hour NOC Call +32-2-5475151
+org:            ORG-BICS2-RIPE
+admin-c:        EL357-RIPE
+tech-c:         BIEO-RIPE
+nic-hdl:        BIHM-RIPE
+remarks:        Peering requests to peering@bics.com
+mnt-by:         MNT-BICS
+created:        2004-12-26T15:17:40Z
+last-modified:  2014-02-04T12:18:16Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@bics.com
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          80.84.16.0/20
+descr:          Belgacom International Carrier Services
+origin:         AS6774
+org:            ORG-BICS2-RIPE
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+mnt-by:         MNT-BICS
+created:        2005-04-21T12:54:57Z
+last-modified:  2005-04-21T12:54:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.84.16.0/20
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          80.84.29.0/24
+descr:          BICS IP Asia
+origin:         AS6774
+mnt-by:         MNT-BICS
+created:        2010-08-27T13:35:17Z
+last-modified:  2010-08-27T13:36:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.84.30.0/24
+descr:          BICS IP America
+origin:         AS6774
+mnt-by:         MNT-BICS
+created:        2010-08-27T13:37:10Z
+last-modified:  2010-08-27T13:37:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.231.53.0/24
+origin:         AS6774
+mnt-by:         TELEGLOBE-MNT
+created:        2018-07-30T08:14:37Z
+last-modified:  2018-07-30T08:14:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.231.53.0/24
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          94.102.160.0/20
+descr:          Belgacom International Carrier Services
+origin:         AS6774
+org:            ORG-BICS2-RIPE
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+mnt-by:         MNT-BICS
+created:        2008-09-10T20:10:29Z
+last-modified:  2008-09-10T20:10:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.102.160.0/20
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          102.176.128.0/19
+descr:          BICS Africa supernet
+origin:         AS6774
+mnt-by:         BICS1-MNT
+changed:        ***@bics.com 20230215
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          102.176.128.0/23
+descr:          MVNE Internet US (supernet)
+origin:         AS6774
+mnt-by:         BICS1-MNT
+changed:        ***@bics.com 20181203
+changed:        ***@bics.com 20230201
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          102.176.128.0/24
+origin:         AS6774
+descr:          MVNE Internet NYK
+mnt-by:         BICS1-MNT
+changed:        ***@bics.com 20200904
+changed:        ***@bics.com 20230131
+changed:        ***@bics.com 20230201
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          102.176.129.0/24
+origin:         AS6774
+descr:          MVNE Internet ASH
+mnt-by:         BICS1-MNT
+changed:        ***@bics.com 20200904
+changed:        ***@bics.com 20230102
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          102.176.130.0/23
+descr:          MVNE ASIA SUPERNET
+origin:         AS6774
+mnt-by:         BICS1-MNT
+changed:        ***@bics.com 20230131
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          102.176.130.0/24
+descr:          BICS-IP-Asia
+origin:         AS6774
+mnt-by:         BICS1-MNT
+changed:        ***@bics.com 20190306
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          102.176.132.0/23
+descr:          BICS-Access-02
+origin:         AS6774
+mnt-by:         BICS1-MNT
+changed:        ***@bics.com 20190304
+source:         AFRINIC
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.43.236.0/22
+descr:          Belgacom International Carrier Services 3GRX Platform
+origin:         AS6774
+org:            ORG-BICS2-RIPE
+member-of:      AS6774:RS-GRX
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+mnt-by:         MNT-BICS
+created:        2005-01-04T17:02:52Z
+last-modified:  2005-04-21T12:55:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.42.132.0/23
+descr:          BICS NA
+origin:         AS6774
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+mnt-by:         MNT-BICS
+created:        2008-02-13T15:19:54Z
+last-modified:  2008-02-13T15:19:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.234.24.0/24
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          195.234.24.0/24
+origin:         AS6774
+mnt-by:         MNT-BICS
+created:        2018-05-02T13:11:34Z
+last-modified:  2018-05-02T13:11:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.128.0/21
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          213.137.128.0/21
+descr:          MTN-ICS
+origin:         AS6774
+mnt-by:         MNT-BICS
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+created:        2012-05-29T10:27:38Z
+last-modified:  2012-05-29T10:27:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.134.0/24
+descr:          BICS - Customer
+origin:         AS6774
+mnt-by:         MNT-BICS
+created:        2015-03-09T14:03:28Z
+last-modified:  2015-03-09T14:07:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.134.0/24
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          213.137.135.0/24
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          213.137.135.0/24
+descr:          BICS IP Africa
+origin:         AS6774
+mnt-by:         MNT-BICS
+created:        2018-06-06T09:26:02Z
+last-modified:  2018-06-06T09:26:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.136.0/24
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          213.137.136.0/24
+descr:          MTN-ICS
+origin:         AS6774
+mnt-by:         MNT-BICS
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+created:        2012-05-29T13:15:18Z
+last-modified:  2012-05-29T13:15:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.137.0/24
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          213.137.137.0/24
+descr:          MTN-ICS
+origin:         AS6774
+mnt-by:         MNT-BICS
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+created:        2012-05-29T13:17:02Z
+last-modified:  2012-05-29T13:17:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.138.0/24
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          213.137.138.0/24
+descr:          MTN-ICS
+origin:         AS6774
+mnt-by:         MNT-BICS
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+created:        2012-05-29T13:18:18Z
+last-modified:  2012-05-29T13:18:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.139.0/24
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          213.137.139.0/24
+descr:          MTN-ICS
+origin:         AS6774
+mnt-by:         MNT-BICS
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+created:        2012-05-29T13:22:03Z
+last-modified:  2012-05-29T13:22:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.158.0/23
+origin:         AS6774
+mnt-by:         MNT-BICS
+created:        2018-05-02T13:13:18Z
+last-modified:  2018-05-02T13:13:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.137.158.0/24
+origin:         AS6774
+mnt-by:         MNT-BICS
+created:        2018-11-12T12:06:40Z
+last-modified:  2018-11-12T12:06:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.158.0/24
+descr:          GBI via EMIX
+origin:         AS6774
+notify:         noc@emix.net.ae
+mnt-by:         MAINT-AS8966
+changed:        noc@emix.net.ae 20190730
+source:         RADB
+last-modified:  2023-11-13T15:56:47Z
+rpki-ov-state:  valid
+
+route:          217.76.224.0/20
+descr:          IDnet
+origin:         AS6774
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+mnt-routes:     SKYNETBE-MNT
+mnt-by:         MNT-BICS
+created:        1970-01-01T00:00:00Z
+last-modified:  2010-07-06T15:49:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:9b8::/32
+descr:          EU-BICS-20051216
+descr:          Belgacom International Carrier Services SA
+origin:         AS6774
+org:            ORG-BICS2-RIPE
+mnt-lower:      MNT-BICS
+mnt-routes:     MNT-BICS
+mnt-by:         MNT-BICS
+created:        2005-12-21T12:54:51Z
+last-modified:  2005-12-21T12:54:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

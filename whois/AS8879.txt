@@ -1,0 +1,3809 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8879'
+
+% Abuse contact for 'AS8879' is 'hostmaster@dts-online.net'
+
+aut-num:        AS8879
+as-name:        DTS-Systeme
+descr:          DTS Systeme GmbH
+remarks:        Herford, Germany
+org:            ORG-DA8-RIPE
+remarks:
+remarks:        ==================================================
+remarks:        #################  Upstream  #####################
+remarks:        ==================================================
+remarks:        --------------------------------------------------
+remarks:        LambdaNet
+import:         from AS13237 accept ANY
+export:         to AS13237 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS13237 accept   ANY
+mp-export:      afi ipv6.unicast to   AS13237 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        DTAG
+import:         from AS3320 accept ANY
+export:         to AS3320 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS3320 accept   ANY
+mp-export:      afi ipv6.unicast to   AS3320 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        HURRICANE ELECTRIC
+mp-import:      afi ipv6.unicast from AS6939 accept   ANY
+mp-export:      afi ipv6.unicast to   AS6939 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:
+remarks:        ==================================================
+remarks:        #################  Customer  #####################
+remarks:        ==================================================
+remarks:        --------------------------------------------------
+remarks:        DTS-Systeme (formerly ICSMEDIA)
+import:         from AS12437 accept AS-ICSMEDIA
+export:         to AS12437 announce ANY
+mp-import:      afi ipv6.unicast from AS12437 accept   AS-ICSMEDIA
+mp-export:      afi ipv6.unicast to   AS12437 announce ANY
+remarks:        --------------------------------------------------
+remarks:        ASCHENDORFF
+import:         from AS39077 accept AS39077
+export:         to AS39077 announce ANY
+remarks:        --------------------------------------------------
+remarks:        DTS-Berlin
+import:         from AS57837 accept AS57837
+export:         to AS57837 announce ANY
+mp-import:      afi ipv6.unicast from AS57837 accept   AS57837
+mp-export:      afi ipv6.unicast to   AS57837 announce ANY
+remarks:        --------------------------------------------------
+remarks:        SCISYSTEMS
+import:         from AS50800 accept AS50800
+export:         to AS50800 announce ANY
+remarks:        --------------------------------------------------
+remarks:
+remarks:        ==================================================
+remarks:        #################  Peering  ############131###54##
+remarks:        ==================================================
+remarks:        --------------------------------------------------
+remarks:        Packet Clearing House - Woodynet
+import:         from AS42 accept AS-PCH
+export:         to AS42 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS42 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS42 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        BELWUE
+import:         from AS553 accept AS-BELWUE
+export:         to AS553 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        DFN
+import:         from AS680 accept   AS-DFNTOWINISP
+export:         to   AS680 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS680 accept   AS-DFNTOWINISP
+mp-export:      afi ipv6.unicast to   AS680 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Apple
+import:         from AS714 accept AS-APPLE
+export:         to AS714 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS714 accept   AS-APPLE
+mp-export:      afi ipv6.unicast to   AS714 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        INFOSTRADA
+import:         from AS1267 accept AS-INFOSTRADA
+export:         to AS1267 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Next Layer
+import:         from AS1764 accept AS-NEXTLAYER
+export:         to AS1764 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS1764 accept   AS-NEXTLAYER-V6
+mp-export:      afi ipv6.unicast to   AS1764 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        RLP
+import:         from AS2857 accept AS-RLP-NET
+export:         to AS2857 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Topnet
+import:         from AS3326 accept AS-EXT
+export:         to AS3326 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        LINXTELECOM
+import:         from AS3327 accept AS-LINXTELECOM-DECIX
+export:         to AS3327 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Packet Clearing House
+import:         from AS3856 accept AS-PCH
+export:         to AS3856 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS3856 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        EASYNET
+import:         from AS4589 accept AS-EASYNET
+export:         to AS4589 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS4589 accept   AS-EASYNET
+mp-export:      afi ipv6.unicast to   AS4589 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Telekom Malaysia Berhad
+import:         from AS4788 accept AS-4788
+export:         to AS4788 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS4788 accept   AS-4788
+mp-export:      afi ipv6.unicast to   AS4788 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        T-Online France
+import:         from AS5410 accept AS-T-ONLINEFRANCE
+export:         to AS5410 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        FREENET
+import:         from AS5430 accept AS-FREENETDE
+export:         to AS5430 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS5430 accept   AS-FREENETDE
+mp-export:      afi ipv6.unicast to   AS5430 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        SPACENET
+import:         from AS5539 accept AS-SPACENET
+export:         to AS5539 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        GTS CE
+import:         from AS5588 accept AS-GTS-CE
+export:         to AS5588 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        NetUSE
+import:         from AS5605 accept AS-NETUSE
+export:         to AS5605 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        EUROWEB
+import:         from AS6663 accept AS-STARNETSRO
+export:         to AS6663 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        DECIX
+import:         from AS6695 accept AS-DECIX
+export:         to AS6695 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS6695 accept   AS-DECIX-V6
+mp-export:      afi ipv6.unicast to   AS6695 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        STRATO
+import:         from AS6724 accept AS-STRATORZ
+export:         to AS6724 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS6724 accept   AS-STRATORZ
+mp-export:      afi ipv6.unicast to   AS6724 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        SUNRISE
+import:         from AS6730 accept AS-GLOBAL
+export:         to AS6730 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Telefonica Deutschland
+import:         from AS6805 accept AS-TDDE
+export:         to AS6805 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS6805 accept   AS-TDDE
+mp-export:      afi ipv6.unicast to   AS6805 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        HURRICANE ELECTRIC
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Microsoft
+import:         from AS8075 accept AS-MICROSOFT
+export:         to AS8075 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS8075 accept   AS-MICROSOFT
+mp-export:      afi ipv6.unicast to   AS8075 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        COMSTAR-Direct
+import:         from AS8359 accept   AS-MTU
+export:         to   AS8359 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS8359 accept   AS-MTU
+mp-export:      afi ipv6.unicast to   AS8359 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        MANDA
+import:         from AS8365 accept AS-MANDA
+export:         to AS8365 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS8365 accept   AS-MANDA
+mp-export:      afi ipv6.unicast to   AS8365 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        NETCOLOGNE
+import:         from AS8422 accept AS-NETCOLOGNE
+export:         to AS8422 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS8422 accept   AS-NETCOLOGNE
+mp-export:      afi ipv6.unicast to   AS8422 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Telekom Austria AG
+import:         from AS8447 accept AS-PTA
+export:         to AS8447 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        PIRONET NDH AG
+import:         from AS8469 accept AS-PIRONETNDH
+export:         to AS8469 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Bezeq International Ltd.
+import:         from AS8551 accept AS-BEZEQINT
+export:         to AS8551 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS8551 accept   AS-BEZEQINT
+mp-export:      afi ipv6.unicast to   AS8551 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        1und1
+import:         from AS8560 accept AS-1AND1
+export:         to AS8560 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        KAMP
+import:         from AS8648 accept AS-KAMP
+export:         to AS8648 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        PTC
+import:         from AS8657 accept AS-CPRM
+export:         to AS8657 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        NETNOD
+import:         from AS8674 accept AS-NETNOD-ANYCAST
+export:         to AS8674 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        RDSNET
+import:         from AS8708 accept AS-RDSNET
+export:         to AS8708 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        SPNET
+import:         from AS8717 accept AS-SPNET
+export:         to AS8717 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        DENIC eG
+import:         from AS8763 accept AS-DENIC
+export:         to AS8763 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        M-net Telekommunikations
+import:         from AS8767 accept   AS-MNETDE
+export:         to   AS8767 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS8767 accept   AS-MNETDE
+mp-export:      afi ipv6.unicast to   AS8767 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        QTel
+import:         from AS8781 accept AS-QTEL
+export:         to AS8781 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        regio[.NET]
+import:         from AS8804 accept AS-IX-REGIONET
+export:         to AS8804 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        OSN - Online Service Nuernberg GmbH
+import:         from AS8859 accept AS-OSN
+export:         to AS8859 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        EMIX
+import:         from AS8966 accept AS-EMIX
+export:         to AS8966 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        PLUSSERVER
+import:         from AS8972 accept AS-PLUSSERVER
+export:         to AS8972 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        SOLNET
+import:         from AS9044 accept AS-SOLNET
+export:         to AS9044 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS9044 accept   AS-SOLNET
+mp-export:      afi ipv6.unicast to   AS9044 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        SAARGATE
+import:         from AS9063 accept AS-SAARGATE
+export:         to AS9063 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS9063 accept   AS-SAARGATE-V6
+mp-export:      afi ipv6.unicast to   AS9063 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        012 Smile Communications Ltd
+import:         from AS9116 accept AS-GOLDEN
+export:         to AS9116 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS9116 accept   AS9116:AS-V6
+mp-export:      afi ipv6.unicast to   AS9116 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        SOFTNET
+import:         from AS9119 accept AS-SOFTNET
+export:         to AS9119 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Yahoo
+import:         from AS10310 accept AS-YAHOO
+export:         to AS10310 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        PLUSLINE
+import:         from AS12306 accept AS-PLUSLINE
+export:         to AS12306 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        NACAMAR
+import:         from AS12312 accept AS-NACAMAR
+export:         to AS12312 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        NORIS-NETWORK
+import:         from AS12337 accept AS-NORIS
+export:         to AS12337 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        HELINET
+import:         from AS12355 accept AS-HELINET-V4
+export:         to AS12355 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        SCANPLUS
+import:         from AS12399 accept AS-SPXS
+export:         to AS12399 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS12399 accept   AS-SPXS
+mp-export:      afi ipv6.unicast to   AS12399 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        RKOM
+import:         from AS12611 accept AS-RKOM
+export:         to AS12611 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS12611 accept   AS-RKOM
+mp-export:      afi ipv6.unicast to   AS12611 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        OTEGLOBE
+import:         from AS12713 accept AS-OTEGLOBE
+export:         to AS12713 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        IPHH Internet Port Hamburg
+import:         from AS12731 accept AS-IPHH
+export:         to AS12731 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        BIT bv
+import:         from AS12859 accept AS-BIT
+export:         to AS12859 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS12859 accept   AS-BIT6
+mp-export:      afi ipv6.unicast to   AS12859 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        FASTWEB
+import:         from AS12874 accept AS-FASTWEB
+export:         to AS12874 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        HEAGMEDIANET
+import:         from AS12897 accept AS-HEAGMEDIANET
+export:         to AS12897 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        INITSEVEN
+import:         from AS13030 accept AS-INIT7
+export:         to AS13030 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS13030 accept   ANY
+mp-export:      afi ipv6.unicast to   AS13030 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        TNG - THE NET GENERATION
+import:         from AS13101 accept AS-TNG
+export:         to AS13101 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Manx Telecom
+import:         from AS13122 accept AS-MANX
+export:         to AS13122 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        YANDEX LLC
+import:         from AS13238 accept AS-YANDEX
+export:         to AS13238 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Opal Telecom
+import:         from AS13285 accept AS-OPAL
+export:         to AS13285 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        EdgaCast Networks
+import:         from AS15133 accept AS-EDGECAST
+export:         to AS15133 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Google
+import:         from AS15169 accept AS-GOOGLE
+export:         to AS15169 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        NEUF CEGETEL
+import:         from AS15557 accept AS-LDCOMNET
+export:         to AS15557 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        IP Exchange
+import:         from AS15598 accept AS-IPX
+export:         to AS15598 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        TELECITYREDBUS
+import:         from AS15830 accept AS-TELECITYLON
+export:         to AS15830 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        MEGA-ACCESS
+import:         from AS15925 accept AS-Mega
+export:         to AS15925 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        HLKOMM
+import:         from AS16097 accept AS-HLKOMM
+export:         to AS16097 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        OVH
+import:         from AS16276 accept AS-OVH
+export:         to AS16276 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS16276 accept   AS-OVH
+mp-export:      afi ipv6.unicast to   AS16276 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        AMAZON
+import:         from AS16509 accept AS-AMAZON
+export:         to AS16509 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        WV Fiber
+import:         from AS19151 accept AS-WVFIBER
+export:         to AS19151 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        RTL interactive GmbH
+import:         from AS20504 accept AS-RTL
+export:         to AS20504 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        TITAN NETWORKS
+import:         from AS20640 accept AS-TITANNET
+export:         to AS20640 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        RASCOM
+import:         from AS20764 accept AS-RASCOM
+export:         to AS20764 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS20764 accept   AS-RASCOM6
+mp-export:      afi ipv6.unicast to   AS20764 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Host Europe GmbH
+import:         from AS20773 accept AS-HOSTEUROPE
+export:         to AS20773 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS20773 accept   AS-HOSTEUROPE
+mp-export:      afi ipv6.unicast to   AS20773 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        AKAMAI TECHNOLOGIES
+import:         from AS20940 accept AS-AKAMAI
+export:         to AS20940 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        TELEDATA
+import:         from AS21263 accept AS-TELEDATA
+export:         to AS21263 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Inforent GmbH
+import:         from AS21336 accept AS-IR
+export:         to AS21336 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        MessageLabs
+import:         from AS21345 accept AS-MESSAGELABSEUROPE
+export:         to AS21345 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Trusted Network
+import:         from AS21385 accept AS-TNIB
+export:         to AS21385 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        RusComNet
+import:         from AS21414 accept AS-RCNET
+export:         to AS21414 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        MAnet GmbH
+import:         from AS21473 accept AS-MANET
+export:         to AS21473 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        LIMELIGHT NETWORKS
+import:         from AS22822 accept AS-LLNW
+export:         to AS22822 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Hetzner Online
+import:         from AS24940 accept AS-HETZNER
+export:         to AS24940 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Fast IT
+import:         from AS24961 accept AS-FASTIT
+export:         to AS24961 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS24961 accept   AS-FASTIT
+mp-export:      afi ipv6.unicast to   AS24961 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Smartjog
+import:         from AS43646 accept AS-TDFPMM
+export:         to AS43646 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS43646 accept   AS-TDFPMM
+mp-export:      afi ipv6.unicast to   AS43646 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Treml+Sturm
+import:         from AS25279 accept AS-TREML-STURM
+export:         to AS25279 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS25279 accept   AS-TREML-STURM
+mp-export:      afi ipv6.unicast to   AS25279 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        MK-NETZDIENSTE
+import:         from AS25394 accept AS-MK-NETZDIENSTE
+export:         to AS25394 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        RHTEC
+import:         from AS25560 accept AS-RHTEC
+export:         to AS25560 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        VELIA.NET
+import:         from AS29066 accept AS-VELIANET
+export:         to AS29066 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        CityTelecom.ru
+import:         from AS29076 accept AS-CITYTELECOM
+export:         to AS29076 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS29076 accept   AS-CITYTELECOM
+mp-export:      afi ipv6.unicast to   AS29076 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Hostserver
+import:         from AS29140 accept AS-HOSTSERVER
+export:         to AS29140 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS29140 accept   AS-HOSTSERVER
+mp-export:      afi ipv6.unicast to   AS29140 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        DIAL TELECOM
+import:         from AS29208 accept AS-DIALTELECOM
+export:         to AS29208 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        KABELDEUTSCHLAND
+import:         from AS31334 accept AS31334
+export:         to AS31334 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS31334 accept   AS31334
+mp-export:      afi ipv6.unicast to   AS31334 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        ACCELERATED-IT
+import:         from AS31400 accept AS-ACCELERATED
+export:         to AS31400 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS31400 accept   AS-ACCELERATED
+mp-export:      afi ipv6.unicast to   AS31400 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        DENIC-ANYCAST-AS
+import:         from AS31529 accept AS31529
+export:         to AS31529 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        FACEBOOK
+import:         from AS32934 accept AS32934
+export:         to AS32934 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        CORE-BACKBONE
+import:         from AS33891 accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS33891 accept   AS-CORE-BACKBONE
+mp-export:      afi ipv6.unicast to   AS33891 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        LINK11
+import:         from AS34309 accept AS-LINK11
+export:         to AS34309 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Jasmin Media Group
+import:         from AS34655 accept AS-JASMIN
+export:         to AS34655 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Panther Express
+import:         from AS36408 accept AS-PANTHER
+export:         to AS36408 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Interactive Network Communications
+import:         from AS39257 accept AS-INC
+export:         to AS39257 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        i3b
+import:         from AS39912 accept AS-I3B
+export:         to AS39912 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS39912 accept   AS-I3B
+mp-export:      afi ipv6.unicast to   AS39912 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        DAILYMOTION
+import:         from AS41690 accept AS-DAILYMOTION
+export:         to AS41690 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        OPENCARRIER e.G.
+import:         from AS41692 accept AS-OPENCARRIER
+export:         to AS41692 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS41692 accept   AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast to   AS41692 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        COMNET
+import:         from AS42416 accept AS-COMNET
+export:         to AS42416 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Fiber Optics Bulgaria
+import:         from AS42459 accept AS-FOBUL
+export:         to AS42459 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        INEXIO
+import:         from AS42652 accept AS-INTRAPARK
+export:         to AS42652 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        Media Network Services
+import:         from AS44654 accept AS-MNS
+export:         to AS44654 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS44654 accept   AS-MNS
+mp-export:      afi ipv6.unicast to   AS44654 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Gameforge
+import:         from AS47195 accept AS-GAMEFORGE
+export:         to AS47195 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        CCC
+import:         from AS50472 accept AS-CHAOS
+export:         to AS50472 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS50472 accept   AS-CHAOS
+mp-export:      afi ipv6.unicast to   AS50472 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Anexia
+import:         from AS42473 accept AS-ANEXIA
+export:         to AS42473 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS42473 accept   AS-ANEXIA
+mp-export:      afi ipv6.unicast to   AS42473 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        HEAGMEDIANET
+import:         from AS12897 accept AS-HEAGMEDIANET-V6
+export:         to AS12897 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS12897 accept   AS-HEAGMEDIANET-V6
+mp-export:      afi ipv6.unicast to   AS12897 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        HOSTWAY
+import:         from AS24679 accept AS-SSERV
+export:         to AS24679 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS24679 accept   AS-SSERV
+mp-export:      afi ipv6.unicast to   AS24679 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        EQUINIX
+import:         from AS24989 accept AS-EQUINIX-EU
+export:         to AS24989 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS24989 accept   AS-EQUINIX-EU
+mp-export:      afi ipv6.unicast to   AS24989 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        CloudFlare
+import:         from AS13335 accept AS13335
+export:         to AS13335 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS13335 accept   AS13335
+mp-export:      afi ipv6.unicast to   AS13335 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Afilias
+import:         from AS12041 accept AS12041:AS-AFILIAS
+export:         to AS12041 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS12041 accept   AS12041:AS-AFILIAS
+mp-export:      afi ipv6.unicast to   AS12041 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Nessus
+import:         from AS47692 accept AS47692
+export:         to AS47692 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS47692 accept   AS47692
+mp-export:      afi ipv6.unicast to   AS47692 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        NFOrce
+import:         from AS43350 accept AS-NFORCE
+export:         to AS43350 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS43350 accept   AS-NFORCE
+mp-export:      afi ipv6.unicast to   AS43350 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        ITandTEL
+import:         from AS21013 accept AS-ITANDTEL_DECIX
+export:         to AS21013 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS21013 accept   AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to   AS21013 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        DTS S.R.L.
+import:         from AS49605 accept AS49605
+export:         to AS49605 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS49605 accept   AS49605
+mp-export:      afi ipv6.unicast to   AS49605 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Wnet Ukraine Ltd.
+import:         from AS15772 accept AS-WNET
+export:         to AS15772 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS15772 accept   AS-WNET
+mp-export:      afi ipv6.unicast to   AS15772 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Twitch
+import:         from AS46489 accept AS-TWITCH
+export:         to AS46489 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS46489 accept   AS-TWITCH
+mp-export:      afi ipv6.unicast to   AS46489 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Netrouting
+import:         from AS6206 accept AS-NETROUTING
+export:         to AS6206 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS6206 accept   AS-NETROUTING
+mp-export:      afi ipv6.unicast to   AS6206 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        StackPath
+import:         from AS54104 accept AS-NETDNA
+export:         to AS54104 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS54104 accept   AS-NETDNA
+mp-export:      afi ipv6.unicast to   AS54104 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Linode
+import:         from AS63949 accept AS-LINODE
+export:         to AS63949 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS63949 accept   AS-LINODE
+mp-export:      afi ipv6.unicast to   AS63949 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Telehouse AD
+import:         from AS57344 accept AS-57344
+export:         to AS57344 announce AS-DTS
+remarks:        --------------------------------------------------
+remarks:        atom86
+import:         from AS8455 accept AS-ATOM86
+export:         to AS8455 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS8455 accept   AS-ATOM86
+mp-export:      afi ipv6.unicast to   AS8455 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Telekom Malaysia Berhad
+import:         from AS4788 accept AS-4788
+export:         to AS4788 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS4788 accept   AS-4788
+mp-export:      afi ipv6.unicast to   AS4788 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:        Asympto Networks
+import:         from AS39533 accept AS-39533
+export:         to AS39533 announce AS-DTS
+mp-import:      afi ipv6.unicast from AS39533 accept   AS-39533
+mp-export:      afi ipv6.unicast to   AS39533 announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:
+remarks:        ==================================================
+remarks:        ###############  Public Peering  #################
+remarks:        ==================================================
+remarks:        --------------------------------------------------
+remarks:        DECIX Frankfurt Route Servers
+import-via:     AS6695 from AS-ANY accept ANY
+export-via:     AS6695 to AS-ANY announce AS-DTS
+import-via:     afi ipv6.unicast AS6695 from AS-ANY accept ANY
+export-via:     afi ipv6.unicast AS6695 to AS-ANY announce AS-DTS-V6
+remarks:        --------------------------------------------------
+remarks:
+remarks:        ##################################################
+remarks:        # available at DE-CIX                            #
+remarks:        #                                                #
+remarks:        # For Peering Questions and Request please use   #
+remarks:        # email address:     peering@dts-online.net      #
+remarks:        ##################################################
+remarks:
+remarks:        ==================================================
+remarks:
+admin-c:        DH857-RIPE
+tech-c:         DH857-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DTS-MNT
+created:        2002-09-09T11:47:03Z
+last-modified:  2024-07-24T14:59:08Z
+source:         RIPE
+
+organisation:   ORG-DA8-RIPE
+org-name:       DTS Systeme GmbH
+country:        DE
+org-type:       LIR
+address:        Schrewestr. 2
+address:        32051
+address:        Herford
+address:        GERMANY
+phone:          +4952211013000
+fax-no:         +4952211013001
+admin-c:        DH857-RIPE
+tech-c:         DH857-RIPE
+abuse-c:        DH857-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DTS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DTS-MNT
+created:        2004-04-17T11:06:47Z
+last-modified:  2022-07-22T08:59:15Z
+source:         RIPE # Filtered
+
+role:           DTS-ONLINE HOSTMASTER
+address:        Hostmaster DTS-Systeme
+address:        DTS Systeme GmbH
+address:        Schrewestr. 2
+address:        D-32051 Herford
+address:        Germany
+phone:          +49.52211013000
+fax-no:         +49.52211013501
+remarks:        trouble: please contact via eMail or phone
+admin-c:        FJO7-RIPE
+admin-c:        NSR4-RIPE
+admin-c:        HD4036-RIPE
+tech-c:         FJO7-RIPE
+tech-c:         NSR4-RIPE
+tech-c:         HD4036-RIPE
+nic-hdl:        DH857-RIPE
+abuse-mailbox:  hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-12-09T14:30:37Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          81.89.224.0/19
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2002-11-18T16:39:41Z
+last-modified:  2004-11-09T10:54:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.224.0/20
+descr:          DTS-Systeme
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2008-04-15T13:30:44Z
+last-modified:  2008-04-15T13:30:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.224.0/24
+descr:          DTS Anycast
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:20Z
+last-modified:  2018-03-14T15:48:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.225.0/24
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+descr:          DTS Anycast
+mnt-by:         DTS-MNT
+created:        2019-02-26T21:43:29Z
+last-modified:  2019-02-26T21:43:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.226.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:22Z
+last-modified:  2004-11-24T15:32:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.227.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:24Z
+last-modified:  2004-11-24T15:32:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.228.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:25Z
+last-modified:  2004-11-24T15:32:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.229.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:27Z
+last-modified:  2004-11-24T15:32:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.230.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:28Z
+last-modified:  2004-11-24T15:32:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.231.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:30Z
+last-modified:  2004-11-24T15:32:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.232.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:31Z
+last-modified:  2004-11-24T15:32:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.233.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:32Z
+last-modified:  2004-11-24T15:32:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.234.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:34Z
+last-modified:  2004-11-24T15:32:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.235.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:35Z
+last-modified:  2004-11-24T15:32:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.236.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:37Z
+last-modified:  2004-11-24T15:32:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.237.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:38Z
+last-modified:  2004-11-24T15:32:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.238.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:39Z
+last-modified:  2004-11-24T15:32:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.239.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:41Z
+last-modified:  2004-11-24T15:32:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.240.0/20
+descr:          DTS-Systeme
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2008-04-15T13:30:45Z
+last-modified:  2008-04-15T13:30:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.240.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:42Z
+last-modified:  2004-11-24T15:32:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.241.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:43Z
+last-modified:  2004-11-24T15:32:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.242.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:45Z
+last-modified:  2004-11-24T15:32:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.243.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:46Z
+last-modified:  2004-11-24T15:32:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.244.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:48Z
+last-modified:  2004-11-24T15:32:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.245.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:49Z
+last-modified:  2004-11-24T15:32:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.246.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:51Z
+last-modified:  2004-11-24T15:32:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.247.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:52Z
+last-modified:  2004-11-24T15:32:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.248.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:53Z
+last-modified:  2004-11-24T15:32:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.249.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:55Z
+last-modified:  2004-11-24T15:32:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.250.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:56Z
+last-modified:  2004-11-24T15:32:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.251.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:58Z
+last-modified:  2004-11-24T15:32:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.252.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:32:59Z
+last-modified:  2004-11-24T15:32:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.253.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:33:00Z
+last-modified:  2004-11-24T15:33:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.254.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:33:02Z
+last-modified:  2004-11-24T15:33:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.89.255.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:33:03Z
+last-modified:  2004-11-24T15:33:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.64.0/18
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-23T14:15:08Z
+last-modified:  2004-11-23T14:15:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.64.0/19
+descr:          DTS-Systeme
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2008-04-15T13:30:45Z
+last-modified:  2008-04-15T13:30:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.64.0/23
+descr:          DTS Systeme GmbH
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2021-12-06T16:24:08Z
+last-modified:  2021-12-06T16:24:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.64.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:21:48Z
+last-modified:  2004-11-24T15:21:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.65.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:21:49Z
+last-modified:  2004-11-24T15:21:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.66.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:21:51Z
+last-modified:  2004-11-24T15:21:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.67.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:21:52Z
+last-modified:  2004-11-24T15:21:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.68.0/23
+descr:          DTS-Service
+origin:         AS8879
+mnt-by:         DTS-MNT
+created:        2024-03-01T09:29:18Z
+last-modified:  2024-03-01T09:29:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.68.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:21:54Z
+last-modified:  2004-11-24T15:21:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.69.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:21:55Z
+last-modified:  2004-11-24T15:21:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.70.0/23
+descr:          DTS Systeme GmbH
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2024-02-08T09:57:34Z
+last-modified:  2024-02-08T09:57:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.70.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:21:57Z
+last-modified:  2004-11-24T15:21:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.71.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:21:58Z
+last-modified:  2004-11-24T15:21:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.72.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:21:59Z
+last-modified:  2004-11-24T15:21:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.73.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:01Z
+last-modified:  2004-11-24T15:22:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.74.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:02Z
+last-modified:  2004-11-24T15:22:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.75.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:03Z
+last-modified:  2004-11-24T15:22:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.76.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:05Z
+last-modified:  2004-11-24T15:22:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.77.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:07Z
+last-modified:  2004-11-24T15:22:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.78.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:08Z
+last-modified:  2004-11-24T15:22:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.79.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:10Z
+last-modified:  2004-11-24T15:22:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.80.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:11Z
+last-modified:  2004-11-24T15:22:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.81.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:12Z
+last-modified:  2004-11-24T15:22:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.82.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:14Z
+last-modified:  2004-11-24T15:22:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.83.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:15Z
+last-modified:  2004-11-24T15:22:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.84.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:17Z
+last-modified:  2004-11-24T15:22:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.85.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:18Z
+last-modified:  2004-11-24T15:22:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.86.0/23
+descr:          DTS-Service
+origin:         AS8879
+mnt-by:         DTS-MNT
+created:        2024-02-19T08:35:38Z
+last-modified:  2024-02-19T08:35:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.86.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:20Z
+last-modified:  2004-11-24T15:22:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.87.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:22Z
+last-modified:  2004-11-24T15:22:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.88.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:23Z
+last-modified:  2004-11-24T15:22:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.89.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2015-11-27T16:14:25Z
+last-modified:  2015-11-27T16:14:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.90.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:26Z
+last-modified:  2004-11-24T15:22:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.91.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:28Z
+last-modified:  2004-11-24T15:22:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.92.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:29Z
+last-modified:  2004-11-24T15:22:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.93.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:31Z
+last-modified:  2004-11-24T15:22:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.94.0/24
+descr:          DTS Anycast HUDZNRW
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:32Z
+last-modified:  2021-09-09T14:55:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.95.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:33Z
+last-modified:  2004-11-24T15:22:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.96.0/19
+descr:          DTS-Systeme
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2008-04-15T13:30:45Z
+last-modified:  2008-04-15T13:30:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.96.0/24
+descr:          DTS Anycast HUDZNRW
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:35Z
+last-modified:  2021-09-09T15:10:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.97.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:37Z
+last-modified:  2004-11-24T15:22:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.98.0/24
+origin:         AS8879
+mnt-by:         DTS-MNT
+created:        2020-12-05T15:51:33Z
+last-modified:  2020-12-05T15:51:33Z
+source:         RIPE
+descr:          DTS Systeme GmbH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.99.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:40Z
+last-modified:  2004-11-24T15:22:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.100.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:41Z
+last-modified:  2004-11-24T15:22:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.101.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:42Z
+last-modified:  2004-11-24T15:22:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.102.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:44Z
+last-modified:  2004-11-24T15:22:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.103.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:45Z
+last-modified:  2004-11-24T15:22:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.104.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:47Z
+last-modified:  2004-11-24T15:22:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.105.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:48Z
+last-modified:  2004-11-24T15:22:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.106.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:50Z
+last-modified:  2004-11-24T15:22:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.107.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:51Z
+last-modified:  2004-11-24T15:22:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.108.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:53Z
+last-modified:  2004-11-24T15:22:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.109.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:54Z
+last-modified:  2004-11-24T15:22:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.110.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:56Z
+last-modified:  2004-11-24T15:22:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.111.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:57Z
+last-modified:  2004-11-24T15:22:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.112.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:22:59Z
+last-modified:  2004-11-24T15:22:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.113.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:01Z
+last-modified:  2004-11-24T15:23:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.114.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:02Z
+last-modified:  2004-11-24T15:23:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.115.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:04Z
+last-modified:  2004-11-24T15:23:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.116.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:05Z
+last-modified:  2004-11-24T15:23:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.117.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:07Z
+last-modified:  2004-11-24T15:23:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.118.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:08Z
+last-modified:  2004-11-24T15:23:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.119.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:10Z
+last-modified:  2004-11-24T15:23:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.120.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:11Z
+last-modified:  2004-11-24T15:23:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.121.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:13Z
+last-modified:  2004-11-24T15:23:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.122.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:14Z
+last-modified:  2004-11-24T15:23:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.123.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:15Z
+last-modified:  2004-11-24T15:23:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.124.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:17Z
+last-modified:  2004-11-24T15:23:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.125.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:18Z
+last-modified:  2004-11-24T15:23:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.126.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:20Z
+last-modified:  2004-11-24T15:23:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          84.201.127.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:21Z
+last-modified:  2004-11-24T15:23:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.216.108.0/24
+descr:          Aschendorff Medien GmbH & Co. KG
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-14T16:10:52Z
+last-modified:  2022-06-14T16:10:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.66.76.0/24
+descr:          Aschendorff Medien GmbH & Co. KG
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-14T16:11:31Z
+last-modified:  2022-06-14T16:11:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.64.0/19
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2004-11-09T10:54:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.64.0/20
+descr:          DTS-Systeme
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2008-04-15T13:30:45Z
+last-modified:  2008-04-15T13:30:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.64.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:34Z
+last-modified:  2004-11-24T15:23:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.65.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:35Z
+last-modified:  2004-11-24T15:23:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.66.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:36Z
+last-modified:  2004-11-24T15:23:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.67.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:38Z
+last-modified:  2004-11-24T15:23:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.68.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:39Z
+last-modified:  2004-11-24T15:23:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.69.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:41Z
+last-modified:  2004-11-24T15:23:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.70.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:42Z
+last-modified:  2004-11-24T15:23:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.71.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:43Z
+last-modified:  2004-11-24T15:23:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.72.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:45Z
+last-modified:  2004-11-24T15:23:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.73.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:46Z
+last-modified:  2004-11-24T15:23:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.74.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:48Z
+last-modified:  2004-11-24T15:23:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.75.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:49Z
+last-modified:  2004-11-24T15:23:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.76.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:51Z
+last-modified:  2004-11-24T15:23:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.77.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:53Z
+last-modified:  2004-11-24T15:23:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.78.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:55Z
+last-modified:  2004-11-24T15:23:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.79.0/24
+descr:          DTS Anycast
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:56Z
+last-modified:  2025-05-19T10:19:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.80.0/20
+descr:          DTS-Systeme
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2008-04-15T13:30:45Z
+last-modified:  2008-04-15T13:30:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.80.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:58Z
+last-modified:  2004-11-24T15:23:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.81.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:23:59Z
+last-modified:  2004-11-24T15:23:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.82.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:01Z
+last-modified:  2004-11-24T15:24:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.83.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:02Z
+last-modified:  2004-11-24T15:24:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.84.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:04Z
+last-modified:  2004-11-24T15:24:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.85.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:05Z
+last-modified:  2004-11-24T15:24:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.86.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:06Z
+last-modified:  2004-11-24T15:24:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.87.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:08Z
+last-modified:  2004-11-24T15:24:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.88.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:09Z
+last-modified:  2004-11-24T15:24:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.89.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:11Z
+last-modified:  2004-11-24T15:24:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.90.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:13Z
+last-modified:  2004-11-24T15:24:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.91.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:14Z
+last-modified:  2004-11-24T15:24:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.92.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:15Z
+last-modified:  2004-11-24T15:24:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.93.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:17Z
+last-modified:  2004-11-24T15:24:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.94.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:18Z
+last-modified:  2004-11-24T15:24:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.62.95.0/24
+descr:          DTS-Service
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2004-11-24T15:24:20Z
+last-modified:  2004-11-24T15:24:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.192.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:22:26Z
+last-modified:  2022-06-24T14:22:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.193.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:24:37Z
+last-modified:  2022-06-24T14:24:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.194.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:28:47Z
+last-modified:  2022-06-24T14:28:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.195.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:29:48Z
+last-modified:  2022-06-24T14:29:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.196.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:30:45Z
+last-modified:  2022-06-24T14:30:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.197.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:32:13Z
+last-modified:  2022-06-24T14:32:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.198.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:33:05Z
+last-modified:  2022-06-24T14:33:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.199.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:34:15Z
+last-modified:  2022-06-24T14:34:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.200.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:35:15Z
+last-modified:  2022-06-24T14:35:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.201.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:36:39Z
+last-modified:  2022-06-24T14:36:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.202.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:37:31Z
+last-modified:  2022-06-24T14:37:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.203.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:38:26Z
+last-modified:  2022-06-24T14:38:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.204.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:40:11Z
+last-modified:  2022-06-24T14:40:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.205.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:41:04Z
+last-modified:  2022-06-24T14:41:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.206.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:42:06Z
+last-modified:  2022-06-24T14:42:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.207.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:43:13Z
+last-modified:  2022-06-24T14:43:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.208.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:44:29Z
+last-modified:  2022-06-24T14:44:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.209.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:45:46Z
+last-modified:  2022-06-24T14:45:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.210.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:47:57Z
+last-modified:  2022-06-24T14:47:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.211.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:49:28Z
+last-modified:  2022-06-24T14:49:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.212.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:50:22Z
+last-modified:  2022-06-24T14:50:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.213.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:51:14Z
+last-modified:  2022-06-24T14:51:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.214.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:52:17Z
+last-modified:  2022-06-24T14:52:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.215.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:53:01Z
+last-modified:  2022-06-24T14:53:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.216.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:54:15Z
+last-modified:  2022-06-24T14:54:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.217.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:55:21Z
+last-modified:  2022-06-24T14:55:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.218.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:56:26Z
+last-modified:  2022-06-24T14:56:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.219.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:57:34Z
+last-modified:  2022-06-24T14:57:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.220.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:58:58Z
+last-modified:  2022-06-24T14:58:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.221.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T14:59:51Z
+last-modified:  2022-06-24T14:59:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.222.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T15:00:47Z
+last-modified:  2022-06-24T15:00:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.101.223.0/24
+descr:          DTS Systeme GmbH
+origin:         AS8879
+mnt-by:         ICSMEDIA-MNT
+mnt-by:         DTS-MNT
+created:        2022-06-24T15:02:04Z
+last-modified:  2022-06-24T15:02:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1348::/32
+descr:          DTS-Systeme GmbH
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2009-09-11T11:24:03Z
+last-modified:  2009-09-11T11:24:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:1348:11::/48
+descr:          DTS-Systeme GmbH
+origin:         AS8879
+notify:         hostmaster@dts-online.net
+mnt-by:         DTS-MNT
+created:        2019-08-27T08:24:28Z
+last-modified:  2019-08-27T08:24:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

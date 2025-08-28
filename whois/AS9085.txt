@@ -1,0 +1,257 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS9085'
+
+% Abuse contact for 'AS9085' is 'root@supermedia.pl'
+
+aut-num:        AS9085
+as-name:        SUPERMEDIA-AS
+remarks:        Warsaw, Poland
+org:            ORG-SM1-RIPE
+import:         from AS1299 action pref=80; accept ANY
+import:         from AS5617 accept ANY
+import:         from AS24115 action pref=90; accept AS-EQUINIX
+import:         from AS24748 action pref=90; accept AS-THINX
+export:         to AS1299 announce AS-SUPERMEDIA
+export:         to AS5617 announce AS-SUPERMEDIA
+export:         to AS24115 announce AS-SUPERMEDIA
+export:         to AS24748 announce AS-SUPERMEDIA
+default:        to AS1299 action pref=50; networks ANY
+admin-c:        SLIR1-RIPE
+tech-c:         SNOC100-RIPE
+remarks:
+remarks:        Community policy for AS9085
+remarks:        ============================
+remarks:
+remarks:        Communities settable by customers
+remarks:        --------------------------------------------------------------
+remarks:        9085:9110 do not announce to Telia Carrier (AS1299)
+remarks:        9085:9111 prepend 1x 9085 when announcing to Telia Carrier
+remarks:        9085:9115 prepend 5x 9085 when announcing to Telia Carrier
+remarks:
+remarks:        9085:9410 do not announce to Orange (AS5617)
+remarks:        9085:9411 prepend 1x 9085 when announcing to Orange
+remarks:        9085:9415 prepend 5x 9085 when announcing to Orange
+remarks:
+remarks:        9085:9810 do not announce to PWR THINX members
+remarks:        9085:9811 prepend 1x 9085 when announcing to PWR THINX members
+remarks:        9085:9815 prepend 5x 9085 when announcing to PWR THINX members
+remarks:
+remarks:        9085:9910 do not announce to PWR Equinix members
+remarks:        9085:9911 prepend 1x 9085 when announcing to PWR Equinix members
+remarks:        9085:9915 prepend 5x 9085 when announcing to PWR Equinix members
+remarks:
+remarks:
+remarks:        Communities marked on inbound routes (read only for customers)
+remarks:        --------------------------------------------------------------
+remarks:        9085:9100 Telia (AS1299)
+remarks:        9085:9400 Orange (AS5617)
+remarks:        9085:9800 PWR THINX (AS24748)
+remarks:        9085:9900 PWR Equinix (AS24115)
+remarks:
+remarks:        ========================================================
+remarks:        Applied Route Flap Damping Policy conformant to RIPE-210
+remarks:        http://www.ripe.net/docs/ripe-210.html
+remarks:        ========================================================
+remarks:
+remarks:
+remarks:
+status:         ASSIGNED
+mnt-by:         SUPERMEDIA
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-09-13T21:20:05Z
+last-modified:  2022-05-23T13:00:30Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SM1-RIPE
+org-name:       SUPERMEDIA Sp.z.o.o.
+country:        PL
+org-type:       LIR
+address:        Kamionkowska 45
+address:        03-812
+address:        Warszawa
+address:        POLAND
+phone:          +48228296573
+fax-no:         +48228296502
+admin-c:        SLIR1-RIPE
+abuse-c:        AR16452-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SUPERMEDIA
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SUPERMEDIA
+created:        2004-04-17T11:48:04Z
+last-modified:  2020-12-16T12:34:41Z
+source:         RIPE # Filtered
+
+role:           Supermedia LIR
+address:        ul.Senatorska 13/15
+address:        00-075 Warszawa
+address:        POLAND
+phone:          +48 228296504
+fax-no:         +48 228296502
+admin-c:        MB48314-RIPE
+admin-c:        MN188-RIPE
+admin-c:        TG1370-RIPE
+nic-hdl:        SLIR1-RIPE
+remarks:        abuse reports: abuse@supermedia.pl
+abuse-mailbox:  abuse@supermedia.pl
+mnt-by:         SUPERMEDIA
+created:        2002-02-28T13:43:07Z
+last-modified:  2024-12-05T11:10:51Z
+source:         RIPE # Filtered
+
+role:           Supermedia NOC
+address:        ul. Senatorska 13/15
+address:        00-075 Warszawa
+address:        Poland
+phone:          +48 228296550
+fax-no:         +48 228296502
+remarks:        abuse reports: abuse@supermedia.pl
+admin-c:        MN188-RIPE
+admin-c:        TG1370-RIPE
+admin-c:        MB48314-RIPE
+tech-c:         TG1370-RIPE
+tech-c:         MB48314-RIPE
+nic-hdl:        SNOC100-RIPE
+mnt-by:         SUPERMEDIA
+created:        2008-05-12T15:51:32Z
+last-modified:  2024-12-05T11:13:50Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@supermedia.pl
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          185.53.124.0/22
+descr:          SUPERMEDIA
+origin:         AS9085
+mnt-by:         SUPERMEDIA
+created:        2014-04-11T08:22:12Z
+last-modified:  2014-04-11T08:22:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.83.232.0/24
+origin:         AS9085
+mnt-by:         ADMIN-MNTNER
+mnt-by:         AJ-MNTNER
+created:        2017-02-24T13:23:59Z
+last-modified:  2017-02-24T13:23:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.42.211.0/24
+origin:         AS9085
+mnt-by:         SUPERMEDIA
+created:        2017-01-03T07:46:19Z
+last-modified:  2017-01-03T07:46:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.75.96.0/19
+descr:          SUPERMEDIA
+origin:         AS9085
+notify:         registry@supermedia.pl
+mnt-by:         SUPERMEDIA
+created:        1970-01-01T00:00:00Z
+last-modified:  2015-07-31T10:35:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.180.128.0/17
+descr:          SUPERMEDIA
+origin:         AS9085
+notify:         registry@supermedia.pl
+mnt-by:         SUPERMEDIA
+created:        1970-01-01T00:00:00Z
+last-modified:  2005-06-15T14:57:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:4c30::/32
+descr:          SUPERMEDIA
+origin:         AS9085
+mnt-by:         SUPERMEDIA
+created:        2005-06-15T13:15:30Z
+last-modified:  2005-06-15T13:15:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:6e60::/48
+origin:         AS9085
+mnt-by:         AJ-MNTNER
+mnt-by:         ADMIN-MNTNER
+created:        2021-05-10T14:45:08Z
+last-modified:  2024-05-13T15:11:29Z
+source:         RIPE
+mnt-routes:     TNXE-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

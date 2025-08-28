@@ -1,0 +1,141 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS9056'
+
+% Abuse contact for 'AS9056' is 'abuse@kiam.ru'
+
+aut-num:        AS9056
+as-name:        PSN-AS
+org:            ORG-KIoA1-RIPE
+descr:          Institute of Mathematical Problems of Biology -
+descr:          branch of Keldysh Institute of Applied Mathematics
+descr:          Russian Academy of Sciences
+descr:          Prof. Vitkevich Street, 1, Pushchino,
+descr:          Moscow Region, 142290, Russia
+import:         from AS25371 action pref=10; accept ANY and not fltr-bogons
+import:         from AS41783 action pref=1; accept AS41783 AS16083
+import:         from AS41783 action pref=50; accept ANY and not fltr-bogons
+export:         to AS25371 announce AS9056
+export:         to AS41783 announce AS9056
+default:        to AS25371 action pref=10; networks ANY
+default:        to AS41783 action pref=50; networks ANY
+mp-import:      afi ipv6.unicast from AS41783 action pref=1; accept AS41783
+mp-import:      afi ipv6.unicast from AS41783 action pref=1; accept AS16083
+mp-import:      afi ipv6.unicast from AS41783 action pref=50; accept ANY
+mp-export:      afi ipv6.unicast to AS41783 announce AS9056
+admin-c:        PSV83-RIPE
+tech-c:         AYZ3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         PSN-MNT
+created:        2002-06-06T19:18:51Z
+last-modified:  2024-09-26T15:02:55Z
+source:         RIPE # Filtered
+
+organisation:   ORG-KIoA1-RIPE
+org-name:       Keldysh Institute of Applied Mathematics, Russian Academy of Sciences
+country:        RU
+org-type:       LIR
+address:        Miusskaya sq. 4
+address:        125047
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +7 499 2207220
+phone:          +7 916 7073007
+fax-no:         +7 499 1582977
+abuse-c:        AR16742-RIPE
+admin-c:        VNK17-RIPE
+admin-c:        AII1-RIPE
+admin-c:        MK3196-RIPE
+admin-c:        VVD20-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MAI-MNT-RIPE
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MAI-MNT-RIPE
+created:        2004-04-17T11:54:03Z
+last-modified:  2023-11-20T12:48:23Z
+source:         RIPE # Filtered
+
+person:         Alexander Yu Zaitsev
+address:        Department of Computating and Information Resources
+address:        Institute of Mathematical Problems of Biology RAS
+address:        Pushchino, Moscow region, 142290
+address:        Russia
+phone:          +7 4967 318513
+fax-no:         +7 4967 318500
+nic-hdl:        AYZ3-RIPE
+remarks:        PGPKEY-41D28F62 is my public key
+mnt-by:         PSN-MNT
+created:        2001-10-08T19:54:20Z
+last-modified:  2010-12-16T13:54:44Z
+source:         RIPE # Filtered
+
+person:         Sergey Polyakov
+address:        4 Miusskaya square, 125047, Moscow, Russia
+phone:          +7(499)220-72-20
+nic-hdl:        PSV83-RIPE
+mnt-by:         KIAM-MNT-RIPE
+created:        2019-07-23T13:02:59Z
+last-modified:  2019-07-23T13:04:12Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          194.149.66.0/24
+descr:          IMPB RAS network
+origin:         AS9056
+org:            ORG-PSN3-RIPE
+notify:         hostmaster@psn.ru
+mnt-by:         PSN-MNT
+created:        2019-12-24T14:38:50Z
+last-modified:  2019-12-24T14:38:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:7c00:8001::/48
+descr:          IMPB RAS network
+origin:         AS9056
+pingable:       2a00:7c00:8001::1
+org:            ORG-PSN3-RIPE
+mnt-by:         PSN-MNT
+mnt-lower:      PSN-MNT
+mnt-routes:     PSN-MNT
+created:        2024-10-01T14:49:01Z
+last-modified:  2024-10-01T14:49:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

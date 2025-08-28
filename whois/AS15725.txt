@@ -1,0 +1,164 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15719 - AS15803'
+
+as-block:       AS15719 - AS15803
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2024-02-13T15:18:50Z
+last-modified:  2024-02-13T15:18:50Z
+source:         RIPE
+
+% Information related to 'AS15725'
+
+% Abuse contact for 'AS15725' is 'abuse@iks-jena.de'
+
+aut-num:        AS15725
+org:            ORG-IGJ1-RIPE
+as-name:        IKS
+mp-export:      afi any.unicast to AS8881 announce AS-IKS
+mp-export:      afi any.unicast to AS196714 announce AS-IKS
+mp-export:      afi any.unicast to AS199284 announce AS-IKS
+mp-export:      afi any.unicast to AS204052 announce ANY
+mp-export:      afi ipv4.unicast to AS49885 announce ANY
+mp-import:      afi any.unicast from AS8881 accept ANY
+mp-import:      afi any.unicast from AS196714 accept ANY
+mp-import:      afi any.unicast from AS199284 accept ANY
+mp-import:      afi any.unicast from AS204052 accept AS204052
+mp-import:      afi ipv4.unicast from AS49885 accept AS49885
+remarks:        BGP Community support definitions:
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remarks:        15725:10 do not announce to AS199284
+remarks:        15725:1x prepend (x) when announced to AS199284
+remarks:        15725:20 do not announce to AS196714
+remarks:        15725:2x prepend (x) when announced to AS196714
+remarks:        15725:40 do not announce to AS8881
+remarks:        15725:4x prepend (x) when announced to AS8881
+remarks:        15725:60 do not announce to AS49885
+remarks:        15725:6x prepend (x) when announced to AS49885
+admin-c:        KU189-RIPE
+tech-c:         IKS-RIPE
+status:         ASSIGNED
+mnt-by:         IKS-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-07-19T08:27:41Z
+last-modified:  2023-05-24T19:57:06Z
+source:         RIPE
+
+organisation:   ORG-IGJ1-RIPE
+org-name:       IKS Service GmbH
+country:        DE
+org-type:       LIR
+address:        Rudolstädter Straße 41
+address:        07745
+address:        Jena
+address:        GERMANY
+phone:          +493641573570
+fax-no:         +493641573575
+admin-c:        LD26
+admin-c:        JS42
+admin-c:        KU189-RIPE
+admin-c:        LL1991
+abuse-c:        IKS-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        IKS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         IKS-MNT
+created:        2004-04-17T11:08:19Z
+last-modified:  2022-02-09T15:08:50Z
+source:         RIPE # Filtered
+
+role:           IKS Service GmbH Contact Role
+address:        IKS Service GmbH
+address:        Rudolstaedter Str. 41
+address:        07745 Jena
+address:        Germany
+admin-c:        KU189-RIPE
+tech-c:         LD26
+tech-c:         JS42
+tech-c:         LL1991
+abuse-mailbox:  abuse@iks-jena.de
+nic-hdl:        IKS-RIPE
+mnt-by:         IKS-MNT
+created:        2008-07-04T14:05:14Z
+last-modified:  2023-05-24T20:05:33Z
+source:         RIPE # Filtered
+
+person:         Klaus Ulitzsch
+address:        IKS Service GmbH
+address:        Rudolstaedter Str. 41
+address:        07745 Jena
+address:        Germany
+phone:          +49 3641 573570
+fax-no:         +49 3641 573575
+nic-hdl:        KU189-RIPE
+mnt-by:         IKS-MNT
+created:        2012-06-28T12:52:55Z
+last-modified:  2023-05-24T20:08:52Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          185.98.236.0/22
+descr:          DE-IKS-JENA
+origin:         AS15725
+mnt-by:         IKS-MNT
+created:        2015-05-05T13:31:59Z
+last-modified:  2015-05-05T13:31:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.17.192.0/20
+descr:          DE-IKS-JENA
+origin:         AS15725
+mnt-by:         IKS-MNT
+pingable:       217.17.192.196
+ping-hdl:       DUMY-RIPE
+created:        2002-07-19T08:31:39Z
+last-modified:  2012-10-05T12:00:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:4bd8::/29
+descr:          DE-IKS-JENA
+origin:         AS15725
+mnt-by:         IKS-MNT
+pingable:       2001:4bd8::4000:0:0:196
+ping-hdl:       DUMY-RIPE
+created:        2015-04-24T13:11:43Z
+last-modified:  2015-04-24T13:11:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

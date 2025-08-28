@@ -1,0 +1,237 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6764'
+
+% Abuse contact for 'AS6764' is 'abuse@perftech.si'
+
+aut-num:        AS6764
+as-name:        PERFTECH-SLOVENIA-AS
+org:            ORG-PB4-RIPE
+descr:          PERFTECHSI-AS
+descr:          Slovenia
+remarks:        ------------
+remarks:        Upstream
+remarks:        ------------
+import:         from AS5435 action pref=100; accept ANY
+export:         to AS5435 announce AS-PERFTECH-SI
+mp-import:      afi ipv6.unicast from AS5435 accept ANY
+mp-export:      afi ipv6.unicast to AS5435 announce AS-PERFTECH-SI
+import:         from AS5603 action pref=50; accept ANY
+export:         to AS5603 announce AS-PERFTECH-SI
+mp-import:      afi ipv6.unicast from AS5603 accept ANY
+mp-export:      afi ipv6.unicast to AS5603 announce AS-PERFTECH-SI
+import:         from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-PERFTECH-SI
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-PERFTECH-SI
+remarks:        ------------
+remarks:        Peerings SIX IJS / 91.220.194.106 / 2001:7f8:46::6764
+remarks:        ------------
+import:         from AS51988 action pref=110; accept AS-SIX
+export:         to AS51988 announce AS-PERFTECH-SI
+mp-import:      afi ipv6.unicast from AS51988 accept AS-SIX6
+mp-export:      afi ipv6.unicast to AS51988 announce AS-PERFTECH-SI
+remarks:        ------------
+import:         from AS2107 action pref=100; accept AS2107
+import:         from AS5435 action pref=100; accept AS5435
+import:         from AS56695 action pref=100; accept AS56695
+export:         to AS2107 announce AS6764
+export:         to AS5435 announce AS6764
+export:         to AS56695 announce AS56695
+remarks:        ------------
+admin-c:        HD3508-RIPE
+admin-c:        VP492-RIPE
+tech-c:         VP492-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         PERFTECH-MNT
+created:        2002-08-07T15:02:22Z
+last-modified:  2019-11-13T14:32:27Z
+source:         RIPE
+
+organisation:   ORG-PB4-RIPE
+org-name:       PERFTECH, podjetje za proizvodnjo in uvajanje novih tehnologij, d.o.o.
+country:        SI
+org-type:       LIR
+address:        Dunajska cesta 110
+address:        1000
+address:        Ljubljana
+address:        SLOVENIA
+phone:          +386 1 588 4400
+phone:          +386 1 588 4416
+fax-no:         +386 1 588 4420
+abuse-c:        AR17263-RIPE
+admin-c:        VP492-RIPE
+mnt-ref:        PERFTECH-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PERFTECH-MNT
+created:        2004-04-17T12:05:47Z
+last-modified:  2023-12-13T10:52:37Z
+source:         RIPE # Filtered
+
+person:         Herman Debelak
+address:        Jadranska 21
+address:        SI-1000 Ljubljana
+address:        Slovenija
+phone:          +386 1 588 44 00
+fax-no:         +386 1 588 44 20
+nic-hdl:        HD3508-RIPE
+mnt-by:         PERFTECH-MNT
+created:        2017-10-24T06:40:19Z
+last-modified:  2018-03-07T08:59:51Z
+source:         RIPE # Filtered
+
+person:         Vinko Plavc
+address:        Perftech d.o.o, Ljubljana
+address:        Jadranska 21
+address:        SI-1000 Ljubljana
+address:        Slovenija
+phone:          +386 1 588 44 00
+fax-no:         +386 1 588 44 20
+nic-hdl:        VP492-RIPE
+mnt-by:         PERFTECH-MNT
+created:        2002-11-19T12:19:17Z
+last-modified:  2018-03-07T10:20:55Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          193.28.14.0/24
+descr:          PERFTECH
+origin:         AS6764
+notify:         noc@perftech.si
+mnt-by:         PERFTECH-MNT
+created:        2020-08-06T06:42:48Z
+last-modified:  2020-08-06T07:03:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.28.43.0/24
+descr:          PERFTECH
+origin:         AS6764
+notify:         noc@perftech.si
+mnt-by:         PERFTECH-MNT
+created:        2020-08-06T06:45:20Z
+last-modified:  2020-08-06T07:04:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.28.51.0/24
+descr:          PERFTECH
+origin:         AS6764
+notify:         noc@perftech.si
+mnt-by:         PERFTECH-MNT
+created:        2020-08-06T06:46:14Z
+last-modified:  2020-08-06T07:05:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.28.54.0/24
+descr:          PERFTECH
+origin:         AS6764
+notify:         noc@perftech.si
+mnt-by:         PERFTECH-MNT
+created:        2020-08-06T06:47:04Z
+last-modified:  2020-08-06T07:02:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.246.0.0/19
+descr:          PERFTECH IP SPACE
+origin:         AS6764
+notify:         noc@perftech.si
+mnt-by:         PERFTECH-MNT
+created:        2002-01-17T12:49:04Z
+last-modified:  2020-08-06T07:13:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.118.64.0/19
+descr:          PERFTECH
+origin:         AS6764
+notify:         noc@perftech.si
+mnt-by:         PERFTECH-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2020-08-06T07:15:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a0f:7840::/29
+origin:         AS6764
+mnt-by:         PERFTECH-MNT
+created:        2019-11-13T13:28:02Z
+last-modified:  2019-11-13T13:29:32Z
+source:         RIPE
+descr:          PERFTECHSI-AS
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

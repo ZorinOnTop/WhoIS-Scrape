@@ -1,0 +1,129 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8832'
+
+% Abuse contact for 'AS8832' is 'info@netvoice.cc'
+
+aut-num:        AS8832
+as-name:        netvoice
+org:            ORG-ndsO1-RIPE
+remarks:        ========================================================
+remarks:        Upstream hotze.com
+import:         from AS8596 action pref=100; accept ANY
+export:         to AS8596 announce AS-NETVOICE
+mp-import:      afi ipv6.unicast from AS8596 accept ANY
+mp-export:      afi ipv6.unicast to AS8596 announce AS-NETVOICE-V6
+remarks:        --------------------------------------------------------
+remarks:        Upstream MyNet Internet Solution
+import:         from AS31543 action pref=100; accept ANY
+export:         to AS31543 announce AS-NETVOICE
+mp-import:      afi ipv6.unicast from AS31543 accept ANY
+mp-export:      afi ipv6.unicast to AS31543 announce AS-NETVOICE-V6
+remarks:        --------------------------------------------------------
+remarks:        Peering nemox.net
+import:         from AS31394 action pref=250; accept AS-NEMOX-NET
+export:         to AS31394 announce AS-NETVOICE
+mp-import:      afi ipv6.unicast from AS31394 accept AS-NEMOX-NET-IPV6
+mp-export:      afi ipv6.unicast to AS31394 announce AS-NETVOICE-V6
+remarks:        --------------------------------------------------------
+remarks:        Peering IKB
+import:         from AS31510 action pref=250; accept AS31510
+export:         to AS31510 announce AS-NETVOICE
+remarks:        ========================================================
+admin-c:        CH194-RIPE
+admin-c:        JM465-RIPE
+tech-c:         CH194-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NETVOICE-MNT
+created:        2009-10-15T12:49:36Z
+last-modified:  2023-10-12T13:25:04Z
+source:         RIPE # Filtered
+
+organisation:   ORG-ndsO1-RIPE
+org-name:       netvoice data security GmbH
+country:        AT
+org-type:       LIR
+address:        Andechsstraße 17
+address:        6020
+address:        Innsbruck
+address:        AUSTRIA
+phone:          +4350133
+fax-no:         +4350133910
+abuse-c:        AR14098-RIPE
+admin-c:        JM465-RIPE
+admin-c:        CH194-RIPE
+mnt-ref:        NETVOICE-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NETVOICE-MNT
+created:        2009-10-09T10:47:22Z
+last-modified:  2022-03-28T14:39:36Z
+source:         RIPE # Filtered
+
+person:         Clemens HERBERT
+address:        netvoice data security OG
+address:        Kajetan-Sweth-Strasse 1
+address:        A-6020 Innsbruck
+address:        Austria
+phone:          +43 50 133
+fax-no:         +43 50 133 910
+nic-hdl:        CH194-RIPE
+mnt-by:         NETVOICE-MNT
+created:        2009-09-24T14:41:05Z
+last-modified:  2017-10-30T22:06:37Z
+source:         RIPE # Filtered
+
+person:         Julia Mahler
+address:        netvoice data security OG
+address:        Kajetan-Sweth-Strasse 1
+address:        A-6020 Innsbruck
+address:        Austria
+phone:          +43 50 133
+fax-no:         +43 50 133 910
+nic-hdl:        JM465-RIPE
+mnt-by:         NETVOICE-MNT
+created:        2009-09-24T14:42:17Z
+last-modified:  2009-09-24T15:00:59Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route6:         2a00:1498::/32
+descr:          Provider Local Registry Block
+descr:          netvoice data security GmbH
+origin:         AS8832
+notify:         ripe@netvoice.cc
+mnt-by:         NETVOICE-MNT
+created:        2009-10-15T12:52:52Z
+last-modified:  2023-10-12T13:25:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

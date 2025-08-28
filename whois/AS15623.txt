@@ -1,0 +1,1309 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15623'
+
+% Abuse contact for 'AS15623' is 'abuse@cyberlink.ch'
+
+aut-num:        AS15623
+org:            ORG-CISA1-RIPE
+as-name:        CYBERLINK
+descr:          Cyberlink AG
+descr:          Bellerivestrasse 241
+descr:          8008 Zurich, Switzerland
+remarks:        ===================================================
+remarks:        Communities
+remarks:        ===================================================
+remarks:        INBOUND
+remarks:        =======
+remarks:        Transit:
+remarks:        15623:1000 route learned from any of the following Transit
+remarks:        15623:1002 route learned from Cogent @ InterXion, AS174
+remarks:        15623:1012 route learned from Lumen @ Equinix, AS3356
+remarks:        15623:1014 route learned from Swisscom @ Equinix, AS3303
+remarks:        15623:1015 route learned from Sunrise @ InterXion, AS6730
+remarks:        15623:1016 route learned from Arelion @ InterXion, AS1299
+remarks:        Public Peering:
+remarks:        15623:2000 route learned from any of the following Public Peering
+remarks:        (Switzerland)
+remarks:        15623:2001 route learned at Equinix Internet Exchange
+remarks:        15623:2002 route learned at SwissIX @ Equinix
+remarks:        15623:2003 route learned at SwissIX @ InterXion
+remarks:        (Global)
+remarks:        15623:2091 route learned from IXReach (Transit to multiple IX worldwide)
+remarks:        Private Peering:
+remarks:        15623:2100 route learned from any of the following Private Peering
+remarks:        15623:2105 route learned from Init7 @ InterXion, AS13030
+remarks:        OUTBOUND
+remarks:        ========
+remarks:        always use this format to mark your prefix with one of our community
+remarks:        15623:XXXXD
+remarks:        XXXX stands for the upstream in the table above
+remarks:        D stands for one of the below appended digits [0-3]
+remarks:        append one of the following digits to influence how we announce your
+remarks:        prefix to the outside world
+remarks:        0 -> do not announce to upstream
+remarks:        1 -> make AS_PATH +1 longer
+remarks:        2 -> make AS_PATH +2 longer
+remarks:        3 -> make AS_PATH +3 longer
+remarks:        Examples: 15623:XXXXD
+remarks:        a) add community 15623:20000 will prohibit that we announce it to
+remarks:        any of our Public Peerings
+remarks:        b) add community 15623:10153 will make the AS_PATH +3 longer when we
+remarks:        announce it to SUNRISE
+remarks:        Special: Blackhole Community
+remarks:        Blackhole will drop the traffic in our core, useful if you are DDoS attacked
+remarks:        To blackhole a prefix on our border routers, add the community 15623:666
+remarks:        If possible, please advertise a blackhole route as /32 or /128
+remarks:        ===================================================
+remarks:        Looking Glass
+remarks:        ===================================================
+remarks:        Our looking glass is available under http://lg.cyberlink.ch
+remarks:        ===================================================
+remarks:        Imports
+remarks:        ===================================================
+remarks:        ---------------------------------------------------
+remarks:        Transit
+mp-import:      afi ipv4.unicast from AS174 accept ANY
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-import:      afi ipv4.unicast from AS3303 accept ANY
+mp-import:      afi ipv6.unicast from AS3303 accept ANY
+mp-import:      afi ipv4.unicast from AS1299 accept ANY
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-import:      afi ipv4.unicast from AS6730 accept ANY
+mp-import:      afi ipv6.unicast from AS6730 accept ANY
+mp-import:      afi ipv4.unicast from AS3356 accept ANY
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-import:      afi ipv4.unicast from AS4455 accept ANY
+mp-import:      afi ipv6.unicast from AS4455 accept ANY
+remarks:        ---------------------------------------------------
+remarks:        Customers
+mp-import:      afi ipv4.unicast from AS16111 accept AS16111
+mp-import:      afi ipv4.unicast from AS30935 accept AS30935
+mp-import:      afi ipv4.unicast from AS31051 accept AS31051
+mp-import:      afi ipv4.unicast from AS34960 accept AS34960
+mp-import:      afi ipv4.unicast from AS35712 accept AS35712
+mp-import:      afi ipv6.unicast from AS35712 accept AS35712
+mp-import:      afi ipv4.unicast from AS39037 accept AS39037
+mp-import:      afi ipv4.unicast from AS39865 accept AS39865
+mp-import:      afi ipv4.unicast from AS39895 accept AS39895
+mp-import:      afi ipv4.unicast from AS41590 accept AS41590
+mp-import:      afi ipv4.unicast from AS42085 accept AS42085
+mp-import:      afi ipv4.unicast from AS42978 accept AS42978
+mp-import:      afi ipv6.unicast from AS42978 accept AS42978
+mp-import:      afi ipv4.unicast from AS43107 accept AS43107
+mp-import:      afi ipv4.unicast from AS43183 accept AS-SWISSSIGN
+mp-import:      afi ipv4.unicast from AS43291 accept AS43291
+mp-import:      afi ipv6.unicast from AS43291 accept AS43291
+mp-import:      afi ipv4.unicast from AS43393 accept AS43393
+mp-import:      afi ipv4.unicast from AS48795 accept AS48795
+mp-import:      afi ipv4.unicast from AS51786 accept AS-VELDER
+mp-import:      afi ipv6.unicast from AS51786 accept AS-VELDER
+mp-import:      afi ipv4.unicast from AS50805 accept AS50805
+mp-import:      afi ipv4.unicast from AS58299 accept AS58299
+mp-import:      afi ipv6.unicast from AS58299 accept AS58299
+mp-import:      afi ipv4.unicast from AS60221 accept AS60221
+mp-import:      afi ipv4.unicast from AS61232 accept AS61232
+mp-import:      afi ipv6.unicast from AS61232 accept AS61232
+mp-import:      afi ipv4.unicast from AS198165 accept AS198165
+mp-import:      afi ipv4.unicast from AS198635 accept AS198635
+mp-import:      afi ipv4.unicast from AS201228 accept AS201228
+mp-import:      afi ipv4.unicast from AS206779 accept AS206779
+mp-import:      afi ipv4.unicast from AS206214 accept AS206214
+mp-import:      afi ipv4.unicast from AS208065 accept AS208065
+mp-import:      afi ipv4.unicast from AS211861 accept AS211861
+remarks:        afi ipv4.unicast from AS216381 accept AS216381
+remarks:        ---------------------------------------------------
+remarks:        Peers
+mp-import:      afi ipv4.unicast from AS13030 accept AS-INIT7
+mp-import:      afi ipv6.unicast from AS13030 accept AS-INIT7
+remarks:        ---------------------------------------------------
+remarks:        EQUINIX (SWISS)
+mp-import:      afi ipv4.unicast from AS8271 accept AS-PIPELINE
+mp-import:      afi ipv4.unicast from AS20634 accept AS-LIECOMTEL
+mp-import:      afi ipv4.unicast from AS559 accept AS-SWITCH
+mp-import:      afi ipv4.unicast from AS9044 accept AS-SOLNET
+mp-import:      afi ipv4.unicast from AS6776 accept AS6776
+mp-import:      afi ipv4.unicast from AS30781 accept AS-JAGUAR
+mp-import:      afi ipv4.unicast from AS61337 accept AS-GXT
+mp-import:      afi ipv4.unicast from AS16276 accept AS-OVH
+mp-import:      afi ipv4.unicast from AS6772 accept AS-IMPNET
+mp-import:      afi ipv4.unicast from AS6830 accept AS-AORTACH
+mp-import:      afi ipv4.unicast from AS15600 accept AS-FINECOM
+mp-import:      afi ipv4.unicast from AS15169 accept AS-GOOGLE
+mp-import:      afi ipv4.unicast from AS9092 accept AS-OPENSYSTEMS
+mp-import:      afi ipv4.unicast from AS24951 accept AS-EveryWare
+mp-import:      afi ipv4.unicast from AS1836 accept AS-GREEN
+mp-import:      afi ipv4.unicast from AS8928 accept AS-INTEROUTE
+mp-import:      afi ipv4.unicast from AS33845 accept AS-SWISSGOV
+mp-import:      afi ipv4.unicast from AS12333 accept AS-DFI
+mp-import:      afi ipv4.unicast from AS34781 accept AS-SIMA-LAUSANNE
+mp-import:      afi ipv4.unicast from AS21069 accept AS-META
+mp-import:      afi ipv4.unicast from AS24115 accept ANY AND NOT fltr-bogons
+mp-import:      afi ipv4.unicast from AS24115 accept ANY AND NOT fltr-bogons
+mp-import:      afi ipv6.unicast from AS559 accept AS-SWITCH
+mp-import:      afi ipv6.unicast from AS9044 accept AS-SOLNET
+mp-import:      afi ipv6.unicast from AS30781 accept AS-JAGUAR
+mp-import:      afi ipv6.unicast from AS61337 accept AS-GXT
+mp-import:      afi ipv6.unicast from AS1836 accept AS-GREEN
+mp-import:      afi ipv6.unicast from AS20932 accept AS-IP-MAN
+mp-import:      afi ipv6.unicast from AS21069 accept AS-META
+mp-import:      afi ipv6.unicast from AS24115 accept ANY
+mp-import:      afi ipv6.unicast from AS24115 accept ANY
+remarks:        ---------------------------------------------------
+remarks:        SWISSIX
+mp-import:      afi ipv4.unicast from AS8758 accept AS-DOLPHINS
+mp-import:      afi ipv4.unicast from AS29097 accept AS29097
+mp-import:      afi ipv4.unicast from AS42473 accept AS-ANEXIA
+mp-import:      afi ipv4.unicast from AS20634 accept AS-LIECOMTEL
+mp-import:      afi ipv4.unicast from AS29691 accept AS-NINE
+mp-import:      afi ipv4.unicast from AS21069 accept AS-META
+mp-import:      afi ipv4.unicast from AS9044 accept AS-SOLNET
+mp-import:      afi ipv4.unicast from AS31424 accept AS-NEXELLENT ANY AS-NEXELLENT-CUST
+mp-import:      afi ipv4.unicast from AS6772 accept AS6772
+mp-import:      afi ipv4.unicast from AS15600 accept AS-LAN
+mp-import:      afi ipv4.unicast from AS15576 accept AS-NTS
+mp-import:      afi ipv4.unicast from AS31736 accept AS-SENSELAN
+mp-import:      afi ipv4.unicast from AS29655 accept AS-TRENKA
+mp-import:      afi ipv4.unicast from AS24951 accept AS-EveryWare
+mp-import:      afi ipv4.unicast from AS21232 accept AS-GGAMAUR
+mp-import:      afi ipv4.unicast from AS24889 accept AS-MONZOON
+mp-import:      afi ipv4.unicast from AS6776 accept AS6776
+mp-import:      afi ipv4.unicast from AS15479 accept AS15479
+mp-import:      afi ipv4.unicast from AS16242 accept AS-MHS
+mp-import:      afi ipv4.unicast from AS33845 accept AS-SWISSGOV
+mp-import:      afi ipv4.unicast from AS559 accept AS-SWITCH
+mp-import:      afi ipv4.unicast from AS34554 accept AS-ANTANET
+mp-import:      afi ipv4.unicast from AS20940 accept AS-AKAMAI
+mp-import:      afi ipv4.unicast from AS31662 accept AS-KNSURSELVA
+mp-import:      afi ipv4.unicast from AS20893 accept AS20893
+mp-import:      afi ipv4.unicast from AS34288 accept AS-KSZ
+mp-import:      afi ipv4.unicast from AS12350 accept AS-VTX
+mp-import:      afi ipv4.unicast from AS41913 accept AS-COMPUTERLINE
+mp-import:      afi ipv4.unicast from AS1836 accept AS-GREEN
+mp-import:      afi ipv4.unicast from AS25563 accept AS-WEBLAND
+mp-import:      afi ipv4.unicast from AS8821 accept AS-TELEZUG
+mp-import:      afi ipv4.unicast from AS15517 accept AS-NETSTREAM-CH
+mp-import:      afi ipv4.unicast from AS43284 accept AS-IWB
+mp-import:      afi ipv4.unicast from AS33965 accept AS-LITECOM
+mp-import:      afi ipv4.unicast from AS8075 accept AS8075
+mp-import:      afi ipv4.unicast from AS15716 accept AS-SYGROUP
+mp-import:      afi ipv4.unicast from AS49489 accept AS49489
+mp-import:      afi ipv4.unicast from AS6939 accept AS6939
+mp-import:      afi ipv4.unicast from AS25375 accept AS25375
+mp-import:      afi ipv4.unicast from AS42476 accept ANY
+mp-import:      afi ipv4.unicast from AS16509 accept AS-AMAZON
+mp-import:      afi ipv4.unicast from AS13250 accept AS13250
+mp-import:      afi ipv4.unicast from AS3856 accept AS-PCH
+mp-import:      afi ipv4.unicast from AS8247 accept AS8247
+mp-import:      afi ipv4.unicast from AS60804 accept AS60804
+mp-import:      afi ipv4.unicast from AS26415 accept AS-GTLD
+mp-import:      afi ipv4.unicast from AS42 accept AS-PCH
+mp-import:      afi ipv4.unicast from AS15169 accept AS-GOOGLE
+mp-import:      afi ipv4.unicast from AS57118 accept AS-COMRACK
+mp-import:      afi ipv4.unicast from AS34781 accept AS-SIL-CITYCABLE
+mp-import:      afi ipv4.unicast from AS8220 accept AS-COLT
+mp-import:      afi ipv4.unicast from AS13335 accept AS-CLOUDFLARE
+mp-import:      afi ipv4.unicast from AS61287 accept AS-WLP
+mp-import:      afi ipv4.unicast from AS35223 accept AS35223
+mp-import:      afi ipv4.unicast from AS21069 accept AS-META
+mp-import:      afi ipv4.unicast from AS48971 accept AS-DATAWIRE
+mp-import:      afi ipv6.unicast from AS8758 accept AS-DOLPHINS
+mp-import:      afi ipv6.unicast from AS29097 accept AS29097
+mp-import:      afi ipv6.unicast from AS42473 accept AS-ANEXIA
+mp-import:      afi ipv6.unicast from AS29691 accept AS-NINE
+mp-import:      afi ipv6.unicast from AS9044 accept AS-SOLNET
+mp-import:      afi ipv6.unicast from AS31424 accept AS-NEXELLENT AND AS-NEXELLENT-CUST
+mp-import:      afi ipv6.unicast from AS15576 accept AS-NTS
+mp-import:      afi ipv6.unicast from AS31736 accept AS-SENSELAN
+mp-import:      afi ipv6.unicast from AS21232 accept AS-GGAMAUR
+mp-import:      afi ipv6.unicast from AS12620 accept AS-TICINOCOM
+mp-import:      afi ipv6.unicast from AS15479 accept AS15479
+mp-import:      afi ipv6.unicast from AS6775 accept AS-GLOBALNETWORKS
+mp-import:      afi ipv6.unicast from AS33845 accept AS-SWISSGOV
+mp-import:      afi ipv6.unicast from AS31424 accept AS-NEXELLENT AND AS-NEXELLENT-CUST
+mp-import:      afi ipv6.unicast from AS559 accept AS-SWITCH
+mp-import:      afi ipv6.unicast from AS34288 accept AS-KSZ
+mp-import:      afi ipv6.unicast from AS20932 accept AS-IP-MAN-V6
+mp-import:      afi ipv6.unicast from AS41913 accept AS-COMPUTERLINE
+mp-import:      afi ipv6.unicast from AS1836 accept AS-GREEN
+mp-import:      afi ipv6.unicast from AS21232 accept AS-GGAMAUR
+mp-import:      afi ipv6.unicast from AS43284 accept AS-IWB
+mp-import:      afi ipv6.unicast from AS41692 accept AS-OPENCARRIER
+mp-import:      afi ipv6.unicast from AS12347 accept AS-VIRTUALTEC
+mp-import:      afi ipv6.unicast from AS8075 accept AS8075
+mp-import:      afi ipv6.unicast from AS15716 accept AS-SYGROUP
+mp-import:      afi ipv6.unicast from AS44919 accept AS-ATRILA
+mp-import:      afi ipv6.unicast from AS6939 accept AS6939
+mp-import:      afi ipv6.unicast from AS25375 accept AS25375
+mp-import:      afi ipv6.unicast from AS29169 accept AS-GANDI
+mp-import:      afi ipv6.unicast from AS42476 accept ANY
+mp-import:      afi ipv6.unicast from AS16509 accept AS-AMAZON
+mp-import:      afi ipv6.unicast from AS35223 accept AS35223
+mp-import:      afi ipv6.unicast from AS21069 accept AS-META
+mp-import:      afi ipv6.unicast from AS48971 accept AS-DATAWIRE
+remarks:        ===================================================
+remarks:        Exports
+remarks:        ===================================================
+remarks:        ---------------------------------------------------
+remarks:        Transit
+mp-export:      afi ipv4.unicast to AS174 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS174 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS3303 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS3303 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS1299 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS1299 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS6730 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS6730 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS3356 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS3356 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS4455 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS4455 announce AS-CYBERLINK
+remarks:        ---------------------------------------------------
+remarks:        Customers
+mp-export:      afi ipv4.unicast to AS16111 announce ANY
+mp-export:      afi ipv4.unicast to AS30935 announce ANY
+mp-export:      afi ipv4.unicast to AS31051 announce ANY
+mp-export:      afi ipv4.unicast to AS34960 announce ANY
+mp-export:      afi ipv4.unicast to AS35712 announce ANY
+mp-export:      afi ipv6.unicast to AS35712 announce ANY
+mp-export:      afi ipv4.unicast to AS39037 announce ANY
+mp-export:      afi ipv4.unicast to AS39865 announce ANY
+mp-export:      afi ipv4.unicast to AS39895 announce ANY
+mp-export:      afi ipv4.unicast to AS41590 announce ANY
+mp-export:      afi ipv4.unicast to AS42085 announce ANY
+mp-export:      afi ipv4.unicast to AS42978 announce ANY
+mp-export:      afi ipv6.unicast to AS42978 announce ANY
+mp-export:      afi ipv4.unicast to AS43107 announce ANY
+mp-export:      afi ipv4.unicast to AS43183 announce ANY
+mp-export:      afi ipv4.unicast to AS43291 announce ANY
+mp-export:      afi ipv6.unicast to AS43291 announce ANY
+mp-export:      afi ipv4.unicast to AS43393 announce ANY
+mp-export:      afi ipv4.unicast to AS48795 announce ANY
+mp-export:      afi ipv4.unicast to AS58299 announce ANY
+mp-export:      afi ipv6.unicast to AS58299 announce ANY
+mp-export:      afi ipv4.unicast to AS60221 announce ANY
+mp-export:      afi ipv4.unicast to AS61232 announce ANY
+mp-export:      afi ipv6.unicast to AS61232 announce ANY
+mp-export:      afi ipv4.unicast to AS198165 announce ANY
+mp-export:      afi ipv4.unicast to AS198635 announce ANY
+mp-export:      afi ipv4.unicast to AS201228 announce ANY
+mp-export:      afi ipv4.unicast to AS206779 announce ANY
+mp-export:      afi ipv4.unicast to AS206214 announce ANY
+mp-export:      afi ipv4.unicast to AS208065 announce ANY
+mp-export:      afi ipv4.unicast to AS211861 announce ANY
+remarks:        afi ipv4.unicast to AS216381 announce ANY
+remarks:        ---------------------------------------------------
+remarks:        Peers
+mp-export:      afi ipv4.unicast to AS6730 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS6730 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS13030 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS13030 announce AS-CYBERLINK
+remarks:        ---------------------------------------------------
+remarks:        EQUINIX (SWISS)
+mp-export:      afi ipv4.unicast to AS8271 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS20634 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS559 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS9044 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS6776 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS30781 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS61337 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS16276 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS6772 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS6830 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS15600 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS15169 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS9092 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS24951 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS1836 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS8928 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS33845 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS12333 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS34781 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS24115 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS21069 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS559 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS9044 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS30781 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS61337 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS1836 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS20932 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS24115 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS21069 announce AS-CYBERLINK
+remarks:        ---------------------------------------------------
+remarks:        SWISSIX
+mp-export:      afi ipv4.unicast to AS8758 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS29097 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS42473 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS20634 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS29691 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS21069 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS9044 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS31424 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS6772 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS15600 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS15576 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS31736 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS29655 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS24951 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS21232 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS24889 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS6776 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS15479 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS16242 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS33845 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS559 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS34554 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS20940 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS31662 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS20893 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS34288 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS12350 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS41913 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS1836 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS25563 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS8821 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS15517 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS43284 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS33965 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS8075 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS15716 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS49489 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS6939 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS25375 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS42476 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS16509 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS13250 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS3856 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS8247 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS60804 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS26415 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS42 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS15169 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS57118 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS34781 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS8220 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS13335 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS61287 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS35223 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS21069 announce AS-CYBERLINK
+mp-export:      afi ipv4.unicast to AS48971 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS8758 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS29097 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS42473 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS8758 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS29691 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS9044 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS31424 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS15576 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS31736 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS21232 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS12620 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS15479 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS6775 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS33845 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS31424 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS559 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS34288 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS20932 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS41913 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS1836 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS21232 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS43284 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS41692 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS12347 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS8075 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS15716 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS44919 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS6939 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS25375 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS29169 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS42476 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS16509 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS35223 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS21069 announce AS-CYBERLINK
+mp-export:      afi ipv6.unicast to AS48971 announce AS-CYBERLINK
+admin-c:        CA602-RIPE
+tech-c:         CA602-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ---------------------------------------------------
+remarks:        Where we peer: http://as15623.peeringdb.com
+remarks:        Please send requests to peering@cyberlink.ch
+remarks:        ---------------------------------------------------
+remarks:        In case of troubles or abuse please write to
+remarks:        abuse@cyberlink.ch or admin@cyberlink.ch
+remarks:        ---------------------------------------------------
+mnt-by:         CYBERLINK-MNT
+created:        2002-09-19T20:41:32Z
+last-modified:  2025-07-09T07:17:01Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CISA1-RIPE
+org-name:       Cyberlink AG
+country:        CH
+org-type:       LIR
+address:        Bellerivestrasse 241
+address:        CH-8008
+address:        Zurich
+address:        SWITZERLAND
+phone:          +41442872992
+fax-no:         +41442872991
+admin-c:        BT3-RIPE
+mnt-ref:        CYBERLINK-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         CYBERLINK-MNT
+tech-c:         CYBL-CH
+abuse-c:        CYBL-CH
+created:        2004-04-17T11:02:06Z
+last-modified:  2020-12-16T13:30:04Z
+source:         RIPE # Filtered
+
+role:           Cyberlink Admin
+address:        Cyberlink AG
+address:        Bellerivestrasse 241
+address:        8008 Zurich
+address:        Switzerland
+phone:          +41 44 287 2993
+fax-no:         +41 44 287 2991
+admin-c:        JUKE-RIPE
+admin-c:        MASC2-RIPE
+tech-c:         JUKE-RIPE
+tech-c:         MASC2-RIPE
+nic-hdl:        CA602-RIPE
+mnt-by:         CYBERLINK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-10-31T07:39:55Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          5.255.56.0/24
+origin:         AS15623
+mnt-by:         Bijelic
+mnt-by:         TELCOPACK-MNT
+created:        2021-08-19T17:30:23Z
+last-modified:  2021-08-19T17:30:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          45.83.68.0/22
+origin:         AS15623
+mnt-by:         ch-seabix-1-mnt
+created:        2019-05-27T14:46:43Z
+last-modified:  2019-05-27T14:46:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          45.83.68.0/23
+origin:         AS15623
+mnt-by:         ch-seabix-1-mnt
+created:        2025-01-17T15:28:24Z
+last-modified:  2025-01-17T15:28:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          45.94.88.0/22
+origin:         AS15623
+mnt-by:         BACKBONE-CH-MNT
+created:        2019-07-18T06:50:23Z
+last-modified:  2019-07-18T06:50:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.12.128.0/17
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.249.44.0/23
+origin:         AS15623
+mnt-by:         Bijelic
+mnt-by:         TELCOPACK-MNT
+created:        2023-06-16T06:35:27Z
+last-modified:  2023-06-16T06:35:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          167.160.26.0/24
+origin:         AS15623
+mnt-by:         Bijelic
+mnt-by:         TELCOPACK-MNT
+created:        2021-06-10T13:24:38Z
+last-modified:  2021-06-10T13:24:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.69.92.0/24
+descr:          DropNet AG
+origin:         AS15623
+mnt-by:         DROPNET
+created:        2015-01-26T09:51:36Z
+last-modified:  2015-09-18T09:05:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.71.12.0/22
+descr:          Telco Pack SARL
+origin:         AS15623
+mnt-by:         Bijelic
+created:        2014-09-25T14:35:34Z
+last-modified:  2014-09-25T14:35:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.117.15.0/24
+descr:          Junya Keller
+origin:         AS15623
+mnt-by:         JUNK-MNT
+mnt-by:         CYBERLINK-MNT
+created:        2018-08-21T07:00:45Z
+last-modified:  2018-08-21T07:00:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.129.52.0/23
+descr:          Telco Pack SA
+origin:         AS15623
+mnt-by:         Bijelic
+mnt-by:         TELCOPACK-MNT
+created:        2019-03-25T23:01:37Z
+last-modified:  2019-03-25T23:02:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.129.54.0/23
+descr:          Telco Pack SA
+origin:         AS15623
+mnt-by:         Bijelic
+mnt-by:         TELCOPACK-MNT
+created:        2019-03-25T23:03:42Z
+last-modified:  2019-03-25T23:03:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.145.148.0/22
+origin:         AS15623
+mnt-by:         ch-netsolution-2-mnt
+mnt-by:         ch-netsolution-1-mnt
+created:        2016-07-11T13:10:46Z
+last-modified:  2016-07-11T13:10:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.157.0.0/23
+origin:         AS15623
+mnt-by:         ch-umb-1-mnt
+created:        2018-05-08T05:21:23Z
+last-modified:  2018-05-08T05:21:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.187.228.0/22
+origin:         AS15623
+mnt-by:         ch-infortix-1-mnt
+created:        2017-02-07T17:18:10Z
+last-modified:  2017-02-07T17:18:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.230.20.0/22
+origin:         AS15623
+mnt-by:         ch-swissnet-1-mnt
+created:        2017-11-09T15:43:37Z
+last-modified:  2017-11-09T15:43:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.230.23.0/24
+origin:         AS15623
+mnt-by:         ch-swissnet-1-mnt
+created:        2020-07-29T09:37:04Z
+last-modified:  2020-07-29T09:37:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.241.84.0/24
+origin:         AS15623
+mnt-by:         ch-1swiss1-1-mnt
+created:        2018-04-17T16:25:42Z
+last-modified:  2018-04-17T16:25:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.241.85.0/24
+origin:         AS15623
+mnt-by:         ch-1swiss1-1-mnt
+created:        2018-04-17T16:26:22Z
+last-modified:  2018-04-17T16:26:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.242.200.0/22
+origin:         AS15623
+mnt-by:         ch-seabix-1-mnt
+created:        2018-03-08T09:07:39Z
+last-modified:  2018-03-08T09:07:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.242.200.0/23
+origin:         AS15623
+mnt-by:         ch-seabix-1-mnt
+created:        2025-01-17T15:29:27Z
+last-modified:  2025-01-17T15:29:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.5.123.0/24
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        2019-03-04T08:13:23Z
+last-modified:  2019-03-04T08:13:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.8.235.0/24
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.42.146.0/24
+descr:          CKU AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        2008-11-17T09:48:16Z
+last-modified:  2008-11-17T09:48:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.223.240.0/21
+descr:          Cyberlink AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        2005-03-14T11:36:33Z
+last-modified:  2023-05-22T12:13:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.246.253.0/24
+descr:          Cyberlink AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-04-13T08:20:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.247.72.0/24
+descr:          Cyberlink AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-05-22T12:13:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.247.205.0/24
+descr:          Cyberlink AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2023-05-22T12:13:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.152.52.0/24
+descr:          EuroNet Cloud AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+mnt-by:         ch-euronet1-1-MNT
+created:        2020-12-08T10:38:53Z
+last-modified:  2020-12-08T10:38:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.14.23.0/24
+descr:          MTO Route Zug
+origin:         AS15623
+mnt-by:         MTO-MNT
+created:        2023-06-05T09:35:55Z
+last-modified:  2023-06-05T09:35:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.144.160.0/19
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        2010-08-10T06:40:47Z
+last-modified:  2010-08-10T06:40:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.226.0.0/19
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        2001-11-12T22:33:34Z
+last-modified:  2001-11-12T22:33:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.45.192.0/19
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        2010-08-02T13:17:33Z
+last-modified:  2010-08-02T13:17:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.55.192.0/19
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.117.193.0/24
+origin:         AS15623
+descr:          Migrate BB-Subnet_193 to CYB
+remarks:        Backbone-2-Cyberlink
+notify:         support@backbone.ch
+notify:         support@cyberlink.ch
+mnt-by:         BACKBONE-CH-MNT
+created:        2020-05-26T09:06:51Z
+last-modified:  2020-05-26T09:21:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.117.194.0/24
+origin:         AS15623
+descr:          Migrate BB-Subnet_194 to CYB
+remarks:        Backbone-2-Cyberlink
+notify:         support@backbone.ch
+notify:         support@cyberlink.ch
+mnt-by:         BACKBONE-CH-MNT
+created:        2020-05-26T09:09:31Z
+last-modified:  2020-05-26T09:22:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.117.208.0/24
+origin:         AS15623
+descr:          Migrate BB Subnet_208 to CYB
+remarks:        Backbone-2-Cyberlink
+notify:         support@backbone.ch
+notify:         support@cyberlink.ch
+mnt-by:         BACKBONE-CH-MNT
+created:        2020-05-26T08:56:37Z
+last-modified:  2020-05-26T08:58:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.117.211.0/24
+origin:         AS15623
+descr:          Migrate BB-Subnet_211 to CYB
+remarks:        Backbone-2-Cyberlink
+notify:         support@backbone.ch
+notify:         support@cyberlink.ch
+mnt-by:         BACKBONE-CH-MNT
+created:        2020-05-26T09:02:33Z
+last-modified:  2020-05-26T09:20:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.158.128.0/19
+descr:          Cyberlink AG
+origin:         AS15623
+notify:         ripe@cyberlink.ch
+mnt-by:         CYBERLINK-MNT
+created:        2007-01-21T15:33:41Z
+last-modified:  2023-05-22T12:12:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.189.128.0/19
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+notify:         ripe@cyberlink.ch
+mnt-by:         CYBERLINK-MNT
+created:        2007-01-21T15:51:45Z
+last-modified:  2007-01-21T15:51:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.14.64.0/20
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:31:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.75.16.0/21
+descr:          Blackpoint Net
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        2009-12-01T09:32:32Z
+last-modified:  2009-12-01T09:32:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.75.24.0/21
+descr:          Blackpoint Net
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+created:        2009-05-20T07:45:50Z
+last-modified:  2009-05-20T07:45:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:8a8::/32
+descr:          Cyberlink Internet Services AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+notify:         ripe@cyberlink.ch
+created:        2007-05-09T18:47:09Z
+last-modified:  2007-05-09T18:47:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:ba40::/32
+descr:          Bull (Schweiz) AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+mnt-by:         BULLCH-MNT
+notify:         ripe@cyberlink.ch
+created:        2012-10-09T06:53:34Z
+last-modified:  2012-10-09T06:53:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:17e0::/32
+descr:          Telco Pack SARL
+origin:         AS15623
+mnt-by:         Bijelic
+created:        2014-08-19T07:08:24Z
+last-modified:  2014-08-19T07:08:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:24e0::/48
+descr:          Web-Hosting Muenchenstein
+origin:         AS15623
+mnt-by:         DROPNET
+created:        2015-09-18T10:32:30Z
+last-modified:  2015-09-18T10:32:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a0c:e480::/29
+origin:         AS15623
+mnt-by:         ch-seabix-1-mnt
+created:        2018-03-08T09:08:00Z
+last-modified:  2018-03-08T09:08:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a0e:d080::/29
+origin:         AS15623
+mnt-by:         ch-seabix-1-mnt
+created:        2019-06-10T07:49:51Z
+last-modified:  2019-06-10T07:49:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a10:8980::/29
+descr:          EuroNet Cloud AG
+origin:         AS15623
+mnt-by:         CYBERLINK-MNT
+mnt-by:         ch-euronet1-1-MNT
+created:        2020-12-08T10:39:04Z
+last-modified:  2020-12-08T10:39:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

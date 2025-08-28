@@ -1,0 +1,403 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21453 - AS21503'
+
+as-block:       AS21453 - AS21503
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21454'
+
+% Abuse contact for 'AS21454' is 'ripe@enet.it'
+
+aut-num:        AS21454
+as-name:        ENET-AS
+org:            ORG-ES7-RIPE
+remarks:        +----------+
+remarks:        | Transits |
+remarks:        +----------+
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS21454 AS43756 AS206789
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS21454 AS43756 AS206789
+import:         from AS6762 accept ANY
+export:         to AS6762 announce AS21454 AS43756 AS206789
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS21454
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS21454
+mp-import:      afi ipv6.unicast from AS6762 accept ANY
+mp-export:      afi ipv6.unicast to AS6762 announce AS21454
+remarks:        +------------------------------+
+remarks:        | Downstream Transit Customers |
+remarks:        +------------------------------+
+import:         from AS206789 accept AS206789
+export:         to AS206789 announce ANY
+import:         from AS43756 accept AS43756
+export:         to AS43756 announce ANY
+remarks:        +--------------+
+remarks:        | Public Peers |
+remarks:        +--------------+
+import:         from AS210278 accept AS-SKYIT
+export:         to AS210278 announce AS-ENET
+import:         from AS16276 accept AS-OVH
+export:         to AS16276 announce AS-ENET
+import:         from AS16509 accept AS-AMAZON
+export:         to AS16509 announce AS-ENET
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-ENET
+import:         from AS19679 accept AS-DROPBOX
+export:         to AS19679 announce AS-ENET
+import:         from AS29447 accept AS29447
+export:         to AS29447 announce AS-ENET
+import:         from AS50112 accept AS50112
+export:         to AS50112 announce AS-ENET
+import:         from AS30722 accept AS30722
+export:         to AS30722 announce AS-ENET
+mp-import:      afi ipv6.unicast from AS210278 accept AS210278 and AS-SKYIT
+mp-export:      afi ipv6.unicast to AS210278 announce AS21454
+mp-import:      afi ipv6.unicast from AS16276 accept AS16276 and AS-OVH
+mp-export:      afi ipv6.unicast to AS16276 announce AS21454
+mp-import:      afi ipv6.unicast from AS16509 accept AS16509 and AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 announce AS21454
+mp-import:      afi ipv6.unicast from AS6939 accept AS6939 and AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS21454
+mp-import:      afi ipv6.unicast from AS19679 accept AS19679 and AS-DROPBOX
+mp-export:      afi ipv6.unicast to AS19679 announce AS21454
+mp-import:      afi ipv6.unicast from AS29447 accept AS29447
+mp-export:      afi ipv6.unicast to AS29447 announce AS21454
+mp-import:      afi ipv6.unicast from AS30722 accept AS30722
+mp-export:      afi ipv6.unicast to AS30722 announce AS21454
+admin-c:        FM22482-RIPE
+tech-c:         FM22482-RIPE
+tech-c:         FM22482-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ENET-MNT
+created:        2002-03-14T19:57:35Z
+last-modified:  2023-11-24T14:22:51Z
+source:         RIPE
+
+organisation:   ORG-ES7-RIPE
+org-name:       Easynet S.P.A.
+country:        IT
+org-type:       LIR
+address:        Corso Promessi Sposi, 25/D
+address:        23900
+address:        Lecco (LC)
+address:        ITALY
+phone:          +39 0341 256911
+fax-no:         +39 0341 256969
+abuse-c:        AR15767-RIPE
+admin-c:        NA39-RIPE
+mnt-ref:        ENET-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ENET-MNT
+created:        2004-04-17T11:30:50Z
+last-modified:  2020-12-16T13:20:35Z
+source:         RIPE # Filtered
+
+person:         Francesco Missaglia
+address:        Easynet SpA
+address:        Corso Promessi Sposi 25/D
+address:        23900 Lecco (LC)
+address:        Italy
+phone:          +390341256941
+nic-hdl:        FM22482-RIPE
+mnt-by:         ENET-MNT
+created:        2020-08-19T11:50:35Z
+last-modified:  2020-08-19T14:33:58Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          80.252.224.0/20
+descr:          Easynet Spa
+origin:         AS21454
+mnt-by:         ENET-MNT
+mnt-routes:     ENET-MNT
+created:        2001-12-19T11:25:56Z
+last-modified:  2020-06-24T19:35:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.224.0/21
+descr:          Easynet Spa - DataCenter
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2020-06-24T19:35:15Z
+last-modified:  2020-06-24T19:35:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.224.0/22
+descr:          Easynet SpA
+origin:         AS21454
+mnt-by:         ENET-MNT
+created:        2021-11-16T10:12:22Z
+last-modified:  2021-11-16T10:12:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.226.0/24
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2020-06-24T19:36:36Z
+last-modified:  2020-06-24T19:36:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.228.0/22
+descr:          Easynet SpA
+origin:         AS21454
+mnt-by:         ENET-MNT
+created:        2021-11-16T10:12:46Z
+last-modified:  2021-11-16T10:12:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.228.0/24
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2023-04-07T08:25:45Z
+last-modified:  2023-04-07T08:25:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.231.0/24
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2020-06-24T19:37:10Z
+last-modified:  2020-06-24T19:37:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.232.0/24
+origin:         AS21454
+mnt-by:         ENET-MNT
+created:        2020-08-19T11:42:32Z
+last-modified:  2020-08-19T11:42:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.233.0/24
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2020-06-24T19:37:49Z
+last-modified:  2020-06-24T19:37:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.235.0/24
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2020-06-24T19:39:42Z
+last-modified:  2020-06-24T19:39:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.236.0/23
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2020-06-24T19:40:15Z
+last-modified:  2020-06-24T19:40:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.252.238.0/23
+origin:         AS21454
+mnt-by:         ENET-MNT
+created:        2020-06-24T19:40:42Z
+last-modified:  2020-06-24T19:40:42Z
+source:         RIPE
+mnt-routes:     ENET-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.173.236.0/22
+descr:          Easynet - new classes
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2021-10-28T09:47:03Z
+last-modified:  2021-10-29T12:04:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.173.237.0/24
+descr:          Alleatech
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2021-10-28T09:04:49Z
+last-modified:  2021-10-29T12:06:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          188.214.198.0/24
+descr:          Agomir Spa
+origin:         AS21454
+mnt-routes:     ENET-MNT
+mnt-by:         ENET-MNT
+created:        2021-11-13T18:02:10Z
+last-modified:  2021-11-14T08:19:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.74.75.0/24
+origin:         AS21454
+mnt-by:         ENET-MNT
+created:        2024-03-29T10:26:19Z
+last-modified:  2024-03-29T10:26:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a10:5340::/29
+origin:         AS21454
+mnt-by:         ENET-MNT
+created:        2021-11-16T13:45:38Z
+last-modified:  2023-07-11T13:18:49Z
+source:         RIPE
+mnt-routes:     ENET-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

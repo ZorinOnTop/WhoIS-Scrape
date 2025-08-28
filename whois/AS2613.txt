@@ -1,0 +1,232 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS2585 - AS2614'
+
+as-block:       AS2585 - AS2614
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:18Z
+last-modified:  2018-11-22T15:27:18Z
+source:         RIPE
+
+% Information related to 'AS2613'
+
+% Abuse contact for 'AS2613' is 'abuse@as2613.net'
+
+aut-num:        AS2613
+as-name:        VAN_GULIK
+org:            ORG-WVG2-RIPE
+admin-c:        WVG88-RIPE
+tech-c:         WVG88-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         VAN_GULIK-MNT
+remarks:
+remarks:        --- IPv4 Upstream ---
+import:         from AS25091 action pref=100; accept ANY
+export:         to AS25091 announce AS2613
+remarks:        [ Coloclue ]
+import:         from AS8283 action pref=100; accept ANY
+export:         to AS8283 announce AS2613
+remarks:        [ Saitis ]
+import:         from AS6893 action pref=100; accept ANY
+export:         to AS6893 announce AS2613
+remarks:        --- IPv6 Upstream ---
+remarks:        [ Coloclue ]
+mp-import:      afi ipv6.unicast from AS8283 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS8283 announce AS2613;
+remarks:        [ Saitis ]
+mp-import:      afi ipv6.unicast from AS6893 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6893 announce AS2613;
+remarks:        [ HE ]
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS2613;
+remarks:        --- IPv4 Peers in DE-CIX ---
+import:         from AS14413 accept AS14413 AND NOT {0.0.0.0/0}
+export:         to AS14413 announce AS2613
+import:         from AS46489 accept as46489 AND NOT {0.0.0.0/0}
+export:         to AS46489 announce AS2613
+import:         from AS34347 accept AS34347 AND NOT {0.0.0.0/0}
+export:         to AS34347 announce AS2613
+import:         from AS6939 accept AS6939 AND NOT {0.0.0.0/0}
+export:         to AS6939 announce AS2613
+remarks:        --- IPv6 Peers in DE-CIX ---
+mp-import:      afi ipv6.unicast from AS14413 accept AS-LINKEDIN;
+mp-export:      afi ipv6.unicast to AS14413 announce AS2613;
+remarks:
+remarks:        --- IPv4/6 Peers in France-IX ---
+import:         from AS51706 accept AS51706:AS-MEMBERS AND NOT {0.0.0.0/0}
+export:         to AS51706 announce AS2613
+mp-import:      afi ipv6.unicast from AS51706 accept AS51706:AS-MEMBERS;
+mp-export:      afi ipv6.unicast to AS51706 announce AS2613;
+import:         from AS714 accept AS-APPLE AND NOT {0.0.0.0/0}
+export:         to AS714 announce AS2613
+mp-import:      afi ipv6.unicast from AS714 accept AS-APPLE;
+mp-export:      afi ipv6.unicast to AS714 announce AS2613;
+remarks:
+remarks:        --- IPv4 & IPv6 Peers in RomandIX ---
+import:         from AS-RomandIX-RS accept AS-RomandIX-RS AND NOT {0.0.0.0/0}
+export:         to AS2613 announce AS-RomandIX-RS
+mp-import:      afi ipv6.unicast from AS-RomandIX-RS accept AS-RomandIX-RS;
+mp-export:      afi ipv6.unicast to AS-RomandIX-RS announce AS2613;
+remarks:
+remarks:        --- IPv4/6 Downstreams ---
+remarks:        [ DsNetwork ]
+import:         from AS48390 accept AS48390
+export:         to AS48390 announce ANY
+mp-import:      afi ipv6.unicast from AS48390 accept AS48390
+mp-export:      afi ipv6.unicast to AS48390 announce ANY
+remarks:
+remarks:        [ Philippe Bonvin ]
+import:         from AS204082 accept AS204082
+export:         to AS204082 announce ANY
+mp-import:      afi ipv6.unicast from AS204082 accept AS204082
+mp-export:      afi ipv6.unicast to AS204082 announce ANY
+remarks:
+remarks:        --- Peering ---
+remarks:        We have an open peering policy and will love MD5.
+remarks:        Check out our PeeringDB record : https://www.peeringdb.com/net/9124
+remarks:        Peering in France-IX & RomandIX, you'll get our routes in SwissIX via RS too.
+remarks:
+created:        2015-11-23T14:24:43Z
+last-modified:  2023-08-07T20:19:05Z
+source:         RIPE
+
+organisation:   ORG-WVG2-RIPE
+org-name:       Willem van Gulik
+country:        CH
+org-type:       LIR
+address:        Rue des Pecheries 14
+address:        1205
+address:        Genève
+address:        SWITZERLAND
+phone:          +41225080669
+admin-c:        WVG102-RIPE
+tech-c:         WVG102-RIPE
+abuse-c:        AR60425-RIPE
+mnt-ref:        VAN_GULIK-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         VAN_GULIK-MNT
+created:        2020-05-29T14:30:30Z
+last-modified:  2021-12-24T23:56:05Z
+source:         RIPE # Filtered
+
+person:         Will van Gulik
+address:        Rue des Pecheries 14
+phone:          +41225080669
+nic-hdl:        WVG88-RIPE
+mnt-by:         VAN_GULIK-MNT
+created:        2015-11-17T14:18:46Z
+last-modified:  2021-06-10T14:20:00Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          91.218.38.0/24
+descr:          Willem van Gulik
+origin:         AS2613
+mnt-by:         VAN_GULIK-MNT
+created:        2020-06-03T09:32:57Z
+last-modified:  2020-06-03T09:32:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.135.150.0/24
+descr:          Willem van Gulik
+origin:         AS2613
+mnt-by:         VAN_GULIK-MNT
+created:        2015-11-23T14:45:43Z
+last-modified:  2015-11-23T14:45:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:678:294::/48
+descr:          AS2613 v6 announcement in the flat country
+origin:         AS2613
+mnt-by:         VAN_GULIK-MNT
+created:        2016-10-27T15:16:22Z
+last-modified:  2016-10-27T15:16:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:678:298::/48
+descr:          AS2613 v6 announcement for the not so flat country
+origin:         AS2613
+mnt-by:         VAN_GULIK-MNT
+created:        2016-10-27T15:18:56Z
+last-modified:  2016-10-27T15:18:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:2528:2613::/48
+descr:          AS2613 Delegation
+origin:         AS2613
+mnt-by:         VAN_GULIK-MNT
+mnt-by:         IP-MAX-MNT
+created:        2015-12-02T17:56:01Z
+last-modified:  2015-12-02T17:56:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a07:e640::/29
+descr:          AS2613 v6 tiny announcement
+origin:         AS2613
+mnt-by:         VAN_GULIK-MNT
+created:        2020-06-03T09:34:31Z
+last-modified:  2020-06-03T09:34:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

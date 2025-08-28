@@ -1,0 +1,465 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8797 - AS9128'
+
+as-block:       AS8797 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-11-04T15:25:08Z
+last-modified:  2021-11-04T15:25:08Z
+source:         RIPE
+
+% Information related to 'AS8823'
+
+% Abuse contact for 'AS8823' is 'abuse@rockenstein.de'
+
+aut-num:        AS8823
+as-name:        AutonomousSystemRockensteinAG
+org:            ORG-RA5-RIPE
+import:         from AS8741 action pref=100; accept ANY
+import:         from AS12610 action pref=100; accept AS12610 AND NOT {0.0.0.0/0}
+import:         from AS20646 action pref=100; accept ANY
+import:         from AS13237 action pref=100; accept ANY
+import:         from AS20676 action pref=100; accept ANY
+import:         from AS8767 action pref=100; accept ANY
+import:         from AS13201 action pref=100; accept AS13201 AND NOT {0.0.0.0/0}
+import:         from AS20653 action pref=100; accept AS20653 AND NOT {0.0.0.0/0}
+import:         from AS44974 action pref=100; accept AS44974 AS44973 AND NOT {0.0.0.0/0}
+export:         to AS8741 announce AS-ROCKENSTEIN
+export:         to AS20646 announce AS-ROCKENSTEIN
+export:         to AS12610 announce ANY
+export:         to AS13237 announce AS-ROCKENSTEIN
+export:         to AS20676 announce AS-ROCKENSTEIN
+export:         to AS8767 announce AS-ROCKENSTEIN
+export:         to AS20653 announce ANY
+export:         to AS44974 announce ANY
+default:        to AS13237 action pref=100; networks ANY
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS21385
+admin-c:        ROX1-RIPE
+tech-c:         ROX1-RIPE
+remarks:        NOTE: Peering-information in this aut-num is a little bit outdated and will be updated soon(-ish :-)
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ROX-NET
+created:        2002-04-02T21:25:53Z
+last-modified:  2016-04-14T09:15:42Z
+source:         RIPE
+
+organisation:   ORG-RA5-RIPE
+org-name:       Rockenstein AG
+country:        DE
+org-type:       LIR
+address:        Schleehofstraße 16
+address:        97209
+address:        Veitshöchheim
+address:        GERMANY
+phone:          +49931299344
+fax-no:         +499312993499
+mnt-ref:        ROX-NET
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ROX-NET
+admin-c:        SLZR-RIPE
+admin-c:        CR16-RIPE
+admin-c:        FM1900-RIPE
+admin-c:        TD3602-RIPE
+abuse-c:        ROX1-RIPE
+created:        2004-04-17T11:11:43Z
+last-modified:  2022-09-06T05:31:59Z
+source:         RIPE # Filtered
+
+role:           rockenstein AG - technical contacts / NOC
+address:        rockenstein AG
+address:        Schleehofstrasse 16
+address:        D-97209 Veitshoechheim
+address:        Germany
+admin-c:        CR16-RIPE
+abuse-mailbox:  abuse@rockenstein.de
+tech-c:         AM574-RIPE
+tech-c:         FM1900-RIPE
+tech-c:         SLZR-RIPE
+nic-hdl:        ROX1-RIPE
+mnt-by:         ROX-NET
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-11-18T16:01:13Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          45.141.188.0/22
+origin:         AS8823
+mnt-by:         mnt-de-vimedis-1
+created:        2020-03-11T11:31:51Z
+last-modified:  2020-03-11T11:31:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.76.192.0/18
+descr:          rockenstein AG
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2007-02-15T16:12:38Z
+last-modified:  2007-02-15T16:12:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.219.104.0/21
+descr:          NotarNet GmbH
+origin:         AS8823
+mnt-by:         BNotK-MNT
+created:        2012-07-25T07:12:31Z
+last-modified:  2012-07-25T07:12:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.45.240.0/22
+descr:          rockenstein AG
+origin:         AS8823
+notify:         guardian@rockenstein.de
+mnt-by:         ROX-NET
+created:        2014-01-27T12:24:34Z
+last-modified:  2014-01-27T12:24:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.47.124.0/22
+descr:          NotarNet GmbH
+origin:         AS8823
+notify:         guardian@rockenstein.de
+mnt-by:         BNotK-MNT
+created:        2014-02-13T14:36:19Z
+last-modified:  2014-02-13T14:36:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.245.22.0/24
+descr:          FPS InformationsSysteme GmbH
+origin:         AS8823
+mnt-by:         mnt-de-fps-1
+created:        2020-01-28T13:19:44Z
+last-modified:  2020-02-24T20:45:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.47.149.0/24
+origin:         AS8823
+mnt-by:         mnt-de-edeka-sb-1
+created:        2020-03-17T15:53:20Z
+last-modified:  2020-03-17T15:53:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.141.104.0/24
+descr:          KNF e.V. via rockenstein AG
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2019-10-09T14:36:28Z
+last-modified:  2019-10-09T14:36:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.141.110.0/24
+descr:          KNF e.V. via rockenstein AG
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2019-10-09T14:37:16Z
+last-modified:  2019-10-09T14:37:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.180.199.0/24
+descr:          loglevel GmbH
+descr:          via rockenstein AG - AS8823
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2015-08-14T12:54:50Z
+last-modified:  2015-08-14T12:54:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.189.168.0/23
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2019-12-13T01:02:45Z
+last-modified:  2019-12-13T01:02:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.189.174.0/23
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2019-12-13T01:03:06Z
+last-modified:  2019-12-13T01:03:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.189.174.0/24
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2019-12-13T01:32:30Z
+last-modified:  2019-12-13T01:32:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.189.175.0/24
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2019-12-13T01:32:51Z
+last-modified:  2019-12-13T01:32:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.63.64.0/19
+descr:          rockenstein AG
+origin:         AS8823
+notify:         guardian@rockenstein.de
+mnt-by:         ROX-NET
+created:        2002-07-04T17:48:36Z
+last-modified:  2002-07-04T17:48:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.137.192.0/19
+descr:          rockenstein AG
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2016-03-29T10:32:36Z
+last-modified:  2016-03-29T10:32:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.214.0.0/19
+descr:          rockenstein AG
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        1970-01-01T00:00:00Z
+last-modified:  2004-02-10T20:33:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:ad8::/29
+descr:          rockenstein AG
+origin:         AS8823
+notify:         guardian@rockenstein.de
+mnt-by:         ROX-NET
+created:        2012-09-12T14:29:41Z
+last-modified:  2012-09-12T14:29:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:ad8::/32
+descr:          rockenstein AG
+origin:         AS8823
+notify:         guardian@rockenstein.de
+mnt-by:         ROX-NET
+created:        2007-04-30T14:07:46Z
+last-modified:  2007-04-30T14:07:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a01:8a40::/32
+descr:          NotarNet GmbH
+origin:         AS8823
+mnt-by:         BNotK-MNT
+created:        2012-07-25T07:13:11Z
+last-modified:  2012-07-25T07:13:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a0c:d4c0::/29
+descr:          FPS InformationsSysteme GmbH
+origin:         AS8823
+mnt-by:         mnt-de-fps-1
+created:        2020-01-28T13:22:17Z
+last-modified:  2020-02-24T20:46:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0e:cf40::/29
+origin:         AS8823
+mnt-by:         mnt-de-vimedis-1
+created:        2020-03-11T13:45:18Z
+last-modified:  2020-03-11T13:45:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0f:53c0::/29
+origin:         AS8823
+mnt-by:         ROX-NET
+created:        2019-12-13T01:33:51Z
+last-modified:  2019-12-13T01:33:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

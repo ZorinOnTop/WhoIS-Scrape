@@ -1,0 +1,308 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8240'
+
+% Abuse contact for 'AS8240' is 'help@ria.ee'
+
+aut-num:        AS8240
+org:            ORG-DoDC1-RIPE
+as-name:        AS8240
+descr:          RIA Autonomous System
+remarks:        ============================================================
+remarks:        ************************ IP TRANSIT ************************
+remarks:        # Arelion
+import:         from AS1299 action pref=5; accept ANY
+export:         to AS1299 announce AS-8240-set
+mp-import:      afi ipv6.unicast from AS1299 action pref=5; accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-8240-set
+remarks:        ------------------------------------------------------------
+remarks:        # TELE2
+import:         from AS1257 action pref=5; accept ANY
+export:         to AS1257 announce AS-8240-set
+mp-import:      afi ipv6.unicast from AS1257 action pref=5; accept ANY
+mp-export:      afi ipv6.unicast to AS1257 announce AS-8240-set
+remarks:        ============================================================
+remarks:        ************************ IXP PEERING ************************
+remarks:        # RTIX
+import:         from AS207800 action pref=50; accept ANY
+export:         to AS207800 announce AS-8240-set
+mp-import:      afi ipv6.unicast from AS207800 action pref=50; accept ANY
+mp-export:      afi ipv6.unicast to AS207800 announce AS-8240-set
+remarks:        ============================================================
+remarks:        ************************ CUSTOMERS ************************
+remarks:        # NATO Cooperative Cyber Defence Centre of Excellence
+import:         from AS203311 action pref=100; accept AS203311
+export:         to AS203311 announce {0.0.0.0/0}
+remarks:        ------------------------------------------------------------
+remarks:        # Tervisekassa
+import:         from AS203021 action pref=100; accept AS203021
+export:         to AS203021 announce {0.0.0.0/0}
+remarks:        ------------------------------------------------------------
+remarks:        # SIHTASUTUS EESTI TERVISHOIU PILDIPANK
+import:         from AS62024 action pref=100; accept AS62024
+export:         to AS62024 announce {0.0.0.0/0}
+remarks:        ------------------------------------------------------------
+remarks:        # National Audit Office of Estonia
+import:         from AS31081 action pref=100; accept AS31081
+export:         to AS31081 announce {0.0.0.0/0}
+remarks:        ------------------------------------------------------------
+remarks:        # Sihtasutus Pohja-Eesti Regionaalhaigla
+import:         from AS203906 action pref=100; accept AS203906
+export:         to AS203906 announce {0.0.0.0/0}
+remarks:        ------------------------------------------------------------
+remarks:        # State Infocommunication Foundation
+import:         from AS206844 action pref=100; accept AS206844
+export:         to AS206844 announce {0.0.0.0/0}
+mp-import:      afi ipv6.unicast from AS206844 action pref=100; accept AS206844
+mp-export:      afi ipv6.unicast to AS206844 announce {::/0}
+remarks:        ------------------------------------------------------------
+remarks:        # Lennuliiklusteeninduse AS
+import:         from AS205346 action pref=100; accept AS205346
+export:         to AS205346 announce {0.0.0.0/0}
+mp-import:      afi ipv6.unicast from AS205346 action pref=100; accept AS205346
+mp-export:      afi ipv6.unicast to AS205346 announce {::/0}
+remarks:        ------------------------------------------------------------
+remarks:        # Information System Authority
+import:         from AS56588 action pref=100; accept AS56588
+export:         to AS56588 announce {0.0.0.0/0}
+mp-import:      afi ipv6.unicast from AS56588 action pref=100; accept AS56588
+mp-export:      afi ipv6.unicast to AS56588 announce {::/0}
+remarks:        ------------------------------------------------------------
+remarks:        # IT and Development Center of Ministry of Interior, Estonia
+import:         from AS47736 action pref=100; accept AS47736
+export:         to AS47736 announce ANY
+mp-import:      afi ipv6.unicast from AS47736 action pref=100; accept AS47736
+mp-export:      afi ipv6.unicast to AS47736 announce ANY
+remarks:        ------------------------------------------------------------
+remarks:        # Health and Welfare Information Systems
+import:         from AS213172 action pref=100; accept AS213172
+export:         to AS213172 announce ANY
+remarks:        ------------------------------------------------------------
+remarks:        # Estonian Public Broadcasting
+import:         from AS42012 action pref=100; accept AS42012
+export:         to AS42012 announce {0.0.0.0/0}
+remarks:        ------------------------------------------------------------
+remarks:        # AS Tallinna Sadam
+import:         from AS202480 action pref=100; accept AS202480
+export:         to AS202480 announce ANY
+remarks:        ------------------------------------------------------------
+remarks:        # Eesti Pank
+import:         from AS39632 action pref=100; accept AS39632
+export:         to AS39632 announce ANY
+remarks:        ============================================================
+admin-c:        RN4618-RIPE
+tech-c:         DK9070-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8240-MNT
+created:        2001-12-31T12:08:36Z
+last-modified:  2024-12-12T09:03:08Z
+source:         RIPE
+
+organisation:   ORG-DoDC1-RIPE
+org-name:       Information System Authority
+country:        EE
+org-type:       LIR
+address:        Pärnu mnt 139a
+address:        15169
+address:        Tallinn
+address:        ESTONIA
+phone:          +372 6 630 299
+fax-no:         +372 6 630 201
+admin-c:        TN167-RIPE
+admin-c:        VN2402-RIPE
+abuse-c:        AA26413-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8240-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8240-MNT
+created:        2004-04-17T11:15:18Z
+last-modified:  2023-04-24T07:25:17Z
+source:         RIPE # Filtered
+
+person:         Dmitri Kiriljuk
+address:        Pärnu maantee 139a, 11317 Tallinn
+phone:          +372 6630299
+nic-hdl:        DK9070-RIPE
+mnt-by:         AS8240-MNT
+created:        2019-04-18T12:25:43Z
+last-modified:  2022-08-31T10:42:21Z
+source:         RIPE
+
+person:         Riigivork NOC
+org:            ORG-DoDC1-RIPE
+address:        Parnu mnt 139a, 15169 Tallinn
+phone:          +372 6630299
+nic-hdl:        RN4618-RIPE
+mnt-by:         AS8240-MNT
+created:        2020-06-15T11:27:04Z
+last-modified:  2025-07-29T13:05:14Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          185.161.84.0/22
+descr:          Riigivork IPv4
+origin:         AS8240
+mnt-by:         AS8240-MNT
+created:        2023-03-27T08:08:30Z
+last-modified:  2024-12-12T06:46:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.161.84.0/24
+descr:          Riigivork IPv4
+origin:         AS8240
+mnt-by:         AS8240-MNT
+created:        2024-12-12T06:49:28Z
+last-modified:  2024-12-12T06:49:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.161.87.0/24
+origin:         AS8240
+mnt-by:         AS8240-MNT
+created:        2025-03-22T08:03:50Z
+last-modified:  2025-03-22T08:03:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.172.24.0/22
+descr:          Riigivork IPv4
+origin:         AS8240
+mnt-by:         AS8240-MNT
+created:        2016-10-11T08:23:12Z
+last-modified:  2022-05-30T07:49:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.80.96.0/19
+descr:          Riigivork IPv4
+origin:         AS8240
+notify:         help@ria.ee
+mnt-by:         AS8240-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-05-30T07:50:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.184.32.0/19
+descr:          Riigivork IPv4
+origin:         AS8240
+notify:         help@ria.ee
+mnt-by:         AS8240-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2022-05-30T07:50:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:88::/32
+descr:          Riigivork IPv6
+origin:         AS8240
+mnt-by:         AS8240-MNT
+created:        2009-04-29T13:37:32Z
+last-modified:  2022-05-30T07:49:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0b:6c00::/29
+descr:          Riigivork IPv6
+origin:         AS8240
+mnt-by:         AS8240-MNT
+created:        2023-03-27T08:09:52Z
+last-modified:  2023-03-29T05:53:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a0b:6c00::/32
+descr:          Riigivork IPv6
+origin:         AS8240
+mnt-by:         AS8240-MNT
+created:        2024-12-12T06:51:23Z
+last-modified:  2024-12-12T06:51:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

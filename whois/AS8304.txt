@@ -1,0 +1,1124 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8304'
+
+% Abuse contact for 'AS8304' is 'abuse@ecritel.net'
+
+aut-num:        AS8304
+org:            ORG-EA26-RIPE
+as-name:        ECRITEL-FRANCE
+descr:          ISP and web hosting.
+descr:          Paris, FRANCE
+remarks:        =======================================================
+remarks:        Informations : http://www.as8304.eu
+remarks:        Looking glass url : http://www.as8304.eu/lg
+remarks:        PeeringDB : http://as8304.peeringdb.com
+remarks:        -------------------------------------------------------
+remarks:        Peering requests peering@ecritel.net
+remarks:        Operational issues support.client@ecritel.net
+remarks:        Spam and abuse issues abuse@ecritel.net
+remarks:        Other info http://www.ecritel.net
+remarks:        =======================================================
+remarks:        = IPv4 Transit =
+remarks:        =======================================================
+import:         from AS6453 action pref=100; accept ANY
+export:         to AS6453 announce AS-ECRITEL
+remarks:        -
+import:         from AS5511 action pref=100; accept ANY
+export:         to AS5511 announce AS-ECRITEL
+remarks:        -
+import:         from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-ECRITEL
+remarks:        -
+import:         from AS3549 action pref=100; accept ANY
+export:         to AS3549 announce AS-ECRITEL
+remarks:        -
+import:         from AS3356 action pref=100; accept ANY
+export:         to AS3356 announce AS-ECRITEL
+remarks:        -
+import:         from AS3491 action pref=100; accept ANY
+export:         to AS3491 announce AS-ECRITEL
+remarks:        =======================================================
+remarks:        = IPv6 Transit =
+remarks:        =======================================================
+mp-import:      from AS174 action pref=100; accept ANY
+mp-export:      to AS174 announce AS-ECRITEL
+remarks:        -
+mp-import:      from AS3549 action pref=100; accept ANY
+mp-export:      to AS3549 announce AS-ECRITEL
+remarks:        -
+mp-import:      from AS3356 action pref=100; accept ANY
+mp-export:      to AS3356 announce AS-ECRITEL
+remarks:        -
+mp-import:      from AS3491 action pref=100; accept ANY
+mp-export:      to AS3491 announce AS-ECRITEL
+remarks:        -
+mp-import:      from AS6939 action pref=100; accept ANY
+mp-export:      to AS6939 announce AS-ECRITEL
+remarks:        =======================================================
+remarks:        = IPv4 Customers =
+remarks:        =======================================================
+import:         from AS197138 action pref=100; accept AS197138
+import:         from AS50234 action pref=100; accept AS50234
+import:         from AS32555 action pref=100; accept AS32555
+import:         from AS35655 action pref=100; accept AS-OXYD
+import:         from AS59944 action pref=100; accept AS59944
+import:         from AS197914 action pref=100; accept AS197914
+import:         from AS205306 action pref=100; accept AS205306
+remarks:        -
+export:         to AS8304:AS-CUSTOMERS announce ANY
+remarks:        =======================================================
+remarks:        = Peering =
+remarks:        =======================================================
+remarks:        Peering request : peering at ecritel dot net
+remarks:        Others infos : http://www.as8304.eu
+remarks:        =======================================================
+remarks:        IX Speed IP Address Country
+remarks:        =======================================================
+remarks:        - AMS-IX 1G 195.69.144.29 NL -
+remarks:        - 2001:7f8::a500:8304:1 -
+remarks:        -------------------------------------------------------
+remarks:        - FRANCE-IX TH2 1G 193.105.232.72 FR -
+remarks:        - 2001:7f8:54::72 -
+remarks:        -------------------------------------------------------
+remarks:        - FRANCE-IX REDBUS 1G 193.105.232.72 FR -
+remarks:        - 2001:7f8:54::72 -
+remarks:        -------------------------------------------------------
+remarks:        - SFINX 1G 194.68.129.245 FR -
+remarks:        - 2001:7f8:4e:2::245 -
+remarks:        -------------------------------------------------------
+remarks:        - EQUINIX-IX 1G 195.42.144.116 FR -
+remarks:        - 2001:7F8:43::8304:1 -
+remarks:        -------------------------------------------------------
+remarks:        - QIX 1G 192.77.55.37 CA -
+remarks:        - -
+remarks:        -------------------------------------------------------
+remarks:        - TIE 1G 206.126.115.57 NY -
+remarks:        - 2001:504:17:115::57 -
+remarks:        =======================================================
+remarks:        = IPv4 Peering =
+remarks:        =======================================================
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | AMS-IX |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === AMS-IX1 ===
+import:         from AS1200 195.69.144.1 at 195.69.144.29 action pref=15000; accept AS-AMS-IX-PEERS
+export:         to AS1200 195.69.144.1 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === NL-BIT ===
+import:         from AS12859 195.69.144.35 at 195.69.144.29 action pref=15000; accept AS-BIT
+export:         to AS12859 195.69.144.35 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === RDSNET ===
+import:         from AS8708 195.69.144.51 at 195.69.144.29 action pref=15000; accept AS-RDSNET
+export:         to AS8708 195.69.144.51 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === ZIGGO ===
+import:         from AS9143 195.69.144.103 at 195.69.144.29 action pref=15000; accept AS-BENELUX
+export:         to AS9143 195.69.144.103 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === SITABINFRA-GLOBAL-AS ===
+import:         from AS50683 195.69.144.135 at 195.69.144.29 action pref=15000; accept AS-I2B-GLO
+export:         to AS50683 195.69.144.135 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === SHAW ===
+import:         from AS6327 195.69.144.148 at 195.69.144.29 action pref=15000; accept AS6327
+export:         to AS6327 195.69.144.148 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === KABELFOON ===
+import:         from AS15435 195.69.144.149 at 195.69.144.29 action pref=15000; accept AS-KABELFOON
+export:         to AS15435 195.69.144.149 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === NL-SOLCON ===
+import:         from AS12414 195.69.144.165 at 195.69.144.29 action pref=15000; accept AS-SOLCON
+export:         to AS12414 195.69.144.165 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === AKAMAI-ASN1 ===
+import:         from AS20940 195.69.144.168 at 195.69.144.29 action pref=15000; accept AS-AKAMAI
+export:         to AS20940 195.69.144.168 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === MNS-AS ===
+import:         from AS44654 195.69.144.176 at 195.69.144.29 action pref=15000; accept AS-MNS
+export:         to AS44654 195.69.144.176 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === OTEGlobe ===
+import:         from AS12713 195.69.144.179 at 195.69.144.29 action pref=15000; accept AS-OTEGLOBE
+export:         to AS12713 195.69.144.179 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === ZIGGO ===
+import:         from AS9143 195.69.144.181 at 195.69.144.29 action pref=15000; accept AS-BENELUX
+export:         to AS9143 195.69.144.181 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === INTERBOX-AS ===
+import:         from AS16298 195.69.144.183 at 195.69.144.29 action pref=15000; accept AS-INTERBOX
+export:         to AS16298 195.69.144.183 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === PANTHER ===
+import:         from AS36408 195.69.144.191 at 195.69.144.29 action pref=15000; accept AS-PANTHERCDN
+export:         to AS36408 195.69.144.191 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === NL-BIT ===
+import:         from AS12859 195.69.144.200 at 195.69.144.29 action pref=15000; accept AS-BIT
+export:         to AS12859 195.69.144.200 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === PLEX ===
+import:         from AS21478 195.69.144.216 at 195.69.144.29 action pref=15000; accept AS-PLEX
+export:         to AS21478 195.69.144.216 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === ONEANDONE-AS ===
+import:         from AS8560 195.69.144.220 at 195.69.144.29 action pref=15000; accept AS8560:RS-V4
+export:         to AS8560 195.69.144.220 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === COLT ===
+import:         from AS8220 195.69.144.236 at 195.69.144.29 action pref=15000; accept AS-COLT
+export:         to AS8220 195.69.144.236 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === KCOM-SPN ===
+import:         from AS8897 195.69.144.249 at 195.69.144.29 action pref=15000; accept AS-KCOMSPN
+export:         to AS8897 195.69.144.249 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === Packet Clearing House ===
+import:         from AS42 195.69.144.250 at 195.69.144.29 action pref=15000; accept AS-PCH
+export:         to AS42 195.69.144.250 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === AMS-IX-RS ===
+import:         from AS6777 accept ANY AND NOT <^[AS12989 AS16276]>
+export:         to AS6777 action community .= { 6777:6777, 6777:16276, 6777:12989 }; announce AS-ECRITEL
+remarks:        === AMS-IX1 ===
+import:         from AS1200 195.69.145.1 at 195.69.144.29 action pref=15000; accept AS-AMS-IX-PEERS
+export:         to AS1200 195.69.145.1 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === VTX-NETWORK ===
+import:         from AS12350 195.69.145.24 at 195.69.144.29 action pref=15000; accept AS-VTX
+export:         to AS12350 195.69.145.24 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === AS34288 ===
+import:         from AS34288 195.69.145.29 at 195.69.144.29 action pref=15000; accept AS34288:AS-IX:AS-AMSIX
+export:         to AS34288 195.69.145.29 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === XMS ===
+import:         from AS49562 195.69.145.31 at 195.69.144.29 action pref=15000; accept AS49562
+export:         to AS49562 195.69.145.31 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === ZEELANDNET ===
+import:         from AS15542 195.69.145.43 at 195.69.144.29 action pref=15000; accept AS-ZEELANDNET
+export:         to AS15542 195.69.145.43 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === NETCOLOGNE ===
+import:         from AS8422 195.69.145.62 at 195.69.144.29 action pref=15000; accept AS-NETCOLOGNE
+export:         to AS8422 195.69.145.62 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === RUNNET ===
+import:         from AS3267 195.69.145.75 at 195.69.144.29 action pref=15000; accept AS-RUNNETWS
+export:         to AS3267 195.69.145.75 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === GYRON ===
+import:         from AS29017 195.69.145.84 at 195.69.144.29 action pref=15000; accept AS-GYRON
+export:         to AS29017 195.69.145.84 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === ZEELANDNET ===
+import:         from AS15542 195.69.145.125 at 195.69.144.29 action pref=15000; accept AS-ZEELANDNET
+export:         to AS15542 195.69.145.125 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === ASN-CRITEO-EUROPE ===
+import:         from AS44788 195.69.145.151 at 195.69.144.29 action pref=15000; accept AS-CRITEO-EU
+export:         to AS44788 195.69.145.151 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === NL-SOLCON ===
+import:         from AS12414 195.69.145.165 at 195.69.144.29 action pref=15000; accept AS-SOLCON
+export:         to AS12414 195.69.145.165 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === KABELFOON ===
+import:         from AS15435 195.69.145.173 at 195.69.144.29 action pref=15000; accept AS-KABELFOON
+export:         to AS15435 195.69.145.173 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === AKAMAI-ASN1 ===
+import:         from AS20940 195.69.145.208 at 195.69.144.29 action pref=15000; accept AS-AKAMAI
+export:         to AS20940 195.69.145.208 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === PEER1 ===
+import:         from AS13768 195.69.145.209 at 195.69.144.29 action pref=15000; accept AS13768
+export:         to AS13768 195.69.145.209 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === MANDA ===
+import:         from AS8365 195.69.145.217 at 195.69.144.29 action pref=15000; accept AS-MANDA
+export:         to AS8365 195.69.145.217 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === OPENCARRIER-AS ===
+import:         from AS41692 195.69.145.221 at 195.69.144.29 action pref=15000; accept AS-OPENCARRIER
+export:         to AS41692 195.69.145.221 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === ULTRADNS ===
+import:         from AS12008 195.69.145.233 at 195.69.144.29 action pref=15000; accept AS12008
+export:         to AS12008 195.69.145.233 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === Packet Clearing House ===
+import:         from AS3856 195.69.145.250 at 195.69.144.29 action pref=15000; accept AS-PCH
+export:         to AS3856 195.69.145.250 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === CONVERGENZE-AS ===
+import:         from AS39120 195.69.146.28 at 195.69.144.29 action pref=15000; accept AS-CONVERGENZE
+export:         to AS39120 195.69.146.28 at 195.69.144.29 announce AS-ECRITEL
+remarks:        === Unidata ===
+import:         from AS5394 195.69.146.29 at 195.69.144.29 action pref=15000; accept AS-UNIDATACUST
+export:         to AS5394 195.69.146.29 at 195.69.144.29 announce AS-ECRITEL
+remarks:
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | SFINX |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === FR-SFINX ===
+import:         from AS1304 194.68.129.100 at 194.68.129.245 action pref=15000; accept AS-SFINX-RS-MEMBERS
+export:         to AS1304 194.68.129.100 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === FR-SFINX ===
+import:         from AS1304 194.68.129.101 at 194.68.129.245 action pref=15000; accept AS-SFINX-RS-MEMBERS
+export:         to AS1304 194.68.129.101 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === FR-RENATER ===
+import:         from AS2200 194.68.129.102 at 194.68.129.245 action pref=15000; accept AS-RENATER
+export:         to AS2200 194.68.129.102 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === FR-RENATER ===
+import:         from AS2200 194.68.129.103 at 194.68.129.245 action pref=15000; accept AS-RENATER
+export:         to AS2200 194.68.129.103 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === AQUARAY ===
+import:         from AS41653 194.68.129.105 at 194.68.129.245 action pref=15000; accept AS-AQUARAY
+export:         to AS41653 194.68.129.105 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === IELO-AS ===
+import:         from AS29075 194.68.129.108 at 194.68.129.245 action pref=15000; accept AS-IELO
+export:         to AS29075 194.68.129.108 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === ATE ===
+import:         from AS35625 194.68.129.109 at 194.68.129.245 action pref=15000; accept AS-ATE
+export:         to AS35625 194.68.129.109 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === ASSOKAZAR-AS ===
+import:         from AS35189 194.68.129.120 at 194.68.129.245 action pref=15000; accept AS-KAZAR
+export:         to AS35189 194.68.129.120 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === WAN2MANY-AS ===
+import:         from AS29608 194.68.129.121 at 194.68.129.245 action pref=15000; accept AS-W2MY
+export:         to AS29608 194.68.129.121 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === KHEOPS-Autonomous-System ===
+import:         from AS20917 194.68.129.122 at 194.68.129.245 action pref=15000; accept AS-KHEOPS
+export:         to AS20917 194.68.129.122 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === GROUPEMIT-AS ===
+import:         from AS31555 194.68.129.125 at 194.68.129.245 action pref=15000; accept AS-MIT
+export:         to AS31555 194.68.129.125 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === ALIONIS ===
+import:         from AS34997 194.68.129.126 at 194.68.129.245 action pref=15000; accept AS-Alionis
+export:         to AS34997 194.68.129.126 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === WAYCOM-AS ===
+import:         from AS30889 194.68.129.127 at 194.68.129.245 action pref=15000; accept AS-WAYCOM
+export:         to AS30889 194.68.129.127 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === JAGUAR-AS ===
+import:         from AS30781 194.68.129.128 at 194.68.129.245 action pref=15000; accept AS-JAGUAR
+export:         to AS30781 194.68.129.128 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === DEVCLIC-AS ===
+import:         from AS44141 194.68.129.133 at 194.68.129.245 action pref=15000; accept AS-DEVCLIC
+export:         to AS44141 194.68.129.133 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === GALACSYS-AS ===
+import:         from AS28855 194.68.129.137 at 194.68.129.245 action pref=15000; accept AS-GALACSYS
+export:         to AS28855 194.68.129.137 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === VODANET ===
+import:         from AS3209 194.68.129.139 at 194.68.129.245 action pref=15000; accept AS-ARCORGLOBAL
+export:         to AS3209 194.68.129.139 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === PPR-AS15422 ===
+import:         from AS15422 194.68.129.143 at 194.68.129.245 action pref=15000; accept AS-PPR
+export:         to AS15422 194.68.129.143 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === OVH ===
+import:         from AS16276 194.68.129.144 at 194.68.129.245 action pref=15000; accept AS-OVH
+export:         to AS16276 194.68.129.144 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === OXYMIUM ===
+import:         from AS41157 194.68.129.145 at 194.68.129.245 action pref=15000; accept AS-OXYMIUM
+export:         to AS41157 194.68.129.145 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === FR-M-ROOT-SERVER ===
+import:         from AS7500 194.68.129.148 at 194.68.129.245 action pref=15000; accept AS-RENATER
+export:         to AS7500 194.68.129.148 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === IKOULA ===
+import:         from AS21409 194.68.129.153 at 194.68.129.245 action pref=15000; accept AS-IKOULA
+export:         to AS21409 194.68.129.153 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === SWISSCOM ===
+import:         from AS3303 194.68.129.159 at 194.68.129.245 action pref=15000; accept AS-SWCMCHPEERS
+export:         to AS3303 194.68.129.159 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === STELLA-NET ===
+import:         from AS16211 194.68.129.163 at 194.68.129.245 action pref=15000; accept AS-STELLANET
+export:         to AS16211 194.68.129.163 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === YACAST-AS ===
+import:         from AS24963 194.68.129.171 at 194.68.129.245 action pref=15000; accept AS-YACAST
+export:         to AS24963 194.68.129.171 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === ASN-BICS ===
+import:         from AS6774 194.68.129.173 at 194.68.129.245 action pref=15000; accept AS-BELBONETOPEERS
+export:         to AS6774 194.68.129.173 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === CPRM ===
+import:         from AS8657 194.68.129.176 at 194.68.129.245 action pref=15000; accept AS-CPRM
+export:         to AS8657 194.68.129.176 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === LDCOMNET ===
+import:         from AS15557 194.68.129.178 at 194.68.129.245 action pref=15000; accept AS-LDCOMNET
+export:         to AS15557 194.68.129.178 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === ASN-NERIM ===
+import:         from AS13193 194.68.129.181 at 194.68.129.245 action pref=15000; accept AS-NERIM
+export:         to AS13193 194.68.129.181 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === BELNET ===
+import:         from AS2611 194.68.129.183 at 194.68.129.245 action pref=15000; accept AS-BELNET
+export:         to AS2611 194.68.129.183 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === GITOYEN-MAIN-AS ===
+import:         from AS20766 194.68.129.186 at 194.68.129.245 action pref=15000; accept AS-Gitoyen
+export:         to AS20766 194.68.129.186 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === COMPLETEL ===
+import:         from AS12670 194.68.129.188 at 194.68.129.245 action pref=15000; accept AS-COMPLETEL
+export:         to AS12670 194.68.129.188 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === LINKBYNET-AS ===
+import:         from AS25593 194.68.129.189 at 194.68.129.245 action pref=15000; accept AS-LINKBYNET
+export:         to AS25593 194.68.129.189 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === COLT ===
+import:         from AS8220 194.68.129.192 at 194.68.129.245 action pref=15000; accept AS-COLT
+export:         to AS8220 194.68.129.192 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === PROSODIE ===
+import:         from AS8784 194.68.129.196 at 194.68.129.245 action pref=15000; accept AS-MGN
+export:         to AS8784 194.68.129.196 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === SUNRISE ===
+import:         from AS6730 194.68.129.213 at 194.68.129.245 action pref=15000; accept AS-GLOBAL
+export:         to AS6730 194.68.129.213 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === ASN-BOUYGTEL-ISP ===
+import:         from AS5410 194.68.129.219 at 194.68.129.245 action pref=15000; accept AS-BOUYGTEL-ISP
+export:         to AS5410 194.68.129.219 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === TDDE-ASN1 ===
+import:         from AS6805 194.68.129.228 at 194.68.129.245 action pref=15000; accept AS-TDDE
+export:         to AS6805 194.68.129.228 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === INTERNETFR ===
+import:         from AS8527 194.68.129.230 at 194.68.129.245 action pref=15000; accept AS-INTERNET-FR
+export:         to AS8527 194.68.129.230 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === AFINIC ===
+import:         from AS2486 194.68.129.238 at 194.68.129.245 action pref=15000; accept AS-AFNIC
+export:         to AS2486 194.68.129.238 at 194.68.129.245 announce AS-ECRITEL
+remarks:        === AT&T EMEA ===
+import:         from AS2686 194.68.129.252 at 194.68.129.245 action pref=15000; accept AS-IGNEMEA
+export:         to AS2686 194.68.129.252 at 194.68.129.245 announce AS-ECRITEL
+remarks:
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | FRANCE-IX TH2 |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === JAGUAR-AS ===
+import:         from AS30781 193.105.232.3 at 193.105.232.72 action pref=15000; accept AS-JAGUAR
+export:         to AS30781 193.105.232.3 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === Interxion-Fr-Transit-AS ===
+import:         from AS34002 193.105.232.4 at 193.105.232.72 action pref=15000; accept AS-WITBE
+export:         to AS34002 193.105.232.4 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === ASN-NUMERICABLE ===
+import:         from AS21502 193.105.232.7 at 193.105.232.72 action pref=15000; accept AS-NUMERICABLE
+export:         to AS21502 193.105.232.7 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === ATRATOIP ===
+import:         from AS5580 193.105.232.9 at 193.105.232.72 action pref=15000; accept AS-ATRATO
+export:         to AS5580 193.105.232.9 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === HURRICANE ===
+import:         from AS6939 193.105.232.10 at 193.105.232.72 action pref=15000; accept AS-HURRICANE
+export:         to AS6939 193.105.232.10 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === FR-RENATER ===
+import:         from AS2200 193.105.232.18 at 193.105.232.72 action pref=15000; accept AS-RENATER
+export:         to AS2200 193.105.232.18 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === FR-RENATER ===
+import:         from AS2200 193.105.232.19 at 193.105.232.72 action pref=15000; accept AS-RENATER
+export:         to AS2200 193.105.232.19 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === NIC-FR-DNS-UNICAST-PARIS1 ===
+import:         from AS2483 193.105.232.20 at 193.105.232.72 action pref=15000; accept AS-AFNIC
+export:         to AS2483 193.105.232.20 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === ASN-CRITEO-EUROPE ===
+import:         from AS44788 193.105.232.25 at 193.105.232.72 action pref=15000; accept AS-CRITEO-EU
+export:         to AS44788 193.105.232.25 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === E4A-AS ===
+import:         from AS34695 193.105.232.26 at 193.105.232.72 action pref=15000; accept AS34695
+export:         to AS34695 193.105.232.26 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === WAN2MANY-AS ===
+import:         from AS29608 193.105.232.31 at 193.105.232.72 action pref=15000; accept AS-W2MY
+export:         to AS29608 193.105.232.31 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === LIXIUM ===
+import:         from AS39600 193.105.232.34 at 193.105.232.72 action pref=15000; accept AS-EUROSV
+export:         to AS39600 193.105.232.34 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === ONEANDONE-AS ===
+import:         from AS8560 193.105.232.42 at 193.105.232.72 action pref=15000; accept AS8560:RS-V4
+export:         to AS8560 193.105.232.42 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === YACAST-AS ===
+import:         from AS24963 193.105.232.43 at 193.105.232.72 action pref=15000; accept AS-YACAST
+export:         to AS24963 193.105.232.43 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === SPLIO-AS ===
+import:         from AS31688 193.105.232.45 at 193.105.232.72 action pref=15000; accept AS-SPLIO
+export:         to AS31688 193.105.232.45 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === DEVCLIC-AS ===
+import:         from AS44141 193.105.232.50 at 193.105.232.72 action pref=15000; accept AS-DEVCLIC
+export:         to AS44141 193.105.232.50 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === SWISSCOM ===
+import:         from AS3303 193.105.232.57 at 193.105.232.72 action pref=15000; accept AS-SWCMCHPEERS
+export:         to AS3303 193.105.232.57 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === COLT ===
+import:         from AS8220 193.105.232.58 at 193.105.232.72 action pref=15000; accept AS-COLT
+export:         to AS8220 193.105.232.58 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === CLARANET-AS ===
+import:         from AS8426 193.105.232.61 at 193.105.232.72 action pref=15000; accept AS-CLARANET
+export:         to AS8426 193.105.232.61 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === ASN-BOUYGTEL-ISP ===
+import:         from AS5410 193.105.232.62 at 193.105.232.72 action pref=15000; accept AS-BOUYGTEL-ISP
+export:         to AS5410 193.105.232.62 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === ROOT ===
+import:         from AS5577 193.105.232.66 at 193.105.232.72 action pref=15000; accept AS-ROOT
+export:         to AS5577 193.105.232.66 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === HIVANE ===
+import:         from AS34019 193.105.232.71 at 193.105.232.72 action pref=15000; accept AS-HIVANE
+export:         to AS34019 193.105.232.71 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === BLUENET-TECH-AS ===
+import:         from AS50620 193.105.232.74 at 193.105.232.72 action pref=15000; accept AS-BLUENETECH
+export:         to AS50620 193.105.232.74 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === LINKBYNET-AS ===
+import:         from AS25593 193.105.232.79 at 193.105.232.72 action pref=15000; accept AS-LINKBYNET
+export:         to AS25593 193.105.232.79 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === i3B-AS ===
+import:         from AS39912 193.105.232.85 at 193.105.232.72 action pref=15000; accept AS-I3B
+export:         to AS39912 193.105.232.85 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === TELECITY-LON ===
+import:         from AS15830 193.105.232.89 at 193.105.232.72 action pref=15000; accept AS-TELECITYGROUP-FR
+export:         to AS15830 193.105.232.89 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === EPT-LU ===
+import:         from AS6661 193.105.232.90 at 193.105.232.72 action pref=15000; accept AS-PTLU
+export:         to AS6661 193.105.232.90 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === AKAMAI-ASN1 ===
+import:         from AS20940 193.105.232.168 at 193.105.232.72 action pref=15000; accept AS-AKAMAI
+export:         to AS20940 193.105.232.168 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === FRANCE-IX-AS ===
+import:         from AS51706 193.105.232.250 at 193.105.232.72 action pref=15000; accept AS51706
+export:         to AS51706 193.105.232.250 at 193.105.232.72 announce AS-ECRITEL
+remarks:        === FRANCE-IX-AS ===
+import:         from AS51706 193.105.232.251 at 193.105.232.72 action pref=15000; accept AS51706
+export:         to AS51706 193.105.232.251 at 193.105.232.72 announce AS-ECRITEL
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | FRANCE-IX Redbus |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === COLT ===
+import:         from AS8220 193.105.232.58 at 193.105.232.153 action pref=15000; accept AS-COLT
+export:         to AS8220 193.105.232.58 at 193.105.232.153 announce AS-ECRITEL
+remarks:        === MICROSOFT ===
+import:         from AS8075 193.105.232.5 at 193.105.232.153 action pref=15000; accept AS-MICROSOFT
+export:         to AS8075 193.105.232.5 at 193.105.232.153 announce AS-ECRITEL
+remarks:        === LIXIUM ===
+import:         from AS39600 193.105.232.34 at 193.105.232.153 action pref=15000; accept AS-EUROSV
+export:         to AS39600 193.105.232.34 at 193.105.232.153 announce AS-ECRITEL
+remarks:        === CLARANET-AS ===
+import:         from AS8426 193.105.232.60 at 193.105.232.153 action pref=15000; accept AS-CLARANET
+export:         to AS8426 193.105.232.60 at 193.105.232.153 announce AS-ECRITEL
+remarks:        === IKOULA ===
+import:         from AS21409 193.105.232.76 at 193.105.232.153 action pref=15000; accept AS-IKOULA
+export:         to AS21409 193.105.232.76 at 193.105.232.153 announce AS-ECRITEL
+remarks:        === i3B-AS ===
+import:         from AS39912 193.105.232.85 at 193.105.232.153 action pref=15000; accept AS-I3B
+export:         to AS39912 193.105.232.85 at 193.105.232.153 announce AS-ECRITEL
+remarks:        === TELECITY-LON ===
+import:         from AS15830 193.105.232.89 at 193.105.232.153 action pref=15000; accept AS-TELECITYGROUP-FR
+export:         to AS15830 193.105.232.89 at 193.105.232.153 announce AS-ECRITEL
+remarks:        === EPT-LU ===
+import:         from AS6661 193.105.232.90 at 193.105.232.153 action pref=15000; accept AS-PTLU
+export:         to AS6661 193.105.232.90 at 193.105.232.153 announce AS-ECRITEL
+remarks:        === FRANCE-IX-AS ===
+import:         from AS51706 193.105.232.250 at 193.105.232.153 action pref=15000; accept AS51706
+export:         to AS51706 193.105.232.250 at 193.105.232.153 announce AS-ECRITEL
+remarks:        === FRANCE-IX-AS ===
+import:         from AS51706 193.105.232.251 at 193.105.232.153 action pref=15000; accept AS51706
+export:         to AS51706 193.105.232.251 at 193.105.232.153 announce AS-ECRITEL
+remarks:
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | EQUINIX-IX Paris |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === OXALYDE ===
+import:         from AS47841 195.42.144.11 at 195.42.144.116 action pref=15000; accept AS-OXALYDE
+export:         to AS47841 195.42.144.11 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === CDNETWORKS ===
+import:         from AS36408 195.42.144.24 at 195.42.144.116 action pref=15000; accept AS-PANTHER
+export:         to AS36408 195.42.144.24 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === MULTI-VISP ===
+import:         from AS34021 195.42.144.38 at 195.42.144.116 action pref=15000; accept AS-MULTI-VISP
+export:         to AS34021 195.42.144.38 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === VTX ===
+import:         from AS12350 195.42.144.50 at 195.42.144.116 action pref=15000; accept AS-VTX
+export:         to AS12350 195.42.144.50 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === GLOBAL NETWORK ===
+import:         from AS31500 195.42.144.51 at 195.42.144.116 action pref=15000; accept AS-GLOBAL-NET
+export:         to AS31500 195.42.144.51 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === REZOPOLE ===
+import:         from AS43100 195.42.144.54 at 195.42.144.116 action pref=15000; accept AS-TOPIX-RS
+export:         to AS43100 195.42.144.54 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === E4A-AS ===
+import:         from AS34695 195.42.144.69 at 195.42.144.116 action pref=15000; accept AS34695
+export:         to AS34695 195.42.144.69 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === SOLUINFO ===
+import:         from AS50858 195.42.144.77 at 195.42.144.116 action pref=15000; accept AS-SOLUINFO
+export:         to AS50858 195.42.144.77 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === HURRICANE ===
+import:         from AS6939 195.42.144.104 at 195.42.144.116 action pref=15000; accept AS-HURRICANE
+export:         to AS6939 195.42.144.104 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === LINKBYNET-AS ===
+import:         from AS25593 195.42.144.137 at 195.42.144.116 action pref=15000; accept AS-LINKBYNET
+export:         to AS25593 195.42.144.137 at 195.42.144.116 announce AS-ECRITEL
+remarks:        === AFINIC ===
+import:         from AS2486 195.42.144.153 at 195.42.144.116 action pref=15000; accept AS-AFNIC
+export:         to AS2486 195.42.144.153 at 195.42.144.116 announce AS-ECRITEL
+remarks:
+remarks:        +--------------------------------------------------------------------------------------+
+remarks:        | QIX |
+remarks:        +--------------------------------------------------------------------------------------+
+remarks:
+remarks:        === RISQ-AS ===
+import:         from AS376 accept AS376:AS-CUSTOMERS
+export:         to AS376 announce AS-ECRITEL
+remarks:        === RISQ-AS ===
+import:         from AS376 accept AS376:AS-CUSTOMERS
+export:         to AS376 announce AS-ECRITEL
+remarks:        === ISP TELECOM ===
+import:         from AS22964 accept AS22964
+export:         to AS22964 announce AS-ECRITEL
+remarks:        === B2B2C Inc ===
+import:         from AS16532 accept AS-CIDC
+export:         to AS16532 announce AS-ECRITEL
+remarks:        === Concorde Inc ===
+import:         from AS10996 accept AS-VIF
+export:         to AS10996 announce AS-ECRITEL
+remarks:        === Hydro One Telecom Inc ===
+import:         from AS19752 accept AS19752
+export:         to AS19752 announce AS-ECRITEL
+remarks:        === 3Men@Work ===
+import:         from AS26198 accept AS-3MEN
+export:         to AS26198 announce AS-ECRITEL
+remarks:        === Zerofail ===
+import:         from AS40191 accept AS-ZEROFAIL
+export:         to AS40191 announce AS-ECRITEL
+remarks:
+remarks:        =======================================================
+remarks:        = IPv6 Peering =
+remarks:        =======================================================
+remarks:
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | AMX-IX |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === Packet Clearing House ===
+mp-import:      afi ipv6 from AS42 2001:7F8:1::A500:42:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS42
+mp-export:      afi ipv6 to AS42 2001:7F8:1::A500:42:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === AMS-IX2===
+mp-import:      afi ipv6 from AS1200 2001:7F8:1::A500:1200:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-AMS-IX-RS
+mp-export:      afi ipv6 to AS1200 2001:7F8:1::A500:1200:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === AMS-IX1===
+mp-import:      afi ipv6 from AS1200 2001:7F8:1::A500:1200:2 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-AMS-IX-RS
+mp-export:      afi ipv6 to AS1200 2001:7F8:1::A500:1200:2 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === Packet Clearing House ===
+mp-import:      afi ipv6 from AS3856 2001:7F8:1::A500:3856:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS3856
+mp-export:      afi ipv6 to AS3856 2001:7F8:1::A500:3856:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === Unidata ===
+mp-import:      afi ipv6 from AS5394 2001:7F8:1::A500:5394:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-UNIDATACUST
+mp-export:      afi ipv6 to AS5394 2001:7F8:1::A500:5394:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === SHAW ===
+mp-import:      afi ipv6 from AS6327 2001:7F8:1::A500:6327:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS6327
+mp-export:      afi ipv6 to AS6327 2001:7F8:1::A500:6327:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === AMS-IX-RS ===
+mp-import:      afi ipv6 from AS6777 2001:7F8:1::A500:6777:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-AMS-IX-RS
+mp-export:      afi ipv6 to AS6777 2001:7F8:1::A500:6777:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === AMS-IX-RS ===
+mp-import:      afi ipv6 from AS6777 2001:7F8:1::A500:6777:2 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-SPANKTASTIC
+mp-export:      afi ipv6 to AS6777 2001:7F8:1::A500:6777:2 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === COLT ===
+mp-import:      afi ipv6 from AS8220 2001:7F8:1::A500:8220:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-COLT6
+mp-export:      afi ipv6 to AS8220 2001:7F8:1::A500:8220:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === MANDA ===
+mp-import:      afi ipv6 from AS8365 2001:7F8:1::A500:8365:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-MANDA-CUST
+mp-export:      afi ipv6 to AS8365 2001:7F8:1::A500:8365:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === NET-COLOGNE ===
+mp-import:      afi ipv6 from AS8422 2001:7F8:1::A500:8422:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-NETCOLOGNE-V6
+mp-export:      afi ipv6 to AS8422 2001:7F8:1::A500:8422:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === ONEANDONE-AS ===
+mp-import:      afi ipv6 from AS8560 2001:7F8:1::A500:8560:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS8560:RS-V6
+mp-export:      afi ipv6 to AS8560 2001:7F8:1::A500:8560:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === RDSNET ===
+mp-import:      afi ipv6 from AS8708 2001:7F8:1::A500:8708:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-RDSNET6
+mp-export:      afi ipv6 to AS8708 2001:7F8:1::A500:8708:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === KCOM-SPN ===
+mp-import:      afi ipv6 from AS8897 2001:7F8:1::A500:8897:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-KCOMSPN
+mp-export:      afi ipv6 to AS8897 2001:7F8:1::A500:8897:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === ULTRADNS ===
+mp-import:      afi ipv6 from AS12008 2001:7F8:1::A501:2008:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS12008
+mp-export:      afi ipv6 to AS12008 2001:7F8:1::A501:2008:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === NL-SOLCON ===
+mp-import:      afi ipv6 from AS12414 2001:7F8:1::A501:2414:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-SOLCON6
+mp-export:      afi ipv6 to AS12414 2001:7F8:1::A501:2414:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === NL-SOLCON ===
+mp-import:      afi ipv6 from AS12414 2001:7F8:1::A501:2414:2 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-SOLCON6
+mp-export:      afi ipv6 to AS12414 2001:7F8:1::A501:2414:2 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === OTEGlobe ===
+mp-import:      afi ipv6 from AS12713 2001:7F8:1::A501:2713:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-OTEGLOBE
+mp-export:      afi ipv6 to AS12713 2001:7F8:1::A501:2713:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === NL-BIT ===
+mp-import:      afi ipv6 from AS12859 2001:7F8:1::A501:2859:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-BIT6
+mp-export:      afi ipv6 to AS12859 2001:7F8:1::A501:2859:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === NL-BIT ===
+mp-import:      afi ipv6 from AS12859 2001:7F8:1::A501:2859:2 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-BIT6
+mp-export:      afi ipv6 to AS12859 2001:7F8:1::A501:2859:2 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === PEER1 ===
+mp-import:      afi ipv6 from AS13768 2001:7F8:1::A501:3768:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS13768
+mp-export:      afi ipv6 to AS13768 2001:7F8:1::A501:3768:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === GYRON ===
+mp-import:      afi ipv6 from AS29017 2001:7F8:1::A502:9017:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-GYRON
+mp-export:      afi ipv6 to AS29017 2001:7F8:1::A502:9017:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === AS34288 ===
+mp-import:      afi ipv6 from AS34288 2001:7F8:1::A503:4288:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS34288:AS-IX:AS-AMSIX
+mp-export:      afi ipv6 to AS34288 2001:7F8:1::A503:4288:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === OPENCARRIER ===
+mp-import:      afi ipv6 from AS41692 2001:7F8:1::A504:1692:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-OPENCARRIER6
+mp-export:      afi ipv6 to AS41692 2001:7F8:1::A504:1692:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === MNS-AS ===
+mp-import:      afi ipv6 from AS44654 2001:7F8:1::A504:4654:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-MNS
+mp-export:      afi ipv6 to AS44654 2001:7F8:1::A504:4654:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === ASN-CRITEO-EUROPE ===
+mp-import:      afi ipv6 from AS44788 2001:7F8:1::A504:4788:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-CRITEO-EU-V6
+mp-export:      afi ipv6 to AS44788 2001:7F8:1::A504:4788:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:        === SITABINFRA-GLOBAL-AS ===
+mp-import:      afi ipv6 from AS50683 2001:7F8:1::A505:683:1 at 2001:7f8::a500:8304:1 action pref=15000; accept AS-I2B-GLO
+mp-export:      afi ipv6 to AS50683 2001:7F8:1::A505:683:1 at 2001:7f8::a500:8304:1 announce AS-ECRITEL
+remarks:
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | SFINX |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === FR-SFINX ===
+mp-import:      afi ipv6 from AS1304 2001:7F8:4E:2::100 at 2001:7f8:4e:2::245 action pref=15000; accept AS-SFINX-RS-MEMBERS-IPV6
+mp-export:      afi ipv6 to AS1304 2001:7F8:4E:2::100 at 2001:7f8:4e:2::245 announce AS-ECRITEL
+remarks:        === FR-SFINX ===
+mp-import:      afi ipv6 from AS1304 2001:7F8:4E:2::101 at 2001:7f8:4e:2::245 action pref=15000; accept AS-SFINX-RS-MEMBERS-IPV6
+mp-export:      afi ipv6 to AS1304 2001:7F8:4E:2::101 at 2001:7f8:4e:2::245 announce AS-ECRITEL
+remarks:
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | FRANCE-IX TH2 |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === HURRICANE ===
+mp-import:      afi ipv6 from AS6939 2001:7F8:54::10 at 2001:7f8:54::72 action pref=15000; accept AS6939
+mp-export:      afi ipv6 to AS6939 2001:7F8:54::10 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === ASN-CRITEO-EUROPE ===
+mp-import:      afi ipv6 from AS44788 2001:7F8:54::25 at 2001:7f8:54::72 action pref=15000; accept AS-CRITEO-EU-V6
+mp-export:      afi ipv6 to AS44788 2001:7F8:54::25 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === ONEANDONE-AS ===
+mp-import:      afi ipv6 from AS8560 2001:7F8:54::42 at 2001:7f8:54::72 action pref=15000; accept AS8560:RS-V6
+mp-export:      afi ipv6 to AS8560 2001:7F8:54::42 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === COLT ===
+mp-import:      afi ipv6 from AS8220 2001:7F8:54::58 at 2001:7f8:54::72 action pref=15000; accept AS-COLT6
+mp-export:      afi ipv6 to AS8220 2001:7F8:54::58 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === CLARANET-AS ===
+mp-import:      afi ipv6 from AS8426 2001:7F8:54::61 at 2001:7f8:54::72 action pref=15000; accept AS-CLARANET
+mp-export:      afi ipv6 to AS8426 2001:7F8:54::61 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === LINKBYNET-AS ===
+mp-import:      afi ipv6 from AS25593 2001:7F8:54::79 at 2001:7f8:54::72 action pref=15000; accept AS25593
+mp-export:      afi ipv6 to AS25593 2001:7F8:54::79 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === i3B-AS ===
+mp-import:      afi ipv6 from AS39912 2001:7F8:54::85 at 2001:7f8:54::72 action pref=15000; accept AS-I3B
+mp-export:      afi ipv6 to AS39912 2001:7F8:54::85 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === EPT-LU ===
+mp-import:      afi ipv6 from AS6661 2001:7F8:54::90 at 2001:7f8:54::72 action pref=15000; accept AS-PTLU
+mp-export:      afi ipv6 to AS6661 2001:7F8:54::90 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === FRANCE-IX-AS ===
+mp-import:      afi ipv6 from AS51706 2001:7F8:54::250 at 2001:7f8:54::72 action pref=15000; accept AS51706
+mp-export:      afi ipv6 to AS51706 2001:7F8:54::250 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === FRANCE-IX-AS ===
+mp-import:      afi ipv6 from AS51706 2001:7F8:54::251 at 2001:7f8:54::72 action pref=15000; accept AS51706
+mp-export:      afi ipv6 to AS51706 2001:7F8:54::251 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | FRANCE-IX Redbus |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === COLT ===
+mp-import:      afi ipv6 from AS8220 2001:7F8:54::58 at 2001:7f8:54::153 action pref=15000; accept AS-COLT6
+mp-export:      afi ipv6 to AS8220 2001:7F8:54::58 at 2001:7f8:54::153 announce AS-ECRITEL
+remarks:        === CLARANET-AS ===
+mp-import:      afi ipv6 from AS8426 2001:7F8:54::60 at 2001:7f8:54::153 action pref=15000; accept AS-CLARANET
+mp-export:      afi ipv6 to AS8426 2001:7F8:54::60 at 2001:7f8:54::153 announce AS-ECRITEL
+remarks:        === i3B-AS ===
+mp-import:      afi ipv6 from AS39912 2001:7F8:54::85 at 2001:7f8:54::72 action pref=15000; accept AS-I3B
+mp-export:      afi ipv6 to AS39912 2001:7F8:54::85 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === EPT-LU ===
+mp-import:      afi ipv6 from AS6661 2001:7F8:54::90 at 2001:7f8:54::72 action pref=15000; accept AS-PTLU
+mp-export:      afi ipv6 to AS6661 2001:7F8:54::90 at 2001:7f8:54::72 announce AS-ECRITEL
+remarks:        === FRANCE-IX-AS ===
+mp-import:      afi ipv6 from AS51706 2001:7F8:54::250 at 2001:7f8:54::153 action pref=15000; accept AS51706
+mp-export:      afi ipv6 to AS51706 2001:7F8:54::250 at 2001:7f8:54::153 announce AS-ECRITEL
+remarks:        === FRANCE-IX-AS ===
+mp-import:      afi ipv6 from AS51706 2001:7F8:54::251 at 2001:7f8:54::153 action pref=15000; accept AS51706
+mp-export:      afi ipv6 to AS51706 2001:7F8:54::251 at 2001:7f8:54::153 announce AS-ECRITEL
+remarks:
+remarks:        +--------------------------------------------------
+remarks:        | EQUINIX-IX Paris |
+remarks:        +--------------------------------------------------
+remarks:
+remarks:        === AFINIC ===
+mp-import:      afi ipv6 from AS2486 2001:7F8:43::2486:1 at 2001:7F8:43::8304:1 action pref=15000; accept AS-AFNIC
+mp-export:      afi ipv6 to AS2486 2001:7F8:43::2486:1 at 2001:7F8:43::8304:1 announce AS-ECRITEL
+remarks:        === HURRICANE ===
+mp-import:      afi ipv6 from AS6939 2001:7F8:43::6939:1 at 2001:7F8:43::8304:1 action pref=15000; accept AS6939
+mp-export:      afi ipv6 to AS6939 2001:7F8:43::6939:1 at 2001:7F8:43::8304:1 announce AS-ECRITEL
+remarks:        === LINKBYNET-AS ===
+mp-import:      afi ipv6 from AS25593 2001:7F8:43::2:5593:1 at 2001:7F8:43::8304:1 action pref=15000; accept AS25593
+mp-export:      afi ipv6 to AS25593 2001:7F8:43::2:5593:1 at 2001:7F8:43::8304:1 announce AS-ECRITEL
+remarks:        === GLOBAL NETWORK ===
+mp-import:      afi ipv6 from AS31500 2001:7F8:43::3:1500:1 at 2001:7F8:43::8304:1 action pref=15000; accept AS-GLOBAL-NET
+mp-export:      afi ipv6 to AS31500 2001:7F8:43::3:1500:1 at 2001:7F8:43::8304:1 announce AS-ECRITEL
+remarks:        === E4A-AS ===
+mp-import:      afi ipv6 from AS34695 2001:7F8:43::3:4695:1 at 2001:7F8:43::8304:1 action pref=15000; accept AS34695
+mp-export:      afi ipv6 to AS34695 2001:7F8:43::3:4695:1 at 2001:7F8:43::8304:1 announce AS-ECRITEL
+remarks:        === REZOPOLE ===
+mp-import:      afi ipv6 from AS43100 2001:7F8:43::4:3100:1 at 2001:7F8:43::8304:1 action pref=15000; accept AS-TOPIX-RS
+mp-export:      afi ipv6 to AS43100 2001:7F8:43::4:3100:1 at 2001:7F8:43::8304:1 announce AS-ECRITEL
+remarks:        === SOLUINFO ===
+mp-import:      afi ipv6 from AS50858 2001:7F8:43::4:3100:1 at 2001:7F8:43::8304:1 action pref=15000; accept AS-SOLUINFO
+mp-export:      afi ipv6 to AS50858 2001:7F8:43::4:3100:1 at 2001:7F8:43::8304:1 announce AS-ECRITEL
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+admin-c:        ECRI-RIPE
+tech-c:         ECRI-RIPE
+mnt-by:         ECRITEL-MNT
+created:        2002-05-27T09:32:41Z
+last-modified:  2019-02-12T16:32:17Z
+source:         RIPE
+
+organisation:   ORG-EA26-RIPE
+org-name:       Ecritel SASU
+country:        FR
+org-type:       LIR
+address:        5 DOAREN MOLAC
+address:        56610
+address:        ARRADON
+address:        FRANCE
+phone:          +33140615022
+fax-no:         +33140612001
+admin-c:        ECRI-RIPE
+tech-c:         ECRI-RIPE
+abuse-c:        ECRI666-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ECRITEL-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ECRITEL-MNT
+created:        2004-04-17T11:21:46Z
+last-modified:  2023-03-20T10:56:08Z
+source:         RIPE # Filtered
+
+role:           NOC Ecritel
+address:        Ecritel
+address:        84, rue Villeneuve
+address:        92110 CLICHY
+address:        FRANCE
+nic-hdl:        ECRI-RIPE
+mnt-by:         ECRITEL-MNT
+created:        2018-10-18T14:39:55Z
+last-modified:  2024-11-04T11:15:56Z
+source:         RIPE # Filtered
+admin-c:        LG9974-RIPE
+tech-c:         LG9974-RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          5.144.136.0/21
+descr:          ECRITEL FRANCE
+origin:         AS8304
+remarks:        **********ABUSE ISSUES***********
+remarks:        All abuse must be reported to
+remarks:        abuse@ecritel.net for this network.
+remarks:        *****************************************
+mnt-by:         ECRITEL-MNT
+created:        2012-07-11T15:05:33Z
+last-modified:  2012-12-14T10:03:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.227.80.0/21
+descr:          Ecritel.net
+descr:          Provider Local Registry
+origin:         AS8304
+mnt-routes:     ECRITEL-MNT
+mnt-by:         ECRITEL-MNT
+created:        2011-01-28T10:10:56Z
+last-modified:  2011-01-28T10:10:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.91.64.0/20
+descr:          Ecritel.net
+descr:          Provider Local Registry
+origin:         AS8304
+holes:          81.91.64.0/24
+holes:          81.91.65.0/24
+holes:          81.91.66.0/24
+holes:          81.91.67.0/24
+holes:          81.91.68.0/23
+holes:          81.91.69.0/24
+holes:          81.91.70.0/24
+holes:          81.91.71.0/24
+holes:          81.91.72.0/24
+holes:          81.91.73.0/24
+holes:          81.91.74.0/24
+holes:          81.91.75.0/24
+holes:          81.91.76.0/24
+holes:          81.91.77.0/24
+mnt-by:         ECRITEL-MNT
+created:        2007-05-01T20:46:56Z
+last-modified:  2018-10-23T14:28:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.252.0.0/19
+descr:          Oxyd
+origin:         AS8304
+mnt-by:         ECRITEL-MNT
+created:        2020-08-11T08:53:07Z
+last-modified:  2020-08-11T08:53:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.188.64.0/19
+descr:          ECRITEL
+descr:          Provider Local Registry
+origin:         AS8304
+remarks:        **********ABUSE ISSUES**********
+remarks:        All abuse must be reported to
+remarks:        abuse@ecritel.net for this network.
+remarks:        ********************************
+mnt-by:         ECRITEL-MNT
+created:        2007-05-14T13:30:55Z
+last-modified:  2007-05-14T13:30:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.204.208.0/21
+descr:          ECRITEL
+descr:          Provider Local Registry
+origin:         AS8304
+remarks:        **********ABUSE ISSUES***********
+remarks:        All abuse must be reported to
+remarks:        abuse@ecritel.net for this network.
+remarks:        *****************************************
+mnt-by:         ECRITEL-MNT
+created:        2011-10-17T08:33:51Z
+last-modified:  2011-10-17T08:33:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.91.36.0/22
+descr:          GROUPE ECRITEL FRANCE
+origin:         AS8304
+mnt-routes:     ECRITEL-MNT
+mnt-by:         ECRITEL-MNT
+created:        2015-03-17T16:07:26Z
+last-modified:  2018-10-23T14:27:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.239.120.0/22
+descr:          Oxyd
+origin:         AS8304
+mnt-by:         ECRITEL-MNT
+created:        2020-08-11T08:51:45Z
+last-modified:  2020-08-11T08:51:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.60.64.0/22
+descr:          Ecritel.net
+origin:         AS8304
+mnt-by:         LEVEL3-MNT
+changed:        scordova@level3.net 20061123
+source:         LEVEL3
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.13.58.0/23
+descr:          Oxyd
+origin:         AS8304
+mnt-by:         ECRITEL-MNT
+created:        2020-08-11T08:52:22Z
+last-modified:  2020-08-11T08:52:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.200.96.0/19
+descr:          GROUPE ECRITEL FRANCE
+origin:         AS8304
+mnt-by:         ECRITEL-MNT
+created:        2002-01-31T12:20:19Z
+last-modified:  2018-10-23T14:28:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          198.51.136.0/22
+descr:          Ecritel Inc.
+origin:         AS8304
+mnt-by:         MNT-ECRIT
+changed:        lvincent@ecritel.net 20130314
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          199.115.124.0/22
+descr:          Ecritel Inc.
+origin:         AS8304
+mnt-by:         MNT-ECRIT
+changed:        sdavid@ecritel.net 20120308
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.182.32.0/19
+descr:          ECRITEL
+descr:          Provider Local Registry
+origin:         AS8304
+remarks:        **********ABUSE ISSUES***********
+remarks:        All abuse must be reported to
+remarks:        abuse@ecritel.net for this network.
+remarks:        *****************************************
+mnt-by:         ECRITEL-MNT
+created:        2008-11-04T19:03:11Z
+last-modified:  2008-11-04T19:03:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.218.128.0/19
+descr:          GROUPE ECRITEL FRANCE
+origin:         AS8304
+mnt-by:         ECRITEL-MNT
+created:        2004-03-19T10:44:38Z
+last-modified:  2018-10-23T14:28:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.218.128.0/24
+descr:          Proxy-registered route object
+origin:         AS8304
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070216
+source:         LEVEL3
+rpki-ov-state:  valid
+
+route6:         2604:8880::/32
+descr:          Ecritel Inc.
+origin:         AS8304
+mnt-by:         MNT-ECRIT
+changed:        sdavid@ecritel.net 20131231
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:e00::/32
+descr:          Ecritel.net
+descr:          Provider Local Registry
+origin:         AS8304
+mnt-by:         ECRITEL-MNT
+created:        2010-12-30T19:22:48Z
+last-modified:  2010-12-30T19:22:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:e00:1::/48
+origin:         AS8304
+mnt-by:         ECRITEL-MNT
+created:        2025-05-13T10:34:47Z
+last-modified:  2025-05-13T10:34:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

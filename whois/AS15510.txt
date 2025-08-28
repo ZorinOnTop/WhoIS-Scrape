@@ -1,0 +1,635 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15510'
+
+% Abuse contact for 'AS15510' is 'abuse@cwcs.co.uk'
+
+aut-num:        AS15510
+as-name:        CWCS-PS
+org:            ORG-CCSL4-RIPE
+descr:          CompuWeb Communications Services Ltd, GB
+descr:          trading as CWCS Managed Hosting
+descr:          https://www.cwcs.co.uk
+descr:          CWCS has a generally open peering policy, find us
+descr:          at http://as15510.peeringdb.com
+descr:          ==========================================================
+descr:          Upstream
+descr:          ==========================================================
+descr:          NTT
+import:         from AS2914 accept any and not {0.0.0.0/0}
+export:         to AS2914 announce AS-CWCS-PS
+mp-export:      afi ipv6.unicast to AS2914 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS2914 accept any
+descr:          ----------------------------------------------------------
+descr:          CenturyLink
+import:         from AS3356 accept any
+export:         to AS31048 announce AS-CWCS-PS
+mp-export:      afi ipv6.unicast to AS3356 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS3356 accept any
+descr:          ----------------------------------------------------------
+descr:          Cogent
+import:         from AS174 accept any and not {0.0.0.0/0}
+export:         to AS174 announce AS-CWCS-PS
+mp-export:      afi ipv6.unicast to AS174 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS174 accept any
+descr:          ----------------------------------------------------------
+descr:          Matec Global LLC
+import:         from AS51762 accept {46.18.119.0/28} and {46.18.119.32/28} and not {0.0.0.0/0}
+export:         to AS51762 announce AS-CWCS-PS
+descr:          ==========================================================
+descr:          Downstream
+descr:          ==========================================================
+descr:          Digital Evolutions Limited
+import:         from AS31048 accept AS31048
+export:         to AS31048 announce {0.0.0.0/0}
+descr:          ----------------------------------------------------------
+descr:          CWCS-VM
+import:         from AS51905 accept AS51905
+export:         to AS41905 announce {0.0.0.0/0} AND AS-CWCS-PS
+descr:          ==========================================================
+descr:          Route Collectors and Route Servers
+descr:          ==========================================================
+descr:          LINX Route Collector
+export:         to AS5459 announce AS-CWCS-PS
+mp-export:      afi ipv6.unicast to AS5459 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          LINX Route Servers
+import:         from AS8714 accept community.contains(8714:8714)
+export:         to AS8714 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS8714 accept any
+mp-export:      afi ipv6.unicast to AS8714 announce AS-CWCS-PS
+descr:          ==========================================================
+descr:          Peering
+descr:          ==========================================================
+descr:          Hurricane Electric
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Apple
+import:         from AS714 accept AS-APPLE
+export:         to AS714 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS714 accept AS-APPLE
+mp-export:      afi ipv6.unicast to AS714 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          BBC
+import:         from AS2818 accept AS-BBC
+export:         to AS2818 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS2818 accept AS-BBC
+mp-export:      afi ipv6.unicast to AS2818 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Cloudflare
+import:         from AS13335 accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS13335 accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Man-da.de
+import:         from AS8365 accept AS-MANDA
+export:         to AS8365 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS8365 accept AS-MANDA
+mp-export:      afi ipv6.unicast to AS8365 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Emirates Telecommunications Corporation (Etisalat)
+import:         from AS8966 accept AS-EMIX
+export:         to AS8966 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS8966 accept AS-EMIX
+mp-export:      afi ipv6.unicast to AS8966 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Packet Clearing House
+import:         from AS42 accept AS-PCH
+export:         to AS42 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Packet Clearing House
+import:         from AS3856 accept AS-PCH
+export:         to AS3856 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS386 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS386 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Oman Telecommunications Company (Omantel)
+import:         from AS8529 accept AS-OMANTEL
+export:         to AS8529 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS8529 accept AS-OMANTEL
+mp-export:      afi ipv6.unicast to AS8529 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Sky Broadband
+import:         from AS5607 accept AS-BSKYB-BROADBAND
+export:         to AS5607 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS5607 accept AS-BSKYB-BROADBAND
+mp-export:      afi ipv6.unicast to AS5607 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Google
+import:         from AS15169 accept AS-GOOGLE
+export:         to AS15169 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Microsoft
+import:         from AS8075 accept AS-MICROSOFT
+export:         to AS8075 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS8075 accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          VeriSign
+import:         from AS7342 accept AS-GTLD
+export:         to AS7342 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS7342 accept AS-GTLD
+mp-export:      afi ipv6.unicast to AS7342 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Excell Business Systems
+import:         from AS8530 accept AS-EXCELL
+export:         to AS8530 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS8530 accept AS-EXCELL
+mp-export:      afi ipv6.unicast to AS8530 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          MegaFon
+import:         from AS31133 accept AS-MF-MGSM
+export:         to AS31133 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS31133 accept AS-MF-MGSM
+mp-export:      afi ipv6.unicast to AS31133 announce AS-CWCS-PS
+descr:          ----------------------------------------------------------
+descr:          Zain Group
+import:         from AS59605 accept AS-ZAINGP
+export:         to AS59605 announce AS-CWCS-PS
+mp-import:      afi ipv6.unicast from AS59605 accept AS-ZAINGP
+mp-export:      afi ipv6.unicast to AS59605 announce AS-CWCS-PS
+descr:          ==========================================================
+admin-c:        KM2537-RIPE
+tech-c:         JH25620-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         COMPCOMM-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2019-08-08T16:08:04Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CCSL4-RIPE
+org-name:       Compuweb Communications Services Limited
+country:        GB
+org-type:       LIR
+address:        3, PADGE ROAD, BEESTON
+address:        NG9 2JR
+address:        Nottingham
+address:        UNITED KINGDOM
+phone:          +441157401234
+admin-c:        KM2537-RIPE
+admin-c:        JH25620-RIPE
+tech-c:         JH25620-RIPE
+abuse-c:        CWCS
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        COMPCOMM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         COMPCOMM-MNT
+created:        2010-10-01T15:38:50Z
+last-modified:  2025-08-05T10:36:43Z
+source:         RIPE # Filtered
+
+person:         Julian Harse
+org:            ORG-CCSL4-RIPE
+address:        Compuweb Communications Services Ltd
+address:        Portland St
+address:        Beeston
+address:        Nottingham
+address:        NG9 2LP
+address:        United Kingdom
+phone:          +44 115 740 1247
+remarks:
+nic-hdl:        JH25620-RIPE
+mnt-by:         JHARSE-MNT
+mnt-by:         COMPCOMM-MNT
+created:        2014-10-20T14:49:29Z
+last-modified:  2016-06-01T12:27:10Z
+source:         RIPE # Filtered
+
+person:         Karl Mendez
+address:        Compuweb Communications Services Limited
+address:        Bowden Drive
+address:        Beeston
+address:        Nottingham
+address:        NG9 2JY
+address:        UK
+phone:          +44 115 968 3150
+fax-no:         +44 115 968 3159
+nic-hdl:        KM2537-RIPE
+mnt-by:         COMPCOMM-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-06-03T18:31:33Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          45.158.164.0/22
+origin:         AS15510
+descr:          www.supremeservers.com
+mnt-by:         mnt-us-supremeservers-1
+created:        2019-09-27T17:22:51Z
+last-modified:  2019-09-27T17:23:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.158.164.0/23
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2022-11-03T15:31:15Z
+last-modified:  2022-11-03T15:31:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.17.88.0/21
+descr:          CompuWeb Communications Services Ltd
+org:            ORG-CCSL4-RIPE
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2013-11-15T12:29:12Z
+last-modified:  2017-04-24T09:53:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.17.88.0/24
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2018-04-23T12:11:03Z
+last-modified:  2018-04-23T12:11:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.17.95.0/24
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2018-04-23T12:11:23Z
+last-modified:  2018-04-23T12:11:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.192.192.0/22
+origin:         AS15510
+org:            ORG-CCSL4-RIPE
+descr:          CWCS Managed Hosting
+mnt-by:         COMPCOMM-MNT
+created:        2017-04-24T09:42:11Z
+last-modified:  2017-04-24T09:42:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.192.192.0/23
+descr:          CompuWeb Communications Services Limited
+origin:         AS15510
+org:            ORG-CCSL4-RIPE
+mnt-by:         COMPCOMM-MNT
+created:        2015-12-14T16:55:22Z
+last-modified:  2015-12-14T16:55:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.192.192.0/23
+descr:          Proxy-registered route object
+origin:         AS15510
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070705
+source:         LEVEL3
+rpki-ov-state:  valid
+
+route:          91.192.194.0/23
+descr:          Proxy-registered route object
+origin:         AS15510
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070705
+source:         LEVEL3
+rpki-ov-state:  valid
+
+route:          91.192.194.0/23
+descr:          CompuWeb Communications Services Limited
+origin:         AS15510
+org:            ORG-CCSL4-RIPE
+mnt-by:         COMPCOMM-MNT
+created:        2015-12-14T16:56:19Z
+last-modified:  2015-12-14T16:56:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.215.184.0/22
+origin:         AS15510
+descr:          CompuWeb Communications Services Limited
+org:            ORG-CCSL4-RIPE
+mnt-by:         COMPCOMM-MNT
+created:        2017-04-24T09:44:58Z
+last-modified:  2017-04-24T09:44:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.215.184.0/23
+descr:          CompuWeb Communications Services Ltd
+org:            ORG-CCSL4-RIPE
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2013-11-25T09:59:54Z
+last-modified:  2017-04-24T09:43:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          91.215.186.0/23
+descr:          Compuweb Communications Services Ltd
+org:            ORG-CCSL4-RIPE
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2013-11-25T10:31:05Z
+last-modified:  2017-04-24T09:45:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          151.246.210.0/24
+origin:         AS15510
+mnt-by:         netutils-mnt
+created:        2025-08-20T11:48:32Z
+last-modified:  2025-08-20T11:48:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          151.246.210.0/24
+origin:         AS15510
+mnt-by:         MAINT-AS834
+descr:          autogen
+changed:        support@ipxo.com 20250822 # 10:53 GMT
+source:         radb
+last-modified:  2025-08-22T10:53:36Z
+rpki-ov-state:  valid
+
+route:          185.27.244.0/22
+descr:          CompuWeb Communications Services Ltd
+org:            ORG-CCSL4-RIPE
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2013-11-15T12:29:12Z
+last-modified:  2017-04-24T09:54:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.164.206.0/23
+descr:          CompuWeb Communications Services Ltd
+org:            ORG-CCSL4-RIPE
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2013-11-15T12:21:03Z
+last-modified:  2017-04-24T09:51:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.200.80.0/23
+descr:          Proxy-registered route object
+origin:         AS15510
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070720
+source:         LEVEL3
+rpki-ov-state:  valid
+
+route:          193.200.80.0/23
+descr:          CompuWeb Communications Services Limited
+origin:         AS15510
+org:            ORG-CCSL4-RIPE
+mnt-by:         COMPCOMM-MNT
+created:        2015-12-14T16:57:23Z
+last-modified:  2015-12-14T16:57:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.116.174.0/23
+descr:          CompuWeb Communication Services Ltd
+org:            ORG-CCSL4-RIPE
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2005-09-08T14:36:36Z
+last-modified:  2017-04-24T11:43:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.216.112.0/23
+descr:          Compuweb Communication Services Ltd
+origin:         AS15510
+notify:         neilr@uk.uu.net
+mnt-by:         AS1849-MNT
+remarks:        **************************************
+remarks:        Please do not send complaints to my email address.
+remarks:        They will NOT be answered by me.
+remarks:        Please send abuse complaints to abuse@uk.uu.net
+remarks:        **************************************
+created:        2002-07-09T14:28:54Z
+last-modified:  2002-07-09T14:28:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.8.126.0/24
+descr:          CompuWeb Communication Services Ltd
+org:            ORG-CCSL4-RIPE
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2005-09-08T14:36:36Z
+last-modified:  2017-04-24T11:43:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a03:be80::/32
+origin:         AS15510
+mnt-by:         COMPCOMM-MNT
+created:        2016-05-23T10:04:15Z
+last-modified:  2016-05-23T10:04:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

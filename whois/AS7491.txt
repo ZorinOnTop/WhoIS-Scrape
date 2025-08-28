@@ -1,0 +1,163 @@
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to 'AS7467 - AS7722'
+
+as-block:       AS7467 - AS7722
+descr:          APNIC ASN block
+remarks:        These AS numbers are further assigned by APNIC
+remarks:        to APNIC members and end-users in the APNIC region
+admin-c:        HM20-AP
+tech-c:         HM20-AP
+mnt-by:         APNIC-HM
+mnt-lower:      APNIC-HM
+last-modified:  2008-09-04T06:40:26Z
+source:         APNIC
+
+role:           APNIC Hostmaster
+address:        6 Cordelia Street
+address:        South Brisbane
+address:        QLD 4101
+country:        AU
+phone:          +61 7 3858 3100
+fax-no:         +61 7 3858 3199
+e-mail:         helpdesk@apnic.net
+admin-c:        AMS11-AP
+tech-c:         AH256-AP
+nic-hdl:        HM20-AP
+remarks:        Administrator for APNIC
+notify:         hostmaster@apnic.net
+mnt-by:         MAINT-APNIC-AP
+last-modified:  2013-10-23T04:06:51Z
+source:         APNIC
+
+% Information related to 'AS7491'
+
+% Abuse contact for 'AS7491' is 'abuse@pldt.net'
+
+aut-num:        AS7491
+as-name:        PI-PH-AS-AP
+descr:          PI-PHILIPINES
+country:        PH
+import:         from AS4774 action pref=100; accept ANY
+import:         from AS4628 action pref=100; accept AS4628 OR AS4629
+import:         from AS4629 action pref=100; accept AS4629 OR AS4628
+import:         from AS2706 action pref=100; accept AS2706
+import:         from AS4855 action pref=100; accept AS4855
+export:         to AS4774 announce ANY
+export:         to AS4628 announce AS7491
+export:         to AS4629 announce AS7491
+export:         to AS2706 announce AS7491
+export:         to AS4855 announce AS7491
+default:        to AS4774 action pref=5; networks ANY
+remarks:        chriskoh@pacific.net.sg 970326
+remarks:        hm-changed@apnic.net 20071010
+org:            ORG-PDSI1-AP
+admin-c:        AB19-AP
+tech-c:         AB19-AP
+abuse-c:        AP792-AP
+mnt-lower:      PIPL-NOC-AP
+mnt-routes:     PIPL-NOC-AP
+mnt-by:         APNIC-HM
+mnt-irt:        IRT-PDSI-PH
+last-modified:  2020-06-15T04:03:54Z
+source:         APNIC
+
+irt:            IRT-PDSI-PH
+address:        Pacific Internet Philippines
+address:        19F, The Taipan Place
+address:        Emerald Ave, Ortigas Ctr
+address:        Pasig City, Philippines
+e-mail:         abuse@pldt.net
+abuse-mailbox:  abuse@pldt.net
+admin-c:        RR5-AP
+tech-c:         NA185-AP
+auth:           # Filtered
+remarks:        abuse@pldt.net was validated on 2025-08-18
+mnt-by:         MAINT-PDSI-AP
+last-modified:  2025-08-18T06:58:56Z
+source:         APNIC
+
+organisation:   ORG-PDSI1-AP
+org-name:       Primeworld Digital Systems, Inc.
+org-type:       LIR
+country:        PH
+address:        19/F The Taipan Place
+address:        F. Ortigas, Jr. Road
+address:        Ortigas Center
+phone:          +63-2-918-0318
+fax-no:         +63-2-918-0318
+e-mail:         ccabecina@pldt.com.ph
+mnt-ref:        APNIC-HM
+mnt-by:         APNIC-HM
+last-modified:  2023-09-05T02:15:21Z
+source:         APNIC
+
+role:           ABUSE PDSIPH
+country:        ZZ
+address:        Pacific Internet Philippines
+address:        19F, The Taipan Place
+address:        Emerald Ave, Ortigas Ctr
+address:        Pasig City, Philippines
+phone:          +000000000
+e-mail:         abuse@pldt.net
+admin-c:        RR5-AP
+tech-c:         NA185-AP
+nic-hdl:        AP792-AP
+remarks:        Generated from irt object IRT-PDSI-PH
+remarks:        abuse@pldt.net was validated on 2025-08-18
+abuse-mailbox:  abuse@pldt.net
+mnt-by:         APNIC-ABUSE
+last-modified:  2025-08-18T06:59:41Z
+source:         APNIC
+
+person:         Alan Boey
+address:        PACNET
+address:        Managed Service Centre
+phone:          +65-6872-1088
+e-mail:         alan.boey@pacnet.com
+nic-hdl:        AB19-AP
+mnt-by:         PIL-NOC-AP
+country:        SG
+last-modified:  2010-02-19T17:46:57Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.34 (WHOIS-UK2)
+
+
+
+route:          192.169.39.0/24
+descr:          Pacific Internet Phils
+origin:         AS7491
+remarks:        IP Transit Client
+notify:         nctabernilla@pldt.com.ph
+notify:         dns-igate@pldt.com.ph
+mnt-by:         MAINT-PLDT
+changed:        nctabernilla@pldt.com.ph 20050727
+source:         NTTCOM
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.169.39.0/24
+descr:          PACNET (proxy-registered route object)
+origin:         AS7491
+remarks:        This route object is for a PACNET customer route which is
+                being exported under this origin AS.
+	               +
+	               This route object was created because no existing route
+                object with the same origin was found, and since some
+                PACNET peers filter based on these objects this route
+                may be rejected if this object is not created.
+                +
+                Please contact abuse@pacnet.net if you have any
+                Concerns regarding Spam/Abuses related to this object
+	               +
+                Please contact ip-noc@pacnet.net if you have any other
+                Questions regarding this object.
+notify:         ip-noc@pacnet.net
+mnt-by:         MAINT-AS4637
+changed:        ip-noc@pacnet.net 20100201
+source:         RADB
+last-modified:  2023-11-13T15:58:54Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

@@ -1,0 +1,142 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16316 - AS16383'
+
+as-block:       AS16316 - AS16383
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2021-01-25T16:07:47Z
+last-modified:  2021-01-25T16:07:47Z
+source:         RIPE
+
+% Information related to 'AS16360'
+
+% Abuse contact for 'AS16360' is 'abuse@signalhorn.com'
+
+aut-num:        AS16360
+as-name:        Satlynx_GmbH
+org:            ORG-OSG1-RIPE
+import:         from AS8220 action pref=200; accept ANY
+import:         from AS47965 action pref=100; accept ANY
+import:         from AS48393 action pref=200; accept AS48393
+import:         from AS3209 accept ANY
+import:         from AS6830 accept ANY
+export:         to AS8220 announce AS-SATLYNX
+export:         to AS47965 announce ANY
+export:         to AS48393 announce ANY {0.0.0.0/0}
+export:         to AS3209 announce AS47965
+export:         to AS3209 announce AS16360
+export:         to AS6830 announce AS16360
+export:         to AS6830 announce AS47965
+admin-c:        SL2377-RIPE
+tech-c:         SL2377-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-SATLYNX
+created:        2001-10-18T10:47:10Z
+last-modified:  2021-06-22T09:31:53Z
+source:         RIPE
+
+organisation:   ORG-OSG1-RIPE
+org-name:       Signalhorn Trusted Networks GmbH
+country:        DE
+org-type:       LIR
+address:        Illerstrasse 15
+address:        71522
+address:        Backnang-Waldrems
+address:        GERMANY
+phone:          +4971919710
+fax-no:         +497191971100
+admin-c:        SR9839-RIPE
+tech-c:         SH11781-RIPE
+abuse-c:        SH11727-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-SATLYNX
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-SATLYNX
+created:        2004-04-17T11:07:36Z
+last-modified:  2020-12-16T12:47:24Z
+source:         RIPE # Filtered
+
+role:           SATLYNX contact role
+address:        Illerstrasse 15
+address:        Backnang Germany
+admin-c:        SR9839-RIPE
+tech-c:         SR9839-RIPE
+nic-hdl:        SL2377-RIPE
+abuse-mailbox:  abuse@signalhorn.com
+created:        2005-06-09T15:29:09Z
+last-modified:  2017-06-20T07:00:36Z
+source:         RIPE # Filtered
+mnt-by:         MNT-SATLYNX
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          64.110.32.0/20
+origin:         AS16360
+descr:          Request from COLT ISP
+admin-c:        LUCAS316-ARIN
+tech-c:         EGGER88-ARIN
+tech-c:         LUCAS316-ARIN
+tech-c:         PERYY-ARIN
+tech-c:         POSCH1-ARIN
+tech-c:         VHP4-ARIN
+mnt-by:         MNT-SATLY
+created:        2025-02-22T13:33:44Z
+last-modified:  2025-02-22T13:33:44Z
+source:         ARIN
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          64.110.144.0/22
+origin:         AS16360
+mnt-by:         lir-us-brander-group-1-MNT
+created:        2025-02-25T06:39:58Z
+last-modified:  2025-02-25T06:39:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          216.252.224.0/23
+origin:         AS16360
+descr:          proxy object for customer to build route filter
+mnt-by:         MAINT-AS8220
+changed:        mark.borchardt@colt.net 20230309  #08:23:02Z
+source:         RADB
+last-modified:  2023-11-13T16:15:23Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          216.252.226.0/23
+origin:         AS16360
+descr:          proxy object for customer to build route filter
+mnt-by:         MAINT-AS8220
+changed:        mark.borchardt@colt.net 20230309  #08:23:55Z
+source:         RADB
+last-modified:  2023-11-13T16:15:23Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          216.252.228.0/22
+origin:         AS16360
+descr:          proxy object for customer to build route filter
+mnt-by:         MAINT-AS8220
+changed:        mark.borchardt@colt.net 20230309  #08:24:42Z
+source:         RADB
+last-modified:  2023-11-13T16:15:23Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

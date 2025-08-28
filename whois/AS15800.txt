@@ -1,0 +1,355 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15719 - AS15803'
+
+as-block:       AS15719 - AS15803
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2024-02-13T15:18:50Z
+last-modified:  2024-02-13T15:18:50Z
+source:         RIPE
+
+% Information related to 'AS15800'
+
+% Abuse contact for 'AS15800' is 'abuse@coordinator.ua'
+
+aut-num:        AS15800
+as-name:        COORDINATOR-AS
+descr:          East-Ukrainian NIC
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+org:            ORG-CL517-RIPE
+remarks:        ************ COORDINATOR IPv4 Routing Policy ******************
+remarks:        ---------------------------------------------------------------
+remarks:        UpStreams
+import:         from AS1820 action pref=10; accept AS1820
+import:         from AS1820 action pref=100; accept ANY
+export:         to AS1820 announce AS-EUNIC
+import:         from AS15626 action pref=10; accept AS15626
+import:         from AS15626 action pref=100; accept ANY
+export:         to AS15626 announce AS-EUNIC
+import:         from AS21500 action pref=10; accept AS21500
+import:         from AS21500 action pref=100; accept ANY
+export:         to AS21500 announce AS-EUNIC
+import:         from AS21100 action pref=10; accept AS21100
+import:         from AS21100 action pref=100; accept ANY
+export:         to AS21100 announce AS-EUNIC
+remarks:        ---------------------------------------------------------------
+remarks:        ************ COORDINATOR IPv6 Routing Policy ******************
+remarks:        ---------------------------------------------------------------
+remarks:        IPv6 UpStreams
+mp-import:      afi ipv6.unicast from AS21500 action pref=10; accept AS21500
+mp-import:      afi ipv6.unicast from AS21500 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS21500 announce AS-EUNIC6
+mp-import:      afi ipv6.unicast from AS15626 action pref=10; accept AS15626
+mp-import:      afi ipv6.unicast from AS1820 action pref=10; accept AS1820
+mp-import:      afi ipv6.unicast from AS15626 action pref=100; accept ANY
+mp-import:      afi ipv6.unicast from AS1820 action pref=100; accept ANY
+mp-import:      afi ipv6.unicast from AS21100 action pref=10; accept AS21100
+mp-import:      afi ipv6.unicast from AS21100 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS15626 announce AS-EUNIC6
+mp-export:      afi ipv6.unicast to AS1820 announce AS-EUNIC6
+mp-export:      afi ipv6.unicast to AS21100 announce AS-EUNIC6
+remarks:        ----------------------------------
+admin-c:        IM5664-RIPE
+admin-c:        IVM1-RIPE
+tech-c:         IM5664-RIPE
+tech-c:         IVM1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         mnt-ua-coordinator-1
+created:        2002-07-18T19:28:18Z
+last-modified:  2024-03-04T19:48:34Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CL517-RIPE
+org-name:       COORDINATOR LTD
+country:        UA
+org-type:       LIR
+address:        P/Box 9397
+address:        61003
+address:        Kharkiv
+address:        UKRAINE
+phone:          +380577529392
+admin-c:        IM5664-RIPE
+tech-c:         IM5664-RIPE
+abuse-c:        AR51240-RIPE
+mnt-ref:        mnt-ua-coordinator-1
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         mnt-ua-coordinator-1
+created:        2019-03-04T14:25:10Z
+last-modified:  2020-12-16T13:29:34Z
+source:         RIPE # Filtered
+
+person:         Igor Mykhailenko
+address:        P/Box 9397
+address:        61003
+address:        Kharkiv
+address:        UKRAINE
+phone:          +380577529392
+nic-hdl:        IM5664-RIPE
+mnt-by:         mnt-ua-coordinator-1
+created:        2019-03-04T14:25:09Z
+last-modified:  2019-03-04T14:25:10Z
+source:         RIPE
+
+person:         Igor V Mikhailenko
+address:        "PP Coordinator" LTD
+address:        PO Box 9397
+address:        Kharkov, Ukraine
+phone:          +380 57 7604509
+nic-hdl:        IVM1-RIPE
+created:        1970-01-01T00:00:00Z
+last-modified:  2020-01-29T05:19:15Z
+source:         RIPE # Filtered
+mnt-by:         mihiv-mnt
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          185.12.112.0/22
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+origin:         AS15800
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+mnt-by:         MIHIV-MNT
+created:        2012-12-06T23:32:18Z
+last-modified:  2019-04-03T09:46:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.12.112.0/24
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+mnt-by:         mihiv-mnt
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+created:        2018-10-18T08:43:52Z
+last-modified:  2019-04-03T09:48:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.12.113.0/24
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+mnt-by:         mihiv-mnt
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+created:        2018-10-18T08:44:32Z
+last-modified:  2019-04-03T09:48:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.12.114.0/24
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+mnt-by:         mihiv-mnt
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+created:        2018-10-18T08:44:58Z
+last-modified:  2019-04-03T09:49:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.12.115.0/24
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+mnt-by:         mihiv-mnt
+created:        2016-04-26T03:59:52Z
+last-modified:  2019-04-03T09:49:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:f080::/32
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+mnt-by:         mihiv-mnt
+created:        2012-12-06T23:19:58Z
+last-modified:  2019-04-03T09:51:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:f080:12:100::/56
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+mnt-by:         mihiv-mnt
+created:        2017-02-22T13:36:48Z
+last-modified:  2019-04-03T09:51:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:f080:13:100::/56
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+created:        2022-03-09T19:45:53Z
+last-modified:  2022-03-09T19:45:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:f081::/32
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+mnt-by:         mihiv-mnt
+created:        2012-12-06T23:23:48Z
+last-modified:  2019-04-03T09:51:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:f081:12:100::/56
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+created:        2022-03-10T07:37:38Z
+last-modified:  2022-03-10T07:37:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:f082::/32
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+mnt-by:         mihiv-mnt
+created:        2012-12-06T23:24:34Z
+last-modified:  2019-04-03T09:52:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:f083::/32
+origin:         AS15800
+descr:          Coordinator LTD
+descr:          Kharkiv, Ukraine
+notify:         ncc@coordinator.ua
+mnt-by:         AS15800-MNT
+mnt-by:         mnt-ua-coordinator-1
+mnt-by:         mihiv-mnt
+created:        2012-12-06T23:25:48Z
+last-modified:  2019-04-03T09:53:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

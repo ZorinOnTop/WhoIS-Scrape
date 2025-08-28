@@ -1,0 +1,1405 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS3209 - AS3353'
+
+as-block:       AS3209 - AS3353
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:19Z
+last-modified:  2018-11-22T15:27:19Z
+source:         RIPE
+
+% Information related to 'AS3261'
+
+% Abuse contact for 'AS3261' is 'registry@donbass.net'
+
+aut-num:        AS3261
+as-name:        DIPT-AS
+org:            ORG-SF2-RIPE
+remarks:        ----------------------------------
+remarks:        * Upstreams *
+remarks:        ----------------------------------
+import:         from AS9002 action pref=200; accept ANY
+export:         to AS9002 announce AS-DIPT
+import:         from AS28917 action pref=200; accept ANY
+export:         to AS28917 announce AS-DIPT
+import:         from AS35320 action pref=200; accept ANY
+export:         to AS35320 announce AS-DIPT
+remarks:        ----------------------------------
+remarks:        * Peers && IX-es *
+remarks:        ----------------------------------
+import:         from AS13188 action pref=800; accept AS-BANKINFORM
+export:         to AS13188 announce AS-DIPT
+import:         from AS15169 action pref=520; accept AS-GOOGLE
+export:         to AS15169 announce AS-DIPT
+import:         from AS15645 action pref=520; accept AS-UAIX
+export:         to AS15645 announce AS-DIPT
+import:         from AS29076 action pref=520; accept AS-CITYTELECOM
+export:         to AS29076 announce AS-DIPT
+import:         from AS31210 action pref=600; accept AS-DTEL-IX
+export:         to AS31210 announce AS-DIPT
+import:         from AS34700 action pref=600; accept AS-KHMAXNET
+export:         to AS34700 announce AS-DIPT
+import:         from AS34867 action pref=600; accept AS-COSMONOVA
+export:         to AS34867 announce AS-DIPT
+import:         from AS50952 action pref=520; accept AS-DATAIX
+export:         to AS50952 announce AS-DIPT
+import:         from AS59613 action pref=520; accept AS-UBNIX
+export:         to AS59613 announce AS-DIPT
+remarks:        ----------------------------------
+remarks:        * IPv4 Customers begin *
+remarks:        ----------------------------------
+import:         from AS9205 action pref=900; accept AS-SNS
+export:         to AS9205 announce ANY
+import:         from AS41172 action pref=900; accept AS41172
+export:         to AS41172 announce ANY
+import:         from AS42485 action pref=900; accept AS42485
+export:         to AS42485 announce ANY
+import:         from AS43162 action pref=900; accept AS43162
+export:         to AS43162 announce ANY
+import:         from AS48730 action pref=900; accept AS48730
+export:         to AS48730 announce ANY
+import:         from AS49511 action pref=900; accept AS49511
+export:         to AS49511 announce ANY
+import:         from AS50052 action pref=900; accept AS50052
+export:         to AS50052 announce ANY
+import:         from AS50204 action pref=900; accept AS50204
+export:         to AS50204 announce ANY
+import:         from AS50354 action pref=900; accept AS50354
+export:         to AS50354 announce ANY
+import:         from AS50459 action pref=900; accept AS-InformService
+export:         to AS50459 announce ANY
+import:         from AS50780 action pref=900; accept AS50780
+export:         to AS50780 announce ANY
+import:         from AS50927 action pref=900; accept AS-DELTA-ISP
+export:         to AS50927 announce ANY
+import:         from AS50981 action pref=900; accept AS50981
+export:         to AS50981 announce ANY
+import:         from AS56428 action pref=900; accept AS56428
+export:         to AS56428 announce ANY
+import:         from AS56824 action pref=900; accept AS56824
+export:         to AS56824 announce ANY
+import:         from AS57005 action pref=900; accept AS57005
+export:         to AS57005 announce ANY
+import:         from AS59618 action pref=900; accept AS59618
+export:         to AS59618 announce ANY
+import:         from AS61988 action pref=900; accept AS61988
+export:         to AS61988 announce ANY
+import:         from AS197488 action pref=900; accept AS197488
+export:         to AS197488 announce ANY
+import:         from AS198179 action pref=900; accept AS198179
+export:         to AS198179 announce ANY
+import:         from AS202198 action pref=900; accept AS202198
+export:         to AS202198 announce ANY
+import:         from AS203781 action pref=900; accept AS203781
+export:         to AS203781 announce ANY
+import:         from AS206326 action pref=900; accept AS206326
+export:         to AS206326 announce ANY
+import:         from AS206987 action pref=900; accept AS206987
+export:         to AS206987 announce ANY
+import:         from AS205962 action pref=900; accept AS205962
+export:         to AS205962 announce ANY
+import:         from AS209595 action pref=900; accept AS209595
+export:         to AS209595 announce ANY
+remarks:        ----------------------------------
+remarks:        * IPv4 Customers end *
+remarks:        ----------------------------------
+remarks:
+remarks:        ----------------------------------
+remarks:        * IPv6 General Routing Policy *
+remarks:        ----------------------------------
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-DIPT-V6
+mp-import:      afi ipv6.unicast from AS9002 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-DIPT-V6
+mp-import:      afi ipv6.unicast from AS35320 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS35320 announce AS-DIPT-V6
+remarks:        ----------------------------------
+admin-c:        FR8614-RIPE
+tech-c:         FR8614-RIPE
+status:         ASSIGNED
+mnt-by:         AS3261-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-08-20T15:02:44Z
+last-modified:  2023-12-08T08:27:00Z
+source:         RIPE
+
+organisation:   ORG-SF2-RIPE
+org-name:       LLC "FTICOM"
+country:        UA
+org-type:       LIR
+address:        street Belyaeva 4
+address:        49000
+address:        Dnepr
+address:        UKRAINE
+phone:          +380(629)530095
+phone:          +380(50)4098040
+fax-no:         +380(629)530095
+admin-c:        FR8614-RIPE
+tech-c:         FR8614-RIPE
+abuse-c:        AR17420-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS3261-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS3261-MNT
+created:        2004-04-17T12:08:55Z
+last-modified:  2020-12-16T12:37:30Z
+source:         RIPE # Filtered
+
+role:           FTICOM Role
+address:        LLC FTICOM
+address:        street Belyaeva 4
+address:        49000
+address:        Dnepr
+address:        UKRAINE
+phone:          +380(629)530095
+phone:          +380(50)4098040
+remarks:        **************************************
+remarks:        Contact addresses:
+remarks:        routing & peering - noc@dipt.ua
+remarks:        spam & security - abuse@dipt.ua
+remarks:        mail - postmaster@dipt.ua
+remarks:        info - http://www.dipt.ua
+remarks:        **************************************
+nic-hdl:        FR8614-RIPE
+mnt-by:         AS3261-MNT
+created:        2018-07-23T15:31:23Z
+last-modified:  2018-07-23T15:31:23Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          2.57.112.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T13:18:51Z
+last-modified:  2022-10-04T13:18:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          2.57.113.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T13:19:31Z
+last-modified:  2022-10-04T13:19:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          2.57.114.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T13:19:39Z
+last-modified:  2022-10-04T13:19:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          2.57.115.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T13:19:46Z
+last-modified:  2022-10-04T13:19:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.128.0/19
+descr:          LLC FTICOM
+descr:          Donetsk, Ukraine
+origin:         AS3261
+notify:         noc@donbass.net
+mnt-by:         AS3261-MNT
+created:        2012-07-26T07:02:18Z
+last-modified:  2016-11-29T13:47:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.128.0/23
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:52:30Z
+last-modified:  2017-12-01T20:52:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.128.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:28:42Z
+last-modified:  2022-10-11T07:28:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.129.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:28:48Z
+last-modified:  2022-10-11T07:28:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.130.0/23
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:52:43Z
+last-modified:  2017-12-01T20:52:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.130.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:44:23Z
+last-modified:  2022-10-11T07:44:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.131.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:44:28Z
+last-modified:  2022-10-11T07:44:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.132.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:52:55Z
+last-modified:  2017-12-01T20:52:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.133.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:53:08Z
+last-modified:  2017-12-01T20:53:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.134.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:44:46Z
+last-modified:  2022-10-11T07:44:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.135.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:45:07Z
+last-modified:  2022-10-11T07:45:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.136.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:45:40Z
+last-modified:  2022-10-11T07:45:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.137.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-06T10:22:34Z
+last-modified:  2022-10-06T10:22:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.138.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:53:43Z
+last-modified:  2017-12-01T20:53:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.139.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-06T09:52:00Z
+last-modified:  2022-10-06T09:52:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.140.0/23
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:54:09Z
+last-modified:  2017-12-01T20:54:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.140.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:46:04Z
+last-modified:  2022-10-11T07:46:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.141.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:46:10Z
+last-modified:  2022-10-11T07:46:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.142.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-06T09:52:13Z
+last-modified:  2022-10-06T09:52:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.143.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-06T09:52:22Z
+last-modified:  2022-10-06T09:52:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.144.0/20
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:54:33Z
+last-modified:  2017-12-01T20:54:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.144.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:46:58Z
+last-modified:  2022-10-11T07:46:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.145.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:47:43Z
+last-modified:  2022-10-11T07:47:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.146.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:47:48Z
+last-modified:  2022-10-11T07:47:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.147.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:47:53Z
+last-modified:  2022-10-11T07:47:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.148.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:47:58Z
+last-modified:  2022-10-11T07:47:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.149.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:48:03Z
+last-modified:  2022-10-11T07:48:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.150.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:48:24Z
+last-modified:  2022-10-11T07:48:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.151.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:49:46Z
+last-modified:  2022-10-11T07:49:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.152.0/23
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2017-09-28T08:38:50Z
+last-modified:  2017-09-28T08:38:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.152.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:49:52Z
+last-modified:  2022-10-11T07:49:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.153.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:49:56Z
+last-modified:  2022-10-11T07:49:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.154.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:50:01Z
+last-modified:  2022-10-11T07:50:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.155.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:50:05Z
+last-modified:  2022-10-11T07:50:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.156.0/23
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2017-09-28T08:49:43Z
+last-modified:  2017-09-28T08:49:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.156.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:50:10Z
+last-modified:  2022-10-11T07:50:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.157.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:50:14Z
+last-modified:  2022-10-11T07:50:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.158.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:51:03Z
+last-modified:  2022-10-11T07:51:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.159.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:51:16Z
+last-modified:  2022-10-11T07:51:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.160.0/21
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T10:48:11Z
+last-modified:  2022-10-04T10:48:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          5.153.160.0/22
+descr:          LLC FTICOM
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2017-12-21T11:02:59Z
+last-modified:  2017-12-21T11:02:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.160.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:57:29Z
+last-modified:  2022-10-11T07:57:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.161.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:57:33Z
+last-modified:  2022-10-11T07:57:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.162.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:57:39Z
+last-modified:  2022-10-11T07:57:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.163.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:57:44Z
+last-modified:  2022-10-11T07:57:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.164.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:57:49Z
+last-modified:  2022-10-11T07:57:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.165.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:58:16Z
+last-modified:  2022-10-11T07:58:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.166.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:58:41Z
+last-modified:  2022-10-11T07:58:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.167.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:58:52Z
+last-modified:  2022-10-11T07:58:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.168.0/22
+descr:          Kramatorsk NET
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T10:49:50Z
+last-modified:  2022-10-04T10:49:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          5.153.168.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:56:08Z
+last-modified:  2022-10-11T07:56:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.169.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:56:14Z
+last-modified:  2022-10-11T07:56:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.170.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:56:19Z
+last-modified:  2022-10-11T07:56:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.171.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T07:56:27Z
+last-modified:  2022-10-11T07:56:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.173.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-09T21:33:17Z
+last-modified:  2022-10-09T21:33:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.174.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-09T21:31:59Z
+last-modified:  2022-10-09T21:31:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.153.175.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-06T10:39:42Z
+last-modified:  2022-10-06T10:39:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          92.242.100.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T16:13:21Z
+last-modified:  2017-12-01T16:13:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.101.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T08:44:58Z
+last-modified:  2022-10-04T08:44:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.102.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T08:46:15Z
+last-modified:  2022-10-04T08:46:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.103.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T16:07:27Z
+last-modified:  2017-12-01T16:07:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.104.0/22
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T08:22:04Z
+last-modified:  2022-10-11T08:22:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.104.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:20:31Z
+last-modified:  2017-12-01T20:20:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.105.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T16:07:48Z
+last-modified:  2017-12-01T16:07:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.106.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T16:08:07Z
+last-modified:  2017-12-01T16:08:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.107.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T16:08:30Z
+last-modified:  2017-12-01T16:08:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.108.0/23
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T08:22:59Z
+last-modified:  2022-10-11T08:22:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.108.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T16:13:39Z
+last-modified:  2017-12-01T16:13:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.109.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:20:46Z
+last-modified:  2017-12-01T20:20:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.116.0/22
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-11T08:19:07Z
+last-modified:  2022-10-11T08:19:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.116.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T09:01:15Z
+last-modified:  2022-10-04T09:01:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.117.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T09:01:35Z
+last-modified:  2022-10-04T09:01:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.118.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2022-10-04T09:01:43Z
+last-modified:  2022-10-04T09:01:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          92.242.119.0/24
+origin:         AS3261
+notify:         hostmaster@donbass.net
+mnt-by:         AS3261-MNT
+created:        2017-12-01T20:22:23Z
+last-modified:  2017-12-01T20:22:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.106.200.0/24
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2024-11-28T21:34:23Z
+last-modified:  2024-11-28T21:34:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:300::/32
+descr:          LLC FTICOM
+descr:          Donetsk, Ukraine
+origin:         AS3261
+mnt-by:         AS3261-MNT
+created:        2014-02-07T10:09:59Z
+last-modified:  2014-02-07T10:09:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

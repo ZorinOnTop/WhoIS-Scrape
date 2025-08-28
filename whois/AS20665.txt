@@ -1,0 +1,215 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20665'
+
+% Abuse contact for 'AS20665' is 'abuse@varna.net'
+
+aut-num:        AS20665
+as-name:        VARNANET-AS
+org:            ORG-VNL1-RIPE
+remarks:        ***************************************
+remarks:        ********** CUSTOMERS SECTION **********
+remarks:        ***************************************
+import:         from AS202543 action pref=20; ACCEPT AS202543
+import:         from AS208737 action pref=20; ACCEPT AS208737
+remarks:        ***********************************
+remarks:        ********** PEERS SECTION **********
+remarks:        ***********************************
+import:         from AS16154 action pref=50; accept AS-VARNAPEERS
+import:         from AS29687 action pref=50; accept AS-VARNAPEERS
+import:         from AS21249 action pref=50; accept AS21249
+import:         from AS21230 action pref=50; accept AS21230
+import:         from AS12796 action pref=50; accept AS12796
+import:         from AS208389 action pref=50; accept AS208389
+import:         from AS48355 action pref=190; accept ANY
+remarks:        ***************************************
+remarks:        ********** UPSTREAMS SECTION **********
+remarks:        ***************************************
+import:         from AS57463 action pref=75; accept ANY
+import:         from AS41059 action pref=75; accept ANY
+import:         from AS6939 action pref=95; accept ANY
+import:         from AS15169 action pref=95; accept ANY
+import:         from AS34224 action pref=100; accept ANY
+import:         from AS41313 action pref=100; accept ANY
+import:         from AS8262 action pref=100; accept ANY
+import:         from AS57344 action pref=100; accept ANY
+remarks:        ======================================
+remarks:        ======================================
+remarks:        ***************************************
+remarks:        ********** CUSTOMERS SECTION **********
+remarks:        ***************************************
+export:         to AS202543 announce ANY
+export:         to AS208737 announce ANY
+remarks:        ***********************************
+remarks:        ********** PEERS SECTION **********
+remarks:        ***********************************
+export:         to AS16154 announce AS-VARNAPEERS
+export:         to AS29687 announce AS-VARNAPEERS
+export:         to AS16154 announce AS-VARNANET
+export:         to AS29687 announce AS-VARNANET
+export:         to AS21249 announce AS-VARNANET
+export:         to AS21230 announce AS-VARNANET
+export:         to AS12796 announce AS-VARNANET
+export:         to AS208389 announce AS-VARNANET
+export:         to  AS48355 announce AS-VARNANET
+remarks:        ***************************************
+remarks:        ********** UPSTREAMS SECTION **********
+remarks:        ***************************************
+export:         to AS57463 announce AS-VARNANET
+export:         to AS41059 announce AS-VARNANET
+export:         to AS6939 announce AS-VARNANET
+export:         to AS15169 announce AS-VARNANET
+export:         to AS34224 announce AS-VARNANET
+export:         to AS41313 announce AS-VARNANET
+export:         to AS8262 announce AS-VARNANET
+export:         to AS57344 announce AS-VARNANET
+admin-c:        JI177-RIPE
+tech-c:         VNN4-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         VARNA-NET
+created:        2002-05-18T09:21:52Z
+last-modified:  2024-06-18T13:28:01Z
+source:         RIPE
+sponsoring-org: ORG-NL38-RIPE
+
+organisation:   ORG-VNL1-RIPE
+org-name:       Varna Net Ltd.
+country:        BG
+org-type:       OTHER
+address:        Varna Net Ltd. 25, "Car Simeon I", Floor 6, office 610, 9000 Varna Bulgaria
+phone:          +359 52691101
+abuse-c:        AR19217-RIPE
+admin-c:        JI177-RIPE
+admin-c:        NSD100-RIPE
+mnt-by:         VARNA-NET
+mnt-ref:        VARNA-NET
+created:        2004-04-17T11:01:25Z
+last-modified:  2022-12-01T17:29:49Z
+source:         RIPE # Filtered
+
+role:           Varna Net NOC
+address:        Varna, Bulgaria
+address:        Varna Net Technical Centre
+phone:          +359 52 699031
+admin-c:        JI177-RIPE
+tech-c:         NSD100-RIPE
+nic-hdl:        VNN4-RIPE
+mnt-by:         VARNA-NET
+created:        2004-06-07T07:57:09Z
+last-modified:  2016-11-28T08:16:01Z
+source:         RIPE # Filtered
+
+person:         Jivko Ianov
+address:        Tzar Simeon Str., 25
+address:        fl. 6, office 610
+address:        9000, Varna
+phone:          +359 52 953953
+nic-hdl:        JI177-RIPE
+mnt-by:         VARNA-NET
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-11-28T08:28:44Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          93.123.6.0/24
+descr:          Varna Net
+origin:         AS20665
+mnt-by:         VARNA-NET
+created:        2012-07-18T06:28:38Z
+last-modified:  2012-07-18T06:28:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.123.7.0/24
+descr:          Varna Net Test Network
+origin:         AS20665
+mnt-by:         VARNA-NET
+created:        2012-04-04T11:42:25Z
+last-modified:  2012-04-04T11:42:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.145.80.0/20
+descr:          Varna Net
+origin:         AS20665
+mnt-by:         VARNA-NET
+created:        2004-04-16T08:17:23Z
+last-modified:  2004-04-16T08:17:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.145.80.0/21
+descr:          Varna Net
+origin:         AS20665
+mnt-by:         VARNA-NET
+created:        2005-09-07T13:29:14Z
+last-modified:  2005-09-07T13:29:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.145.88.0/21
+descr:          Varna Net
+origin:         AS20665
+mnt-by:         VARNA-NET
+created:        2005-09-07T13:27:28Z
+last-modified:  2005-09-07T13:27:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

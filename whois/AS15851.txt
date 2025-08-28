@@ -1,0 +1,213 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15835 - AS15963'
+
+as-block:       AS15835 - AS15963
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15851'
+
+% Abuse contact for 'AS15851' is 'abuse@wask.wroc.pl'
+
+aut-num:        AS15851
+as-name:        WASK-COM
+org:            ORG-WCoN1-RIPE
+descr:          WROCMAN-COM non-educational part of WASK network, Wroclaw,Poland
+descr:          WASK - Wroclawska Akademicka Siec Komputerowa
+import:         from AS8970
+                accept ANY
+import:         from AS35179
+                action pref=150; community.append(8501:1014);
+                accept ANY
+import:         from AS13293
+                accept ANY
+import:         from AS35628
+                action pref=80;
+                accept ANY
+import:         from AS20960
+                action pref=150; community.append(8970:1000);
+                accept <^AS20960 .*>
+import:         from AS6830
+                action pref=150; community.append(8970:1000);
+                accept <^AS6830 .*>
+import:         from AS39171
+                action pref=150; community.append(8970:1000);
+                accept AS39171
+import:         from AS8323
+                action pref=150; community.append(8970:1002);
+                accept <^AS8323 .*>
+import:         from AS8364
+                action pref=150; community.append(8970:1002);
+                accept <^AS8364 .*>
+import:         from AS12831
+                action pref=150; community.append(8970:1002);
+                accept <^AS12831 .*>
+import:         from AS13065
+                action pref=150; community.append(8970:1002);
+                accept <^AS13056 .*>
+import:         from AS12741
+                action pref=150; community.append(8970:1000);
+                community.append(15851:999);
+                accept <^AS12741 .*>
+import:         from AS38944
+                action pref=150; community.append(8970:1000);
+                community.append(15851:999);
+                accept <^AS38944 .*>
+import:         from AS196844
+                action pref=145;
+                accept ANY
+export:         to AS8970
+                announce ANY AND NOT <^AS13293 .*> AND NOT <^AS35628 .*>
+export:         to AS35179
+                announce ANY AND NOT <^AS35628 .*>
+export:         to AS35628
+                announce AS15851:AS-Wroclaw-COM-PIONIER-TP
+export:         to AS20960
+                announce AS8970 AS15851
+export:         to AS6830
+                announce AS8970 AS15851
+export:         to AS39171
+                announce AS8970 AS15851
+export:         to AS8323
+                announce <^AS15851 .*>
+export:         to AS8364
+                announce <^AS15851 .*>
+export:         to AS12831
+                announce <^AS15851 .*>
+export:         to AS13065
+                announce <^AS15851 .*>
+export:         to AS12741
+                announce AS15851 AS8970
+export:         to AS38944
+                announce AS15851 AS8970
+export:         to AS196844
+                announce <^AS15851 .*>
+default:        to AS13293
+                networks ANY
+admin-c:        WO86-RIPE
+tech-c:         WO86-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ########################################################
+remarks:        In case of abuse like DDoS attempts, intrusion attempts,
+remarks:        hacking, spamming or other unaccepted behavior from WASK
+remarks:        address space, follow WARO1-RIPE contact informations
+remarks:        ########################################################
+mnt-by:         AS8970-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:14:50Z
+source:         RIPE # Filtered
+
+organisation:   ORG-WCoN1-RIPE
+org-name:       Wroclaw Centre of Networking and Supercomputing
+country:        PL
+org-type:       LIR
+address:        Wybrzeze Wyspianskiego 27
+address:        50-370
+address:        Wroclaw
+address:        POLAND
+phone:          +48713203985
+fax-no:         +48713225797
+admin-c:        WD1643-RIPE
+admin-c:        DW3812-RIPE
+tech-c:         WO86-RIPE
+mnt-ref:        AS8970-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8970-MNT
+abuse-c:        WARO1-RIPE
+created:        2004-04-17T11:48:32Z
+last-modified:  2021-06-21T12:28:05Z
+source:         RIPE # Filtered
+
+role:           WASK Operations
+address:        Wroclaw Centre for Networking and Supercomputing
+address:        Plac Grunwaldzki 9
+address:        50-377 Wroclaw, Poland
+phone:          +48713202080
+phone:          +48713202520
+phone:          +48713203985
+fax-no:         +48713225797
+abuse-mailbox:  abuse@wask.wroc.pl
+admin-c:        DW3812-RIPE
+tech-c:         WD1643-RIPE
+nic-hdl:        WO86-RIPE
+mnt-by:         AS8970-MNT
+created:        2003-12-03T12:35:09Z
+last-modified:  2021-06-21T12:26:52Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          212.127.64.0/19
+descr:          WASK
+origin:         AS15851
+mnt-lower:      AS8970-MNT
+mnt-routes:     AS8970-MNT
+mnt-by:         AS8970-MNT
+notify:         registry@wask.wroc.pl
+created:        2004-12-14T22:58:00Z
+last-modified:  2007-02-08T12:51:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          213.231.192.0/18
+descr:          WASK
+origin:         AS15851
+notify:         registry@wask.wroc.pl
+mnt-lower:      AS8970-MNT
+mnt-routes:     AS8970-MNT
+mnt-by:         AS8970-MNT
+created:        2004-12-14T22:53:55Z
+last-modified:  2006-09-01T08:54:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:a48:8000::/36
+descr:          WASK-COM
+origin:         AS15851
+mnt-lower:      AS8970-MNT
+mnt-routes:     AS8970-MNT
+mnt-by:         AS8970-MNT
+notify:         registry@wask.wroc.pl
+created:        2019-09-09T09:36:00Z
+last-modified:  2019-09-09T09:36:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

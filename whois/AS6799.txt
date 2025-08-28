@@ -1,0 +1,3644 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6799'
+
+% Abuse contact for 'AS6799' is 'abuse@ote.gr'
+
+aut-num:        AS6799
+as-name:        OTENET-GR
+descr:          Athens - Greece
+org:            ORG-OSTO1-RIPE
+remarks:        ---------------------------------
+remarks:        General enquiries: noc@otenet.gr
+remarks:        Abuse & Spam: abuse@ote.gr
+remarks:        DNS & RIPE: hostmaster@otenet.gr
+remarks:        ---------------------------------
+remarks:        ====================================================
+remarks:        ROUTING POLICY for OTENET (AS6799)
+remarks:        ====================================================
+remarks:
+remarks:        The following BGP policy is applied to all customers
+remarks:
+remarks:        - Private reserved networks and private AS numbers
+remarks:        are not accepted and always filtered.
+remarks:
+remarks:        - IPv4 Prefixes longer than a /24 are not accepted.
+remarks:
+remarks:        - IPv6 Prefixes longer than a /48 are not accepted.
+remarks:
+remarks:        - Prefixes not matching import policy are rejected.
+remarks:        Customers must always have a valid route object.
+remarks:
+remarks:        - Prefix limit is placed upon the number of prefixes
+remarks:        received including a percentage amount for future
+remarks:        growth.
+remarks:
+remarks:        - Advertisements tagged with communities other than
+remarks:        the one outlined below are reset by default at
+remarks:        ingress.
+remarks:
+remarks:        - We honor well known communities no-export &
+remarks:        no-advertise.
+remarks:
+remarks:        - We drop ALL RPKI invalid prefixes received from Upstream
+remarks:        and Greek Internet Exchange (GR-IX) peers and we prefer ALL
+remarks:        valid vs unknown prefixes.
+remarks:
+remarks:        ====================================================
+remarks:        Local Preference set at ingress
+remarks:        ====================================================
+remarks:        Local preference 201: OTE Customers
+remarks:        Local preference 200: GRIX Primary
+remarks:        Local preference 199: GRIX Secondary
+remarks:        Local preference 197: GRIX Tertiary
+remarks:        Local preference 100: Upstreams
+remarks:        ====================================================
+remarks:
+remarks:        Customer Communities applied at ingress
+remarks:        ====================================================
+remarks:        Community Node
+remarks:        --------- ----------------------
+remarks:        6799:2100 Athens K1
+remarks:        6799:2101 Athens K2
+remarks:        6799:2109 Athens Kx
+remarks:        6799:2110 Athens N1
+remarks:        6799:2111 Athens N2
+remarks:        6799:2119 Athens Nx
+remarks:        6799:2310 Thessaloniki T1
+remarks:        6799:2311 Thessaloniki T2
+remarks:        6799:2319 Thessaloniki Tx
+remarks:        ====================================================
+remarks:
+remarks:        Upstream Communities applied at ingress
+remarks:        ====================================================
+remarks:        Community Node
+remarks:        --------- ----------------------
+remarks:        6799:1001 Athens K1
+remarks:        6799:1002 Athens K2
+remarks:        6799:1003 Athens N2
+remarks:        6799:1011 Thessaloniki T1
+remarks:        ====================================================
+remarks:
+remarks:        Public Peering Communities applied at ingress
+remarks:        ====================================================
+remarks:        Community Node
+remarks:        --------- ----------------------
+remarks:        6799:3000 GRIX primary peering
+remarks:        6799:3001 GRIX secondary peering
+remarks:        6799:3002 GRIX tertiary peering
+remarks:        6799:3100 PNI peering #1
+remarks:        6799:3101 PNI peering #2
+remarks:        ====================================================
+remarks:
+remarks:        Customer Traffic Engineering
+remarks:        ====================================================
+remarks:        Community Action
+remarks:        --------- ----------------------
+remarks:        6799:4080 Local preference = 80
+remarks:        6799:4150 Local preference = 150
+remarks:        6799:4200 Local preference = 200
+remarks:
+remarks:        6799:8080 Local preference at AS12713 = 80
+remarks:        6799:8600 Local preference at AS12713 = 600
+remarks:
+remarks:        6799:5001 prepend 1x to all upstreams and peers
+remarks:        6799:5002 prepend 2x to all upstreams and peers
+remarks:        6799:5003 prepend 3x to all upstreams and peers
+remarks:        6799:5004 prepend 4x to all upstreams and peers
+remarks:        6799:5009 do not announce at all upstreams and peers
+remarks:
+remarks:        6799:5011 prepend 1x to all GRIX peers
+remarks:        6799:5012 prepend 2x to all GRIX peers
+remarks:        6799:5013 prepend 3x to all GRIX peers
+remarks:        6799:5014 prepend 4x to all GRIX peers
+remarks:        6799:5019 do not announce to all GRIX peers
+remarks:
+remarks:        6799:5021 prepend 1x to all upstreams
+remarks:        6799:5022 prepend 2x to all upstreams
+remarks:        6799:5023 prepend 3x to all upstreams
+remarks:        6799:5024 prepend 4x to all upstreams
+remarks:        6799:5029 do not announce to all upstreams
+remarks:
+remarks:        6799:5101   prepend 1x to NOVA(AS1241) PNI
+remarks:        6799:5102   prepend 2x to NOVA(AS1241) PNI
+remarks:        6799:5103   prepend 3x to NOVA(AS1241) PNI
+remarks:        6799:5104   prepend 4x to NOVA(AS1241) PNI
+remarks:        6799:5109   do not announce to NOVA(AS1241) PNI
+remarks:
+remarks:        6799:5111   prepend 1x to AMAZON(AS16509) PNI
+remarks:        6799:5112   prepend 2x to AMAZON(AS16509) PNI
+remarks:        6799:5113   prepend 3x to AMAZON(AS16509) PNI
+remarks:        6799:5114   prepend 4x to AMAZON(AS16509) PNI
+remarks:        6799:5119   do not announce to AMAZON(AS16509) PNI
+remarks:
+remarks:        =====================================================
+remarks:        -----------------------------------------------------
+remarks:
+remarks:        UPSTREAM PEERINGS
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        === OTEGlobe ===
+import:         from AS12713 action pref=100; accept ANY
+export:         to AS12713 announce AS-OTENET
+mp-import:      afi ipv6.unicast from AS12713 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS12713 announce AS-OTENET-V6
+remarks:
+remarks:        ----------------------------------------------------
+remarks:
+remarks:
+remarks:        GR-IX PEERINGS (Greece Internet Exchange - Athens)
+remarks:
+remarks:        ----------------------------------------------------
+remarks:        === GR-IX ===
+import:         from AS199399 action pref=200; accept AS199399:AS-TO-AIX
+export:         to AS199399 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS199399 action pref=200; accept AS199399:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS199399 announce AS-OTENET-V6
+remarks:        === K-ROOT ===
+import:         from AS25152 action pref=200; accept RS-KROOT-GRNET
+export:         to AS25152 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS25152 action pref=200; accept RS-KROOT-GRNET
+mp-export:      afi ipv6.unicast to AS25152 announce AS-OTENET-V6
+remarks:        === VERISIGN J-ROOT ===
+import:         from AS26415 action pref=200; accept AS26415
+export:         to AS26415 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS26415 action pref=200; accept AS26415
+mp-export:      afi ipv6.unicast to AS26415 announce AS-OTENET-V6
+remarks:        === AS112 ROOTSERV ===
+import:         from AS112 action pref=200; accept AS112
+export:         to AS112 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS112 action pref=200; accept AS112
+mp-export:      afi ipv6.unicast to AS112 announce AS-OTENET-V6
+remarks:        === GR-ANYCAST-DNS-CLOUD ===
+import:         from AS48053 action pref=200; accept AS48053
+export:         to AS48053 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS48053 action pref=200; accept AS48053
+mp-export:      afi ipv6.unicast to AS48053 announce AS-OTENET-V6
+remarks:        === MICROSOFT ===
+import:         from AS8075 action pref=200; accept AS-MICROSOFT
+export:         to AS8075 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS8075 action pref=200; accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 announce AS-OTENET-V6
+remarks:        === AMAZON ===
+import:         from AS16509 action pref=199; accept AS16509:AS-AMAZON
+export:         to AS16509 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS16509 action pref=199; accept AS16509:AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 announce AS-OTENET-V6
+remarks:        === NETIX ===
+import:         from AS57463 action pref=200; accept AS-NETIX-NET
+export:         to AS57463 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS57463 action pref=200; accept AS-NETIX-NET
+mp-export:      afi ipv6.unicast to AS57463 announce AS-OTENET-V6
+remarks:        === CLOUDFLARE ===
+import:         from AS13335 action pref=200; accept AS-CLOUDFLARE
+export:         to AS13335 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS13335 action pref=200; accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 announce AS-OTENET-V6
+remarks:        === O3B ===
+import:         from AS60725 action pref=200; accept AS-O3B-GR
+export:         to AS60725 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS60725 action pref=200; accept AS-O3B-GR
+mp-export:      afi ipv6.unicast to AS60725 announce AS-OTENET-V6
+remarks:        === GRNET ===
+import:         from AS5408 action pref=200; accept AS5408:AS-TO-AIX
+export:         to AS5408 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS5408 action pref=200; accept AS5408:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS5408 announce AS-OTENET-V6
+remarks:        === HOL ===
+import:         from AS3329 action pref=200; accept AS3329:AS-TO-AIX
+export:         to AS3329 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS3329 action pref=200; accept AS3329:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS3329 announce AS-OTENET-V6
+remarks:        === FORTHNET ===
+import:         from AS1241 action pref=199; accept AS1241:AS-TO-AIX
+export:         to AS1241 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS1241 action pref=199; accept AS1241:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS1241 announce AS-OTENET-V6
+remarks:        === CYTA ===
+import:         from AS6866 action pref=200; accept AS-CYTAHELLAS
+export:         to AS6866 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6866 action pref=200; accept AS-CYTAHELLAS
+mp-export:      afi ipv6.unicast to AS6866 announce AS-OTENET-V6
+remarks:        === CYTA CYPRUS ===
+import:         from AS6866 action pref=200; accept AS-CYTANET
+export:         to AS6866 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6866 action pref=200; accept AS-CYTANET
+mp-export:      afi ipv6.unicast to AS6866 announce AS-OTENET-V6
+remarks:        === WIND ===
+import:         from AS25472 action pref=200; accept AS25472:AS-TO-AIX
+export:         to AS25472 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS25472 action pref=200; accept AS25472:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS25472 announce AS-OTENET-V6
+remarks:        === MEDNAUTILUS ===
+import:         from AS198477 action pref=200; accept AS198477:AS-TO-AIX
+export:         to AS198477 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS198477 action pref=200; accept AS198477:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS198477 announce AS-OTENET-V6
+remarks:        === ERT ===
+import:         from AS50148 action pref=200; accept AS50148
+export:         to AS50148 announce AS6799:AS-TO-AIX
+remarks:        === LAMDAHELLIX ===
+import:         from AS56910 action pref=200; accept AS56910:AS-TO-AIX
+export:         to AS56910 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS56910 action pref=200; accept AS56910:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS56910 announce AS-OTENET-V6
+remarks:        === DATAWAYS ===
+import:         from AS15544 action pref=200; accept AS15544:AS-TO-AIX
+export:         to AS15544 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS15544 action pref=200; accept AS15544:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS15544 announce AS-OTENET-V6
+remarks:        === MODULUS ===
+import:         from AS201494 action pref=200; accept AS201494:AS-TO-AIX
+export:         to AS201494 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS201494 action pref=200; accept AS201494:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS201494 announce AS-OTENET-V6
+remarks:        === CONNECTICORE ===
+import:         from AS197580 action pref=200; accept AS197580:AS-TO-AIX
+export:         to AS197580 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS197580 action pref=200; accept AS197580:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS197580 announce AS-OTENET-V6
+remarks:        === INALAN ===
+import:         from AS200736 action pref=200; accept AS-INALAN
+export:         to AS200736 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS200736 action pref=200; accept AS-INALAN
+mp-export:      afi ipv6.unicast to AS200736 announce AS-OTENET-V6
+remarks:        === CITYOFATHENS ===
+import:         from AS209608 action pref=200; accept AS209608
+export:         to AS209608 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS209608 action pref=200; accept AS209608
+mp-export:      afi ipv6.unicast to AS209608 announce AS-OTENET-V6
+remarks:        === POINTER ===
+import:         from AS209150 action pref=200; accept AS209150
+export:         to AS209150 announce AS6799:AS-TO-AIX
+remarks:        === SKROUTZ ===
+import:         from AS202042 action pref=200; accept AS202042:AS-TO-AIX
+export:         to AS202042 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS202042 action pref=200; accept AS202042:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS202042 announce AS-OTENET-V6
+remarks:        === EETT ===
+import:         from AS203348 action pref=200; accept AS203348
+export:         to AS203348 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS203348 action pref=200; accept AS203348
+mp-export:      afi ipv6.unicast to AS203348 announce AS-OTENET-V6
+remarks:        === HOSTMEIN ===
+import:         from AS50520 action pref=200; accept as-set-hostmein-grix-1
+export:         to AS50520 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS50520 action pref=200; accept as-set-hostmein-grix-1
+mp-export:      afi ipv6.unicast to AS50520 announce AS-OTENET-V6
+remarks:        === SYNAPSECOM ===
+import:         from AS8280 action pref=200; accept AS-SYNAPSECOM
+export:         to AS8280 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS8280 action pref=200; accept AS-SYNAPSECOM
+mp-export:      afi ipv6.unicast to AS8280 announce AS-OTENET-V6
+remarks:        === RIOTGAMES ===
+import:         from AS6507 action pref=200; accept AS-RIOT
+export:         to AS6507 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6507 action pref=200; accept AS-RIOT
+mp-export:      afi ipv6.unicast to AS6507 announce AS-OTENET-V6
+remarks:        === TOPHOST ===
+import:         from AS199246 action pref=200; accept AS199246
+export:         to AS199246 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS199246 action pref=200; accept AS199246
+mp-export:      afi ipv6.unicast to AS199246 announce AS-OTENET-V6
+remarks:        === HCN ===
+import:         from AS57794 action pref=200; accept AS-HCN
+export:         to AS57794 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS57794 action pref=200; accept AS-HCN
+mp-export:      afi ipv6.unicast to AS57794 announce AS-OTENET-V6
+remarks:        === CYNET ===
+import:         from AS3268 action pref=200; accept AS-CYNET
+export:         to AS3268 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS3268 action pref=200; accept AS-CYNET
+mp-export:      afi ipv6.unicast to AS3268 announce AS-OTENET-V6
+remarks:        === MICROBASE ===
+import:         from AS196945 action pref=200; accept AS-MICROBASE-GRIX
+export:         to AS196945 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS196945 action pref=200; accept AS-MICROBASE-GRIX
+mp-export:      afi ipv6.unicast to AS196945 announce AS-OTENET-V6
+remarks:        === INTERTELECOM ===
+import:         from AS48172 action pref=200; accept AS48172
+export:         to AS48172 announce AS6799:AS-TO-AIX
+remarks:        === LANCOM ===
+import:         from AS199081 action pref=200; accept AS-LANCOM-GR
+export:         to AS199081 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS199081 action pref=200; accept AS-LANCOM-GR
+mp-export:      afi ipv6.unicast to AS199081 announce AS-OTENET-V6
+remarks:        === GREEKSTREAM ===
+import:         from AS206652 action pref=200; accept AS-GREEKSTREAM
+export:         to AS206652 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS206652 action pref=200; accept AS-GREEKSTREAM
+mp-export:      afi ipv6.unicast to AS206652 announce AS-OTENET-V6
+remarks:        === METADOSIS ===
+import:         from AS206529 action pref=200; accept AS-METADOSIS
+export:         to AS206529 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS206529 action pref=200; accept AS-METADOSIS
+mp-export:      afi ipv6.unicast to AS206529 announce AS-OTENET-V6
+remarks:        === SYNET ===
+import:         from AS15414 action pref=200; accept AS15414
+export:         to AS15414 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS15414 action pref=200; accept AS15414
+mp-export:      afi ipv6.unicast to AS15414 announce AS-OTENET-V6
+remarks:        === INTERNETHELLAS ===
+import:         from AS209162 action pref=200; accept AS-INTERNETHELLAS
+export:         to AS209162 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS209162 action pref=200; accept AS-INTERNETHELLAS
+mp-export:      afi ipv6.unicast to AS209162 announce AS-OTENET-V6
+remarks:        === HURRICANE ===
+import:         from AS6939 action pref=200; accept AS-HURRICANE
+export:         to AS6939 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6939 action pref=200; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS-OTENET-V6
+remarks:        === FASTPATH ===
+import:         from AS56457 action pref=200; accept AS-FASTPATH
+export:         to AS56457 announce AS6799:AS-TO-AIX
+remarks:        ==== GCORE ===
+import:         from AS199524 action pref=200; accept AS199524
+export:         to AS199524 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS56457 action pref=200; accept AS-FASTPATH
+mp-export:      afi ipv6.unicast to AS56457 announce AS-OTENET-V6
+remarks:        === GLOMAN ===
+import:         from AS50311 action pref=200; accept AS50311
+export:         to AS50311 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS50311 action pref=200; accept AS50311
+mp-export:      afi ipv6.unicast to AS50311 announce AS-OTENET-V6
+remarks:        === C2 ===
+import:         from AS207540 action pref=200; accept AS207540
+export:         to AS207540 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS207540 action pref=200; accept AS207540
+mp-export:      afi ipv6.unicast to AS207540 announce AS-OTENET-V6
+remarks:        === REALTV ===
+import:         from AS207327 action pref=200; accept AS207327
+export:         to AS207327 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS207327 action pref=200; accept AS207327
+mp-export:      afi ipv6.unicast to AS207327 announce AS-OTENET-V6
+remarks:        ==== FERMORITE ===
+import:         from AS207767 action pref=200; accept AS207767
+export:         to AS207767 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS207767 action pref=200; accept AS207767
+mp-export:      afi ipv6.unicast to AS207767 announce AS-OTENET-V6
+remarks:        ==== FTN ===
+import:         from AS208785 action pref=200; accept AS-FTN_TEL
+export:         to AS208785 announce AS6799:AS-TO-AIX
+remarks:        === SUBSPACE ===
+import:         from AS32261 action pref=200; accept AS-SUBSPACE
+export:         to AS32261 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS32261 action pref=200; accept AS-SUBSPACE
+mp-export:      afi ipv6.unicast to AS32261 announce AS-OTENET-V6
+remarks:        ==== ATHEX ===
+import:         from AS13038 action pref=200; accept AS13038
+export:         to AS13038 announce AS6799:AS-TO-AIX
+remarks:        ==== SYZEFXIS-II ===
+import:         from AS35506 action pref=200; accept AS35506:AS-SYZEFXIS-II
+export:         to AS35506 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS35506 action pref=200; accept AS35506:AS-SYZEFXIS-II
+mp-export:      afi ipv6.unicast to AS35506 announce AS-OTENET-V6
+remarks:        ==== FUSIONED ===
+import:         from AS51392 action pref=200; accept AS-FUSIONED
+export:         to AS51392 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS51392 action pref=200; accept AS-FUSIONED
+mp-export:      afi ipv6.unicast to AS51392 announce AS-OTENET-V6
+remarks:        ==== EDGOONETWORKS ===
+import:         from AS47787 action pref=200; accept AS-HASHPOWER
+export:         to AS47787 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS47787 action pref=200; accept AS-HASHPOWER
+mp-export:      afi ipv6.unicast to AS47787 announce AS-OTENET-V6
+remarks:        ==== PCH-AS42 ===
+import:         from AS42 action pref=200; accept AS-PCH
+export:         to AS42 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS42 action pref=200; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 announce AS-OTENET-V6
+remarks:        ==== PCH-AS3856 ===
+import:         from AS3856 action pref=200; accept AS-PCH
+export:         to AS3856 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS3856 action pref=200; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 announce AS-OTENET-V6
+remarks:        ==== ONECOM ===
+import:         from AS51185 action pref=200; accept AS51185:AS-CUSTOMERS
+export:         to AS51185 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS51185 action pref=200; accept AS51185:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS51185 announce AS-OTENET-V6
+remarks:        ==== INTERCONNECT ===
+import:         from AS208837 action pref=200; accept AS208837
+export:         to AS208837 announce AS6799:AS-TO-AIX
+remarks:        ==== SUPERVOICE ===
+import:         from AS210477 action pref=200; accept AS-SUPERVOICE
+export:         to AS210477 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS210477 action pref=200; accept AS-SUPERVOICE
+mp-export:      afi ipv6.unicast to AS210477 announce AS-OTENET-V6
+remarks:        ==== SOFIACONNECT ===
+import:         from AS47872 action pref=200; accept AS-SOFIA-CONNECT
+export:         to AS47872 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS47872 action pref=200; accept AS-SOFIA-CONNECT
+mp-export:      afi ipv6.unicast to AS47872 announce AS-OTENET-V6
+remarks:        === KAOPUCLOUD ===
+import:         from AS138915 action pref=200; accept AS138915:AS-CUSTOMER
+export:         to AS138915 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS138915 action pref=200; accept AS138915:AS-CUSTOMER
+mp-export:      afi ipv6.unicast to AS138915 announce AS-OTENET-V6
+remarks:        === FRAPORT ===
+import:         from AS202949 action pref=201; accept AS202949
+export:         to   AS202949 announce ANY
+remarks:        ==== NOVELCOMM ===
+import:         from AS206735 action pref=200; accept AS206735
+export:         to AS206735 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS206735 action pref=200; accept AS206735
+mp-export:      afi ipv6.unicast to AS206735 announce AS-OTENET-V6
+remarks:        ==== TELMACO ===
+import:         from AS202112 action pref=200; accept AS-TCDN
+export:         to AS202112 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS202112 action pref=200; accept AS-TCDN
+mp-export:      afi ipv6.unicast to AS202112 announce AS-OTENET-V6
+remarks:        ==== ATT ===
+import:         from AS2686 action pref=200; accept AS2686
+export:         to AS2686 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS2686 action pref=200; accept AS2686
+mp-export:      afi ipv6.unicast to AS2686 announce AS-OTENET-V6
+remarks:        === EVRESIS ===
+import:         from AS209128 action pref=201; accept AS209128
+export:         to   AS209128 announce ANY
+remarks:        ==== YUBOTO ===
+import:         from AS212699 action pref=200; accept AS212699
+export:         to AS212699 announce AS6799:AS-TO-AIX
+remarks:        ==== NETIX-GR ===
+import:         from AS52055 action pref=200; accept AS52055
+export:         to AS52055 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS52055 action pref=200; accept AS52055
+mp-export:      afi ipv6.unicast to AS52055 announce AS-OTENET-V6
+remarks:        ==== MYIPGR ===
+import:         from AS216285 action pref=200; accept AS216285
+export:         to AS216285 announce AS6799:AS-TO-AIX
+remarks:        ==== SONY ===
+import:         from AS33353 action pref=200; accept AS33353
+export:         to AS33353 announce AS6799:AS-TO-AIX
+remarks:        ==== PCCWGLOBAL ===
+import:         from AS3491 action pref=200; accept AS3491
+export:         to AS3491 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS3491 action pref=200; accept AS3491
+mp-export:      afi ipv6.unicast to AS3491 announce AS-OTENET-V6
+remarks:        ==== FASTTELECOM ===
+import:         from AS211186 action pref=200; accept AS211186
+export:         to AS211186 announce AS6799:AS-TO-AIX
+remarks:        ==== BUTLER ===
+import:         from AS215492 action pref=200; accept AS215492
+export:         to AS215492 announce AS6799:AS-TO-AIX
+remarks:        ==== ANIXE_NET ===
+import:         from AS211065 action pref=200; accept AS211065:AS-ANIXE-NET
+export:         to AS211065 announce AS6799:AS-TO-AIX
+remarks:
+remarks:        END of GR-IX PEERINGS Athens
+remarks:        ----------------------------------------------------
+remarks:
+remarks:        GR-IX PEERINGS (Greece Internet Exchange - Thessaloniki)
+remarks:
+remarks:        ----------------------------------------------------
+remarks:        === AS112 ROOTSERV ===
+import:         from AS112 action pref=197; accept AS112
+export:         to AS112 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS112 action pref=197; accept AS112
+mp-export:      afi ipv6.unicast to AS112 announce AS-OTENET-V6
+remarks:        === DATAWAYS ===
+import:         from AS15544 action pref=197; accept AS15544:AS-TO-AIX
+export:         to AS15544 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS15544 action pref=197; accept AS15544:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS15544 announce AS-OTENET-V6
+remarks:        === SYNAPSECOM ===
+import:         from AS8280 action pref=197; accept AS-SYNAPSECOM
+export:         to AS8280 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS8280 action pref=197; accept AS-SYNAPSECOM
+mp-export:      afi ipv6.unicast to AS8280 announce AS-OTENET-V6
+remarks:        === HCN ===
+import:         from AS57794 action pref=197; accept AS-HCN
+export:         to AS57794 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS57794 action pref=197; accept AS-HCN
+mp-export:      afi ipv6.unicast to AS57794 announce AS-OTENET-V6
+remarks:        === METADOSIS ===
+import:         from AS206529 action pref=197; accept AS-METADOSIS
+export:         to AS206529 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS206529 action pref=197; accept AS-METADOSIS
+mp-export:      afi ipv6.unicast to AS206529 announce AS-OTENET-V6
+remarks:        === INTERTELECOM ===
+import:         from AS48172 action pref=197; accept AS48172
+export:         to AS48172 announce AS6799:AS-TO-AIX
+remarks:        === GREEKSTREAM ===
+import:         from AS206652 action pref=197; accept AS-GREEKSTREAM
+export:         to AS206652 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS206652 action pref=197; accept AS-GREEKSTREAM
+mp-export:      afi ipv6.unicast to AS206652 announce AS-OTENET-V6
+remarks:        === VESTITEL ===
+import:         from AS39505 action pref=197; accept AS-VESTITEL
+export:         to AS39505 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS39505 action pref=197; accept AS-VESTITEL
+mp-export:      afi ipv6.unicast to AS39505 announce AS-OTENET-V6
+remarks:        === S3COMPANY ===
+import:         from AS44901 action pref=200; accept AS-S3COMPANY
+export:         to AS44901 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS44901 action pref=200; accept AS-S3COMPANY
+mp-export:      afi ipv6.unicast to AS44901 announce AS-OTENET-V6
+remarks:        === TELEHOUSE ===
+import:         from AS57344 action pref=200; accept AS-TELEHOUSE
+export:         to AS57344 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS57344 action pref=200; accept AS-TELEHOUSE
+mp-export:      afi ipv6.unicast to AS57344 announce AS-OTENET-V6
+remarks:        === IPACCT ===
+import:         from AS31287 action pref=200; accept AS-IPACCT
+export:         to AS31287 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS31287 action pref=200; accept AS-IPACCT
+mp-export:      afi ipv6.unicast to AS31287 announce AS-OTENET-V6
+remarks:        ==== ANEXIA ===
+import:         from AS42473 action pref=200; accept AS42473
+export:         to AS42473 announce AS6799:AS-TO-AIX
+remarks:
+remarks:
+remarks:        END of GR-IX PEERINGS Thessaloniki
+remarks:        ----------------------------------------------------
+remarks:
+remarks:        PRIVATE PEERINGS
+remarks:
+remarks:        ----------------------------------------------------
+remarks:        === FORTHNET ===
+import:         from AS1241 action pref=200; accept AS1241:AS-TO-AIX
+export:         to AS1241 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS1241 action pref=200; accept AS1241:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS1241 announce AS-OTENET-V6
+remarks:        === AMAZON ===
+import:         from AS16509 action pref=200; accept AS16509:AS-AMAZON
+export:         to AS16509 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS16509 action pref=200; accept AS16509:AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 announce AS-OTENET-V6
+remarks:
+remarks:
+remarks:        END of PRIVATE PEERINGS
+remarks:        ----------------------------------------------------
+remarks:
+remarks:        CUSTOMER PEERINGS
+remarks:
+remarks:        ----------------------------------------------------
+remarks:        === ALPHABANK ===
+import:         from AS9128 action pref=201; accept AS9128
+export:         to AS9128 announce ANY
+remarks:        === DELTA ===
+import:         from AS12391 action pref=201; accept AS12391
+export:         to AS12391 announce ANY
+remarks:        === EUROPEANDYNAMICS ===
+import:         from AS15430 action pref=201; accept AS15430
+export:         to AS15430 announce ANY
+remarks:        === EFG_EUROBANK ===
+import:         from AS15439 action pref=201; accept AS15439
+export:         to AS15439 announce ANY
+remarks:        === SINGULAR ===
+import:         from AS20506 action pref=201; accept AS20506
+export:         to AS20506 announce ANY
+remarks:        === ABVASSILOPOULOS ===
+import:         from AS28969 action pref=201; accept AS28969
+export:         to AS28969 announce ANY
+remarks:        === LYCOS ===
+import:         from AS29052 action pref=201; accept AS29052
+export:         to AS29052 announce ANY
+remarks:        === ASDA ===
+import:         from AS29229 action pref=201; accept AS29229
+export:         to AS29229 announce ANY
+remarks:        === TITAN ===
+import:         from AS29353 action pref=201; accept AS29353
+export:         to AS29353 announce ANY
+remarks:        === INTERAMERICAN ===
+import:         from AS34239 action pref=201; accept AS34239
+export:         to AS34239 announce ANY
+remarks:        === INTRASOFTINTL ===
+import:         from AS35446 action pref=201; accept AS35446
+export:         to AS35446 announce ANY
+remarks:        === ADG ===
+import:         from AS35472 action pref=201; accept AS35472
+export:         to AS35472 announce ANY
+remarks:        === SYZEFXIS-I ===
+import:         from AS35506 action pref=201; accept AS35506
+export:         to AS35506 announce ANY
+remarks:        === ATTICABANK ===
+import:         from AS41579 action pref=201; accept AS41579
+export:         to AS41579 announce ANY
+remarks:        === INTERWORKS ===
+import:         from AS50919 action pref=201; accept AS50919
+export:         to AS50919 announce ANY
+mp-import:      afi ipv6.unicast from AS50919 action pref=201; accept AS50919
+mp-export:      afi ipv6.unicast to AS50919 announce ANY
+remarks:        === AEROPORIAAIGAIOY ===
+import:         from AS51537 action pref=201; accept AS51537
+export:         to AS51537 announce ANY
+remarks:        === NEUROPUBLIC ===
+import:         from AS60723 action pref=201; accept AS60723
+export:         to AS60723 announce ANY
+remarks:        === IRISPRINTING ===
+import:         from AS199141 action pref=201; accept AS199141
+export:         to AS199141 announce ANY
+remarks:        === ERGOHELLAS ===
+import:         from AS60911 action pref=201; accept AS60911
+export:         to AS60911 announce ANY
+remarks:        === AIA ===
+import:         from AS199370 action pref=201; accept AS199370
+export:         to AS199370 announce ANY
+mp-import:      afi ipv6.unicast from AS199370 action pref=201; accept AS199370
+mp-export:      afi ipv6.unicast to AS199370 announce ANY
+remarks:        === COSMOTE ===
+import:         from AS29247 action pref=201; accept AS29247
+export:         to AS29247 announce ANY
+mp-import:      afi ipv6.unicast from AS29247 action pref=201; accept AS29247
+mp-export:      afi ipv6.unicast to AS29247 announce ANY
+remarks:        ===OPAP ===
+import:         from AS201293 action pref=201; accept AS201293
+export:         to AS201293 announce ANY
+remarks:        === MASOUTIS ===
+import:         from AS203780 action pref=201; accept AS203780
+export:         to AS203780 announce ANY
+remarks:        ===HELLAS-SAT===
+import:         from AS41697 action pref=201; accept AS41697
+export:         to AS41697 announce ANY
+remarks:        ===DIAS===
+import:         from AS29241 action pref=201; accept AS29241
+export:         to AS29241 announce ANY
+remarks:        === PARLIAMENT ===
+import:         from AS201374 action pref=201; accept AS201374
+export:         to AS201374 announce ANY
+remarks:        === VILLAGEROADSHOW ===
+import:         from AS34780 action pref=201; accept AS34780
+export:         to AS34780 announce ANY
+remarks:        === DELTA-VIVARTIA ===
+import:         from AS24849 action pref=201; accept AS24849
+export:         to AS24849 announce ANY
+remarks:        === EUROLIFE ===
+import:         from AS206697 action pref=201; accept AS206697
+export:         to AS206697 announce ANY
+remarks:        === KARABATSOS ===
+import:         from AS201827 action pref=201; accept AS201827
+export:         to AS201827 announce ANY
+remarks:        === PANCRETA ===
+import:         from AS202506 action pref=201; accept AS202506
+export:         to AS202506 announce ANY
+remarks:        === MOTOROIL ===
+import:         from AS209515 action pref=201; accept AS209515
+export:         to AS209515 announce ANY
+remarks:        === MELLON ===
+import:         from AS208829 action pref=201; accept AS208829
+export:         to AS208829 announce ANY
+remarks:        === IMM_VATOPEDIOU ===
+import:         from AS208858 action pref=201; accept AS208829
+export:         to AS208858 announce ANY
+remarks:        === ALTEREGO ===
+import:         from AS8388 action pref=201; accept AS8388
+export:         to   AS8388 announce ANY
+remarks:        === SIA ===
+import:         from AS208552 action pref=201; accept AS208552
+export:         to AS208552 announce ANY
+remarks:        === QUALCO ===
+import:         from AS212498 action pref=201; accept AS212498
+export:         to AS212498 announce ANY
+remarks:        === ACCENTURE ===
+mp-import:      afi ipv6.unicast from AS3573 action pref=201; accept AS3573
+mp-export:      afi ipv6.unicast to AS3573 announce ANY
+remarks:        === ACCENTURE-PYLAIA ===
+import:         from AS21433 action pref=201; accept AS21433
+export:         to AS21433 announce ANY
+mp-import:      afi ipv6.unicast from AS21433 action pref=201; accept AS21433
+mp-export:      afi ipv6.unicast to AS21433 announce ANY
+remarks:        === HATIPMEMET ===
+import:         from AS212442 action pref=201; accept AS212442
+export:         to AS212442 announce ANY
+remarks:        === CITYOFATHENS ===
+import:         from AS209608 action pref=201; accept AS209608
+export:         to AS209608 announce ANY
+mp-import:      afi ipv6.unicast from AS209608 action pref=201; accept AS209608
+mp-export:      afi ipv6.unicast to AS209608 announce ANY
+remarks:        === RURAL-CONNECT ===
+import:         from AS211186 action pref=201; accept AS211186
+export:         to AS211186 announce ANY
+mp-import:      afi ipv6.unicast from AS211186 action pref=201; accept AS211186
+mp-export:      afi ipv6.unicast to AS211186 announce ANY
+remarks:        === ELTRAK ===
+import:         from AS212274 action pref=201; accept AS212274
+export:         to AS212274 announce ANY
+remarks:        === MARAN-TANKERS ===
+import:         from AS207269 action pref=201; accept AS207269
+export:         to AS207269 announce ANY
+remarks:        === TELEPERFORMANCE ===
+import:         from AS199375 action pref=201; accept AS199375
+export:         to   AS199375 announce ANY
+remarks:
+remarks:        === PUBLIC ===
+import:         from AS215414 action pref=201; accept AS215414
+export:         to   AS215414 announce ANY
+remarks:
+remarks:        === DIKEFALOS1924 ===
+import:         from AS215254 action pref=201; accept AS215254
+export:         to   AS215254 announce ANY
+remarks:        === PIRAEUSBANK ===
+import:         from AS42680 action pref=201; accept AS42680
+export:         to   AS42680 announce ANY
+remarks:        === KOSMOCAR ===
+import:         from AS35459 action pref=201; accept AS35459
+export:         to   AS35459 announce ANY
+remarks:        === SAMOS_STEAMSHIP_COMPANY ===
+import:         from AS215964 action pref=201; accept AS215964
+export:         to   AS215964 announce ANY
+remarks:        === PIRAEUSBANK ===
+import:         from AS28953 action pref=201; accept AS28953
+export:         to   AS28953 announce ANY
+remarks:        === PEOPLECERT_GLOBAL ===
+import:         from AS209111 action pref=201; accept AS209111
+export:         to   AS209111 announce ANY
+remarks:        === SAMOS_STEAMSHIP_COMPANY ===
+import:         from AS215964 action pref=201; accept AS215964
+export:         to   AS215964 announce ANY
+remarks:        === OPTIMA BANK ===
+import:         from AS44036 action pref=201; accept AS44036
+export:         to   AS44036 announce ANY
+remarks:        === OTESAT_MARITEL_21N1007819 ===
+import:         from AS207955 action pref=201; accept AS207955
+export:         to   AS207955 announce ANY
+remarks:        END of CUSTOMER PEERINGS
+remarks:        ======================================================
+admin-c:        OIA15-RIPE
+tech-c:         OIA15-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-08-06T07:59:01Z
+source:         RIPE # Filtered
+
+organisation:   ORG-OSTO1-RIPE
+org-name:       Ote SA (Hellenic Telecommunications Organisation)
+country:        GR
+org-type:       LIR
+address:        99, Kifisias Av.
+address:        151 24
+address:        Marousi
+address:        GREECE
+phone:          +30210611 1000
+admin-c:        GK2650-RIPE
+admin-c:        IT454-RIPE
+admin-c:        AV323-RIPE
+tech-c:         GK2650-RIPE
+abuse-c:        OIA10-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        OTE-ADMIN-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2004-04-17T11:25:10Z
+last-modified:  2021-07-05T06:17:32Z
+source:         RIPE # Filtered
+
+role:           OTENET IP ADM
+address:        OTEnet S.A.
+address:        99 Kifissias Ave, Marousi
+address:        GR-15124 Athens
+address:        Greece
+phone:          +30 210 6110000
+fax-no:         +30 210 8067099
+admin-c:        AV323-RIPE
+tech-c:         PP5896-RIPE
+nic-hdl:        OIA15-RIPE
+abuse-mailbox:  abuse@ote.gr
+remarks:        Please to report spam or abuse use only abuse@ote.gr
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2008-06-12T07:51:22Z
+last-modified:  2021-07-05T06:21:19Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          2.84.0.0/14
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2010-05-21T09:11:43Z
+last-modified:  2010-05-21T09:11:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          2.84.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2010-09-07T09:01:50Z
+last-modified:  2010-12-17T07:10:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          2.84.64.0/19
+descr:          OTE S.A.
+origin:         AS6799
+remarks:        OTE S.A Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2014-04-30T08:19:39Z
+last-modified:  2014-04-30T08:19:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          2.85.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2010-09-07T09:03:22Z
+last-modified:  2010-09-07T09:03:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          2.86.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2010-09-07T09:05:07Z
+last-modified:  2010-09-07T09:05:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          2.86.64.0/19
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2017-10-17T10:49:52Z
+last-modified:  2017-10-17T10:49:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          2.87.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2010-09-07T09:05:35Z
+last-modified:  2010-09-07T09:05:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.217.160.0/19
+descr:          Cosmote FIXED CGN services
+origin:         AS6799
+mnt-by:         COSMOTE-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2023-08-22T13:55:53Z
+last-modified:  2023-08-22T13:55:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.139.212.0/22
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-13T07:38:31Z
+last-modified:  2019-08-13T07:38:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.139.212.0/23
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2024-01-17T12:39:41Z
+last-modified:  2024-01-17T12:39:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          45.139.214.0/23
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2024-01-17T12:40:15Z
+last-modified:  2024-01-17T12:40:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.103.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-10-18T09:09:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.103.0.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:30:51Z
+last-modified:  2019-08-01T06:30:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.103.146.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:32:49Z
+last-modified:  2019-08-01T06:32:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.103.147.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:33:17Z
+last-modified:  2019-08-01T06:33:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.103.147.0/24
+descr:          Proxy-registered route object
+origin:         AS6799
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070827
+source:         LEVEL3
+rpki-ov-state:  valid
+
+route:          62.103.163.0/24
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-01-22T07:04:26Z
+last-modified:  2020-01-22T07:04:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.103.228.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:33:52Z
+last-modified:  2019-08-01T06:33:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.192.64.0/22
+origin:         AS6799
+descr:          Proxy Route Object
+                AC_OTE
+mnt-by:         MAINT-AS19905
+changed:        soc@neustar.biz 20250113 # 22:32 GMT
+source:         RADB
+last-modified:  2025-01-13T22:32:37Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.192.68.0/23
+origin:         AS6799
+descr:          Proxy Route Object for Arbor Cloud
+                AC_OTE
+mnt-by:         MAINT-AS19905
+changed:        soc@neustar.biz 20250113 # 22:07 GMT
+source:         RADB
+last-modified:  2025-01-13T22:07:03Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          79.128.0.0/14
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2007-08-17T07:35:16Z
+last-modified:  2007-08-28T14:04:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.0.0/16
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+created:        2007-08-17T07:45:10Z
+last-modified:  2007-08-17T07:45:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.176.0/24
+descr:          INTERNET-SERVICES
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:36:35Z
+last-modified:  2019-08-01T06:36:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.177.0/24
+descr:          INTERNET-SERVICES
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:36:57Z
+last-modified:  2019-08-01T06:36:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.178.0/24
+descr:          INTERNET-SERVICES
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:37:16Z
+last-modified:  2019-08-01T06:37:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.179.0/24
+descr:          INTERNET-SERVICES
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:37:39Z
+last-modified:  2019-08-01T06:37:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.180.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:38:22Z
+last-modified:  2019-08-01T06:38:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.181.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:39:03Z
+last-modified:  2019-08-01T06:39:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.182.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:39:23Z
+last-modified:  2019-08-01T06:39:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.183.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:39:41Z
+last-modified:  2019-08-01T06:39:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.184.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:39:56Z
+last-modified:  2019-08-01T06:39:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.185.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:40:11Z
+last-modified:  2019-08-01T06:40:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.186.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:40:28Z
+last-modified:  2019-08-01T06:40:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.187.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:40:44Z
+last-modified:  2019-08-01T06:40:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.188.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:40:58Z
+last-modified:  2019-08-01T06:40:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.190.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:43:03Z
+last-modified:  2019-08-01T06:43:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.191.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:43:16Z
+last-modified:  2019-08-01T06:43:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.192.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:43:35Z
+last-modified:  2019-08-01T06:43:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.193.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:43:51Z
+last-modified:  2019-08-01T06:43:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.194.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:44:09Z
+last-modified:  2019-08-01T06:44:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.195.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:44:29Z
+last-modified:  2019-08-01T06:44:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.196.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:44:47Z
+last-modified:  2019-08-01T06:44:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.197.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:45:01Z
+last-modified:  2019-08-01T06:45:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.198.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:45:34Z
+last-modified:  2019-08-01T06:45:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.199.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:45:48Z
+last-modified:  2019-08-01T06:45:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.200.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:46:02Z
+last-modified:  2019-08-01T06:46:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.201.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:46:17Z
+last-modified:  2019-08-01T06:46:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.202.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:46:33Z
+last-modified:  2019-08-01T06:46:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.128.203.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:46:48Z
+last-modified:  2019-08-01T06:46:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.129.0.0/16
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+created:        2007-08-17T07:47:24Z
+last-modified:  2007-08-17T07:47:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.130.0.0/16
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+created:        2007-08-17T07:48:14Z
+last-modified:  2007-08-17T07:48:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.130.0.0/19
+descr:          OTE S.A.
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2014-12-08T13:08:59Z
+last-modified:  2014-12-08T13:08:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.130.64.0/19
+descr:          OTE S.A.
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2014-12-08T13:09:39Z
+last-modified:  2014-12-08T13:09:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.131.0.0/16
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+created:        2007-08-17T07:49:15Z
+last-modified:  2007-08-17T07:49:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          79.131.32.0/19
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-07-13T15:22:34Z
+last-modified:  2016-07-13T15:22:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.106.0.0/15
+descr:          Ote SA (Hellenic Telecommunications Organisation)
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2015-08-25T09:50:23Z
+last-modified:  2015-08-25T09:50:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.106.0.0/16
+descr:          Ote SA (Hellenic Telecommunications Organisation)
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2015-08-25T09:48:22Z
+last-modified:  2015-08-25T09:48:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.106.4.0/23
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2017-05-31T13:54:36Z
+last-modified:  2017-05-31T13:54:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.106.6.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2017-05-31T13:54:55Z
+last-modified:  2017-05-31T13:54:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.106.217.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2017-05-31T13:55:24Z
+last-modified:  2017-05-31T13:55:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.106.237.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2017-05-31T13:55:41Z
+last-modified:  2017-05-31T13:55:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.107.0.0/16
+descr:          Ote SA (Hellenic Telecommunications Organisation)
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2015-08-25T09:48:56Z
+last-modified:  2015-08-25T09:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.107.91.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2017-05-31T13:55:57Z
+last-modified:  2017-05-31T13:55:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.107.116.0/22
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2017-05-31T13:56:14Z
+last-modified:  2017-05-31T13:56:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.107.116.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2024-10-01T11:16:17Z
+last-modified:  2024-10-01T11:16:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.107.117.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2024-10-01T11:16:17Z
+last-modified:  2024-10-01T11:16:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2004-02-10T10:24:15Z
+last-modified:  2004-02-10T10:24:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.64.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:47:59Z
+last-modified:  2019-08-01T06:47:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.67.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:48:14Z
+last-modified:  2019-08-01T06:48:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.70.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:49:37Z
+last-modified:  2019-08-01T06:49:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.71.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:50:01Z
+last-modified:  2019-08-01T06:50:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.72.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:48:15Z
+last-modified:  2018-04-18T13:48:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.73.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:48:42Z
+last-modified:  2018-04-18T13:48:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.74.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:49:05Z
+last-modified:  2018-04-18T13:49:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.75.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:49:26Z
+last-modified:  2018-04-18T13:49:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.76.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:49:50Z
+last-modified:  2018-04-18T13:49:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          83.235.77.0/24
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:50:09Z
+last-modified:  2018-04-18T13:50:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.72.0.0/14
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2006-05-18T08:51:54Z
+last-modified:  2006-05-18T08:51:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.72.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2007-02-16T14:47:47Z
+last-modified:  2007-02-16T14:47:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.73.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2007-02-16T14:59:05Z
+last-modified:  2007-02-16T14:59:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.73.128.0/18
+descr:          OTE S.A.
+origin:         AS6799
+remarks:        OTE S.A Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2014-04-25T06:40:20Z
+last-modified:  2014-04-25T06:40:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.73.192.0/18
+descr:          OTE
+origin:         AS6799
+remarks:        OTE S.A Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2014-01-21T12:07:57Z
+last-modified:  2014-01-21T12:07:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.74.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2007-02-16T15:02:45Z
+last-modified:  2007-02-16T15:02:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.74.160.0/20
+descr:          OTE S.A.
+origin:         AS6799
+remarks:        OTE S.A Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2014-08-29T07:47:22Z
+last-modified:  2014-08-29T07:47:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.74.192.0/19
+descr:          OTE S.A.
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2014-12-08T13:10:38Z
+last-modified:  2014-12-08T13:10:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.75.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2007-02-16T15:04:29Z
+last-modified:  2007-02-16T15:04:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.75.0.0/18
+descr:          OTE
+origin:         AS6799
+remarks:        OTE S.A Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2014-04-10T07:33:28Z
+last-modified:  2014-04-10T07:33:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.75.80.0/21
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-06-09T02:11:07Z
+last-modified:  2016-06-09T02:11:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.75.112.0/21
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-07-13T14:37:28Z
+last-modified:  2018-07-13T14:37:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.75.224.0/20
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-07-13T14:17:09Z
+last-modified:  2018-07-13T14:17:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.202.0.0/15
+descr:          OTENET S.A
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+created:        2005-06-23T08:59:43Z
+last-modified:  2005-06-23T08:59:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.202.0.0/16
+descr:          OTENET S.A
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+created:        2007-02-16T15:07:04Z
+last-modified:  2007-02-16T15:07:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.202.96.0/19
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2015-03-24T08:19:55Z
+last-modified:  2015-03-24T08:19:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.202.128.0/18
+descr:          OTE S.A.
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2015-10-16T12:00:07Z
+last-modified:  2015-10-16T12:00:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.203.0.0/16
+descr:          OTENET S.A
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+created:        2007-02-16T15:09:31Z
+last-modified:  2007-02-16T15:09:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          87.203.64.0/18
+descr:          OTE
+origin:         AS6799
+remarks:        OTE S.A Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2014-01-21T12:10:38Z
+last-modified:  2014-01-21T12:10:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.64.0.0/13
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2008-06-12T14:06:05Z
+last-modified:  2008-06-12T14:06:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.64.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2009-01-23T10:52:14Z
+last-modified:  2009-01-23T10:52:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.65.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2009-01-23T10:52:57Z
+last-modified:  2009-01-23T10:52:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.66.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2009-01-23T10:53:27Z
+last-modified:  2009-01-23T10:53:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.66.56.0/22
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-07-18T14:31:34Z
+last-modified:  2016-07-18T14:31:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.66.96.0/20
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-07-13T13:26:02Z
+last-modified:  2018-07-13T13:26:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.66.128.0/18
+descr:          OTE
+origin:         AS6799
+remarks:        OTE S.A Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2012-01-10T09:47:56Z
+last-modified:  2012-01-10T09:47:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.66.220.0/22
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-07-18T14:32:01Z
+last-modified:  2016-07-18T14:32:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.67.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2009-01-23T10:54:06Z
+last-modified:  2009-01-23T10:54:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.67.128.0/17
+descr:          OTE
+origin:         AS6799
+remarks:        OTE S.A Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2013-09-20T11:14:32Z
+last-modified:  2013-09-20T11:14:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.68.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2009-01-23T10:54:46Z
+last-modified:  2009-01-23T10:54:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.69.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2009-01-23T10:55:23Z
+last-modified:  2009-01-23T10:55:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.69.64.0/19
+descr:          OTE
+origin:         AS6799
+remarks:        OTE S.A Multiprotocol Backbone & ISP
+mnt-by:         OTE-ADMIN-MNT
+created:        2013-09-20T11:16:18Z
+last-modified:  2013-09-20T11:16:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.70.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2009-01-23T10:55:51Z
+last-modified:  2009-01-23T10:55:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.70.0.0/19
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-05-24T07:33:49Z
+last-modified:  2018-05-24T07:33:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.71.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2009-01-23T10:56:17Z
+last-modified:  2009-01-23T10:56:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          94.232.80.0/22
+origin:         AS6799
+mnt-by:         lir-gr-orbyt-global-1-MNT
+created:        2025-05-23T10:46:46Z
+last-modified:  2025-05-23T10:46:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          94.232.80.0/24
+origin:         AS6799
+mnt-by:         lir-gr-orbyt-global-1-MNT
+created:        2025-05-27T08:02:03Z
+last-modified:  2025-05-27T08:02:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          94.232.81.0/24
+origin:         AS6799
+mnt-by:         lir-gr-orbyt-global-1-MNT
+created:        2025-05-27T08:02:21Z
+last-modified:  2025-05-27T08:02:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          94.232.82.0/24
+origin:         AS6799
+mnt-by:         lir-gr-orbyt-global-1-MNT
+created:        2025-05-27T08:02:44Z
+last-modified:  2025-05-27T08:02:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.20.120.0/24
+descr:          Route for COSMOTE
+origin:         AS6799
+mnt-by:         MNT-CC3480
+created:        2023-01-20T17:10:51Z
+last-modified:  2023-01-20T17:10:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.20.121.0/24
+origin:         AS6799
+mnt-by:         MNT-CC3480
+created:        2022-10-04T12:23:09Z
+last-modified:  2022-10-04T12:23:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.146.0.0/15
+descr:          Cosmote
+origin:         AS6799
+mnt-by:         COSMOTE-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-11-19T22:39:24Z
+last-modified:  2020-11-19T22:39:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.146.0.0/16
+descr:          Cosmote
+origin:         AS6799
+mnt-by:         COSMOTE-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-11-19T22:39:24Z
+last-modified:  2020-11-19T22:39:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.147.0.0/16
+descr:          Cosmote
+origin:         AS6799
+mnt-by:         COSMOTE-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-09-12T19:37:51Z
+last-modified:  2019-09-12T19:37:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.19.44.0/22
+origin:         AS6799
+descr:          Proxy Route Object Arbor Cloud
+                AC_OTE
+mnt-by:         MAINT-AS19905
+changed:        soc@neustar.biz 20250113 # 22:12 GMT
+source:         RADB
+last-modified:  2025-01-13T22:12:12Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.44.144.0/22
+descr:          Cosmote
+origin:         AS6799
+mnt-by:         COSMOTE-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-02-14T16:08:55Z
+last-modified:  2020-02-14T16:08:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.44.144.0/23
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2024-01-17T12:41:09Z
+last-modified:  2024-01-17T12:41:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          185.44.146.0/23
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2024-01-17T12:41:33Z
+last-modified:  2024-01-17T12:41:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.106.254.0/24
+descr:          First AB Network
+descr:          OTE Network
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2012-06-01T08:14:12Z
+last-modified:  2012-06-01T08:14:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.106.255.0/24
+descr:          Second AB Network
+descr:          OTE Network
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-02-25T11:52:12Z
+last-modified:  2016-02-25T11:54:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.107.246.0/24
+origin:         AS6799
+descr:          Proxy Route Object Arbor Cloud
+                AC_OTE
+mnt-by:         MAINT-AS19905
+changed:        soc@neustar.biz 20250113 # 22:13 GMT
+source:         RADB
+last-modified:  2025-01-13T22:13:44Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.125.252.0/23
+descr:          GR-GERMANOS
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        2007-12-21T11:53:55Z
+last-modified:  2007-12-21T11:53:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.22.154.0/23
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2025-02-20T14:36:23Z
+last-modified:  2025-02-20T14:36:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.43.132.0/24
+descr:          ETHNIKI-INSURANCE-EMPLOYEE-UNION
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+created:        2008-06-19T09:48:22Z
+last-modified:  2008-06-19T09:48:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.0.0/17
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2015-08-07T08:37:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.167.92.0/24
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-01-22T07:25:25Z
+last-modified:  2020-01-22T07:25:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.170.0.0/19
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-by:         OTENET-GR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.170.0.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:51:05Z
+last-modified:  2019-08-01T06:51:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          195.170.0.0/24
+descr:          Proxy-registered route object
+origin:         AS6799
+remarks:        auto-generated route object
+remarks:        this next line gives the robot something to recognize
+remarks:        L'enfer, c'est les autres
+remarks:
+remarks:        This route object is for a Level 3 customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some Level 3 peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact dl-routing@lumen.com if you have any
+remarks:        questions regarding this object.
+mnt-by:         LEVEL3-MNT
+changed:        roy@Level3.net 20070827
+source:         LEVEL3
+rpki-ov-state:  valid
+
+route:          195.170.2.0/24
+descr:          OTEnet
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-08-01T06:51:20Z
+last-modified:  2019-08-01T06:51:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.205.0.0/16
+descr:          OTEnet
+origin:         AS6799
+remarks:        OTEnet S.A. Multiprotocol Backbone & ISP
+mnt-routes:     COSMOTE-MNT { 212.205.160.0/24^+ }
+mnt-routes:     OTENET-GR-MNT
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2019-05-10T06:02:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.205.221.0/24
+descr:          Eng
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-05-10T06:03:04Z
+last-modified:  2019-05-10T06:03:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.195.128.0/20
+descr:          Voicenet A.E.
+origin:         AS6799
+mnt-by:         OTENET-GR-MNT
+mnt-by:         OTE-ADMIN-MNT
+created:        2019-07-01T11:39:37Z
+last-modified:  2019-07-01T11:40:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.195.128.0/21
+descr:          Voicenet A.E.
+origin:         AS6799
+notify:         milos.knezevic@voice-net.gr
+notify:         George.Gatsios@voice-net.gr
+notify:         hostmaster@otenet.gr
+mnt-by:         OTENET-GR-MNT
+mnt-by:         SOUTHGATE-MNT
+created:        2010-03-05T11:08:48Z
+last-modified:  2010-03-05T11:08:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          217.195.128.0/22
+descr:          Voicenet A.E.
+origin:         AS6799
+notify:         milos.knezevic@voice-net.gr
+notify:         George.Gatsios@voice-net.gr
+notify:         hostmaster@otenet.gr
+mnt-by:         OTENET-GR-MNT
+mnt-by:         SOUTHGATE-MNT
+created:        2010-03-05T11:06:42Z
+last-modified:  2010-03-05T11:06:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:580::/29
+descr:          OTEv6
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+mnt-routes:     OTE-ADMIN-MNT
+created:        2012-07-16T09:43:34Z
+last-modified:  2012-07-16T09:43:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:582:1800::/38
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-06-24T13:36:21Z
+last-modified:  2016-06-24T13:36:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:582:4800::/38
+descr:          OTEv6
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-02-19T10:42:49Z
+last-modified:  2016-02-19T10:43:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:582:5800::/38
+descr:          OTEv6
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-02-19T13:33:39Z
+last-modified:  2016-02-19T13:33:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:582:7000::/38
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-07-20T14:12:23Z
+last-modified:  2018-07-20T14:12:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:586::/35
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:10:04Z
+last-modified:  2020-03-19T13:10:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:586:2000::/36
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:10:42Z
+last-modified:  2020-03-19T13:10:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:586:3000::/36
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:11:18Z
+last-modified:  2020-03-19T13:11:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:586:4000::/34
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:12:40Z
+last-modified:  2020-03-19T13:12:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:586:8000::/34
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:13:05Z
+last-modified:  2020-03-19T13:13:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:586:c000::/34
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:13:30Z
+last-modified:  2020-03-19T13:13:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587::/35
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:13:54Z
+last-modified:  2020-03-19T13:13:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:1800::/38
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-06-24T14:02:31Z
+last-modified:  2016-06-24T14:02:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:2000::/36
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:14:18Z
+last-modified:  2020-03-19T13:14:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:3000::/36
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:14:39Z
+last-modified:  2020-03-19T13:14:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:4000::/34
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:15:05Z
+last-modified:  2020-03-19T13:15:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:4800::/38
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-06-24T14:02:48Z
+last-modified:  2016-06-24T14:02:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:4c00::/38
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-06-24T14:03:09Z
+last-modified:  2016-06-24T14:03:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:501a::/48
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:50:29Z
+last-modified:  2018-04-18T13:50:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:501d::/48
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:50:55Z
+last-modified:  2018-04-18T13:50:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:501e::/48
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:51:17Z
+last-modified:  2018-04-18T13:51:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:50da::/48
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:51:40Z
+last-modified:  2018-04-18T13:51:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:50f7::/48
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:52:00Z
+last-modified:  2018-04-18T13:52:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:50fa::/48
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2018-04-18T13:52:18Z
+last-modified:  2018-04-18T13:52:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:5400::/38
+descr:          OTEv6
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-02-19T13:32:39Z
+last-modified:  2016-02-19T13:32:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:5800::/38
+descr:          OTEv6
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-02-19T13:33:55Z
+last-modified:  2016-02-19T13:33:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:5c00::/38
+descr:          OTEv6
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-02-19T13:34:16Z
+last-modified:  2016-02-19T13:34:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:6000::/38
+descr:          OTEv6
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-02-19T13:34:44Z
+last-modified:  2016-02-19T13:34:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:6400::/38
+descr:          OTEv6
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2016-02-19T13:35:03Z
+last-modified:  2016-02-19T13:35:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:8000::/34
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:15:25Z
+last-modified:  2020-03-19T13:15:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:8400::/40
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2017-07-18T13:58:17Z
+last-modified:  2017-07-18T13:58:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:587:c000::/34
+origin:         AS6799
+mnt-by:         OTE-ADMIN-MNT
+created:        2020-03-19T13:15:46Z
+last-modified:  2020-03-19T13:15:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

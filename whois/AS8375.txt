@@ -1,0 +1,822 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8375'
+
+% Abuse contact for 'AS8375' is 'abuse@de.telehouse.net'
+
+aut-num:        AS8375
+org:            ORG-TDG19-RIPE
+as-name:        UNSPECIFIED
+descr:          Telehouse Deutschland GmbH
+descr:          Kleyerstraße 75 - 87
+descr:          60326 Frankfurt
+remarks:        *** IPv4: Accept ANY from Telia-1299 ***
+import:         from AS1299 accept ANY
+remarks:        *** IPv4: Accept ANY from Retn-9002 ***
+import:         from AS9002 accept ANY
+remarks:        *** IPv4: Accept UD_Media-199753 from UD_Media-199753 ***
+import:         from AS199753 accept AS199753
+remarks:        *** IPv4: Accept SNAFU-34171 from SNAFU-3417 ***
+import:         from AS34171 accept AS34171
+remarks:        *** IPv4: Accept Lailio-202221 from Lailio-202221 ***
+import:         from AS202221 accept AS202221
+remarks:        *** IPv4: Accept EuroSkyPark-208484 from EuroSkyPark-208484 ***
+import:         from AS208484 accept AS208484
+remarks:        *** IPv4: Accept DaimlerAG-31399 from DaimlerAG-31399 ***
+import:         from AS31399 accept AS31399
+remarks:        *** IPv6: Accept ANY from Telia-1299 ***
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+remarks:        *** IPv6: Accept ANY from Retn-9002 ***
+mp-import:      afi ipv6.unicast from AS9002 accept ANY
+remarks:        *** IPv6: Accept UD_Media-199753 from UD_Media-199753 ***
+mp-import:      afi ipv6.unicast from AS199753 accept AS199753
+remarks:        *** IPv6: Announce KDDI_DE-8375 to Telia-1299 ***
+mp-export:      afi ipv6.unicast to AS1299 announce AS8375
+remarks:        *** IPv6: Announce UD_Media-199753 to Telia-1299 ***
+mp-export:      afi ipv6.unicast to AS1299 announce AS199753
+remarks:        *** IPv6: Announce ANY to UD_Media-199753 ***
+mp-export:      afi ipv6.unicast to AS199753 announce ANY
+remarks:        *** IPv4: Announce KDDI_DE-8375 to Telia-1299 ***
+export:         to AS1299 announce AS8375
+remarks:        *** IPv4: Announce UD_Media-199753 to Telia-1299 ***
+export:         to AS1299 announce AS199753
+remarks:        *** IPv4: Announce KDDI_DE-8375 to Retn-9002 ***
+export:         to AS9002 announce AS8375
+remarks:        *** IPv4: Announce UD_Media-199753 to Retn-9002 ***
+export:         to AS9002 announce AS199753
+remarks:        *** IPv4: Announce ANY to UD_Media-199753 ***
+export:         to AS199753 announce ANY
+remarks:        *** IPv4: Announce SNAFU-34171 to Retn-9002 ***
+export:         to AS9002 announce AS34171
+remarks:        *** IPv4: Announce SNAFU-34171 to Telia-1299 ***
+export:         to AS1299 announce AS34171
+remarks:        *** IPv4: Announce ANY to Lailio-202221 ***
+export:         to AS202221 announce ANY
+remarks:        *** IPv4: Announce Lailio-202221 to Retn-9002 ***
+export:         to AS9002 announce AS202221
+remarks:        *** IPv4: Announce Lailio-202221 to Telia-1299 ***
+export:         to AS1299 announce AS202221
+remarks:        *** IPv4: Announce ANY to EuroSkyPark-208484 ***
+export:         to AS208484 announce ANY
+remarks:        *** IPv4: Announce EuroSkyPark-208484 to Telia-1299 ***
+export:         to AS1299 announce AS208484
+remarks:        *** IPv4: Announce EuroSkyPark-208484 to Retn-9002 ***
+export:         to AS9002 announce AS208484
+remarks:        *** IPv4: Announce ANY to DaimlerAG-31399 ***
+export:         to AS31399 announce ANY
+remarks:        *** IPv4: Announce DaimlerAG-31399 to Telia-1299 ***
+export:         to AS1299 announce AS31399
+remarks:        *** IPv4: Announce DaimlerAG-31399 to Retn-9002 ***
+export:         to AS9002 announce AS31399
+remarks:        *** IPv4: Announce ANY to SNAFU-34171 ***
+export:         to AS34171 announce ANY
+remarks:        *** IPv4: Announce ANY to Flixhost-214019 ***
+export:         to AS214019 announce ANY
+remarks:        *** IPv4: Announce Flixhost-214019 to Retn-9002 ***
+export:         to AS9002 announce AS214019
+remarks:        *** IPv4: Announce Flixhost-214019 to Telia-1299 ***
+export:         to AS1299 announce AS214019
+remarks:        *** IPv4: Accept Flixhost-214019 from Flixhost-214019 ***
+import:         from AS214019 accept AS214019
+remarks:        *** IPv6: Accept Flixhost-214019 from Flixhost-214019 ***
+mp-import:      afi ipv6.unicast from AS214019 accept AS214019
+remarks:        *** IPv6: Announce Flixhost-214019 to Telia-1299 ***
+mp-export:      afi ipv6.unicast to AS1299 announce AS214019
+remarks:        *** IPv6: Announce Flixhost-214019 to Retn-9002 ***
+mp-export:      afi ipv6.unicast to AS9002 announce AS214019
+remarks:        *** IPv6: Announce ANY to Flixhost-214019 ***
+mp-export:      afi ipv6.unicast to AS214019 announce ANY
+remarks:        *** IPv4: Accept Kabat-OU-214919 from Flixhost-214019 ***
+import:         from AS214019 accept AS214919
+admin-c:        NT4664-RIPE
+tech-c:         NT4664-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         lir-de-telehouse-1-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2025-08-27T12:09:24Z
+source:         RIPE # Filtered
+
+organisation:   ORG-TDG19-RIPE
+org-name:       Telehouse Deutschland GmbH
+country:        DE
+org-type:       LIR
+address:        Kleyerstraße 75 - 87
+address:        60326
+address:        Frankfurt
+address:        GERMANY
+phone:          +49 69 823 79 48 0
+admin-c:        NT4664-RIPE
+tech-c:         NT4664-RIPE
+abuse-c:        AR69895-RIPE
+mnt-ref:        lir-de-telehouse-1-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         lir-de-telehouse-1-MNT
+created:        2023-02-23T10:52:15Z
+last-modified:  2023-02-23T10:52:15Z
+source:         RIPE # Filtered
+
+role:           Network Team
+address:        GERMANY
+address:        Frankfurt
+address:        60326
+address:        Kleyerstraße 75 - 87
+phone:          +49 69 823 79 48 0
+nic-hdl:        NT4664-RIPE
+mnt-by:         lir-de-telehouse-1-MNT
+created:        2023-02-23T10:52:13Z
+last-modified:  2023-02-23T10:52:14Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          91.216.33.0/24
+descr:          GES Systemhaus GmbH
+origin:         AS8375
+mnt-by:         AS8375-MNT
+created:        2015-04-21T08:19:35Z
+last-modified:  2015-04-21T08:19:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.60.20.0/24
+descr:          Payone
+origin:         AS8375
+mnt-by:         AS8375-MNT
+mnt-by:         mnt-de-ingenico-1
+created:        2015-11-25T10:38:10Z
+last-modified:  2020-11-09T10:40:24Z
+source:         RIPE
+mnt-routes:     mnt-de-ingenico-1
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.15.62.0/24
+origin:         AS8375
+mnt-by:         mnt-de-aeb-1
+created:        2023-08-09T15:20:46Z
+last-modified:  2023-08-09T15:20:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.32.0/19
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2003-05-22T09:08:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.32.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:38Z
+last-modified:  2003-05-22T08:48:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.33.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2006-10-31T15:47:33Z
+last-modified:  2006-10-31T15:47:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.34.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:40Z
+last-modified:  2003-05-22T08:48:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.35.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:41Z
+last-modified:  2003-05-22T08:48:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.36.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:42Z
+last-modified:  2003-05-22T08:48:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.37.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:43Z
+last-modified:  2003-05-22T08:48:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.37.216/29
+origin:         AS8375
+mnt-by:         AS8375-MNT
+created:        2022-01-28T16:04:22Z
+last-modified:  2022-01-28T16:04:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.38.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:45Z
+last-modified:  2003-05-22T08:48:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.39.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:46Z
+last-modified:  2003-05-22T08:48:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.40.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:47Z
+last-modified:  2003-05-22T08:48:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.41.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:48Z
+last-modified:  2003-05-22T08:48:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.42.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:49Z
+last-modified:  2003-05-22T08:48:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.43.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:50Z
+last-modified:  2003-05-22T08:48:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.44.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:52Z
+last-modified:  2003-05-22T08:48:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.45.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:53Z
+last-modified:  2003-05-22T08:48:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.46.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:54Z
+last-modified:  2003-05-22T08:48:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.47.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:56Z
+last-modified:  2003-05-22T08:48:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.48.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:57Z
+last-modified:  2003-05-22T08:48:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.49.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:58Z
+last-modified:  2003-05-22T08:48:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.50.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:48:59Z
+last-modified:  2003-05-22T08:48:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.51.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:00Z
+last-modified:  2003-05-22T08:49:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.52.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:01Z
+last-modified:  2003-05-22T08:49:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.53.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:03Z
+last-modified:  2003-05-22T08:49:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.54.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:04Z
+last-modified:  2003-05-22T08:49:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.55.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:05Z
+last-modified:  2003-05-22T08:49:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.56.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:07Z
+last-modified:  2003-05-22T08:49:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.57.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:08Z
+last-modified:  2003-05-22T08:49:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.58.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:09Z
+last-modified:  2003-05-22T08:49:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.59.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:10Z
+last-modified:  2003-05-22T08:49:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.60.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:43:23Z
+last-modified:  2003-05-22T08:43:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.61.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:11Z
+last-modified:  2003-05-22T08:49:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.62.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:12Z
+last-modified:  2003-05-22T08:49:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.63.0/24
+descr:          KDDI Deutschland GmbH
+origin:         AS8375
+notify:         admin@de.kddi.com
+mnt-by:         AS8375-MNT
+created:        2003-05-22T08:49:13Z
+last-modified:  2003-05-22T08:49:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.82.63.192/27
+origin:         AS8375
+mnt-by:         AS8375-MNT
+created:        2018-07-30T11:18:24Z
+last-modified:  2018-07-30T11:18:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:678:338::/48
+origin:         AS8375
+mnt-by:         AS8375-MNT
+created:        2021-08-13T07:41:25Z
+last-modified:  2021-08-13T07:41:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:ae0::/32
+origin:         AS8375
+mnt-by:         AS8375-MNT
+created:        2016-07-12T12:25:59Z
+last-modified:  2016-07-12T12:25:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

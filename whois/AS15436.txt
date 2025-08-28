@@ -1,0 +1,570 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15400 - AS15474'
+
+as-block:       AS15400 - AS15474
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15436'
+
+% Abuse contact for 'AS15436' is 'lir@witbe.net'
+
+aut-num:        AS15436
+as-name:        Witbe-AS
+remarks:        WITBE Autonomous System
+remarks:        ------------------------------------------------------------
+remarks:        | FranceIX peerings
+remarks:        ------------------------------------------------------------
+remarks:        Jaguar, FranceIX
+import:         from AS30781 193.105.232.3 at 193.105.232.59 action pref=100; accept AS-JAGUAR
+export:         to AS30781 193.105.232.3 announce AS-WITBE
+mp-import:      afi ipv6.unicast from AS30781 2001:7F8:54::3 at 2001:7F8:54::59 action pref=100; accept AS-JAGUAR-V6
+mp-export:      afi ipv6.unicast to AS30781 2001:7F8:54::3 announce AS-WITBE
+remarks:        Phibee, FranceIX
+import:         from AS8487 193.105.232.12 at 193.105.232.59 action pref=100; accept AS-PHIBEE-TELECOM
+export:         to AS30781 193.105.232.12 announce AS-WITBE
+mp-import:      afi ipv6.unicast from AS8487 2001:7F8:54::12 at 2001:7F8:54::59 action pref=100; accept AS-PHIBEE-TELECOM
+mp-export:      afi ipv6.unicast to AS8487 2001:7F8:54::12 announce AS-WITBE
+remarks:        Ascus, FranceIX
+import:         from AS39912 193.105.232.85 at 193.105.232.59 action pref=100; accept AS-I3B
+export:         to AS30781 193.105.232.85 announce AS-WITBE
+mp-import:      afi ipv6.unicast from AS39912 2001:7F8:54::85 at 2001:7F8:54::59 action pref=100; accept AS-I3B
+mp-export:      afi ipv6.unicast to AS39912 2001:7F8:54::85 announce AS-WITBE
+remarks:        Telecity, FranceIX
+import:         from AS15830 193.105.232.3 at 193.105.232.89 action pref=100; accept AS-TELECITYGROUP
+export:         to AS15830 193.105.232.3 announce AS-WITBE
+remarks:        Akamai, FranceIX
+import:         from AS20940 193.105.232.168 at 193.105.232.59 action pref=100; accept AS-AKAMAI
+export:         to AS20940 193.105.232.168 announce AS-WITBE
+remarks:        Route Servers, FranceIX
+import:         from AS51706 193.105.232.250 at 193.105.232.59 action pref=100; accept ANY
+import:         from AS51706 193.105.232.251 at 193.105.232.59 action pref=100; accept ANY
+export:         to AS51706 193.105.232.250 announce AS-WITBE
+export-via:     AS51706 to AS-ANY announce AS-WITBE
+export:         to AS51706 193.105.232.251 announce AS-WITBE
+mp-import:      afi ipv6.unicast from AS51706 2001:7F8:54::250 at 2001:7F8:54::59 action pref=100; accept ANY
+mp-import:      afi ipv6.unicast from AS51706 2001:7F8:54::251 at 2001:7F8:54::59 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS51706 2001:7F8:54::250 announce AS-WITBE
+mp-export:      afi ipv6.unicast to AS51706 2001:7F8:54::251 announce AS-WITBE
+remarks:        ------------------------------------------------------------
+remarks:        | Kinx peerings
+remarks:        ------------------------------------------------------------
+remarks:        KINX, KINX
+import:         from AS9957 192.145.251.4 at 192.145.251.54 action pref=100; accept AS9957
+import:         from AS9957 192.145.251.5 at 192.145.251.54 action pref=100; accept AS9957
+export:         to AS9957 192.145.251.4 announce AS-WITBE
+export:         to AS9957 192.145.251.5 announce AS-WITBE
+remarks:        Samsung, KINX
+import:         from AS6619 192.145.251.28 at 192.145.251.54 action pref=100; accept AS6619
+export:         to AS6619 192.145.251.28 announce AS-WITBE
+remarks:        Flag Telecom, KINX
+import:         from AS15412 192.145.251.42 at 192.145.251.54 action pref=100; accept AS-FLAGP
+export:         to AS15412 192.145.251.42 announce AS-WITBE
+remarks:        TM Net, KINX
+import:         from AS4788 192.145.251.44 at 192.145.251.54 action pref=100; accept AS4788
+export:         to AS4788 192.145.251.44 announce AS-WITBE
+remarks:        Microsoft, KINX
+import:         from AS12076 192.145.251.47 at 192.145.251.54 action pref=100; accept AS12076
+export:         to AS12076 192.145.251.47 announce AS-WITBE
+remarks:        KT Solutions, KINX
+import:         from AS9695 192.145.251.57 at 192.145.251.54 action pref=100; accept AS9695
+export:         to AS9695 192.145.251.57 announce AS-WITBE
+remarks:        SKNetworks, KINX
+import:         from AS18302 192.145.251.87 at 192.145.251.54 action pref=100; accept AS18302
+export:         to AS18392 192.145.251.87 announce AS-WITBE
+remarks:        KRNic, KINX
+import:         from AS23713 192.145.251.92 at 192.145.251.54 action pref=100; accept AS23713
+export:         to AS23713 192.145.251.92 announce AS-WITBE
+remarks:        KRNic, KINX
+import:         from AS9700 192.145.251.94 at 192.145.251.54 action pref=100; accept AS9700
+import:         from AS9700 192.145.251.95 at 192.145.251.54 action pref=100; accept AS9700
+export:         to AS9700 192.145.251.94 announce AS-WITBE
+export:         to AS9700 192.145.251.95 announce AS-WITBE
+remarks:        KRLine, KINX
+import:         from AS9701 192.145.251.96 at 192.145.251.54 action pref=100; accept AS9701
+export:         to AS9701 192.145.251.96 announce AS-WITBE
+remarks:        BizNet, KINX
+import:         from AS17451 192.145.251.105 at 192.145.251.54 action pref=100; accept AS17451
+export:         to AS17451 192.145.251.105 announce AS-WITBE
+remarks:        NHN, KINX
+import:         from AS23576 192.145.251.110 at 192.145.251.54 action pref=100; accept AS23576
+import:         from AS23576 192.145.251.111 at 192.145.251.54 action pref=100; accept AS23576
+export:         to AS23576 192.145.251.110 announce AS-WITBE
+export:         to AS23576 192.145.251.111 announce AS-WITBE
+remarks:        NexG, KINX
+import:         from AS17877 192.145.251.115 at 192.145.251.54 action pref=100; accept AS17877
+export:         to AS17877 192.145.251.115 announce AS-WITBE
+remarks:        PCH, KINX
+import:         from AS42 192.145.251.151 at 192.145.251.54 action pref=100; accept AS-PCH
+export:         to AS42 192.145.251.151 announce AS-WITBE
+remarks:        PCH, KINX
+import:         from AS3856 192.145.251.152 at 192.145.251.54 action pref=100; accept AS-PCH
+export:         to AS3856 192.145.251.152 announce AS-WITBE
+remarks:        ------------------------------------------------------------
+remarks:        | Transit
+remarks:        ------------------------------------------------------------
+remarks:        OpenTransit, Paris
+import:         from AS5511 193.251.248.21 at 193.251.248.22 action pref=100; accept ANY
+export:         to AS5511 193.251.248.21 announce AS-WITBE
+mp-import:      afi ipv6.unicast from AS5511 2001:688:0:3:1::21 at 2001:688:0:3:1::22 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS5511 2001:688:0:3:1::21 announce AS-WITBE
+remarks:        Tiscali, Paris
+import:         from AS3257 213.200.76.209 at 213.200.76.210 action pref=100; accept ANY
+export:         to AS3257 213.200.76.209 announce AS-WITBE
+mp-import:      afi ipv6.unicast from AS3257 2001:668:0:3::1000:101 at 2001:668:0:3::1000:102 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS3257 2001:668:0:3::1000:101 announce AS-WITBE
+remarks:        Colt Internet, Paris
+import:         from AS8220 62.23.86.13 at 62.23.86.14 action pref=100; accept ANY
+export:         to AS8220 62.23.86.13 announce AS-WITBE
+remarks:        Peer1, Montreal
+import:         from AS13768 69.90.183.89 at 69.90.183.90 action pref=100; accept ANY
+export:         to AS13768 69.90.183.89 announce AS-WITBE
+remarks:        Peer1, Vancouver
+import:         from AS13768 64.69.67.209 at 64.69.67.210 action pref=100; accept ANY
+export:         to AS13768 64.69.67.209 announce AS-WITBE
+remarks:        HE.Net, Singapore
+import:         from AS6939 184.104.209.125 at 184.104.209.126 action pref=100; accept ANY
+export:         to AS6939 184.104.209.125 announce AS-WITBE
+mp-import:      afi ipv6.unicast from AS6939 2001:470:1:67::1 at 2001:470:1:67::2 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 2001:470:1:67::1 announce AS-WITBE
+remarks:        EpsilonTel, Singapore
+import:         from AS44356 180.178.74.220 at 180.178.74.221 action pref=100; accept ANY
+export:         to AS44356 announce AS-WITBE
+remarks:        ------------------------------------------------------------
+org:            ORG-WA9-RIPE
+admin-c:        PR12-RIPE
+tech-c:         PR12-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         WITBE-MNT
+remarks:        ------------------------------------------------------------
+remarks:        For any peering issue, please contact peering@witbe.net
+remarks:        ------------------------------------------------------------
+created:        2002-09-23T15:44:58Z
+last-modified:  2023-02-01T08:17:29Z
+source:         RIPE
+
+organisation:   ORG-WA9-RIPE
+org-name:       WITBE S.A.
+country:        FR
+org-type:       LIR
+address:        18-22 Rue d'Arras
+                Building A11
+address:        92000
+address:        Nanterre
+address:        FRANCE
+phone:          +33 1 47 67 77 77
+fax-no:         +33 1 47 67 77 99
+abuse-c:        AR15400-RIPE
+mnt-ref:        WITBE-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         WITBE-MNT
+admin-c:        PR12-RIPE
+created:        2004-04-17T11:24:02Z
+last-modified:  2021-06-28T07:48:04Z
+source:         RIPE # Filtered
+
+person:         Paul Rolland
+address:        18-22 Rue d'Arras
+address:        Building A11
+address:        92000 Nanterre
+address:        France
+phone:          +33 1 47 67 77 77
+fax-no:         +33 1 47 67 77 99
+nic-hdl:        PR12-RIPE
+remarks:        -------------------------------------------------------
+remarks:        Please, do not contact me for any problem you may have
+remarks:        with address space 213.56.195/24. Though mentionned as
+remarks:        a contact, I have no link with what's going on there..
+remarks:        -------------------------------------------------------
+mnt-by:         WITBE-MNT
+created:        2002-07-08T16:05:00Z
+last-modified:  2021-06-28T07:13:16Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          81.88.96.0/20
+descr:          FR-WITBE-20020614
+origin:         AS15436
+mnt-by:         WITBE-MNT
+mnt-lower:      WITBE-MNT
+mnt-lower:      MNT-BE-INTERXION
+created:        2002-11-05T09:16:00Z
+last-modified:  2004-07-11T03:04:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.88.96.0/21
+descr:          More specific for FR-WITBE-20020614
+origin:         AS15436
+mnt-by:         WITBE-MNT
+mnt-lower:      WITBE-MNT
+created:        2008-05-09T13:48:34Z
+last-modified:  2008-05-09T13:48:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          81.88.96.0/22
+descr:          More specific for FR-WITBE-20020614
+origin:         AS15436
+mnt-by:         WITBE-MNT
+mnt-lower:      WITBE-MNT
+created:        2008-05-09T13:48:35Z
+last-modified:  2008-05-09T13:48:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.109.117.0/24
+descr:          WITBE-MIL
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2001-10-05T08:27:05Z
+last-modified:  2001-10-05T08:27:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.109.117.0/24
+descr:          PACNET (proxy-registered route object)
+origin:         AS15436
+remarks:        This route object is for a PACNET customer route which is
+                being exported under this origin AS.
+	               +
+	               This route object was created because no existing route
+                object with the same origin was found, and since some
+                PACNET peers filter based on these objects this route
+                may be rejected if this object is not created.
+                +
+                Please contact abuse@pacnet.net if you have any
+                Concerns regarding Spam/Abuses related to this object
+	               +
+                Please contact ip-noc@pacnet.net if you have any other
+                Questions regarding this object.
+notify:         ip-noc@pacnet.net
+mnt-by:         MAINT-AS4637
+changed:        ip-noc@pacnet.net 20100201
+source:         RADB
+last-modified:  2023-11-13T15:58:52Z
+rpki-ov-state:  valid
+
+route:          193.109.121.0/24
+descr:          Route WITBE-NEO
+origin:         AS15436
+mnt-by:         WITBE-MNT
+mnt-lower:      WITBE-MNT
+created:        2010-09-08T10:57:05Z
+last-modified:  2010-09-08T10:57:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.109.125.0/24
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2016-04-12T14:08:24Z
+last-modified:  2016-04-12T14:08:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.201.0.0/24
+descr:          WITBE-FR-LYON
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2002-07-11T15:12:14Z
+last-modified:  2007-04-30T17:37:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.201.1.0/24
+descr:          WITBE-NL
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2002-07-11T15:12:16Z
+last-modified:  2002-07-11T15:12:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.201.2.0/24
+descr:          WITBE-SIN
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2002-07-11T15:12:18Z
+last-modified:  2022-12-28T13:56:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.201.3.0/24
+descr:          WITBE-SP
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2002-07-11T15:12:20Z
+last-modified:  2002-07-11T15:12:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.201.4.0/24
+descr:          WITBE-DE
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2002-07-11T15:12:22Z
+last-modified:  2002-07-11T15:12:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.201.5.0/24
+descr:          WITBE-IT
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2002-07-11T15:12:24Z
+last-modified:  2002-07-11T15:12:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.201.6.0/24
+descr:          PNAP-WDC EQUINIXH-WITBE
+origin:         AS15436
+mnt-by:         MAINT-AS1828
+changed:        bryanw@internap.com 20020814
+source:         RADB
+last-modified:  2023-11-13T16:13:53Z
+rpki-ov-state:  valid
+
+route:          193.201.6.0/24
+descr:          WITBE-USA-East
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2002-07-11T15:12:26Z
+last-modified:  2002-07-11T15:12:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.201.7.0/24
+descr:          WITBE-USA-West
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2002-07-11T15:12:28Z
+last-modified:  2002-07-11T15:12:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.251.229.0/24
+descr:          FR-WITBE
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2001-10-27T16:33:07Z
+last-modified:  2001-10-27T16:33:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          212.73.219.0/24
+descr:          WITBE-BLOCK-L3
+origin:         AS15436
+mnt-by:         LEVEL3-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:33:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:c18::/32
+descr:          FR-WITBE-20090325
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2009-04-01T07:52:35Z
+last-modified:  2009-04-01T07:52:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:c18:1::/48
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2017-09-12T08:14:50Z
+last-modified:  2017-09-12T08:14:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:c18:2::/48
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2017-09-12T08:15:34Z
+last-modified:  2017-09-12T08:15:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:c18:6::/48
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2017-09-12T08:15:53Z
+last-modified:  2017-09-12T08:15:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a02:c18:7::/48
+origin:         AS15436
+mnt-by:         WITBE-MNT
+created:        2017-09-12T08:16:14Z
+last-modified:  2017-09-12T08:16:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

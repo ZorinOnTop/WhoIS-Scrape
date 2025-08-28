@@ -1,0 +1,647 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20859 - AS20927'
+
+as-block:       AS20859 - AS20927
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20895'
+
+% Abuse contact for 'AS20895' is 'abuse@ugtel.ru'
+
+aut-num:        AS20895
+org:            ORG-Tl9-RIPE
+as-name:        UGTEL
+descr:          Granting of services Intelligent Network
+descr:          Krasnodar Russia. http://www.ugtel.ru
+remarks:
+remarks:        ----------------------------------------------
+remarks:        IPv4 UPSTREAMS:
+remarks:        ----------------------------------------------
+import:         from AS3216 action pref=100; accept ANY
+export:         to AS3216 announce AS-UGTEL
+import:         from AS12389 action pref=100; accept ANY
+export:         to AS12389 announce AS-UGTEL
+import:         from AS20485 action pref=100; accept ANY
+export:         to AS20485 announce AS-UGTEL
+import:         from AS9002 action pref=100; accept ANY
+export:         to AS9002 announce AS-UGTEL
+import:         from AS8359 action pref=100; accept ANY
+export:         to AS8359 announce AS-UGTEL
+remarks:        ----------------------------------------------
+remarks:        IPv4 CUSTOMERS:
+remarks:        ----------------------------------------------
+import:         from AS43886 action pref=1000; accept AS43886
+export:         to AS43886 announce ANY
+import:         from AS60865 action pref=1000; accept AS60865
+export:         to AS60865 announce ANY
+remarks:        ----------------------------------------------
+remarks:
+remarks:        ----------------------------------------------
+remarks:        IPv6 UPSTREAMS:
+remarks:        ----------------------------------------------
+mp-import:      afi ipv6.unicast from AS3216 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS3216 announce AS-UGTEL
+mp-import:      afi ipv6.unicast from AS20485 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS20485 announce AS-UGTEL
+mp-import:      afi ipv6.unicast from AS9002 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-UGTEL
+mp-import:      afi ipv6.unicast from AS8359 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS8359 announce AS-UGTEL
+remarks:        ----------------------------------------------
+remarks:        IPv6 CUSTOMERS:
+remarks:        ----------------------------------------------
+mp-import:      afi ipv6.unicast from AS43886 action pref=100; accept AS43886
+mp-export:      afi ipv6.unicast to AS43886 announce ANY
+remarks:        ----------------------------------------------
+remarks:
+remarks:        ----------------------------------------------
+remarks:        BGP Communities
+remarks:        ----------------------------------------------
+remarks:        20895:208x When advertising to TTK (AS20485)
+remarks:        20895:209x When advertising to RETN (AS9002)
+remarks:        20895:210x When advertising to MTS (AS8359)
+remarks:        20895:211x When advertising to Rostelecom (AS12389)
+remarks:        20895:212x When advertising to Vimpelcom (AS3216)
+remarks:        ...x=0 - do not advertise
+remarks:        ...x=1,2,4 or 6 - prepend 1,2,4 or 6 times
+remarks:        ----------------------------------------------
+remarks:        Blackhole community - 20895:666
+remarks:        ----------------------------------------------
+remarks:
+admin-c:        YAD5-RIPE
+tech-c:         YAD5-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         UGTEL-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2024-08-20T13:49:37Z
+source:         RIPE # Filtered
+
+organisation:   ORG-Tl9-RIPE
+org-name:       "Yuzhniy TELECOM" ltd.
+country:        RU
+org-type:       LIR
+address:        62 Sedina str.
+address:        350000
+address:        Krasnodar
+address:        RUSSIAN FEDERATION
+phone:          +7 8612195222
+fax-no:         +7 8612195214
+abuse-c:        AR17018-RIPE
+mnt-ref:        UGTEL-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         UGTEL-MNT
+admin-c:        YAD5-RIPE
+created:        2004-04-17T12:00:23Z
+last-modified:  2020-12-16T12:27:53Z
+source:         RIPE # Filtered
+
+person:         Yanchenko Andrey Dmitrievich
+address:        Russian Federation 350020
+address:        Krasnodar, Sedina 62
+phone:          +78612195179
+nic-hdl:        YAD5-RIPE
+mnt-by:         UGTEL-MNT
+org:            ORG-Tl9-RIPE
+created:        2011-04-04T12:41:15Z
+last-modified:  2017-05-23T05:36:20Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          80.240.48.0/20
+descr:          inetnum UGTEL
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2006-03-20T10:07:54Z
+last-modified:  2006-03-20T10:07:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.240.48.0/22
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2023-02-13T13:57:13Z
+last-modified:  2023-02-13T13:57:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.240.52.0/22
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2023-02-13T13:57:25Z
+last-modified:  2023-02-13T13:57:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.240.56.0/22
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2023-02-13T13:57:42Z
+last-modified:  2023-02-13T13:57:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.240.60.0/22
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2023-02-13T13:58:06Z
+last-modified:  2023-02-13T13:58:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.128.0/20
+descr:          Yuzhniy TELECOM ltd. http://www.ugtel.ru
+origin:         AS20895
+notify:         support@ugtel.ru
+mnt-lower:      UGTEL-MNT
+mnt-routes:     UGTEL-MNT
+mnt-by:         UGTEL-MNT
+created:        2003-02-20T14:19:54Z
+last-modified:  2003-02-20T14:19:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.128.0/21
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20030826
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.128.0/22
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2023-02-13T13:52:39Z
+last-modified:  2023-02-13T13:52:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.128.0/22
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20030928
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.129.0/24
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20030928
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.129.0/24
+descr:          Yuzhniy TELECOM ltd. http://www.ugtel.ru
+origin:         AS20895
+notify:         support@ugtel.ru
+mnt-lower:      UGTEL-MNT
+mnt-routes:     UGTEL-MNT
+mnt-by:         UGTEL-MNT
+created:        2017-12-22T09:10:09Z
+last-modified:  2018-01-17T12:23:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.130.0/23
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20050814
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.131.0/24
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20030831
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.132.0/22
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2023-02-13T13:53:59Z
+last-modified:  2023-02-13T13:53:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.132.0/24
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20030928
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.134.0/23
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20051114
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.134.0/24
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20030928
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.135.0/24
+descr:          Yuzhniy TELECOM ltd. http://www.ugtel.ru
+origin:         AS20895
+notify:         support@ugtel.ru
+mnt-lower:      UGTEL-MNT
+mnt-routes:     UGTEL-MNT
+mnt-by:         UGTEL-MNT
+created:        2018-01-17T14:09:41Z
+last-modified:  2018-01-17T14:09:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.136.0/22
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20040515
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.136.0/22
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2023-02-13T13:54:18Z
+last-modified:  2023-02-13T13:54:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.136.0/23
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20040313
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.136.0/24
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20031015
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.138.0/23
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20040627
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.140.0/22
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2023-02-13T13:54:38Z
+last-modified:  2023-02-13T13:54:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          81.26.140.0/23
+descr:          Proxy-registered route object
+origin:         AS20895
+remarks:        This route object is for a BtN customer route
+remarks:        which is being exported under this origin AS.
+remarks:
+remarks:        This route object was created because no existing
+remarks:        route object with the same origin was found, and
+remarks:        since some BtN peers filter based on these objects
+remarks:        this route may be rejected if this object is not created.
+remarks:
+remarks:        Please contact peering@cais.net if you have any
+remarks:        questions regarding this object.
+mnt-by:         MAINT-AS3491
+changed:        sajwani@pccwbtn.com 20040807
+source:         RADB
+last-modified:  2025-03-28T16:01:01Z
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.20.132.0/23
+descr:          inetnum UGTEL
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2017-11-29T06:39:55Z
+last-modified:  2017-11-29T06:39:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.20.132.0/24
+descr:          inetnum UGTEL
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2013-04-24T05:17:16Z
+last-modified:  2013-04-24T05:17:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.20.133.0/24
+descr:          inetnum UGTEL
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2013-04-24T05:20:38Z
+last-modified:  2013-04-24T05:20:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.20.134.0/24
+descr:          inetnum UGTEL
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2013-04-24T05:21:53Z
+last-modified:  2013-04-24T05:21:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a04:d80::/32
+origin:         AS20895
+mnt-by:         UGTEL-MNT
+created:        2017-11-27T06:46:35Z
+last-modified:  2017-11-27T06:46:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

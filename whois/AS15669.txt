@@ -1,0 +1,533 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15669'
+
+% Abuse contact for 'AS15669' is 'abuse@bix.bg'
+
+aut-num:        AS15669
+as-name:        BIX-BG
+descr:          Bulgarian Internet eXchange (BIX.BG ltd.)
+descr:          BG
+org:            ORG-BL231-RIPE
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        Members can use BGP communities to control
+remarks:        which members receive their prefixes.
+remarks:
+remarks:        0:member-as do not announce to member-as
+remarks:        15669:member-as announce to member-as
+remarks:        0:15669 do not announce to any member
+remarks:        15669:15669 announce to all members
+remarks:        ---------------------------------------------------
+remarks:        There are additional communities for
+remarks:        controlling local preference (default = 100).
+remarks:
+remarks:        15669:65000 local preference = 0
+remarks:        15669:65050 local preference = 50
+remarks:        ---------------------------------------------------
+remarks:        We filter the bogus networks like:
+remarks:        10.0.0.0/8
+remarks:        127.0.0.0/8
+remarks:        169.254.0.0/16
+remarks:        172.16.0.0/12
+remarks:        192.168.0.0/16
+remarks:        224.0.0.0/3
+remarks:        We also filter prefixes longer than /24.
+remarks:        ---------------------------------------------------
+remarks:        Contacts and URLs:
+remarks:
+remarks:        Routing issues noc@bix.bg
+remarks:        Peering issues and requests peering@bix.bg
+remarks:        Web Site http://www.bix.bg
+remarks:        Looking Glass http://lg.bix.bg
+remarks:        ---------------------------------------------------
+remarks:
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        IPv4 Members
+remarks:        ---------------------------------------------------
+import:         from AS42 accept AS-PCH
+export:         to AS42 announce AS-BIX-BG
+import:         from AS3245 accept AS3245
+export:         to AS3245 announce AS-BIX-BG
+import:         from AS3303 accept AS-SWCMGLOBAL
+export:         to AS3303 announce AS-BIX-BG
+import:         from AS3856 accept AS-PCH
+export:         to AS3856 announce AS-BIX-BG
+import:         from AS5405 accept AS5405:AS-INTERDOTLINK
+export:         to AS5405 announce AS-BIX-BG
+import:         from AS5483 accept AS-MAGYARTELEKOM
+export:         to AS5483 announce AS-BIX-BG
+import:         from AS6204 accept AS-ZETNET
+export:         to AS6204 announce AS-BIX-BG
+import:         from AS6205 accept AS6205:AS-HIZLINET
+export:         to AS6205 announce AS-BIX-BG
+import:         from AS6682 accept AS-GNC
+export:         to AS6682 announce AS-BIX-BG
+import:         from AS6866 accept AS-CYTANET
+export:         to AS6866 announce AS-BIX-BG
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-BIX-BG
+import:         from AS8075 accept AS8075 AS3598 AS6584 AS20046 AS23468
+export:         to AS8075 announce AS-BIX-BG
+import:         from AS8262 accept AS-EVOLINK
+export:         to AS8262 announce AS-BIX-BG
+import:         from AS8280 accept AS-SYNAPSECOM
+export:         to AS8280 announce AS-BIX-BG
+import:         from AS8431 accept AS8431 AS48064
+export:         to AS8431 announce AS-BIX-BG
+import:         from AS8674 accept AS-NETNOD-ANYCAST
+export:         to AS8674 announce AS-BIX-BG
+import:         from AS8708 accept AS-RDSNET
+export:         to AS8708 announce AS-BIX-BG
+import:         from AS8717 accept AS-SPNET
+export:         to AS8717 announce AS-BIX-BG
+import:         from AS8860 accept AS8860
+export:         to AS8860 announce AS-BIX-BG
+import:         from AS8866 accept AS-BTCTG
+export:         to AS8866 announce AS-BIX-BG
+import:         from AS8928 accept AS-INTEROUTE
+export:         to AS8928 announce AS-BIX-BG
+import:         from AS8932 accept AS8932:AS-ALL
+export:         to AS8932 announce AS-BIX-BG
+import:         from AS9070 accept AS-ITDOUT
+export:         to AS9070 announce AS-BIX-BG
+import:         from AS9119 accept AS-SOFTNET
+export:         to AS9119 announce AS-BIX-BG
+import:         from AS11019 accept AS-HAPNET
+export:         to AS11019 announce AS-BIX-BG
+import:         from AS12189 accept AS-PHOENIXNAP
+export:         to AS12189 announce AS-BIX-BG
+import:         from AS12297 accept AS-TELARM
+export:         to AS12297 announce AS-BIX-BG
+import:         from AS12615 accept AS-CABLETEL
+export:         to AS12615 announce AS-BIX-BG
+import:         from AS12716 accept AS-MTEL
+export:         to AS12716 announce AS-BIX-BG
+import:         from AS12735 accept AS-TurkNettr
+export:         to AS12735 announce AS-BIX-BG
+import:         from AS12829 accept AS-ANGELSOFTCUSTOMERS
+export:         to AS12829 announce AS-BIX-BG
+import:         from AS12982 accept AS12982
+export:         to AS12982 announce AS-BIX-BG
+import:         from AS13004 accept AS-SOX-SRB
+export:         to AS13004 announce AS-BIX-BG
+import:         from AS13124 accept AS-IBGC
+export:         to AS13124 announce AS-BIX-BG
+import:         from AS13147 accept AS-31083
+export:         to AS13147 announce AS-BIX-BG
+import:         from AS13172 accept AS-SET-ESO
+export:         to AS13172 announce AS-BIX-BG
+import:         from AS13335 accept AS13335
+export:         to AS13335 announce AS-BIX-BG
+import:         from AS14537 accept AS-CONTINENT8
+export:         to AS14537 announce AS-BIX-BG
+import:         from AS14593 accept AS14593:AS-SX-STARLINK
+export:         to AS14593 announce AS-BIX-BG
+import:         from AS15133 accept AS15133
+export:         to AS15133 announce AS-BIX-BG
+import:         from AS15169 accept AS-GOOGLE
+export:         to AS15169 announce AS-BIX-BG
+import:         from AS16045 accept AS16045
+export:         to AS16045 announce AS-BIX-BG
+import:         from AS16344 accept AS16344 AS25554
+export:         to AS16344 announce AS-BIX-BG
+import:         from AS16509 accept AS-AMAZON
+export:         to AS16509 announce AS-BIX-BG
+import:         from AS20682 accept AS20682
+export:         to AS20682 announce AS-BIX-BG
+import:         from AS20911 accept AS-NETSURF
+export:         to AS20911 announce AS-BIX-BG
+import:         from AS20940 accept AS-AKAMAI
+export:         to AS20940 announce ANY
+import:         from AS21230 accept AS-MSATCABLE
+export:         to AS21230 announce AS-BIX-BG
+import:         from AS21415 accept AS-INETG
+export:         to AS21415 announce AS-BIX-BG
+import:         from AS24750 accept AS24750
+export:         to AS24750 announce AS-BIX-BG
+import:         from AS24770 accept AS24770
+export:         to AS24770 announce AS-BIX-BG
+import:         from AS24964 accept AS-24964
+export:         to AS24964 announce AS-BIX-BG
+import:         from AS25374 accept AS25374
+export:         to AS25374 announce AS-BIX-BG
+import:         from AS25467 accept AS-AKTON
+export:         to AS25467 announce AS-BIX-BG
+import:         from AS28909 accept AS28909
+export:         to AS28909 announce AS-BIX-BG
+import:         from AS29030 accept AS-29030
+export:         to AS29030 announce AS-BIX-BG
+import:         from AS29084 accept AS-COMNET-BG
+export:         to AS29084 announce AS-BIX-BG
+import:         from AS29170 accept AS-KUJTESA-SET
+export:         to AS29170 announce AS-BIX-BG
+import:         from AS29244 accept AS29244
+export:         to AS29244 announce AS-BIX-BG
+import:         from AS29366 accept AS29366
+export:         to AS29366 announce AS-BIX-BG
+import:         from AS29582 accept AS29582
+export:         to AS29582 announce AS-BIX-BG
+import:         from AS29632 accept AS-NETASSIST
+export:         to AS29632 announce AS-BIX-BG
+import:         from AS29667 accept AS-ATLANTISNET
+export:         to AS29667 announce AS-BIX-BG
+import:         from AS29687 accept AS-BGWAN
+export:         to AS29687 announce AS-BIX-BG
+import:         from AS31029 accept AS31029
+export:         to AS31029 announce AS-BIX-BG
+import:         from AS21215 accept AS-SBB
+export:         to AS21215 announce AS-BIX-BG
+import:         from AS31287 accept AS-IPACCT
+export:         to AS31287 announce AS-BIX-BG
+import:         from AS31293 accept AS-QOSS
+export:         to AS31293 announce AS-BIX-BG
+import:         from AS31298 accept AS31298
+export:         to AS31298 announce AS-BIX-BG
+import:         from AS32934 accept AS-FACEBOOK
+export:         to AS32934 announce AS-BIX-BG
+import:         from AS34224 accept AS-NETERRA-BG
+export:         to AS34224 announce AS-BIX-BG
+import:         from AS34368 accept AS34368 AS198127
+export:         to AS34368 announce AS-BIX-BG
+import:         from AS34569 accept AS-NETWORXBG
+export:         to AS34569 announce AS-BIX-BG
+import:         from AS34577 accept AS34577
+export:         to AS34577 announce AS-BIX-BG
+import:         from AS34841 accept AS34841
+export:         to AS34841 announce AS-BIX-BG
+import:         from AS34984 accept AS34984 AS6822 AS16135 AS24944 AS43391 AS48313 AS50146 AS197130
+export:         to AS34984 announce AS-BIX-BG
+import:         from AS35489 accept AS35489
+export:         to AS35489 announce AS-BIX-BG
+import:         from AS35563 accept AS-TTOUT
+export:         to AS35563 announce AS-BIX-BG
+import:         from AS38932 accept as-rimex
+export:         to AS38932 announce AS-BIX-BG
+import:         from AS39184 accept AS-SET-ULTRANET
+export:         to AS39184 announce AS-BIX-BG
+import:         from AS39251 accept AS-NETGUARDBG
+export:         to AS39251 announce AS-BIX-BG
+import:         from AS39505 accept as-VESTITEL
+export:         to AS39505 announce AS-BIX-BG
+import:         from AS41313 accept AS-NOVATEL
+export:         to AS41313 announce AS-BIX-BG
+import:         from AS42100 accept AS42100
+export:         to AS42100 announce AS-BIX-BG
+import:         from AS42248 accept AS-VIDAOPTICS
+export:         to AS42248 announce AS-BIX-BG
+import:         from AS42295 accept AS42295
+export:         to AS42295 announce AS-BIX-BG
+import:         from AS43205 accept AS-BULSATCOM
+export:         to AS43205 announce AS-BIX-BG
+import:         from AS43561 accept AS-NET1OUT
+export:         to AS43561 announce AS-BIX-BG
+import:         from AS44313 accept AS-BIX-BG
+export:         to AS44313 announce AS44313
+import:         from AS44327 accept AS-T-NET
+export:         to AS44327 announce AS-BIX-BG
+import:         from AS211526 accept AS211526 AS44586
+export:         to AS211526 announce AS-BIX-BG
+import:         from AS44814 accept AS-BTELOUT
+export:         to AS44814 announce AS-BIX-BG
+import:         from AS44901     accept   as-belcloud
+export:         to   AS44901     announce AS-BIX-BG
+import:         from AS47697 accept ANY
+export:         to AS47697 announce AS-BIX-BG
+import:         from AS47872 accept AS-SOFIA-CONNECT
+export:         to AS47872 announce AS-BIX-BG
+import:         from AS48115 accept AS48115
+export:         to AS48115 announce AS-BIX-BG
+import:         from AS48452 accept AS-TRAFFICNET
+export:         to AS48452 announce AS-BIX-BG
+import:         from AS49544 accept AS-INTERACTIVE3D
+export:         to AS49544 announce AS-BIX-BG
+import:         from AS49737 accept AS49737
+export:         to AS49737 announce AS-BIX-BG
+import:         from AS49832 accept AS-QBICOM
+export:         to AS49832 announce AS-BIX-BG
+import:         from AS50379 accept AS50379
+export:         to AS50379 announce AS-BIX-BG
+import:         from AS51582 accept AS51582
+export:         to AS51582 announce AS-BIX-BG
+import:         from AS51605 accept AS51605
+export:         to AS51605 announce AS-BIX-BG
+import:         from AS54113 accept AS-FASTLY
+export:         to AS54113 announce AS-BIX-BG
+import:         from AS56630 accept AS-MELBICOM
+export:         to AS56630 announce AS-BIX-BG
+import:         from AS57344 accept AS-57344
+export:         to AS57344 announce AS-BIX-BG
+import:         from AS60051 accept AS-DMCC
+export:         to AS60051 announce AS-BIX-BG
+import:         from AS60325 accept AS60325
+export:         to AS60325 announce AS-BIX-BG
+import:         from AS61071 accept AS-NETBOX
+export:         to AS61071 announce AS-BIX-BG
+import:         from AS62386 accept AS62386:AS-ALL
+export:         to AS62386 announce AS-BIX-BG
+import:         from AS59620 accept AS-GESBG-OUT
+export:         to AS59620 announce AS-BIX-BG
+import:         from AS137409 accept AS137409:AS-ALL
+export:         to AS137409 announce AS-BIX-BG
+import:         from AS138915 accept AS138915
+export:         to AS138915 announce AS-BIX-BG
+import:         from AS196922 accept AS-HOFMEIR
+export:         to AS196922 announce AS-BIX-BG
+import:         from AS8860 accept AS-DELTABG
+export:         to AS8860 announce AS-BIX-BG
+import:         from AS198228 accept AS-SILISTRAPEERS
+export:         to AS198228 announce AS-BIX-BG
+import:         from AS198259 accept AS198259
+export:         to AS198259 announce AS-BIX-BG
+import:         from AS199230 accept AS-MITKO
+export:         to AS198230 announce AS-BIX-BG
+import:         from AS200533 accept AS200533 AS200450
+export:         to AS200533 announce AS-BIX-BG
+import:         from AS200736 accept AS-INALAN
+export:         to AS200736 announce AS-BIX-BG
+import:         from AS200899 accept AS-INTERSPACE
+export:         to AS200899 announce AS-BIX-BG
+import:         from AS202276 accept AS202276
+export:         to AS202276 announce AS-BIX-BG
+import:         from AS202543 accept AS202543
+export:         to AS202543 announce AS-BIX-BG
+import:         from AS203391 accept AS203391
+export:         to AS203391 announce AS-BIX-BG
+import:         from AS203954 accept AS203954
+export:         to AS203954 announce AS-BIX-BG
+import:         from AS204281 accept AS-NETXOUT
+export:         to AS204281 announce AS-BIX-BG
+import:         from AS204384 accept AS204384
+export:         to AS204384 announce AS-BIX-BG
+import:         from AS204457 accept AS204457
+export:         to AS204457 announce AS-BIX-BG
+import:         from AS204639 accept AS204639 AS24770
+export:         to AS204639 announce AS-BIX-BG
+import:         from AS201133 accept as-verdina
+export:         to AS201133 announce AS-BIX-BG
+import:         from AS205119 accept AS-TELEKS
+export:         to AS205119 announce AS-BIX-BG
+import:         from AS207144 accept AS207144
+export:         to AS207144 announce AS-BIX-BG
+import:         from AS207811 accept AS-SUPERCELL
+export:         to AS207811 announce AS-BIX-BG
+import:         from AS208414 accept AS208414:AS-WEDOS-GLOBAL
+export:         to AS208414 announce AS-BIX-BG
+import:         from AS208972 accept AS-GIBIRNET-INT
+export:         to AS208972 announce AS-BIX-BG
+import:         from AS209681 accept AS-DELTACOM-ELECTRONICS
+export:         to AS209681 announce AS-BIX-BG
+import:         from AS210021 accept AS-DILSET
+export:         to AS210021 announce AS-BIX-BG
+import:         from AS211181 accept AS211181
+export:         to AS211181 announce AS-BIX-BG
+import:         from AS212232 accept AS212232
+export:         to AS212232 announce AS-BIX-BG
+import:         from AS216145 accept AS216145
+export:         to AS216145 announce AS-BIX-BG
+import:         from AS59796 accept AS-STORMWALL-SET
+export:         to AS59796 announce AS-BIX-BG
+import:         from AS396986 accept AS396986
+export:         to AS396986 announce AS-BIX-BG
+admin-c:        DN666-RIPE
+admin-c:        SN273-RIPE
+tech-c:         SN273-RIPE
+tech-c:         YK486-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         BIX-MNT
+created:        2009-07-30T12:47:45Z
+last-modified:  2025-08-14T13:08:12Z
+source:         RIPE # Filtered
+
+organisation:   ORG-BL231-RIPE
+org-name:       BIX.BG Ltd.
+country:        BG
+org-type:       LIR
+address:        126 Tintyava Str., Alba Building, GF, Office 5
+address:        1172
+address:        Sofia
+address:        BULGARIA
+phone:          + 359 2 439 33 34
+admin-c:        DN3375-RIPE
+tech-c:         DN3375-RIPE
+abuse-c:        AR33422-RIPE
+mnt-ref:        BIX-MNT
+mnt-ref:        ITD-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         BIX-MNT
+created:        2015-09-08T08:14:52Z
+last-modified:  2020-12-16T13:34:25Z
+source:         RIPE # Filtered
+
+person:         Dimo Nikolov
+address:        Bulgaria
+address:        1172 Sofia
+address:        126 Tintyava Str.
+address:        building ALBA, office 5, BIX
+phone:          + 359 2 439 33 34
+nic-hdl:        DN666-RIPE
+mnt-by:         BIX-MNT
+created:        2010-02-15T15:19:18Z
+last-modified:  2018-06-19T12:53:35Z
+source:         RIPE
+
+person:         Svetoslav Najdenov
+address:        Bulgaria
+address:        1172 Sofia
+address:        126 Tintyava Str.
+address:        building ALBA, office 5
+mnt-by:         BIX-MNT
+phone:          + 359 2 439 33 34
+nic-hdl:        SN273-RIPE
+created:        2009-07-26T19:15:39Z
+last-modified:  2018-06-19T12:51:29Z
+source:         RIPE
+
+person:         Yanko Kaneti
+address:        Bulgaria
+address:        1172 Sofia
+address:        126 Tintyava Str.
+address:        buildiung ALBA, office 5, BIX
+phone:          + 359 2 439 33 34
+nic-hdl:        YK486-RIPE
+mnt-by:         BIX-MNT
+created:        2010-02-15T15:20:37Z
+last-modified:  2018-06-19T12:56:01Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          91.237.102.0/23
+descr:          BIX.BG
+origin:         AS15669
+mnt-by:         BIX-MNT
+created:        2012-03-22T12:37:21Z
+last-modified:  2012-03-22T12:37:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.169.198.0/23
+descr:          BIX.BG
+origin:         AS15669
+mnt-by:         BIX-MNT
+created:        2009-08-06T12:19:52Z
+last-modified:  2009-08-06T12:19:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.169.198.0/24
+descr:          BIX.BG
+origin:         AS15669
+mnt-by:         BIX-MNT
+created:        2009-08-06T12:20:03Z
+last-modified:  2009-08-06T12:20:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.169.199.0/24
+descr:          BIX.BG
+origin:         AS15669
+mnt-by:         BIX-MNT
+created:        2009-08-06T12:20:14Z
+last-modified:  2009-08-06T12:20:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:7f8:58::/48
+descr:          BIX
+origin:         AS15669
+mnt-by:         BIX-MNT
+created:        2013-08-05T14:59:59Z
+last-modified:  2013-08-05T15:00:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2001:7f8:58::/64
+descr:          BIX
+origin:         AS15669
+mnt-by:         BIX-MNT
+created:        2013-07-19T14:37:27Z
+last-modified:  2013-07-19T14:37:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a03:4ba0::/48
+origin:         AS15669
+mnt-by:         BIX-MNT
+created:        2019-06-10T07:44:03Z
+last-modified:  2019-06-10T07:44:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,512 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8487'
+
+% Abuse contact for 'AS8487' is 'noc@phibee.net'
+
+aut-num:        AS8487
+as-name:        PHIBEE
+remarks:        1415C Route de Comberigol
+remarks:        42320 La Grand Croix
+remarks:        FRANCE
+remarks:        +33.4.26.84.78.60
+remarks:        +33.4.26.84.78.61
+org:            ORG-PS40-RIPE
+remarks:
+remarks:        =[TRANSIT IPv4]====================================
+import:         from AS3356 accept ANY
+import:         from AS286 accept ANY
+import:         from AS3257 accept ANY
+import:         from AS1299 accept ANY
+import:         from AS50618 accept ANY
+import:         from AS6762 accept ANY
+import:         from AS3257 accept ANY
+import:         from AS6939 accept ANY
+import:         from AS2914 accept ANY
+export:         to AS3356 announce AS-PHIBEE-TELECOM
+export:         to AS286 announce AS-PHIBEE-TELECOM
+export:         to AS3257 announce AS-PHIBEE-TELECOM
+export:         to AS1299 announce AS-PHIBEE-TELECOM
+export:         to AS50618 announce AS-PHIBEE-TELECOM
+export:         to AS6762 announce AS-PHIBEE-TELECOM
+export:         to AS3257 announce AS-PHIBEE-TELECOM
+export:         to AS6939 announce AS-PHIBEE-TELECOM
+export:         to AS2914 announce AS-PHIBEE-TELECOM
+remarks:
+remarks:        =[TRANSIT IPv6]====================================
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-PHIBEE-TELECOM-IPV6;
+mp-import:      afi ipv6.unicast from AS286 accept ANY
+mp-export:      afi ipv6.unicast to AS286 announce AS-PHIBEE-TELECOM-IPV6;
+mp-import:      afi ipv6.unicast from AS30781 accept ANY
+mp-export:      afi ipv6.unicast to AS30781 announce AS-PHIBEE-TELECOM-IPV6;
+mp-import:      afi ipv6.unicast from AS286 accept ANY
+mp-export:      afi ipv6.unicast to AS286 announce AS-PHIBEE-TELECOM-IPV6;
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS3257 announce AS-PHIBEE-TELECOM-IPV6;
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-PHIBEE-TELECOM-IPV6;
+mp-import:      afi ipv6.unicast from AS6762 accept ANY
+mp-export:      afi ipv6.unicast to AS6762 announce AS-PHIBEE-TELECOM-IPV6;
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS3257 announce AS-PHIBEE-TELECOM-IPV6;
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-PHIBEE-TELECOM-IPV6;
+mp-import:      afi ipv6.unicast from AS2914 accept ANY
+mp-export:      afi ipv6.unicast to AS2914 announce AS-PHIBEE-TELECOM-IPV6;
+remarks:
+remarks:        =[Customers IPv4]====================================
+import:         from AS-PHIBEE-TELECOM accept ANY
+export:         to AS-PHIBEE-TELECOM announce ANY
+remarks:
+remarks:        =[PEERS]===========================================
+import:         from AS-PHIBEE-TELECOM-FRANCEIX accept AS-PHIBEE-TELECOM-FRANCEIX
+import:         from AS-PHIBEE-TELECOM-EQUINIX accept AS-PHIBEE-TELECOM-EQUINIX
+import:         from AS-PHIBEE-TELECOM-SFINX accept AS-PHIBEE-TELECOM-SFINX
+import:         from AS-PHIBEE-TELECOM-LYONIX accept AS-PHIBEE-TELECOM-LYONIX
+import:         from AS-PHIBEE-TELECOM-TOPIX accept AS-PHIBEE-TELECOM-TOPIX
+import:         from AS-PHIBEE-TELECOM-NLIX accept AS-PHIBEE-TELECOM-NLIX
+import:         from AS-PHIBEE-TELECOM-LINX accept AS-PHIBEE-TELECOM-LINX
+import:         from AS-PHIBEE-TELECOM-DECIX accept AS-PHIBEE-TELECOM-DECIX
+import:         from AS-PHIBEE-TELECOM-AMSIX accept AS-PHIBEE-TELECOM-AMSIX
+export:         to AS-PHIBEE-TELECOM-FRANCEIX announce AS-PHIBEE-TELECOM
+export:         to AS-PHIBEE-TELECOM-EQUINIX announce AS-PHIBEE-TELECOM
+export:         to AS-PHIBEE-TELECOM-SFINX announce AS-PHIBEE-TELECOM
+export:         to AS-PHIBEE-TELECOM-LYONIX announce AS-PHIBEE-TELECOM
+export:         to AS-PHIBEE-TELECOM-TOPIX announce AS-PHIBEE-TELECOM
+export:         to AS-PHIBEE-TELECOM-NLIX announce AS-PHIBEE-TELECOM
+export:         to AS-PHIBEE-TELECOM-LINX announce AS-PHIBEE-TELECOM
+export:         to AS-PHIBEE-TELECOM-DECIX announce AS-PHIBEE-TELECOM
+export:         to AS-PHIBEE-TELECOM-AMSIX announce AS-PHIBEE-TELECOM
+remarks:
+remarks:
+remarks:
+remarks:        =[CONTACTS]========================================
+remarks:        Spam and abuse abuse AT phibee-telecom D0T net
+remarks:        Peering peering AT phibee-telecom D0T net
+remarks:        noc noc AT phibee-telecom D0T net
+remarks:
+remarks:        =[PEERING]=========================================
+remarks:        SFiNX 194.68.129.113
+remarks:        SaintetIX 77.95.71.25
+remarks:        Lyonix 77.95.71.28
+remarks:        Topix 194.116.96.202
+remarks:        France-IX 193.105.232.12
+remarks:        Fr-IX 91.216.67.9
+remarks:        Equinix-PA 195.42.144.56
+remarks:        NL-IX 193.239.116.107
+remarks:        Linx 195.66.227.28
+remarks:        DE-CIX 80.81.192.60
+remarks:        Peering policy: Open
+remarks:
+remarks:        =[PRIVATE PEERS POP]================================
+remarks:        Angers Melissa - FR-ANG01
+remarks:        Bourges Cher Haut Debits - FR-BRG01
+remarks:        Dijon Cogent Communication - FR-DIJ01
+remarks:        Grenoble Cogent Communication - FR-GRE01
+remarks:        Le Mans Sartel - FR-LEM01
+remarks:        Lille - FR-LIL01
+remarks:        Limoges Axione Limousin - FR-LIM01
+remarks:        Lyon Colt Telecom CustomerCage - FR-LYO01
+remarks:        Montpellier Cogent Communication - FR-MON01
+remarks:        Nantes Cogent Communication - FR-NAN01
+remarks:        Nevers Nivertel - FR-NEV01
+remarks:        Paris Telehouse II - FR-PAR01
+remarks:        Paris GlobalSwitch Clichy - FR-PAR02
+remarks:        Paris Telecity III Condorcet - FR-PAR03
+remarks:        Paris Equinix PA2/PA3 - FR-PAR04
+remarks:        Paris Equinix PA4 - FR-PAR05
+remarks:        Paris Interxion 5 - FR-PAR06
+remarks:        Paris Telecity Victor Hugo - FR-PAR07
+remarks:        Paris Telecity Redbus Courbevoie EnergyPark - FR-PAR08
+remarks:        Paris Interxion 1 - FR-PAR09
+remarks:        Paris Interxion 7 - FR-PAR10
+remarks:        Paris Equinix PA1 - FR-PAR11
+remarks:        Paris Netcenter Courbevoie - FR-PAR12
+remarks:        Paris Telehouse I - FR-PAR13
+remarks:        Paris Iliad DC2 - FR-PAR14
+remarks:        Poitiers Cogent Communication - FR-POI01
+remarks:        Rennes Cogent Communication - FR-REN01
+remarks:        Roanne Numeriparc - FR-ROA01
+remarks:        Saint-Etienne Lotim Telecom - FR-STE01
+remarks:        Strasbourg Netcenter - FR-STR01
+remarks:        Toulouse Cogent Communication - FR-TOU01
+remarks:        Tours Cogent Communication - FR-TOR01
+remarks:        Valence ADTim - FR-VAL01
+remarks:        Venissieux Netcenter - FR-VEN01
+remarks:
+remarks:        Amsterdam Interxion - NL-AMS01
+remarks:        Bruxelles Interxion - FR-BRU01
+remarks:        Frankfur Interxion FRA3 - DE-FRA01
+remarks:        London Telehouse East - UK-LON01
+remarks:        Madrid Interxion - ES-MAD01
+remarks:        Madrid GlobalSwitch/Terremark - ES-MAD02
+remarks:        Milan KPNQuest - IT-MIL01
+remarks:        Singapore Equinix - SG-SGP01
+remarks:
+remarks:
+remarks:
+admin-c:        PNC9-RIPE
+tech-c:         PNC13-RIPE
+tech-c:         PNC2-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         PHIBEE
+created:        2002-08-07T09:06:09Z
+last-modified:  2024-04-24T06:33:49Z
+source:         RIPE # Filtered
+
+organisation:   ORG-PS40-RIPE
+org-name:       Phibee Telecom SAS
+country:        FR
+org-type:       LIR
+address:        1415C Route de Comberigol
+address:        42320
+address:        LA GRAND CROIX
+address:        FRANCE
+phone:          +33426847860
+fax-no:         +33426847861
+abuse-c:        AR15335-RIPE
+admin-c:        PNC9-RIPE
+admin-c:        PNC13-RIPE
+mnt-ref:        PHIBEE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PHIBEE
+created:        2007-08-13T10:11:06Z
+last-modified:  2020-12-16T12:44:17Z
+source:         RIPE # Filtered
+
+person:         Phibee - Network Manager
+address:        Phibee Telecom SAS
+address:        Jerome SCHEVINGT
+address:        1415C Route de Comberigol
+address:        42320 LA GRAND CROIX
+address:        FRANCE
+phone:          +33.4.26.84.78.60
+fax-no:         +33.4.26.84.78.61
+remarks:        ====================================
+remarks:        Jerome SCHEVINGT
+remarks:        Network Manager
+remarks:        Phibee & Phibee Telecom
+remarks:        ====================================
+nic-hdl:        PNC13-RIPE
+mnt-by:         PHIBEE
+created:        2007-05-02T04:38:57Z
+last-modified:  2016-02-25T09:09:04Z
+source:         RIPE
+
+person:         Phibee - Noc Admin
+address:        Phibee Telecom SAS
+address:        Xavier MAGNAUDEIX
+address:        1415C Route de Comberigol
+address:        42320 La Grand Croix
+address:        FRANCE
+phone:          +33 4 26 84 78 60
+fax-no:         +33 4 26 84 78 61
+remarks:        ====================================
+remarks:        http://www.phibee-telecom.net
+remarks:        ====================================
+nic-hdl:        PNC2-RIPE
+mnt-by:         PHIBEE
+created:        2002-08-07T09:05:36Z
+last-modified:  2016-12-16T12:58:24Z
+source:         RIPE # Filtered
+
+person:         Phibee - Manager Contact
+address:        Phibee Telecom SAS
+address:        Delphine SCHEVINGT
+address:        1415C Route de Comberigol
+address:        42320 LA GRAND CROIX
+address:        FRANCE
+phone:          +33.4.26.84.78.60
+fax-no:         +33.4.26.84.78.61
+remarks:        ====================================
+remarks:        http://www.phibee.net
+remarks:        ====================================
+nic-hdl:        PNC9-RIPE
+created:        2003-12-06T07:42:29Z
+last-modified:  2016-02-25T09:09:26Z
+source:         RIPE # Filtered
+mnt-by:         PHIBEE
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          78.41.160.0/21
+descr:          FR-PHIBEE-TELECOM
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2010-08-06T14:39:16Z
+last-modified:  2010-08-06T14:40:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          78.41.184.0/21
+descr:          FR-PHIBEE-TELECOM
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2007-08-15T15:23:30Z
+last-modified:  2007-08-15T15:23:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.12.128.0/18
+descr:          Phibee Telecom PA
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2011-05-24T14:31:19Z
+last-modified:  2011-05-24T14:32:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          92.43.128.0/21
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2019-08-23T13:56:33Z
+last-modified:  2019-08-23T13:58:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.41.180.0/22
+descr:          AS8487
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2019-08-23T13:57:07Z
+last-modified:  2019-08-23T13:57:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.98.21.0/24
+descr:          FR-ITMETRIX-PHIBEE
+origin:         AS8487
+mnt-by:         fr-itmetrix-1-mnt
+mnt-by:         mnt-fr-nextvisio-1
+created:        2022-02-11T16:13:41Z
+last-modified:  2022-02-11T16:14:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          185.171.23.0/24
+origin:         AS8487
+mnt-by:         fr-sigmamediterranee-1-mnt
+created:        2024-05-30T08:15:50Z
+last-modified:  2024-05-30T08:15:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.19.216.0/22
+descr:          FR-PHIBEE-TELECOM
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2011-05-25T15:35:04Z
+last-modified:  2011-05-25T15:35:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.42.213.0/24
+descr:          FR-PHIBEE-TELECOM
+origin:         AS8487
+org:            ORG-PS40-RIPE
+notify:         noc@phibee-telecom.net
+mnt-by:         PHIBEE
+created:        2011-05-24T15:58:15Z
+last-modified:  2011-05-26T18:05:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.46.203.0/24
+descr:          FR-PHIBEE-TELECOM
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2011-05-24T15:59:44Z
+last-modified:  2011-05-26T18:04:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.246.101.0/24
+descr:          FR-PHIBEE-TELECOM
+origin:         AS8487
+org:            ORG-PS40-RIPE
+notify:         noc@phibee-telecom.net
+mnt-by:         PHIBEE
+created:        2011-05-24T15:56:57Z
+last-modified:  2011-05-26T18:03:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.62.42.0/23
+descr:          FR-PHIBEE-TELECOM
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2011-05-26T16:44:08Z
+last-modified:  2011-05-26T16:44:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.137.248.0/23
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2021-11-18T07:42:11Z
+last-modified:  2021-11-18T07:42:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:1bf8::/32
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2019-08-23T13:57:42Z
+last-modified:  2019-08-23T13:57:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:c88::/32
+descr:          FR.PHIBEE-TELECOM LIR V6 Range
+origin:         AS8487
+mnt-by:         PHIBEE
+created:        2010-03-09T02:51:39Z
+last-modified:  2010-03-09T02:51:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a07:9980::/29
+descr:          Novacio announced by PHIBEE
+origin:         AS8487
+mnt-by:         NOVACIO-MNT
+mnt-by:         PHIBEE
+created:        2018-07-30T15:50:52Z
+last-modified:  2018-07-30T15:50:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

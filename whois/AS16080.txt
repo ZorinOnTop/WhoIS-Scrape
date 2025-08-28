@@ -1,0 +1,251 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS16059 - AS16213'
+
+as-block:       AS16059 - AS16213
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16080'
+
+% Abuse contact for 'AS16080' is 'abuse@dalenys.com'
+
+aut-num:        AS16080
+as-name:        Dalenys
+org:            ORG-DPS7-RIPE
+remarks:        ========================================================
+remarks:        = Contacts =
+remarks:        ========================================================
+remarks:        Spam and abuse report:
+remarks:        ----------------------
+remarks:        abuse <at> dalenys <dot> com
+remarks:        Operational issues:
+remarks:        -------------------
+remarks:        noc <at> dalenys <dot> com
+remarks:        Peering requests:
+remarks:        -----------------
+remarks:        See below the Peering section
+remarks:        Other issues:
+remarks:        -------------
+remarks:        info <at> dalenys <dot> com
+remarks:        ========================================================
+remarks:        = Communities =
+remarks:        ========================================================
+remarks:        Prefix types:
+remarks:        -------------
+remarks:        16080:1 - Dalenys originated route
+remarks:        16080:100 - Shared peer route (GIXs ...)
+remarks:        16080:101 - Restricted peer route (priv. peering, ...)
+remarks:        16080:110 - Transit customer route
+remarks:        16080:120 - Transit provider route
+remarks:        Prefix region origin:
+remarks:        ----------------------
+remarks:        16080:200 - Europe
+remarks:        16080:201 - North America
+remarks:        Prefix country origin:
+remarks:        ----------------------
+remarks:        16080:300 - France
+remarks:        16080:301 - Netherlands
+remarks:        Prefix datacenter origin:
+remarks:        -------------------------
+remarks:        16080:3000 - TC2PAR - Equinix PA7
+remarks:        16080:3001 - TH2PAR - Telehouse Paris Voltaire
+remarks:        16080:3002 - IL1PAR - Iliad Vitry DC2
+remarks:        16080:3010 - TC5AMS - Equinix AM5
+remarks:        Prefix IXP origin:
+remarks:        ------------------
+remarks:        16080:501 - AMS-IX
+remarks:        16080:510 - Equinix Paris
+remarks:        16080:520 - France-IX Paris
+remarks:        ========================================================
+remarks:        = Transit providers =
+remarks:        ========================================================
+import:         from AS3356 action pref=300; accept ANY
+import:         from AS6453 action pref=300; accept ANY
+import:         from AS3257 action pref=300; accept ANY
+import:         from AS29075 action pref=300; accept ANY
+import:         from AS174 action pref=300; accept ANY
+export:         to AS3356 announce AS-DALENYS
+export:         to AS6453 announce AS-DALENYS
+export:         to AS3257 announce AS-DALENYS
+export:         to AS29075 announce AS-DALENYS
+export:         to AS174 announce AS-DALENYS
+remarks:        ========================================================
+remarks:        = Transit customers =
+remarks:        ========================================================
+import:         from AS34913 action pref=100; accept AS-DALENYS
+remarks:        ========================================================
+remarks:        = Peering =
+remarks:        ========================================================
+remarks:        Peering requests: peering <at> dalenys <dot> com
+remarks:        Information: http://as16080.peeringdb.com
+remarks:        --------------------------------------------------------
+remarks:        IX Speed IP Address Country
+remarks:        --------------------------------------------------------
+remarks:        - AMS-IX 1G 80.249.211.248 NL
+remarks:        - 2001:7f8:1::a501:6080:1
+remarks:        - Equinix PA 1G 195.42.144.90 FR
+remarks:        - 2001:7F8:43::1:6080:1
+remarks:        - France-IX 10G 37.49.237.15 FR
+remarks:        - 2001:7f8:54::52
+remarks:        --------------------------------------------------------
+import:         from AS42 action pref=200; accept AS-PCH
+import:         from AS1200 action pref=200; accept AS-AMS-IX-PEERS
+import:         from AS2483 action pref=200; accept AS-AFNIC
+import:         from AS2486 action pref=200; accept AS-AFNIC
+import:         from AS5524 action pref=200; accept AS-BREEDBANDNEDERLAND
+import:         from AS5580 action pref=200; accept AS-ATRATO
+import:         from AS6661 action pref=200; accept AS-PTLU
+import:         from AS6777 action pref=200; accept ANY
+import:         from AS8365 action pref=200; accept AS-MANDA
+import:         from AS8554 action pref=200; accept AS-TAS
+import:         from AS8560 action pref=200; accept AS-1AND1
+import:         from AS8781 action pref=200; accept AS-QTEL-SET
+import:         from AS12310 action pref=200; accept AS-INES
+import:         from AS13127 action pref=200; accept AS-VERSATEL
+import:         from AS13030 action pref=200; accept AS-INIT7
+import:         from AS15557 action pref=200; accept AS-LDCOMNET
+import:         from AS15422 action pref=200; accept AS-PPR
+import:         from AS15830 action pref=200; accept AS-TELECITYGROUP
+import:         from AS16150 action pref=200; accept AS16150:AS-CUSTOMERS
+import:         from AS16298 action pref=200; accept AS-INTERBOX
+import:         from AS16509 action pref=200; accept AS-AMAZON
+import:         from AS20940 action pref=200; accept AS-AKAMAI
+import:         from AS21409 action pref=200; accept AS-IKOULA
+import:         from AS21502 action pref=200; accept AS-NUMERICABLE
+import:         from AS25593 action pref=200; accept AS-LINKBYNET
+import:         from AS28685 action pref=200; accept AS-ROUTIT
+import:         from AS29169 action pref=200; accept AS-GANDI
+import:         from AS29608 action pref=200; accept AS-W2MY
+import:         from AS33891 action pref=200; accept AS-CORE-BACKBONE
+import:         from AS35574 action pref=200; accept AS-LOTTOMATICA
+import:         from AS34019 action pref=200; accept AS-HIVANE
+import:         from AS34021 action pref=200; accept AS-MULTI-VISP
+import:         from AS34997 action pref=200; accept AS-ALIONIS
+import:         from AS35625 action pref=200; accept AS-ATE AND AS-ATE-CUST
+import:         from AS36408 action pref=200; accept AS-PANTHER
+import:         from AS41692 action pref=200; accept AS-OPENCARRIER
+import:         from AS43646 action pref=200; accept AS-TDFPMM
+import:         from AS44334 action pref=200; accept AS-RTLFR
+import:         from AS44654 action pref=200; accept AS-MNS
+import:         from AS47841 action pref=200; accept AS47841
+import:         from AS49562 action pref=200; accept AS-XMS
+import:         from AS50234 action pref=200; accept AS-EULERIAN
+import:         from AS50858 action pref=200; accept AS-SOLUINFO
+import:         from AS51706 action pref=200; accept ANY
+import:         from AS52075 action pref=200; accept AS-WIFIRST
+export:         to AS16080:AS-PEERS announce AS-DALENYS
+export:         to AS6777 action community .= { 6777:6777, 6777:16276 }; announce AS1200
+remarks:        ========================================================
+admin-c:        DAL105-RIPE
+tech-c:         DAL106-RIPE
+status:         ASSIGNED
+mnt-by:         DALENYS-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-02-07T12:18:07Z
+last-modified:  2019-07-03T11:33:50Z
+source:         RIPE
+
+organisation:   ORG-DPS7-RIPE
+org-name:       Payplug Enterprise SAS
+country:        FR
+org-type:       LIR
+address:        110 Avenue de France
+address:        75013
+address:        Paris
+address:        FRANCE
+phone:          +33176230000
+admin-c:        FD5577-RIPE
+tech-c:         FD5577-RIPE
+abuse-c:        AR43567-RIPE
+mnt-ref:        DALENYS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DALENYS-MNT
+created:        2017-10-24T07:53:28Z
+last-modified:  2024-02-08T12:33:01Z
+source:         RIPE # Filtered
+
+role:           Dalenys Administrative contact
+address:        110 avenue de France
+address:        75013 Paris
+address:        France
+nic-hdl:        DAL105-RIPE
+mnt-by:         DALENYS-MNT
+created:        2017-12-08T16:27:58Z
+last-modified:  2021-01-27T01:04:42Z
+source:         RIPE # Filtered
+
+role:           Dalenys Technical contact
+address:        110 avenue de France
+address:        75013 Paris
+address:        France
+nic-hdl:        DAL106-RIPE
+mnt-by:         DALENYS-MNT
+created:        2017-12-08T16:29:31Z
+last-modified:  2021-01-27T01:05:14Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (BUSA)
+
+
+
+route:          80.70.222.0/23
+descr:          Dalenys
+origin:         AS16080
+mnt-by:         DALENYS-MNT
+created:        2013-12-28T03:44:01Z
+last-modified:  2017-12-11T17:33:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.89.122.0/24
+descr:          Dalenys
+origin:         AS16080
+mnt-by:         DALENYS-MNT
+created:        2015-06-12T14:25:34Z
+last-modified:  2017-12-18T17:04:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a02:d48:bb::/48
+descr:          Dalenys
+origin:         AS16080
+mnt-by:         DALENYS-MNT
+created:        2016-06-02T13:07:51Z
+last-modified:  2017-12-19T13:09:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

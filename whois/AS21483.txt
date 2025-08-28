@@ -1,0 +1,678 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21453 - AS21503'
+
+as-block:       AS21453 - AS21503
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21483'
+
+% Abuse contact for 'AS21483' is 'abuse-b2b@beeline.ru'
+
+aut-num:        AS21483
+as-name:        TEL-AS
+remarks:        == UPLINKS ==
+import:         from AS3216 action pref=100; accept ANY
+export:         to AS3216 announce AS-SOVINTEL-KRSK
+remarks:        == CLIENTS ==
+import:         from AS50443 action pref=100; accept AS50443
+export:         to AS50443 announce AS-SOVINTEL-KRSK
+import:         from AS50787 action pref=100; accept AS50787
+export:         to AS50787 announce AS-SOVINTEL-KRSK
+import:         from AS42895 action pref=100; accept AS42895
+export:         to AS42895 announce AS-SOVINTEL-KRSK
+import:         from AS33991 action pref=100; accept AS33991
+export:         to AS33991 announce AS-SOVINTEL-KRSK
+import:         from AS43154 action pref=100; accept AS43154
+export:         to AS43154 announce AS-SOVINTEL-KRSK
+import:         from AS50725 action pref=100; accept AS50725
+export:         to AS50725 announce AS-SOVINTEL-KRSK
+import:         from AS60980 action pref=100; accept AS60980
+export:         to AS60980 announce AS-SOVINTEL-KRSK
+import:         from AS59525 action pref=100; accept AS59525
+export:         to AS59525 announce AS-SOVINTEL-KRSK
+import:         from AS62233 action pref=100; accept AS62233
+export:         to AS62233 announce AS-SOVINTEL-KRSK
+import:         from AS205720 action pref=100; accept AS205720
+export:         to AS205720 announce AS-SOVINTEL-KRSK
+import:         from AS51536 action pref=100; accept AS51536
+export:         to AS51536 announce AS-SOVINTEL-KRSK
+remarks:        -------------------------------------------------------+
+remarks:        | We are using following communities for our customers:
+remarks:        -------------------------------------------------------+
+remarks:        | 21483:80 Set local preference to 80 (below default)
+remarks:        | 21483:120 Set local preference to 120 (above default)
+remarks:        | 21483:1000 Do not export to UPLINKS
+remarks:        | 21483:1001 Prepend once to UPLINKS
+remarks:        | 21483:1002 Prepend twice to UPLINKS
+remarks:        | 21483:1003 Prepend thrice to UPLINKS
+remarks:        -------------------------------------------------------+
+remarks:        | 21483:3000 Do not export to CUSTOMERS
+remarks:        | 21483:3001 Prepend once to CUSTOMERS
+remarks:        | 21483:3002 Prepend twice to CUSTOMERS
+remarks:        | 21483:3003 Prepend thrice to CUSTOMERS
+remarks:        -------------------------------------------------------+
+remarks:        | 21483:9999 Blackhole (discard) traffic
+remarks:        -------------------------------------------------------
+remarks:
+org:            ORG-ES15-RIPE
+admin-c:        TEL-RIPE
+tech-c:         TEL-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TEL-MNT
+created:        2001-12-28T11:31:29Z
+last-modified:  2018-09-04T09:53:08Z
+source:         RIPE
+
+organisation:   ORG-ES15-RIPE
+org-name:       PJSC "Vimpelcom"
+country:        RU
+org-type:       LIR
+remarks:        VEON Group
+address:        8 Marta str, 10, bld. 14
+address:        127083
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74999233775
+fax-no:         +74957871990
+admin-c:        SVNT1-RIPE
+admin-c:        SVNT2-RIPE
+admin-c:        IAI1-RIPE
+admin-c:        DM3740-RIPE
+admin-c:        BEE15-RIPE
+mnt-ref:        SOVINTEL-MNT
+mnt-ref:        ROSNIIROS-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SOVINTEL-MNT
+abuse-c:        SVNT2-RIPE
+created:        2004-04-17T11:58:43Z
+last-modified:  2022-04-21T15:45:58Z
+source:         RIPE # Filtered
+
+role:           Sovintel Krasnoyarsk branch NOC
+address:        Vzletnaya str, 3
+address:        Krasnoyarsk, Russia
+phone:          +7 (3912) 259 0201
+admin-c:        PNN1-RIPE
+admin-c:        RAC13-RIPE
+admin-c:        SVK39-RIPE
+tech-c:         PNN1-RIPE
+tech-c:         RAC13-RIPE
+tech-c:         SVK39-RIPE
+nic-hdl:        TEL-RIPE
+mnt-by:         TEL-MNT
+remarks:        former SibChallenge Telecom NOC
+remarks:        former TEL NOC
+created:        2006-06-02T02:33:29Z
+last-modified:  2012-07-09T05:56:44Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (DEXTER)
+
+
+
+route:          37.147.64.0/20
+descr:          RU-CORBINA BROADBAND BLOCK URAL TEL-AS
+origin:         AS21483
+mnt-by:         RU-CORBINA-MNT
+notify:         noc@corbina.net
+created:        2012-09-24T05:40:42Z
+last-modified:  2012-09-24T05:40:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.147.80.0/20
+descr:          RU-CORBINA BROADBAND BLOCK URAL TEL-AS
+origin:         AS21483
+mnt-by:         RU-CORBINA-MNT
+notify:         noc@corbina.net
+created:        2012-09-24T05:41:04Z
+last-modified:  2012-09-24T05:41:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          37.147.112.0/20
+descr:          RU-CORBINA BROADBAND BLOCK URAL TEL-AS
+origin:         AS21483
+mnt-by:         RU-CORBINA-MNT
+notify:         noc@corbina.net
+created:        2012-09-24T05:41:41Z
+last-modified:  2012-09-24T05:41:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          78.106.160.0/22
+descr:          RU-CORBINA BROADBAND BLOCK TEL-AS
+descr:          LLC "EDN Sovintel" Krasnoyarsk branch
+origin:         AS21483
+mnt-by:         RU-CORBINA-MNT
+notify:         noc@gldn.net
+notify:         noc@corbina.net
+created:        2010-04-21T09:06:34Z
+last-modified:  2010-04-21T09:06:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          78.106.250.0/23
+descr:          RU-CORBINA BROADBAND BLOCK TEL-AS
+descr:          LLC "EDN Sovintel" Krasnoyarsk branch
+origin:         AS21483
+mnt-by:         RU-CORBINA-MNT
+notify:         noc@gldn.net
+notify:         noc@corbina.net
+created:        2010-04-21T09:06:40Z
+last-modified:  2010-04-21T09:06:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          79.104.192.0/22
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2008-12-18T05:24:55Z
+last-modified:  2008-12-18T05:24:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          79.104.198.0/23
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+notify:         ncc@sovintel.ru
+created:        2009-02-16T13:46:55Z
+last-modified:  2009-02-16T14:13:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          79.104.200.0/22
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2009-01-20T12:30:01Z
+last-modified:  2009-01-20T12:30:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          79.104.216.0/21
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+mnt-by:         SOVINTEL-MNT
+notify:         noc@gldn.net
+created:        2009-03-12T08:01:04Z
+last-modified:  2009-03-12T08:01:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.255.128.0/19
+descr:          RU-SIBINET-20011228
+descr:          ru.sibinet address space
+origin:         AS21483
+notify:         ig@sibinet.ru
+mnt-by:         TEL-MNT
+created:        2003-05-21T01:33:45Z
+last-modified:  2003-05-21T01:33:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.186.106.0/24
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2007-10-16T07:18:13Z
+last-modified:  2007-10-16T07:18:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.186.116.0/22
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         AS3216-MNT
+created:        2006-05-31T06:26:19Z
+last-modified:  2006-05-31T06:26:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.186.235.0/24
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2007-10-16T07:18:14Z
+last-modified:  2007-10-16T07:18:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          194.186.248.0/24
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2008-09-03T10:47:54Z
+last-modified:  2008-09-03T10:47:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.68.161.0/24
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2009-10-28T13:15:25Z
+last-modified:  2009-10-28T13:15:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.218.160.0/22
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2007-08-07T05:31:39Z
+last-modified:  2007-08-07T05:31:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.218.180.0/22
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+mnt-by:         SOVINTEL-MNT
+notify:         noc@gldn.net
+created:        2009-10-26T08:44:23Z
+last-modified:  2009-10-26T08:44:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.218.206.0/23
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+mnt-by:         as3216-mnt
+created:        2007-02-09T09:17:30Z
+last-modified:  2007-02-09T09:17:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.218.206.0/24
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+mnt-by:         as3216-mnt
+created:        2007-02-09T09:40:27Z
+last-modified:  2007-02-09T09:40:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.218.207.0/24
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+mnt-by:         as3216-mnt
+created:        2007-02-09T09:40:28Z
+last-modified:  2007-02-09T09:40:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.222.170.0/23
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@sovintel.ru
+mnt-by:         AS3216-MNT
+created:        2008-03-13T11:16:13Z
+last-modified:  2013-01-17T10:32:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.222.174.0/23
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@sovintel.ru
+mnt-by:         SOVINTEL-MNT
+created:        2008-05-05T08:17:35Z
+last-modified:  2013-01-17T10:33:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.222.176.0/23
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2008-05-05T08:17:35Z
+last-modified:  2008-05-05T08:17:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.222.183.0/24
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         AS3216-MNT
+created:        2008-03-13T11:39:55Z
+last-modified:  2008-03-13T11:39:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.222.184.0/24
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         AS3216-MNT
+created:        2008-03-13T11:39:55Z
+last-modified:  2008-03-13T11:39:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.222.188.0/22
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         AS3216-MNT
+created:        2008-02-15T11:36:09Z
+last-modified:  2008-02-15T11:36:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          195.239.206.0/23
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2006-11-03T08:43:52Z
+last-modified:  2008-12-17T14:21:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.119.232.0/23
+descr:          PJSC VimpelCom
+origin:         AS21483
+notify:         noc@beeline.ru
+mnt-by:         AS3216-MNT
+created:        2022-06-29T09:52:08Z
+last-modified:  2022-06-29T09:52:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.119.247.0/24
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         AS3216-MNT
+created:        2008-03-27T08:55:35Z
+last-modified:  2008-03-27T08:55:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.221.28.0/24
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2009-10-28T13:15:25Z
+last-modified:  2009-10-28T13:15:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.221.35.0/24
+descr:          GOLDEN Telecom, Russia, Moscow
+descr:          Krasnoyarsk branch (SibChallenge) NETS
+origin:         AS21483
+notify:         noc@gldn.net
+mnt-by:         SOVINTEL-MNT
+created:        2007-10-16T07:18:14Z
+last-modified:  2007-10-16T07:18:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+

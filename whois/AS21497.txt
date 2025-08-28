@@ -1,0 +1,3501 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21453 - AS21503'
+
+as-block:       AS21453 - AS21503
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21497'
+
+% Abuse contact for 'AS21497' is 'noc@vodafone.ua'
+
+aut-num:        AS21497
+as-name:        UMC-AS
+remarks:
+remarks:        ===== Uplinks =====
+import:         from AS1273 accept ANY
+import:         from AS1299 accept ANY
+import:         from AS3257 accept ANY
+export:         to AS1273 announce AS-UMC-CUSTOMERS
+export:         to AS1299 announce AS-UMC-CUSTOMERS
+export:         to AS3257 announce AS-UMC-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS1273 accept ANY
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS1273 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS1299 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS3257 announce AS-UMC-CUSTOMERS
+remarks:
+remarks:        ===== IXes =====
+import:         from AS6695 accept AS-DECIX
+import:         from AS15645 accept AS-UAIX
+import:         from AS24115 accept AS-PLIX
+import:         from AS31210 accept AS-DTEL-IX
+import:         from AS50263 accept AS-1-IX-WAW
+import:         from AS50952 accept AS-DATAIX
+export:         to AS6695 announce AS-UMC-CUSTOMERS
+export:         to AS15645 announce AS-UMC-CUSTOMERS
+export:         to AS24115 announce AS-UMC-CUSTOMERS
+export:         to AS31210 announce AS-UMC-CUSTOMERS
+export:         to AS50263 announce AS-UMC-CUSTOMERS
+export:         to AS50952 announce AS-UMC-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-import:      afi ipv6.unicast from AS15645 accept AS-UAIX-v6
+mp-import:      afi ipv6.unicast from AS24115 accept AS-PLIX6
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+mp-import:      afi ipv6.unicast from AS50263 accept AS-1-IX-WAW-V6
+mp-import:      afi ipv6.unicast from AS50952 accept AS-DATAIX
+mp-export:      afi ipv6.unicast to AS6695 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS15645 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS24115 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS31210 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS50263 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS50952 announce AS-UMC-CUSTOMERS
+remarks:
+remarks:        ===== Peerings =====
+import:         from AS3326 accept AS3326:AS-EXT
+import:         from AS6849 accept AS-UKRTELBT
+import:         from AS15169 accept AS-GOOGLE
+import:         from AS32934 accept AS-FACEBOOK
+import:         from AS35320 accept AS-ETT
+import:         from AS39928 accept AS-1PLUS1
+import:         from AS54994 accept AS54994:AS-ALL
+import:         from AS59492 accept AS-MIT27
+import:         from AS60068 accept AS-CDN77
+import:         from AS199524 accept AS-GCORE
+export:         to AS3326 announce AS-UMC-CUSTOMERS
+export:         to AS6849 announce AS-UMC-CUSTOMERS
+export:         to AS15159 announce AS-UMC-CUSTOMERS
+export:         to AS32934 announce AS-UMC-CUSTOMERS
+export:         to AS35320 announce AS-UMC-CUSTOMERS
+export:         to AS39928 announce AS-UMC-CUSTOMERS
+export:         to AS54994 announce AS-UMC-CUSTOMERS
+export:         to AS59492 announce AS-UMC-CUSTOMERS
+export:         to AS60068 announce AS-UMC-CUSTOMERS
+export:         to AS199524 announce AS-UMC-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS3326 accept AS3326:AS-EXT
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-import:      afi ipv6.unicast from AS32934 accept AS-FACEBOOK
+mp-import:      afi ipv6.unicast from AS35320 accept AS-ETT
+mp-import:      afi ipv6.unicast from AS54994 accept AS54994:AS-ALL
+mp-import:      afi ipv6.unicast from AS60068 accept AS-CDN77
+mp-import:      afi ipv6.unicast from AS199524 accept AS-GCORE
+mp-export:      afi ipv6.unicast to AS3326 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS15169 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS32934 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS35320 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS54994 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS60068 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS199524 announce AS-UMC-CUSTOMERS
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        AS21497 filters out inbound prefixes more than /24 specific.
+remarks:        Networks within AS21497:RS-INBOUND-FILTER are filtered from
+remarks:        all BGP peers.
+remarks:        ---------------------------------------------------------------
+remarks:        AS21497 customers are warned that only prefixes specified
+remarks:        exactly in the appropriate RIPE IRR aut-num: AS21497 import
+remarks:        statement will be accepted.
+remarks:        ---------------------------------------------------------------
+remarks:        AS21497 provide customers with ability to influence routing
+remarks:        decision by using the following community attributes for
+remarks:        the bgp prefixes announced to AS21497.
+remarks:
+remarks:        21497:0 - accept and redistribute to uplinks
+remarks:        21497:1 - accept and prepend once 21497
+remarks:        21497:2 - accept and prepend 21497_21497
+remarks:        21497:3 - accept and prepend 21497_21497_21497
+remarks:        21497:9 - accept and do not redistribute to uplinks
+remarks:
+remarks:        21497:10 - accept by AS21497 and redistribute to peers
+remarks:        21497:11 - accept by AS21497, prepend 21497 and redistribute
+remarks:        to peers
+remarks:        21497:12 - accept by AS21497, prepend 21497_21497 and
+remarks:        redistribute to peers
+remarks:        21497:13 - accept by AS21497, prepend 21497_2197_21497 and
+remarks:        redistribute to peers
+remarks:        21497:19 - accept by AS21497 and do not redistribute to peers
+remarks:
+remarks:        Attributes can be used simultaneously.
+remarks:
+remarks:        Prefixes imported without community attributes will be
+remarks:        automaticaly tagged as 21497:0 and 21497:10 on AS21497 side.
+remarks:        ---------------------------------------------------------------
+admin-c:        UMC-RIPE
+tech-c:         UMC-RIPE
+org:            ORG-UMC1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         UMC-MNT
+created:        2002-01-02T16:26:51Z
+last-modified:  2023-07-21T08:37:51Z
+source:         RIPE
+
+organisation:   ORG-UMC1-RIPE
+org-name:       PrJSC "VF UKRAINE"
+country:        UA
+org-type:       LIR
+address:        15, Leiptsigska str.
+address:        01601
+address:        Kyiv
+address:        UKRAINE
+phone:          +380442300257
+fax-no:         +380501107990
+abuse-c:        AR17460-RIPE
+admin-c:        STK-RIPE
+admin-c:        VKH-RIPE
+admin-c:        KP3964-RIPE
+mnt-ref:        UMC-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         UMC-MNT
+created:        2004-04-17T12:10:11Z
+last-modified:  2020-12-16T12:24:25Z
+source:         RIPE # Filtered
+
+role:           UMC NOC
+address:        PrJSC "VF Ukraine"
+address:        Vodafone Ukraine
+address:        49 Peremohy ave.
+address:        Kyiv 03680
+address:        Ukraine
+fax-no:         +380 50 110 7990
+abuse-mailbox:  abuse@vodafone.ua
+admin-c:        STK-RIPE
+tech-c:         STK-RIPE
+tech-c:         AY3237-RIPE
+nic-hdl:        UMC-RIPE
+mnt-by:         UMC-MNT
+created:        2003-01-09T14:55:12Z
+last-modified:  2020-11-18T08:47:04Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (ABERDEEN)
+
+
+
+route:          5.207.0.0/16
+descr:          UMC
+origin:         AS21497
+notify:         noc@mts.com.ua
+mnt-by:         UMC-MNT
+created:        2012-09-05T09:46:45Z
+last-modified:  2012-09-05T09:46:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.207.0.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@mts.com.ua
+mnt-by:         UMC-MNT
+created:        2014-04-07T08:11:49Z
+last-modified:  2014-04-07T08:11:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          5.207.128.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@mts.com.ua
+mnt-by:         UMC-MNT
+created:        2014-04-07T08:11:49Z
+last-modified:  2014-04-07T08:11:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.12.128.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2011-04-15T13:37:03Z
+last-modified:  2011-04-15T13:37:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.12.128.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2011-08-23T14:02:51Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.12.192.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2011-08-23T14:02:51Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          31.144.0.0/16
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2011-02-07T10:58:53Z
+last-modified:  2022-04-14T11:52:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.0.0/17
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2014-04-10T07:13:01Z
+last-modified:  2022-04-14T11:54:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.0.0/18
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-06-20T08:57:29Z
+last-modified:  2022-04-14T11:57:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.0.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2011-03-03T22:10:46Z
+last-modified:  2022-04-14T11:58:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.32.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2011-08-23T14:02:51Z
+last-modified:  2022-04-14T11:59:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.64.0/18
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-06-20T08:57:48Z
+last-modified:  2022-04-14T12:01:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.64.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2011-03-03T22:10:46Z
+last-modified:  2022-04-14T12:02:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.96.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2011-08-23T14:02:51Z
+last-modified:  2022-04-14T12:03:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.128.0/17
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2014-04-10T07:13:01Z
+last-modified:  2022-04-14T11:55:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.128.0/18
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2011-08-23T14:02:51Z
+last-modified:  2022-04-14T12:04:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.128.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:05:27Z
+last-modified:  2022-04-14T12:05:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.160.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:06:09Z
+last-modified:  2022-04-14T12:06:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.192.0/18
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2011-08-23T14:02:51Z
+last-modified:  2022-04-14T12:07:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.192.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:08:23Z
+last-modified:  2022-04-14T12:08:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          31.144.224.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:09:16Z
+last-modified:  2022-04-14T12:09:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.29.128.0/24
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2023-02-07T11:58:26Z
+last-modified:  2023-02-07T11:58:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          46.29.129.0/24
+origin:         AS21497
+created:        2023-02-07T11:59:05Z
+last-modified:  2023-02-07T11:59:05Z
+source:         RIPE
+mnt-by:         VEGA-UA-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          46.29.130.0/24
+origin:         AS21497
+created:        2023-02-07T12:39:00Z
+last-modified:  2023-02-07T12:39:00Z
+source:         RIPE
+mnt-by:         VEGA-UA-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          46.133.0.0/16
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-10-25T07:14:15Z
+last-modified:  2010-10-25T07:14:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.0.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-11-04T12:32:01Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.0.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2017-08-15T15:58:54Z
+last-modified:  2017-08-15T15:58:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.0.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:10Z
+last-modified:  2018-07-12T14:19:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.32.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:11Z
+last-modified:  2018-07-12T14:19:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.64.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2017-08-15T16:03:29Z
+last-modified:  2017-08-15T16:03:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.64.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:13Z
+last-modified:  2018-07-12T14:19:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.96.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:15Z
+last-modified:  2018-07-12T14:19:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.128.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-11-04T12:32:01Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.128.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2017-08-15T16:03:46Z
+last-modified:  2017-08-15T16:03:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.128.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:16Z
+last-modified:  2018-07-12T14:19:16Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.160.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:18Z
+last-modified:  2018-07-12T14:19:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.192.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2017-08-15T16:04:00Z
+last-modified:  2017-08-15T16:04:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.192.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:15:41Z
+last-modified:  2018-07-12T14:15:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          46.133.224.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:15:43Z
+last-modified:  2018-07-12T14:15:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          62.221.38.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-11-19T18:02:55Z
+last-modified:  2024-11-19T18:02:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.221.46.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-11-19T18:03:21Z
+last-modified:  2024-11-19T18:03:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          62.221.48.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-11-19T18:03:42Z
+last-modified:  2024-11-19T18:03:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          77.52.0.0/16
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2007-01-17T13:16:33Z
+last-modified:  2007-01-17T13:16:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.52.0.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2014-04-10T07:13:01Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.52.0.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2008-12-23T21:04:37Z
+last-modified:  2008-12-23T21:04:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.52.64.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-04-30T10:41:22Z
+last-modified:  2010-04-30T10:41:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.52.128.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2014-04-10T07:13:01Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.52.128.0/18
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2019-11-05T13:44:43Z
+last-modified:  2019-11-05T13:44:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.52.192.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2009-02-24T16:44:05Z
+last-modified:  2009-02-24T16:44:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          77.239.160.0/21
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-06-18T04:04:43Z
+last-modified:  2024-06-18T04:04:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          78.111.220.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-10-31T22:13:24Z
+last-modified:  2024-10-31T22:13:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          78.111.222.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-10-31T22:13:57Z
+last-modified:  2024-10-31T22:13:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          80.255.64.0/20
+descr:          UMC INFRA
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2002-01-03T11:51:12Z
+last-modified:  2016-05-25T10:28:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.255.64.0/21
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2014-04-10T07:13:01Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          80.255.72.0/21
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2014-04-10T07:13:01Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          85.114.192.0/19
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-05-31T18:01:09Z
+last-modified:  2024-05-31T18:01:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.114.192.0/21
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-20T03:51:46Z
+last-modified:  2024-09-20T03:51:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          85.114.200.0/21
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-20T03:53:32Z
+last-modified:  2024-09-20T03:53:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          88.214.64.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2006-01-16T14:33:18Z
+last-modified:  2006-01-16T14:33:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.214.64.0/19
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2007-01-04T13:52:34Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          88.214.96.0/19
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2008-03-12T00:28:20Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.0.0/16
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:11:09Z
+last-modified:  2022-04-14T12:11:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.0.0/17
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:12:21Z
+last-modified:  2022-04-14T12:12:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.0.0/18
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:14:25Z
+last-modified:  2022-04-14T12:14:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.0.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:18:02Z
+last-modified:  2022-04-14T12:18:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.32.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:18:48Z
+last-modified:  2022-04-14T12:18:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.64.0/18
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:15:13Z
+last-modified:  2022-04-14T12:15:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.64.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:19:55Z
+last-modified:  2022-04-14T12:19:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.96.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:20:43Z
+last-modified:  2022-04-14T12:20:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.128.0/17
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:13:09Z
+last-modified:  2022-04-14T12:13:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.128.0/18
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:16:19Z
+last-modified:  2022-04-14T12:16:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.128.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:21:48Z
+last-modified:  2022-04-14T12:21:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.160.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:27:00Z
+last-modified:  2022-04-14T12:27:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.192.0/18
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:17:00Z
+last-modified:  2022-04-14T12:17:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.192.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:27:36Z
+last-modified:  2022-04-14T12:27:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          89.209.224.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-14T12:28:13Z
+last-modified:  2022-04-14T12:28:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          93.127.0.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-24T17:13:09Z
+last-modified:  2024-09-24T17:13:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.127.2.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-24T17:13:55Z
+last-modified:  2024-09-24T17:13:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.127.96.0/19
+org:            ORG-FA14-RIPE
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2023-06-19T13:29:01Z
+last-modified:  2023-09-27T07:58:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.127.120.0/21
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-05T09:09:55Z
+last-modified:  2024-09-05T09:09:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.127.120.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-02-06T06:42:31Z
+last-modified:  2025-02-06T06:42:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.127.124.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-02-06T06:42:49Z
+last-modified:  2025-02-06T06:42:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.192.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-06-12T07:05:55Z
+last-modified:  2025-06-12T07:05:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.194.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-06-12T07:22:27Z
+last-modified:  2025-06-12T07:22:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.196.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-06-18T04:13:21Z
+last-modified:  2024-06-18T04:13:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.196.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-01-31T07:38:47Z
+last-modified:  2025-01-31T07:38:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.198.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-01-31T07:40:29Z
+last-modified:  2025-01-31T07:40:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.208.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-06-18T04:13:49Z
+last-modified:  2024-06-18T04:13:49Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.208.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-01-31T07:41:35Z
+last-modified:  2025-01-31T07:41:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.210.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-01-31T07:42:12Z
+last-modified:  2025-01-31T07:42:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.212.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2023-08-23T12:06:32Z
+last-modified:  2023-08-23T12:06:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.224.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-10T10:23:31Z
+last-modified:  2024-09-10T10:23:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.226.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-10T10:24:55Z
+last-modified:  2024-09-10T10:24:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.236.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-10T10:27:29Z
+last-modified:  2024-09-10T10:27:29Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.238.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-10T10:30:22Z
+last-modified:  2024-09-10T10:30:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.240.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-06-12T10:56:13Z
+last-modified:  2025-06-12T10:56:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.242.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2025-06-12T11:03:53Z
+last-modified:  2025-06-12T11:03:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.248.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-27T19:03:05Z
+last-modified:  2024-09-27T19:03:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          93.178.250.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-27T19:03:19Z
+last-modified:  2024-09-27T19:03:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.128.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2008-12-10T14:02:25Z
+last-modified:  2008-12-10T14:02:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.128.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-04-30T10:38:58Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.128.0/19
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2011-03-03T22:10:46Z
+last-modified:  2011-03-03T22:10:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.128.0/20
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-09-03T08:11:44Z
+last-modified:  2010-09-03T08:11:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.128.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:16:42Z
+last-modified:  2025-02-04T07:16:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.132.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:16:42Z
+last-modified:  2025-02-04T07:16:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.136.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:16:42Z
+last-modified:  2025-02-04T07:16:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.140.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:24:52Z
+last-modified:  2025-02-04T07:24:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.144.0/20
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-09-03T08:11:44Z
+last-modified:  2010-09-03T08:11:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.144.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:24:52Z
+last-modified:  2025-02-04T07:24:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.148.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:24:52Z
+last-modified:  2025-02-04T07:24:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.152.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:24:52Z
+last-modified:  2025-02-04T07:24:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.156.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:24:52Z
+last-modified:  2025-02-04T07:24:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.160.0/19
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-09-03T08:17:10Z
+last-modified:  2010-09-03T08:17:10Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.160.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:33:55Z
+last-modified:  2025-02-04T07:33:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.164.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:33:55Z
+last-modified:  2025-02-04T07:33:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.168.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:33:55Z
+last-modified:  2025-02-04T07:33:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.172.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:33:55Z
+last-modified:  2025-02-04T07:33:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.176.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:33:55Z
+last-modified:  2025-02-04T07:33:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.180.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:46:00Z
+last-modified:  2025-02-04T07:46:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.184.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:46:00Z
+last-modified:  2025-02-04T07:46:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.188.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:46:00Z
+last-modified:  2025-02-04T07:46:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.192.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2014-04-10T07:13:01Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.192.0/19
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2009-07-21T08:53:05Z
+last-modified:  2009-07-21T08:53:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.192.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:46:00Z
+last-modified:  2025-02-04T07:46:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.196.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:46:00Z
+last-modified:  2025-02-04T07:46:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.200.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:48:37Z
+last-modified:  2025-02-04T07:48:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.204.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:48:37Z
+last-modified:  2025-02-04T07:48:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.208.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:48:38Z
+last-modified:  2025-02-04T07:48:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.212.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:48:38Z
+last-modified:  2025-02-04T07:48:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.216.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:48:38Z
+last-modified:  2025-02-04T07:48:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.220.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:50:40Z
+last-modified:  2025-02-04T07:50:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.224.0/19
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2011-03-03T22:10:46Z
+last-modified:  2011-03-03T22:10:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.224.0/20
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-09-08T13:09:42Z
+last-modified:  2010-09-08T13:09:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.224.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:50:40Z
+last-modified:  2025-02-04T07:50:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.228.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:50:40Z
+last-modified:  2025-02-04T07:50:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.232.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:50:40Z
+last-modified:  2025-02-04T07:50:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.236.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:50:40Z
+last-modified:  2025-02-04T07:50:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.240.0/20
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-09-08T13:09:42Z
+last-modified:  2010-09-08T13:09:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.240.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:52:35Z
+last-modified:  2025-02-04T07:52:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.244.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:52:35Z
+last-modified:  2025-02-04T07:52:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.248.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:52:35Z
+last-modified:  2025-02-04T07:52:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          95.109.252.0/22
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2025-02-04T07:52:35Z
+last-modified:  2025-02-04T07:52:35Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          128.124.0.0/16
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2011-10-07T11:45:03Z
+last-modified:  2011-10-07T11:45:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.0.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2011-10-13T22:00:08Z
+last-modified:  2014-04-10T07:13:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.0.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2018-06-20T08:58:11Z
+last-modified:  2018-06-20T08:58:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.0.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-20T09:19:13Z
+last-modified:  2022-04-20T09:19:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.32.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-20T09:19:52Z
+last-modified:  2022-04-20T09:19:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.64.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2018-06-20T08:58:23Z
+last-modified:  2018-06-20T08:58:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.64.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-20T09:20:51Z
+last-modified:  2022-04-20T09:20:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.96.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-20T09:21:39Z
+last-modified:  2022-04-20T09:21:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.128.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2012-02-10T13:01:18Z
+last-modified:  2014-04-10T07:13:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.128.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2018-06-20T08:58:33Z
+last-modified:  2018-06-20T08:58:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.128.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-20T09:25:13Z
+last-modified:  2022-04-20T09:25:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.160.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-20T09:26:03Z
+last-modified:  2022-04-20T09:26:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.192.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2018-06-20T08:58:44Z
+last-modified:  2018-06-20T08:58:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.192.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-20T09:29:13Z
+last-modified:  2022-04-20T09:29:13Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          128.124.224.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2022-04-20T09:29:58Z
+last-modified:  2022-04-20T09:29:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.0.0/16
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-03-18T16:13:58Z
+last-modified:  2018-03-23T08:52:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.0.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-04-30T10:38:59Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.0.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2018-03-23T08:52:36Z
+last-modified:  2018-03-23T08:52:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.0.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:11Z
+last-modified:  2018-07-12T14:19:11Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.32.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:12Z
+last-modified:  2018-07-12T14:19:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.64.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2018-03-23T08:52:56Z
+last-modified:  2018-03-23T08:52:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.64.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:14Z
+last-modified:  2018-07-12T14:19:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.96.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:15Z
+last-modified:  2018-07-12T14:19:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.128.0/17
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2010-05-20T14:14:50Z
+last-modified:  2014-04-10T07:13:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.128.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2018-03-23T08:53:21Z
+last-modified:  2018-03-23T08:53:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.128.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:17Z
+last-modified:  2018-07-12T14:19:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.160.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:19:18Z
+last-modified:  2018-07-12T14:19:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.192.0/18
+descr:          UMC
+origin:         AS21497
+notify:         noc@umc.com.ua
+mnt-by:         UMC-MNT
+created:        2018-03-23T08:53:41Z
+last-modified:  2018-03-23T08:53:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.192.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:15:42Z
+last-modified:  2018-07-12T14:15:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.133.224.0/19
+descr:          UMC
+origin:         AS21497
+mnt-by:         UMC-MNT
+created:        2018-07-12T14:13:52Z
+last-modified:  2018-07-12T14:13:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          178.136.32.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-04-24T17:10:21Z
+last-modified:  2024-04-24T17:10:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.40.0/21
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-11-25T12:12:14Z
+last-modified:  2024-11-25T12:12:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.64.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-10-30T18:02:34Z
+last-modified:  2024-10-30T18:02:34Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.66.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-10-30T18:02:54Z
+last-modified:  2024-10-30T18:02:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.68.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-10-31T08:42:07Z
+last-modified:  2024-10-31T08:42:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.70.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-10-31T08:42:33Z
+last-modified:  2024-10-31T08:42:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.72.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-27T19:00:24Z
+last-modified:  2024-09-27T19:00:24Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.74.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-27T19:00:36Z
+last-modified:  2024-09-27T19:00:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.96.0/21
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-10-31T17:51:36Z
+last-modified:  2024-10-31T17:51:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.104.0/21
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-10-31T17:52:23Z
+last-modified:  2024-10-31T17:52:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          178.136.252.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-04-17T11:07:31Z
+last-modified:  2024-04-17T11:07:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.40.32.0/19
+descr:          VF-Ukraine
+origin:         AS21497
+mnt-by:         AS12294-MNT
+created:        2018-05-23T07:04:03Z
+last-modified:  2018-05-23T07:04:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.40.38.0/24
+origin:         AS21497
+mnt-by:         AS12294-MNT
+mnt-by:         UMC-MNT
+created:        2021-03-15T13:42:58Z
+last-modified:  2021-03-15T13:43:33Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          212.86.232.0/21
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-11-19T18:04:02Z
+last-modified:  2024-11-19T18:04:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.130.20.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-03-18T10:47:00Z
+last-modified:  2024-03-18T10:47:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.130.24.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-03-18T10:49:56Z
+last-modified:  2024-03-18T10:49:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          213.186.208.0/20
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-12-05T19:26:14Z
+last-modified:  2024-12-05T19:26:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.24.162.0/23
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-26T14:46:15Z
+last-modified:  2024-09-26T14:46:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.24.164.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-26T14:47:21Z
+last-modified:  2024-09-26T14:47:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.24.168.0/22
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-26T14:48:15Z
+last-modified:  2024-09-26T14:48:15Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.24.172.0/24
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-26T14:50:08Z
+last-modified:  2024-09-26T14:50:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.24.173.0/24
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-26T14:52:14Z
+last-modified:  2024-09-26T14:52:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          217.24.174.0/24
+origin:         AS21497
+mnt-by:         VEGA-UA-MNT
+created:        2024-09-26T14:54:30Z
+last-modified:  2024-09-26T14:54:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route6:         2a00:f50::/30
+descr:          VF Ukraine
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2019-10-04T10:52:50Z
+last-modified:  2019-10-04T10:52:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f50::/32
+descr:          Ukrainian Mobile Communications
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+notify:         noc@mts.com.ua
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2008-11-28T11:07:48Z
+last-modified:  2008-11-28T11:07:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f50:44f0::/48
+descr:          VF UKRAINE
+descr:          Cache_NTO_1_FIEV17-1
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2020-02-19T09:43:03Z
+last-modified:  2020-02-19T09:43:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f50:44f1::/48
+descr:          VF UKRAINE
+descr:          Cache_NTO_2_FIEV17-2
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2020-02-19T09:44:41Z
+last-modified:  2020-02-19T09:44:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f50:45f0::/48
+descr:          VF UKRAINE
+descr:          Cache_ORS_1_FIEV16-1
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2020-02-19T09:45:48Z
+last-modified:  2020-02-19T09:45:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f50:45f1::/48
+descr:          VF UKRAINE
+descr:          Cache_ORS_2_FIEV16-2
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2020-02-19T09:46:55Z
+last-modified:  2020-02-19T09:46:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f50:48f0::/48
+descr:          VF UKRAINE
+descr:          CCache_ODE_1_FODS5-1
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2020-05-29T10:15:01Z
+last-modified:  2020-05-29T10:15:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f50:48f1::/48
+descr:          VF UKRAINE
+descr:          Cache_ODE_2_FODS5-2
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2020-05-29T10:17:51Z
+last-modified:  2020-05-29T10:17:51Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f50:53f0::/48
+descr:          VF UKRAINE
+descr:          Cache_POL_1_FPLV1-1
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2020-05-29T10:19:27Z
+last-modified:  2020-05-29T10:19:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2a00:f50:53f1::/48
+descr:          VF UKRAINE
+descr:          Cache_POL_2_FPLV1-2
+origin:         AS21497
+org:            ORG-UMC1-RIPE
+mnt-lower:      UMC-MNT
+mnt-routes:     UMC-MNT
+mnt-by:         UMC-MNT
+created:        2020-05-29T10:21:53Z
+last-modified:  2020-05-29T10:21:53Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+

@@ -1,0 +1,749 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See https://docs.db.ripe.net/terms-conditions.html
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS2585 - AS2614'
+
+as-block:       AS2585 - AS2614
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:18Z
+last-modified:  2018-11-22T15:27:18Z
+source:         RIPE
+
+% Information related to 'AS2607'
+
+% Abuse contact for 'AS2607' is 'abuse@sanet.sk'
+
+aut-num:        AS2607
+as-name:        SANET
+descr:          Slovak Academic Network
+descr:          Bratislava, Slovakia, SK
+org:            ORG-SAN1-RIPE
+remarks:        ----------------------------------------------
+remarks:        Upstreams:
+remarks:        ----------------------------------------------
+mp-import:      from AS5578 accept ANY
+mp-export:      to AS5578 announce AS-SANET
+mp-import:      from AS20965 accept ANY
+mp-export:      to AS20965 announce AS-SANET
+mp-import:      from AS21320 accept ANY
+mp-export:      to AS21320 announce AS-SANET
+remarks:        ----------------------------------------------
+remarks:        Cross-border NREN peerings:
+remarks:        ----------------------------------------------
+mp-import:      from AS1853 action pref=150; accept AS-ACONET
+mp-import:      from AS1853 accept ANY
+mp-export:      afi ipv4 to AS1853 announce AS-SANET AS-SIXSK-SETS
+mp-export:      afi ipv6 to AS1853 announce AS-SANET AS-SIXSK-SETS-V6
+mp-import:      from AS2852 action pref=150; accept AS2852:AS-CESNET
+mp-import:      from AS2852 accept ANY
+mp-export:      afi ipv4 to AS2852 announce AS-SANET AS-SIXSK-SETS
+mp-export:      afi ipv6 to AS2852 announce AS-SANET AS-SIXSK-SETS-V6
+mp-import:      from AS8501 action pref=150; accept AS-PLNET
+mp-import:      from AS8501 accept ANY
+mp-export:      afi ipv4 to AS8501 announce AS-SANET AS-SIXSK-SETS
+mp-export:      afi ipv6 to AS8501 announce AS-SANET AS-SIXSK-SETS-V6
+remarks:        ----------------------------------------------
+remarks:        Downstreams:
+remarks:        ----------------------------------------------
+mp-import:      from AS1922 accept AS1922
+mp-export:      to AS1922 announce ANY
+mp-import:      from AS30898 accept AS30898
+mp-export:      to AS30898 announce ANY
+remarks:        ----------------------------------------------
+remarks:        Slovak Internet eXchange peerings:
+remarks:        ----------------------------------------------
+mp-import:      from AS-ANY accept ANY
+mp-export:      to AS-ANY announce AS-SANET-SIX
+remarks:        ----------------------------------------------
+admin-c:        NMC6-RIPE
+tech-c:         NMC6-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS2607-MNT
+created:        2001-11-20T14:23:28Z
+last-modified:  2024-06-24T06:14:04Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SAN1-RIPE
+org-name:       Zdruzenie pouzivatelov Slovenskej akademickej datovej siete SANET
+country:        SK
+org-type:       LIR
+address:        Vazovova 5
+address:        811 07
+address:        Bratislava
+address:        SLOVAKIA
+phone:          +421905400010
+admin-c:        EB113-RIPE
+admin-c:        PH893-RIPE
+admin-c:        TW855-RIPE
+admin-c:        MDu-RIPE
+admin-c:        MS3047-RIPE
+abuse-c:        AR17294-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SWDB-SANET
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SWDB-SANET
+created:        2004-04-17T12:06:30Z
+last-modified:  2024-12-04T14:43:58Z
+source:         RIPE # Filtered
+
+role:           CVTSTU NMC
+address:        CVT Slovak Technical University
+address:        Nam. Slobody 17
+address:        812 42 Bratislava
+address:        Slovakia
+phone:          +421 2 571 041 81
+phone:          +421 2 524 51 301
+fax-no:         +421 2 524 94 351
+abuse-mailbox:  nmc@bts.sk
+admin-c:        JuBi-RIPE
+admin-c:        MDu-RIPE
+tech-c:         JuBi-RIPE
+tech-c:         MDu-RIPE
+nic-hdl:        NMC6-RIPE
+mnt-by:         AS2607-MNT
+created:        2001-11-07T18:02:53Z
+last-modified:  2018-11-19T10:20:50Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.118.1 (SHETLAND)
+
+
+
+route:          147.175.0.0/16
+descr:          STUNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:31:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          147.175.0.0/17
+descr:          STUNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T10:53:58Z
+last-modified:  2022-10-10T10:53:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          147.175.128.0/17
+descr:          STUNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T10:54:47Z
+last-modified:  2022-10-10T10:54:47Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          147.213.0.0/16
+descr:          SAV-BA
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:31:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          147.213.0.0/17
+descr:          SAV-BA
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T11:51:40Z
+last-modified:  2022-10-10T11:51:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          147.213.128.0/17
+descr:          SAV-BA
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T11:52:06Z
+last-modified:  2022-10-10T11:52:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          147.232.0.0/16
+descr:          TUKE
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-by:         SWDB-SANET
+created:        1970-01-01T00:00:00Z
+last-modified:  2006-10-24T09:30:58Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          147.232.0.0/17
+descr:          TUKE
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T11:55:55Z
+last-modified:  2022-10-10T11:55:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          147.232.128.0/17
+descr:          TUKE
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T11:57:04Z
+last-modified:  2022-10-10T11:57:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.193.0.0/16
+descr:          VSDSMNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2003-09-08T13:25:39Z
+last-modified:  2003-09-08T13:25:39Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.193.0.0/17
+descr:          UNIZA
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T11:59:52Z
+last-modified:  2022-10-10T11:59:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.193.128.0/17
+descr:          UNIZA
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T12:00:12Z
+last-modified:  2022-10-10T12:00:12Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.195.0.0/16
+descr:          COMUNI-NET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:31:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.195.0.0/17
+descr:          COMUNI-NET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T12:00:48Z
+last-modified:  2022-10-10T12:00:48Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.195.128.0/17
+descr:          COMUNI-NET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T12:01:07Z
+last-modified:  2022-10-10T12:01:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.197.0.0/16
+descr:          UPJSNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:32:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.197.0.0/17
+descr:          UPJSNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T12:02:01Z
+last-modified:  2022-10-10T12:02:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          158.197.128.0/17
+descr:          UPJSNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T12:02:19Z
+last-modified:  2022-10-10T12:02:19Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.128.0/19
+descr:          AS2607-AGGR
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2005-11-16T16:14:30Z
+last-modified:  2005-11-16T16:14:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.130.0/23
+descr:          SANET-AGGR
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T11:03:04Z
+last-modified:  2022-10-10T11:03:04Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.130.0/24
+descr:          COMUNI-NET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-by:         SWDB-SANET
+created:        2012-09-17T14:17:01Z
+last-modified:  2012-09-17T14:17:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.131.0/24
+descr:          UAKOMNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-by:         UAKOM-MNT
+created:        2003-09-08T13:25:41Z
+last-modified:  2003-09-08T13:25:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.132.0/23
+descr:          UMBNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-by:         UAKOM-MNT
+created:        2003-09-08T13:25:42Z
+last-modified:  2003-09-08T13:25:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.132.0/24
+descr:          UMBNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T12:17:05Z
+last-modified:  2022-10-10T12:17:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.133.0/24
+descr:          UMBNET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T12:17:27Z
+last-modified:  2022-10-10T12:17:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.138.0/23
+descr:          SANET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2022-10-10T12:08:32Z
+last-modified:  2022-10-10T12:08:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.138.0/24
+descr:          SANET
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2001-09-22T09:31:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.149.0/24
+descr:          UAKOMBONE
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-by:         UAKOM-MNT
+created:        2003-09-08T13:25:43Z
+last-modified:  2003-09-08T13:25:43Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          192.108.160.0/20
+descr:          AS2607-AGGR
+origin:         AS2607
+mnt-by:         AS2607-MNT
+created:        2005-03-11T14:56:03Z
+last-modified:  2018-09-04T15:42:37Z
+source:         RIPE-NONAUTH
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  not_found # No ROAs found, or RPKI validation not enabled for source
+
+route:          193.87.0.0/16
+descr:          SANET-AS2607-BLOCK
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-by:         SWDB-SANET
+mnt-lower:      AS2607-MNT
+mnt-lower:      SWDB-SANET
+created:        2003-09-09T07:59:46Z
+last-modified:  2003-09-09T09:24:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.87.0.0/17
+descr:          SANET-AS2607-BLOCK
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-lower:      AS2607-MNT
+created:        2022-10-10T12:04:37Z
+last-modified:  2022-10-10T12:04:37Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          193.87.128.0/17
+descr:          SANET-AS2607-BLOCK
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-lower:      AS2607-MNT
+created:        2022-10-10T12:05:32Z
+last-modified:  2022-10-10T12:05:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.160.0.0/16
+descr:          SANET-AS2607-BLOCK
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-by:         SWDB-SANET
+mnt-lower:      AS2607-MNT
+mnt-lower:      SWDB-SANET
+created:        1970-01-01T00:00:00Z
+last-modified:  2003-09-09T09:24:08Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.160.0.0/17
+descr:          SANET-AS2607-BLOCK
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-lower:      AS2607-MNT
+created:        2022-10-10T12:06:38Z
+last-modified:  2022-10-10T12:06:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route:          194.160.128.0/17
+descr:          SANET-AS2607-BLOCK
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-lower:      AS2607-MNT
+created:        2022-10-10T12:07:06Z
+last-modified:  2022-10-10T12:07:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:4118::/32
+descr:          SANET-AS2607-BLOCK
+origin:         AS2607
+mnt-by:         SWDB-SANET
+mnt-by:         AS2607-MNT
+mnt-lower:      SWDB-SANET
+mnt-lower:      AS2607-MNT
+created:        2004-12-30T10:46:36Z
+last-modified:  2004-12-31T09:12:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:4118::/33
+descr:          SANET-AS2607-BLOCK
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-lower:      AS2607-MNT
+created:        2022-10-10T15:43:40Z
+last-modified:  2022-10-10T15:43:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+route6:         2001:4118:8000::/33
+descr:          SANET-AS2607-BLOCK
+origin:         AS2607
+mnt-by:         AS2607-MNT
+mnt-lower:      AS2607-MNT
+created:        2022-10-10T15:45:03Z
+last-modified:  2022-10-10T15:45:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+rpki-ov-state:  valid
+
+
